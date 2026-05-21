@@ -1,4 +1,4 @@
-# LLM Metadata
+# LLM Metadata tan
 
 > 轻量级的 LLM 元数据“静态 API”。线上地址：
 > [GitHub Pages](https://basellm.github.io/llm-metadata/) · [Cloudflare Pages](https://llm-metadata.pages.dev/)
