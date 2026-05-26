@@ -25122,6 +25122,17 @@
     },
     {
       "flags": {
+        "attachment": false,
+        "reasoning": true,
+        "tool_call": true
+      },
+      "id": "qwen3.7-max",
+      "name": "Qwen3.7 Max",
+      "providerId": "llmgateway",
+      "updated": "2026-05-21"
+    },
+    {
+      "flags": {
         "attachment": true,
         "reasoning": true,
         "tool_call": true
@@ -25130,17 +25141,6 @@
       "name": "Qwen3.5 397B-A17B",
       "providerId": "llmgateway",
       "updated": "2026-02-15"
-    },
-    {
-      "flags": {
-        "attachment": false,
-        "reasoning": true,
-        "tool_call": true
-      },
-      "id": "qwen37-max",
-      "name": "Qwen3.7 Max",
-      "providerId": "llmgateway",
-      "updated": "2026-05-21"
     },
     {
       "flags": {
@@ -37068,6 +37068,17 @@
     },
     {
       "flags": {
+        "attachment": false,
+        "reasoning": true,
+        "tool_call": true
+      },
+      "id": "qwen3.7-max",
+      "name": "Qwen3.7 Max",
+      "providerId": "opencode-go",
+      "updated": "2026-05-21"
+    },
+    {
+      "flags": {
         "attachment": true,
         "reasoning": true,
         "tool_call": true
@@ -37481,17 +37492,6 @@
       },
       "id": "arcee-ai/trinity-large-thinking",
       "name": "Trinity Large Thinking",
-      "providerId": "openrouter",
-      "updated": "2026-04-01"
-    },
-    {
-      "flags": {
-        "attachment": false,
-        "reasoning": true,
-        "tool_call": true
-      },
-      "id": "arcee-ai/trinity-large-thinking:free",
-      "name": "Trinity Large Thinking (free)",
       "providerId": "openrouter",
       "updated": "2026-04-01"
     },
@@ -45608,6 +45608,17 @@
         "reasoning": true,
         "tool_call": true
       },
+      "id": "route/mimo-v2.5",
+      "name": "MiMo V2.5",
+      "providerId": "routing-run",
+      "updated": "2026-04-22"
+    },
+    {
+      "flags": {
+        "attachment": true,
+        "reasoning": true,
+        "tool_call": true
+      },
       "id": "route/mimo-v2.5-pro",
       "name": "MiMo V2.5 Pro",
       "providerId": "routing-run",
@@ -45703,12 +45714,23 @@
     },
     {
       "flags": {
-        "attachment": true,
+        "attachment": false,
         "reasoning": false,
         "tool_call": true
       },
       "id": "route/qwen3.6-27b",
       "name": "Qwen3.6 27B",
+      "providerId": "routing-run",
+      "updated": "2026-04-22"
+    },
+    {
+      "flags": {
+        "attachment": false,
+        "reasoning": false,
+        "tool_call": true
+      },
+      "id": "route/qwen3.6-27b-202k",
+      "name": "Qwen3.6 27B 202K",
       "providerId": "routing-run",
       "updated": "2026-04-22"
     },
@@ -53322,7 +53344,7 @@
       "id": "xpersona-frieren-coder",
       "name": "Xpersona Frieren Coder",
       "providerId": "xpersona",
-      "updated": "2026-05-15"
+      "updated": "2026-05-25"
     },
     {
       "flags": {
@@ -55510,7 +55532,7 @@
       "doc": "https://opencode.ai/docs/zen",
       "iconURL": "https://models.dev/logos/opencode-go.svg",
       "id": "opencode-go",
-      "modelCount": 14,
+      "modelCount": 15,
       "name": "OpenCode Go"
     },
     {
@@ -55519,7 +55541,7 @@
       "iconURL": "https://models.dev/logos/openrouter.svg",
       "id": "openrouter",
       "lobeIcon": "OpenRouter.Color",
-      "modelCount": 357,
+      "modelCount": 356,
       "name": "OpenRouter"
     },
     {
@@ -55615,7 +55637,7 @@
       "doc": "https://docs.routing.run/api-reference/models",
       "iconURL": "https://models.dev/logos/routing-run.svg",
       "id": "routing-run",
-      "modelCount": 24,
+      "modelCount": 26,
       "name": "routing.run"
     },
     {
