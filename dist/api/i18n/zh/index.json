@@ -5502,6 +5502,17 @@
         "reasoning": true,
         "tool_call": true
       },
+      "id": "anthropic.claude-opus-4-8",
+      "name": "Claude Opus 4.8",
+      "providerId": "amazon-bedrock",
+      "updated": "2026-05-28"
+    },
+    {
+      "flags": {
+        "attachment": true,
+        "reasoning": true,
+        "tool_call": true
+      },
       "id": "anthropic.claude-sonnet-4-5-20250929-v1:0",
       "name": "Claude Sonnet 4.5",
       "providerId": "amazon-bedrock",
@@ -5539,6 +5550,17 @@
       "name": "AU Anthropic Claude Opus 4.6",
       "providerId": "amazon-bedrock",
       "updated": "2026-02-05"
+    },
+    {
+      "flags": {
+        "attachment": true,
+        "reasoning": true,
+        "tool_call": true
+      },
+      "id": "au.anthropic.claude-opus-4-8",
+      "name": "Claude Opus 4.8 (AU)",
+      "providerId": "amazon-bedrock",
+      "updated": "2026-05-28"
     },
     {
       "flags": {
@@ -5645,6 +5667,17 @@
         "reasoning": true,
         "tool_call": true
       },
+      "id": "eu.anthropic.claude-opus-4-8",
+      "name": "Claude Opus 4.8 (EU)",
+      "providerId": "amazon-bedrock",
+      "updated": "2026-05-28"
+    },
+    {
+      "flags": {
+        "attachment": true,
+        "reasoning": true,
+        "tool_call": true
+      },
       "id": "eu.anthropic.claude-sonnet-4-5-20250929-v1:0",
       "name": "Claude Sonnet 4.5 (EU)",
       "providerId": "amazon-bedrock",
@@ -5711,6 +5744,17 @@
         "reasoning": true,
         "tool_call": true
       },
+      "id": "global.anthropic.claude-opus-4-8",
+      "name": "Claude Opus 4.8 (Global)",
+      "providerId": "amazon-bedrock",
+      "updated": "2026-05-28"
+    },
+    {
+      "flags": {
+        "attachment": true,
+        "reasoning": true,
+        "tool_call": true
+      },
       "id": "global.anthropic.claude-sonnet-4-5-20250929-v1:0",
       "name": "Claude Sonnet 4.5 (Global)",
       "providerId": "amazon-bedrock",
@@ -5770,6 +5814,17 @@
       "name": "Claude Opus 4.7 (JP)",
       "providerId": "amazon-bedrock",
       "updated": "2026-04-16"
+    },
+    {
+      "flags": {
+        "attachment": true,
+        "reasoning": true,
+        "tool_call": true
+      },
+      "id": "jp.anthropic.claude-opus-4-8",
+      "name": "Claude Opus 4.8 (JP)",
+      "providerId": "amazon-bedrock",
+      "updated": "2026-05-28"
     },
     {
       "flags": {
@@ -6228,6 +6283,17 @@
         "reasoning": true,
         "tool_call": true
       },
+      "id": "us.anthropic.claude-opus-4-8",
+      "name": "Claude Opus 4.8 (US)",
+      "providerId": "amazon-bedrock",
+      "updated": "2026-05-28"
+    },
+    {
+      "flags": {
+        "attachment": true,
+        "reasoning": true,
+        "tool_call": true
+      },
       "id": "us.anthropic.claude-sonnet-4-5-20250929-v1:0",
       "name": "Claude Sonnet 4.5 (US)",
       "providerId": "amazon-bedrock",
@@ -6551,6 +6617,17 @@
       "name": "Claude Opus 4.7",
       "providerId": "anthropic",
       "updated": "2026-04-16"
+    },
+    {
+      "flags": {
+        "attachment": true,
+        "reasoning": true,
+        "tool_call": true
+      },
+      "id": "claude-opus-4-8",
+      "name": "Claude Opus 4.8",
+      "providerId": "anthropic",
+      "updated": "2026-05-28"
     },
     {
       "flags": {
@@ -15545,6 +15622,17 @@
         "reasoning": true,
         "tool_call": true
       },
+      "id": "duo-chat-opus-4-8",
+      "name": "Agentic Chat (Claude Opus 4.8)",
+      "providerId": "gitlab",
+      "updated": "2026-05-28"
+    },
+    {
+      "flags": {
+        "attachment": true,
+        "reasoning": true,
+        "tool_call": true
+      },
       "id": "duo-chat-sonnet-4-5",
       "name": "Agentic Chat (Claude Sonnet 4.5)",
       "providerId": "gitlab",
@@ -15974,6 +16062,17 @@
         "reasoning": true,
         "tool_call": true
       },
+      "id": "claude-opus-4-8@default",
+      "name": "Claude Opus 4.8",
+      "providerId": "google-vertex",
+      "updated": "2026-05-28"
+    },
+    {
+      "flags": {
+        "attachment": true,
+        "reasoning": true,
+        "tool_call": true
+      },
       "id": "claude-opus-4@20250514",
       "name": "Claude Opus 4",
       "providerId": "google-vertex",
@@ -16396,6 +16495,17 @@
       "name": "Claude Opus 4.7",
       "providerId": "google-vertex-anthropic",
       "updated": "2026-04-16"
+    },
+    {
+      "flags": {
+        "attachment": true,
+        "reasoning": true,
+        "tool_call": true
+      },
+      "id": "claude-opus-4-8@default",
+      "name": "Claude Opus 4.8",
+      "providerId": "google-vertex-anthropic",
+      "updated": "2026-05-28"
     },
     {
       "flags": {
@@ -23311,6 +23421,17 @@
         "reasoning": true,
         "tool_call": true
       },
+      "id": "claude-opus-4-8",
+      "name": "Claude Opus 4.8",
+      "providerId": "llmgateway",
+      "updated": "2026-05-28"
+    },
+    {
+      "flags": {
+        "attachment": true,
+        "reasoning": true,
+        "tool_call": true
+      },
       "id": "claude-sonnet-4-20250514",
       "name": "Claude Sonnet 4",
       "providerId": "llmgateway",
@@ -25493,6 +25614,919 @@
       "name": "GLM-5",
       "providerId": "meganova",
       "updated": "2026-02-11"
+    },
+    {
+      "flags": {
+        "attachment": true,
+        "reasoning": true,
+        "tool_call": true
+      },
+      "id": "anthropic/claude-haiku-4-5-20251001",
+      "name": "Claude Haiku 4.5",
+      "providerId": "merge-gateway",
+      "updated": "2025-10-15"
+    },
+    {
+      "flags": {
+        "attachment": true,
+        "reasoning": true,
+        "tool_call": true
+      },
+      "id": "anthropic/claude-opus-4-1-20250805",
+      "name": "Claude Opus 4.1",
+      "providerId": "merge-gateway",
+      "updated": "2025-08-05"
+    },
+    {
+      "flags": {
+        "attachment": true,
+        "reasoning": true,
+        "tool_call": true
+      },
+      "id": "anthropic/claude-opus-4-20250514",
+      "name": "Claude Opus 4",
+      "providerId": "merge-gateway",
+      "updated": "2025-05-22"
+    },
+    {
+      "flags": {
+        "attachment": true,
+        "reasoning": true,
+        "tool_call": true
+      },
+      "id": "anthropic/claude-opus-4-5-20251101",
+      "name": "Claude Opus 4.5",
+      "providerId": "merge-gateway",
+      "updated": "2025-11-01"
+    },
+    {
+      "flags": {
+        "attachment": true,
+        "reasoning": true,
+        "tool_call": true
+      },
+      "id": "anthropic/claude-opus-4-6",
+      "name": "Claude Opus 4.6",
+      "providerId": "merge-gateway",
+      "updated": "2026-03-13"
+    },
+    {
+      "flags": {
+        "attachment": true,
+        "reasoning": true,
+        "tool_call": true
+      },
+      "id": "anthropic/claude-opus-4-7",
+      "name": "Claude Opus 4.7",
+      "providerId": "merge-gateway",
+      "updated": "2026-04-16"
+    },
+    {
+      "flags": {
+        "attachment": true,
+        "reasoning": true,
+        "tool_call": true
+      },
+      "id": "anthropic/claude-sonnet-4-20250514",
+      "name": "Claude Sonnet 4",
+      "providerId": "merge-gateway",
+      "updated": "2025-05-22"
+    },
+    {
+      "flags": {
+        "attachment": true,
+        "reasoning": true,
+        "tool_call": true
+      },
+      "id": "anthropic/claude-sonnet-4-5-20250929",
+      "name": "Claude Sonnet 4.5",
+      "providerId": "merge-gateway",
+      "updated": "2025-09-29"
+    },
+    {
+      "flags": {
+        "attachment": true,
+        "reasoning": true,
+        "tool_call": true
+      },
+      "id": "anthropic/claude-sonnet-4-6",
+      "name": "Claude Sonnet 4.6",
+      "providerId": "merge-gateway",
+      "updated": "2026-03-13"
+    },
+    {
+      "flags": {
+        "attachment": false,
+        "reasoning": false,
+        "tool_call": true
+      },
+      "id": "cohere/command-a-03-2025",
+      "name": "Command A",
+      "providerId": "merge-gateway",
+      "updated": "2025-03-13"
+    },
+    {
+      "flags": {
+        "attachment": false,
+        "reasoning": false,
+        "tool_call": true
+      },
+      "id": "cohere/command-r-08-2024",
+      "name": "Command R",
+      "providerId": "merge-gateway",
+      "updated": "2024-08-30"
+    },
+    {
+      "flags": {
+        "attachment": false,
+        "reasoning": false,
+        "tool_call": true
+      },
+      "id": "cohere/command-r-plus-08-2024",
+      "name": "Command R+",
+      "providerId": "merge-gateway",
+      "updated": "2024-08-30"
+    },
+    {
+      "flags": {
+        "attachment": false,
+        "reasoning": false,
+        "tool_call": true
+      },
+      "id": "cohere/command-r7b-12-2024",
+      "name": "Command R7B",
+      "providerId": "merge-gateway",
+      "updated": "2024-02-27"
+    },
+    {
+      "flags": {
+        "attachment": false,
+        "reasoning": true,
+        "tool_call": true
+      },
+      "id": "deepseek/deepseek-v4-flash",
+      "name": "DeepSeek V4 Flash",
+      "providerId": "merge-gateway",
+      "updated": "2026-04-24"
+    },
+    {
+      "flags": {
+        "attachment": false,
+        "reasoning": true,
+        "tool_call": true
+      },
+      "id": "deepseek/deepseek-v4-pro",
+      "name": "DeepSeek V4 Pro",
+      "providerId": "merge-gateway",
+      "updated": "2026-04-24"
+    },
+    {
+      "flags": {
+        "attachment": true,
+        "reasoning": true,
+        "tool_call": true
+      },
+      "id": "google/gemini-2.5-flash",
+      "name": "Gemini 2.5 Flash",
+      "providerId": "merge-gateway",
+      "updated": "2025-06-05"
+    },
+    {
+      "flags": {
+        "attachment": true,
+        "reasoning": true,
+        "tool_call": true
+      },
+      "id": "google/gemini-2.5-flash-lite",
+      "name": "Gemini 2.5 Flash-Lite",
+      "providerId": "merge-gateway",
+      "updated": "2025-06-17"
+    },
+    {
+      "flags": {
+        "attachment": true,
+        "reasoning": true,
+        "tool_call": true
+      },
+      "id": "google/gemini-2.5-pro",
+      "name": "Gemini 2.5 Pro",
+      "providerId": "merge-gateway",
+      "updated": "2025-06-05"
+    },
+    {
+      "flags": {
+        "attachment": true,
+        "reasoning": true,
+        "tool_call": true
+      },
+      "id": "google/gemini-3-flash-preview",
+      "name": "Gemini 3 Flash Preview",
+      "providerId": "merge-gateway",
+      "updated": "2025-12-17"
+    },
+    {
+      "flags": {
+        "attachment": true,
+        "reasoning": true,
+        "tool_call": true
+      },
+      "id": "google/gemini-3-pro-preview",
+      "name": "Gemini 3 Pro Preview",
+      "providerId": "merge-gateway",
+      "updated": "2025-11-18"
+    },
+    {
+      "flags": {
+        "attachment": true,
+        "reasoning": true,
+        "tool_call": true
+      },
+      "id": "google/gemini-3.1-flash-lite",
+      "name": "Gemini 3.1 Flash Lite",
+      "providerId": "merge-gateway",
+      "updated": "2026-05-07"
+    },
+    {
+      "flags": {
+        "attachment": true,
+        "reasoning": true,
+        "tool_call": true
+      },
+      "id": "google/gemini-3.1-flash-lite-preview",
+      "name": "Gemini 3.1 Flash Lite Preview",
+      "providerId": "merge-gateway",
+      "updated": "2026-03-03"
+    },
+    {
+      "flags": {
+        "attachment": true,
+        "reasoning": true,
+        "tool_call": true
+      },
+      "id": "google/gemini-3.1-pro-preview",
+      "name": "Gemini 3.1 Pro Preview",
+      "providerId": "merge-gateway",
+      "updated": "2026-02-19"
+    },
+    {
+      "flags": {
+        "attachment": true,
+        "reasoning": true,
+        "tool_call": true
+      },
+      "id": "google/gemini-3.1-pro-preview-customtools",
+      "name": "Gemini 3.1 Pro Preview Custom Tools",
+      "providerId": "merge-gateway",
+      "updated": "2026-02-19"
+    },
+    {
+      "flags": {
+        "attachment": true,
+        "reasoning": true,
+        "tool_call": true
+      },
+      "id": "google/gemini-3.5-flash",
+      "name": "Gemini 3.5 Flash",
+      "providerId": "merge-gateway",
+      "updated": "2026-05-19"
+    },
+    {
+      "flags": {
+        "attachment": true,
+        "reasoning": true,
+        "tool_call": true
+      },
+      "id": "google/gemini-flash-latest",
+      "name": "Gemini Flash Latest",
+      "providerId": "merge-gateway",
+      "updated": "2025-09-25"
+    },
+    {
+      "flags": {
+        "attachment": true,
+        "reasoning": true,
+        "tool_call": true
+      },
+      "id": "google/gemini-flash-lite-latest",
+      "name": "Gemini Flash-Lite Latest",
+      "providerId": "merge-gateway",
+      "updated": "2025-09-25"
+    },
+    {
+      "flags": {
+        "attachment": true,
+        "reasoning": true,
+        "tool_call": true
+      },
+      "id": "google/gemma-4-26b-a4b-it",
+      "name": "Gemma 4 26B A4B IT",
+      "providerId": "merge-gateway",
+      "updated": "2026-04-02"
+    },
+    {
+      "flags": {
+        "attachment": true,
+        "reasoning": true,
+        "tool_call": true
+      },
+      "id": "google/gemma-4-31b-it",
+      "name": "Gemma 4 31B IT",
+      "providerId": "merge-gateway",
+      "updated": "2026-04-02"
+    },
+    {
+      "flags": {
+        "attachment": false,
+        "reasoning": true,
+        "tool_call": true
+      },
+      "id": "minimax/minimax-m2",
+      "name": "MiniMax-M2",
+      "providerId": "merge-gateway",
+      "updated": "2025-10-27"
+    },
+    {
+      "flags": {
+        "attachment": false,
+        "reasoning": true,
+        "tool_call": true
+      },
+      "id": "minimax/minimax-m2.1",
+      "name": "MiniMax-M2.1",
+      "providerId": "merge-gateway",
+      "updated": "2025-12-23"
+    },
+    {
+      "flags": {
+        "attachment": false,
+        "reasoning": true,
+        "tool_call": true
+      },
+      "id": "minimax/minimax-m2.5",
+      "name": "MiniMax-M2.5",
+      "providerId": "merge-gateway",
+      "updated": "2026-02-12"
+    },
+    {
+      "flags": {
+        "attachment": false,
+        "reasoning": true,
+        "tool_call": true
+      },
+      "id": "minimax/minimax-m2.5-highspeed",
+      "name": "MiniMax-M2.5-highspeed",
+      "providerId": "merge-gateway",
+      "updated": "2026-02-13"
+    },
+    {
+      "flags": {
+        "attachment": false,
+        "reasoning": true,
+        "tool_call": true
+      },
+      "id": "minimax/minimax-m2.7",
+      "name": "MiniMax-M2.7",
+      "providerId": "merge-gateway",
+      "updated": "2026-03-18"
+    },
+    {
+      "flags": {
+        "attachment": false,
+        "reasoning": true,
+        "tool_call": true
+      },
+      "id": "minimax/minimax-m2.7-highspeed",
+      "name": "MiniMax-M2.7-highspeed",
+      "providerId": "merge-gateway",
+      "updated": "2026-03-18"
+    },
+    {
+      "flags": {
+        "attachment": false,
+        "reasoning": false,
+        "tool_call": true
+      },
+      "id": "mistral/codestral-latest",
+      "name": "Codestral (latest)",
+      "providerId": "merge-gateway",
+      "updated": "2025-01-04"
+    },
+    {
+      "flags": {
+        "attachment": false,
+        "reasoning": false,
+        "tool_call": true
+      },
+      "id": "mistral/devstral-2512",
+      "name": "Devstral 2",
+      "providerId": "merge-gateway",
+      "updated": "2025-12-09"
+    },
+    {
+      "flags": {
+        "attachment": false,
+        "reasoning": false,
+        "tool_call": true
+      },
+      "id": "mistral/devstral-medium-2507",
+      "name": "Devstral Medium",
+      "providerId": "merge-gateway",
+      "updated": "2025-07-10"
+    },
+    {
+      "flags": {
+        "attachment": false,
+        "reasoning": false,
+        "tool_call": true
+      },
+      "id": "mistral/devstral-medium-latest",
+      "name": "Devstral 2 (latest)",
+      "providerId": "merge-gateway",
+      "updated": "2025-12-02"
+    },
+    {
+      "flags": {
+        "attachment": false,
+        "reasoning": false,
+        "tool_call": true
+      },
+      "id": "mistral/devstral-small-2507",
+      "name": "Devstral Small",
+      "providerId": "merge-gateway",
+      "updated": "2025-07-10"
+    },
+    {
+      "flags": {
+        "attachment": false,
+        "reasoning": true,
+        "tool_call": true
+      },
+      "id": "mistral/magistral-medium-latest",
+      "name": "Magistral Medium (latest)",
+      "providerId": "merge-gateway",
+      "updated": "2025-03-20"
+    },
+    {
+      "flags": {
+        "attachment": false,
+        "reasoning": false,
+        "tool_call": true
+      },
+      "id": "mistral/mistral-large-2411",
+      "name": "Mistral Large 2.1",
+      "providerId": "merge-gateway",
+      "updated": "2024-11-04"
+    },
+    {
+      "flags": {
+        "attachment": true,
+        "reasoning": false,
+        "tool_call": true
+      },
+      "id": "mistral/mistral-large-2512",
+      "name": "Mistral Large 3",
+      "providerId": "merge-gateway",
+      "updated": "2025-12-02"
+    },
+    {
+      "flags": {
+        "attachment": true,
+        "reasoning": false,
+        "tool_call": true
+      },
+      "id": "mistral/mistral-large-latest",
+      "name": "Mistral Large (latest)",
+      "providerId": "merge-gateway",
+      "updated": "2025-12-02"
+    },
+    {
+      "flags": {
+        "attachment": true,
+        "reasoning": false,
+        "tool_call": true
+      },
+      "id": "mistral/mistral-medium-2505",
+      "name": "Mistral Medium 3",
+      "providerId": "merge-gateway",
+      "updated": "2025-05-07"
+    },
+    {
+      "flags": {
+        "attachment": true,
+        "reasoning": true,
+        "tool_call": true
+      },
+      "id": "mistral/mistral-medium-latest",
+      "name": "Mistral Medium (latest)",
+      "providerId": "merge-gateway",
+      "updated": "2026-04-29"
+    },
+    {
+      "flags": {
+        "attachment": true,
+        "reasoning": true,
+        "tool_call": true
+      },
+      "id": "mistral/mistral-small-latest",
+      "name": "Mistral Small (latest)",
+      "providerId": "merge-gateway",
+      "updated": "2026-03-16"
+    },
+    {
+      "flags": {
+        "attachment": true,
+        "reasoning": false,
+        "tool_call": true
+      },
+      "id": "mistral/pixtral-large-latest",
+      "name": "Pixtral Large (latest)",
+      "providerId": "merge-gateway",
+      "updated": "2024-11-04"
+    },
+    {
+      "flags": {
+        "attachment": true,
+        "reasoning": false,
+        "tool_call": true
+      },
+      "id": "openai/gpt-4.1",
+      "name": "GPT-4.1",
+      "providerId": "merge-gateway",
+      "updated": "2025-04-14"
+    },
+    {
+      "flags": {
+        "attachment": true,
+        "reasoning": false,
+        "tool_call": true
+      },
+      "id": "openai/gpt-4.1-mini",
+      "name": "GPT-4.1 mini",
+      "providerId": "merge-gateway",
+      "updated": "2025-04-14"
+    },
+    {
+      "flags": {
+        "attachment": true,
+        "reasoning": false,
+        "tool_call": true
+      },
+      "id": "openai/gpt-4.1-nano",
+      "name": "GPT-4.1 nano",
+      "providerId": "merge-gateway",
+      "updated": "2025-04-14"
+    },
+    {
+      "flags": {
+        "attachment": true,
+        "reasoning": false,
+        "tool_call": true
+      },
+      "id": "openai/gpt-4o",
+      "name": "GPT-4o",
+      "providerId": "merge-gateway",
+      "updated": "2024-08-06"
+    },
+    {
+      "flags": {
+        "attachment": true,
+        "reasoning": false,
+        "tool_call": true
+      },
+      "id": "openai/gpt-4o-2024-05-13",
+      "name": "GPT-4o (2024-05-13)",
+      "providerId": "merge-gateway",
+      "updated": "2024-05-13"
+    },
+    {
+      "flags": {
+        "attachment": true,
+        "reasoning": false,
+        "tool_call": true
+      },
+      "id": "openai/gpt-4o-2024-08-06",
+      "name": "GPT-4o (2024-08-06)",
+      "providerId": "merge-gateway",
+      "updated": "2024-08-06"
+    },
+    {
+      "flags": {
+        "attachment": true,
+        "reasoning": false,
+        "tool_call": true
+      },
+      "id": "openai/gpt-4o-2024-11-20",
+      "name": "GPT-4o (2024-11-20)",
+      "providerId": "merge-gateway",
+      "updated": "2024-11-20"
+    },
+    {
+      "flags": {
+        "attachment": true,
+        "reasoning": false,
+        "tool_call": true
+      },
+      "id": "openai/gpt-4o-mini",
+      "name": "GPT-4o mini",
+      "providerId": "merge-gateway",
+      "updated": "2024-07-18"
+    },
+    {
+      "flags": {
+        "attachment": true,
+        "reasoning": true,
+        "tool_call": true
+      },
+      "id": "openai/gpt-5",
+      "name": "GPT-5",
+      "providerId": "merge-gateway",
+      "updated": "2025-08-07"
+    },
+    {
+      "flags": {
+        "attachment": true,
+        "reasoning": true,
+        "tool_call": false
+      },
+      "id": "openai/gpt-5-chat-latest",
+      "name": "GPT-5 Chat (latest)",
+      "providerId": "merge-gateway",
+      "updated": "2025-08-07"
+    },
+    {
+      "flags": {
+        "attachment": true,
+        "reasoning": true,
+        "tool_call": true
+      },
+      "id": "openai/gpt-5-mini",
+      "name": "GPT-5 Mini",
+      "providerId": "merge-gateway",
+      "updated": "2025-08-07"
+    },
+    {
+      "flags": {
+        "attachment": true,
+        "reasoning": true,
+        "tool_call": true
+      },
+      "id": "openai/gpt-5-nano",
+      "name": "GPT-5 Nano",
+      "providerId": "merge-gateway",
+      "updated": "2025-08-07"
+    },
+    {
+      "flags": {
+        "attachment": true,
+        "reasoning": true,
+        "tool_call": true
+      },
+      "id": "openai/gpt-5.1",
+      "name": "GPT-5.1",
+      "providerId": "merge-gateway",
+      "updated": "2025-11-13"
+    },
+    {
+      "flags": {
+        "attachment": true,
+        "reasoning": true,
+        "tool_call": true
+      },
+      "id": "openai/gpt-5.1-chat-latest",
+      "name": "GPT-5.1 Chat",
+      "providerId": "merge-gateway",
+      "updated": "2025-11-13"
+    },
+    {
+      "flags": {
+        "attachment": true,
+        "reasoning": true,
+        "tool_call": true
+      },
+      "id": "openai/gpt-5.2",
+      "name": "GPT-5.2",
+      "providerId": "merge-gateway",
+      "updated": "2025-12-11"
+    },
+    {
+      "flags": {
+        "attachment": true,
+        "reasoning": true,
+        "tool_call": true
+      },
+      "id": "openai/gpt-5.2-chat-latest",
+      "name": "GPT-5.2 Chat",
+      "providerId": "merge-gateway",
+      "updated": "2025-12-11"
+    },
+    {
+      "flags": {
+        "attachment": true,
+        "reasoning": false,
+        "tool_call": true
+      },
+      "id": "openai/gpt-5.3-chat-latest",
+      "name": "GPT-5.3 Chat (latest)",
+      "providerId": "merge-gateway",
+      "updated": "2026-03-03"
+    },
+    {
+      "flags": {
+        "attachment": true,
+        "reasoning": true,
+        "tool_call": true
+      },
+      "id": "openai/gpt-5.4",
+      "name": "GPT-5.4",
+      "providerId": "merge-gateway",
+      "updated": "2026-03-05"
+    },
+    {
+      "flags": {
+        "attachment": true,
+        "reasoning": true,
+        "tool_call": true
+      },
+      "id": "openai/gpt-5.4-mini",
+      "name": "GPT-5.4 mini",
+      "providerId": "merge-gateway",
+      "updated": "2026-03-17"
+    },
+    {
+      "flags": {
+        "attachment": true,
+        "reasoning": true,
+        "tool_call": true
+      },
+      "id": "openai/gpt-5.4-nano",
+      "name": "GPT-5.4 nano",
+      "providerId": "merge-gateway",
+      "updated": "2026-03-17"
+    },
+    {
+      "flags": {
+        "attachment": true,
+        "reasoning": true,
+        "tool_call": true
+      },
+      "id": "openai/gpt-5.5",
+      "name": "GPT-5.5",
+      "providerId": "merge-gateway",
+      "updated": "2026-04-23"
+    },
+    {
+      "flags": {
+        "attachment": true,
+        "reasoning": true,
+        "tool_call": true
+      },
+      "id": "openai/o1",
+      "name": "o1",
+      "providerId": "merge-gateway",
+      "updated": "2024-12-05"
+    },
+    {
+      "flags": {
+        "attachment": true,
+        "reasoning": true,
+        "tool_call": true
+      },
+      "id": "openai/o3",
+      "name": "o3",
+      "providerId": "merge-gateway",
+      "updated": "2025-04-16"
+    },
+    {
+      "flags": {
+        "attachment": false,
+        "reasoning": true,
+        "tool_call": true
+      },
+      "id": "openai/o3-mini",
+      "name": "o3-mini",
+      "providerId": "merge-gateway",
+      "updated": "2025-01-29"
+    },
+    {
+      "flags": {
+        "attachment": true,
+        "reasoning": true,
+        "tool_call": true
+      },
+      "id": "openai/o4-mini",
+      "name": "o4-mini",
+      "providerId": "merge-gateway",
+      "updated": "2025-04-16"
+    },
+    {
+      "flags": {
+        "attachment": true,
+        "reasoning": true,
+        "tool_call": true
+      },
+      "id": "xai/grok-4.20-0309-reasoning",
+      "name": "Grok 4.20 (Reasoning)",
+      "providerId": "merge-gateway",
+      "updated": "2026-03-09"
+    },
+    {
+      "flags": {
+        "attachment": true,
+        "reasoning": true,
+        "tool_call": true
+      },
+      "id": "xai/grok-4.3",
+      "name": "Grok 4.3",
+      "providerId": "merge-gateway",
+      "updated": "2026-04-17"
+    },
+    {
+      "flags": {
+        "attachment": false,
+        "reasoning": true,
+        "tool_call": true
+      },
+      "id": "zai/glm-4.5",
+      "name": "GLM-4.5",
+      "providerId": "merge-gateway",
+      "updated": "2025-07-28"
+    },
+    {
+      "flags": {
+        "attachment": false,
+        "reasoning": true,
+        "tool_call": true
+      },
+      "id": "zai/glm-4.5-air",
+      "name": "GLM-4.5-Air",
+      "providerId": "merge-gateway",
+      "updated": "2025-07-28"
+    },
+    {
+      "flags": {
+        "attachment": false,
+        "reasoning": true,
+        "tool_call": true
+      },
+      "id": "zai/glm-4.6",
+      "name": "GLM-4.6",
+      "providerId": "merge-gateway",
+      "updated": "2025-09-30"
+    },
+    {
+      "flags": {
+        "attachment": false,
+        "reasoning": true,
+        "tool_call": true
+      },
+      "id": "zai/glm-4.7",
+      "name": "GLM-4.7",
+      "providerId": "merge-gateway",
+      "updated": "2025-12-22"
+    },
+    {
+      "flags": {
+        "attachment": false,
+        "reasoning": true,
+        "tool_call": true
+      },
+      "id": "zai/glm-4.7-flashx",
+      "name": "GLM-4.7-FlashX",
+      "providerId": "merge-gateway",
+      "updated": "2026-01-19"
+    },
+    {
+      "flags": {
+        "attachment": false,
+        "reasoning": true,
+        "tool_call": true
+      },
+      "id": "zai/glm-5",
+      "name": "GLM-5",
+      "providerId": "merge-gateway",
+      "updated": "2026-02-11"
+    },
+    {
+      "flags": {
+        "attachment": false,
+        "reasoning": true,
+        "tool_call": true
+      },
+      "id": "zai/glm-5-turbo",
+      "name": "GLM-5-Turbo",
+      "providerId": "merge-gateway",
+      "updated": "2026-03-16"
+    },
+    {
+      "flags": {
+        "attachment": false,
+        "reasoning": true,
+        "tool_call": true
+      },
+      "id": "zai/glm-5.1",
+      "name": "GLM-5.1",
+      "providerId": "merge-gateway",
+      "updated": "2026-03-27"
     },
     {
       "flags": {
@@ -36368,6 +37402,17 @@
         "reasoning": true,
         "tool_call": true
       },
+      "id": "claude-opus-4-8",
+      "name": "Claude Opus 4.8",
+      "providerId": "opencode",
+      "updated": "2026-05-28"
+    },
+    {
+      "flags": {
+        "attachment": true,
+        "reasoning": true,
+        "tool_call": true
+      },
       "id": "claude-sonnet-4",
       "name": "Claude Sonnet 4",
       "providerId": "opencode",
@@ -37490,6 +38535,28 @@
         "reasoning": true,
         "tool_call": true
       },
+      "id": "anthropic/claude-opus-4.8",
+      "name": "Claude Opus 4.8",
+      "providerId": "openrouter",
+      "updated": "2026-05-28"
+    },
+    {
+      "flags": {
+        "attachment": true,
+        "reasoning": true,
+        "tool_call": true
+      },
+      "id": "anthropic/claude-opus-4.8-fast",
+      "name": "Claude Opus 4.8 (Fast)",
+      "providerId": "openrouter",
+      "updated": "2026-05-27"
+    },
+    {
+      "flags": {
+        "attachment": true,
+        "reasoning": true,
+        "tool_call": true
+      },
       "id": "anthropic/claude-sonnet-4",
       "name": "Claude Sonnet 4",
       "providerId": "openrouter",
@@ -37637,17 +38704,6 @@
       "name": "ERNIE 4.5 VL 424B A47B ",
       "providerId": "openrouter",
       "updated": "2025-06-30"
-    },
-    {
-      "flags": {
-        "attachment": true,
-        "reasoning": true,
-        "tool_call": false
-      },
-      "id": "baidu/qianfan-ocr-fast",
-      "name": "Qianfan-OCR-Fast",
-      "providerId": "openrouter",
-      "updated": "2026-04-20"
     },
     {
       "flags": {
@@ -38988,6 +40044,17 @@
       },
       "id": "moonshotai/kimi-k2.6",
       "name": "Kimi K2.6",
+      "providerId": "openrouter",
+      "updated": "2026-04-21"
+    },
+    {
+      "flags": {
+        "attachment": true,
+        "reasoning": true,
+        "tool_call": true
+      },
+      "id": "moonshotai/kimi-k2.6:free",
+      "name": "Kimi K2.6 (free)",
       "providerId": "openrouter",
       "updated": "2026-04-21"
     },
@@ -49249,6 +50316,28 @@
         "reasoning": true,
         "tool_call": true
       },
+      "id": "claude-opus-4-8",
+      "name": "Claude Opus 4.8",
+      "providerId": "venice",
+      "updated": "2026-05-28"
+    },
+    {
+      "flags": {
+        "attachment": true,
+        "reasoning": true,
+        "tool_call": true
+      },
+      "id": "claude-opus-4-8-fast",
+      "name": "Claude Opus 4.8 Fast",
+      "providerId": "venice",
+      "updated": "2026-05-28"
+    },
+    {
+      "flags": {
+        "attachment": true,
+        "reasoning": true,
+        "tool_call": true
+      },
       "id": "claude-sonnet-4-5",
       "name": "Claude Sonnet 4.5",
       "providerId": "venice",
@@ -50375,6 +51464,17 @@
       "name": "Claude Opus 4.7",
       "providerId": "vercel",
       "updated": "2026-04-16"
+    },
+    {
+      "flags": {
+        "attachment": true,
+        "reasoning": true,
+        "tool_call": true
+      },
+      "id": "anthropic/claude-opus-4.8",
+      "name": "Claude Opus 4.8",
+      "providerId": "vercel",
+      "updated": "2026-05-28"
     },
     {
       "flags": {
@@ -54985,7 +56085,7 @@
       "iconURL": "https://models.dev/logos/amazon-bedrock.svg",
       "id": "amazon-bedrock",
       "lobeIcon": "AmazonBedrock.Color",
-      "modelCount": 85,
+      "modelCount": 91,
       "name": "Amazon Bedrock"
     },
     {
@@ -55001,7 +56101,7 @@
       "iconURL": "https://models.dev/logos/anthropic.svg",
       "id": "anthropic",
       "lobeIcon": "Claude.Color",
-      "modelCount": 23,
+      "modelCount": 24,
       "name": "Anthropic"
     },
     {
@@ -55276,7 +56376,7 @@
       "doc": "https://docs.gitlab.com/user/duo_agent_platform/",
       "iconURL": "https://models.dev/logos/gitlab.svg",
       "id": "gitlab",
-      "modelCount": 16,
+      "modelCount": 17,
       "name": "GitLab Duo"
     },
     {
@@ -55300,7 +56400,7 @@
       "iconURL": "https://models.dev/logos/google-vertex.svg",
       "id": "google-vertex",
       "lobeIcon": "VertexAI.Color",
-      "modelCount": 39,
+      "modelCount": 40,
       "name": "Vertex"
     },
     {
@@ -55308,7 +56408,7 @@
       "iconURL": "https://models.dev/logos/google-vertex-anthropic.svg",
       "id": "google-vertex-anthropic",
       "lobeIcon": "VertexAI.Color",
-      "modelCount": 12,
+      "modelCount": 13,
       "name": "Vertex (Anthropic)"
     },
     {
@@ -55440,7 +56540,7 @@
       "doc": "https://llmgateway.io/docs",
       "iconURL": "https://models.dev/logos/llmgateway.svg",
       "id": "llmgateway",
-      "modelCount": 188,
+      "modelCount": 189,
       "name": "LLM Gateway"
     },
     {
@@ -55467,6 +56567,13 @@
       "id": "meganova",
       "modelCount": 19,
       "name": "Meganova"
+    },
+    {
+      "doc": "https://docs.merge.dev/merge-gateway",
+      "iconURL": "https://models.dev/logos/merge-gateway.svg",
+      "id": "merge-gateway",
+      "modelCount": 83,
+      "name": "Merge Gateway"
     },
     {
       "id": "midjourney",
@@ -55645,7 +56752,7 @@
       "iconURL": "https://models.dev/logos/opencode.svg",
       "id": "opencode",
       "lobeIcon": "OpenCode",
-      "modelCount": 63,
+      "modelCount": 64,
       "name": "OpenCode Zen"
     },
     {
@@ -55662,7 +56769,7 @@
       "iconURL": "https://models.dev/logos/openrouter.svg",
       "id": "openrouter",
       "lobeIcon": "OpenRouter.Color",
-      "modelCount": 355,
+      "modelCount": 357,
       "name": "OpenRouter"
     },
     {
@@ -55754,7 +56861,7 @@
       "name": "Requesty"
     },
     {
-      "api": "https://api.routing.run/v1",
+      "api": "https://ai.routing.sh/v1",
       "doc": "https://docs.routing.run/api-reference/models",
       "iconURL": "https://models.dev/logos/routing-run.svg",
       "id": "routing-run",
@@ -55904,7 +57011,7 @@
       "iconURL": "https://models.dev/logos/venice.svg",
       "id": "venice",
       "lobeIcon": "VeniceAI",
-      "modelCount": 67,
+      "modelCount": 69,
       "name": "Venice AI"
     },
     {
@@ -55912,7 +57019,7 @@
       "iconURL": "https://models.dev/logos/vercel.svg",
       "id": "vercel",
       "lobeIcon": "Vercel.Color",
-      "modelCount": 244,
+      "modelCount": 245,
       "name": "Vercel AI Gateway"
     },
     {
