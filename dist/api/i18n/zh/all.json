@@ -41515,9 +41515,9 @@
         "knowledge": "2025-02-28",
         "last_updated": "2025-10-15",
         "limit": {
-          "context": 144000,
-          "input": 128000,
-          "output": 32000
+          "context": 200000,
+          "input": 136000,
+          "output": 64000
         },
         "modalities": {
           "input": [
@@ -41547,8 +41547,8 @@
         "knowledge": "2025-03-31",
         "last_updated": "2025-08-01",
         "limit": {
-          "context": 160000,
-          "input": 128000,
+          "context": 200000,
+          "input": 168000,
           "output": 32000
         },
         "modalities": {
@@ -41579,9 +41579,9 @@
         "knowledge": "2025-05-31",
         "last_updated": "2026-02-05",
         "limit": {
-          "context": 144000,
-          "input": 128000,
-          "output": 64000
+          "context": 200000,
+          "input": 168000,
+          "output": 32000
         },
         "modalities": {
           "input": [
@@ -41611,9 +41611,9 @@
         "knowledge": "2026-01-31",
         "last_updated": "2026-04-16",
         "limit": {
-          "context": 144000,
-          "input": 128000,
-          "output": 64000
+          "context": 200000,
+          "input": 168000,
+          "output": 32000
         },
         "modalities": {
           "input": [
@@ -41628,6 +41628,38 @@
         "open_weights": false,
         "reasoning": true,
         "release_date": "2026-04-16",
+        "temperature": false,
+        "tool_call": true
+      },
+      "claude-opus-4.8": {
+        "attachment": true,
+        "cost": {
+          "input": 0,
+          "output": 0
+        },
+        "description": "Claude Opus 4.8 是由 github-copilot 提供的人工智能模型。",
+        "family": "claude-opus",
+        "id": "claude-opus-4.8",
+        "knowledge": "2026-01-31",
+        "last_updated": "2026-05-28",
+        "limit": {
+          "context": 200000,
+          "input": 168000,
+          "output": 64000
+        },
+        "modalities": {
+          "input": [
+            "text",
+            "image"
+          ],
+          "output": [
+            "text"
+          ]
+        },
+        "name": "Claude Opus 4.8",
+        "open_weights": false,
+        "reasoning": true,
+        "release_date": "2026-05-28",
         "temperature": false,
         "tool_call": true
       },
@@ -41708,8 +41740,8 @@
         "knowledge": "2025-03-31",
         "last_updated": "2025-09-29",
         "limit": {
-          "context": 144000,
-          "input": 128000,
+          "context": 200000,
+          "input": 168000,
           "output": 32000
         },
         "modalities": {
@@ -41741,7 +41773,7 @@
         "last_updated": "2026-02-17",
         "limit": {
           "context": 200000,
-          "input": 128000,
+          "input": 168000,
           "output": 32000
         },
         "modalities": {
@@ -41877,8 +41909,8 @@
         "knowledge": "2025-01",
         "last_updated": "2026-02-19",
         "limit": {
-          "context": 128000,
-          "input": 128000,
+          "context": 200000,
+          "input": 136000,
           "output": 64000
         },
         "modalities": {
@@ -41910,7 +41942,7 @@
         "knowledge": "2025-01",
         "last_updated": "2026-05-19",
         "limit": {
-          "context": 128000,
+          "context": 200000,
           "input": 128000,
           "output": 64000
         },
@@ -42205,9 +42237,9 @@
         "knowledge": "2025-08-31",
         "last_updated": "2025-12-11",
         "limit": {
-          "context": 264000,
-          "input": 128000,
-          "output": 64000
+          "context": 400000,
+          "input": 272000,
+          "output": 128000
         },
         "modalities": {
           "input": [
@@ -109849,6 +109881,7 @@
         },
         "reasoning": true,
         "release_date": "2026-02-16",
+        "status": "deprecated",
         "temperature": true,
         "tool_call": true
       },
@@ -111945,38 +111978,6 @@
         "structured_output": true,
         "temperature": true,
         "tool_call": true
-      },
-      "deepseek/deepseek-v3.2-speciale": {
-        "attachment": false,
-        "cost": {
-          "cache_read": 0.058,
-          "input": 0.287,
-          "output": 0.431
-        },
-        "description": "DeepSeek V3.2 Speciale 是由 openrouter 提供的人工智能模型。",
-        "family": "deepseek",
-        "id": "deepseek/deepseek-v3.2-speciale",
-        "knowledge": "2024-07",
-        "last_updated": "2025-12-01",
-        "limit": {
-          "context": 163840,
-          "output": 163840
-        },
-        "modalities": {
-          "input": [
-            "text"
-          ],
-          "output": [
-            "text"
-          ]
-        },
-        "name": "DeepSeek V3.2 Speciale",
-        "open_weights": true,
-        "reasoning": true,
-        "release_date": "2025-12-01",
-        "structured_output": true,
-        "temperature": true,
-        "tool_call": false
       },
       "deepseek/deepseek-v4-flash": {
         "attachment": false,
@@ -114301,7 +114302,7 @@
         },
         "last_updated": "2026-02-12",
         "limit": {
-          "context": 262144,
+          "context": 196608,
           "output": 8192
         },
         "modalities": {
@@ -120293,6 +120294,39 @@
         "temperature": true,
         "tool_call": true
       },
+      "stepfun/step-3.7-flash": {
+        "attachment": true,
+        "cost": {
+          "cache_read": 0.04,
+          "input": 0.2,
+          "output": 1.15
+        },
+        "description": "Step 3.7 Flash 是由 openrouter 提供的人工智能模型。",
+        "family": "step",
+        "id": "stepfun/step-3.7-flash",
+        "last_updated": "2026-05-28",
+        "limit": {
+          "context": 256000,
+          "output": 256000
+        },
+        "modalities": {
+          "input": [
+            "text",
+            "image",
+            "video"
+          ],
+          "output": [
+            "text"
+          ]
+        },
+        "name": "Step 3.7 Flash",
+        "open_weights": false,
+        "reasoning": true,
+        "release_date": "2026-05-28",
+        "structured_output": true,
+        "temperature": true,
+        "tool_call": true
+      },
       "switchpoint/router": {
         "attachment": false,
         "cost": {
@@ -126025,6 +126059,37 @@
         "open_weights": false,
         "reasoning": true,
         "release_date": "2026-04-15",
+        "temperature": false,
+        "tool_call": true
+      },
+      "anthropic/claude-opus-4.8": {
+        "attachment": true,
+        "cost": {
+          "input": 4.2929,
+          "output": 21.4646
+        },
+        "description": "Claude-Opus-4.8 是由 poe 提供的人工智能模型。",
+        "family": "claude-opus",
+        "id": "anthropic/claude-opus-4.8",
+        "last_updated": "2026-05-28",
+        "limit": {
+          "context": 1048576,
+          "output": 128000
+        },
+        "modalities": {
+          "input": [
+            "text",
+            "image",
+            "pdf"
+          ],
+          "output": [
+            "text"
+          ]
+        },
+        "name": "Claude-Opus-4.8",
+        "open_weights": false,
+        "reasoning": true,
+        "release_date": "2026-05-28",
         "temperature": false,
         "tool_call": true
       },
@@ -141262,6 +141327,37 @@
         "reasoning": true,
         "release_date": "2025-12-03",
         "structured_output": true,
+        "temperature": true,
+        "tool_call": true
+      },
+      "deepseek-ai/DeepSeek-V4-Pro": {
+        "attachment": false,
+        "cost": {
+          "cache_read": 0.145,
+          "input": 1.74,
+          "output": 3.48
+        },
+        "description": "deepseek-ai/DeepSeek-V4-Pro 是由 siliconflow-cn 提供的人工智能模型。",
+        "family": "deepseek-thinking",
+        "id": "deepseek-ai/DeepSeek-V4-Pro",
+        "last_updated": "2026-04-24",
+        "limit": {
+          "context": 1049000,
+          "output": 393000
+        },
+        "modalities": {
+          "input": [
+            "text"
+          ],
+          "output": [
+            "text"
+          ]
+        },
+        "name": "deepseek-ai/DeepSeek-V4-Pro",
+        "open_weights": true,
+        "reasoning": true,
+        "release_date": "2026-04-24",
+        "structured_output": false,
         "temperature": true,
         "tool_call": true
       },

@@ -14597,6 +14597,17 @@
       "flags": {
         "attachment": true,
         "reasoning": true,
+        "tool_call": true
+      },
+      "id": "claude-opus-4.8",
+      "name": "Claude Opus 4.8",
+      "providerId": "github-copilot",
+      "updated": "2026-05-28"
+    },
+    {
+      "flags": {
+        "attachment": true,
+        "reasoning": true,
         "tool_call": false
       },
       "id": "claude-opus-41",
@@ -38940,17 +38951,6 @@
       "flags": {
         "attachment": false,
         "reasoning": true,
-        "tool_call": false
-      },
-      "id": "deepseek/deepseek-v3.2-speciale",
-      "name": "DeepSeek V3.2 Speciale",
-      "providerId": "openrouter",
-      "updated": "2025-12-01"
-    },
-    {
-      "flags": {
-        "attachment": false,
-        "reasoning": true,
         "tool_call": true
       },
       "id": "deepseek/deepseek-v4-flash",
@@ -41765,6 +41765,17 @@
     },
     {
       "flags": {
+        "attachment": true,
+        "reasoning": true,
+        "tool_call": true
+      },
+      "id": "stepfun/step-3.7-flash",
+      "name": "Step 3.7 Flash",
+      "providerId": "openrouter",
+      "updated": "2026-05-28"
+    },
+    {
+      "flags": {
         "attachment": false,
         "reasoning": true,
         "tool_call": false
@@ -43456,6 +43467,17 @@
       "name": "Claude-Opus-4.7",
       "providerId": "poe",
       "updated": "2026-04-15"
+    },
+    {
+      "flags": {
+        "attachment": true,
+        "reasoning": true,
+        "tool_call": true
+      },
+      "id": "anthropic/claude-opus-4.8",
+      "name": "Claude-Opus-4.8",
+      "providerId": "poe",
+      "updated": "2026-05-28"
     },
     {
       "flags": {
@@ -48307,6 +48329,17 @@
       "name": "deepseek-ai/DeepSeek-V3.2",
       "providerId": "siliconflow-cn",
       "updated": "2025-12-03"
+    },
+    {
+      "flags": {
+        "attachment": false,
+        "reasoning": true,
+        "tool_call": true
+      },
+      "id": "deepseek-ai/DeepSeek-V4-Pro",
+      "name": "deepseek-ai/DeepSeek-V4-Pro",
+      "providerId": "siliconflow-cn",
+      "updated": "2026-04-24"
     },
     {
       "flags": {
@@ -56360,7 +56393,7 @@
       "iconURL": "https://models.dev/logos/github-copilot.svg",
       "id": "github-copilot",
       "lobeIcon": "GithubCopilot",
-      "modelCount": 28,
+      "modelCount": 29,
       "name": "GitHub Copilot"
     },
     {
@@ -56808,7 +56841,7 @@
       "doc": "https://creator.poe.com/docs/external-applications/openai-compatible-api",
       "iconURL": "https://models.dev/logos/poe.svg",
       "id": "poe",
-      "modelCount": 136,
+      "modelCount": 137,
       "name": "Poe"
     },
     {
@@ -56904,7 +56937,7 @@
       "doc": "https://cloud.siliconflow.com/models",
       "iconURL": "https://models.dev/logos/siliconflow-cn.svg",
       "id": "siliconflow-cn",
-      "modelCount": 81,
+      "modelCount": 82,
       "name": "SiliconFlow (China)"
     },
     {

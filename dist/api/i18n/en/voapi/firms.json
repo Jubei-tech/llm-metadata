@@ -436,7 +436,7 @@
       "doc": "https://docs.github.com/en/copilot",
       "icon": "lb:githubcopilot",
       "id": "github-copilot",
-      "modelCount": 28,
+      "modelCount": 29,
       "name": "GitHub Copilot",
       "status": 1
     },
@@ -986,7 +986,7 @@
       "doc": "https://creator.poe.com/docs/external-applications/openai-compatible-api",
       "icon": "https://models.dev/logos/poe.svg",
       "id": "poe",
-      "modelCount": 136,
+      "modelCount": 137,
       "name": "Poe",
       "status": 1
     },
@@ -1106,7 +1106,7 @@
       "doc": "https://cloud.siliconflow.com/models",
       "icon": "https://models.dev/logos/siliconflow-cn.svg",
       "id": "siliconflow-cn",
-      "modelCount": 81,
+      "modelCount": 82,
       "name": "SiliconFlow (China)",
       "status": 1
     },

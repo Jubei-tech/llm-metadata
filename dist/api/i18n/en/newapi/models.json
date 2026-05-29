@@ -22709,7 +22709,7 @@
       "ratio_completion": null,
       "ratio_model": null,
       "status": 1,
-      "tags": "Reasoning,Tools,Files,Vision,144K",
+      "tags": "Reasoning,Tools,Files,Vision,200K",
       "vendor_name": "GitHub Copilot"
     },
     {
@@ -22726,7 +22726,7 @@
       "ratio_completion": null,
       "ratio_model": null,
       "status": 1,
-      "tags": "Reasoning,Tools,Files,Vision,160K",
+      "tags": "Reasoning,Tools,Files,Vision,200K",
       "vendor_name": "GitHub Copilot"
     },
     {
@@ -22743,7 +22743,7 @@
       "ratio_completion": null,
       "ratio_model": null,
       "status": 1,
-      "tags": "Reasoning,Tools,Files,Vision,144K",
+      "tags": "Reasoning,Tools,Files,Vision,200K",
       "vendor_name": "GitHub Copilot"
     },
     {
@@ -22760,7 +22760,24 @@
       "ratio_completion": null,
       "ratio_model": null,
       "status": 1,
-      "tags": "Reasoning,Tools,Files,Vision,144K",
+      "tags": "Reasoning,Tools,Files,Vision,200K",
+      "vendor_name": "GitHub Copilot"
+    },
+    {
+      "description": "Claude Opus 4.8 is an AI model provided by github-copilot.",
+      "endpoints": null,
+      "icon": "GithubCopilot",
+      "model_name": "claude-opus-4.8",
+      "name_rule": 0,
+      "price_per_m_cache_read": null,
+      "price_per_m_cache_write": null,
+      "price_per_m_input": null,
+      "price_per_m_output": null,
+      "ratio_cache": null,
+      "ratio_completion": null,
+      "ratio_model": null,
+      "status": 1,
+      "tags": "Reasoning,Tools,Files,Vision,200K",
       "vendor_name": "GitHub Copilot"
     },
     {
@@ -22811,7 +22828,7 @@
       "ratio_completion": null,
       "ratio_model": null,
       "status": 1,
-      "tags": "Reasoning,Tools,Files,Vision,144K",
+      "tags": "Reasoning,Tools,Files,Vision,200K",
       "vendor_name": "GitHub Copilot"
     },
     {
@@ -22896,7 +22913,7 @@
       "ratio_completion": null,
       "ratio_model": null,
       "status": 1,
-      "tags": "Reasoning,Tools,Files,Vision,128K",
+      "tags": "Reasoning,Tools,Files,Vision,200K",
       "vendor_name": "GitHub Copilot"
     },
     {
@@ -22913,7 +22930,7 @@
       "ratio_completion": null,
       "ratio_model": null,
       "status": 1,
-      "tags": "Reasoning,Tools,Files,Vision,Audio,128K",
+      "tags": "Reasoning,Tools,Files,Vision,Audio,200K",
       "vendor_name": "GitHub Copilot"
     },
     {
@@ -23066,7 +23083,7 @@
       "ratio_completion": null,
       "ratio_model": null,
       "status": 1,
-      "tags": "Reasoning,Tools,Files,Vision,264K",
+      "tags": "Reasoning,Tools,Files,Vision,400K",
       "vendor_name": "GitHub Copilot"
     },
     {
@@ -60385,23 +60402,6 @@
       "vendor_name": "OpenRouter"
     },
     {
-      "description": "DeepSeek V3.2 Speciale is an AI model provided by openrouter.",
-      "endpoints": null,
-      "icon": "OpenRouter.Color",
-      "model_name": "deepseek/deepseek-v3.2-speciale",
-      "name_rule": 0,
-      "price_per_m_cache_read": 0.058,
-      "price_per_m_cache_write": null,
-      "price_per_m_input": 0.287,
-      "price_per_m_output": 0.431,
-      "ratio_cache": 0.2020905923344948,
-      "ratio_completion": 1.5017421602787457,
-      "ratio_model": 0.1435,
-      "status": 1,
-      "tags": "Reasoning,Open Weights,163.8K",
-      "vendor_name": "OpenRouter"
-    },
-    {
       "description": "DeepSeek V4 Flash is an AI model provided by openrouter.",
       "endpoints": null,
       "icon": "OpenRouter.Color",
@@ -61588,7 +61588,7 @@
       "ratio_completion": null,
       "ratio_model": null,
       "status": 1,
-      "tags": "Reasoning,Tools,Open Weights,262.1K",
+      "tags": "Reasoning,Tools,Open Weights,196.6K",
       "vendor_name": "OpenRouter"
     },
     {
@@ -64754,6 +64754,23 @@
       "vendor_name": "OpenRouter"
     },
     {
+      "description": "Step 3.7 Flash is an AI model provided by openrouter.",
+      "endpoints": null,
+      "icon": "OpenRouter.Color",
+      "model_name": "stepfun/step-3.7-flash",
+      "name_rule": 0,
+      "price_per_m_cache_read": 0.04,
+      "price_per_m_cache_write": null,
+      "price_per_m_input": 0.2,
+      "price_per_m_output": 1.15,
+      "ratio_cache": 0.19999999999999998,
+      "ratio_completion": 5.749999999999999,
+      "ratio_model": 0.1,
+      "status": 1,
+      "tags": "Reasoning,Tools,Files,Vision,256K",
+      "vendor_name": "OpenRouter"
+    },
+    {
       "description": "Switchpoint Router is an AI model provided by openrouter.",
       "endpoints": null,
       "icon": "OpenRouter.Color",
@@ -67367,6 +67384,23 @@
       "ratio_cache": 0.1,
       "ratio_completion": 4.883720930232558,
       "ratio_model": 2.15,
+      "status": 1,
+      "tags": "Reasoning,Tools,Files,Vision,1M",
+      "vendor_name": "Poe"
+    },
+    {
+      "description": "Claude-Opus-4.8 is an AI model provided by poe.",
+      "endpoints": null,
+      "icon": "",
+      "model_name": "anthropic/claude-opus-4.8",
+      "name_rule": 0,
+      "price_per_m_cache_read": null,
+      "price_per_m_cache_write": null,
+      "price_per_m_input": 4.2929,
+      "price_per_m_output": 21.4646,
+      "ratio_cache": null,
+      "ratio_completion": 5.000023294276596,
+      "ratio_model": 2.14645,
       "status": 1,
       "tags": "Reasoning,Tools,Files,Vision,1M",
       "vendor_name": "Poe"
@@ -74866,6 +74900,23 @@
       "ratio_model": 0.135,
       "status": 1,
       "tags": "Reasoning,Tools,164K",
+      "vendor_name": "SiliconFlow (China)"
+    },
+    {
+      "description": "deepseek-ai/DeepSeek-V4-Pro is an AI model provided by siliconflow-cn.",
+      "endpoints": null,
+      "icon": "",
+      "model_name": "deepseek-ai/DeepSeek-V4-Pro",
+      "name_rule": 0,
+      "price_per_m_cache_read": 0.145,
+      "price_per_m_cache_write": null,
+      "price_per_m_input": 1.74,
+      "price_per_m_output": 3.48,
+      "ratio_cache": 0.08333333333333333,
+      "ratio_completion": 2,
+      "ratio_model": 0.87,
+      "status": 1,
+      "tags": "Reasoning,Tools,Open Weights,1M",
       "vendor_name": "SiliconFlow (China)"
     },
     {

@@ -49075,8 +49075,8 @@
       "id": "claude-haiku-4.5",
       "knowledge": "2025-02-28",
       "lastUpdated": "2025-10-15",
-      "maxCtxTokens": 144000,
-      "maxOutputTokens": 32000,
+      "maxCtxTokens": 200000,
+      "maxOutputTokens": 64000,
       "modalities": {
         "input": [
           "text",
@@ -49112,7 +49112,7 @@
       "id": "claude-opus-4.5",
       "knowledge": "2025-03-31",
       "lastUpdated": "2025-08-01",
-      "maxCtxTokens": 160000,
+      "maxCtxTokens": 200000,
       "maxOutputTokens": 32000,
       "modalities": {
         "input": [
@@ -49149,8 +49149,8 @@
       "id": "claude-opus-4.6",
       "knowledge": "2025-05-31",
       "lastUpdated": "2026-02-05",
-      "maxCtxTokens": 144000,
-      "maxOutputTokens": 64000,
+      "maxCtxTokens": 200000,
+      "maxOutputTokens": 32000,
       "modalities": {
         "input": [
           "text",
@@ -49186,8 +49186,8 @@
       "id": "claude-opus-4.7",
       "knowledge": "2026-01-31",
       "lastUpdated": "2026-04-16",
-      "maxCtxTokens": 144000,
-      "maxOutputTokens": 64000,
+      "maxCtxTokens": 200000,
+      "maxOutputTokens": 32000,
       "modalities": {
         "input": [
           "text",
@@ -49205,6 +49205,43 @@
         "output": null
       },
       "releaseDate": "2026-04-16",
+      "tags": []
+    },
+    {
+      "description": "Claude Opus 4.8 is an AI model provided by github-copilot.",
+      "firm": "github-copilot",
+      "flags": {
+        "attachment": true,
+        "audio": false,
+        "image": true,
+        "open_weights": false,
+        "reasoning": true,
+        "temperature": false,
+        "tool_call": true
+      },
+      "icon": "lb:githubcopilot",
+      "id": "claude-opus-4.8",
+      "knowledge": "2026-01-31",
+      "lastUpdated": "2026-05-28",
+      "maxCtxTokens": 200000,
+      "maxOutputTokens": 64000,
+      "modalities": {
+        "input": [
+          "text",
+          "image"
+        ],
+        "output": [
+          "text"
+        ]
+      },
+      "name": "Claude Opus 4.8",
+      "price": {
+        "cacheRead": null,
+        "cacheWrite": null,
+        "input": null,
+        "output": null
+      },
+      "releaseDate": "2026-05-28",
       "tags": []
     },
     {
@@ -49297,7 +49334,7 @@
       "id": "claude-sonnet-4.5",
       "knowledge": "2025-03-31",
       "lastUpdated": "2025-09-29",
-      "maxCtxTokens": 144000,
+      "maxCtxTokens": 200000,
       "maxOutputTokens": 32000,
       "modalities": {
         "input": [
@@ -49488,7 +49525,7 @@
       "id": "gemini-3.1-pro-preview",
       "knowledge": "2025-01",
       "lastUpdated": "2026-02-19",
-      "maxCtxTokens": 128000,
+      "maxCtxTokens": 200000,
       "maxOutputTokens": 64000,
       "modalities": {
         "input": [
@@ -49525,7 +49562,7 @@
       "id": "gemini-3.5-flash",
       "knowledge": "2025-01",
       "lastUpdated": "2026-05-19",
-      "maxCtxTokens": 128000,
+      "maxCtxTokens": 200000,
       "maxOutputTokens": 64000,
       "modalities": {
         "input": [
@@ -49860,8 +49897,8 @@
       "id": "gpt-5.2",
       "knowledge": "2025-08-31",
       "lastUpdated": "2025-12-11",
-      "maxCtxTokens": 264000,
-      "maxOutputTokens": 64000,
+      "maxCtxTokens": 400000,
+      "maxOutputTokens": 128000,
       "modalities": {
         "input": [
           "text",
@@ -130547,42 +130584,6 @@
       "tags": []
     },
     {
-      "description": "DeepSeek V3.2 Speciale is an AI model provided by openrouter.",
-      "firm": "openrouter",
-      "flags": {
-        "attachment": false,
-        "audio": false,
-        "image": false,
-        "open_weights": true,
-        "reasoning": true,
-        "temperature": true,
-        "tool_call": false
-      },
-      "icon": "lb:openrouter-color",
-      "id": "deepseek/deepseek-v3.2-speciale",
-      "knowledge": "2024-07",
-      "lastUpdated": "2025-12-01",
-      "maxCtxTokens": 163840,
-      "maxOutputTokens": 163840,
-      "modalities": {
-        "input": [
-          "text"
-        ],
-        "output": [
-          "text"
-        ]
-      },
-      "name": "DeepSeek V3.2 Speciale",
-      "price": {
-        "cacheRead": 0.058,
-        "cacheWrite": null,
-        "input": 0.287,
-        "output": 0.431
-      },
-      "releaseDate": "2025-12-01",
-      "tags": []
-    },
-    {
       "description": "DeepSeek V4 Flash is an AI model provided by openrouter.",
       "firm": "openrouter",
       "flags": {
@@ -133163,7 +133164,7 @@
       "id": "minimax/minimax-m2.5:free",
       "knowledge": null,
       "lastUpdated": "2026-02-12",
-      "maxCtxTokens": 262144,
+      "maxCtxTokens": 196608,
       "maxOutputTokens": 8192,
       "modalities": {
         "input": [
@@ -140056,6 +140057,44 @@
       "tags": []
     },
     {
+      "description": "Step 3.7 Flash is an AI model provided by openrouter.",
+      "firm": "openrouter",
+      "flags": {
+        "attachment": true,
+        "audio": false,
+        "image": true,
+        "open_weights": false,
+        "reasoning": true,
+        "temperature": true,
+        "tool_call": true
+      },
+      "icon": "lb:openrouter-color",
+      "id": "stepfun/step-3.7-flash",
+      "knowledge": null,
+      "lastUpdated": "2026-05-28",
+      "maxCtxTokens": 256000,
+      "maxOutputTokens": 256000,
+      "modalities": {
+        "input": [
+          "text",
+          "image",
+          "video"
+        ],
+        "output": [
+          "text"
+        ]
+      },
+      "name": "Step 3.7 Flash",
+      "price": {
+        "cacheRead": 0.04,
+        "cacheWrite": null,
+        "input": 0.2,
+        "output": 1.15
+      },
+      "releaseDate": "2026-05-28",
+      "tags": []
+    },
+    {
       "description": "Switchpoint Router is an AI model provided by openrouter.",
       "firm": "openrouter",
       "flags": {
@@ -145797,6 +145836,44 @@
         "output": 21
       },
       "releaseDate": "2026-04-15",
+      "tags": []
+    },
+    {
+      "description": "Claude-Opus-4.8 is an AI model provided by poe.",
+      "firm": "poe",
+      "flags": {
+        "attachment": true,
+        "audio": false,
+        "image": true,
+        "open_weights": false,
+        "reasoning": true,
+        "temperature": false,
+        "tool_call": true
+      },
+      "icon": "",
+      "id": "anthropic/claude-opus-4.8",
+      "knowledge": null,
+      "lastUpdated": "2026-05-28",
+      "maxCtxTokens": 1048576,
+      "maxOutputTokens": 128000,
+      "modalities": {
+        "input": [
+          "text",
+          "image",
+          "pdf"
+        ],
+        "output": [
+          "text"
+        ]
+      },
+      "name": "Claude-Opus-4.8",
+      "price": {
+        "cacheRead": null,
+        "cacheWrite": null,
+        "input": 4.2929,
+        "output": 21.4646
+      },
+      "releaseDate": "2026-05-28",
       "tags": []
     },
     {
@@ -162063,6 +162140,42 @@
         "output": 0.42
       },
       "releaseDate": "2025-12-03",
+      "tags": []
+    },
+    {
+      "description": "deepseek-ai/DeepSeek-V4-Pro is an AI model provided by siliconflow-cn.",
+      "firm": "siliconflow-cn",
+      "flags": {
+        "attachment": false,
+        "audio": false,
+        "image": false,
+        "open_weights": true,
+        "reasoning": true,
+        "temperature": true,
+        "tool_call": true
+      },
+      "icon": "",
+      "id": "deepseek-ai/DeepSeek-V4-Pro",
+      "knowledge": null,
+      "lastUpdated": "2026-04-24",
+      "maxCtxTokens": 1049000,
+      "maxOutputTokens": 393000,
+      "modalities": {
+        "input": [
+          "text"
+        ],
+        "output": [
+          "text"
+        ]
+      },
+      "name": "deepseek-ai/DeepSeek-V4-Pro",
+      "price": {
+        "cacheRead": 0.145,
+        "cacheWrite": null,
+        "input": 1.74,
+        "output": 3.48
+      },
+      "releaseDate": "2026-04-24",
       "tags": []
     },
     {
