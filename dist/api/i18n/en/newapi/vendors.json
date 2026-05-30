@@ -669,13 +669,19 @@
     {
       "description": "",
       "icon": "",
+      "name": "Snowflake Cortex",
+      "status": 1
+    },
+    {
+      "description": "",
+      "icon": "",
       "name": "STACKIT",
       "status": 1
     },
     {
       "description": "",
       "icon": "",
-      "name": "StepFun",
+      "name": "StepFun (China)",
       "status": 1
     },
     {

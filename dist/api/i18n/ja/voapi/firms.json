@@ -246,7 +246,7 @@
       "doc": "https://developers.cloudflare.com/ai-gateway/",
       "icon": "https://models.dev/logos/cloudflare-ai-gateway.svg",
       "id": "cloudflare-ai-gateway",
-      "modelCount": 75,
+      "modelCount": 76,
       "name": "Cloudflare AI Gateway",
       "status": 1
     },
@@ -936,7 +936,7 @@
       "doc": "https://openrouter.ai/models",
       "icon": "lb:openrouter-color",
       "id": "openrouter",
-      "modelCount": 357,
+      "modelCount": 356,
       "name": "OpenRouter",
       "status": 1
     },
@@ -1111,6 +1111,16 @@
       "status": 1
     },
     {
+      "api": "https://${SNOWFLAKE_ACCOUNT}.snowflakecomputing.com/api/v2/cortex/v1",
+      "description": "",
+      "doc": "https://docs.snowflake.com/en/user-guide/snowflake-cortex/cortex-rest-api",
+      "icon": "https://models.dev/logos/snowflake-cortex.svg",
+      "id": "snowflake-cortex",
+      "modelCount": 11,
+      "name": "Snowflake Cortex",
+      "status": 1
+    },
+    {
       "api": "https://api.openai-compat.model-serving.eu01.onstackit.cloud/v1",
       "description": "",
       "doc": "https://docs.stackit.cloud/products/data-and-ai/ai-model-serving/basics/available-shared-models",
@@ -1127,7 +1137,7 @@
       "icon": "https://models.dev/logos/stepfun.svg",
       "id": "stepfun",
       "modelCount": 4,
-      "name": "StepFun",
+      "name": "StepFun (China)",
       "status": 1
     },
     {

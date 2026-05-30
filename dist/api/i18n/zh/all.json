@@ -28246,6 +28246,39 @@
         "temperature": false,
         "tool_call": true
       },
+      "anthropic/claude-opus-4-8": {
+        "attachment": true,
+        "cost": {
+          "cache_read": 0.5,
+          "cache_write": 6.25,
+          "input": 5,
+          "output": 25
+        },
+        "description": "Claude Opus 4.8 是由 cloudflare-ai-gateway 提供的人工智能模型。",
+        "family": "claude-opus",
+        "id": "anthropic/claude-opus-4-8",
+        "last_updated": "2026-05-28",
+        "limit": {
+          "context": 1000000,
+          "output": 128000
+        },
+        "modalities": {
+          "input": [
+            "text",
+            "image",
+            "pdf"
+          ],
+          "output": [
+            "text"
+          ]
+        },
+        "name": "Claude Opus 4.8",
+        "open_weights": false,
+        "reasoning": true,
+        "release_date": "2026-05-28",
+        "temperature": false,
+        "tool_call": true
+      },
       "anthropic/claude-sonnet-4": {
         "attachment": true,
         "cost": {
@@ -112068,9 +112101,9 @@
       "deepseek/deepseek-v4-flash": {
         "attachment": false,
         "cost": {
-          "cache_read": 0.02,
-          "input": 0.1,
-          "output": 0.2
+          "cache_read": 0.0197,
+          "input": 0.0983,
+          "output": 0.1966
         },
         "description": "DeepSeek V4 Flash 是由 openrouter 提供的人工智能模型。",
         "family": "deepseek-flash",
@@ -112082,7 +112115,7 @@
         "last_updated": "2026-04-24",
         "limit": {
           "context": 1048576,
-          "output": 16384
+          "output": 131072
         },
         "modalities": {
           "input": [
@@ -112213,7 +112246,7 @@
         "knowledge": "2024-08-31",
         "last_updated": "2025-02-05",
         "limit": {
-          "context": 1000000,
+          "context": 1048576,
           "output": 8192
         },
         "modalities": {
@@ -115356,9 +115389,9 @@
       "moonshotai/kimi-k2.6": {
         "attachment": true,
         "cost": {
-          "cache_read": 0.25,
-          "input": 0.73,
-          "output": 3.49
+          "cache_read": 0.144,
+          "input": 0.684,
+          "output": 3.42
         },
         "description": "Kimi K2.6 是由 openrouter 提供的人工智能模型。",
         "family": "kimi-k2.6",
@@ -115369,8 +115402,8 @@
         "knowledge": "2025-01",
         "last_updated": "2026-04-21",
         "limit": {
-          "context": 262142,
-          "output": 262142
+          "context": 262144,
+          "output": 262144
         },
         "modalities": {
           "input": [
@@ -116494,39 +116527,6 @@
         "open_weights": false,
         "reasoning": false,
         "release_date": "2024-11-20",
-        "structured_output": true,
-        "temperature": true,
-        "tool_call": true
-      },
-      "openai/gpt-4o-audio-preview": {
-        "attachment": true,
-        "cost": {
-          "input": 2.5,
-          "output": 10
-        },
-        "description": "GPT-4o Audio 是由 openrouter 提供的人工智能模型。",
-        "family": "gpt",
-        "id": "openai/gpt-4o-audio-preview",
-        "knowledge": "2023-10-31",
-        "last_updated": "2025-08-15",
-        "limit": {
-          "context": 128000,
-          "output": 16384
-        },
-        "modalities": {
-          "input": [
-            "audio",
-            "text"
-          ],
-          "output": [
-            "text",
-            "audio"
-          ]
-        },
-        "name": "GPT-4o Audio",
-        "open_weights": false,
-        "reasoning": false,
-        "release_date": "2025-08-15",
         "structured_output": true,
         "temperature": true,
         "tool_call": true
@@ -121659,17 +121659,17 @@
       "~moonshotai/kimi-latest": {
         "attachment": true,
         "cost": {
-          "cache_read": 0.25,
-          "input": 0.73,
-          "output": 3.49
+          "cache_read": 0.144,
+          "input": 0.684,
+          "output": 3.42
         },
         "description": "MoonshotAI Kimi Latest 是由 openrouter 提供的人工智能模型。",
         "family": "kimi",
         "id": "~moonshotai/kimi-latest",
         "last_updated": "2026-04-27",
         "limit": {
-          "context": 262142,
-          "output": 262142
+          "context": 262144,
+          "output": 262144
         },
         "modalities": {
           "input": [
@@ -141844,6 +141844,377 @@
     "name": "SiliconFlow (China)",
     "npm": "@ai-sdk/openai-compatible"
   },
+  "snowflake-cortex": {
+    "api": "https://${SNOWFLAKE_ACCOUNT}.snowflakecomputing.com/api/v2/cortex/v1",
+    "doc": "https://docs.snowflake.com/en/user-guide/snowflake-cortex/cortex-rest-api",
+    "env": [
+      "SNOWFLAKE_ACCOUNT",
+      "SNOWFLAKE_CORTEX_PAT"
+    ],
+    "iconURL": "https://models.dev/logos/snowflake-cortex.svg",
+    "id": "snowflake-cortex",
+    "models": {
+      "claude-haiku-4-5": {
+        "attachment": true,
+        "description": "Claude Haiku 4.5 (latest) 是由 snowflake-cortex 提供的人工智能模型。",
+        "family": "claude-haiku",
+        "id": "claude-haiku-4-5",
+        "knowledge": "2025-02-28",
+        "last_updated": "2025-10-15",
+        "limit": {
+          "context": 200000,
+          "output": 16384
+        },
+        "modalities": {
+          "input": [
+            "text",
+            "image",
+            "pdf"
+          ],
+          "output": [
+            "text"
+          ]
+        },
+        "name": "Claude Haiku 4.5 (latest)",
+        "open_weights": false,
+        "reasoning": true,
+        "release_date": "2025-10-15",
+        "temperature": true,
+        "tool_call": true
+      },
+      "claude-opus-4-7": {
+        "attachment": true,
+        "description": "Claude Opus 4.7 是由 snowflake-cortex 提供的人工智能模型。",
+        "experimental": {
+          "modes": {
+            "fast": {
+              "cost": {
+                "cache_read": 3,
+                "cache_write": 37.5,
+                "input": 30,
+                "output": 150
+              },
+              "provider": {
+                "body": {
+                  "speed": "fast"
+                },
+                "headers": {
+                  "anthropic-beta": "fast-mode-2026-02-01"
+                }
+              }
+            }
+          }
+        },
+        "family": "claude-opus",
+        "id": "claude-opus-4-7",
+        "knowledge": "2026-01-31",
+        "last_updated": "2026-04-16",
+        "limit": {
+          "context": 1000000,
+          "output": 128000
+        },
+        "modalities": {
+          "input": [
+            "text",
+            "image",
+            "pdf"
+          ],
+          "output": [
+            "text"
+          ]
+        },
+        "name": "Claude Opus 4.7",
+        "open_weights": false,
+        "reasoning": true,
+        "release_date": "2026-04-16",
+        "status": "beta",
+        "temperature": false,
+        "tool_call": true
+      },
+      "claude-sonnet-4-5": {
+        "attachment": true,
+        "description": "Claude Sonnet 4.5 (latest) 是由 snowflake-cortex 提供的人工智能模型。",
+        "family": "claude-sonnet",
+        "id": "claude-sonnet-4-5",
+        "knowledge": "2025-07-31",
+        "last_updated": "2025-09-29",
+        "limit": {
+          "context": 200000,
+          "output": 16384
+        },
+        "modalities": {
+          "input": [
+            "text",
+            "image",
+            "pdf"
+          ],
+          "output": [
+            "text"
+          ]
+        },
+        "name": "Claude Sonnet 4.5 (latest)",
+        "open_weights": false,
+        "reasoning": true,
+        "release_date": "2025-09-29",
+        "temperature": true,
+        "tool_call": true
+      },
+      "claude-sonnet-4-6": {
+        "attachment": true,
+        "description": "Claude Sonnet 4.6 是由 snowflake-cortex 提供的人工智能模型。",
+        "family": "claude-sonnet",
+        "id": "claude-sonnet-4-6",
+        "knowledge": "2025-08-31",
+        "last_updated": "2026-03-13",
+        "limit": {
+          "context": 1000000,
+          "output": 16384
+        },
+        "modalities": {
+          "input": [
+            "text",
+            "image",
+            "pdf"
+          ],
+          "output": [
+            "text"
+          ]
+        },
+        "name": "Claude Sonnet 4.6",
+        "open_weights": false,
+        "reasoning": true,
+        "release_date": "2026-02-17",
+        "temperature": true,
+        "tool_call": true
+      },
+      "openai-gpt-4.1": {
+        "attachment": true,
+        "description": "GPT-4.1 是由 snowflake-cortex 提供的人工智能模型。",
+        "family": "gpt",
+        "id": "openai-gpt-4.1",
+        "knowledge": "2024-04",
+        "last_updated": "2025-04-14",
+        "limit": {
+          "context": 1047576,
+          "output": 32768
+        },
+        "modalities": {
+          "input": [
+            "text",
+            "image",
+            "pdf"
+          ],
+          "output": [
+            "text"
+          ]
+        },
+        "name": "GPT-4.1",
+        "open_weights": false,
+        "reasoning": false,
+        "release_date": "2025-04-14",
+        "structured_output": true,
+        "temperature": true,
+        "tool_call": true
+      },
+      "openai-gpt-5": {
+        "attachment": true,
+        "description": "GPT-5 是由 snowflake-cortex 提供的人工智能模型。",
+        "family": "gpt",
+        "id": "openai-gpt-5",
+        "knowledge": "2024-09-30",
+        "last_updated": "2025-08-07",
+        "limit": {
+          "context": 400000,
+          "input": 272000,
+          "output": 128000
+        },
+        "modalities": {
+          "input": [
+            "text",
+            "image"
+          ],
+          "output": [
+            "text"
+          ]
+        },
+        "name": "GPT-5",
+        "open_weights": false,
+        "reasoning": true,
+        "release_date": "2025-08-07",
+        "status": "beta",
+        "structured_output": true,
+        "temperature": false,
+        "tool_call": true
+      },
+      "openai-gpt-5-mini": {
+        "attachment": true,
+        "description": "GPT-5 Mini 是由 snowflake-cortex 提供的人工智能模型。",
+        "family": "gpt-mini",
+        "id": "openai-gpt-5-mini",
+        "knowledge": "2024-05-30",
+        "last_updated": "2025-08-07",
+        "limit": {
+          "context": 272000,
+          "input": 272000,
+          "output": 8192
+        },
+        "modalities": {
+          "input": [
+            "text",
+            "image"
+          ],
+          "output": [
+            "text"
+          ]
+        },
+        "name": "GPT-5 Mini",
+        "open_weights": false,
+        "reasoning": true,
+        "release_date": "2025-08-07",
+        "status": "beta",
+        "structured_output": true,
+        "temperature": false,
+        "tool_call": true
+      },
+      "openai-gpt-5-nano": {
+        "attachment": true,
+        "description": "GPT-5 Nano 是由 snowflake-cortex 提供的人工智能模型。",
+        "family": "gpt-nano",
+        "id": "openai-gpt-5-nano",
+        "knowledge": "2024-05-30",
+        "last_updated": "2025-08-07",
+        "limit": {
+          "context": 400000,
+          "input": 272000,
+          "output": 128000
+        },
+        "modalities": {
+          "input": [
+            "text",
+            "image"
+          ],
+          "output": [
+            "text"
+          ]
+        },
+        "name": "GPT-5 Nano",
+        "open_weights": false,
+        "reasoning": true,
+        "release_date": "2025-08-07",
+        "status": "beta",
+        "structured_output": true,
+        "temperature": false,
+        "tool_call": true
+      },
+      "openai-gpt-5.1": {
+        "attachment": true,
+        "description": "GPT-5.1 是由 snowflake-cortex 提供的人工智能模型。",
+        "family": "gpt",
+        "id": "openai-gpt-5.1",
+        "knowledge": "2024-09-30",
+        "last_updated": "2025-11-13",
+        "limit": {
+          "context": 400000,
+          "input": 272000,
+          "output": 128000
+        },
+        "modalities": {
+          "input": [
+            "text",
+            "image"
+          ],
+          "output": [
+            "text"
+          ]
+        },
+        "name": "GPT-5.1",
+        "open_weights": false,
+        "reasoning": true,
+        "release_date": "2025-11-13",
+        "structured_output": true,
+        "temperature": false,
+        "tool_call": true
+      },
+      "openai-gpt-5.2": {
+        "attachment": true,
+        "description": "GPT-5.2 是由 snowflake-cortex 提供的人工智能模型。",
+        "family": "gpt",
+        "id": "openai-gpt-5.2",
+        "knowledge": "2025-08-31",
+        "last_updated": "2025-12-11",
+        "limit": {
+          "context": 400000,
+          "input": 272000,
+          "output": 128000
+        },
+        "modalities": {
+          "input": [
+            "text",
+            "image"
+          ],
+          "output": [
+            "text"
+          ]
+        },
+        "name": "GPT-5.2",
+        "open_weights": false,
+        "reasoning": true,
+        "release_date": "2025-12-11",
+        "structured_output": true,
+        "temperature": false,
+        "tool_call": true
+      },
+      "openai-gpt-5.4": {
+        "attachment": true,
+        "description": "GPT-5.4 是由 snowflake-cortex 提供的人工智能模型。",
+        "experimental": {
+          "modes": {
+            "fast": {
+              "cost": {
+                "cache_read": 0.5,
+                "input": 5,
+                "output": 30
+              },
+              "provider": {
+                "body": {
+                  "service_tier": "priority"
+                }
+              }
+            }
+          }
+        },
+        "family": "gpt",
+        "id": "openai-gpt-5.4",
+        "knowledge": "2025-08-31",
+        "last_updated": "2026-03-05",
+        "limit": {
+          "context": 1050000,
+          "input": 922000,
+          "output": 128000
+        },
+        "modalities": {
+          "input": [
+            "text",
+            "image",
+            "pdf"
+          ],
+          "output": [
+            "text"
+          ]
+        },
+        "name": "GPT-5.4",
+        "open_weights": false,
+        "reasoning": true,
+        "release_date": "2026-03-05",
+        "status": "beta",
+        "structured_output": true,
+        "temperature": false,
+        "tool_call": true
+      }
+    },
+    "name": "Snowflake Cortex",
+    "npm": "@ai-sdk/openai-compatible"
+  },
   "stackit": {
     "api": "https://api.openai-compat.model-serving.eu01.onstackit.cloud/v1",
     "doc": "https://docs.stackit.cloud/products/data-and-ai/ai-model-serving/basics/available-shared-models",
@@ -142234,7 +142605,7 @@
         "tool_call": true
       }
     },
-    "name": "StepFun",
+    "name": "StepFun (China)",
     "npm": "@ai-sdk/openai-compatible"
   },
   "stepfun-ai": {
