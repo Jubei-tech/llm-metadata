@@ -256,7 +256,7 @@
       "doc": "https://developers.cloudflare.com/workers-ai/models/",
       "icon": "lb:cloudflare-color",
       "id": "cloudflare-workers-ai",
-      "modelCount": 27,
+      "modelCount": 20,
       "name": "Cloudflare Workers AI",
       "status": 1
     },
@@ -896,7 +896,7 @@
       "doc": "https://docs.ollama.com/cloud",
       "icon": "https://models.dev/logos/ollama-cloud.svg",
       "id": "ollama-cloud",
-      "modelCount": 39,
+      "modelCount": 40,
       "name": "Ollama Cloud",
       "status": 1
     },
@@ -916,7 +916,7 @@
       "doc": "https://opencode.ai/docs/zen",
       "icon": "lb:opencode",
       "id": "opencode",
-      "modelCount": 65,
+      "modelCount": 66,
       "name": "OpenCode Zen",
       "status": 1
     },
@@ -926,7 +926,7 @@
       "doc": "https://opencode.ai/docs/zen",
       "icon": "https://models.dev/logos/opencode-go.svg",
       "id": "opencode-go",
-      "modelCount": 15,
+      "modelCount": 16,
       "name": "OpenCode Go",
       "status": 1
     },
@@ -936,7 +936,7 @@
       "doc": "https://openrouter.ai/models",
       "icon": "lb:openrouter-color",
       "id": "openrouter",
-      "modelCount": 354,
+      "modelCount": 343,
       "name": "OpenRouter",
       "status": 1
     },
@@ -956,7 +956,7 @@
       "doc": "https://www.ovhcloud.com/en/public-cloud/ai-endpoints/catalog//",
       "icon": "https://models.dev/logos/ovhcloud.svg",
       "id": "ovhcloud",
-      "modelCount": 11,
+      "modelCount": 15,
       "name": "OVHcloud AI Endpoints",
       "status": 1
     },
@@ -1246,7 +1246,7 @@
       "doc": "https://docs.venice.ai",
       "icon": "lb:veniceai",
       "id": "venice",
-      "modelCount": 69,
+      "modelCount": 70,
       "name": "Venice AI",
       "status": 1
     },

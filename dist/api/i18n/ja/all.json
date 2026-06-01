@@ -14650,10 +14650,10 @@
       "eu.anthropic.claude-opus-4-6-v1": {
         "attachment": true,
         "cost": {
-          "cache_read": 0.5,
-          "cache_write": 6.25,
-          "input": 5,
-          "output": 25
+          "cache_read": 0.55,
+          "cache_write": 6.875,
+          "input": 5.5,
+          "output": 27.5
         },
         "description": "Claude Opus 4.6 (EU) は amazon-bedrock によって提供される AI モデルです。",
         "family": "claude-opus",
@@ -14685,10 +14685,10 @@
       "eu.anthropic.claude-opus-4-7": {
         "attachment": true,
         "cost": {
-          "cache_read": 0.5,
-          "cache_write": 6.25,
-          "input": 5,
-          "output": 25
+          "cache_read": 0.55,
+          "cache_write": 6.875,
+          "input": 5.5,
+          "output": 27.5
         },
         "description": "Claude Opus 4.7 (EU) は amazon-bedrock によって提供される AI モデルです。",
         "family": "claude-opus",
@@ -14719,10 +14719,10 @@
       "eu.anthropic.claude-opus-4-8": {
         "attachment": true,
         "cost": {
-          "cache_read": 0.5,
-          "cache_write": 6.25,
-          "input": 5,
-          "output": 25
+          "cache_read": 0.55,
+          "cache_write": 6.875,
+          "input": 5.5,
+          "output": 27.5
         },
         "description": "Claude Opus 4.8 (EU) は amazon-bedrock によって提供される AI モデルです。",
         "family": "claude-opus",
@@ -14752,10 +14752,10 @@
       "eu.anthropic.claude-sonnet-4-5-20250929-v1:0": {
         "attachment": true,
         "cost": {
-          "cache_read": 0.3,
-          "cache_write": 3.75,
-          "input": 3,
-          "output": 15
+          "cache_read": 0.33,
+          "cache_write": 4.125,
+          "input": 3.3,
+          "output": 16.5
         },
         "description": "Claude Sonnet 4.5 (EU) は amazon-bedrock によって提供される AI モデルです。",
         "family": "claude-sonnet",
@@ -14787,10 +14787,10 @@
       "eu.anthropic.claude-sonnet-4-6": {
         "attachment": true,
         "cost": {
-          "cache_read": 0.3,
-          "cache_write": 3.75,
-          "input": 3,
-          "output": 15
+          "cache_read": 0.33,
+          "cache_write": 4.125,
+          "input": 3.3,
+          "output": 16.5
         },
         "description": "Claude Sonnet 4.6 (EU) は amazon-bedrock によって提供される AI モデルです。",
         "family": "claude-sonnet",
@@ -30327,36 +30327,6 @@
         "temperature": true,
         "tool_call": false
       },
-      "@cf/google/gemma-3-12b-it": {
-        "attachment": false,
-        "cost": {
-          "input": 0.345,
-          "output": 0.556
-        },
-        "description": "Gemma 3 12B It は cloudflare-workers-ai によって提供される AI モデルです。",
-        "family": "gemma",
-        "id": "@cf/google/gemma-3-12b-it",
-        "last_updated": "2025-03-18",
-        "limit": {
-          "context": 80000,
-          "output": 80000
-        },
-        "modalities": {
-          "input": [
-            "text"
-          ],
-          "output": [
-            "text"
-          ]
-        },
-        "name": "Gemma 3 12B It",
-        "open_weights": true,
-        "reasoning": false,
-        "release_date": "2025-03-18",
-        "structured_output": false,
-        "temperature": true,
-        "tool_call": false
-      },
       "@cf/google/gemma-4-26b-a4b-it": {
         "attachment": true,
         "cost": {
@@ -30417,126 +30387,6 @@
         "structured_output": false,
         "temperature": true,
         "tool_call": true
-      },
-      "@cf/meta/llama-2-7b-chat-fp16": {
-        "attachment": false,
-        "cost": {
-          "input": 0.556,
-          "output": 6.667
-        },
-        "description": "Llama 2 7B Chat fp16 は cloudflare-workers-ai によって提供される AI モデルです。",
-        "family": "llama",
-        "id": "@cf/meta/llama-2-7b-chat-fp16",
-        "last_updated": "2023-11-07",
-        "limit": {
-          "context": 4096,
-          "output": 4096
-        },
-        "modalities": {
-          "input": [
-            "text"
-          ],
-          "output": [
-            "text"
-          ]
-        },
-        "name": "Llama 2 7B Chat fp16",
-        "open_weights": true,
-        "reasoning": false,
-        "release_date": "2023-11-07",
-        "structured_output": false,
-        "temperature": true,
-        "tool_call": false
-      },
-      "@cf/meta/llama-3-8b-instruct": {
-        "attachment": false,
-        "cost": {
-          "input": 0.282,
-          "output": 0.827
-        },
-        "description": "Llama 3 8B Instruct は cloudflare-workers-ai によって提供される AI モデルです。",
-        "family": "llama",
-        "id": "@cf/meta/llama-3-8b-instruct",
-        "last_updated": "2024-04-18",
-        "limit": {
-          "context": 7968,
-          "output": 7968
-        },
-        "modalities": {
-          "input": [
-            "text"
-          ],
-          "output": [
-            "text"
-          ]
-        },
-        "name": "Llama 3 8B Instruct",
-        "open_weights": true,
-        "reasoning": false,
-        "release_date": "2024-04-18",
-        "structured_output": false,
-        "temperature": true,
-        "tool_call": false
-      },
-      "@cf/meta/llama-3-8b-instruct-awq": {
-        "attachment": false,
-        "cost": {
-          "input": 0.123,
-          "output": 0.266
-        },
-        "description": "Llama 3 8B Instruct Awq は cloudflare-workers-ai によって提供される AI モデルです。",
-        "family": "llama",
-        "id": "@cf/meta/llama-3-8b-instruct-awq",
-        "last_updated": "2024-05-09",
-        "limit": {
-          "context": 8192,
-          "output": 8192
-        },
-        "modalities": {
-          "input": [
-            "text"
-          ],
-          "output": [
-            "text"
-          ]
-        },
-        "name": "Llama 3 8B Instruct Awq",
-        "open_weights": true,
-        "reasoning": false,
-        "release_date": "2024-05-09",
-        "structured_output": false,
-        "temperature": true,
-        "tool_call": false
-      },
-      "@cf/meta/llama-3.1-8b-instruct-awq": {
-        "attachment": false,
-        "cost": {
-          "input": 0.123,
-          "output": 0.266
-        },
-        "description": "Llama 3.1 8B Instruct Awq は cloudflare-workers-ai によって提供される AI モデルです。",
-        "family": "llama",
-        "id": "@cf/meta/llama-3.1-8b-instruct-awq",
-        "last_updated": "2024-07-25",
-        "limit": {
-          "context": 8192,
-          "output": 8192
-        },
-        "modalities": {
-          "input": [
-            "text"
-          ],
-          "output": [
-            "text"
-          ]
-        },
-        "name": "Llama 3.1 8B Instruct Awq",
-        "open_weights": true,
-        "reasoning": false,
-        "release_date": "2024-07-25",
-        "structured_output": false,
-        "temperature": true,
-        "tool_call": false
       },
       "@cf/meta/llama-3.1-8b-instruct-fp8": {
         "attachment": false,
@@ -30750,36 +30600,6 @@
         "temperature": true,
         "tool_call": false
       },
-      "@cf/mistral/mistral-7b-instruct-v0.1": {
-        "attachment": false,
-        "cost": {
-          "input": 0.11,
-          "output": 0.19
-        },
-        "description": "Mistral 7B Instruct V0.1 は cloudflare-workers-ai によって提供される AI モデルです。",
-        "family": "mistral",
-        "id": "@cf/mistral/mistral-7b-instruct-v0.1",
-        "last_updated": "2023-11-07",
-        "limit": {
-          "context": 2824,
-          "output": 2824
-        },
-        "modalities": {
-          "input": [
-            "text"
-          ],
-          "output": [
-            "text"
-          ]
-        },
-        "name": "Mistral 7B Instruct V0.1",
-        "open_weights": true,
-        "reasoning": false,
-        "release_date": "2023-11-07",
-        "structured_output": false,
-        "temperature": true,
-        "tool_call": false
-      },
       "@cf/mistralai/mistral-small-3.1-24b-instruct": {
         "attachment": false,
         "cost": {
@@ -30807,42 +30627,6 @@
         "reasoning": false,
         "release_date": "2025-03-18",
         "structured_output": false,
-        "temperature": true,
-        "tool_call": true
-      },
-      "@cf/moonshotai/kimi-k2.5": {
-        "attachment": true,
-        "cost": {
-          "cache_read": 0.1,
-          "input": 0.6,
-          "output": 3
-        },
-        "description": "Kimi K2.5 は cloudflare-workers-ai によって提供される AI モデルです。",
-        "family": "kimi",
-        "id": "@cf/moonshotai/kimi-k2.5",
-        "interleaved": {
-          "field": "reasoning_content"
-        },
-        "knowledge": "2025-01",
-        "last_updated": "2026-01-27",
-        "limit": {
-          "context": 256000,
-          "output": 256000
-        },
-        "modalities": {
-          "input": [
-            "text",
-            "image"
-          ],
-          "output": [
-            "text"
-          ]
-        },
-        "name": "Kimi K2.5",
-        "open_weights": true,
-        "reasoning": true,
-        "release_date": "2026-01-27",
-        "structured_output": true,
         "temperature": true,
         "tool_call": true
       },
@@ -33003,9 +32787,9 @@
       "deepseek-v3.2": {
         "attachment": false,
         "cost": {
-          "cache_read": 0.06,
-          "input": 0.28,
-          "output": 0.38
+          "cache_read": 0.04,
+          "input": 0.18,
+          "output": 0.35
         },
         "description": "DeepSeek V3.2 は crof によって提供される AI モデルです。",
         "family": "deepseek",
@@ -33033,7 +32817,7 @@
       "deepseek-v4-flash": {
         "attachment": false,
         "cost": {
-          "cache_read": 0.02,
+          "cache_read": 0.003,
           "input": 0.12,
           "output": 0.21
         },
@@ -33072,8 +32856,8 @@
         "attachment": false,
         "cost": {
           "cache_read": 0.003,
-          "input": 0.4,
-          "output": 0.85
+          "input": 0.35,
+          "output": 0.8
         },
         "description": "DeepSeek V4 Pro は crof によって提供される AI モデルです。",
         "family": "deepseek-thinking",
@@ -33106,19 +32890,20 @@
         "temperature": true,
         "tool_call": true
       },
-      "deepseek-v4-pro-precision": {
+      "deepseek-v4-pro-lightning": {
         "attachment": false,
         "cost": {
-          "cache_read": 0.1,
-          "input": 1.25,
-          "output": 2.5
+          "cache_read": 0.02,
+          "input": 0.8,
+          "output": 1.6
         },
-        "description": "DeepSeek V4 Pro (Precision) は crof によって提供される AI モデルです。",
+        "description": "DeepSeek V4 Pro は crof によって提供される AI モデルです。",
         "family": "deepseek-thinking",
-        "id": "deepseek-v4-pro-precision",
+        "id": "deepseek-v4-pro-lightning",
         "interleaved": {
           "field": "reasoning_content"
         },
+        "knowledge": "2025-05",
         "last_updated": "2026-04-24",
         "limit": {
           "context": 1000000,
@@ -33132,8 +32917,11 @@
             "text"
           ]
         },
-        "name": "DeepSeek V4 Pro (Precision)",
+        "name": "DeepSeek V4 Pro",
         "open_weights": true,
+        "provider": {
+          "npm": "@ai-sdk/openai-compatible"
+        },
         "reasoning": true,
         "release_date": "2026-04-24",
         "structured_output": true,
@@ -33227,7 +33015,7 @@
         "knowledge": "2025-04",
         "last_updated": "2026-01-19",
         "limit": {
-          "context": 200000,
+          "context": 202752,
           "output": 131072
         },
         "modalities": {
@@ -33288,10 +33076,10 @@
       "glm-5.1": {
         "attachment": false,
         "cost": {
-          "cache_read": 0.09,
+          "cache_read": 0.08,
           "cache_write": 0,
           "input": 0.45,
-          "output": 2.1
+          "output": 2.15
         },
         "description": "GLM-5.1 は crof によって提供される AI モデルです。",
         "family": "glm",
@@ -33323,49 +33111,15 @@
         "temperature": true,
         "tool_call": true
       },
-      "glm-5.1-precision": {
-        "attachment": false,
-        "cost": {
-          "cache_read": 0.15,
-          "input": 0.75,
-          "output": 2.9
-        },
-        "description": "GLM 5.1 (Precision) は crof によって提供される AI モデルです。",
-        "family": "glm",
-        "id": "glm-5.1-precision",
-        "interleaved": {
-          "field": "reasoning_content"
-        },
-        "last_updated": "2026-03-27",
-        "limit": {
-          "context": 202752,
-          "output": 202752
-        },
-        "modalities": {
-          "input": [
-            "text"
-          ],
-          "output": [
-            "text"
-          ]
-        },
-        "name": "GLM 5.1 (Precision)",
-        "open_weights": false,
-        "reasoning": true,
-        "release_date": "2026-03-27",
-        "structured_output": true,
-        "temperature": true,
-        "tool_call": true
-      },
-      "greg": {
+      "greg-1": {
         "attachment": false,
         "cost": {
           "cache_read": 0.02,
           "input": 0.1,
-          "output": 0.2
+          "output": 0.3
         },
-        "description": "Experiment!: Greg は crof によって提供される AI モデルです。",
-        "id": "greg",
+        "description": "Greg 1 Normal は crof によって提供される AI モデルです。",
+        "id": "greg-1",
         "last_updated": "2026-01-27",
         "limit": {
           "context": 229376,
@@ -33379,7 +33133,94 @@
             "text"
           ]
         },
-        "name": "Experiment!: Greg",
+        "name": "Greg 1 Normal",
+        "open_weights": false,
+        "reasoning": false,
+        "release_date": "2026-01-27",
+        "temperature": true,
+        "tool_call": false
+      },
+      "greg-1-mini": {
+        "attachment": false,
+        "cost": {
+          "cache_read": 0.01,
+          "input": 0.07,
+          "output": 0.15
+        },
+        "description": "Greg 1 Mini は crof によって提供される AI モデルです。",
+        "id": "greg-1-mini",
+        "last_updated": "2026-01-27",
+        "limit": {
+          "context": 229376,
+          "output": 229376
+        },
+        "modalities": {
+          "input": [
+            "text"
+          ],
+          "output": [
+            "text"
+          ]
+        },
+        "name": "Greg 1 Mini",
+        "open_weights": false,
+        "reasoning": false,
+        "release_date": "2026-01-27",
+        "temperature": true,
+        "tool_call": false
+      },
+      "greg-1-super": {
+        "attachment": false,
+        "cost": {
+          "cache_read": 0.2,
+          "input": 1,
+          "output": 5
+        },
+        "description": "Greg 1 Super は crof によって提供される AI モデルです。",
+        "id": "greg-1-super",
+        "last_updated": "2026-01-27",
+        "limit": {
+          "context": 229376,
+          "output": 229376
+        },
+        "modalities": {
+          "input": [
+            "text"
+          ],
+          "output": [
+            "text"
+          ]
+        },
+        "name": "Greg 1 Super",
+        "open_weights": false,
+        "reasoning": false,
+        "release_date": "2026-01-27",
+        "temperature": true,
+        "tool_call": false
+      },
+      "greg-rp": {
+        "attachment": false,
+        "cost": {
+          "cache_read": 0.02,
+          "input": 0.1,
+          "output": 0.3
+        },
+        "description": "Greg (Roleplay) は crof によって提供される AI モデルです。",
+        "id": "greg-rp",
+        "last_updated": "2026-01-27",
+        "limit": {
+          "context": 229376,
+          "output": 229376
+        },
+        "modalities": {
+          "input": [
+            "text"
+          ],
+          "output": [
+            "text"
+          ]
+        },
+        "name": "Greg (Roleplay)",
         "open_weights": false,
         "reasoning": false,
         "release_date": "2026-01-27",
@@ -33465,7 +33306,7 @@
       "kimi-k2.6": {
         "attachment": true,
         "cost": {
-          "cache_read": 0.1,
+          "cache_read": 0.05,
           "input": 0.5,
           "output": 1.99
         },
@@ -33502,53 +33343,17 @@
         "temperature": true,
         "tool_call": true
       },
-      "kimi-k2.6-precision": {
-        "attachment": true,
-        "cost": {
-          "cache_read": 0.11,
-          "input": 0.55,
-          "output": 2.7
-        },
-        "description": "Kimi K2.6 (Precision) は crof によって提供される AI モデルです。",
-        "family": "kimi-k2.6",
-        "id": "kimi-k2.6-precision",
-        "interleaved": {
-          "field": "reasoning_content"
-        },
-        "last_updated": "2026-04-21",
-        "limit": {
-          "context": 262144,
-          "output": 262144
-        },
-        "modalities": {
-          "input": [
-            "text",
-            "image",
-            "video"
-          ],
-          "output": [
-            "text"
-          ]
-        },
-        "name": "Kimi K2.6 (Precision)",
-        "open_weights": true,
-        "reasoning": true,
-        "release_date": "2026-04-21",
-        "structured_output": true,
-        "temperature": true,
-        "tool_call": true
-      },
       "mimo-v2.5-pro": {
         "attachment": false,
         "cost": {
-          "cache_read": 0.1,
+          "cache_read": 0.003,
           "context_over_200k": {
             "cache_read": 0.4,
             "input": 2,
             "output": 6
           },
-          "input": 0.5,
-          "output": 1.5,
+          "input": 0.4,
+          "output": 0.8,
           "tiers": [
             {
               "cache_read": 0.4,
@@ -33586,39 +33391,6 @@
         "provider": {
           "npm": "@ai-sdk/openai-compatible"
         },
-        "reasoning": true,
-        "release_date": "2026-04-22",
-        "temperature": true,
-        "tool_call": true
-      },
-      "mimo-v2.5-pro-precision": {
-        "attachment": false,
-        "cost": {
-          "cache_read": 0.16,
-          "input": 0.8,
-          "output": 2.5
-        },
-        "description": "MiMo-V2.5-Pro (Precision) は crof によって提供される AI モデルです。",
-        "family": "mimo",
-        "id": "mimo-v2.5-pro-precision",
-        "interleaved": {
-          "field": "reasoning_content"
-        },
-        "last_updated": "2026-04-22",
-        "limit": {
-          "context": 1000000,
-          "output": 131072
-        },
-        "modalities": {
-          "input": [
-            "text"
-          ],
-          "output": [
-            "text"
-          ]
-        },
-        "name": "MiMo-V2.5-Pro (Precision)",
-        "open_weights": true,
         "reasoning": true,
         "release_date": "2026-04-22",
         "temperature": true,
@@ -51715,14 +51487,14 @@
       "minimax/minimax-m2.5": {
         "attachment": false,
         "cost": {
-          "cache_read": 0.014,
-          "input": 0.14,
-          "output": 0.56
+          "cache_read": 0.03,
+          "input": 0.3,
+          "output": 1.2
         },
         "description": "MiniMax M2.5 は hpc-ai によって提供される AI モデルです。",
         "family": "minimax-m2.5",
         "id": "minimax/minimax-m2.5",
-        "last_updated": "2026-03-25",
+        "last_updated": "2026-06-01",
         "limit": {
           "context": 1000000,
           "output": 131072
@@ -51746,9 +51518,9 @@
       "moonshotai/kimi-k2.5": {
         "attachment": false,
         "cost": {
-          "cache_read": 0.03,
-          "input": 0.21,
-          "output": 1
+          "cache_read": 0.05,
+          "input": 0.3,
+          "output": 1.5
         },
         "description": "Kimi K2.5 は hpc-ai によって提供される AI モデルです。",
         "family": "kimi",
@@ -51757,7 +51529,7 @@
           "field": "reasoning_content"
         },
         "knowledge": "2025-01-01",
-        "last_updated": "2026-03-25",
+        "last_updated": "2026-06-01",
         "limit": {
           "context": 262144,
           "output": 262144
@@ -51783,9 +51555,9 @@
       "zai-org/glm-5.1": {
         "attachment": false,
         "cost": {
-          "cache_read": 0.12,
-          "input": 0.66,
-          "output": 2
+          "cache_read": 0.133,
+          "input": 0.615,
+          "output": 2.46
         },
         "description": "GLM 5.1 は hpc-ai によって提供される AI モデルです。",
         "family": "glm",
@@ -51793,7 +51565,7 @@
         "interleaved": {
           "field": "reasoning_content"
         },
-        "last_updated": "2026-04-08",
+        "last_updated": "2026-06-01",
         "limit": {
           "context": 202000,
           "output": 202000
@@ -67468,8 +67240,8 @@
       "deepseek-r1-0528": {
         "attachment": false,
         "cost": {
-          "input": 0.8,
-          "output": 2.4
+          "input": 0.55,
+          "output": 2.19
         },
         "description": "DeepSeek R1 (0528) は llmgateway によって提供される AI モデルです。",
         "family": "deepseek",
@@ -67499,7 +67271,7 @@
       "deepseek-v3.1": {
         "attachment": true,
         "cost": {
-          "cache_read": 0.11,
+          "cache_read": 0.07,
           "input": 0.56,
           "output": 1.68
         },
@@ -67531,7 +67303,7 @@
       "deepseek-v3.2": {
         "attachment": true,
         "cost": {
-          "cache_read": 0.03,
+          "cache_read": 0.056,
           "input": 0.28,
           "output": 0.42
         },
@@ -68530,7 +68302,7 @@
       "glm-4.6v-flashx": {
         "attachment": true,
         "cost": {
-          "cache_read": 0,
+          "cache_read": 0.004,
           "input": 0.04,
           "output": 0.4
         },
@@ -69781,8 +69553,8 @@
       "gpt-oss-120b": {
         "attachment": false,
         "cost": {
-          "input": 0.15,
-          "output": 0.75
+          "input": 0.05,
+          "output": 0.25
         },
         "description": "GPT OSS 120B は llmgateway によって提供される AI モデルです。",
         "family": "gpt-oss",
@@ -69811,8 +69583,8 @@
       "gpt-oss-20b": {
         "attachment": false,
         "cost": {
-          "input": 0.1,
-          "output": 0.5
+          "input": 0.04,
+          "output": 0.15
         },
         "description": "GPT OSS 20B は llmgateway によって提供される AI モデルです。",
         "family": "gpt-oss",
@@ -70205,9 +69977,9 @@
       "kimi-k2": {
         "attachment": false,
         "cost": {
-          "cache_read": 0.5,
-          "input": 1,
-          "output": 3
+          "cache_read": 0.12,
+          "input": 0.6,
+          "output": 2.5
         },
         "description": "Kimi K2 は llmgateway によって提供される AI モデルです。",
         "family": "kimi",
@@ -71530,8 +71302,8 @@
       "qwen-coder-plus": {
         "attachment": false,
         "cost": {
-          "input": 0.5,
-          "output": 1
+          "input": 0.502,
+          "output": 1.004
         },
         "description": "Qwen Coder Plus は llmgateway によって提供される AI モデルです。",
         "family": "qwen",
@@ -71620,8 +71392,8 @@
       "qwen-max-latest": {
         "attachment": true,
         "cost": {
-          "input": 1.6,
-          "output": 6.4
+          "input": 0.345,
+          "output": 1.377
         },
         "description": "Qwen Max Latest は llmgateway によって提供される AI モデルです。",
         "family": "qwen",
@@ -71718,8 +71490,8 @@
       "qwen-plus-latest": {
         "attachment": true,
         "cost": {
-          "input": 0.3,
-          "output": 0.9
+          "input": 0.115,
+          "output": 0.287
         },
         "description": "Qwen Plus Latest は llmgateway によって提供される AI モデルです。",
         "family": "qwen",
@@ -71842,8 +71614,8 @@
       "qwen2-5-vl-32b-instruct": {
         "attachment": true,
         "cost": {
-          "input": 0.3,
-          "output": 0.3
+          "input": 1.4,
+          "output": 4.2
         },
         "description": "Qwen2.5 VL 32B Instruct は llmgateway によって提供される AI モデルです。",
         "family": "qwen",
@@ -71934,8 +71706,8 @@
       "qwen3-235b-a22b-fp8": {
         "attachment": false,
         "cost": {
-          "input": 0.5,
-          "output": 2.5
+          "input": 0.2,
+          "output": 0.8
         },
         "description": "Qwen3 235B A22B FP8 は llmgateway によって提供される AI モデルです。",
         "family": "qwen",
@@ -71964,8 +71736,8 @@
       "qwen3-235b-a22b-instruct-2507": {
         "attachment": false,
         "cost": {
-          "input": 0.8,
-          "output": 2.4
+          "input": 0.09,
+          "output": 0.58
         },
         "description": "Qwen3 235B A22B Instruct (2507) は llmgateway によって提供される AI モデルです。",
         "family": "qwen",
@@ -71994,8 +71766,8 @@
       "qwen3-235b-a22b-thinking-2507": {
         "attachment": false,
         "cost": {
-          "input": 0.8,
-          "output": 2.4
+          "input": 0.2,
+          "output": 0.6
         },
         "description": "Qwen3 235B A22B Thinking (2507) は llmgateway によって提供される AI モデルです。",
         "family": "qwen",
@@ -72055,7 +71827,7 @@
         "attachment": false,
         "cost": {
           "input": 0.1,
-          "output": 0.1
+          "output": 0.3
         },
         "description": "Qwen3 30B A3B Instruct (2507) は llmgateway によって提供される AI モデルです。",
         "family": "qwen",
@@ -72176,7 +71948,7 @@
         "attachment": false,
         "cost": {
           "input": 0.03,
-          "output": 0.05
+          "output": 0.03
         },
         "description": "Qwen3 4B FP8 は llmgateway によって提供される AI モデルです。",
         "family": "qwen",
@@ -72295,8 +72067,8 @@
       "qwen3-coder-next": {
         "attachment": false,
         "cost": {
-          "input": 0.8,
-          "output": 4
+          "input": 0.108,
+          "output": 0.675
         },
         "description": "Qwen3 Coder Next は llmgateway によって提供される AI モデルです。",
         "family": "qwen",
@@ -72385,9 +72157,9 @@
       "qwen3-max-2026-01-23": {
         "attachment": true,
         "cost": {
-          "cache_read": 0.6,
-          "input": 3,
-          "output": 15
+          "cache_read": 0.072,
+          "input": 0.359,
+          "output": 1.434
         },
         "description": "Qwen3 Max (2026-01-23) は llmgateway によって提供される AI モデルです。",
         "family": "qwen",
@@ -72477,8 +72249,8 @@
       "qwen3-vl-235b-a22b-instruct": {
         "attachment": true,
         "cost": {
-          "input": 0.8,
-          "output": 2.4
+          "input": 0.3,
+          "output": 1.5
         },
         "description": "Qwen3 VL 235B A22B Instruct は llmgateway によって提供される AI モデルです。",
         "family": "qwen",
@@ -72508,8 +72280,8 @@
       "qwen3-vl-235b-a22b-thinking": {
         "attachment": true,
         "cost": {
-          "input": 0.8,
-          "output": 2.4
+          "input": 0.5,
+          "output": 2
         },
         "description": "Qwen3 VL 235B A22B Thinking は llmgateway によって提供される AI モデルです。",
         "family": "qwen",
@@ -72539,8 +72311,8 @@
       "qwen3-vl-30b-a3b-instruct": {
         "attachment": true,
         "cost": {
-          "input": 0.1,
-          "output": 0.1
+          "input": 0.2,
+          "output": 0.7
         },
         "description": "Qwen3 VL 30B A3B Instruct は llmgateway によって提供される AI モデルです。",
         "family": "qwen",
@@ -72570,8 +72342,8 @@
       "qwen3-vl-30b-a3b-thinking": {
         "attachment": true,
         "cost": {
-          "input": 0.1,
-          "output": 0.1
+          "input": 0.2,
+          "output": 1
         },
         "description": "Qwen3 VL 30B A3B Thinking は llmgateway によって提供される AI モデルです。",
         "family": "qwen",
@@ -72601,8 +72373,8 @@
       "qwen3-vl-8b-instruct": {
         "attachment": true,
         "cost": {
-          "input": 0.1,
-          "output": 0.1
+          "input": 0.08,
+          "output": 0.5
         },
         "description": "Qwen3 VL 8B Instruct は llmgateway によって提供される AI モデルです。",
         "family": "qwen",
@@ -72632,9 +72404,9 @@
       "qwen3-vl-flash": {
         "attachment": true,
         "cost": {
-          "cache_read": 0.01,
-          "input": 0.05,
-          "output": 0.4
+          "cache_read": 0.0044,
+          "input": 0.022,
+          "output": 0.215
         },
         "description": "Qwen3 VL Flash は llmgateway によって提供される AI モデルです。",
         "family": "qwen",
@@ -72971,7 +72743,7 @@
       "seed-1-6-flash-250715": {
         "attachment": true,
         "cost": {
-          "cache_read": 0.01,
+          "cache_read": 0.015,
           "input": 0.07,
           "output": 0.3
         },
@@ -104875,6 +104647,34 @@
         "release_date": "2026-03-18",
         "tool_call": true
       },
+      "minimax-m3": {
+        "attachment": false,
+        "description": "minimax-m3 は ollama-cloud によって提供される AI モデルです。",
+        "family": "minimax-m3",
+        "id": "minimax-m3",
+        "knowledge": "2025-01",
+        "last_updated": "2026-05-31",
+        "limit": {
+          "context": 512000,
+          "output": 131072
+        },
+        "modalities": {
+          "input": [
+            "text",
+            "image",
+            "video"
+          ],
+          "output": [
+            "text"
+          ]
+        },
+        "name": "minimax-m3",
+        "open_weights": true,
+        "reasoning": true,
+        "release_date": "2026-05-31",
+        "temperature": true,
+        "tool_call": true
+      },
       "ministral-3:14b": {
         "attachment": true,
         "description": "ministral-3:14b は ollama-cloud によって提供される AI モデルです。",
@@ -109308,6 +109108,42 @@
         "temperature": true,
         "tool_call": true
       },
+      "minimax-m3-free": {
+        "attachment": false,
+        "cost": {
+          "cache_read": 0,
+          "input": 0,
+          "output": 0
+        },
+        "description": "MiniMax M3 Free は opencode によって提供される AI モデルです。",
+        "family": "minimax-m3-free",
+        "id": "minimax-m3-free",
+        "knowledge": "2025-01",
+        "last_updated": "2026-05-31",
+        "limit": {
+          "context": 200000,
+          "output": 32000
+        },
+        "modalities": {
+          "input": [
+            "text",
+            "image",
+            "video"
+          ],
+          "output": [
+            "text"
+          ]
+        },
+        "name": "MiniMax M3 Free",
+        "open_weights": true,
+        "provider": {
+          "npm": "@ai-sdk/anthropic"
+        },
+        "reasoning": true,
+        "release_date": "2026-05-31",
+        "temperature": true,
+        "tool_call": true
+      },
       "nemotron-3-super-free": {
         "attachment": false,
         "cost": {
@@ -110000,6 +109836,42 @@
         "temperature": true,
         "tool_call": true
       },
+      "minimax-m3": {
+        "attachment": false,
+        "cost": {
+          "cache_read": 0.12,
+          "input": 0.6,
+          "output": 2.4
+        },
+        "description": "MiniMax M3 は opencode-go によって提供される AI モデルです。",
+        "family": "minimax-m3",
+        "id": "minimax-m3",
+        "knowledge": "2025-01",
+        "last_updated": "2026-05-31",
+        "limit": {
+          "context": 512000,
+          "output": 131072
+        },
+        "modalities": {
+          "input": [
+            "text",
+            "image",
+            "video"
+          ],
+          "output": [
+            "text"
+          ]
+        },
+        "name": "MiniMax M3",
+        "open_weights": true,
+        "provider": {
+          "npm": "@ai-sdk/anthropic"
+        },
+        "reasoning": true,
+        "release_date": "2026-05-31",
+        "temperature": true,
+        "tool_call": true
+      },
       "qwen3.5-plus": {
         "attachment": true,
         "cost": {
@@ -110269,37 +110141,6 @@
         "open_weights": false,
         "reasoning": false,
         "release_date": "2025-02-04",
-        "structured_output": false,
-        "temperature": true,
-        "tool_call": false
-      },
-      "alfredpros/codellama-7b-instruct-solidity": {
-        "attachment": false,
-        "cost": {
-          "input": 0.8,
-          "output": 1.2
-        },
-        "description": "CodeLLaMa 7B Instruct Solidity は openrouter によって提供される AI モデルです。",
-        "family": "llama",
-        "id": "alfredpros/codellama-7b-instruct-solidity",
-        "knowledge": "2023-06-30",
-        "last_updated": "2025-04-14",
-        "limit": {
-          "context": 4096,
-          "output": 4096
-        },
-        "modalities": {
-          "input": [
-            "text"
-          ],
-          "output": [
-            "text"
-          ]
-        },
-        "name": "CodeLLaMa 7B Instruct Solidity",
-        "open_weights": true,
-        "reasoning": false,
-        "release_date": "2025-04-14",
         "structured_output": false,
         "temperature": true,
         "tool_call": false
@@ -111315,68 +111156,6 @@
         "temperature": true,
         "tool_call": true
       },
-      "baidu/ernie-4.5-21b-a3b": {
-        "attachment": false,
-        "cost": {
-          "input": 0.07,
-          "output": 0.28
-        },
-        "description": "ERNIE 4.5 21B A3B は openrouter によって提供される AI モデルです。",
-        "family": "ernie",
-        "id": "baidu/ernie-4.5-21b-a3b",
-        "knowledge": "2025-03-31",
-        "last_updated": "2025-08-12",
-        "limit": {
-          "context": 120000,
-          "output": 8000
-        },
-        "modalities": {
-          "input": [
-            "text"
-          ],
-          "output": [
-            "text"
-          ]
-        },
-        "name": "ERNIE 4.5 21B A3B",
-        "open_weights": true,
-        "reasoning": false,
-        "release_date": "2025-08-12",
-        "structured_output": false,
-        "temperature": true,
-        "tool_call": true
-      },
-      "baidu/ernie-4.5-21b-a3b-thinking": {
-        "attachment": false,
-        "cost": {
-          "input": 0.07,
-          "output": 0.28
-        },
-        "description": "ERNIE 4.5 21B A3B Thinking は openrouter によって提供される AI モデルです。",
-        "family": "ernie",
-        "id": "baidu/ernie-4.5-21b-a3b-thinking",
-        "knowledge": "2025-03-31",
-        "last_updated": "2025-10-09",
-        "limit": {
-          "context": 131072,
-          "output": 65536
-        },
-        "modalities": {
-          "input": [
-            "text"
-          ],
-          "output": [
-            "text"
-          ]
-        },
-        "name": "ERNIE 4.5 21B A3B Thinking",
-        "open_weights": true,
-        "reasoning": true,
-        "release_date": "2025-10-09",
-        "structured_output": false,
-        "temperature": true,
-        "tool_call": false
-      },
       "baidu/ernie-4.5-300b-a47b": {
         "attachment": false,
         "cost": {
@@ -111820,8 +111599,8 @@
       "deepseek/deepseek-chat": {
         "attachment": false,
         "cost": {
-          "input": 0.2288,
-          "output": 0.9144
+          "input": 0.2002,
+          "output": 0.8001
         },
         "description": "DeepSeek Chat は openrouter によって提供される AI モデルです。",
         "family": "deepseek",
@@ -112072,9 +111851,8 @@
       "deepseek/deepseek-v3.2": {
         "attachment": false,
         "cost": {
-          "cache_read": 0.0252,
-          "input": 0.252,
-          "output": 0.378
+          "input": 0.2288,
+          "output": 0.3432
         },
         "description": "DeepSeek V3.2 は openrouter によって提供される AI モデルです。",
         "family": "deepseek",
@@ -112082,8 +111860,8 @@
         "knowledge": "2024-07",
         "last_updated": "2025-12-01",
         "limit": {
-          "context": 131072,
-          "output": 65536
+          "context": 128000,
+          "output": 64000
         },
         "modalities": {
           "input": [
@@ -112167,40 +111945,6 @@
         "temperature": true,
         "tool_call": true
       },
-      "deepseek/deepseek-v4-flash:free": {
-        "attachment": false,
-        "cost": {
-          "input": 0,
-          "output": 0
-        },
-        "description": "DeepSeek V4 Flash (free) は openrouter によって提供される AI モデルです。",
-        "family": "deepseek-flash",
-        "id": "deepseek/deepseek-v4-flash:free",
-        "interleaved": {
-          "field": "reasoning_content"
-        },
-        "knowledge": "2025-05",
-        "last_updated": "2026-04-24",
-        "limit": {
-          "context": 1048576,
-          "output": 384000
-        },
-        "modalities": {
-          "input": [
-            "text"
-          ],
-          "output": [
-            "text"
-          ]
-        },
-        "name": "DeepSeek V4 Flash (free)",
-        "open_weights": true,
-        "reasoning": true,
-        "release_date": "2026-04-24",
-        "structured_output": false,
-        "temperature": false,
-        "tool_call": true
-      },
       "deepseek/deepseek-v4-pro": {
         "attachment": false,
         "cost": {
@@ -112262,78 +112006,6 @@
         "open_weights": true,
         "reasoning": false,
         "release_date": "2025-12-07",
-        "structured_output": true,
-        "temperature": true,
-        "tool_call": true
-      },
-      "google/gemini-2.0-flash-001": {
-        "attachment": true,
-        "cost": {
-          "cache_read": 0.025,
-          "cache_write": 0.083333,
-          "input": 0.1,
-          "output": 0.4
-        },
-        "description": "Gemini 2.0 Flash は openrouter によって提供される AI モデルです。",
-        "family": "gemini-flash",
-        "id": "google/gemini-2.0-flash-001",
-        "knowledge": "2024-08-31",
-        "last_updated": "2025-02-05",
-        "limit": {
-          "context": 1048576,
-          "output": 8192
-        },
-        "modalities": {
-          "input": [
-            "text",
-            "image",
-            "pdf",
-            "audio",
-            "video"
-          ],
-          "output": [
-            "text"
-          ]
-        },
-        "name": "Gemini 2.0 Flash",
-        "open_weights": false,
-        "reasoning": false,
-        "release_date": "2025-02-05",
-        "structured_output": true,
-        "temperature": true,
-        "tool_call": true
-      },
-      "google/gemini-2.0-flash-lite-001": {
-        "attachment": true,
-        "cost": {
-          "input": 0.075,
-          "output": 0.3
-        },
-        "description": "Gemini 2.0 Flash Lite は openrouter によって提供される AI モデルです。",
-        "family": "gemini",
-        "id": "google/gemini-2.0-flash-lite-001",
-        "knowledge": "2024-08-31",
-        "last_updated": "2025-02-25",
-        "limit": {
-          "context": 1048576,
-          "output": 8192
-        },
-        "modalities": {
-          "input": [
-            "text",
-            "image",
-            "pdf",
-            "audio",
-            "video"
-          ],
-          "output": [
-            "text"
-          ]
-        },
-        "name": "Gemini 2.0 Flash Lite",
-        "open_weights": false,
-        "reasoning": false,
-        "release_date": "2025-02-25",
         "structured_output": true,
         "temperature": true,
         "tool_call": true
@@ -113474,9 +113146,9 @@
       "inclusionai/ring-2.6-1t": {
         "attachment": false,
         "cost": {
-          "cache_read": 0.015,
-          "input": 0.075,
-          "output": 0.625
+          "cache_read": 0.06,
+          "input": 0.3,
+          "output": 2.5
         },
         "description": "Ring-2.6-1T は openrouter によって提供される AI モデルです。",
         "family": "ring",
@@ -114441,39 +114113,6 @@
         "temperature": true,
         "tool_call": true
       },
-      "minimax/minimax-m2.5:free": {
-        "attachment": false,
-        "cost": {
-          "input": 0,
-          "output": 0
-        },
-        "description": "MiniMax M2.5 (free) は openrouter によって提供される AI モデルです。",
-        "family": "minimax",
-        "id": "minimax/minimax-m2.5:free",
-        "interleaved": {
-          "field": "reasoning_details"
-        },
-        "last_updated": "2026-02-12",
-        "limit": {
-          "context": 196608,
-          "output": 8192
-        },
-        "modalities": {
-          "input": [
-            "text"
-          ],
-          "output": [
-            "text"
-          ]
-        },
-        "name": "MiniMax M2.5 (free)",
-        "open_weights": true,
-        "reasoning": true,
-        "release_date": "2026-02-12",
-        "structured_output": false,
-        "temperature": true,
-        "tool_call": true
-      },
       "minimax/minimax-m2.7": {
         "attachment": false,
         "cost": {
@@ -114501,6 +114140,39 @@
         "reasoning": true,
         "release_date": "2026-03-18",
         "structured_output": true,
+        "temperature": true,
+        "tool_call": true
+      },
+      "minimax/minimax-m3": {
+        "attachment": true,
+        "cost": {
+          "cache_read": 0.06,
+          "input": 0.3,
+          "output": 1.2
+        },
+        "description": "MiniMax M3 は openrouter によって提供される AI モデルです。",
+        "family": "minimax-m3",
+        "id": "minimax/minimax-m3",
+        "last_updated": "2026-05-31",
+        "limit": {
+          "context": 524288,
+          "output": 512000
+        },
+        "modalities": {
+          "input": [
+            "text",
+            "image",
+            "video"
+          ],
+          "output": [
+            "text"
+          ]
+        },
+        "name": "MiniMax M3",
+        "open_weights": true,
+        "reasoning": true,
+        "release_date": "2026-05-31",
+        "structured_output": false,
         "temperature": true,
         "tool_call": true
       },
@@ -114566,72 +114238,6 @@
         "open_weights": true,
         "reasoning": false,
         "release_date": "2025-12-09",
-        "structured_output": true,
-        "temperature": true,
-        "tool_call": true
-      },
-      "mistralai/devstral-medium": {
-        "attachment": true,
-        "cost": {
-          "cache_read": 0.04,
-          "input": 0.4,
-          "output": 2
-        },
-        "description": "Devstral Medium は openrouter によって提供される AI モデルです。",
-        "family": "devstral",
-        "id": "mistralai/devstral-medium",
-        "knowledge": "2025-06-30",
-        "last_updated": "2025-07-10",
-        "limit": {
-          "context": 131072,
-          "output": 131072
-        },
-        "modalities": {
-          "input": [
-            "text",
-            "pdf"
-          ],
-          "output": [
-            "text"
-          ]
-        },
-        "name": "Devstral Medium",
-        "open_weights": false,
-        "reasoning": false,
-        "release_date": "2025-07-10",
-        "structured_output": true,
-        "temperature": true,
-        "tool_call": true
-      },
-      "mistralai/devstral-small": {
-        "attachment": true,
-        "cost": {
-          "cache_read": 0.01,
-          "input": 0.1,
-          "output": 0.3
-        },
-        "description": "Devstral Small 1.1 は openrouter によって提供される AI モデルです。",
-        "family": "devstral",
-        "id": "mistralai/devstral-small",
-        "knowledge": "2025-03-31",
-        "last_updated": "2025-07-10",
-        "limit": {
-          "context": 131072,
-          "output": 131072
-        },
-        "modalities": {
-          "input": [
-            "text",
-            "pdf"
-          ],
-          "output": [
-            "text"
-          ]
-        },
-        "name": "Devstral Small 1.1",
-        "open_weights": true,
-        "reasoning": false,
-        "release_date": "2025-07-10",
         "structured_output": true,
         "temperature": true,
         "tool_call": true
@@ -114794,39 +114400,6 @@
         "open_weights": false,
         "reasoning": false,
         "release_date": "2024-11-19",
-        "structured_output": true,
-        "temperature": true,
-        "tool_call": true
-      },
-      "mistralai/mistral-large-2411": {
-        "attachment": true,
-        "cost": {
-          "cache_read": 0.2,
-          "input": 2,
-          "output": 6
-        },
-        "description": "Mistral Large 2.1 は openrouter によって提供される AI モデルです。",
-        "family": "mistral-large",
-        "id": "mistralai/mistral-large-2411",
-        "knowledge": "2024-11",
-        "last_updated": "2024-11-04",
-        "limit": {
-          "context": 131072,
-          "output": 131072
-        },
-        "modalities": {
-          "input": [
-            "text",
-            "pdf"
-          ],
-          "output": [
-            "text"
-          ]
-        },
-        "name": "Mistral Large 2.1",
-        "open_weights": true,
-        "reasoning": false,
-        "release_date": "2024-11-01",
         "structured_output": true,
         "temperature": true,
         "tool_call": true
@@ -115186,40 +114759,6 @@
         "open_weights": true,
         "reasoning": false,
         "release_date": "2024-04-17",
-        "structured_output": true,
-        "temperature": true,
-        "tool_call": true
-      },
-      "mistralai/pixtral-large-2411": {
-        "attachment": true,
-        "cost": {
-          "cache_read": 0.2,
-          "input": 2,
-          "output": 6
-        },
-        "description": "Pixtral Large 2411 は openrouter によって提供される AI モデルです。",
-        "family": "mistral",
-        "id": "mistralai/pixtral-large-2411",
-        "knowledge": "2024-07-31",
-        "last_updated": "2024-11-19",
-        "limit": {
-          "context": 131072,
-          "output": 131072
-        },
-        "modalities": {
-          "input": [
-            "text",
-            "image",
-            "pdf"
-          ],
-          "output": [
-            "text"
-          ]
-        },
-        "name": "Pixtral Large 2411",
-        "open_weights": false,
-        "reasoning": false,
-        "release_date": "2024-11-19",
         "structured_output": true,
         "temperature": true,
         "tool_call": true
@@ -118612,7 +118151,7 @@
         "release_date": "2024-10-16",
         "structured_output": false,
         "temperature": true,
-        "tool_call": true
+        "tool_call": false
       },
       "qwen/qwen-2.5-coder-32b-instruct": {
         "attachment": false,
@@ -120481,9 +120020,9 @@
       "tencent/hy3-preview": {
         "attachment": false,
         "cost": {
-          "cache_read": 0.021,
-          "input": 0.063,
-          "output": 0.21
+          "cache_read": 0.029,
+          "input": 0.066,
+          "output": 0.26
         },
         "description": "Hy3 preview は openrouter によって提供される AI モデルです。",
         "family": "Hy",
@@ -120660,6 +120199,37 @@
         "structured_output": true,
         "temperature": true,
         "tool_call": false
+      },
+      "upstage/solar-pro-3": {
+        "attachment": false,
+        "cost": {
+          "cache_read": 0.015,
+          "input": 0.15,
+          "output": 0.6
+        },
+        "description": "Solar Pro 3 は openrouter によって提供される AI モデルです。",
+        "family": "solar-pro",
+        "id": "upstage/solar-pro-3",
+        "last_updated": "2026-01-27",
+        "limit": {
+          "context": 128000,
+          "output": 128000
+        },
+        "modalities": {
+          "input": [
+            "text"
+          ],
+          "output": [
+            "text"
+          ]
+        },
+        "name": "Solar Pro 3",
+        "open_weights": false,
+        "reasoning": true,
+        "release_date": "2026-01-27",
+        "structured_output": true,
+        "temperature": true,
+        "tool_call": true
       },
       "writer/palmyra-x5": {
         "attachment": false,
@@ -120870,79 +120440,6 @@
         "open_weights": true,
         "reasoning": true,
         "release_date": "2025-12-16",
-        "structured_output": false,
-        "temperature": true,
-        "tool_call": true
-      },
-      "xiaomi/mimo-v2-omni": {
-        "attachment": true,
-        "cost": {
-          "cache_read": 0.08,
-          "input": 0.4,
-          "output": 2
-        },
-        "description": "MiMo-V2-Omni は openrouter によって提供される AI モデルです。",
-        "family": "mimo",
-        "id": "xiaomi/mimo-v2-omni",
-        "interleaved": {
-          "field": "reasoning_details"
-        },
-        "knowledge": "2024-12",
-        "last_updated": "2026-03-18",
-        "limit": {
-          "context": 262144,
-          "output": 65536
-        },
-        "modalities": {
-          "input": [
-            "text",
-            "audio",
-            "image",
-            "video"
-          ],
-          "output": [
-            "text"
-          ]
-        },
-        "name": "MiMo-V2-Omni",
-        "open_weights": false,
-        "reasoning": true,
-        "release_date": "2026-03-18",
-        "structured_output": false,
-        "temperature": true,
-        "tool_call": true
-      },
-      "xiaomi/mimo-v2-pro": {
-        "attachment": false,
-        "cost": {
-          "cache_read": 0.2,
-          "input": 1,
-          "output": 3
-        },
-        "description": "MiMo-V2-Pro は openrouter によって提供される AI モデルです。",
-        "family": "mimo",
-        "id": "xiaomi/mimo-v2-pro",
-        "interleaved": {
-          "field": "reasoning_details"
-        },
-        "knowledge": "2024-12",
-        "last_updated": "2026-03-18",
-        "limit": {
-          "context": 1048576,
-          "output": 131072
-        },
-        "modalities": {
-          "input": [
-            "text"
-          ],
-          "output": [
-            "text"
-          ]
-        },
-        "name": "MiMo-V2-Pro",
-        "open_weights": false,
-        "reasoning": true,
-        "release_date": "2026-03-18",
         "structured_output": false,
         "temperature": true,
         "tool_call": true
@@ -121320,7 +120817,7 @@
         "cost": {
           "cache_read": 0.12,
           "input": 0.6,
-          "output": 1.92
+          "output": 2.08
         },
         "description": "GLM-5 は openrouter によって提供される AI モデルです。",
         "family": "glm",
@@ -121331,7 +120828,7 @@
         "last_updated": "2026-02-11",
         "limit": {
           "context": 202752,
-          "output": 131000
+          "output": 16384
         },
         "modalities": {
           "input": [
@@ -121399,7 +120896,7 @@
         "last_updated": "2026-03-27",
         "limit": {
           "context": 202752,
-          "output": 202800
+          "output": 131072
         },
         "modalities": {
           "input": [
@@ -125025,15 +124522,45 @@
         "temperature": true,
         "tool_call": true
       },
+      "qwen3.5-397b-a17b": {
+        "attachment": true,
+        "cost": {
+          "input": 0.71,
+          "output": 4.25
+        },
+        "description": "Qwen3.5-397B-A17B は ovhcloud によって提供される AI モデルです。",
+        "id": "qwen3.5-397b-a17b",
+        "last_updated": "2026-05-18",
+        "limit": {
+          "context": 262144,
+          "output": 262144
+        },
+        "modalities": {
+          "input": [
+            "text",
+            "image"
+          ],
+          "output": [
+            "text"
+          ]
+        },
+        "name": "Qwen3.5-397B-A17B",
+        "open_weights": true,
+        "reasoning": true,
+        "release_date": "2026-05-18",
+        "structured_output": true,
+        "temperature": true,
+        "tool_call": true
+      },
       "qwen3.5-9b": {
         "attachment": true,
         "cost": {
-          "input": 0.1,
-          "output": 0.15
+          "input": 0.12,
+          "output": 0.18
         },
         "description": "Qwen3.5-9B は ovhcloud によって提供される AI モデルです。",
         "id": "qwen3.5-9b",
-        "last_updated": "2026-02-15",
+        "last_updated": "2026-04-22",
         "limit": {
           "context": 262144,
           "output": 262144
@@ -125049,11 +124576,89 @@
         },
         "name": "Qwen3.5-9B",
         "open_weights": true,
-        "reasoning": false,
-        "release_date": "2026-02-15",
+        "reasoning": true,
+        "release_date": "2026-04-22",
         "structured_output": true,
         "temperature": true,
         "tool_call": true
+      },
+      "qwen3.6-27b": {
+        "attachment": true,
+        "cost": {
+          "input": 0.47,
+          "output": 3.19
+        },
+        "description": "Qwen3.6-27B は ovhcloud によって提供される AI モデルです。",
+        "id": "qwen3.6-27b",
+        "last_updated": "2026-06-01",
+        "limit": {
+          "context": 262144,
+          "output": 262144
+        },
+        "modalities": {
+          "input": [
+            "text",
+            "image"
+          ],
+          "output": [
+            "text"
+          ]
+        },
+        "name": "Qwen3.6-27B",
+        "open_weights": true,
+        "reasoning": true,
+        "release_date": "2026-06-01",
+        "structured_output": true,
+        "temperature": true,
+        "tool_call": true
+      },
+      "qwen3guard-gen-0.6b": {
+        "attachment": false,
+        "description": "Qwen3Guard-Gen-0.6B は ovhcloud によって提供される AI モデルです。",
+        "id": "qwen3guard-gen-0.6b",
+        "last_updated": "2026-01-22",
+        "limit": {
+          "context": 32768,
+          "output": 16384
+        },
+        "modalities": {
+          "input": [
+            "text"
+          ],
+          "output": [
+            "text"
+          ]
+        },
+        "name": "Qwen3Guard-Gen-0.6B",
+        "open_weights": true,
+        "reasoning": false,
+        "release_date": "2026-01-22",
+        "temperature": true,
+        "tool_call": false
+      },
+      "qwen3guard-gen-8b": {
+        "attachment": false,
+        "description": "Qwen3Guard-Gen-8B は ovhcloud によって提供される AI モデルです。",
+        "id": "qwen3guard-gen-8b",
+        "last_updated": "2026-01-22",
+        "limit": {
+          "context": 32768,
+          "output": 16384
+        },
+        "modalities": {
+          "input": [
+            "text"
+          ],
+          "output": [
+            "text"
+          ]
+        },
+        "name": "Qwen3Guard-Gen-8B",
+        "open_weights": true,
+        "reasoning": false,
+        "release_date": "2026-01-22",
+        "temperature": true,
+        "tool_call": false
       }
     },
     "name": "OVHcloud AI Endpoints",
@@ -146721,6 +146326,37 @@
         "temperature": true,
         "tool_call": true
       },
+      "minimax-m3": {
+        "attachment": true,
+        "cost": {
+          "cache_read": 0.06,
+          "input": 0.3,
+          "output": 1.2
+        },
+        "description": "MiniMax M3 は venice によって提供される AI モデルです。",
+        "family": "minimax-m3",
+        "id": "minimax-m3",
+        "last_updated": "2026-06-01",
+        "limit": {
+          "context": 500000,
+          "output": 32768
+        },
+        "modalities": {
+          "input": [
+            "text",
+            "image"
+          ],
+          "output": [
+            "text"
+          ]
+        },
+        "name": "MiniMax M3",
+        "open_weights": false,
+        "reasoning": true,
+        "release_date": "2026-06-01",
+        "temperature": true,
+        "tool_call": true
+      },
       "mistral-small-2603": {
         "attachment": true,
         "cost": {
@@ -149158,11 +148794,11 @@
           "input": 15,
           "output": 75
         },
-        "description": "Claude Opus 4 は vercel によって提供される AI モデルです。",
+        "description": "Claude Opus 4.1 は vercel によって提供される AI モデルです。",
         "family": "claude-opus",
         "id": "anthropic/claude-opus-4.1",
         "knowledge": "2025-03-31",
-        "last_updated": "2025-05-22",
+        "last_updated": "2025-08-05",
         "limit": {
           "context": 200000,
           "output": 32000
@@ -149177,10 +148813,10 @@
             "text"
           ]
         },
-        "name": "Claude Opus 4",
+        "name": "Claude Opus 4.1",
         "open_weights": false,
         "reasoning": true,
-        "release_date": "2025-05-22",
+        "release_date": "2025-08-05",
         "temperature": true,
         "tool_call": true
       },
@@ -156322,16 +155958,16 @@
       "GLM-5.1": {
         "attachment": false,
         "cost": {
-          "cache_read": 0.12,
+          "cache_read": 0.1,
           "cache_write": 0,
-          "input": 1.2,
-          "output": 3.6
+          "input": 1,
+          "output": 3.2
         },
         "description": "GLM-5.1 は wafer.ai によって提供される AI モデルです。",
         "family": "glm",
         "id": "GLM-5.1",
         "knowledge": "2025-04",
-        "last_updated": "2026-05-30",
+        "last_updated": "2026-06-01",
         "limit": {
           "context": 202752,
           "output": 131072
@@ -156355,16 +155991,16 @@
       "Kimi-K2.6": {
         "attachment": true,
         "cost": {
-          "cache_read": 0.09,
+          "cache_read": 0.07,
           "cache_write": 0,
-          "input": 0.88,
-          "output": 3.84
+          "input": 0.68,
+          "output": 3.15
         },
         "description": "Kimi-K2.6 は wafer.ai によって提供される AI モデルです。",
         "family": "kimi",
         "id": "Kimi-K2.6",
         "knowledge": "2025-01",
-        "last_updated": "2026-05-30",
+        "last_updated": "2026-06-01",
         "limit": {
           "context": 262144,
           "output": 65536
@@ -156390,16 +156026,16 @@
       "Qwen3.5-397B-A17B": {
         "attachment": true,
         "cost": {
-          "cache_read": 0.05,
+          "cache_read": 0.04,
           "cache_write": 0,
-          "input": 0.48,
-          "output": 2.88
+          "input": 0.43,
+          "output": 2.6
         },
         "description": "Qwen3.5-397B-A17B は wafer.ai によって提供される AI モデルです。",
         "family": "qwen",
         "id": "Qwen3.5-397B-A17B",
         "knowledge": "2025-04",
-        "last_updated": "2026-05-30",
+        "last_updated": "2026-06-01",
         "limit": {
           "context": 262144,
           "output": 65536
