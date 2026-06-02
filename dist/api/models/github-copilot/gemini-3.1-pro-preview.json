@@ -1,8 +1,25 @@
 {
   "attachment": true,
   "cost": {
-    "input": 0,
-    "output": 0
+    "cache_read": 0.2,
+    "context_over_200k": {
+      "cache_read": 0.4,
+      "input": 4,
+      "output": 18
+    },
+    "input": 2,
+    "output": 12,
+    "tiers": [
+      {
+        "cache_read": 0.4,
+        "input": 4,
+        "output": 18,
+        "tier": {
+          "size": 200000,
+          "type": "context"
+        }
+      }
+    ]
   },
   "description": "Gemini 3.1 Pro Preview is an AI model provided by github-copilot.",
   "family": "gemini-pro",
@@ -17,7 +34,10 @@
   "modalities": {
     "input": [
       "text",
-      "image"
+      "image",
+      "video",
+      "audio",
+      "pdf"
     ],
     "output": [
       "text"
