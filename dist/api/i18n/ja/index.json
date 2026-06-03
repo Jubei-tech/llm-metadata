@@ -2898,6 +2898,17 @@
         "reasoning": true,
         "tool_call": true
       },
+      "id": "qwen3.7-plus",
+      "name": "Qwen3.7 Plus",
+      "providerId": "alibaba",
+      "updated": "2026-06-02"
+    },
+    {
+      "flags": {
+        "attachment": false,
+        "reasoning": true,
+        "tool_call": true
+      },
       "id": "qwq-plus",
       "name": "QwQ Plus",
       "providerId": "alibaba",
@@ -3727,6 +3738,17 @@
       "name": "Qwen3.7 Max",
       "providerId": "alibaba-cn",
       "updated": "2026-05-21"
+    },
+    {
+      "flags": {
+        "attachment": false,
+        "reasoning": true,
+        "tool_call": true
+      },
+      "id": "qwen3.7-plus",
+      "name": "Qwen3.7 Plus",
+      "providerId": "alibaba-cn",
+      "updated": "2026-06-02"
     },
     {
       "flags": {
@@ -13070,7 +13092,7 @@
         "reasoning": true,
         "tool_call": true
       },
-      "id": "xiaomi/mimo-v2.5",
+      "id": "XiaomiMiMo/MiMo-V2.5",
       "name": "MiMo-V2.5",
       "providerId": "deepinfra",
       "updated": "2026-04-22"
@@ -13081,7 +13103,7 @@
         "reasoning": true,
         "tool_call": true
       },
-      "id": "xiaomi/mimo-v2.5-pro",
+      "id": "XiaomiMiMo/MiMo-V2.5-Pro",
       "name": "MiMo-V2.5-Pro",
       "providerId": "deepinfra",
       "updated": "2026-04-22"
@@ -38700,6 +38722,17 @@
         "reasoning": true,
         "tool_call": true
       },
+      "id": "qwen3.7-plus",
+      "name": "Qwen3.7 Plus",
+      "providerId": "opencode-go",
+      "updated": "2026-06-02"
+    },
+    {
+      "flags": {
+        "attachment": true,
+        "reasoning": true,
+        "tool_call": true
+      },
       "id": "~anthropic/claude-haiku-latest",
       "name": "Anthropic Claude Haiku Latest",
       "providerId": "openrouter",
@@ -41360,6 +41393,17 @@
       "flags": {
         "attachment": false,
         "reasoning": false,
+        "tool_call": false
+      },
+      "id": "openrouter/fusion",
+      "name": "Fusion",
+      "providerId": "openrouter",
+      "updated": "2026-05-12"
+    },
+    {
+      "flags": {
+        "attachment": false,
+        "reasoning": false,
         "tool_call": true
       },
       "id": "openrouter/owl-alpha",
@@ -42004,6 +42048,17 @@
       "name": "Qwen3.7 Max",
       "providerId": "openrouter",
       "updated": "2026-05-21"
+    },
+    {
+      "flags": {
+        "attachment": true,
+        "reasoning": true,
+        "tool_call": true
+      },
+      "id": "qwen/qwen3.7-plus",
+      "name": "Qwen3.7 Plus",
+      "providerId": "openrouter",
+      "updated": "2026-06-03"
     },
     {
       "flags": {
@@ -47525,7 +47580,18 @@
       "id": "gpt-5.4",
       "name": "gpt-5.4",
       "providerId": "sap-ai-core",
-      "updated": "2026-04-27"
+      "updated": "2026-03-05"
+    },
+    {
+      "flags": {
+        "attachment": true,
+        "reasoning": true,
+        "tool_call": true
+      },
+      "id": "gpt-5.5",
+      "name": "gpt-5.5",
+      "providerId": "sap-ai-core",
+      "updated": "2026-04-23"
     },
     {
       "flags": {
@@ -56630,7 +56696,7 @@
       "iconURL": "https://models.dev/logos/alibaba.svg",
       "id": "alibaba",
       "lobeIcon": "Qwen.Color",
-      "modelCount": 51,
+      "modelCount": 52,
       "name": "Alibaba"
     },
     {
@@ -56638,7 +56704,7 @@
       "doc": "https://www.alibabacloud.com/help/en/model-studio/models",
       "iconURL": "https://models.dev/logos/alibaba-cn.svg",
       "id": "alibaba-cn",
-      "modelCount": 82,
+      "modelCount": 83,
       "name": "Alibaba (China)"
     },
     {
@@ -57359,7 +57425,7 @@
       "doc": "https://opencode.ai/docs/zen",
       "iconURL": "https://models.dev/logos/opencode-go.svg",
       "id": "opencode-go",
-      "modelCount": 16,
+      "modelCount": 17,
       "name": "OpenCode Go"
     },
     {
@@ -57368,7 +57434,7 @@
       "iconURL": "https://models.dev/logos/openrouter.svg",
       "id": "openrouter",
       "lobeIcon": "OpenRouter.Color",
-      "modelCount": 342,
+      "modelCount": 344,
       "name": "OpenRouter"
     },
     {
@@ -57471,7 +57537,7 @@
       "doc": "https://help.sap.com/docs/sap-ai-core",
       "iconURL": "https://models.dev/logos/sap-ai-core.svg",
       "id": "sap-ai-core",
-      "modelCount": 25,
+      "modelCount": 26,
       "name": "SAP AI Core"
     },
     {

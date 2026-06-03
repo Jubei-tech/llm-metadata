@@ -46,7 +46,7 @@
       "doc": "https://www.alibabacloud.com/help/en/model-studio/models",
       "icon": "lb:qwen-color",
       "id": "alibaba",
-      "modelCount": 51,
+      "modelCount": 52,
       "name": "Alibaba",
       "status": 1
     },
@@ -56,7 +56,7 @@
       "doc": "https://www.alibabacloud.com/help/en/model-studio/models",
       "icon": "https://models.dev/logos/alibaba-cn.svg",
       "id": "alibaba-cn",
-      "modelCount": 82,
+      "modelCount": 83,
       "name": "Alibaba (China)",
       "status": 1
     },
@@ -946,7 +946,7 @@
       "doc": "https://opencode.ai/docs/zen",
       "icon": "https://models.dev/logos/opencode-go.svg",
       "id": "opencode-go",
-      "modelCount": 16,
+      "modelCount": 17,
       "name": "OpenCode Go",
       "status": 1
     },
@@ -956,7 +956,7 @@
       "doc": "https://openrouter.ai/models",
       "icon": "lb:openrouter-color",
       "id": "openrouter",
-      "modelCount": 342,
+      "modelCount": 344,
       "name": "OpenRouter",
       "status": 1
     },
@@ -1086,7 +1086,7 @@
       "doc": "https://help.sap.com/docs/sap-ai-core",
       "icon": "https://models.dev/logos/sap-ai-core.svg",
       "id": "sap-ai-core",
-      "modelCount": 25,
+      "modelCount": 26,
       "name": "SAP AI Core",
       "status": 1
     },
