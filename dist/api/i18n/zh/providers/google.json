@@ -41,6 +41,7 @@
       "open_weights": false,
       "reasoning": false,
       "release_date": "2024-12-11",
+      "status": "deprecated",
       "structured_output": true,
       "temperature": true,
       "tool_call": true
@@ -76,6 +77,7 @@
       "open_weights": false,
       "reasoning": false,
       "release_date": "2024-12-11",
+      "status": "deprecated",
       "structured_output": true,
       "temperature": true,
       "tool_call": true
@@ -112,6 +114,16 @@
       "name": "Gemini 2.5 Flash",
       "open_weights": false,
       "reasoning": true,
+      "reasoning_options": [
+        {
+          "type": "toggle"
+        },
+        {
+          "max": 24576,
+          "min": 0,
+          "type": "budget_tokens"
+        }
+      ],
       "release_date": "2025-03-20",
       "structured_output": true,
       "temperature": true,
@@ -182,6 +194,16 @@
       "name": "Gemini 2.5 Flash-Lite",
       "open_weights": false,
       "reasoning": true,
+      "reasoning_options": [
+        {
+          "type": "toggle"
+        },
+        {
+          "max": 24576,
+          "min": 512,
+          "type": "budget_tokens"
+        }
+      ],
       "release_date": "2025-06-17",
       "structured_output": true,
       "temperature": true,
@@ -264,6 +286,13 @@
       "name": "Gemini 2.5 Pro",
       "open_weights": false,
       "reasoning": true,
+      "reasoning_options": [
+        {
+          "max": 32768,
+          "min": 128,
+          "type": "budget_tokens"
+        }
+      ],
       "release_date": "2025-03-20",
       "structured_output": true,
       "temperature": true,
@@ -331,6 +360,17 @@
       "name": "Gemini 3 Flash Preview",
       "open_weights": false,
       "reasoning": true,
+      "reasoning_options": [
+        {
+          "type": "effort",
+          "values": [
+            "minimal",
+            "low",
+            "medium",
+            "high"
+          ]
+        }
+      ],
       "release_date": "2025-12-17",
       "structured_output": true,
       "temperature": true,
@@ -383,7 +423,17 @@
       "name": "Gemini 3 Pro Preview",
       "open_weights": false,
       "reasoning": true,
+      "reasoning_options": [
+        {
+          "type": "effort",
+          "values": [
+            "low",
+            "high"
+          ]
+        }
+      ],
       "release_date": "2025-11-18",
+      "status": "deprecated",
       "structured_output": true,
       "temperature": true,
       "tool_call": true
@@ -453,6 +503,17 @@
       "name": "Gemini 3.1 Flash Lite",
       "open_weights": false,
       "reasoning": true,
+      "reasoning_options": [
+        {
+          "type": "effort",
+          "values": [
+            "minimal",
+            "low",
+            "medium",
+            "high"
+          ]
+        }
+      ],
       "release_date": "2026-05-07",
       "structured_output": true,
       "temperature": true,
@@ -491,6 +552,7 @@
       "open_weights": false,
       "reasoning": true,
       "release_date": "2026-03-03",
+      "status": "deprecated",
       "structured_output": true,
       "temperature": true,
       "tool_call": true
@@ -542,6 +604,16 @@
       "name": "Gemini 3.1 Pro Preview",
       "open_weights": false,
       "reasoning": true,
+      "reasoning_options": [
+        {
+          "type": "effort",
+          "values": [
+            "low",
+            "medium",
+            "high"
+          ]
+        }
+      ],
       "release_date": "2026-02-19",
       "structured_output": true,
       "temperature": true,
@@ -631,6 +703,17 @@
       "name": "Gemini 3.5 Flash",
       "open_weights": false,
       "reasoning": true,
+      "reasoning_options": [
+        {
+          "type": "effort",
+          "values": [
+            "minimal",
+            "low",
+            "medium",
+            "high"
+          ]
+        }
+      ],
       "release_date": "2026-05-19",
       "structured_output": true,
       "temperature": true,

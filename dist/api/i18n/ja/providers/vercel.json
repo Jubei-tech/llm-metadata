@@ -993,6 +993,7 @@
       "open_weights": false,
       "reasoning": false,
       "release_date": "2024-03-13",
+      "status": "deprecated",
       "temperature": true,
       "tool_call": true
     },
@@ -1027,6 +1028,7 @@
       "open_weights": false,
       "reasoning": false,
       "release_date": "2024-02-29",
+      "status": "deprecated",
       "temperature": true,
       "tool_call": true
     },
@@ -1061,6 +1063,7 @@
       "open_weights": false,
       "reasoning": false,
       "release_date": "2024-10-22",
+      "status": "deprecated",
       "temperature": true,
       "tool_call": true
     },
@@ -1095,6 +1098,7 @@
       "open_weights": false,
       "reasoning": false,
       "release_date": "2024-10-22",
+      "status": "deprecated",
       "temperature": true,
       "tool_call": true
     },
@@ -1167,6 +1171,7 @@
         }
       ],
       "release_date": "2025-02-19",
+      "status": "deprecated",
       "temperature": true,
       "tool_call": true
     },
@@ -2195,6 +2200,7 @@
       "open_weights": false,
       "reasoning": false,
       "release_date": "2024-12-11",
+      "status": "deprecated",
       "structured_output": true,
       "temperature": true,
       "tool_call": true
@@ -2230,6 +2236,7 @@
       "open_weights": false,
       "reasoning": false,
       "release_date": "2024-12-11",
+      "status": "deprecated",
       "structured_output": true,
       "temperature": true,
       "tool_call": true
@@ -2266,6 +2273,16 @@
       "name": "Gemini 2.5 Flash",
       "open_weights": false,
       "reasoning": true,
+      "reasoning_options": [
+        {
+          "type": "toggle"
+        },
+        {
+          "max": 24576,
+          "min": 0,
+          "type": "budget_tokens"
+        }
+      ],
       "release_date": "2025-03-20",
       "structured_output": true,
       "temperature": true,
@@ -2486,6 +2503,13 @@
       "name": "Gemini 2.5 Pro",
       "open_weights": false,
       "reasoning": true,
+      "reasoning_options": [
+        {
+          "max": 32768,
+          "min": 128,
+          "type": "budget_tokens"
+        }
+      ],
       "release_date": "2025-03-20",
       "structured_output": true,
       "temperature": true,
