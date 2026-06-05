@@ -40881,7 +40881,7 @@
         "last_updated": "2025-07-30",
         "limit": {
           "context": 40960,
-          "output": 40960
+          "output": 4096
         },
         "modalities": {
           "input": [
@@ -42147,6 +42147,40 @@
         "open_weights": true,
         "reasoning": true,
         "release_date": "2026-04-01",
+        "temperature": true,
+        "tool_call": true
+      },
+      "accounts/fireworks/routers/kimi-k2p6-fast": {
+        "attachment": false,
+        "cost": {
+          "cache_read": 0.3,
+          "input": 2,
+          "output": 8
+        },
+        "description": "Kimi K2.6 Fast は fireworks-ai によって提供される AI モデルです。",
+        "family": "kimi-thinking",
+        "id": "accounts/fireworks/routers/kimi-k2p6-fast",
+        "interleaved": {
+          "field": "reasoning_content"
+        },
+        "last_updated": "2026-06-05",
+        "limit": {
+          "context": 262000,
+          "output": 262000
+        },
+        "modalities": {
+          "input": [
+            "text",
+            "image"
+          ],
+          "output": [
+            "text"
+          ]
+        },
+        "name": "Kimi K2.6 Fast",
+        "open_weights": true,
+        "reasoning": true,
+        "release_date": "2026-04-17",
         "temperature": true,
         "tool_call": true
       },
@@ -43982,22 +44016,6 @@
           ]
         },
         "description": "GPT-5.4 は github-copilot によって提供される AI モデルです。",
-        "experimental": {
-          "modes": {
-            "fast": {
-              "cost": {
-                "cache_read": 0.5,
-                "input": 5,
-                "output": 30
-              },
-              "provider": {
-                "body": {
-                  "service_tier": "priority"
-                }
-              }
-            }
-          }
-        },
         "family": "gpt",
         "id": "gpt-5.4",
         "knowledge": "2025-08-31",
@@ -44033,22 +44051,6 @@
           "output": 4.5
         },
         "description": "GPT-5.4 mini は github-copilot によって提供される AI モデルです。",
-        "experimental": {
-          "modes": {
-            "fast": {
-              "cost": {
-                "cache_read": 0.15,
-                "input": 1.5,
-                "output": 9
-              },
-              "provider": {
-                "body": {
-                  "service_tier": "priority"
-                }
-              }
-            }
-          }
-        },
         "family": "gpt-mini",
         "id": "gpt-5.4-mini",
         "knowledge": "2025-08-31",
@@ -44133,22 +44135,6 @@
           ]
         },
         "description": "GPT-5.5 は github-copilot によって提供される AI モデルです。",
-        "experimental": {
-          "modes": {
-            "fast": {
-              "cost": {
-                "cache_read": 1.25,
-                "input": 12.5,
-                "output": 75
-              },
-              "provider": {
-                "body": {
-                  "service_tier": "priority"
-                }
-              }
-            }
-          }
-        },
         "family": "gpt",
         "id": "gpt-5.5",
         "knowledge": "2025-12-01",
@@ -117620,9 +117606,10 @@
           "output": 12,
           "reasoning": 12
         },
-        "description": "Nano Banana Pro (Gemini 3 Pro Image Preview) は openrouter によって提供される AI モデルです。",
-        "family": "gemini",
+        "description": "Nano Banana Pro は openrouter によって提供される AI モデルです。",
+        "family": "gemini-pro",
         "id": "google/gemini-3-pro-image-preview",
+        "knowledge": "2025-01",
         "last_updated": "2025-11-20",
         "limit": {
           "context": 65536,
@@ -117630,15 +117617,15 @@
         },
         "modalities": {
           "input": [
-            "image",
-            "text"
+            "text",
+            "image"
           ],
           "output": [
-            "image",
-            "text"
+            "text",
+            "image"
           ]
         },
-        "name": "Nano Banana Pro (Gemini 3 Pro Image Preview)",
+        "name": "Nano Banana Pro",
         "open_weights": false,
         "reasoning": true,
         "release_date": "2025-11-20",
@@ -118783,7 +118770,7 @@
         "attachment": false,
         "cost": {
           "input": 0.02,
-          "output": 0.05
+          "output": 0.03
         },
         "description": "Llama 3.1 8B Instruct は openrouter によって提供される AI モデルです。",
         "family": "llama",
@@ -118791,7 +118778,7 @@
         "knowledge": "2023-12-31",
         "last_updated": "2024-07-23",
         "limit": {
-          "context": 16384,
+          "context": 131072,
           "output": 16384
         },
         "modalities": {
@@ -120387,37 +120374,6 @@
         "structured_output": true,
         "temperature": true,
         "tool_call": true
-      },
-      "nousresearch/hermes-2-pro-llama-3-8b": {
-        "attachment": false,
-        "cost": {
-          "input": 0.14,
-          "output": 0.14
-        },
-        "description": "Hermes 2 Pro - Llama-3 8B は openrouter によって提供される AI モデルです。",
-        "family": "nousresearch",
-        "id": "nousresearch/hermes-2-pro-llama-3-8b",
-        "knowledge": "2023-12-31",
-        "last_updated": "2024-05-27",
-        "limit": {
-          "context": 8192,
-          "output": 8192
-        },
-        "modalities": {
-          "input": [
-            "text"
-          ],
-          "output": [
-            "text"
-          ]
-        },
-        "name": "Hermes 2 Pro - Llama-3 8B",
-        "open_weights": true,
-        "reasoning": false,
-        "release_date": "2024-05-27",
-        "structured_output": true,
-        "temperature": true,
-        "tool_call": false
       },
       "nousresearch/hermes-3-llama-3.1-405b": {
         "attachment": false,
@@ -123853,7 +123809,7 @@
         "last_updated": "2025-04-28",
         "limit": {
           "context": 40960,
-          "output": 20000
+          "output": 16384
         },
         "modalities": {
           "input": [
@@ -125169,37 +125125,6 @@
         "open_weights": false,
         "reasoning": false,
         "release_date": "2025-12-08",
-        "structured_output": false,
-        "temperature": true,
-        "tool_call": true
-      },
-      "sao10k/l3-euryale-70b": {
-        "attachment": false,
-        "cost": {
-          "input": 1.48,
-          "output": 1.48
-        },
-        "description": "Llama 3 Euryale 70B v2.1 は openrouter によって提供される AI モデルです。",
-        "family": "llama",
-        "id": "sao10k/l3-euryale-70b",
-        "knowledge": "2023-12-31",
-        "last_updated": "2024-06-18",
-        "limit": {
-          "context": 8192,
-          "output": 8192
-        },
-        "modalities": {
-          "input": [
-            "text"
-          ],
-          "output": [
-            "text"
-          ]
-        },
-        "name": "Llama 3 Euryale 70B v2.1",
-        "open_weights": true,
-        "reasoning": false,
-        "release_date": "2024-06-18",
         "structured_output": false,
         "temperature": true,
         "tool_call": true
@@ -163847,6 +163772,43 @@
         "open_weights": false,
         "reasoning": true,
         "release_date": "2026-05-01",
+        "structured_output": true,
+        "temperature": false,
+        "tool_call": true
+      },
+      "xpersona-gpt-5.5": {
+        "attachment": false,
+        "cost": {
+          "cache_read": 0.3,
+          "input": 3,
+          "output": 18,
+          "reasoning": 18
+        },
+        "description": "GPT-5.5 は xpersona によって提供される AI モデルです。",
+        "family": "gpt",
+        "id": "xpersona-gpt-5.5",
+        "interleaved": {
+          "field": "reasoning_content"
+        },
+        "knowledge": "2025-12-30",
+        "last_updated": "2026-05-29",
+        "limit": {
+          "context": 1000000,
+          "output": 128000
+        },
+        "modalities": {
+          "input": [
+            "text",
+            "image"
+          ],
+          "output": [
+            "text"
+          ]
+        },
+        "name": "GPT-5.5",
+        "open_weights": false,
+        "reasoning": true,
+        "release_date": "2026-05-29",
         "structured_output": true,
         "temperature": false,
         "tool_call": true
