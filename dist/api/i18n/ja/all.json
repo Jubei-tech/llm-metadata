@@ -16588,6 +16588,119 @@
         "temperature": true,
         "tool_call": true
       },
+      "openai.gpt-5.4": {
+        "attachment": true,
+        "cost": {
+          "cache_read": 0.275,
+          "input": 2.75,
+          "output": 16.5
+        },
+        "description": "GPT-5.4 は amazon-bedrock によって提供される AI モデルです。",
+        "family": "gpt",
+        "id": "openai.gpt-5.4",
+        "knowledge": "2025-08-31",
+        "last_updated": "2026-06-01",
+        "limit": {
+          "context": 272000,
+          "output": 128000
+        },
+        "modalities": {
+          "input": [
+            "text",
+            "image",
+            "pdf"
+          ],
+          "output": [
+            "text"
+          ]
+        },
+        "name": "GPT-5.4",
+        "open_weights": false,
+        "provider": {
+          "api": "https://bedrock-mantle.${AWS_REGION}.api.aws/openai/v1",
+          "npm": "@ai-sdk/amazon-bedrock/mantle",
+          "shape": "responses"
+        },
+        "reasoning": true,
+        "release_date": "2026-03-05",
+        "structured_output": true,
+        "temperature": false,
+        "tool_call": true
+      },
+      "openai.gpt-5.5": {
+        "attachment": true,
+        "cost": {
+          "cache_read": 0.55,
+          "input": 5.5,
+          "output": 33
+        },
+        "description": "GPT-5.5 は amazon-bedrock によって提供される AI モデルです。",
+        "family": "gpt",
+        "id": "openai.gpt-5.5",
+        "knowledge": "2025-12-01",
+        "last_updated": "2026-06-01",
+        "limit": {
+          "context": 272000,
+          "output": 128000
+        },
+        "modalities": {
+          "input": [
+            "text",
+            "image",
+            "pdf"
+          ],
+          "output": [
+            "text"
+          ]
+        },
+        "name": "GPT-5.5",
+        "open_weights": false,
+        "provider": {
+          "api": "https://bedrock-mantle.${AWS_REGION}.api.aws/openai/v1",
+          "npm": "@ai-sdk/amazon-bedrock/mantle",
+          "shape": "responses"
+        },
+        "reasoning": true,
+        "release_date": "2026-04-23",
+        "structured_output": true,
+        "temperature": false,
+        "tool_call": true
+      },
+      "openai.gpt-oss-120b": {
+        "attachment": false,
+        "cost": {
+          "input": 0.15,
+          "output": 0.6
+        },
+        "description": "gpt-oss-120b は amazon-bedrock によって提供される AI モデルです。",
+        "family": "gpt-oss",
+        "id": "openai.gpt-oss-120b",
+        "last_updated": "2025-08-05",
+        "limit": {
+          "context": 128000,
+          "output": 16384
+        },
+        "modalities": {
+          "input": [
+            "text"
+          ],
+          "output": [
+            "text"
+          ]
+        },
+        "name": "gpt-oss-120b",
+        "open_weights": false,
+        "provider": {
+          "api": "https://bedrock-mantle.${AWS_REGION}.api.aws/v1",
+          "npm": "@ai-sdk/amazon-bedrock/mantle",
+          "shape": "responses"
+        },
+        "reasoning": false,
+        "release_date": "2025-08-05",
+        "structured_output": true,
+        "temperature": true,
+        "tool_call": true
+      },
       "openai.gpt-oss-120b-1:0": {
         "attachment": false,
         "cost": {
@@ -16612,6 +16725,41 @@
         },
         "name": "gpt-oss-120b",
         "open_weights": false,
+        "reasoning": false,
+        "release_date": "2025-08-05",
+        "structured_output": true,
+        "temperature": true,
+        "tool_call": true
+      },
+      "openai.gpt-oss-20b": {
+        "attachment": false,
+        "cost": {
+          "input": 0.07,
+          "output": 0.3
+        },
+        "description": "gpt-oss-20b は amazon-bedrock によって提供される AI モデルです。",
+        "family": "gpt-oss",
+        "id": "openai.gpt-oss-20b",
+        "last_updated": "2025-08-05",
+        "limit": {
+          "context": 128000,
+          "output": 16384
+        },
+        "modalities": {
+          "input": [
+            "text"
+          ],
+          "output": [
+            "text"
+          ]
+        },
+        "name": "gpt-oss-20b",
+        "open_weights": false,
+        "provider": {
+          "api": "https://bedrock-mantle.${AWS_REGION}.api.aws/v1",
+          "npm": "@ai-sdk/amazon-bedrock/mantle",
+          "shape": "responses"
+        },
         "reasoning": false,
         "release_date": "2025-08-05",
         "structured_output": true,
@@ -46874,6 +47022,36 @@
         "temperature": true,
         "tool_call": false
       },
+      "gemini-2.5-flash-tts": {
+        "attachment": false,
+        "cost": {
+          "input": 0.5,
+          "output": 10
+        },
+        "description": "Gemini 2.5 Flash TTS は google によって提供される AI モデルです。",
+        "family": "gemini-flash",
+        "id": "gemini-2.5-flash-tts",
+        "knowledge": "2025-01",
+        "last_updated": "2025-12-10",
+        "limit": {
+          "context": 32768,
+          "output": 16384
+        },
+        "modalities": {
+          "input": [
+            "text"
+          ],
+          "output": [
+            "audio"
+          ]
+        },
+        "name": "Gemini 2.5 Flash TTS",
+        "open_weights": false,
+        "reasoning": false,
+        "release_date": "2025-09-30",
+        "temperature": true,
+        "tool_call": false
+      },
       "gemini-2.5-pro": {
         "attachment": true,
         "cost": {
@@ -47010,6 +47188,38 @@
         "structured_output": true,
         "temperature": true,
         "tool_call": true
+      },
+      "gemini-3-pro-image-preview": {
+        "attachment": true,
+        "cost": {
+          "input": 2,
+          "output": 120
+        },
+        "description": "Nano Banana Pro は google によって提供される AI モデルです。",
+        "family": "gemini-pro",
+        "id": "gemini-3-pro-image-preview",
+        "knowledge": "2025-01",
+        "last_updated": "2025-11-20",
+        "limit": {
+          "context": 65536,
+          "output": 32768
+        },
+        "modalities": {
+          "input": [
+            "text",
+            "image"
+          ],
+          "output": [
+            "text",
+            "image"
+          ]
+        },
+        "name": "Nano Banana Pro",
+        "open_weights": false,
+        "reasoning": true,
+        "release_date": "2025-11-20",
+        "temperature": true,
+        "tool_call": false
       },
       "gemini-3-pro-preview": {
         "attachment": true,
@@ -92424,35 +92634,6 @@
         "structured_output": true,
         "tool_call": true
       },
-      "mercury-coder-small": {
-        "attachment": false,
-        "cost": {
-          "input": 0.25,
-          "output": 1
-        },
-        "description": "Mercury Coder Small は nano-gpt によって提供される AI モデルです。",
-        "id": "mercury-coder-small",
-        "last_updated": "2024-01-01",
-        "limit": {
-          "context": 32768,
-          "input": 32768,
-          "output": 16384
-        },
-        "modalities": {
-          "input": [
-            "text"
-          ],
-          "output": [
-            "text"
-          ]
-        },
-        "name": "Mercury Coder Small",
-        "open_weights": false,
-        "reasoning": false,
-        "release_date": "2024-01-01",
-        "structured_output": false,
-        "tool_call": false
-      },
       "meta-llama/llama-3.1-8b-instruct": {
         "attachment": false,
         "cost": {
@@ -114991,8 +115172,26 @@
         "cost": {
           "cache_read": 0.05,
           "cache_write": 0.625,
+          "context_over_200k": {
+            "cache_read": 0.2,
+            "cache_write": 2.5,
+            "input": 2,
+            "output": 6
+          },
           "input": 0.5,
-          "output": 3
+          "output": 3,
+          "tiers": [
+            {
+              "cache_read": 0.2,
+              "cache_write": 2.5,
+              "input": 2,
+              "output": 6,
+              "tier": {
+                "size": 256000,
+                "type": "context"
+              }
+            }
+          ]
         },
         "description": "Qwen3.6 Plus は opencode-go によって提供される AI モデルです。",
         "family": "qwen3.6",
@@ -115000,7 +115199,7 @@
         "knowledge": "2025-04",
         "last_updated": "2026-04-02",
         "limit": {
-          "context": 262144,
+          "context": 1000000,
           "output": 65536
         },
         "modalities": {
@@ -115062,15 +115261,33 @@
         "cost": {
           "cache_read": 0.04,
           "cache_write": 0.5,
+          "context_over_200k": {
+            "cache_read": 0.12,
+            "cache_write": 1.5,
+            "input": 1.2,
+            "output": 4.8
+          },
           "input": 0.4,
-          "output": 1.6
+          "output": 1.6,
+          "tiers": [
+            {
+              "cache_read": 0.12,
+              "cache_write": 1.5,
+              "input": 1.2,
+              "output": 4.8,
+              "tier": {
+                "size": 256000,
+                "type": "context"
+              }
+            }
+          ]
         },
         "description": "Qwen3.7 Plus は opencode-go によって提供される AI モデルです。",
         "family": "qwen3.7-plus",
         "id": "qwen3.7-plus",
         "last_updated": "2026-06-02",
         "limit": {
-          "context": 262144,
+          "context": 1000000,
           "output": 65536
         },
         "modalities": {
@@ -121360,6 +121577,7 @@
         "last_updated": "2025-08-07",
         "limit": {
           "context": 400000,
+          "input": 272000,
           "output": 128000
         },
         "modalities": {
@@ -121428,6 +121646,7 @@
         "last_updated": "2025-09-15",
         "limit": {
           "context": 400000,
+          "input": 272000,
           "output": 128000
         },
         "modalities": {
@@ -121530,6 +121749,7 @@
         "last_updated": "2025-08-07",
         "limit": {
           "context": 400000,
+          "input": 272000,
           "output": 128000
         },
         "modalities": {
@@ -121564,6 +121784,7 @@
         "last_updated": "2025-08-07",
         "limit": {
           "context": 400000,
+          "input": 272000,
           "output": 128000
         },
         "modalities": {
@@ -121597,6 +121818,7 @@
         "last_updated": "2025-10-06",
         "limit": {
           "context": 400000,
+          "input": 272000,
           "output": 128000
         },
         "modalities": {
@@ -121631,6 +121853,7 @@
         "last_updated": "2025-11-13",
         "limit": {
           "context": 400000,
+          "input": 272000,
           "output": 128000
         },
         "modalities": {
@@ -121699,6 +121922,7 @@
         "last_updated": "2025-11-13",
         "limit": {
           "context": 400000,
+          "input": 272000,
           "output": 128000
         },
         "modalities": {
@@ -121732,6 +121956,7 @@
         "last_updated": "2025-11-13",
         "limit": {
           "context": 400000,
+          "input": 272000,
           "output": 128000
         },
         "modalities": {
@@ -121765,6 +121990,7 @@
         "last_updated": "2025-11-13",
         "limit": {
           "context": 400000,
+          "input": 272000,
           "output": 100000
         },
         "modalities": {
@@ -121798,6 +122024,7 @@
         "last_updated": "2025-12-11",
         "limit": {
           "context": 400000,
+          "input": 272000,
           "output": 128000
         },
         "modalities": {
@@ -121866,6 +122093,7 @@
         "last_updated": "2025-12-11",
         "limit": {
           "context": 400000,
+          "input": 272000,
           "output": 128000
         },
         "modalities": {
@@ -121898,6 +122126,7 @@
         "last_updated": "2025-12-11",
         "limit": {
           "context": 400000,
+          "input": 272000,
           "output": 128000
         },
         "modalities": {
@@ -121965,6 +122194,7 @@
         "last_updated": "2026-02-05",
         "limit": {
           "context": 400000,
+          "input": 272000,
           "output": 128000
         },
         "modalities": {
@@ -121999,6 +122229,7 @@
         "last_updated": "2026-03-05",
         "limit": {
           "context": 1050000,
+          "input": 922000,
           "output": 128000
         },
         "modalities": {
@@ -122067,6 +122298,7 @@
         "last_updated": "2026-03-17",
         "limit": {
           "context": 400000,
+          "input": 272000,
           "output": 128000
         },
         "modalities": {
@@ -122101,6 +122333,7 @@
         "last_updated": "2026-03-17",
         "limit": {
           "context": 400000,
+          "input": 272000,
           "output": 128000
         },
         "modalities": {
@@ -122169,6 +122402,7 @@
         "last_updated": "2026-04-23",
         "limit": {
           "context": 1050000,
+          "input": 922000,
           "output": 128000
         },
         "modalities": {
@@ -122202,6 +122436,7 @@
         "last_updated": "2026-04-23",
         "limit": {
           "context": 1050000,
+          "input": 922000,
           "output": 128000
         },
         "modalities": {
@@ -147452,7 +147687,7 @@
         "tool_call": true
       }
     },
-    "name": "StepFun (China)",
+    "name": "StepFun",
     "npm": "@ai-sdk/openai-compatible"
   },
   "stepfun-ai": {
@@ -147536,7 +147771,7 @@
         "tool_call": true
       }
     },
-    "name": "StepFun",
+    "name": "StepFun AI",
     "npm": "@ai-sdk/openai-compatible"
   },
   "submodel": {
@@ -155981,35 +156216,6 @@
         "open_weights": false,
         "reasoning": true,
         "release_date": "2026-02-24",
-        "temperature": true,
-        "tool_call": true
-      },
-      "inception/mercury-coder-small": {
-        "attachment": false,
-        "cost": {
-          "input": 0.25,
-          "output": 1
-        },
-        "description": "Mercury Coder Small Beta は vercel によって提供される AI モデルです。",
-        "family": "mercury",
-        "id": "inception/mercury-coder-small",
-        "last_updated": "2026-05-01",
-        "limit": {
-          "context": 32000,
-          "output": 16384
-        },
-        "modalities": {
-          "input": [
-            "text"
-          ],
-          "output": [
-            "text"
-          ]
-        },
-        "name": "Mercury Coder Small Beta",
-        "open_weights": false,
-        "reasoning": false,
-        "release_date": "2025-02-26",
         "temperature": true,
         "tool_call": true
       },
