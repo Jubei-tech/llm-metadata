@@ -9927,7 +9927,7 @@
       "id": "llama3.1-8b",
       "name": "Llama 3.1 8B",
       "providerId": "cerebras",
-      "updated": "2025-01-01"
+      "updated": "2026-05-27"
     },
     {
       "flags": {
@@ -25265,6 +25265,17 @@
     },
     {
       "flags": {
+        "attachment": true,
+        "reasoning": true,
+        "tool_call": true
+      },
+      "id": "minimax-m3",
+      "name": "MiniMax-M3",
+      "providerId": "llmgateway",
+      "updated": "2026-06-01"
+    },
+    {
+      "flags": {
         "attachment": false,
         "reasoning": true,
         "tool_call": false
@@ -25856,6 +25867,17 @@
       "name": "Qwen3.7 Max",
       "providerId": "llmgateway",
       "updated": "2026-05-21"
+    },
+    {
+      "flags": {
+        "attachment": false,
+        "reasoning": true,
+        "tool_call": true
+      },
+      "id": "qwen3.7-plus",
+      "name": "Qwen3.7 Plus",
+      "providerId": "llmgateway",
+      "updated": "2026-06-02"
     },
     {
       "flags": {
@@ -41679,17 +41701,6 @@
       "flags": {
         "attachment": false,
         "reasoning": false,
-        "tool_call": true
-      },
-      "id": "nex-agi/deepseek-v3.1-nex-n1",
-      "name": "DeepSeek V3.1 Nex N1",
-      "providerId": "openrouter",
-      "updated": "2025-12-08"
-    },
-    {
-      "flags": {
-        "attachment": false,
-        "reasoning": false,
         "tool_call": false
       },
       "id": "nousresearch/hermes-3-llama-3.1-405b",
@@ -52255,7 +52266,7 @@
       "id": "google-gemma-4-31b-it",
       "name": "Google Gemma 4 31B Instruct",
       "providerId": "venice",
-      "updated": "2026-06-04"
+      "updated": "2026-06-08"
     },
     {
       "flags": {
@@ -52432,6 +52443,17 @@
       "name": "NVIDIA Nemotron 3 Nano 30B",
       "providerId": "venice",
       "updated": "2026-03-12"
+    },
+    {
+      "flags": {
+        "attachment": true,
+        "reasoning": true,
+        "tool_call": true
+      },
+      "id": "nvidia-nemotron-3-ultra-550b-a55b",
+      "name": "NVIDIA Nemotron 3 Ultra",
+      "providerId": "venice",
+      "updated": "2026-06-08"
     },
     {
       "flags": {
@@ -58500,7 +58522,7 @@
       "doc": "https://llmgateway.io/docs",
       "iconURL": "https://models.dev/logos/llmgateway.svg",
       "id": "llmgateway",
-      "modelCount": 189,
+      "modelCount": 191,
       "name": "LLM Gateway"
     },
     {
@@ -58729,7 +58751,7 @@
       "iconURL": "https://models.dev/logos/openrouter.svg",
       "id": "openrouter",
       "lobeIcon": "OpenRouter.Color",
-      "modelCount": 341,
+      "modelCount": 340,
       "name": "OpenRouter"
     },
     {
@@ -58979,7 +59001,7 @@
       "iconURL": "https://models.dev/logos/venice.svg",
       "id": "venice",
       "lobeIcon": "VeniceAI",
-      "modelCount": 71,
+      "modelCount": 72,
       "name": "Venice AI"
     },
     {

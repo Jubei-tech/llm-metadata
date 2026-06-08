@@ -554,7 +554,7 @@
       "doc": "https://llmgateway.io/docs",
       "iconURL": "https://models.dev/logos/llmgateway.svg",
       "id": "llmgateway",
-      "modelCount": 189,
+      "modelCount": 191,
       "name": "LLM Gateway"
     },
     {
@@ -783,7 +783,7 @@
       "iconURL": "https://models.dev/logos/openrouter.svg",
       "id": "openrouter",
       "lobeIcon": "OpenRouter.Color",
-      "modelCount": 341,
+      "modelCount": 340,
       "name": "OpenRouter"
     },
     {
@@ -1033,7 +1033,7 @@
       "iconURL": "https://models.dev/logos/venice.svg",
       "id": "venice",
       "lobeIcon": "VeniceAI",
-      "modelCount": 71,
+      "modelCount": 72,
       "name": "Venice AI"
     },
     {

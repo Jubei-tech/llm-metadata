@@ -686,7 +686,7 @@
       "doc": "https://llmgateway.io/docs",
       "icon": "https://models.dev/logos/llmgateway.svg",
       "id": "llmgateway",
-      "modelCount": 189,
+      "modelCount": 191,
       "name": "LLM Gateway",
       "status": 1
     },
@@ -966,7 +966,7 @@
       "doc": "https://openrouter.ai/models",
       "icon": "lb:openrouter-color",
       "id": "openrouter",
-      "modelCount": 341,
+      "modelCount": 340,
       "name": "OpenRouter",
       "status": 1
     },
@@ -1276,7 +1276,7 @@
       "doc": "https://docs.venice.ai",
       "icon": "lb:veniceai",
       "id": "venice",
-      "modelCount": 71,
+      "modelCount": 72,
       "name": "Venice AI",
       "status": 1
     },
