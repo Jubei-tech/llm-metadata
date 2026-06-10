@@ -9787,7 +9787,7 @@
       "knowledge": "2025-04",
       "lastUpdated": "2026-06-04",
       "maxCtxTokens": 1000000,
-      "maxOutputTokens": 16384,
+      "maxOutputTokens": 65536,
       "modalities": {
         "input": [
           "text",
@@ -26392,6 +26392,78 @@
         "output": 1.68
       },
       "releaseDate": "2025-12-01",
+      "tags": []
+    },
+    {
+      "description": "DeepSeek-V4-Flash is an AI model provided by azure.",
+      "firm": "azure",
+      "flags": {
+        "attachment": false,
+        "audio": false,
+        "image": false,
+        "open_weights": true,
+        "reasoning": true,
+        "temperature": true,
+        "tool_call": false
+      },
+      "icon": "lb:azureai-color",
+      "id": "deepseek-v4-flash",
+      "knowledge": "2025-05",
+      "lastUpdated": "2026-04-24",
+      "maxCtxTokens": 1000000,
+      "maxOutputTokens": 384000,
+      "modalities": {
+        "input": [
+          "text"
+        ],
+        "output": [
+          "text"
+        ]
+      },
+      "name": "DeepSeek-V4-Flash",
+      "price": {
+        "cacheRead": null,
+        "cacheWrite": null,
+        "input": 1.74,
+        "output": 3.48
+      },
+      "releaseDate": "2026-04-24",
+      "tags": []
+    },
+    {
+      "description": "DeepSeek-V4-Pro is an AI model provided by azure.",
+      "firm": "azure",
+      "flags": {
+        "attachment": false,
+        "audio": false,
+        "image": false,
+        "open_weights": true,
+        "reasoning": true,
+        "temperature": true,
+        "tool_call": false
+      },
+      "icon": "lb:azureai-color",
+      "id": "deepseek-v4-pro",
+      "knowledge": "2025-05",
+      "lastUpdated": "2026-04-24",
+      "maxCtxTokens": 1000000,
+      "maxOutputTokens": 384000,
+      "modalities": {
+        "input": [
+          "text"
+        ],
+        "output": [
+          "text"
+        ]
+      },
+      "name": "DeepSeek-V4-Pro",
+      "price": {
+        "cacheRead": null,
+        "cacheWrite": null,
+        "input": 0.19,
+        "output": 0.51
+      },
+      "releaseDate": "2026-04-24",
       "tags": []
     },
     {
@@ -57144,43 +57216,7 @@
       "tags": []
     },
     {
-      "description": "ALLaM-2-7b is an AI model provided by groq.",
-      "firm": "groq",
-      "flags": {
-        "attachment": false,
-        "audio": false,
-        "image": false,
-        "open_weights": false,
-        "reasoning": false,
-        "temperature": true,
-        "tool_call": false
-      },
-      "icon": "lb:groq-color",
-      "id": "allam-2-7b",
-      "knowledge": "2024-09",
-      "lastUpdated": "2024-09",
-      "maxCtxTokens": 4096,
-      "maxOutputTokens": 4096,
-      "modalities": {
-        "input": [
-          "text"
-        ],
-        "output": [
-          "text"
-        ]
-      },
-      "name": "ALLaM-2-7b",
-      "price": {
-        "cacheRead": null,
-        "cacheWrite": null,
-        "input": null,
-        "output": null
-      },
-      "releaseDate": "2024-09",
-      "tags": []
-    },
-    {
-      "description": "Orpheus Arabic Saudi is an AI model provided by groq.",
+      "description": "Canopy Labs Orpheus Arabic Saudi is an AI model provided by groq.",
       "firm": "groq",
       "flags": {
         "attachment": false,
@@ -57188,12 +57224,12 @@
         "image": false,
         "open_weights": false,
         "reasoning": false,
-        "temperature": true,
+        "temperature": false,
         "tool_call": false
       },
       "icon": "lb:groq-color",
       "id": "canopylabs/orpheus-arabic-saudi",
-      "knowledge": "2025-12-16",
+      "knowledge": null,
       "lastUpdated": "2025-12-16",
       "maxCtxTokens": 4000,
       "maxOutputTokens": 50000,
@@ -57205,18 +57241,18 @@
           "audio"
         ]
       },
-      "name": "Orpheus Arabic Saudi",
+      "name": "Canopy Labs Orpheus Arabic Saudi",
       "price": {
         "cacheRead": null,
         "cacheWrite": null,
-        "input": 40,
+        "input": null,
         "output": null
       },
       "releaseDate": "2025-12-16",
       "tags": []
     },
     {
-      "description": "Orpheus V1 English is an AI model provided by groq.",
+      "description": "Canopy Labs Orpheus V1 English is an AI model provided by groq.",
       "firm": "groq",
       "flags": {
         "attachment": false,
@@ -57224,12 +57260,12 @@
         "image": false,
         "open_weights": false,
         "reasoning": false,
-        "temperature": true,
+        "temperature": false,
         "tool_call": false
       },
       "icon": "lb:groq-color",
       "id": "canopylabs/orpheus-v1-english",
-      "knowledge": "2025-12-19",
+      "knowledge": null,
       "lastUpdated": "2025-12-19",
       "maxCtxTokens": 4000,
       "maxOutputTokens": 50000,
@@ -57241,7 +57277,7 @@
           "audio"
         ]
       },
-      "name": "Orpheus V1 English",
+      "name": "Canopy Labs Orpheus V1 English",
       "price": {
         "cacheRead": null,
         "cacheWrite": null,
@@ -57252,78 +57288,6 @@
       "tags": []
     },
     {
-      "description": "DeepSeek R1 Distill Llama 70B is an AI model provided by groq.",
-      "firm": "groq",
-      "flags": {
-        "attachment": false,
-        "audio": false,
-        "image": false,
-        "open_weights": true,
-        "reasoning": true,
-        "temperature": true,
-        "tool_call": true
-      },
-      "icon": "lb:groq-color",
-      "id": "deepseek-r1-distill-llama-70b",
-      "knowledge": "2024-07",
-      "lastUpdated": "2025-01-20",
-      "maxCtxTokens": 131072,
-      "maxOutputTokens": 8192,
-      "modalities": {
-        "input": [
-          "text"
-        ],
-        "output": [
-          "text"
-        ]
-      },
-      "name": "DeepSeek R1 Distill Llama 70B",
-      "price": {
-        "cacheRead": null,
-        "cacheWrite": null,
-        "input": 0.75,
-        "output": 0.99
-      },
-      "releaseDate": "2025-01-20",
-      "tags": []
-    },
-    {
-      "description": "Gemma 2 9B is an AI model provided by groq.",
-      "firm": "groq",
-      "flags": {
-        "attachment": false,
-        "audio": false,
-        "image": false,
-        "open_weights": true,
-        "reasoning": false,
-        "temperature": true,
-        "tool_call": true
-      },
-      "icon": "lb:groq-color",
-      "id": "gemma2-9b-it",
-      "knowledge": "2024-06",
-      "lastUpdated": "2024-06-27",
-      "maxCtxTokens": 8192,
-      "maxOutputTokens": 8192,
-      "modalities": {
-        "input": [
-          "text"
-        ],
-        "output": [
-          "text"
-        ]
-      },
-      "name": "Gemma 2 9B",
-      "price": {
-        "cacheRead": null,
-        "cacheWrite": null,
-        "input": 0.2,
-        "output": 0.2
-      },
-      "releaseDate": "2024-06-27",
-      "tags": []
-    },
-    {
       "description": "Compound is an AI model provided by groq.",
       "firm": "groq",
       "flags": {
@@ -57331,13 +57295,13 @@
         "audio": false,
         "image": false,
         "open_weights": false,
-        "reasoning": true,
+        "reasoning": false,
         "temperature": true,
-        "tool_call": true
+        "tool_call": false
       },
       "icon": "lb:groq-color",
       "id": "groq/compound",
-      "knowledge": "2025-09-04",
+      "knowledge": null,
       "lastUpdated": "2025-09-04",
       "maxCtxTokens": 131072,
       "maxOutputTokens": 8192,
@@ -57367,13 +57331,13 @@
         "audio": false,
         "image": false,
         "open_weights": false,
-        "reasoning": true,
+        "reasoning": false,
         "temperature": true,
-        "tool_call": true
+        "tool_call": false
       },
       "icon": "lb:groq-color",
       "id": "groq/compound-mini",
-      "knowledge": "2025-09-04",
+      "knowledge": null,
       "lastUpdated": "2025-09-04",
       "maxCtxTokens": 131072,
       "maxOutputTokens": 8192,
@@ -57396,7 +57360,7 @@
       "tags": []
     },
     {
-      "description": "Llama 3.1 8B Instant is an AI model provided by groq.",
+      "description": "Llama 3.1 8B is an AI model provided by groq.",
       "firm": "groq",
       "flags": {
         "attachment": false,
@@ -57421,7 +57385,7 @@
           "text"
         ]
       },
-      "name": "Llama 3.1 8B Instant",
+      "name": "Llama 3.1 8B",
       "price": {
         "cacheRead": null,
         "cacheWrite": null,
@@ -57432,7 +57396,7 @@
       "tags": []
     },
     {
-      "description": "Llama 3.3 70B Versatile is an AI model provided by groq.",
+      "description": "Llama 3.3 70B is an AI model provided by groq.",
       "firm": "groq",
       "flags": {
         "attachment": false,
@@ -57457,7 +57421,7 @@
           "text"
         ]
       },
-      "name": "Llama 3.3 70B Versatile",
+      "name": "Llama 3.3 70B",
       "price": {
         "cacheRead": null,
         "cacheWrite": null,
@@ -57468,155 +57432,10 @@
       "tags": []
     },
     {
-      "description": "Llama Guard 3 8B is an AI model provided by groq.",
+      "description": "Llama 4 Scout 17B 16E is an AI model provided by groq.",
       "firm": "groq",
       "flags": {
-        "attachment": false,
-        "audio": false,
-        "image": false,
-        "open_weights": true,
-        "reasoning": false,
-        "temperature": true,
-        "tool_call": false
-      },
-      "icon": "lb:groq-color",
-      "id": "llama-guard-3-8b",
-      "knowledge": null,
-      "lastUpdated": "2024-07-23",
-      "maxCtxTokens": 8192,
-      "maxOutputTokens": 8192,
-      "modalities": {
-        "input": [
-          "text"
-        ],
-        "output": [
-          "text"
-        ]
-      },
-      "name": "Llama Guard 3 8B",
-      "price": {
-        "cacheRead": null,
-        "cacheWrite": null,
-        "input": 0.2,
-        "output": 0.2
-      },
-      "releaseDate": "2024-07-23",
-      "tags": []
-    },
-    {
-      "description": "Llama 3 70B is an AI model provided by groq.",
-      "firm": "groq",
-      "flags": {
-        "attachment": false,
-        "audio": false,
-        "image": false,
-        "open_weights": true,
-        "reasoning": false,
-        "temperature": true,
-        "tool_call": true
-      },
-      "icon": "lb:groq-color",
-      "id": "llama3-70b-8192",
-      "knowledge": "2023-03",
-      "lastUpdated": "2024-04-18",
-      "maxCtxTokens": 8192,
-      "maxOutputTokens": 8192,
-      "modalities": {
-        "input": [
-          "text"
-        ],
-        "output": [
-          "text"
-        ]
-      },
-      "name": "Llama 3 70B",
-      "price": {
-        "cacheRead": null,
-        "cacheWrite": null,
-        "input": 0.59,
-        "output": 0.79
-      },
-      "releaseDate": "2024-04-18",
-      "tags": []
-    },
-    {
-      "description": "Llama 3 8B is an AI model provided by groq.",
-      "firm": "groq",
-      "flags": {
-        "attachment": false,
-        "audio": false,
-        "image": false,
-        "open_weights": true,
-        "reasoning": false,
-        "temperature": true,
-        "tool_call": true
-      },
-      "icon": "lb:groq-color",
-      "id": "llama3-8b-8192",
-      "knowledge": "2023-03",
-      "lastUpdated": "2024-04-18",
-      "maxCtxTokens": 8192,
-      "maxOutputTokens": 8192,
-      "modalities": {
-        "input": [
-          "text"
-        ],
-        "output": [
-          "text"
-        ]
-      },
-      "name": "Llama 3 8B",
-      "price": {
-        "cacheRead": null,
-        "cacheWrite": null,
-        "input": 0.05,
-        "output": 0.08
-      },
-      "releaseDate": "2024-04-18",
-      "tags": []
-    },
-    {
-      "description": "Llama 4 Maverick 17B is an AI model provided by groq.",
-      "firm": "groq",
-      "flags": {
-        "attachment": false,
-        "audio": false,
-        "image": true,
-        "open_weights": true,
-        "reasoning": false,
-        "temperature": true,
-        "tool_call": true
-      },
-      "icon": "lb:groq-color",
-      "id": "meta-llama/llama-4-maverick-17b-128e-instruct",
-      "knowledge": "2024-08",
-      "lastUpdated": "2025-04-05",
-      "maxCtxTokens": 131072,
-      "maxOutputTokens": 8192,
-      "modalities": {
-        "input": [
-          "text",
-          "image"
-        ],
-        "output": [
-          "text"
-        ]
-      },
-      "name": "Llama 4 Maverick 17B",
-      "price": {
-        "cacheRead": null,
-        "cacheWrite": null,
-        "input": 0.2,
-        "output": 0.6
-      },
-      "releaseDate": "2025-04-05",
-      "tags": []
-    },
-    {
-      "description": "Llama 4 Scout 17B is an AI model provided by groq.",
-      "firm": "groq",
-      "flags": {
-        "attachment": false,
+        "attachment": true,
         "audio": false,
         "image": true,
         "open_weights": true,
@@ -57639,49 +57458,12 @@
           "text"
         ]
       },
-      "name": "Llama 4 Scout 17B",
+      "name": "Llama 4 Scout 17B 16E",
       "price": {
         "cacheRead": null,
         "cacheWrite": null,
         "input": 0.11,
         "output": 0.34
-      },
-      "releaseDate": "2025-04-05",
-      "tags": []
-    },
-    {
-      "description": "Llama Guard 4 12B is an AI model provided by groq.",
-      "firm": "groq",
-      "flags": {
-        "attachment": false,
-        "audio": false,
-        "image": true,
-        "open_weights": true,
-        "reasoning": false,
-        "temperature": true,
-        "tool_call": false
-      },
-      "icon": "lb:groq-color",
-      "id": "meta-llama/llama-guard-4-12b",
-      "knowledge": null,
-      "lastUpdated": "2025-04-05",
-      "maxCtxTokens": 131072,
-      "maxOutputTokens": 1024,
-      "modalities": {
-        "input": [
-          "text",
-          "image"
-        ],
-        "output": [
-          "text"
-        ]
-      },
-      "name": "Llama Guard 4 12B",
-      "price": {
-        "cacheRead": null,
-        "cacheWrite": null,
-        "input": 0.2,
-        "output": 0.2
       },
       "releaseDate": "2025-04-05",
       "tags": []
@@ -57695,13 +57477,13 @@
         "image": false,
         "open_weights": true,
         "reasoning": false,
-        "temperature": true,
+        "temperature": false,
         "tool_call": false
       },
       "icon": "lb:groq-color",
       "id": "meta-llama/llama-prompt-guard-2-22m",
-      "knowledge": "2024-10",
-      "lastUpdated": "2024-10-01",
+      "knowledge": null,
+      "lastUpdated": "2025-05-29",
       "maxCtxTokens": 512,
       "maxOutputTokens": 512,
       "modalities": {
@@ -57719,11 +57501,11 @@
         "input": 0.03,
         "output": 0.03
       },
-      "releaseDate": "2024-10-01",
+      "releaseDate": "2025-05-29",
       "tags": []
     },
     {
-      "description": "Llama Prompt Guard 2 86M is an AI model provided by groq.",
+      "description": "Prompt Guard 2 86M is an AI model provided by groq.",
       "firm": "groq",
       "flags": {
         "attachment": false,
@@ -57731,13 +57513,13 @@
         "image": false,
         "open_weights": true,
         "reasoning": false,
-        "temperature": true,
+        "temperature": false,
         "tool_call": false
       },
       "icon": "lb:groq-color",
       "id": "meta-llama/llama-prompt-guard-2-86m",
-      "knowledge": "2024-10",
-      "lastUpdated": "2024-10-01",
+      "knowledge": null,
+      "lastUpdated": "2025-05-29",
       "maxCtxTokens": 512,
       "maxOutputTokens": 512,
       "modalities": {
@@ -57748,122 +57530,14 @@
           "text"
         ]
       },
-      "name": "Llama Prompt Guard 2 86M",
+      "name": "Prompt Guard 2 86M",
       "price": {
         "cacheRead": null,
         "cacheWrite": null,
         "input": 0.04,
         "output": 0.04
       },
-      "releaseDate": "2024-10-01",
-      "tags": []
-    },
-    {
-      "description": "Mistral Saba 24B is an AI model provided by groq.",
-      "firm": "groq",
-      "flags": {
-        "attachment": false,
-        "audio": false,
-        "image": false,
-        "open_weights": false,
-        "reasoning": false,
-        "temperature": true,
-        "tool_call": true
-      },
-      "icon": "lb:groq-color",
-      "id": "mistral-saba-24b",
-      "knowledge": "2024-08",
-      "lastUpdated": "2025-02-06",
-      "maxCtxTokens": 32768,
-      "maxOutputTokens": 32768,
-      "modalities": {
-        "input": [
-          "text"
-        ],
-        "output": [
-          "text"
-        ]
-      },
-      "name": "Mistral Saba 24B",
-      "price": {
-        "cacheRead": null,
-        "cacheWrite": null,
-        "input": 0.79,
-        "output": 0.79
-      },
-      "releaseDate": "2025-02-06",
-      "tags": []
-    },
-    {
-      "description": "Kimi K2 Instruct is an AI model provided by groq.",
-      "firm": "groq",
-      "flags": {
-        "attachment": false,
-        "audio": false,
-        "image": false,
-        "open_weights": true,
-        "reasoning": false,
-        "temperature": true,
-        "tool_call": true
-      },
-      "icon": "lb:groq-color",
-      "id": "moonshotai/kimi-k2-instruct",
-      "knowledge": "2024-10",
-      "lastUpdated": "2025-07-14",
-      "maxCtxTokens": 131072,
-      "maxOutputTokens": 16384,
-      "modalities": {
-        "input": [
-          "text"
-        ],
-        "output": [
-          "text"
-        ]
-      },
-      "name": "Kimi K2 Instruct",
-      "price": {
-        "cacheRead": null,
-        "cacheWrite": null,
-        "input": 1,
-        "output": 3
-      },
-      "releaseDate": "2025-07-14",
-      "tags": []
-    },
-    {
-      "description": "Kimi K2 Instruct 0905 is an AI model provided by groq.",
-      "firm": "groq",
-      "flags": {
-        "attachment": false,
-        "audio": false,
-        "image": false,
-        "open_weights": true,
-        "reasoning": false,
-        "temperature": true,
-        "tool_call": true
-      },
-      "icon": "lb:groq-color",
-      "id": "moonshotai/kimi-k2-instruct-0905",
-      "knowledge": "2024-10",
-      "lastUpdated": "2026-05-27",
-      "maxCtxTokens": 262144,
-      "maxOutputTokens": 16384,
-      "modalities": {
-        "input": [
-          "text"
-        ],
-        "output": [
-          "text"
-        ]
-      },
-      "name": "Kimi K2 Instruct 0905",
-      "price": {
-        "cacheRead": 0.5,
-        "cacheWrite": null,
-        "input": 1,
-        "output": 3
-      },
-      "releaseDate": "2025-09-05",
+      "releaseDate": "2025-05-29",
       "tags": []
     },
     {
@@ -57881,7 +57555,7 @@
       "icon": "lb:groq-color",
       "id": "openai/gpt-oss-120b",
       "knowledge": null,
-      "lastUpdated": "2026-05-27",
+      "lastUpdated": "2025-10-21",
       "maxCtxTokens": 131072,
       "maxOutputTokens": 65536,
       "modalities": {
@@ -57917,7 +57591,7 @@
       "icon": "lb:groq-color",
       "id": "openai/gpt-oss-20b",
       "knowledge": null,
-      "lastUpdated": "2026-05-27",
+      "lastUpdated": "2025-09-25",
       "maxCtxTokens": 131072,
       "maxOutputTokens": 65536,
       "modalities": {
@@ -57953,7 +57627,7 @@
       "icon": "lb:groq-color",
       "id": "openai/gpt-oss-safeguard-20b",
       "knowledge": null,
-      "lastUpdated": "2025-03-05",
+      "lastUpdated": "2025-10-29",
       "maxCtxTokens": 131072,
       "maxOutputTokens": 65536,
       "modalities": {
@@ -57971,47 +57645,11 @@
         "input": 0.075,
         "output": 0.3
       },
-      "releaseDate": "2025-03-05",
+      "releaseDate": "2025-10-29",
       "tags": []
     },
     {
-      "description": "Qwen QwQ 32B is an AI model provided by groq.",
-      "firm": "groq",
-      "flags": {
-        "attachment": false,
-        "audio": false,
-        "image": false,
-        "open_weights": true,
-        "reasoning": true,
-        "temperature": true,
-        "tool_call": true
-      },
-      "icon": "lb:groq-color",
-      "id": "qwen-qwq-32b",
-      "knowledge": "2024-09",
-      "lastUpdated": "2024-11-27",
-      "maxCtxTokens": 131072,
-      "maxOutputTokens": 16384,
-      "modalities": {
-        "input": [
-          "text"
-        ],
-        "output": [
-          "text"
-        ]
-      },
-      "name": "Qwen QwQ 32B",
-      "price": {
-        "cacheRead": null,
-        "cacheWrite": null,
-        "input": 0.29,
-        "output": 0.39
-      },
-      "releaseDate": "2024-11-27",
-      "tags": []
-    },
-    {
-      "description": "Qwen3 32B is an AI model provided by groq.",
+      "description": "Qwen3-32B is an AI model provided by groq.",
       "firm": "groq",
       "flags": {
         "attachment": false,
@@ -58024,8 +57662,8 @@
       },
       "icon": "lb:groq-color",
       "id": "qwen/qwen3-32b",
-      "knowledge": "2024-11-08",
-      "lastUpdated": "2024-12-23",
+      "knowledge": null,
+      "lastUpdated": "2025-06-12",
       "maxCtxTokens": 131072,
       "maxOutputTokens": 40960,
       "modalities": {
@@ -58036,18 +57674,18 @@
           "text"
         ]
       },
-      "name": "Qwen3 32B",
+      "name": "Qwen3-32B",
       "price": {
         "cacheRead": null,
         "cacheWrite": null,
         "input": 0.29,
         "output": 0.59
       },
-      "releaseDate": "2024-12-23",
+      "releaseDate": "2025-06-11",
       "tags": []
     },
     {
-      "description": "Whisper Large V3 is an AI model provided by groq.",
+      "description": "Whisper is an AI model provided by groq.",
       "firm": "groq",
       "flags": {
         "attachment": false,
@@ -58060,10 +57698,10 @@
       },
       "icon": "lb:groq-color",
       "id": "whisper-large-v3",
-      "knowledge": "2023-09",
+      "knowledge": null,
       "lastUpdated": "2025-09-05",
-      "maxCtxTokens": 448,
-      "maxOutputTokens": 448,
+      "maxCtxTokens": 0,
+      "maxOutputTokens": 0,
       "modalities": {
         "input": [
           "audio"
@@ -58072,7 +57710,7 @@
           "text"
         ]
       },
-      "name": "Whisper Large V3",
+      "name": "Whisper",
       "price": {
         "cacheRead": null,
         "cacheWrite": null,
@@ -58083,7 +57721,7 @@
       "tags": []
     },
     {
-      "description": "Whisper Large v3 Turbo is an AI model provided by groq.",
+      "description": "Whisper Large V3 Turbo is an AI model provided by groq.",
       "firm": "groq",
       "flags": {
         "attachment": false,
@@ -58096,10 +57734,10 @@
       },
       "icon": "lb:groq-color",
       "id": "whisper-large-v3-turbo",
-      "knowledge": "2024-10",
+      "knowledge": null,
       "lastUpdated": "2024-10-01",
-      "maxCtxTokens": 448,
-      "maxOutputTokens": 448,
+      "maxCtxTokens": 0,
+      "maxOutputTokens": 0,
       "modalities": {
         "input": [
           "audio"
@@ -58108,7 +57746,7 @@
           "text"
         ]
       },
-      "name": "Whisper Large v3 Turbo",
+      "name": "Whisper Large V3 Turbo",
       "price": {
         "cacheRead": null,
         "cacheWrite": null,
@@ -121421,7 +121059,7 @@
       "knowledge": null,
       "lastUpdated": "2025-07-11",
       "maxCtxTokens": 131072,
-      "maxOutputTokens": 131072,
+      "maxOutputTokens": 32768,
       "modalities": {
         "input": [
           "text"
@@ -123642,78 +123280,6 @@
       "tags": []
     },
     {
-      "description": "DeepSeek V3.1 Terminus is an AI model provided by nvidia.",
-      "firm": "nvidia",
-      "flags": {
-        "attachment": false,
-        "audio": false,
-        "image": false,
-        "open_weights": false,
-        "reasoning": true,
-        "temperature": true,
-        "tool_call": true
-      },
-      "icon": "",
-      "id": "deepseek-ai/deepseek-v3.1-terminus",
-      "knowledge": "2025-01",
-      "lastUpdated": "2025-09-22",
-      "maxCtxTokens": 128000,
-      "maxOutputTokens": 8192,
-      "modalities": {
-        "input": [
-          "text"
-        ],
-        "output": [
-          "text"
-        ]
-      },
-      "name": "DeepSeek V3.1 Terminus",
-      "price": {
-        "cacheRead": null,
-        "cacheWrite": null,
-        "input": null,
-        "output": null
-      },
-      "releaseDate": "2025-09-22",
-      "tags": []
-    },
-    {
-      "description": "DeepSeek V3.2 is an AI model provided by nvidia.",
-      "firm": "nvidia",
-      "flags": {
-        "attachment": false,
-        "audio": false,
-        "image": false,
-        "open_weights": false,
-        "reasoning": true,
-        "temperature": true,
-        "tool_call": true
-      },
-      "icon": "",
-      "id": "deepseek-ai/deepseek-v3.2",
-      "knowledge": "2024-07",
-      "lastUpdated": "2025-12-01",
-      "maxCtxTokens": 163840,
-      "maxOutputTokens": 65536,
-      "modalities": {
-        "input": [
-          "text"
-        ],
-        "output": [
-          "text"
-        ]
-      },
-      "name": "DeepSeek V3.2",
-      "price": {
-        "cacheRead": null,
-        "cacheWrite": null,
-        "input": null,
-        "output": null
-      },
-      "releaseDate": "2025-12-01",
-      "tags": []
-    },
-    {
       "description": "DeepSeek V4 Flash is an AI model provided by nvidia.",
       "firm": "nvidia",
       "flags": {
@@ -123819,43 +123385,6 @@
         "output": null
       },
       "releaseDate": "2024-07-16",
-      "tags": []
-    },
-    {
-      "description": "Gemma-3-27B-IT is an AI model provided by nvidia.",
-      "firm": "nvidia",
-      "flags": {
-        "attachment": true,
-        "audio": false,
-        "image": true,
-        "open_weights": false,
-        "reasoning": true,
-        "temperature": true,
-        "tool_call": true
-      },
-      "icon": "",
-      "id": "google/gemma-3-27b-it",
-      "knowledge": "2024-12",
-      "lastUpdated": "2025-09-05",
-      "maxCtxTokens": 131072,
-      "maxOutputTokens": 8192,
-      "modalities": {
-        "input": [
-          "text",
-          "image"
-        ],
-        "output": [
-          "text"
-        ]
-      },
-      "name": "Gemma-3-27B-IT",
-      "price": {
-        "cacheRead": null,
-        "cacheWrite": null,
-        "input": null,
-        "output": null
-      },
-      "releaseDate": "2024-12-01",
       "tags": []
     },
     {
@@ -124411,11 +123940,11 @@
       "description": "Phi-4-Mini is an AI model provided by nvidia.",
       "firm": "nvidia",
       "flags": {
-        "attachment": true,
-        "audio": true,
-        "image": true,
-        "open_weights": false,
-        "reasoning": true,
+        "attachment": false,
+        "audio": false,
+        "image": false,
+        "open_weights": true,
+        "reasoning": false,
         "temperature": true,
         "tool_call": true
       },
@@ -124427,9 +123956,7 @@
       "maxOutputTokens": 8192,
       "modalities": {
         "input": [
-          "text",
-          "image",
-          "audio"
+          "text"
         ],
         "output": [
           "text"
@@ -124482,42 +124009,6 @@
       "tags": []
     },
     {
-      "description": "MiniMax-M2.5 is an AI model provided by nvidia.",
-      "firm": "nvidia",
-      "flags": {
-        "attachment": false,
-        "audio": false,
-        "image": false,
-        "open_weights": true,
-        "reasoning": true,
-        "temperature": true,
-        "tool_call": true
-      },
-      "icon": "",
-      "id": "minimaxai/minimax-m2.5",
-      "knowledge": "2025-08",
-      "lastUpdated": "2026-02-12",
-      "maxCtxTokens": 204800,
-      "maxOutputTokens": 131072,
-      "modalities": {
-        "input": [
-          "text"
-        ],
-        "output": [
-          "text"
-        ]
-      },
-      "name": "MiniMax-M2.5",
-      "price": {
-        "cacheRead": null,
-        "cacheWrite": null,
-        "input": null,
-        "output": null
-      },
-      "releaseDate": "2026-02-12",
-      "tags": []
-    },
-    {
       "description": "MiniMax-M2.7 is an AI model provided by nvidia.",
       "firm": "nvidia",
       "flags": {
@@ -124551,42 +124042,6 @@
         "output": null
       },
       "releaseDate": "2026-03-18",
-      "tags": []
-    },
-    {
-      "description": "Devstral-2-123B-Instruct-2512 is an AI model provided by nvidia.",
-      "firm": "nvidia",
-      "flags": {
-        "attachment": true,
-        "audio": false,
-        "image": false,
-        "open_weights": true,
-        "reasoning": true,
-        "temperature": true,
-        "tool_call": true
-      },
-      "icon": "",
-      "id": "mistralai/devstral-2-123b-instruct-2512",
-      "knowledge": "2025-12",
-      "lastUpdated": "2025-12-09",
-      "maxCtxTokens": 262144,
-      "maxOutputTokens": 262144,
-      "modalities": {
-        "input": [
-          "text"
-        ],
-        "output": [
-          "text"
-        ]
-      },
-      "name": "Devstral-2-123B-Instruct-2512",
-      "price": {
-        "cacheRead": null,
-        "cacheWrite": null,
-        "input": null,
-        "output": null
-      },
-      "releaseDate": "2025-12-08",
       "tags": []
     },
     {
@@ -124775,11 +124230,11 @@
       "description": "mistral-small-4-119b-2603 is an AI model provided by nvidia.",
       "firm": "nvidia",
       "flags": {
-        "attachment": false,
+        "attachment": true,
         "audio": false,
-        "image": false,
+        "image": true,
         "open_weights": true,
-        "reasoning": false,
+        "reasoning": true,
         "temperature": true,
         "tool_call": true
       },
@@ -124791,7 +124246,8 @@
       "maxOutputTokens": 8192,
       "modalities": {
         "input": [
-          "text"
+          "text",
+          "image"
         ],
         "output": [
           "text"
@@ -124880,42 +124336,6 @@
       "tags": []
     },
     {
-      "description": "Kimi K2 Instruct is an AI model provided by nvidia.",
-      "firm": "nvidia",
-      "flags": {
-        "attachment": false,
-        "audio": false,
-        "image": false,
-        "open_weights": false,
-        "reasoning": true,
-        "temperature": true,
-        "tool_call": true
-      },
-      "icon": "",
-      "id": "moonshotai/kimi-k2-instruct",
-      "knowledge": "2024-01",
-      "lastUpdated": "2025-09-05",
-      "maxCtxTokens": 128000,
-      "maxOutputTokens": 8192,
-      "modalities": {
-        "input": [
-          "text"
-        ],
-        "output": [
-          "text"
-        ]
-      },
-      "name": "Kimi K2 Instruct",
-      "price": {
-        "cacheRead": null,
-        "cacheWrite": null,
-        "input": null,
-        "output": null
-      },
-      "releaseDate": "2025-01-01",
-      "tags": []
-    },
-    {
       "description": "Kimi K2 0905 is an AI model provided by nvidia.",
       "firm": "nvidia",
       "flags": {
@@ -124949,42 +124369,6 @@
         "output": null
       },
       "releaseDate": "2025-09-05",
-      "tags": []
-    },
-    {
-      "description": "Kimi K2 Thinking is an AI model provided by nvidia.",
-      "firm": "nvidia",
-      "flags": {
-        "attachment": false,
-        "audio": false,
-        "image": false,
-        "open_weights": true,
-        "reasoning": true,
-        "temperature": true,
-        "tool_call": true
-      },
-      "icon": "",
-      "id": "moonshotai/kimi-k2-thinking",
-      "knowledge": "2025-07",
-      "lastUpdated": "2025-12",
-      "maxCtxTokens": 262144,
-      "maxOutputTokens": 262144,
-      "modalities": {
-        "input": [
-          "text"
-        ],
-        "output": [
-          "text"
-        ]
-      },
-      "name": "Kimi K2 Thinking",
-      "price": {
-        "cacheRead": null,
-        "cacheWrite": null,
-        "input": null,
-        "output": null
-      },
-      "releaseDate": "2025-11",
       "tags": []
     },
     {
@@ -125317,78 +124701,6 @@
         "output": null
       },
       "releaseDate": "2025-07-24",
-      "tags": []
-    },
-    {
-      "description": "Llama 3.3 Nemotron Super 49B v1 is an AI model provided by nvidia.",
-      "firm": "nvidia",
-      "flags": {
-        "attachment": false,
-        "audio": false,
-        "image": false,
-        "open_weights": true,
-        "reasoning": true,
-        "temperature": true,
-        "tool_call": true
-      },
-      "icon": "",
-      "id": "nvidia/llama-3_3-nemotron-super-49b-v1",
-      "knowledge": "2023-12",
-      "lastUpdated": "2025-04-07",
-      "maxCtxTokens": 131072,
-      "maxOutputTokens": 131072,
-      "modalities": {
-        "input": [
-          "text"
-        ],
-        "output": [
-          "text"
-        ]
-      },
-      "name": "Llama 3.3 Nemotron Super 49B v1",
-      "price": {
-        "cacheRead": null,
-        "cacheWrite": null,
-        "input": null,
-        "output": null
-      },
-      "releaseDate": "2025-04-07",
-      "tags": []
-    },
-    {
-      "description": "Llama 3.3 Nemotron Super 49B v1.5 is an AI model provided by nvidia.",
-      "firm": "nvidia",
-      "flags": {
-        "attachment": false,
-        "audio": false,
-        "image": false,
-        "open_weights": true,
-        "reasoning": true,
-        "temperature": true,
-        "tool_call": true
-      },
-      "icon": "",
-      "id": "nvidia/llama-3_3-nemotron-super-49b-v1_5",
-      "knowledge": "2023-12",
-      "lastUpdated": "2025-07-25",
-      "maxCtxTokens": 131072,
-      "maxOutputTokens": 131072,
-      "modalities": {
-        "input": [
-          "text"
-        ],
-        "output": [
-          "text"
-        ]
-      },
-      "name": "Llama 3.3 Nemotron Super 49B v1.5",
-      "price": {
-        "cacheRead": null,
-        "cacheWrite": null,
-        "input": null,
-        "output": null
-      },
-      "releaseDate": "2025-07-25",
       "tags": []
     },
     {
@@ -126194,13 +125506,13 @@
       "description": "GPT-OSS-120B is an AI model provided by nvidia.",
       "firm": "nvidia",
       "flags": {
-        "attachment": true,
+        "attachment": false,
         "audio": false,
         "image": false,
-        "open_weights": false,
+        "open_weights": true,
         "reasoning": true,
         "temperature": true,
-        "tool_call": false
+        "tool_call": true
       },
       "icon": "",
       "id": "openai/gpt-oss-120b",
@@ -126481,42 +125793,6 @@
       "tags": []
     },
     {
-      "description": "Qwen3-Next-80B-A3B-Thinking is an AI model provided by nvidia.",
-      "firm": "nvidia",
-      "flags": {
-        "attachment": false,
-        "audio": false,
-        "image": false,
-        "open_weights": true,
-        "reasoning": true,
-        "temperature": true,
-        "tool_call": true
-      },
-      "icon": "",
-      "id": "qwen/qwen3-next-80b-a3b-thinking",
-      "knowledge": "2024-12",
-      "lastUpdated": "2025-09-05",
-      "maxCtxTokens": 262144,
-      "maxOutputTokens": 16384,
-      "modalities": {
-        "input": [
-          "text"
-        ],
-        "output": [
-          "text"
-        ]
-      },
-      "name": "Qwen3-Next-80B-A3B-Thinking",
-      "price": {
-        "cacheRead": null,
-        "cacheWrite": null,
-        "input": null,
-        "output": null
-      },
-      "releaseDate": "2024-12-01",
-      "tags": []
-    },
-    {
       "description": "Qwen3.5 122B-A10B is an AI model provided by nvidia.",
       "firm": "nvidia",
       "flags": {
@@ -126771,42 +126047,6 @@
         "output": null
       },
       "releaseDate": "2026-03-27",
-      "tags": []
-    },
-    {
-      "description": "GLM-4.7 is an AI model provided by nvidia.",
-      "firm": "nvidia",
-      "flags": {
-        "attachment": false,
-        "audio": false,
-        "image": false,
-        "open_weights": true,
-        "reasoning": true,
-        "temperature": true,
-        "tool_call": true
-      },
-      "icon": "",
-      "id": "z-ai/glm4.7",
-      "knowledge": "2025-04",
-      "lastUpdated": "2025-12-22",
-      "maxCtxTokens": 204800,
-      "maxOutputTokens": 131072,
-      "modalities": {
-        "input": [
-          "text"
-        ],
-        "output": [
-          "text"
-        ]
-      },
-      "name": "GLM-4.7",
-      "price": {
-        "cacheRead": null,
-        "cacheWrite": null,
-        "input": null,
-        "output": null
-      },
-      "releaseDate": "2025-12-22",
       "tags": []
     },
     {
@@ -130307,6 +129547,44 @@
       "tags": []
     },
     {
+      "description": "Claude Fable 5 is an AI model provided by opencode.",
+      "firm": "opencode",
+      "flags": {
+        "attachment": true,
+        "audio": false,
+        "image": true,
+        "open_weights": false,
+        "reasoning": true,
+        "temperature": false,
+        "tool_call": true
+      },
+      "icon": "lb:opencode",
+      "id": "claude-fable-5",
+      "knowledge": "2026-01-31",
+      "lastUpdated": "2026-06-09",
+      "maxCtxTokens": 1000000,
+      "maxOutputTokens": 128000,
+      "modalities": {
+        "input": [
+          "text",
+          "image",
+          "pdf"
+        ],
+        "output": [
+          "text"
+        ]
+      },
+      "name": "Claude Fable 5",
+      "price": {
+        "cacheRead": 1,
+        "cacheWrite": 12.5,
+        "input": 10,
+        "output": 50
+      },
+      "releaseDate": "2026-06-09",
+      "tags": []
+    },
+    {
       "description": "Claude Haiku 4.5 is an AI model provided by opencode.",
       "firm": "opencode",
       "flags": {
@@ -130676,7 +129954,7 @@
       },
       "name": "DeepSeek V4 Flash",
       "price": {
-        "cacheRead": 0.03,
+        "cacheRead": 0.028,
         "cacheWrite": null,
         "input": 0.14,
         "output": 0.28
@@ -130716,6 +129994,42 @@
         "cacheWrite": null,
         "input": null,
         "output": null
+      },
+      "releaseDate": "2026-04-24",
+      "tags": []
+    },
+    {
+      "description": "DeepSeek V4 Pro is an AI model provided by opencode.",
+      "firm": "opencode",
+      "flags": {
+        "attachment": false,
+        "audio": false,
+        "image": false,
+        "open_weights": true,
+        "reasoning": true,
+        "temperature": true,
+        "tool_call": true
+      },
+      "icon": "lb:opencode",
+      "id": "deepseek-v4-pro",
+      "knowledge": "2025-05",
+      "lastUpdated": "2026-04-24",
+      "maxCtxTokens": 1000000,
+      "maxOutputTokens": 384000,
+      "modalities": {
+        "input": [
+          "text"
+        ],
+        "output": [
+          "text"
+        ]
+      },
+      "name": "DeepSeek V4 Pro",
+      "price": {
+        "cacheRead": 0.145,
+        "cacheWrite": null,
+        "input": 1.74,
+        "output": 3.84
       },
       "releaseDate": "2026-04-24",
       "tags": []
@@ -133392,6 +132706,44 @@
       "tags": []
     },
     {
+      "description": "Claude Fable Latest is an AI model provided by openrouter.",
+      "firm": "openrouter",
+      "flags": {
+        "attachment": true,
+        "audio": false,
+        "image": true,
+        "open_weights": false,
+        "reasoning": true,
+        "temperature": false,
+        "tool_call": true
+      },
+      "icon": "lb:openrouter-color",
+      "id": "~anthropic/claude-fable-latest",
+      "knowledge": null,
+      "lastUpdated": "2026-06-09",
+      "maxCtxTokens": 1000000,
+      "maxOutputTokens": 128000,
+      "modalities": {
+        "input": [
+          "text",
+          "image",
+          "pdf"
+        ],
+        "output": [
+          "text"
+        ]
+      },
+      "name": "Claude Fable Latest",
+      "price": {
+        "cacheRead": 1,
+        "cacheWrite": 12.5,
+        "input": 10,
+        "output": 50
+      },
+      "releaseDate": "2026-06-09",
+      "tags": []
+    },
+    {
       "description": "Anthropic Claude Haiku Latest is an AI model provided by openrouter.",
       "firm": "openrouter",
       "flags": {
@@ -134211,6 +133563,44 @@
       "tags": []
     },
     {
+      "description": "Claude Fable 5 is an AI model provided by openrouter.",
+      "firm": "openrouter",
+      "flags": {
+        "attachment": true,
+        "audio": false,
+        "image": true,
+        "open_weights": false,
+        "reasoning": true,
+        "temperature": false,
+        "tool_call": true
+      },
+      "icon": "lb:openrouter-color",
+      "id": "anthropic/claude-fable-5",
+      "knowledge": "2026-01-31",
+      "lastUpdated": "2026-06-09",
+      "maxCtxTokens": 1000000,
+      "maxOutputTokens": 128000,
+      "modalities": {
+        "input": [
+          "text",
+          "image",
+          "pdf"
+        ],
+        "output": [
+          "text"
+        ]
+      },
+      "name": "Claude Fable 5",
+      "price": {
+        "cacheRead": 1,
+        "cacheWrite": 12.5,
+        "input": 10,
+        "output": 50
+      },
+      "releaseDate": "2026-06-09",
+      "tags": []
+    },
+    {
       "description": "Claude Haiku 4.5 (latest) is an AI model provided by openrouter.",
       "firm": "openrouter",
       "flags": {
@@ -134736,42 +134126,6 @@
         "cacheWrite": null,
         "input": 0.5,
         "output": 0.8
-      },
-      "releaseDate": "2025-05-05",
-      "tags": []
-    },
-    {
-      "description": "Maestro Reasoning is an AI model provided by openrouter.",
-      "firm": "openrouter",
-      "flags": {
-        "attachment": false,
-        "audio": false,
-        "image": false,
-        "open_weights": false,
-        "reasoning": false,
-        "temperature": true,
-        "tool_call": false
-      },
-      "icon": "lb:openrouter-color",
-      "id": "arcee-ai/maestro-reasoning",
-      "knowledge": "2025-03-31",
-      "lastUpdated": "2025-05-05",
-      "maxCtxTokens": 131072,
-      "maxOutputTokens": 32000,
-      "modalities": {
-        "input": [
-          "text"
-        ],
-        "output": [
-          "text"
-        ]
-      },
-      "name": "Maestro Reasoning",
-      "price": {
-        "cacheRead": null,
-        "cacheWrite": null,
-        "input": 0.9,
-        "output": 3.3
       },
       "releaseDate": "2025-05-05",
       "tags": []
@@ -138127,10 +137481,10 @@
       },
       "name": "MiniMax-M2.5",
       "price": {
-        "cacheRead": null,
+        "cacheRead": 0.05,
         "cacheWrite": null,
         "input": 0.15,
-        "output": 1.15
+        "output": 0.9
       },
       "releaseDate": "2026-02-12",
       "tags": []
@@ -138151,8 +137505,8 @@
       "id": "minimax/minimax-m2.7",
       "knowledge": null,
       "lastUpdated": "2026-03-18",
-      "maxCtxTokens": 196608,
-      "maxOutputTokens": 196608,
+      "maxCtxTokens": 204800,
+      "maxOutputTokens": 131072,
       "modalities": {
         "input": [
           "text"
@@ -138163,10 +137517,10 @@
       },
       "name": "MiniMax-M2.7",
       "price": {
-        "cacheRead": null,
+        "cacheRead": 0.054,
         "cacheWrite": null,
-        "input": 0.279,
-        "output": 1.2
+        "input": 0.27,
+        "output": 1.08
       },
       "releaseDate": "2026-03-18",
       "tags": []
@@ -145521,42 +144875,6 @@
       "tags": []
     },
     {
-      "description": "GLM 4 32B  is an AI model provided by openrouter.",
-      "firm": "openrouter",
-      "flags": {
-        "attachment": false,
-        "audio": false,
-        "image": false,
-        "open_weights": false,
-        "reasoning": false,
-        "temperature": true,
-        "tool_call": true
-      },
-      "icon": "lb:openrouter-color",
-      "id": "z-ai/glm-4-32b",
-      "knowledge": "2024-06-30",
-      "lastUpdated": "2025-07-24",
-      "maxCtxTokens": 128000,
-      "maxOutputTokens": 128000,
-      "modalities": {
-        "input": [
-          "text"
-        ],
-        "output": [
-          "text"
-        ]
-      },
-      "name": "GLM 4 32B ",
-      "price": {
-        "cacheRead": null,
-        "cacheWrite": null,
-        "input": 0.1,
-        "output": 0.1
-      },
-      "releaseDate": "2025-07-24",
-      "tags": []
-    },
-    {
       "description": "GLM-4.5 is an AI model provided by openrouter.",
       "firm": "openrouter",
       "flags": {
@@ -145624,42 +144942,6 @@
         "cacheWrite": null,
         "input": 0.125,
         "output": 0.85
-      },
-      "releaseDate": "2025-07-28",
-      "tags": []
-    },
-    {
-      "description": "GLM 4.5 Air (free) is an AI model provided by openrouter.",
-      "firm": "openrouter",
-      "flags": {
-        "attachment": false,
-        "audio": false,
-        "image": false,
-        "open_weights": true,
-        "reasoning": true,
-        "temperature": true,
-        "tool_call": true
-      },
-      "icon": "lb:openrouter-color",
-      "id": "z-ai/glm-4.5-air:free",
-      "knowledge": "2025-04",
-      "lastUpdated": "2025-07-28",
-      "maxCtxTokens": 131072,
-      "maxOutputTokens": 96000,
-      "modalities": {
-        "input": [
-          "text"
-        ],
-        "output": [
-          "text"
-        ]
-      },
-      "name": "GLM 4.5 Air (free)",
-      "price": {
-        "cacheRead": null,
-        "cacheWrite": null,
-        "input": null,
-        "output": null
       },
       "releaseDate": "2025-07-28",
       "tags": []
@@ -145754,7 +145036,7 @@
       "knowledge": "2025-04",
       "lastUpdated": "2025-12-08",
       "maxCtxTokens": 131072,
-      "maxOutputTokens": 24000,
+      "maxOutputTokens": 32768,
       "modalities": {
         "input": [
           "text",
@@ -145767,7 +145049,7 @@
       },
       "name": "GLM-4.6V",
       "price": {
-        "cacheRead": 0.05,
+        "cacheRead": 0.055,
         "cacheWrite": null,
         "input": 0.3,
         "output": 0.9
@@ -145899,7 +145181,7 @@
       "id": "z-ai/glm-5-turbo",
       "knowledge": null,
       "lastUpdated": "2026-03-16",
-      "maxCtxTokens": 202752,
+      "maxCtxTokens": 262144,
       "maxOutputTokens": 131072,
       "modalities": {
         "input": [
@@ -145953,44 +145235,6 @@
         "output": 3.08
       },
       "releaseDate": "2026-03-27",
-      "tags": []
-    },
-    {
-      "description": "GLM-5V-Turbo is an AI model provided by openrouter.",
-      "firm": "openrouter",
-      "flags": {
-        "attachment": true,
-        "audio": false,
-        "image": true,
-        "open_weights": false,
-        "reasoning": true,
-        "temperature": true,
-        "tool_call": true
-      },
-      "icon": "lb:openrouter-color",
-      "id": "z-ai/glm-5v-turbo",
-      "knowledge": null,
-      "lastUpdated": "2026-04-01",
-      "maxCtxTokens": 202752,
-      "maxOutputTokens": 131072,
-      "modalities": {
-        "input": [
-          "image",
-          "text",
-          "video"
-        ],
-        "output": [
-          "text"
-        ]
-      },
-      "name": "GLM-5V-Turbo",
-      "price": {
-        "cacheRead": 0.24,
-        "cacheWrite": null,
-        "input": 1.2,
-        "output": 4
-      },
-      "releaseDate": "2026-04-01",
       "tags": []
     },
     {
@@ -182600,42 +181844,6 @@
       "tags": []
     },
     {
-      "description": "Kimi K2 Instruct is an AI model provided by vercel.",
-      "firm": "vercel",
-      "flags": {
-        "attachment": false,
-        "audio": false,
-        "image": false,
-        "open_weights": true,
-        "reasoning": false,
-        "temperature": true,
-        "tool_call": true
-      },
-      "icon": "lb:vercel-color",
-      "id": "moonshotai/kimi-k2",
-      "knowledge": "2024-10",
-      "lastUpdated": "2025-07-14",
-      "maxCtxTokens": 131072,
-      "maxOutputTokens": 16384,
-      "modalities": {
-        "input": [
-          "text"
-        ],
-        "output": [
-          "text"
-        ]
-      },
-      "name": "Kimi K2 Instruct",
-      "price": {
-        "cacheRead": null,
-        "cacheWrite": null,
-        "input": 1,
-        "output": 3
-      },
-      "releaseDate": "2025-07-14",
-      "tags": []
-    },
-    {
       "description": "Kimi K2 Thinking is an AI model provided by vercel.",
       "firm": "vercel",
       "flags": {
@@ -189059,6 +188267,42 @@
       "tags": []
     },
     {
+      "description": "MiMo-V2.5-Pro-UltraSpeed is an AI model provided by xiaomi.",
+      "firm": "xiaomi",
+      "flags": {
+        "attachment": false,
+        "audio": false,
+        "image": false,
+        "open_weights": true,
+        "reasoning": true,
+        "temperature": true,
+        "tool_call": true
+      },
+      "icon": "",
+      "id": "mimo-v2.5-pro-ultraspeed",
+      "knowledge": "2024-12",
+      "lastUpdated": "2026-06-09",
+      "maxCtxTokens": 1048576,
+      "maxOutputTokens": 131072,
+      "modalities": {
+        "input": [
+          "text"
+        ],
+        "output": [
+          "text"
+        ]
+      },
+      "name": "MiMo-V2.5-Pro-UltraSpeed",
+      "price": {
+        "cacheRead": 0.0108,
+        "cacheWrite": null,
+        "input": 1.305,
+        "output": 2.61
+      },
+      "releaseDate": "2026-06-08",
+      "tags": []
+    },
+    {
       "description": "MiMo-V2-Omni is an AI model provided by xiaomi-token-plan-ams.",
       "firm": "xiaomi-token-plan-ams",
       "flags": {
@@ -190748,6 +189992,44 @@
         "output": 15
       },
       "releaseDate": "2025-02-24",
+      "tags": []
+    },
+    {
+      "description": "Claude Fable 5 is an AI model provided by zenmux.",
+      "firm": "zenmux",
+      "flags": {
+        "attachment": true,
+        "audio": false,
+        "image": true,
+        "open_weights": false,
+        "reasoning": true,
+        "temperature": false,
+        "tool_call": true
+      },
+      "icon": "",
+      "id": "anthropic/claude-fable-5",
+      "knowledge": "2026-01-31",
+      "lastUpdated": "2026-06-09",
+      "maxCtxTokens": 1000000,
+      "maxOutputTokens": 128000,
+      "modalities": {
+        "input": [
+          "text",
+          "image",
+          "pdf"
+        ],
+        "output": [
+          "text"
+        ]
+      },
+      "name": "Claude Fable 5",
+      "price": {
+        "cacheRead": 1,
+        "cacheWrite": 12.5,
+        "input": 10,
+        "output": 50
+      },
+      "releaseDate": "2026-06-09",
       "tags": []
     },
     {
