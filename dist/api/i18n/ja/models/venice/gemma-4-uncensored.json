@@ -7,7 +7,7 @@
   "description": "Gemma 4 Uncensored は venice によって提供される AI モデルです。",
   "family": "gemma",
   "id": "gemma-4-uncensored",
-  "last_updated": "2026-04-19",
+  "last_updated": "2026-06-10",
   "limit": {
     "context": 256000,
     "output": 8192
@@ -24,6 +24,7 @@
   "name": "Gemma 4 Uncensored",
   "open_weights": true,
   "reasoning": false,
+  "reasoning_options": [],
   "release_date": "2026-04-13",
   "structured_output": true,
   "temperature": true,

@@ -1,0 +1,40 @@
+{
+  "attachment": false,
+  "cost": {
+    "input": 0.13,
+    "output": 0.65
+  },
+  "description": "GPT OSS 120B は venice によって提供される AI モデルです。",
+  "family": "gpt-oss",
+  "id": "e2ee-gpt-oss-120b-p",
+  "last_updated": "2026-06-10",
+  "limit": {
+    "context": 128000,
+    "output": 32768
+  },
+  "modalities": {
+    "input": [
+      "text"
+    ],
+    "output": [
+      "text"
+    ]
+  },
+  "name": "GPT OSS 120B",
+  "open_weights": true,
+  "reasoning": true,
+  "reasoning_options": [
+    {
+      "type": "effort",
+      "values": [
+        "none",
+        "low",
+        "medium",
+        "high"
+      ]
+    }
+  ],
+  "release_date": "2026-03-18",
+  "temperature": true,
+  "tool_call": false
+}

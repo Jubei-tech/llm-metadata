@@ -1,0 +1,31 @@
+{
+  "attachment": false,
+  "cost": {
+    "input": 1.1,
+    "output": 4.15
+  },
+  "description": "GLM 5.1 は venice によって提供される AI モデルです。",
+  "family": "glm",
+  "id": "e2ee-glm-5-1",
+  "last_updated": "2026-06-10",
+  "limit": {
+    "context": 200000,
+    "output": 32768
+  },
+  "modalities": {
+    "input": [
+      "text"
+    ],
+    "output": [
+      "text"
+    ]
+  },
+  "name": "GLM 5.1",
+  "open_weights": true,
+  "reasoning": true,
+  "reasoning_options": [],
+  "release_date": "2026-04-24",
+  "structured_output": true,
+  "temperature": true,
+  "tool_call": false
+}

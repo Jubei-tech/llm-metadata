@@ -11,7 +11,7 @@
     "field": "reasoning_content"
   },
   "knowledge": "2025-07",
-  "last_updated": "2026-03-12",
+  "last_updated": "2026-06-10",
   "limit": {
     "context": 128000,
     "output": 16384
@@ -27,6 +27,16 @@
   "name": "Qwen 3 235B A22B Thinking 2507",
   "open_weights": true,
   "reasoning": true,
+  "reasoning_options": [
+    {
+      "type": "effort",
+      "values": [
+        "low",
+        "medium",
+        "high"
+      ]
+    }
+  ],
   "release_date": "2025-04-29",
   "structured_output": true,
   "temperature": true,

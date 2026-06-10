@@ -1,0 +1,31 @@
+{
+  "attachment": false,
+  "cost": {
+    "cache_read": 0.028,
+    "input": 0.139,
+    "output": 0.43
+  },
+  "description": "Gemma 4 31B Instruct は venice によって提供される AI モデルです。",
+  "family": "gemma",
+  "id": "e2ee-gemma-4-31b",
+  "last_updated": "2026-06-10",
+  "limit": {
+    "context": 32000,
+    "output": 4096
+  },
+  "modalities": {
+    "input": [
+      "text"
+    ],
+    "output": [
+      "text"
+    ]
+  },
+  "name": "Gemma 4 31B Instruct",
+  "open_weights": true,
+  "reasoning": true,
+  "reasoning_options": [],
+  "release_date": "2026-05-20",
+  "temperature": true,
+  "tool_call": false
+}

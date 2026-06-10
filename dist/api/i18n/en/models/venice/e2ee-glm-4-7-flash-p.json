@@ -1,0 +1,41 @@
+{
+  "attachment": false,
+  "cost": {
+    "input": 0.13,
+    "output": 0.55
+  },
+  "description": "GLM 4.7 Flash is an AI model provided by venice.",
+  "family": "glm",
+  "id": "e2ee-glm-4-7-flash-p",
+  "knowledge": "2025-04",
+  "last_updated": "2026-06-10",
+  "limit": {
+    "context": 198000,
+    "output": 4096
+  },
+  "modalities": {
+    "input": [
+      "text"
+    ],
+    "output": [
+      "text"
+    ]
+  },
+  "name": "GLM 4.7 Flash",
+  "open_weights": true,
+  "reasoning": true,
+  "reasoning_options": [
+    {
+      "type": "effort",
+      "values": [
+        "none",
+        "low",
+        "medium",
+        "high"
+      ]
+    }
+  ],
+  "release_date": "2026-03-18",
+  "temperature": true,
+  "tool_call": false
+}

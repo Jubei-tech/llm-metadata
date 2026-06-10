@@ -25662,6 +25662,44 @@
       "tags": []
     },
     {
+      "description": "Claude Fable 5 is an AI model provided by azure.",
+      "firm": "azure",
+      "flags": {
+        "attachment": true,
+        "audio": false,
+        "image": true,
+        "open_weights": false,
+        "reasoning": true,
+        "temperature": false,
+        "tool_call": true
+      },
+      "icon": "lb:azureai-color",
+      "id": "claude-fable-5",
+      "knowledge": "2026-01-31",
+      "lastUpdated": "2026-06-09",
+      "maxCtxTokens": 1000000,
+      "maxOutputTokens": 128000,
+      "modalities": {
+        "input": [
+          "text",
+          "image",
+          "pdf"
+        ],
+        "output": [
+          "text"
+        ]
+      },
+      "name": "Claude Fable 5",
+      "price": {
+        "cacheRead": 1,
+        "cacheWrite": 12.5,
+        "input": 10,
+        "output": 50
+      },
+      "releaseDate": "2026-06-09",
+      "tags": []
+    },
+    {
       "description": "Claude Haiku 4.5 is an AI model provided by azure.",
       "firm": "azure",
       "flags": {
@@ -48288,6 +48326,44 @@
       "tags": []
     },
     {
+      "description": "Claude Opus 4.8 is an AI model provided by fastrouter.",
+      "firm": "fastrouter",
+      "flags": {
+        "attachment": true,
+        "audio": false,
+        "image": true,
+        "open_weights": false,
+        "reasoning": true,
+        "temperature": false,
+        "tool_call": true
+      },
+      "icon": "lb:fastgpt",
+      "id": "anthropic/claude-opus-4.8",
+      "knowledge": null,
+      "lastUpdated": "2026-05-28",
+      "maxCtxTokens": 1000000,
+      "maxOutputTokens": 128000,
+      "modalities": {
+        "input": [
+          "text",
+          "image",
+          "pdf"
+        ],
+        "output": [
+          "text"
+        ]
+      },
+      "name": "Claude Opus 4.8",
+      "price": {
+        "cacheRead": null,
+        "cacheWrite": null,
+        "input": 5,
+        "output": 25
+      },
+      "releaseDate": "2026-05-28",
+      "tags": []
+    },
+    {
       "description": "Claude Sonnet 4 is an AI model provided by fastrouter.",
       "firm": "fastrouter",
       "flags": {
@@ -48326,6 +48402,81 @@
       "tags": []
     },
     {
+      "description": "Claude Sonnet 4.6 is an AI model provided by fastrouter.",
+      "firm": "fastrouter",
+      "flags": {
+        "attachment": true,
+        "audio": false,
+        "image": true,
+        "open_weights": false,
+        "reasoning": true,
+        "temperature": true,
+        "tool_call": true
+      },
+      "icon": "lb:fastgpt",
+      "id": "anthropic/claude-sonnet-4.6",
+      "knowledge": "2025-08-31",
+      "lastUpdated": "2026-03-13",
+      "maxCtxTokens": 1000000,
+      "maxOutputTokens": 64000,
+      "modalities": {
+        "input": [
+          "text",
+          "image",
+          "pdf"
+        ],
+        "output": [
+          "text"
+        ]
+      },
+      "name": "Claude Sonnet 4.6",
+      "price": {
+        "cacheRead": null,
+        "cacheWrite": null,
+        "input": 3,
+        "output": 15
+      },
+      "releaseDate": "2026-02-17",
+      "tags": []
+    },
+    {
+      "description": "Seedance 2 is an AI model provided by fastrouter.",
+      "firm": "fastrouter",
+      "flags": {
+        "attachment": true,
+        "audio": false,
+        "image": true,
+        "open_weights": false,
+        "reasoning": false,
+        "temperature": false,
+        "tool_call": false
+      },
+      "icon": "lb:fastgpt",
+      "id": "bytedance/seedance-2",
+      "knowledge": null,
+      "lastUpdated": "2026-04-01",
+      "maxCtxTokens": 4096,
+      "maxOutputTokens": 0,
+      "modalities": {
+        "input": [
+          "text",
+          "image"
+        ],
+        "output": [
+          "video"
+        ]
+      },
+      "name": "Seedance 2",
+      "price": {
+        "cacheRead": null,
+        "cacheWrite": null,
+        "input": null,
+        "output": null
+      },
+      "releaseDate": "2026-04-01",
+      "tags": []
+    },
+    {
       "description": "DeepSeek R1 Distill Llama 70B is an AI model provided by fastrouter.",
       "firm": "fastrouter",
       "flags": {
@@ -48359,6 +48510,42 @@
         "output": 0.14
       },
       "releaseDate": "2025-01-23",
+      "tags": []
+    },
+    {
+      "description": "DeepSeek V4 Pro is an AI model provided by fastrouter.",
+      "firm": "fastrouter",
+      "flags": {
+        "attachment": false,
+        "audio": false,
+        "image": false,
+        "open_weights": true,
+        "reasoning": true,
+        "temperature": true,
+        "tool_call": true
+      },
+      "icon": "lb:fastgpt",
+      "id": "deepseek/deepseek-v4-pro",
+      "knowledge": "2025-05",
+      "lastUpdated": "2026-04-24",
+      "maxCtxTokens": 1000000,
+      "maxOutputTokens": 384000,
+      "modalities": {
+        "input": [
+          "text"
+        ],
+        "output": [
+          "text"
+        ]
+      },
+      "name": "DeepSeek V4 Pro",
+      "price": {
+        "cacheRead": null,
+        "cacheWrite": null,
+        "input": 1.74,
+        "output": 3.48
+      },
+      "releaseDate": "2026-04-24",
       "tags": []
     },
     {
@@ -48438,6 +48625,529 @@
       "tags": []
     },
     {
+      "description": "Nano Banana Pro is an AI model provided by fastrouter.",
+      "firm": "fastrouter",
+      "flags": {
+        "attachment": true,
+        "audio": false,
+        "image": true,
+        "open_weights": false,
+        "reasoning": true,
+        "temperature": true,
+        "tool_call": false
+      },
+      "icon": "lb:fastgpt",
+      "id": "google/gemini-3-pro-image-preview",
+      "knowledge": "2025-01",
+      "lastUpdated": "2025-11-20",
+      "maxCtxTokens": 65536,
+      "maxOutputTokens": 32768,
+      "modalities": {
+        "input": [
+          "text",
+          "image"
+        ],
+        "output": [
+          "text",
+          "image"
+        ]
+      },
+      "name": "Nano Banana Pro",
+      "price": {
+        "cacheRead": null,
+        "cacheWrite": null,
+        "input": 2,
+        "output": 12
+      },
+      "releaseDate": "2025-11-20",
+      "tags": []
+    },
+    {
+      "description": "Nano Banana 2 is an AI model provided by fastrouter.",
+      "firm": "fastrouter",
+      "flags": {
+        "attachment": true,
+        "audio": false,
+        "image": true,
+        "open_weights": false,
+        "reasoning": true,
+        "temperature": true,
+        "tool_call": false
+      },
+      "icon": "lb:fastgpt",
+      "id": "google/gemini-3.1-flash-image-preview",
+      "knowledge": "2025-01",
+      "lastUpdated": "2026-02-26",
+      "maxCtxTokens": 65536,
+      "maxOutputTokens": 65536,
+      "modalities": {
+        "input": [
+          "text",
+          "image",
+          "pdf"
+        ],
+        "output": [
+          "text",
+          "image"
+        ]
+      },
+      "name": "Nano Banana 2",
+      "price": {
+        "cacheRead": null,
+        "cacheWrite": null,
+        "input": 0.5,
+        "output": 3
+      },
+      "releaseDate": "2026-02-26",
+      "tags": []
+    },
+    {
+      "description": "Gemini 3.1 Pro Preview is an AI model provided by fastrouter.",
+      "firm": "fastrouter",
+      "flags": {
+        "attachment": true,
+        "audio": true,
+        "image": true,
+        "open_weights": false,
+        "reasoning": true,
+        "temperature": true,
+        "tool_call": true
+      },
+      "icon": "lb:fastgpt",
+      "id": "google/gemini-3.1-pro-preview",
+      "knowledge": "2025-01",
+      "lastUpdated": "2026-02-19",
+      "maxCtxTokens": 1048576,
+      "maxOutputTokens": 65536,
+      "modalities": {
+        "input": [
+          "text",
+          "image",
+          "video",
+          "audio",
+          "pdf"
+        ],
+        "output": [
+          "text"
+        ]
+      },
+      "name": "Gemini 3.1 Pro Preview",
+      "price": {
+        "cacheRead": null,
+        "cacheWrite": null,
+        "input": 2,
+        "output": 12
+      },
+      "releaseDate": "2026-02-19",
+      "tags": []
+    },
+    {
+      "description": "Gemini 3.5 Flash is an AI model provided by fastrouter.",
+      "firm": "fastrouter",
+      "flags": {
+        "attachment": true,
+        "audio": true,
+        "image": true,
+        "open_weights": false,
+        "reasoning": true,
+        "temperature": true,
+        "tool_call": true
+      },
+      "icon": "lb:fastgpt",
+      "id": "google/gemini-3.5-flash",
+      "knowledge": "2025-01",
+      "lastUpdated": "2026-05-19",
+      "maxCtxTokens": 1048576,
+      "maxOutputTokens": 65536,
+      "modalities": {
+        "input": [
+          "text",
+          "image",
+          "video",
+          "audio",
+          "pdf"
+        ],
+        "output": [
+          "text"
+        ]
+      },
+      "name": "Gemini 3.5 Flash",
+      "price": {
+        "cacheRead": null,
+        "cacheWrite": null,
+        "input": 1.5,
+        "output": 9
+      },
+      "releaseDate": "2026-05-19",
+      "tags": []
+    },
+    {
+      "description": "Gemma 4 31B IT is an AI model provided by fastrouter.",
+      "firm": "fastrouter",
+      "flags": {
+        "attachment": true,
+        "audio": false,
+        "image": true,
+        "open_weights": true,
+        "reasoning": true,
+        "temperature": true,
+        "tool_call": true
+      },
+      "icon": "lb:fastgpt",
+      "id": "google/gemma-4-31b-it",
+      "knowledge": null,
+      "lastUpdated": "2026-04-02",
+      "maxCtxTokens": 262144,
+      "maxOutputTokens": 32768,
+      "modalities": {
+        "input": [
+          "text",
+          "image"
+        ],
+        "output": [
+          "text"
+        ]
+      },
+      "name": "Gemma 4 31B IT",
+      "price": {
+        "cacheRead": null,
+        "cacheWrite": null,
+        "input": 0.13,
+        "output": 0.38
+      },
+      "releaseDate": "2026-04-02",
+      "tags": []
+    },
+    {
+      "description": "Imagen 4 Fast is an AI model provided by fastrouter.",
+      "firm": "fastrouter",
+      "flags": {
+        "attachment": false,
+        "audio": false,
+        "image": true,
+        "open_weights": false,
+        "reasoning": false,
+        "temperature": false,
+        "tool_call": false
+      },
+      "icon": "lb:fastgpt",
+      "id": "google/imagen-4.0-fast",
+      "knowledge": null,
+      "lastUpdated": "2025-05-20",
+      "maxCtxTokens": 480,
+      "maxOutputTokens": 0,
+      "modalities": {
+        "input": [
+          "text"
+        ],
+        "output": [
+          "image"
+        ]
+      },
+      "name": "Imagen 4 Fast",
+      "price": {
+        "cacheRead": null,
+        "cacheWrite": null,
+        "input": null,
+        "output": null
+      },
+      "releaseDate": "2025-05-20",
+      "tags": []
+    },
+    {
+      "description": "Imagen 4 Ultra is an AI model provided by fastrouter.",
+      "firm": "fastrouter",
+      "flags": {
+        "attachment": false,
+        "audio": false,
+        "image": true,
+        "open_weights": false,
+        "reasoning": false,
+        "temperature": false,
+        "tool_call": false
+      },
+      "icon": "lb:fastgpt",
+      "id": "google/imagen-4.0-ultra",
+      "knowledge": null,
+      "lastUpdated": "2025-05-20",
+      "maxCtxTokens": 480,
+      "maxOutputTokens": 0,
+      "modalities": {
+        "input": [
+          "text"
+        ],
+        "output": [
+          "image"
+        ]
+      },
+      "name": "Imagen 4 Ultra",
+      "price": {
+        "cacheRead": null,
+        "cacheWrite": null,
+        "input": null,
+        "output": null
+      },
+      "releaseDate": "2025-05-20",
+      "tags": []
+    },
+    {
+      "description": "Veo 3.1 is an AI model provided by fastrouter.",
+      "firm": "fastrouter",
+      "flags": {
+        "attachment": true,
+        "audio": false,
+        "image": true,
+        "open_weights": false,
+        "reasoning": false,
+        "temperature": false,
+        "tool_call": false
+      },
+      "icon": "lb:fastgpt",
+      "id": "google/veo3.1",
+      "knowledge": null,
+      "lastUpdated": "2026-05-01",
+      "maxCtxTokens": 400000,
+      "maxOutputTokens": 0,
+      "modalities": {
+        "input": [
+          "text",
+          "image"
+        ],
+        "output": [
+          "video"
+        ]
+      },
+      "name": "Veo 3.1",
+      "price": {
+        "cacheRead": null,
+        "cacheWrite": null,
+        "input": null,
+        "output": null
+      },
+      "releaseDate": "2026-05-01",
+      "tags": []
+    },
+    {
+      "description": "Veo 3.1 Fast is an AI model provided by fastrouter.",
+      "firm": "fastrouter",
+      "flags": {
+        "attachment": true,
+        "audio": false,
+        "image": true,
+        "open_weights": false,
+        "reasoning": false,
+        "temperature": false,
+        "tool_call": false
+      },
+      "icon": "lb:fastgpt",
+      "id": "google/veo3.1-fast",
+      "knowledge": null,
+      "lastUpdated": "2026-05-01",
+      "maxCtxTokens": 400000,
+      "maxOutputTokens": 0,
+      "modalities": {
+        "input": [
+          "text",
+          "image"
+        ],
+        "output": [
+          "video"
+        ]
+      },
+      "name": "Veo 3.1 Fast",
+      "price": {
+        "cacheRead": null,
+        "cacheWrite": null,
+        "input": null,
+        "output": null
+      },
+      "releaseDate": "2026-05-01",
+      "tags": []
+    },
+    {
+      "description": "Veo 3.1 Lite is an AI model provided by fastrouter.",
+      "firm": "fastrouter",
+      "flags": {
+        "attachment": true,
+        "audio": false,
+        "image": true,
+        "open_weights": false,
+        "reasoning": false,
+        "temperature": false,
+        "tool_call": false
+      },
+      "icon": "lb:fastgpt",
+      "id": "google/veo3.1-lite",
+      "knowledge": null,
+      "lastUpdated": "2026-05-01",
+      "maxCtxTokens": 400000,
+      "maxOutputTokens": 0,
+      "modalities": {
+        "input": [
+          "text",
+          "image"
+        ],
+        "output": [
+          "video"
+        ]
+      },
+      "name": "Veo 3.1 Lite",
+      "price": {
+        "cacheRead": null,
+        "cacheWrite": null,
+        "input": null,
+        "output": null
+      },
+      "releaseDate": "2026-05-01",
+      "tags": []
+    },
+    {
+      "description": "Lucid Origin is an AI model provided by fastrouter.",
+      "firm": "fastrouter",
+      "flags": {
+        "attachment": true,
+        "audio": false,
+        "image": true,
+        "open_weights": false,
+        "reasoning": false,
+        "temperature": false,
+        "tool_call": false
+      },
+      "icon": "lb:fastgpt",
+      "id": "leonardo-ai/lucid-origin",
+      "knowledge": null,
+      "lastUpdated": "2025-06-01",
+      "maxCtxTokens": 4096,
+      "maxOutputTokens": 0,
+      "modalities": {
+        "input": [
+          "text",
+          "image"
+        ],
+        "output": [
+          "image"
+        ]
+      },
+      "name": "Lucid Origin",
+      "price": {
+        "cacheRead": null,
+        "cacheWrite": null,
+        "input": null,
+        "output": null
+      },
+      "releaseDate": "2025-06-01",
+      "tags": []
+    },
+    {
+      "description": "Lucid Realism is an AI model provided by fastrouter.",
+      "firm": "fastrouter",
+      "flags": {
+        "attachment": true,
+        "audio": false,
+        "image": true,
+        "open_weights": false,
+        "reasoning": false,
+        "temperature": false,
+        "tool_call": false
+      },
+      "icon": "lb:fastgpt",
+      "id": "leonardo-ai/lucid-realism",
+      "knowledge": null,
+      "lastUpdated": "2025-06-01",
+      "maxCtxTokens": 4096,
+      "maxOutputTokens": 0,
+      "modalities": {
+        "input": [
+          "text",
+          "image"
+        ],
+        "output": [
+          "image"
+        ]
+      },
+      "name": "Lucid Realism",
+      "price": {
+        "cacheRead": null,
+        "cacheWrite": null,
+        "input": null,
+        "output": null
+      },
+      "releaseDate": "2025-06-01",
+      "tags": []
+    },
+    {
+      "description": "MiniMax-M2.7 is an AI model provided by fastrouter.",
+      "firm": "fastrouter",
+      "flags": {
+        "attachment": false,
+        "audio": false,
+        "image": false,
+        "open_weights": true,
+        "reasoning": true,
+        "temperature": true,
+        "tool_call": true
+      },
+      "icon": "lb:fastgpt",
+      "id": "minimax/minimax-m2.7",
+      "knowledge": null,
+      "lastUpdated": "2026-03-18",
+      "maxCtxTokens": 204800,
+      "maxOutputTokens": 131072,
+      "modalities": {
+        "input": [
+          "text"
+        ],
+        "output": [
+          "text"
+        ]
+      },
+      "name": "MiniMax-M2.7",
+      "price": {
+        "cacheRead": null,
+        "cacheWrite": null,
+        "input": 0.3,
+        "output": 1.2
+      },
+      "releaseDate": "2026-03-18",
+      "tags": []
+    },
+    {
+      "description": "MiniMax-M2.7-highspeed is an AI model provided by fastrouter.",
+      "firm": "fastrouter",
+      "flags": {
+        "attachment": false,
+        "audio": false,
+        "image": false,
+        "open_weights": true,
+        "reasoning": true,
+        "temperature": true,
+        "tool_call": true
+      },
+      "icon": "lb:fastgpt",
+      "id": "minimax/minimax-m2.7-highspeed",
+      "knowledge": null,
+      "lastUpdated": "2026-03-18",
+      "maxCtxTokens": 204800,
+      "maxOutputTokens": 131072,
+      "modalities": {
+        "input": [
+          "text"
+        ],
+        "output": [
+          "text"
+        ]
+      },
+      "name": "MiniMax-M2.7-highspeed",
+      "price": {
+        "cacheRead": null,
+        "cacheWrite": null,
+        "input": 0.6,
+        "output": 2.4
+      },
+      "releaseDate": "2026-03-18",
+      "tags": []
+    },
+    {
       "description": "Kimi K2 is an AI model provided by fastrouter.",
       "firm": "fastrouter",
       "flags": {
@@ -48471,6 +49181,44 @@
         "output": 2.2
       },
       "releaseDate": "2025-07-11",
+      "tags": []
+    },
+    {
+      "description": "Kimi K2.6 is an AI model provided by fastrouter.",
+      "firm": "fastrouter",
+      "flags": {
+        "attachment": true,
+        "audio": false,
+        "image": true,
+        "open_weights": true,
+        "reasoning": true,
+        "temperature": true,
+        "tool_call": true
+      },
+      "icon": "lb:fastgpt",
+      "id": "moonshotai/kimi-k2.6",
+      "knowledge": "2025-01",
+      "lastUpdated": "2026-04-21",
+      "maxCtxTokens": 262144,
+      "maxOutputTokens": 262144,
+      "modalities": {
+        "input": [
+          "text",
+          "image",
+          "video"
+        ],
+        "output": [
+          "text"
+        ]
+      },
+      "name": "Kimi K2.6",
+      "price": {
+        "cacheRead": null,
+        "cacheWrite": null,
+        "input": 0.75,
+        "output": 3.5
+      },
+      "releaseDate": "2026-04-21",
       "tags": []
     },
     {
@@ -48622,6 +49370,231 @@
       "tags": []
     },
     {
+      "description": "GPT-5.3 Codex is an AI model provided by fastrouter.",
+      "firm": "fastrouter",
+      "flags": {
+        "attachment": true,
+        "audio": false,
+        "image": true,
+        "open_weights": false,
+        "reasoning": true,
+        "temperature": false,
+        "tool_call": true
+      },
+      "icon": "lb:fastgpt",
+      "id": "openai/gpt-5.3-codex",
+      "knowledge": "2025-08-31",
+      "lastUpdated": "2026-02-05",
+      "maxCtxTokens": 400000,
+      "maxOutputTokens": 128000,
+      "modalities": {
+        "input": [
+          "text",
+          "image",
+          "pdf"
+        ],
+        "output": [
+          "text"
+        ]
+      },
+      "name": "GPT-5.3 Codex",
+      "price": {
+        "cacheRead": null,
+        "cacheWrite": null,
+        "input": 1.75,
+        "output": 14
+      },
+      "releaseDate": "2026-02-05",
+      "tags": []
+    },
+    {
+      "description": "GPT-5.4 mini is an AI model provided by fastrouter.",
+      "firm": "fastrouter",
+      "flags": {
+        "attachment": true,
+        "audio": false,
+        "image": true,
+        "open_weights": false,
+        "reasoning": true,
+        "temperature": false,
+        "tool_call": true
+      },
+      "icon": "lb:fastgpt",
+      "id": "openai/gpt-5.4-mini",
+      "knowledge": "2025-08-31",
+      "lastUpdated": "2026-03-17",
+      "maxCtxTokens": 400000,
+      "maxOutputTokens": 128000,
+      "modalities": {
+        "input": [
+          "text",
+          "image"
+        ],
+        "output": [
+          "text"
+        ]
+      },
+      "name": "GPT-5.4 mini",
+      "price": {
+        "cacheRead": null,
+        "cacheWrite": null,
+        "input": 0.75,
+        "output": 4.5
+      },
+      "releaseDate": "2026-03-17",
+      "tags": []
+    },
+    {
+      "description": "GPT-5.4 nano is an AI model provided by fastrouter.",
+      "firm": "fastrouter",
+      "flags": {
+        "attachment": true,
+        "audio": false,
+        "image": true,
+        "open_weights": false,
+        "reasoning": true,
+        "temperature": false,
+        "tool_call": true
+      },
+      "icon": "lb:fastgpt",
+      "id": "openai/gpt-5.4-nano",
+      "knowledge": "2025-08-31",
+      "lastUpdated": "2026-03-17",
+      "maxCtxTokens": 400000,
+      "maxOutputTokens": 128000,
+      "modalities": {
+        "input": [
+          "text",
+          "image"
+        ],
+        "output": [
+          "text"
+        ]
+      },
+      "name": "GPT-5.4 nano",
+      "price": {
+        "cacheRead": null,
+        "cacheWrite": null,
+        "input": 0.2,
+        "output": 1.25
+      },
+      "releaseDate": "2026-03-17",
+      "tags": []
+    },
+    {
+      "description": "GPT-5.5 is an AI model provided by fastrouter.",
+      "firm": "fastrouter",
+      "flags": {
+        "attachment": true,
+        "audio": false,
+        "image": true,
+        "open_weights": false,
+        "reasoning": true,
+        "temperature": false,
+        "tool_call": true
+      },
+      "icon": "lb:fastgpt",
+      "id": "openai/gpt-5.5",
+      "knowledge": "2025-12-01",
+      "lastUpdated": "2026-04-23",
+      "maxCtxTokens": 1050000,
+      "maxOutputTokens": 128000,
+      "modalities": {
+        "input": [
+          "text",
+          "image",
+          "pdf"
+        ],
+        "output": [
+          "text"
+        ]
+      },
+      "name": "GPT-5.5",
+      "price": {
+        "cacheRead": null,
+        "cacheWrite": null,
+        "input": 5,
+        "output": 30
+      },
+      "releaseDate": "2026-04-23",
+      "tags": []
+    },
+    {
+      "description": "GPT-5.5 Pro is an AI model provided by fastrouter.",
+      "firm": "fastrouter",
+      "flags": {
+        "attachment": true,
+        "audio": false,
+        "image": true,
+        "open_weights": false,
+        "reasoning": true,
+        "temperature": false,
+        "tool_call": true
+      },
+      "icon": "lb:fastgpt",
+      "id": "openai/gpt-5.5-pro",
+      "knowledge": "2025-12-01",
+      "lastUpdated": "2026-04-23",
+      "maxCtxTokens": 1050000,
+      "maxOutputTokens": 128000,
+      "modalities": {
+        "input": [
+          "text",
+          "image",
+          "pdf"
+        ],
+        "output": [
+          "text"
+        ]
+      },
+      "name": "GPT-5.5 Pro",
+      "price": {
+        "cacheRead": null,
+        "cacheWrite": null,
+        "input": 30,
+        "output": 180
+      },
+      "releaseDate": "2026-04-23",
+      "tags": []
+    },
+    {
+      "description": "GPT Image 2 is an AI model provided by fastrouter.",
+      "firm": "fastrouter",
+      "flags": {
+        "attachment": true,
+        "audio": false,
+        "image": true,
+        "open_weights": false,
+        "reasoning": false,
+        "temperature": true,
+        "tool_call": false
+      },
+      "icon": "lb:fastgpt",
+      "id": "openai/gpt-image-2",
+      "knowledge": null,
+      "lastUpdated": "2026-04-21",
+      "maxCtxTokens": 128000,
+      "maxOutputTokens": 0,
+      "modalities": {
+        "input": [
+          "text",
+          "image"
+        ],
+        "output": [
+          "image"
+        ]
+      },
+      "name": "GPT Image 2",
+      "price": {
+        "cacheRead": null,
+        "cacheWrite": null,
+        "input": null,
+        "output": null
+      },
+      "releaseDate": "2026-04-21",
+      "tags": []
+    },
+    {
       "description": "GPT OSS 120B is an AI model provided by fastrouter.",
       "firm": "fastrouter",
       "flags": {
@@ -48694,6 +49667,45 @@
       "tags": []
     },
     {
+      "description": "GPT Realtime 1.5 is an AI model provided by fastrouter.",
+      "firm": "fastrouter",
+      "flags": {
+        "attachment": true,
+        "audio": true,
+        "image": true,
+        "open_weights": false,
+        "reasoning": false,
+        "temperature": true,
+        "tool_call": true
+      },
+      "icon": "lb:fastgpt",
+      "id": "openai/gpt-realtime-1.5",
+      "knowledge": null,
+      "lastUpdated": "2025-06-01",
+      "maxCtxTokens": 32000,
+      "maxOutputTokens": 4096,
+      "modalities": {
+        "input": [
+          "text",
+          "audio",
+          "image"
+        ],
+        "output": [
+          "text",
+          "audio"
+        ]
+      },
+      "name": "GPT Realtime 1.5",
+      "price": {
+        "cacheRead": null,
+        "cacheWrite": null,
+        "input": 4,
+        "output": 16
+      },
+      "releaseDate": "2025-06-01",
+      "tags": []
+    },
+    {
       "description": "Qwen3 Coder is an AI model provided by fastrouter.",
       "firm": "fastrouter",
       "flags": {
@@ -48727,6 +49739,115 @@
         "output": 1.2
       },
       "releaseDate": "2025-07-23",
+      "tags": []
+    },
+    {
+      "description": "Sarvam 105B is an AI model provided by fastrouter.",
+      "firm": "fastrouter",
+      "flags": {
+        "attachment": false,
+        "audio": false,
+        "image": false,
+        "open_weights": true,
+        "reasoning": true,
+        "temperature": true,
+        "tool_call": true
+      },
+      "icon": "lb:fastgpt",
+      "id": "sarvam/sarvam-105b",
+      "knowledge": null,
+      "lastUpdated": "2025-09-01",
+      "maxCtxTokens": 131072,
+      "maxOutputTokens": 131072,
+      "modalities": {
+        "input": [
+          "text"
+        ],
+        "output": [
+          "text"
+        ]
+      },
+      "name": "Sarvam 105B",
+      "price": {
+        "cacheRead": null,
+        "cacheWrite": null,
+        "input": 0.04,
+        "output": 0.16
+      },
+      "releaseDate": "2025-09-01",
+      "tags": []
+    },
+    {
+      "description": "Sarvam 30B is an AI model provided by fastrouter.",
+      "firm": "fastrouter",
+      "flags": {
+        "attachment": false,
+        "audio": false,
+        "image": false,
+        "open_weights": true,
+        "reasoning": true,
+        "temperature": true,
+        "tool_call": true
+      },
+      "icon": "lb:fastgpt",
+      "id": "sarvam/sarvam-30b",
+      "knowledge": null,
+      "lastUpdated": "2026-02-18",
+      "maxCtxTokens": 128000,
+      "maxOutputTokens": 128000,
+      "modalities": {
+        "input": [
+          "text"
+        ],
+        "output": [
+          "text"
+        ]
+      },
+      "name": "Sarvam 30B",
+      "price": {
+        "cacheRead": null,
+        "cacheWrite": null,
+        "input": 0.02,
+        "output": 0.1
+      },
+      "releaseDate": "2026-02-18",
+      "tags": []
+    },
+    {
+      "description": "Wan 2.6 is an AI model provided by fastrouter.",
+      "firm": "fastrouter",
+      "flags": {
+        "attachment": true,
+        "audio": false,
+        "image": true,
+        "open_weights": true,
+        "reasoning": false,
+        "temperature": false,
+        "tool_call": false
+      },
+      "icon": "lb:fastgpt",
+      "id": "wanx/wan-v2-6",
+      "knowledge": null,
+      "lastUpdated": "2025-12-01",
+      "maxCtxTokens": 400000,
+      "maxOutputTokens": 0,
+      "modalities": {
+        "input": [
+          "text",
+          "image"
+        ],
+        "output": [
+          "video"
+        ]
+      },
+      "name": "Wan 2.6",
+      "price": {
+        "cacheRead": null,
+        "cacheWrite": null,
+        "input": null,
+        "output": null
+      },
+      "releaseDate": "2025-12-01",
       "tags": []
     },
     {
@@ -48766,6 +49887,82 @@
       "tags": []
     },
     {
+      "description": "Grok 4.3 is an AI model provided by fastrouter.",
+      "firm": "fastrouter",
+      "flags": {
+        "attachment": true,
+        "audio": false,
+        "image": true,
+        "open_weights": false,
+        "reasoning": true,
+        "temperature": true,
+        "tool_call": true
+      },
+      "icon": "lb:fastgpt",
+      "id": "x-ai/grok-4.3",
+      "knowledge": null,
+      "lastUpdated": "2026-04-17",
+      "maxCtxTokens": 1000000,
+      "maxOutputTokens": 30000,
+      "modalities": {
+        "input": [
+          "text",
+          "image",
+          "pdf"
+        ],
+        "output": [
+          "text"
+        ]
+      },
+      "name": "Grok 4.3",
+      "price": {
+        "cacheRead": null,
+        "cacheWrite": null,
+        "input": 1.25,
+        "output": 2.5
+      },
+      "releaseDate": "2026-04-17",
+      "tags": []
+    },
+    {
+      "description": "Grok Build 0.1 is an AI model provided by fastrouter.",
+      "firm": "fastrouter",
+      "flags": {
+        "attachment": true,
+        "audio": false,
+        "image": true,
+        "open_weights": false,
+        "reasoning": true,
+        "temperature": true,
+        "tool_call": true
+      },
+      "icon": "lb:fastgpt",
+      "id": "x-ai/grok-build-0.1",
+      "knowledge": null,
+      "lastUpdated": "2026-04-16",
+      "maxCtxTokens": 256000,
+      "maxOutputTokens": 256000,
+      "modalities": {
+        "input": [
+          "text",
+          "image",
+          "pdf"
+        ],
+        "output": [
+          "text"
+        ]
+      },
+      "name": "Grok Build 0.1",
+      "price": {
+        "cacheRead": null,
+        "cacheWrite": null,
+        "input": 1,
+        "output": 2
+      },
+      "releaseDate": "2026-04-16",
+      "tags": []
+    },
+    {
       "description": "GLM-5 is an AI model provided by fastrouter.",
       "firm": "fastrouter",
       "flags": {
@@ -48799,6 +49996,42 @@
         "output": 3.15
       },
       "releaseDate": "2026-02-11",
+      "tags": []
+    },
+    {
+      "description": "GLM-5.1 is an AI model provided by fastrouter.",
+      "firm": "fastrouter",
+      "flags": {
+        "attachment": false,
+        "audio": false,
+        "image": false,
+        "open_weights": true,
+        "reasoning": true,
+        "temperature": true,
+        "tool_call": true
+      },
+      "icon": "lb:fastgpt",
+      "id": "z-ai/glm-5.1",
+      "knowledge": null,
+      "lastUpdated": "2026-03-27",
+      "maxCtxTokens": 200000,
+      "maxOutputTokens": 131072,
+      "modalities": {
+        "input": [
+          "text"
+        ],
+        "output": [
+          "text"
+        ]
+      },
+      "name": "GLM-5.1",
+      "price": {
+        "cacheRead": null,
+        "cacheWrite": null,
+        "input": 1.05,
+        "output": 3.5
+      },
+      "releaseDate": "2026-03-27",
       "tags": []
     },
     {
@@ -49310,6 +50543,44 @@
         "output": 8
       },
       "releaseDate": "2026-04-17",
+      "tags": []
+    },
+    {
+      "description": "Claude Fable 5 is an AI model provided by freemodel.",
+      "firm": "freemodel",
+      "flags": {
+        "attachment": true,
+        "audio": false,
+        "image": true,
+        "open_weights": false,
+        "reasoning": true,
+        "temperature": false,
+        "tool_call": true
+      },
+      "icon": "",
+      "id": "claude-fable-5",
+      "knowledge": "2026-01-31",
+      "lastUpdated": "2026-06-09",
+      "maxCtxTokens": 1000000,
+      "maxOutputTokens": 128000,
+      "modalities": {
+        "input": [
+          "text",
+          "image",
+          "pdf"
+        ],
+        "output": [
+          "text"
+        ]
+      },
+      "name": "Claude Fable 5",
+      "price": {
+        "cacheRead": 1,
+        "cacheWrite": 12.5,
+        "input": 10,
+        "output": 50
+      },
+      "releaseDate": "2026-06-09",
       "tags": []
     },
     {
@@ -53680,6 +54951,44 @@
         "output": null
       },
       "releaseDate": "2024-12-09",
+      "tags": []
+    },
+    {
+      "description": "Agentic Chat (Claude Fable 5) is an AI model provided by gitlab.",
+      "firm": "gitlab",
+      "flags": {
+        "attachment": true,
+        "audio": false,
+        "image": true,
+        "open_weights": false,
+        "reasoning": true,
+        "temperature": false,
+        "tool_call": true
+      },
+      "icon": "",
+      "id": "duo-chat-fable-5",
+      "knowledge": "2026-01-31",
+      "lastUpdated": "2026-06-09",
+      "maxCtxTokens": 1000000,
+      "maxOutputTokens": 128000,
+      "modalities": {
+        "input": [
+          "text",
+          "image",
+          "pdf"
+        ],
+        "output": [
+          "text"
+        ]
+      },
+      "name": "Agentic Chat (Claude Fable 5)",
+      "price": {
+        "cacheRead": null,
+        "cacheWrite": null,
+        "input": null,
+        "output": null
+      },
+      "releaseDate": "2026-06-09",
       "tags": []
     },
     {
@@ -86310,6 +87619,226 @@
         "output": 8
       },
       "releaseDate": "2024-01-01",
+      "tags": []
+    },
+    {
+      "description": "Gemma 4 is an AI model provided by llmtr.",
+      "firm": "llmtr",
+      "flags": {
+        "attachment": false,
+        "audio": false,
+        "image": false,
+        "open_weights": true,
+        "reasoning": false,
+        "temperature": true,
+        "tool_call": false
+      },
+      "icon": "",
+      "id": "gemma-4",
+      "knowledge": null,
+      "lastUpdated": "2026-04-22",
+      "maxCtxTokens": 32768,
+      "maxOutputTokens": 8192,
+      "modalities": {
+        "input": [
+          "text"
+        ],
+        "output": [
+          "text"
+        ]
+      },
+      "name": "Gemma 4",
+      "price": {
+        "cacheRead": null,
+        "cacheWrite": null,
+        "input": 5,
+        "output": 10
+      },
+      "releaseDate": "2026-04-22",
+      "tags": []
+    },
+    {
+      "description": "Magibu 11B v8 is an AI model provided by llmtr.",
+      "firm": "llmtr",
+      "flags": {
+        "attachment": false,
+        "audio": false,
+        "image": false,
+        "open_weights": false,
+        "reasoning": false,
+        "temperature": true,
+        "tool_call": false
+      },
+      "icon": "",
+      "id": "magibu-11b-v8",
+      "knowledge": null,
+      "lastUpdated": "2026-06-05",
+      "maxCtxTokens": 8192,
+      "maxOutputTokens": 4096,
+      "modalities": {
+        "input": [
+          "text"
+        ],
+        "output": [
+          "text"
+        ]
+      },
+      "name": "Magibu 11B v8",
+      "price": {
+        "cacheRead": null,
+        "cacheWrite": null,
+        "input": null,
+        "output": null
+      },
+      "releaseDate": "2026-06-05",
+      "tags": []
+    },
+    {
+      "description": "MedGemma 4B is an AI model provided by llmtr.",
+      "firm": "llmtr",
+      "flags": {
+        "attachment": true,
+        "audio": false,
+        "image": true,
+        "open_weights": true,
+        "reasoning": false,
+        "temperature": true,
+        "tool_call": false
+      },
+      "icon": "",
+      "id": "medgemma-4b",
+      "knowledge": null,
+      "lastUpdated": "2026-04-26",
+      "maxCtxTokens": 8192,
+      "maxOutputTokens": 4096,
+      "modalities": {
+        "input": [
+          "text",
+          "image"
+        ],
+        "output": [
+          "text"
+        ]
+      },
+      "name": "MedGemma 4B",
+      "price": {
+        "cacheRead": null,
+        "cacheWrite": null,
+        "input": 3,
+        "output": 5
+      },
+      "releaseDate": "2026-04-26",
+      "tags": []
+    },
+    {
+      "description": "Qwen3.6 35B-A3B is an AI model provided by llmtr.",
+      "firm": "llmtr",
+      "flags": {
+        "attachment": true,
+        "audio": true,
+        "image": true,
+        "open_weights": true,
+        "reasoning": true,
+        "temperature": true,
+        "tool_call": true
+      },
+      "icon": "",
+      "id": "qwen3-6-35b",
+      "knowledge": null,
+      "lastUpdated": "2026-04-17",
+      "maxCtxTokens": 16384,
+      "maxOutputTokens": 65536,
+      "modalities": {
+        "input": [
+          "text",
+          "image",
+          "video",
+          "audio"
+        ],
+        "output": [
+          "text"
+        ]
+      },
+      "name": "Qwen3.6 35B-A3B",
+      "price": {
+        "cacheRead": null,
+        "cacheWrite": null,
+        "input": 5,
+        "output": 10
+      },
+      "releaseDate": "2026-04-17",
+      "tags": []
+    },
+    {
+      "description": "Sincap is an AI model provided by llmtr.",
+      "firm": "llmtr",
+      "flags": {
+        "attachment": false,
+        "audio": false,
+        "image": false,
+        "open_weights": false,
+        "reasoning": false,
+        "temperature": true,
+        "tool_call": false
+      },
+      "icon": "",
+      "id": "sincap",
+      "knowledge": null,
+      "lastUpdated": "2026-05-05",
+      "maxCtxTokens": 128000,
+      "maxOutputTokens": 8192,
+      "modalities": {
+        "input": [
+          "text"
+        ],
+        "output": [
+          "text"
+        ]
+      },
+      "name": "Sincap",
+      "price": {
+        "cacheRead": null,
+        "cacheWrite": null,
+        "input": null,
+        "output": null
+      },
+      "releaseDate": "2026-05-05",
+      "tags": []
+    },
+    {
+      "description": "Trendyol 7B is an AI model provided by llmtr.",
+      "firm": "llmtr",
+      "flags": {
+        "attachment": false,
+        "audio": false,
+        "image": false,
+        "open_weights": true,
+        "reasoning": false,
+        "temperature": true,
+        "tool_call": false
+      },
+      "icon": "",
+      "id": "trendyol-7b",
+      "knowledge": null,
+      "lastUpdated": "2026-06-06",
+      "maxCtxTokens": 32768,
+      "maxOutputTokens": 8192,
+      "modalities": {
+        "input": [
+          "text"
+        ],
+        "output": [
+          "text"
+        ]
+      },
+      "name": "Trendyol 7B",
+      "price": {
+        "cacheRead": null,
+        "cacheWrite": null,
+        "input": null,
+        "output": null
+      },
+      "releaseDate": "2026-06-06",
       "tags": []
     },
     {
@@ -134732,7 +136261,7 @@
       "id": "deepseek/deepseek-chat-v3-0324",
       "knowledge": "2024-07-31",
       "lastUpdated": "2025-03-24",
-      "maxCtxTokens": 163840,
+      "maxCtxTokens": 32768,
       "maxOutputTokens": 16384,
       "modalities": {
         "input": [
@@ -138447,43 +139976,6 @@
         "cacheWrite": null,
         "input": 0.68,
         "output": 3.41
-      },
-      "releaseDate": "2026-04-21",
-      "tags": []
-    },
-    {
-      "description": "Kimi K2.6 (free) is an AI model provided by openrouter.",
-      "firm": "openrouter",
-      "flags": {
-        "attachment": true,
-        "audio": false,
-        "image": true,
-        "open_weights": true,
-        "reasoning": true,
-        "temperature": false,
-        "tool_call": true
-      },
-      "icon": "lb:openrouter-color",
-      "id": "moonshotai/kimi-k2.6:free",
-      "knowledge": "2025-01",
-      "lastUpdated": "2026-04-21",
-      "maxCtxTokens": 262144,
-      "maxOutputTokens": 262144,
-      "modalities": {
-        "input": [
-          "text",
-          "image"
-        ],
-        "output": [
-          "text"
-        ]
-      },
-      "name": "Kimi K2.6 (free)",
-      "price": {
-        "cacheRead": null,
-        "cacheWrite": null,
-        "input": null,
-        "output": null
       },
       "releaseDate": "2026-04-21",
       "tags": []
@@ -173161,7 +174653,7 @@
       "icon": "lb:veniceai",
       "id": "aion-labs-aion-2-0",
       "knowledge": null,
-      "lastUpdated": "2026-04-12",
+      "lastUpdated": "2026-06-10",
       "maxCtxTokens": 128000,
       "maxOutputTokens": 32768,
       "modalities": {
@@ -173197,7 +174689,7 @@
       "icon": "lb:veniceai",
       "id": "arcee-trinity-large-thinking",
       "knowledge": null,
-      "lastUpdated": "2026-04-04",
+      "lastUpdated": "2026-06-10",
       "maxCtxTokens": 256000,
       "maxOutputTokens": 65536,
       "modalities": {
@@ -173219,6 +174711,43 @@
       "tags": []
     },
     {
+      "description": "Claude Fable 5 is an AI model provided by venice.",
+      "firm": "venice",
+      "flags": {
+        "attachment": true,
+        "audio": false,
+        "image": true,
+        "open_weights": false,
+        "reasoning": true,
+        "temperature": true,
+        "tool_call": true
+      },
+      "icon": "lb:veniceai",
+      "id": "claude-fable-5",
+      "knowledge": "2026-01-31",
+      "lastUpdated": "2026-06-10",
+      "maxCtxTokens": 1000000,
+      "maxOutputTokens": 128000,
+      "modalities": {
+        "input": [
+          "text",
+          "image"
+        ],
+        "output": [
+          "text"
+        ]
+      },
+      "name": "Claude Fable 5",
+      "price": {
+        "cacheRead": 1.2,
+        "cacheWrite": 15,
+        "input": 12,
+        "output": 60
+      },
+      "releaseDate": "2026-06-10",
+      "tags": []
+    },
+    {
       "description": "Claude Opus 4.5 is an AI model provided by venice.",
       "firm": "venice",
       "flags": {
@@ -173232,8 +174761,8 @@
       },
       "icon": "lb:veniceai",
       "id": "claude-opus-4-5",
-      "knowledge": null,
-      "lastUpdated": "2026-04-12",
+      "knowledge": "2025-03-31",
+      "lastUpdated": "2026-06-10",
       "maxCtxTokens": 198000,
       "maxOutputTokens": 32768,
       "modalities": {
@@ -173270,7 +174799,7 @@
       "icon": "lb:veniceai",
       "id": "claude-opus-4-6",
       "knowledge": "2025-05-31",
-      "lastUpdated": "2026-03-16",
+      "lastUpdated": "2026-06-10",
       "maxCtxTokens": 1000000,
       "maxOutputTokens": 128000,
       "modalities": {
@@ -173307,7 +174836,7 @@
       "icon": "lb:veniceai",
       "id": "claude-opus-4-6-fast",
       "knowledge": "2025-05-31",
-      "lastUpdated": "2026-04-08",
+      "lastUpdated": "2026-06-10",
       "maxCtxTokens": 1000000,
       "maxOutputTokens": 128000,
       "modalities": {
@@ -173338,13 +174867,13 @@
         "image": true,
         "open_weights": false,
         "reasoning": true,
-        "temperature": false,
+        "temperature": true,
         "tool_call": true
       },
       "icon": "lb:veniceai",
       "id": "claude-opus-4-7",
-      "knowledge": null,
-      "lastUpdated": "2026-04-16",
+      "knowledge": "2026-01-31",
+      "lastUpdated": "2026-06-10",
       "maxCtxTokens": 1000000,
       "maxOutputTokens": 128000,
       "modalities": {
@@ -173380,8 +174909,8 @@
       },
       "icon": "lb:veniceai",
       "id": "claude-opus-4-7-fast",
-      "knowledge": null,
-      "lastUpdated": "2026-05-14",
+      "knowledge": "2026-01-31",
+      "lastUpdated": "2026-06-10",
       "maxCtxTokens": 1000000,
       "maxOutputTokens": 128000,
       "modalities": {
@@ -173418,7 +174947,7 @@
       "icon": "lb:veniceai",
       "id": "claude-opus-4-8",
       "knowledge": null,
-      "lastUpdated": "2026-05-28",
+      "lastUpdated": "2026-06-10",
       "maxCtxTokens": 1000000,
       "maxOutputTokens": 128000,
       "modalities": {
@@ -173455,7 +174984,7 @@
       "icon": "lb:veniceai",
       "id": "claude-opus-4-8-fast",
       "knowledge": null,
-      "lastUpdated": "2026-05-28",
+      "lastUpdated": "2026-06-10",
       "maxCtxTokens": 1000000,
       "maxOutputTokens": 128000,
       "modalities": {
@@ -173491,8 +175020,8 @@
       },
       "icon": "lb:veniceai",
       "id": "claude-sonnet-4-5",
-      "knowledge": null,
-      "lastUpdated": "2026-04-12",
+      "knowledge": "2025-07-31",
+      "lastUpdated": "2026-06-10",
       "maxCtxTokens": 198000,
       "maxOutputTokens": 64000,
       "modalities": {
@@ -173529,7 +175058,7 @@
       "icon": "lb:veniceai",
       "id": "claude-sonnet-4-6",
       "knowledge": "2025-08-31",
-      "lastUpdated": "2026-03-16",
+      "lastUpdated": "2026-06-10",
       "maxCtxTokens": 1000000,
       "maxOutputTokens": 64000,
       "modalities": {
@@ -173566,7 +175095,7 @@
       "icon": "lb:veniceai",
       "id": "deepseek-v3.2",
       "knowledge": "2025-10",
-      "lastUpdated": "2026-03-24",
+      "lastUpdated": "2026-06-10",
       "maxCtxTokens": 160000,
       "maxOutputTokens": 32768,
       "modalities": {
@@ -173601,8 +175130,8 @@
       },
       "icon": "lb:veniceai",
       "id": "deepseek-v4-flash",
-      "knowledge": null,
-      "lastUpdated": "2026-04-29",
+      "knowledge": "2025-05",
+      "lastUpdated": "2026-06-10",
       "maxCtxTokens": 1000000,
       "maxOutputTokens": 32768,
       "modalities": {
@@ -173637,8 +175166,8 @@
       },
       "icon": "lb:veniceai",
       "id": "deepseek-v4-pro",
-      "knowledge": null,
-      "lastUpdated": "2026-04-29",
+      "knowledge": "2025-05",
+      "lastUpdated": "2026-06-10",
       "maxCtxTokens": 1000000,
       "maxOutputTokens": 32768,
       "modalities": {
@@ -173660,6 +175189,511 @@
       "tags": []
     },
     {
+      "description": "Gemma 3 27B is an AI model provided by venice.",
+      "firm": "venice",
+      "flags": {
+        "attachment": false,
+        "audio": false,
+        "image": false,
+        "open_weights": true,
+        "reasoning": false,
+        "temperature": true,
+        "tool_call": false
+      },
+      "icon": "lb:veniceai",
+      "id": "e2ee-gemma-3-27b-p",
+      "knowledge": null,
+      "lastUpdated": "2026-06-10",
+      "maxCtxTokens": 40000,
+      "maxOutputTokens": 4096,
+      "modalities": {
+        "input": [
+          "text"
+        ],
+        "output": [
+          "text"
+        ]
+      },
+      "name": "Gemma 3 27B",
+      "price": {
+        "cacheRead": null,
+        "cacheWrite": null,
+        "input": 0.14,
+        "output": 0.5
+      },
+      "releaseDate": "2026-03-18",
+      "tags": []
+    },
+    {
+      "description": "Gemma 4 26B A4B Uncensored is an AI model provided by venice.",
+      "firm": "venice",
+      "flags": {
+        "attachment": false,
+        "audio": false,
+        "image": false,
+        "open_weights": false,
+        "reasoning": false,
+        "temperature": true,
+        "tool_call": false
+      },
+      "icon": "lb:veniceai",
+      "id": "e2ee-gemma-4-26b-a4b-uncensored-p",
+      "knowledge": null,
+      "lastUpdated": "2026-06-10",
+      "maxCtxTokens": 64000,
+      "maxOutputTokens": 4096,
+      "modalities": {
+        "input": [
+          "text"
+        ],
+        "output": [
+          "text"
+        ]
+      },
+      "name": "Gemma 4 26B A4B Uncensored",
+      "price": {
+        "cacheRead": null,
+        "cacheWrite": null,
+        "input": 0.19,
+        "output": 0.88
+      },
+      "releaseDate": "2026-05-24",
+      "tags": []
+    },
+    {
+      "description": "Gemma 4 31B Instruct is an AI model provided by venice.",
+      "firm": "venice",
+      "flags": {
+        "attachment": false,
+        "audio": false,
+        "image": false,
+        "open_weights": true,
+        "reasoning": true,
+        "temperature": true,
+        "tool_call": false
+      },
+      "icon": "lb:veniceai",
+      "id": "e2ee-gemma-4-31b",
+      "knowledge": null,
+      "lastUpdated": "2026-06-10",
+      "maxCtxTokens": 32000,
+      "maxOutputTokens": 4096,
+      "modalities": {
+        "input": [
+          "text"
+        ],
+        "output": [
+          "text"
+        ]
+      },
+      "name": "Gemma 4 31B Instruct",
+      "price": {
+        "cacheRead": 0.028,
+        "cacheWrite": null,
+        "input": 0.139,
+        "output": 0.43
+      },
+      "releaseDate": "2026-05-20",
+      "tags": []
+    },
+    {
+      "description": "GLM 4.7 Flash is an AI model provided by venice.",
+      "firm": "venice",
+      "flags": {
+        "attachment": false,
+        "audio": false,
+        "image": false,
+        "open_weights": true,
+        "reasoning": true,
+        "temperature": true,
+        "tool_call": false
+      },
+      "icon": "lb:veniceai",
+      "id": "e2ee-glm-4-7-flash-p",
+      "knowledge": "2025-04",
+      "lastUpdated": "2026-06-10",
+      "maxCtxTokens": 198000,
+      "maxOutputTokens": 4096,
+      "modalities": {
+        "input": [
+          "text"
+        ],
+        "output": [
+          "text"
+        ]
+      },
+      "name": "GLM 4.7 Flash",
+      "price": {
+        "cacheRead": null,
+        "cacheWrite": null,
+        "input": 0.13,
+        "output": 0.55
+      },
+      "releaseDate": "2026-03-18",
+      "tags": []
+    },
+    {
+      "description": "GLM 4.7 is an AI model provided by venice.",
+      "firm": "venice",
+      "flags": {
+        "attachment": false,
+        "audio": false,
+        "image": false,
+        "open_weights": true,
+        "reasoning": true,
+        "temperature": true,
+        "tool_call": false
+      },
+      "icon": "lb:veniceai",
+      "id": "e2ee-glm-4-7-p",
+      "knowledge": "2025-04",
+      "lastUpdated": "2026-06-10",
+      "maxCtxTokens": 128000,
+      "maxOutputTokens": 32768,
+      "modalities": {
+        "input": [
+          "text"
+        ],
+        "output": [
+          "text"
+        ]
+      },
+      "name": "GLM 4.7",
+      "price": {
+        "cacheRead": null,
+        "cacheWrite": null,
+        "input": 1.1,
+        "output": 4.15
+      },
+      "releaseDate": "2026-03-18",
+      "tags": []
+    },
+    {
+      "description": "GLM 5.1 is an AI model provided by venice.",
+      "firm": "venice",
+      "flags": {
+        "attachment": false,
+        "audio": false,
+        "image": false,
+        "open_weights": true,
+        "reasoning": true,
+        "temperature": true,
+        "tool_call": false
+      },
+      "icon": "lb:veniceai",
+      "id": "e2ee-glm-5-1",
+      "knowledge": null,
+      "lastUpdated": "2026-06-10",
+      "maxCtxTokens": 200000,
+      "maxOutputTokens": 32768,
+      "modalities": {
+        "input": [
+          "text"
+        ],
+        "output": [
+          "text"
+        ]
+      },
+      "name": "GLM 5.1",
+      "price": {
+        "cacheRead": null,
+        "cacheWrite": null,
+        "input": 1.1,
+        "output": 4.15
+      },
+      "releaseDate": "2026-04-24",
+      "tags": []
+    },
+    {
+      "description": "GPT OSS 120B is an AI model provided by venice.",
+      "firm": "venice",
+      "flags": {
+        "attachment": false,
+        "audio": false,
+        "image": false,
+        "open_weights": true,
+        "reasoning": true,
+        "temperature": true,
+        "tool_call": false
+      },
+      "icon": "lb:veniceai",
+      "id": "e2ee-gpt-oss-120b-p",
+      "knowledge": null,
+      "lastUpdated": "2026-06-10",
+      "maxCtxTokens": 128000,
+      "maxOutputTokens": 32768,
+      "modalities": {
+        "input": [
+          "text"
+        ],
+        "output": [
+          "text"
+        ]
+      },
+      "name": "GPT OSS 120B",
+      "price": {
+        "cacheRead": null,
+        "cacheWrite": null,
+        "input": 0.13,
+        "output": 0.65
+      },
+      "releaseDate": "2026-03-18",
+      "tags": []
+    },
+    {
+      "description": "GPT OSS 20B is an AI model provided by venice.",
+      "firm": "venice",
+      "flags": {
+        "attachment": false,
+        "audio": false,
+        "image": false,
+        "open_weights": true,
+        "reasoning": true,
+        "temperature": true,
+        "tool_call": false
+      },
+      "icon": "lb:veniceai",
+      "id": "e2ee-gpt-oss-20b-p",
+      "knowledge": null,
+      "lastUpdated": "2026-06-10",
+      "maxCtxTokens": 128000,
+      "maxOutputTokens": 32768,
+      "modalities": {
+        "input": [
+          "text"
+        ],
+        "output": [
+          "text"
+        ]
+      },
+      "name": "GPT OSS 20B",
+      "price": {
+        "cacheRead": null,
+        "cacheWrite": null,
+        "input": 0.05,
+        "output": 0.19
+      },
+      "releaseDate": "2026-03-18",
+      "tags": []
+    },
+    {
+      "description": "Qwen 2.5 7B is an AI model provided by venice.",
+      "firm": "venice",
+      "flags": {
+        "attachment": false,
+        "audio": false,
+        "image": false,
+        "open_weights": true,
+        "reasoning": false,
+        "temperature": true,
+        "tool_call": false
+      },
+      "icon": "lb:veniceai",
+      "id": "e2ee-qwen-2-5-7b-p",
+      "knowledge": null,
+      "lastUpdated": "2026-06-10",
+      "maxCtxTokens": 32000,
+      "maxOutputTokens": 4096,
+      "modalities": {
+        "input": [
+          "text"
+        ],
+        "output": [
+          "text"
+        ]
+      },
+      "name": "Qwen 2.5 7B",
+      "price": {
+        "cacheRead": null,
+        "cacheWrite": null,
+        "input": 0.05,
+        "output": 0.13
+      },
+      "releaseDate": "2026-03-18",
+      "tags": []
+    },
+    {
+      "description": "Qwen3 30B A3B is an AI model provided by venice.",
+      "firm": "venice",
+      "flags": {
+        "attachment": false,
+        "audio": false,
+        "image": false,
+        "open_weights": true,
+        "reasoning": false,
+        "temperature": true,
+        "tool_call": true
+      },
+      "icon": "lb:veniceai",
+      "id": "e2ee-qwen3-30b-a3b-p",
+      "knowledge": null,
+      "lastUpdated": "2026-06-10",
+      "maxCtxTokens": 256000,
+      "maxOutputTokens": 32768,
+      "modalities": {
+        "input": [
+          "text"
+        ],
+        "output": [
+          "text"
+        ]
+      },
+      "name": "Qwen3 30B A3B",
+      "price": {
+        "cacheRead": null,
+        "cacheWrite": null,
+        "input": 0.19,
+        "output": 0.69
+      },
+      "releaseDate": "2026-03-18",
+      "tags": []
+    },
+    {
+      "description": "Qwen 3.6 35B A3B FP8 is an AI model provided by venice.",
+      "firm": "venice",
+      "flags": {
+        "attachment": false,
+        "audio": false,
+        "image": false,
+        "open_weights": true,
+        "reasoning": true,
+        "temperature": true,
+        "tool_call": true
+      },
+      "icon": "lb:veniceai",
+      "id": "e2ee-qwen3-6-35b-a3b",
+      "knowledge": null,
+      "lastUpdated": "2026-06-10",
+      "maxCtxTokens": 32000,
+      "maxOutputTokens": 4096,
+      "modalities": {
+        "input": [
+          "text"
+        ],
+        "output": [
+          "text"
+        ]
+      },
+      "name": "Qwen 3.6 35B A3B FP8",
+      "price": {
+        "cacheRead": 0.06,
+        "cacheWrite": null,
+        "input": 0.182,
+        "output": 1.18
+      },
+      "releaseDate": "2026-05-20",
+      "tags": []
+    },
+    {
+      "description": "Qwen3.6 35B A3B Uncensored is an AI model provided by venice.",
+      "firm": "venice",
+      "flags": {
+        "attachment": false,
+        "audio": false,
+        "image": false,
+        "open_weights": false,
+        "reasoning": false,
+        "temperature": true,
+        "tool_call": false
+      },
+      "icon": "lb:veniceai",
+      "id": "e2ee-qwen3-6-35b-a3b-uncensored-p",
+      "knowledge": null,
+      "lastUpdated": "2026-06-10",
+      "maxCtxTokens": 128000,
+      "maxOutputTokens": 4096,
+      "modalities": {
+        "input": [
+          "text"
+        ],
+        "output": [
+          "text"
+        ]
+      },
+      "name": "Qwen3.6 35B A3B Uncensored",
+      "price": {
+        "cacheRead": null,
+        "cacheWrite": null,
+        "input": 0.38,
+        "output": 1.88
+      },
+      "releaseDate": "2026-05-24",
+      "tags": []
+    },
+    {
+      "description": "Qwen3 VL 30B A3B is an AI model provided by venice.",
+      "firm": "venice",
+      "flags": {
+        "attachment": true,
+        "audio": false,
+        "image": true,
+        "open_weights": true,
+        "reasoning": false,
+        "temperature": true,
+        "tool_call": true
+      },
+      "icon": "lb:veniceai",
+      "id": "e2ee-qwen3-vl-30b-a3b-p",
+      "knowledge": null,
+      "lastUpdated": "2026-06-10",
+      "maxCtxTokens": 128000,
+      "maxOutputTokens": 4096,
+      "modalities": {
+        "input": [
+          "text",
+          "image"
+        ],
+        "output": [
+          "text"
+        ]
+      },
+      "name": "Qwen3 VL 30B A3B",
+      "price": {
+        "cacheRead": null,
+        "cacheWrite": null,
+        "input": 0.25,
+        "output": 0.9
+      },
+      "releaseDate": "2026-03-18",
+      "tags": []
+    },
+    {
+      "description": "Venice Uncensored 1.1 is an AI model provided by venice.",
+      "firm": "venice",
+      "flags": {
+        "attachment": false,
+        "audio": false,
+        "image": false,
+        "open_weights": true,
+        "reasoning": false,
+        "temperature": true,
+        "tool_call": false
+      },
+      "icon": "lb:veniceai",
+      "id": "e2ee-venice-uncensored-24b-p",
+      "knowledge": null,
+      "lastUpdated": "2026-06-10",
+      "maxCtxTokens": 32000,
+      "maxOutputTokens": 4096,
+      "modalities": {
+        "input": [
+          "text"
+        ],
+        "output": [
+          "text"
+        ]
+      },
+      "name": "Venice Uncensored 1.1",
+      "price": {
+        "cacheRead": null,
+        "cacheWrite": null,
+        "input": 0.25,
+        "output": 1.15
+      },
+      "releaseDate": "2026-03-18",
+      "tags": []
+    },
+    {
       "description": "Gemini 3.1 Pro Preview is an AI model provided by venice.",
       "firm": "venice",
       "flags": {
@@ -173673,8 +175707,8 @@
       },
       "icon": "lb:veniceai",
       "id": "gemini-3-1-pro-preview",
-      "knowledge": null,
-      "lastUpdated": "2026-03-12",
+      "knowledge": "2025-01",
+      "lastUpdated": "2026-06-10",
       "maxCtxTokens": 1000000,
       "maxOutputTokens": 32768,
       "modalities": {
@@ -173712,8 +175746,8 @@
       },
       "icon": "lb:veniceai",
       "id": "gemini-3-5-flash",
-      "knowledge": null,
-      "lastUpdated": "2026-05-25",
+      "knowledge": "2025-01",
+      "lastUpdated": "2026-06-10",
       "maxCtxTokens": 1000000,
       "maxOutputTokens": 65536,
       "modalities": {
@@ -173752,15 +175786,15 @@
       "icon": "lb:veniceai",
       "id": "gemini-3-flash-preview",
       "knowledge": "2025-01",
-      "lastUpdated": "2026-03-12",
+      "lastUpdated": "2026-06-10",
       "maxCtxTokens": 256000,
       "maxOutputTokens": 65536,
       "modalities": {
         "input": [
           "text",
           "image",
-          "audio",
           "video",
+          "audio",
           "pdf"
         ],
         "output": [
@@ -173792,7 +175826,7 @@
       "icon": "lb:veniceai",
       "id": "gemma-4-uncensored",
       "knowledge": null,
-      "lastUpdated": "2026-04-19",
+      "lastUpdated": "2026-06-10",
       "maxCtxTokens": 256000,
       "maxOutputTokens": 8192,
       "modalities": {
@@ -173829,7 +175863,7 @@
       "icon": "lb:veniceai",
       "id": "google-gemma-3-27b-it",
       "knowledge": "2025-07",
-      "lastUpdated": "2026-03-12",
+      "lastUpdated": "2026-06-10",
       "maxCtxTokens": 198000,
       "maxOutputTokens": 16384,
       "modalities": {
@@ -173866,7 +175900,7 @@
       "icon": "lb:veniceai",
       "id": "google-gemma-4-26b-a4b-it",
       "knowledge": null,
-      "lastUpdated": "2026-04-12",
+      "lastUpdated": "2026-06-10",
       "maxCtxTokens": 256000,
       "maxOutputTokens": 8192,
       "modalities": {
@@ -173904,7 +175938,7 @@
       "icon": "lb:veniceai",
       "id": "google-gemma-4-31b-it",
       "knowledge": null,
-      "lastUpdated": "2026-06-08",
+      "lastUpdated": "2026-06-10",
       "maxCtxTokens": 256000,
       "maxOutputTokens": 8192,
       "modalities": {
@@ -173942,7 +175976,7 @@
       "icon": "lb:veniceai",
       "id": "grok-4-20",
       "knowledge": null,
-      "lastUpdated": "2026-05-07",
+      "lastUpdated": "2026-06-10",
       "maxCtxTokens": 2000000,
       "maxOutputTokens": 128000,
       "modalities": {
@@ -173979,7 +176013,7 @@
       "icon": "lb:veniceai",
       "id": "grok-4-20-multi-agent",
       "knowledge": null,
-      "lastUpdated": "2026-05-07",
+      "lastUpdated": "2026-06-10",
       "maxCtxTokens": 2000000,
       "maxOutputTokens": 128000,
       "modalities": {
@@ -174016,7 +176050,7 @@
       "icon": "lb:veniceai",
       "id": "grok-4-3",
       "knowledge": null,
-      "lastUpdated": "2026-05-04",
+      "lastUpdated": "2026-06-10",
       "maxCtxTokens": 1000000,
       "maxOutputTokens": 32000,
       "modalities": {
@@ -174053,7 +176087,7 @@
       "icon": "lb:veniceai",
       "id": "grok-build-0-1",
       "knowledge": null,
-      "lastUpdated": "2026-05-22",
+      "lastUpdated": "2026-06-10",
       "maxCtxTokens": 256000,
       "maxOutputTokens": 65536,
       "modalities": {
@@ -174090,7 +176124,7 @@
       "icon": "lb:veniceai",
       "id": "hermes-3-llama-3.1-405b",
       "knowledge": "2024-04",
-      "lastUpdated": "2026-03-12",
+      "lastUpdated": "2026-06-10",
       "maxCtxTokens": 128000,
       "maxOutputTokens": 16384,
       "modalities": {
@@ -174126,7 +176160,7 @@
       "icon": "lb:veniceai",
       "id": "kimi-k2-5",
       "knowledge": "2024-04",
-      "lastUpdated": "2026-04-30",
+      "lastUpdated": "2026-06-10",
       "maxCtxTokens": 256000,
       "maxOutputTokens": 65536,
       "modalities": {
@@ -174162,8 +176196,8 @@
       },
       "icon": "lb:veniceai",
       "id": "kimi-k2-6",
-      "knowledge": null,
-      "lastUpdated": "2026-04-30",
+      "knowledge": "2025-01",
+      "lastUpdated": "2026-06-10",
       "maxCtxTokens": 256000,
       "maxOutputTokens": 65536,
       "modalities": {
@@ -174200,7 +176234,7 @@
       "icon": "lb:veniceai",
       "id": "llama-3.2-3b",
       "knowledge": "2023-12",
-      "lastUpdated": "2026-03-12",
+      "lastUpdated": "2026-06-10",
       "maxCtxTokens": 128000,
       "maxOutputTokens": 4096,
       "modalities": {
@@ -174236,7 +176270,7 @@
       "icon": "lb:veniceai",
       "id": "llama-3.3-70b",
       "knowledge": "2023-12",
-      "lastUpdated": "2026-03-12",
+      "lastUpdated": "2026-06-10",
       "maxCtxTokens": 128000,
       "maxOutputTokens": 4096,
       "modalities": {
@@ -174272,7 +176306,7 @@
       "icon": "lb:veniceai",
       "id": "mercury-2",
       "knowledge": null,
-      "lastUpdated": "2026-04-09",
+      "lastUpdated": "2026-06-10",
       "maxCtxTokens": 128000,
       "maxOutputTokens": 50000,
       "modalities": {
@@ -174300,7 +176334,7 @@
         "attachment": false,
         "audio": false,
         "image": false,
-        "open_weights": false,
+        "open_weights": true,
         "reasoning": true,
         "temperature": true,
         "tool_call": true
@@ -174308,7 +176342,7 @@
       "icon": "lb:veniceai",
       "id": "minimax-m25",
       "knowledge": null,
-      "lastUpdated": "2026-04-12",
+      "lastUpdated": "2026-06-10",
       "maxCtxTokens": 198000,
       "maxOutputTokens": 32768,
       "modalities": {
@@ -174336,7 +176370,7 @@
         "attachment": false,
         "audio": false,
         "image": false,
-        "open_weights": false,
+        "open_weights": true,
         "reasoning": true,
         "temperature": true,
         "tool_call": true
@@ -174344,7 +176378,7 @@
       "icon": "lb:veniceai",
       "id": "minimax-m27",
       "knowledge": null,
-      "lastUpdated": "2026-04-12",
+      "lastUpdated": "2026-06-10",
       "maxCtxTokens": 198000,
       "maxOutputTokens": 32768,
       "modalities": {
@@ -174357,7 +176391,7 @@
       },
       "name": "MiniMax M2.7",
       "price": {
-        "cacheRead": 0.075,
+        "cacheRead": 0.06875,
         "cacheWrite": null,
         "input": 0.375,
         "output": 1.5
@@ -174380,7 +176414,7 @@
       "icon": "lb:veniceai",
       "id": "minimax-m3",
       "knowledge": null,
-      "lastUpdated": "2026-06-04",
+      "lastUpdated": "2026-06-10",
       "maxCtxTokens": 500000,
       "maxOutputTokens": 131072,
       "modalities": {
@@ -174417,8 +176451,8 @@
       },
       "icon": "lb:veniceai",
       "id": "mistral-small-2603",
-      "knowledge": null,
-      "lastUpdated": "2026-04-09",
+      "knowledge": "2025-06",
+      "lastUpdated": "2026-06-10",
       "maxCtxTokens": 256000,
       "maxOutputTokens": 65536,
       "modalities": {
@@ -174455,7 +176489,7 @@
       "icon": "lb:veniceai",
       "id": "mistral-small-3-2-24b-instruct",
       "knowledge": null,
-      "lastUpdated": "2026-03-16",
+      "lastUpdated": "2026-06-10",
       "maxCtxTokens": 256000,
       "maxOutputTokens": 16384,
       "modalities": {
@@ -174491,7 +176525,7 @@
       "icon": "lb:veniceai",
       "id": "nvidia-nemotron-3-nano-30b-a3b",
       "knowledge": null,
-      "lastUpdated": "2026-03-12",
+      "lastUpdated": "2026-06-10",
       "maxCtxTokens": 128000,
       "maxOutputTokens": 16384,
       "modalities": {
@@ -174516,9 +176550,9 @@
       "description": "NVIDIA Nemotron 3 Ultra is an AI model provided by venice.",
       "firm": "venice",
       "flags": {
-        "attachment": true,
+        "attachment": false,
         "audio": false,
-        "image": true,
+        "image": false,
         "open_weights": true,
         "reasoning": true,
         "temperature": true,
@@ -174527,13 +176561,12 @@
       "icon": "lb:veniceai",
       "id": "nvidia-nemotron-3-ultra-550b-a55b",
       "knowledge": null,
-      "lastUpdated": "2026-06-08",
+      "lastUpdated": "2026-06-10",
       "maxCtxTokens": 256000,
       "maxOutputTokens": 32768,
       "modalities": {
         "input": [
-          "text",
-          "image"
+          "text"
         ],
         "output": [
           "text"
@@ -174564,7 +176597,7 @@
       "icon": "lb:veniceai",
       "id": "nvidia-nemotron-cascade-2-30b-a3b",
       "knowledge": null,
-      "lastUpdated": "2026-04-09",
+      "lastUpdated": "2026-06-10",
       "maxCtxTokens": 256000,
       "maxOutputTokens": 32768,
       "modalities": {
@@ -174600,7 +176633,7 @@
       "icon": "lb:veniceai",
       "id": "olafangensan-glm-4.7-flash-heretic",
       "knowledge": null,
-      "lastUpdated": "2026-03-12",
+      "lastUpdated": "2026-06-10",
       "maxCtxTokens": 200000,
       "maxOutputTokens": 24000,
       "modalities": {
@@ -174635,8 +176668,8 @@
       },
       "icon": "lb:veniceai",
       "id": "openai-gpt-4o-2024-11-20",
-      "knowledge": null,
-      "lastUpdated": "2026-03-06",
+      "knowledge": "2023-09",
+      "lastUpdated": "2026-06-10",
       "maxCtxTokens": 128000,
       "maxOutputTokens": 16384,
       "modalities": {
@@ -174672,8 +176705,8 @@
       },
       "icon": "lb:veniceai",
       "id": "openai-gpt-4o-mini-2024-07-18",
-      "knowledge": null,
-      "lastUpdated": "2026-03-06",
+      "knowledge": "2023-09",
+      "lastUpdated": "2026-06-10",
       "maxCtxTokens": 128000,
       "maxOutputTokens": 16384,
       "modalities": {
@@ -174710,7 +176743,7 @@
       "icon": "lb:veniceai",
       "id": "openai-gpt-52",
       "knowledge": "2025-08-31",
-      "lastUpdated": "2026-03-12",
+      "lastUpdated": "2026-06-10",
       "maxCtxTokens": 256000,
       "maxOutputTokens": 65536,
       "modalities": {
@@ -174746,7 +176779,7 @@
       "icon": "lb:veniceai",
       "id": "openai-gpt-52-codex",
       "knowledge": "2025-08",
-      "lastUpdated": "2026-03-12",
+      "lastUpdated": "2026-06-10",
       "maxCtxTokens": 256000,
       "maxOutputTokens": 65536,
       "modalities": {
@@ -174782,8 +176815,8 @@
       },
       "icon": "lb:veniceai",
       "id": "openai-gpt-53-codex",
-      "knowledge": null,
-      "lastUpdated": "2026-03-12",
+      "knowledge": "2025-08-31",
+      "lastUpdated": "2026-06-10",
       "maxCtxTokens": 400000,
       "maxOutputTokens": 128000,
       "modalities": {
@@ -174819,8 +176852,8 @@
       },
       "icon": "lb:veniceai",
       "id": "openai-gpt-54",
-      "knowledge": null,
-      "lastUpdated": "2026-03-09",
+      "knowledge": "2025-08-31",
+      "lastUpdated": "2026-06-10",
       "maxCtxTokens": 1000000,
       "maxOutputTokens": 131072,
       "modalities": {
@@ -174856,8 +176889,8 @@
       },
       "icon": "lb:veniceai",
       "id": "openai-gpt-54-mini",
-      "knowledge": null,
-      "lastUpdated": "2026-03-31",
+      "knowledge": "2025-08-31",
+      "lastUpdated": "2026-06-10",
       "maxCtxTokens": 400000,
       "maxOutputTokens": 128000,
       "modalities": {
@@ -174893,8 +176926,8 @@
       },
       "icon": "lb:veniceai",
       "id": "openai-gpt-54-pro",
-      "knowledge": null,
-      "lastUpdated": "2026-03-09",
+      "knowledge": "2025-08-31",
+      "lastUpdated": "2026-06-10",
       "maxCtxTokens": 1000000,
       "maxOutputTokens": 128000,
       "modalities": {
@@ -174930,8 +176963,8 @@
       },
       "icon": "lb:veniceai",
       "id": "openai-gpt-55",
-      "knowledge": null,
-      "lastUpdated": "2026-04-25",
+      "knowledge": "2025-12-01",
+      "lastUpdated": "2026-06-10",
       "maxCtxTokens": 1000000,
       "maxOutputTokens": 131072,
       "modalities": {
@@ -174967,8 +177000,8 @@
       },
       "icon": "lb:veniceai",
       "id": "openai-gpt-55-pro",
-      "knowledge": null,
-      "lastUpdated": "2026-04-25",
+      "knowledge": "2025-12-01",
+      "lastUpdated": "2026-06-10",
       "maxCtxTokens": 1000000,
       "maxOutputTokens": 128000,
       "modalities": {
@@ -175005,7 +177038,7 @@
       "icon": "lb:veniceai",
       "id": "openai-gpt-oss-120b",
       "knowledge": "2025-07",
-      "lastUpdated": "2026-05-06",
+      "lastUpdated": "2026-06-10",
       "maxCtxTokens": 128000,
       "maxOutputTokens": 16384,
       "modalities": {
@@ -175040,8 +177073,8 @@
       },
       "icon": "lb:veniceai",
       "id": "qwen-3-6-plus",
-      "knowledge": null,
-      "lastUpdated": "2026-04-12",
+      "knowledge": "2025-04",
+      "lastUpdated": "2026-06-10",
       "maxCtxTokens": 1000000,
       "maxOutputTokens": 65536,
       "modalities": {
@@ -175079,7 +177112,7 @@
       "icon": "lb:veniceai",
       "id": "qwen-3-7-max",
       "knowledge": null,
-      "lastUpdated": "2026-05-25",
+      "lastUpdated": "2026-06-10",
       "maxCtxTokens": 1000000,
       "maxOutputTokens": 65536,
       "modalities": {
@@ -175114,8 +177147,8 @@
       },
       "icon": "lb:veniceai",
       "id": "qwen-3-7-plus",
-      "knowledge": null,
-      "lastUpdated": "2026-06-04",
+      "knowledge": "2025-04",
+      "lastUpdated": "2026-06-10",
       "maxCtxTokens": 1000000,
       "maxOutputTokens": 65536,
       "modalities": {
@@ -175153,7 +177186,7 @@
       "icon": "lb:veniceai",
       "id": "qwen3-235b-a22b-instruct-2507",
       "knowledge": "2025-07",
-      "lastUpdated": "2026-03-12",
+      "lastUpdated": "2026-06-10",
       "maxCtxTokens": 128000,
       "maxOutputTokens": 16384,
       "modalities": {
@@ -175189,7 +177222,7 @@
       "icon": "lb:veniceai",
       "id": "qwen3-235b-a22b-thinking-2507",
       "knowledge": "2025-07",
-      "lastUpdated": "2026-03-12",
+      "lastUpdated": "2026-06-10",
       "maxCtxTokens": 128000,
       "maxOutputTokens": 16384,
       "modalities": {
@@ -175225,7 +177258,7 @@
       "icon": "lb:veniceai",
       "id": "qwen3-5-35b-a3b",
       "knowledge": null,
-      "lastUpdated": "2026-05-25",
+      "lastUpdated": "2026-06-10",
       "maxCtxTokens": 256000,
       "maxOutputTokens": 16384,
       "modalities": {
@@ -175263,7 +177296,7 @@
       "icon": "lb:veniceai",
       "id": "qwen3-5-397b-a17b",
       "knowledge": null,
-      "lastUpdated": "2026-04-16",
+      "lastUpdated": "2026-06-10",
       "maxCtxTokens": 128000,
       "maxOutputTokens": 32768,
       "modalities": {
@@ -175301,7 +177334,7 @@
       "icon": "lb:veniceai",
       "id": "qwen3-5-9b",
       "knowledge": null,
-      "lastUpdated": "2026-04-19",
+      "lastUpdated": "2026-06-10",
       "maxCtxTokens": 256000,
       "maxOutputTokens": 32768,
       "modalities": {
@@ -175338,7 +177371,7 @@
       "icon": "lb:veniceai",
       "id": "qwen3-6-27b",
       "knowledge": null,
-      "lastUpdated": "2026-04-29",
+      "lastUpdated": "2026-06-10",
       "maxCtxTokens": 256000,
       "maxOutputTokens": 65536,
       "modalities": {
@@ -175376,7 +177409,7 @@
       "icon": "lb:veniceai",
       "id": "qwen3-coder-480b-a35b-instruct-turbo",
       "knowledge": null,
-      "lastUpdated": "2026-02-26",
+      "lastUpdated": "2026-06-10",
       "maxCtxTokens": 256000,
       "maxOutputTokens": 65536,
       "modalities": {
@@ -175412,7 +177445,7 @@
       "icon": "lb:veniceai",
       "id": "qwen3-next-80b",
       "knowledge": "2025-07",
-      "lastUpdated": "2026-03-12",
+      "lastUpdated": "2026-06-10",
       "maxCtxTokens": 256000,
       "maxOutputTokens": 16384,
       "modalities": {
@@ -175448,7 +177481,7 @@
       "icon": "lb:veniceai",
       "id": "qwen3-vl-235b-a22b",
       "knowledge": null,
-      "lastUpdated": "2026-03-12",
+      "lastUpdated": "2026-06-10",
       "maxCtxTokens": 256000,
       "maxOutputTokens": 16384,
       "modalities": {
@@ -175471,6 +177504,42 @@
       "tags": []
     },
     {
+      "description": "Hy3 Preview is an AI model provided by venice.",
+      "firm": "venice",
+      "flags": {
+        "attachment": false,
+        "audio": false,
+        "image": false,
+        "open_weights": true,
+        "reasoning": true,
+        "temperature": true,
+        "tool_call": true
+      },
+      "icon": "lb:veniceai",
+      "id": "tencent-hy3-preview",
+      "knowledge": null,
+      "lastUpdated": "2026-06-10",
+      "maxCtxTokens": 256000,
+      "maxOutputTokens": 32768,
+      "modalities": {
+        "input": [
+          "text"
+        ],
+        "output": [
+          "text"
+        ]
+      },
+      "name": "Hy3 Preview",
+      "price": {
+        "cacheRead": 0.021,
+        "cacheWrite": null,
+        "input": 0.063,
+        "output": 0.21
+      },
+      "releaseDate": "2026-06-08",
+      "tags": []
+    },
+    {
       "description": "Venice Uncensored 1.2 is an AI model provided by venice.",
       "firm": "venice",
       "flags": {
@@ -175485,7 +177554,7 @@
       "icon": "lb:veniceai",
       "id": "venice-uncensored-1-2",
       "knowledge": null,
-      "lastUpdated": "2026-04-19",
+      "lastUpdated": "2026-06-10",
       "maxCtxTokens": 128000,
       "maxOutputTokens": 8192,
       "modalities": {
@@ -175522,7 +177591,7 @@
       "icon": "lb:veniceai",
       "id": "venice-uncensored-role-play",
       "knowledge": null,
-      "lastUpdated": "2026-03-16",
+      "lastUpdated": "2026-06-10",
       "maxCtxTokens": 128000,
       "maxOutputTokens": 4096,
       "modalities": {
@@ -175559,7 +177628,7 @@
       "icon": "lb:veniceai",
       "id": "z-ai-glm-5-turbo",
       "knowledge": null,
-      "lastUpdated": "2026-04-12",
+      "lastUpdated": "2026-06-10",
       "maxCtxTokens": 200000,
       "maxOutputTokens": 32768,
       "modalities": {
@@ -175595,7 +177664,7 @@
       "icon": "lb:veniceai",
       "id": "z-ai-glm-5v-turbo",
       "knowledge": null,
-      "lastUpdated": "2026-04-12",
+      "lastUpdated": "2026-06-10",
       "maxCtxTokens": 200000,
       "maxOutputTokens": 32768,
       "modalities": {
@@ -175631,8 +177700,8 @@
       },
       "icon": "lb:veniceai",
       "id": "zai-org-glm-4.6",
-      "knowledge": null,
-      "lastUpdated": "2026-04-04",
+      "knowledge": "2025-04",
+      "lastUpdated": "2026-06-10",
       "maxCtxTokens": 198000,
       "maxOutputTokens": 16384,
       "modalities": {
@@ -175668,7 +177737,7 @@
       "icon": "lb:veniceai",
       "id": "zai-org-glm-4.7",
       "knowledge": "2025-04",
-      "lastUpdated": "2026-03-12",
+      "lastUpdated": "2026-06-10",
       "maxCtxTokens": 198000,
       "maxOutputTokens": 16384,
       "modalities": {
@@ -175703,8 +177772,8 @@
       },
       "icon": "lb:veniceai",
       "id": "zai-org-glm-4.7-flash",
-      "knowledge": null,
-      "lastUpdated": "2026-03-12",
+      "knowledge": "2025-04",
+      "lastUpdated": "2026-06-10",
       "maxCtxTokens": 128000,
       "maxOutputTokens": 16384,
       "modalities": {
@@ -175740,7 +177809,7 @@
       "icon": "lb:veniceai",
       "id": "zai-org-glm-5",
       "knowledge": null,
-      "lastUpdated": "2026-03-12",
+      "lastUpdated": "2026-06-10",
       "maxCtxTokens": 198000,
       "maxOutputTokens": 32000,
       "modalities": {
@@ -175776,7 +177845,7 @@
       "icon": "lb:veniceai",
       "id": "zai-org-glm-5-1",
       "knowledge": null,
-      "lastUpdated": "2026-04-08",
+      "lastUpdated": "2026-06-10",
       "maxCtxTokens": 200000,
       "maxOutputTokens": 24000,
       "modalities": {
@@ -181841,6 +183910,42 @@
         "output": 6
       },
       "releaseDate": "2024-11-01",
+      "tags": []
+    },
+    {
+      "description": "Kimi K2 Instruct is an AI model provided by vercel.",
+      "firm": "vercel",
+      "flags": {
+        "attachment": false,
+        "audio": false,
+        "image": false,
+        "open_weights": false,
+        "reasoning": false,
+        "temperature": true,
+        "tool_call": true
+      },
+      "icon": "lb:vercel-color",
+      "id": "moonshotai/kimi-k2",
+      "knowledge": null,
+      "lastUpdated": "2025-09-05",
+      "maxCtxTokens": 131072,
+      "maxOutputTokens": 131072,
+      "modalities": {
+        "input": [
+          "text"
+        ],
+        "output": [
+          "text"
+        ]
+      },
+      "name": "Kimi K2 Instruct",
+      "price": {
+        "cacheRead": null,
+        "cacheWrite": null,
+        "input": 0.57,
+        "output": 2.3
+      },
+      "releaseDate": "2025-09-05",
       "tags": []
     },
     {
@@ -192598,42 +194703,6 @@
       "tags": []
     },
     {
-      "description": "Step 3.5 Flash (Free) is an AI model provided by zenmux.",
-      "firm": "zenmux",
-      "flags": {
-        "attachment": false,
-        "audio": false,
-        "image": false,
-        "open_weights": false,
-        "reasoning": true,
-        "temperature": true,
-        "tool_call": true
-      },
-      "icon": "",
-      "id": "stepfun/step-3.5-flash-free",
-      "knowledge": "2025-01-01",
-      "lastUpdated": "2026-02-02",
-      "maxCtxTokens": 256000,
-      "maxOutputTokens": 64000,
-      "modalities": {
-        "input": [
-          "text"
-        ],
-        "output": [
-          "text"
-        ]
-      },
-      "name": "Step 3.5 Flash (Free)",
-      "price": {
-        "cacheRead": null,
-        "cacheWrite": null,
-        "input": null,
-        "output": null
-      },
-      "releaseDate": "2026-02-02",
-      "tags": []
-    },
-    {
       "description": "Step 3.7 Flash is an AI model provided by zenmux.",
       "firm": "zenmux",
       "flags": {
@@ -192666,6 +194735,43 @@
         "cacheWrite": null,
         "input": 0.2,
         "output": 1.15
+      },
+      "releaseDate": "2026-05-29",
+      "tags": []
+    },
+    {
+      "description": "Step 3.7 Flash (Free) is an AI model provided by zenmux.",
+      "firm": "zenmux",
+      "flags": {
+        "attachment": true,
+        "audio": false,
+        "image": true,
+        "open_weights": true,
+        "reasoning": true,
+        "temperature": true,
+        "tool_call": true
+      },
+      "icon": "",
+      "id": "stepfun/step-3.7-flash-free",
+      "knowledge": "2026-01-01",
+      "lastUpdated": "2026-05-29",
+      "maxCtxTokens": 256000,
+      "maxOutputTokens": 256000,
+      "modalities": {
+        "input": [
+          "text",
+          "image"
+        ],
+        "output": [
+          "text"
+        ]
+      },
+      "name": "Step 3.7 Flash (Free)",
+      "price": {
+        "cacheRead": null,
+        "cacheWrite": null,
+        "input": null,
+        "output": null
       },
       "releaseDate": "2026-05-29",
       "tags": []

@@ -8,7 +8,7 @@
   "family": "hermes",
   "id": "hermes-3-llama-3.1-405b",
   "knowledge": "2024-04",
-  "last_updated": "2026-03-12",
+  "last_updated": "2026-06-10",
   "limit": {
     "context": 128000,
     "output": 16384
@@ -24,6 +24,7 @@
   "name": "Hermes 3 Llama 3.1 405b",
   "open_weights": true,
   "reasoning": false,
+  "reasoning_options": [],
   "release_date": "2025-09-25",
   "temperature": true,
   "tool_call": false
