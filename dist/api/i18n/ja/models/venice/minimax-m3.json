@@ -8,7 +8,7 @@
   "description": "MiniMax M3 は venice によって提供される AI モデルです。",
   "family": "minimax-m3",
   "id": "minimax-m3",
-  "last_updated": "2026-06-10",
+  "last_updated": "2026-06-11",
   "limit": {
     "context": 500000,
     "output": 131072

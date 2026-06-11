@@ -9,7 +9,7 @@
   "family": "gpt",
   "id": "openai-gpt-52",
   "knowledge": "2025-08-31",
-  "last_updated": "2026-06-10",
+  "last_updated": "2026-06-11",
   "limit": {
     "context": 256000,
     "input": 272000,
@@ -40,6 +40,6 @@
   ],
   "release_date": "2025-12-13",
   "structured_output": true,
-  "temperature": true,
+  "temperature": false,
   "tool_call": true
 }

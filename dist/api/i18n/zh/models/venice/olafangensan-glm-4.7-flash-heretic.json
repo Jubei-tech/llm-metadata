@@ -7,7 +7,7 @@
   "description": "GLM 4.7 Flash Heretic 是由 venice 提供的人工智能模型。",
   "family": "glm",
   "id": "olafangensan-glm-4.7-flash-heretic",
-  "last_updated": "2026-06-10",
+  "last_updated": "2026-06-11",
   "limit": {
     "context": 200000,
     "output": 24000
@@ -36,6 +36,5 @@
   ],
   "release_date": "2026-02-04",
   "structured_output": true,
-  "temperature": true,
   "tool_call": true
 }

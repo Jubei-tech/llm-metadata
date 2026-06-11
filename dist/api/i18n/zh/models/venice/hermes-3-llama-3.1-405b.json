@@ -7,8 +7,7 @@
   "description": "Hermes 3 Llama 3.1 405b 是由 venice 提供的人工智能模型。",
   "family": "hermes",
   "id": "hermes-3-llama-3.1-405b",
-  "knowledge": "2024-04",
-  "last_updated": "2026-06-10",
+  "last_updated": "2026-06-11",
   "limit": {
     "context": 128000,
     "output": 16384
@@ -26,6 +25,5 @@
   "reasoning": false,
   "reasoning_options": [],
   "release_date": "2025-09-25",
-  "temperature": true,
   "tool_call": false
 }

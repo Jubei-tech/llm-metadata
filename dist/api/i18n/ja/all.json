@@ -34880,6 +34880,39 @@
         "temperature": false,
         "tool_call": true
       },
+      "claude-opus4-8": {
+        "attachment": true,
+        "cost": {
+          "cache_read": 0.563,
+          "cache_write": 7.049,
+          "input": 5.64,
+          "output": 28.198
+        },
+        "description": "Claude Opus 4.8 は cortecs によって提供される AI モデルです。",
+        "family": "claude-opus",
+        "id": "claude-opus4-8",
+        "last_updated": "2026-05-28",
+        "limit": {
+          "context": 1000000,
+          "output": 128000
+        },
+        "modalities": {
+          "input": [
+            "text",
+            "image",
+            "pdf"
+          ],
+          "output": [
+            "text"
+          ]
+        },
+        "name": "Claude Opus 4.8",
+        "open_weights": false,
+        "reasoning": true,
+        "release_date": "2026-05-28",
+        "temperature": false,
+        "tool_call": true
+      },
       "claude-sonnet-4": {
         "attachment": false,
         "cost": {
@@ -153765,9 +153798,8 @@
           "output": 2
         },
         "description": "Aion 2.0 は venice によって提供される AI モデルです。",
-        "family": "o",
         "id": "aion-labs-aion-2-0",
-        "last_updated": "2026-06-10",
+        "last_updated": "2026-06-11",
         "limit": {
           "context": 128000,
           "output": 32768
@@ -153794,7 +153826,6 @@
           }
         ],
         "release_date": "2026-03-24",
-        "temperature": true,
         "tool_call": false
       },
       "arcee-trinity-large-thinking": {
@@ -153810,7 +153841,7 @@
         "interleaved": {
           "field": "reasoning_content"
         },
-        "last_updated": "2026-06-10",
+        "last_updated": "2026-06-11",
         "limit": {
           "context": 256000,
           "output": 65536
@@ -153838,7 +153869,6 @@
         ],
         "release_date": "2026-04-02",
         "structured_output": true,
-        "temperature": true,
         "tool_call": true
       },
       "claude-fable-5": {
@@ -153853,7 +153883,7 @@
         "family": "claude-fable",
         "id": "claude-fable-5",
         "knowledge": "2026-01-31",
-        "last_updated": "2026-06-10",
+        "last_updated": "2026-06-11",
         "limit": {
           "context": 1000000,
           "output": 128000
@@ -153873,7 +153903,7 @@
         "reasoning_options": [],
         "release_date": "2026-06-10",
         "structured_output": true,
-        "temperature": true,
+        "temperature": false,
         "tool_call": true
       },
       "claude-opus-4-5": {
@@ -153888,7 +153918,7 @@
         "family": "claude-opus",
         "id": "claude-opus-4-5",
         "knowledge": "2025-03-31",
-        "last_updated": "2026-06-10",
+        "last_updated": "2026-06-11",
         "limit": {
           "context": 198000,
           "output": 32768
@@ -153923,7 +153953,7 @@
         "family": "claude-opus",
         "id": "claude-opus-4-6",
         "knowledge": "2025-05-31",
-        "last_updated": "2026-06-10",
+        "last_updated": "2026-06-11",
         "limit": {
           "context": 1000000,
           "output": 128000
@@ -153958,7 +153988,7 @@
         "family": "claude-opus",
         "id": "claude-opus-4-6-fast",
         "knowledge": "2025-05-31",
-        "last_updated": "2026-06-10",
+        "last_updated": "2026-06-11",
         "limit": {
           "context": 1000000,
           "output": 128000
@@ -153993,7 +154023,7 @@
         "family": "claude-opus",
         "id": "claude-opus-4-7",
         "knowledge": "2026-01-31",
-        "last_updated": "2026-06-10",
+        "last_updated": "2026-06-11",
         "limit": {
           "context": 1000000,
           "output": 128000
@@ -154013,7 +154043,7 @@
         "reasoning_options": [],
         "release_date": "2026-04-16",
         "structured_output": true,
-        "temperature": true,
+        "temperature": false,
         "tool_call": true
       },
       "claude-opus-4-7-fast": {
@@ -154028,7 +154058,7 @@
         "family": "claude-opus",
         "id": "claude-opus-4-7-fast",
         "knowledge": "2026-01-31",
-        "last_updated": "2026-06-10",
+        "last_updated": "2026-06-11",
         "limit": {
           "context": 1000000,
           "output": 128000
@@ -154048,7 +154078,7 @@
         "reasoning_options": [],
         "release_date": "2026-05-14",
         "structured_output": true,
-        "temperature": true,
+        "temperature": false,
         "tool_call": true
       },
       "claude-opus-4-8": {
@@ -154062,7 +154092,7 @@
         "description": "Claude Opus 4.8 は venice によって提供される AI モデルです。",
         "family": "claude-opus",
         "id": "claude-opus-4-8",
-        "last_updated": "2026-06-10",
+        "last_updated": "2026-06-11",
         "limit": {
           "context": 1000000,
           "output": 128000
@@ -154082,7 +154112,7 @@
         "reasoning_options": [],
         "release_date": "2026-05-28",
         "structured_output": true,
-        "temperature": true,
+        "temperature": false,
         "tool_call": true
       },
       "claude-opus-4-8-fast": {
@@ -154096,7 +154126,7 @@
         "description": "Claude Opus 4.8 Fast は venice によって提供される AI モデルです。",
         "family": "claude-opus",
         "id": "claude-opus-4-8-fast",
-        "last_updated": "2026-06-10",
+        "last_updated": "2026-06-11",
         "limit": {
           "context": 1000000,
           "output": 128000
@@ -154116,7 +154146,7 @@
         "reasoning_options": [],
         "release_date": "2026-05-28",
         "structured_output": true,
-        "temperature": true,
+        "temperature": false,
         "tool_call": true
       },
       "claude-sonnet-4-5": {
@@ -154131,7 +154161,7 @@
         "family": "claude-sonnet",
         "id": "claude-sonnet-4-5",
         "knowledge": "2025-07-31",
-        "last_updated": "2026-06-10",
+        "last_updated": "2026-06-11",
         "limit": {
           "context": 198000,
           "output": 64000
@@ -154166,7 +154196,7 @@
         "family": "claude-sonnet",
         "id": "claude-sonnet-4-6",
         "knowledge": "2025-08-31",
-        "last_updated": "2026-06-10",
+        "last_updated": "2026-06-11",
         "limit": {
           "context": 1000000,
           "output": 64000
@@ -154199,8 +154229,7 @@
         "description": "DeepSeek V3.2 は venice によって提供される AI モデルです。",
         "family": "deepseek",
         "id": "deepseek-v3.2",
-        "knowledge": "2025-10",
-        "last_updated": "2026-06-10",
+        "last_updated": "2026-06-11",
         "limit": {
           "context": 160000,
           "output": 32768
@@ -154229,7 +154258,6 @@
         ],
         "release_date": "2025-12-04",
         "structured_output": true,
-        "temperature": true,
         "tool_call": true
       },
       "deepseek-v4-flash": {
@@ -154246,7 +154274,7 @@
           "field": "reasoning_content"
         },
         "knowledge": "2025-05",
-        "last_updated": "2026-06-10",
+        "last_updated": "2026-06-11",
         "limit": {
           "context": 1000000,
           "output": 32768
@@ -154282,7 +154310,7 @@
           "field": "reasoning_content"
         },
         "knowledge": "2025-05",
-        "last_updated": "2026-06-10",
+        "last_updated": "2026-06-11",
         "limit": {
           "context": 1000000,
           "output": 32768
@@ -154303,472 +154331,6 @@
         "structured_output": true,
         "temperature": true,
         "tool_call": true
-      },
-      "e2ee-gemma-3-27b-p": {
-        "attachment": false,
-        "cost": {
-          "input": 0.14,
-          "output": 0.5
-        },
-        "description": "Gemma 3 27B は venice によって提供される AI モデルです。",
-        "family": "gemma",
-        "id": "e2ee-gemma-3-27b-p",
-        "last_updated": "2026-06-10",
-        "limit": {
-          "context": 40000,
-          "output": 4096
-        },
-        "modalities": {
-          "input": [
-            "text"
-          ],
-          "output": [
-            "text"
-          ]
-        },
-        "name": "Gemma 3 27B",
-        "open_weights": true,
-        "reasoning": false,
-        "reasoning_options": [],
-        "release_date": "2026-03-18",
-        "temperature": true,
-        "tool_call": false
-      },
-      "e2ee-gemma-4-26b-a4b-uncensored-p": {
-        "attachment": false,
-        "cost": {
-          "input": 0.19,
-          "output": 0.88
-        },
-        "description": "Gemma 4 26B A4B Uncensored は venice によって提供される AI モデルです。",
-        "family": "gemma",
-        "id": "e2ee-gemma-4-26b-a4b-uncensored-p",
-        "last_updated": "2026-06-10",
-        "limit": {
-          "context": 64000,
-          "output": 4096
-        },
-        "modalities": {
-          "input": [
-            "text"
-          ],
-          "output": [
-            "text"
-          ]
-        },
-        "name": "Gemma 4 26B A4B Uncensored",
-        "open_weights": false,
-        "reasoning": false,
-        "reasoning_options": [],
-        "release_date": "2026-05-24",
-        "temperature": true,
-        "tool_call": false
-      },
-      "e2ee-gemma-4-31b": {
-        "attachment": false,
-        "cost": {
-          "cache_read": 0.028,
-          "input": 0.139,
-          "output": 0.43
-        },
-        "description": "Gemma 4 31B Instruct は venice によって提供される AI モデルです。",
-        "family": "gemma",
-        "id": "e2ee-gemma-4-31b",
-        "last_updated": "2026-06-10",
-        "limit": {
-          "context": 32000,
-          "output": 4096
-        },
-        "modalities": {
-          "input": [
-            "text"
-          ],
-          "output": [
-            "text"
-          ]
-        },
-        "name": "Gemma 4 31B Instruct",
-        "open_weights": true,
-        "reasoning": true,
-        "reasoning_options": [],
-        "release_date": "2026-05-20",
-        "temperature": true,
-        "tool_call": false
-      },
-      "e2ee-glm-4-7-flash-p": {
-        "attachment": false,
-        "cost": {
-          "input": 0.13,
-          "output": 0.55
-        },
-        "description": "GLM 4.7 Flash は venice によって提供される AI モデルです。",
-        "family": "glm",
-        "id": "e2ee-glm-4-7-flash-p",
-        "knowledge": "2025-04",
-        "last_updated": "2026-06-10",
-        "limit": {
-          "context": 198000,
-          "output": 4096
-        },
-        "modalities": {
-          "input": [
-            "text"
-          ],
-          "output": [
-            "text"
-          ]
-        },
-        "name": "GLM 4.7 Flash",
-        "open_weights": true,
-        "reasoning": true,
-        "reasoning_options": [
-          {
-            "type": "effort",
-            "values": [
-              "none",
-              "low",
-              "medium",
-              "high"
-            ]
-          }
-        ],
-        "release_date": "2026-03-18",
-        "temperature": true,
-        "tool_call": false
-      },
-      "e2ee-glm-4-7-p": {
-        "attachment": false,
-        "cost": {
-          "input": 1.1,
-          "output": 4.15
-        },
-        "description": "GLM 4.7 は venice によって提供される AI モデルです。",
-        "family": "glm",
-        "id": "e2ee-glm-4-7-p",
-        "knowledge": "2025-04",
-        "last_updated": "2026-06-10",
-        "limit": {
-          "context": 128000,
-          "output": 32768
-        },
-        "modalities": {
-          "input": [
-            "text"
-          ],
-          "output": [
-            "text"
-          ]
-        },
-        "name": "GLM 4.7",
-        "open_weights": true,
-        "reasoning": true,
-        "reasoning_options": [
-          {
-            "type": "effort",
-            "values": [
-              "none",
-              "low",
-              "medium",
-              "high"
-            ]
-          }
-        ],
-        "release_date": "2026-03-18",
-        "temperature": true,
-        "tool_call": false
-      },
-      "e2ee-glm-5-1": {
-        "attachment": false,
-        "cost": {
-          "input": 1.1,
-          "output": 4.15
-        },
-        "description": "GLM 5.1 は venice によって提供される AI モデルです。",
-        "family": "glm",
-        "id": "e2ee-glm-5-1",
-        "last_updated": "2026-06-10",
-        "limit": {
-          "context": 200000,
-          "output": 32768
-        },
-        "modalities": {
-          "input": [
-            "text"
-          ],
-          "output": [
-            "text"
-          ]
-        },
-        "name": "GLM 5.1",
-        "open_weights": true,
-        "reasoning": true,
-        "reasoning_options": [],
-        "release_date": "2026-04-24",
-        "structured_output": true,
-        "temperature": true,
-        "tool_call": false
-      },
-      "e2ee-gpt-oss-120b-p": {
-        "attachment": false,
-        "cost": {
-          "input": 0.13,
-          "output": 0.65
-        },
-        "description": "GPT OSS 120B は venice によって提供される AI モデルです。",
-        "family": "gpt-oss",
-        "id": "e2ee-gpt-oss-120b-p",
-        "last_updated": "2026-06-10",
-        "limit": {
-          "context": 128000,
-          "output": 32768
-        },
-        "modalities": {
-          "input": [
-            "text"
-          ],
-          "output": [
-            "text"
-          ]
-        },
-        "name": "GPT OSS 120B",
-        "open_weights": true,
-        "reasoning": true,
-        "reasoning_options": [
-          {
-            "type": "effort",
-            "values": [
-              "none",
-              "low",
-              "medium",
-              "high"
-            ]
-          }
-        ],
-        "release_date": "2026-03-18",
-        "temperature": true,
-        "tool_call": false
-      },
-      "e2ee-gpt-oss-20b-p": {
-        "attachment": false,
-        "cost": {
-          "input": 0.05,
-          "output": 0.19
-        },
-        "description": "GPT OSS 20B は venice によって提供される AI モデルです。",
-        "family": "gpt-oss",
-        "id": "e2ee-gpt-oss-20b-p",
-        "last_updated": "2026-06-10",
-        "limit": {
-          "context": 128000,
-          "output": 32768
-        },
-        "modalities": {
-          "input": [
-            "text"
-          ],
-          "output": [
-            "text"
-          ]
-        },
-        "name": "GPT OSS 20B",
-        "open_weights": true,
-        "reasoning": true,
-        "reasoning_options": [
-          {
-            "type": "effort",
-            "values": [
-              "none",
-              "low",
-              "medium",
-              "high"
-            ]
-          }
-        ],
-        "release_date": "2026-03-18",
-        "temperature": true,
-        "tool_call": false
-      },
-      "e2ee-qwen-2-5-7b-p": {
-        "attachment": false,
-        "cost": {
-          "input": 0.05,
-          "output": 0.13
-        },
-        "description": "Qwen 2.5 7B は venice によって提供される AI モデルです。",
-        "family": "qwen",
-        "id": "e2ee-qwen-2-5-7b-p",
-        "last_updated": "2026-06-10",
-        "limit": {
-          "context": 32000,
-          "output": 4096
-        },
-        "modalities": {
-          "input": [
-            "text"
-          ],
-          "output": [
-            "text"
-          ]
-        },
-        "name": "Qwen 2.5 7B",
-        "open_weights": true,
-        "reasoning": false,
-        "reasoning_options": [],
-        "release_date": "2026-03-18",
-        "temperature": true,
-        "tool_call": false
-      },
-      "e2ee-qwen3-30b-a3b-p": {
-        "attachment": false,
-        "cost": {
-          "input": 0.19,
-          "output": 0.69
-        },
-        "description": "Qwen3 30B A3B は venice によって提供される AI モデルです。",
-        "family": "qwen",
-        "id": "e2ee-qwen3-30b-a3b-p",
-        "last_updated": "2026-06-10",
-        "limit": {
-          "context": 256000,
-          "output": 32768
-        },
-        "modalities": {
-          "input": [
-            "text"
-          ],
-          "output": [
-            "text"
-          ]
-        },
-        "name": "Qwen3 30B A3B",
-        "open_weights": true,
-        "reasoning": false,
-        "reasoning_options": [],
-        "release_date": "2026-03-18",
-        "temperature": true,
-        "tool_call": true
-      },
-      "e2ee-qwen3-6-35b-a3b": {
-        "attachment": false,
-        "cost": {
-          "cache_read": 0.06,
-          "input": 0.182,
-          "output": 1.18
-        },
-        "description": "Qwen 3.6 35B A3B FP8 は venice によって提供される AI モデルです。",
-        "family": "qwen",
-        "id": "e2ee-qwen3-6-35b-a3b",
-        "last_updated": "2026-06-10",
-        "limit": {
-          "context": 32000,
-          "output": 4096
-        },
-        "modalities": {
-          "input": [
-            "text"
-          ],
-          "output": [
-            "text"
-          ]
-        },
-        "name": "Qwen 3.6 35B A3B FP8",
-        "open_weights": true,
-        "reasoning": true,
-        "reasoning_options": [],
-        "release_date": "2026-05-20",
-        "temperature": true,
-        "tool_call": true
-      },
-      "e2ee-qwen3-6-35b-a3b-uncensored-p": {
-        "attachment": false,
-        "cost": {
-          "input": 0.38,
-          "output": 1.88
-        },
-        "description": "Qwen3.6 35B A3B Uncensored は venice によって提供される AI モデルです。",
-        "family": "qwen3.6",
-        "id": "e2ee-qwen3-6-35b-a3b-uncensored-p",
-        "last_updated": "2026-06-10",
-        "limit": {
-          "context": 128000,
-          "output": 4096
-        },
-        "modalities": {
-          "input": [
-            "text"
-          ],
-          "output": [
-            "text"
-          ]
-        },
-        "name": "Qwen3.6 35B A3B Uncensored",
-        "open_weights": false,
-        "reasoning": false,
-        "reasoning_options": [],
-        "release_date": "2026-05-24",
-        "temperature": true,
-        "tool_call": false
-      },
-      "e2ee-qwen3-vl-30b-a3b-p": {
-        "attachment": true,
-        "cost": {
-          "input": 0.25,
-          "output": 0.9
-        },
-        "description": "Qwen3 VL 30B A3B は venice によって提供される AI モデルです。",
-        "family": "qwen",
-        "id": "e2ee-qwen3-vl-30b-a3b-p",
-        "last_updated": "2026-06-10",
-        "limit": {
-          "context": 128000,
-          "output": 4096
-        },
-        "modalities": {
-          "input": [
-            "text",
-            "image"
-          ],
-          "output": [
-            "text"
-          ]
-        },
-        "name": "Qwen3 VL 30B A3B",
-        "open_weights": true,
-        "reasoning": false,
-        "reasoning_options": [],
-        "release_date": "2026-03-18",
-        "temperature": true,
-        "tool_call": true
-      },
-      "e2ee-venice-uncensored-24b-p": {
-        "attachment": false,
-        "cost": {
-          "input": 0.25,
-          "output": 1.15
-        },
-        "description": "Venice Uncensored 1.1 は venice によって提供される AI モデルです。",
-        "family": "venice",
-        "id": "e2ee-venice-uncensored-24b-p",
-        "last_updated": "2026-06-10",
-        "limit": {
-          "context": 32000,
-          "output": 4096
-        },
-        "modalities": {
-          "input": [
-            "text"
-          ],
-          "output": [
-            "text"
-          ]
-        },
-        "name": "Venice Uncensored 1.1",
-        "open_weights": true,
-        "reasoning": false,
-        "reasoning_options": [],
-        "release_date": "2026-03-18",
-        "temperature": true,
-        "tool_call": false
       },
       "gemini-3-1-pro-preview": {
         "attachment": true,
@@ -154800,7 +154362,7 @@
         "family": "gemini",
         "id": "gemini-3-1-pro-preview",
         "knowledge": "2025-01",
-        "last_updated": "2026-06-10",
+        "last_updated": "2026-06-11",
         "limit": {
           "context": 1000000,
           "output": 32768
@@ -154846,7 +154408,7 @@
         "family": "gemini",
         "id": "gemini-3-5-flash",
         "knowledge": "2025-01",
-        "last_updated": "2026-06-10",
+        "last_updated": "2026-06-11",
         "limit": {
           "context": 1000000,
           "output": 65536
@@ -154894,7 +154456,7 @@
           "field": "reasoning_content"
         },
         "knowledge": "2025-01",
-        "last_updated": "2026-06-10",
+        "last_updated": "2026-06-11",
         "limit": {
           "context": 256000,
           "output": 65536
@@ -154938,7 +154500,7 @@
         "description": "Gemma 4 Uncensored は venice によって提供される AI モデルです。",
         "family": "gemma",
         "id": "gemma-4-uncensored",
-        "last_updated": "2026-06-10",
+        "last_updated": "2026-06-11",
         "limit": {
           "context": 256000,
           "output": 8192
@@ -154958,7 +154520,6 @@
         "reasoning_options": [],
         "release_date": "2026-04-13",
         "structured_output": true,
-        "temperature": true,
         "tool_call": true
       },
       "google-gemma-3-27b-it": {
@@ -154970,8 +154531,7 @@
         "description": "Google Gemma 3 27B Instruct は venice によって提供される AI モデルです。",
         "family": "gemma",
         "id": "google-gemma-3-27b-it",
-        "knowledge": "2025-07",
-        "last_updated": "2026-06-10",
+        "last_updated": "2026-06-11",
         "limit": {
           "context": 198000,
           "output": 16384
@@ -154991,7 +154551,6 @@
         "reasoning_options": [],
         "release_date": "2025-11-04",
         "structured_output": true,
-        "temperature": true,
         "tool_call": true
       },
       "google-gemma-4-26b-a4b-it": {
@@ -155003,7 +154562,7 @@
         "description": "Google Gemma 4 26B A4B Instruct は venice によって提供される AI モデルです。",
         "family": "gemma",
         "id": "google-gemma-4-26b-a4b-it",
-        "last_updated": "2026-06-10",
+        "last_updated": "2026-06-11",
         "limit": {
           "context": 256000,
           "output": 8192
@@ -155047,7 +154606,7 @@
         "description": "Google Gemma 4 31B Instruct は venice によって提供される AI モデルです。",
         "family": "gemma",
         "id": "google-gemma-4-31b-it",
-        "last_updated": "2026-06-10",
+        "last_updated": "2026-06-11",
         "limit": {
           "context": 256000,
           "output": 8192
@@ -155107,7 +154666,7 @@
         "description": "Grok 4.20 は venice によって提供される AI モデルです。",
         "family": "grok",
         "id": "grok-4-20",
-        "last_updated": "2026-06-10",
+        "last_updated": "2026-06-11",
         "limit": {
           "context": 2000000,
           "output": 128000
@@ -155127,7 +154686,6 @@
         "reasoning_options": [],
         "release_date": "2026-03-12",
         "structured_output": true,
-        "temperature": true,
         "tool_call": true
       },
       "grok-4-20-multi-agent": {
@@ -155156,7 +154714,7 @@
         "description": "Grok 4.20 Multi-Agent は venice によって提供される AI モデルです。",
         "family": "grok",
         "id": "grok-4-20-multi-agent",
-        "last_updated": "2026-06-10",
+        "last_updated": "2026-06-11",
         "limit": {
           "context": 2000000,
           "output": 128000
@@ -155176,7 +154734,6 @@
         "reasoning_options": [],
         "release_date": "2026-03-12",
         "structured_output": true,
-        "temperature": true,
         "tool_call": false
       },
       "grok-4-3": {
@@ -155205,7 +154762,7 @@
         "description": "Grok 4.3 は venice によって提供される AI モデルです。",
         "family": "grok",
         "id": "grok-4-3",
-        "last_updated": "2026-06-10",
+        "last_updated": "2026-06-11",
         "limit": {
           "context": 1000000,
           "output": 32000
@@ -155254,7 +154811,7 @@
         "description": "Grok Build 0.1 は venice によって提供される AI モデルです。",
         "family": "grok-build",
         "id": "grok-build-0-1",
-        "last_updated": "2026-06-10",
+        "last_updated": "2026-06-11",
         "limit": {
           "context": 256000,
           "output": 65536
@@ -155286,8 +154843,7 @@
         "description": "Hermes 3 Llama 3.1 405b は venice によって提供される AI モデルです。",
         "family": "hermes",
         "id": "hermes-3-llama-3.1-405b",
-        "knowledge": "2024-04",
-        "last_updated": "2026-06-10",
+        "last_updated": "2026-06-11",
         "limit": {
           "context": 128000,
           "output": 16384
@@ -155305,7 +154861,6 @@
         "reasoning": false,
         "reasoning_options": [],
         "release_date": "2025-09-25",
-        "temperature": true,
         "tool_call": false
       },
       "kimi-k2-5": {
@@ -155322,7 +154877,7 @@
           "field": "reasoning_content"
         },
         "knowledge": "2024-04",
-        "last_updated": "2026-06-10",
+        "last_updated": "2026-06-11",
         "limit": {
           "context": 256000,
           "output": 65536
@@ -155352,7 +154907,7 @@
         ],
         "release_date": "2026-01-27",
         "structured_output": true,
-        "temperature": true,
+        "temperature": false,
         "tool_call": true
       },
       "kimi-k2-6": {
@@ -155369,7 +154924,7 @@
           "field": "reasoning_content"
         },
         "knowledge": "2025-01",
-        "last_updated": "2026-06-10",
+        "last_updated": "2026-06-11",
         "limit": {
           "context": 256000,
           "output": 65536
@@ -155411,8 +154966,7 @@
         "description": "Llama 3.2 3B は venice によって提供される AI モデルです。",
         "family": "llama",
         "id": "llama-3.2-3b",
-        "knowledge": "2023-12",
-        "last_updated": "2026-06-10",
+        "last_updated": "2026-06-11",
         "limit": {
           "context": 128000,
           "output": 4096
@@ -155430,7 +154984,6 @@
         "reasoning": false,
         "reasoning_options": [],
         "release_date": "2024-10-03",
-        "temperature": true,
         "tool_call": true
       },
       "llama-3.3-70b": {
@@ -155442,8 +154995,7 @@
         "description": "Llama 3.3 70B は venice によって提供される AI モデルです。",
         "family": "llama",
         "id": "llama-3.3-70b",
-        "knowledge": "2023-12",
-        "last_updated": "2026-06-10",
+        "last_updated": "2026-06-11",
         "limit": {
           "context": 128000,
           "output": 4096
@@ -155461,7 +155013,6 @@
         "reasoning": false,
         "reasoning_options": [],
         "release_date": "2025-04-06",
-        "temperature": true,
         "tool_call": true
       },
       "mercury-2": {
@@ -155474,7 +155025,7 @@
         "description": "Mercury 2 は venice によって提供される AI モデルです。",
         "family": "mercury",
         "id": "mercury-2",
-        "last_updated": "2026-06-10",
+        "last_updated": "2026-06-11",
         "limit": {
           "context": 128000,
           "output": 50000
@@ -155503,7 +155054,6 @@
         ],
         "release_date": "2026-02-20",
         "structured_output": true,
-        "temperature": true,
         "tool_call": true
       },
       "minimax-m25": {
@@ -155519,7 +155069,7 @@
         "interleaved": {
           "field": "reasoning_content"
         },
-        "last_updated": "2026-06-10",
+        "last_updated": "2026-06-11",
         "limit": {
           "context": 198000,
           "output": 32768
@@ -155559,7 +155109,7 @@
         "description": "MiniMax M2.7 は venice によって提供される AI モデルです。",
         "family": "minimax",
         "id": "minimax-m27",
-        "last_updated": "2026-06-10",
+        "last_updated": "2026-06-11",
         "limit": {
           "context": 198000,
           "output": 32768
@@ -155599,7 +155149,7 @@
         "description": "MiniMax M3 は venice によって提供される AI モデルです。",
         "family": "minimax-m3",
         "id": "minimax-m3",
-        "last_updated": "2026-06-10",
+        "last_updated": "2026-06-11",
         "limit": {
           "context": 500000,
           "output": 131072
@@ -155632,7 +155182,7 @@
         "family": "mistral-small",
         "id": "mistral-small-2603",
         "knowledge": "2025-06",
-        "last_updated": "2026-06-10",
+        "last_updated": "2026-06-11",
         "limit": {
           "context": 256000,
           "output": 65536
@@ -155672,7 +155222,7 @@
         "description": "Mistral Small 3.2 24B Instruct は venice によって提供される AI モデルです。",
         "family": "mistral-small",
         "id": "mistral-small-3-2-24b-instruct",
-        "last_updated": "2026-06-10",
+        "last_updated": "2026-06-11",
         "limit": {
           "context": 256000,
           "output": 16384
@@ -155691,7 +155241,6 @@
         "reasoning_options": [],
         "release_date": "2026-01-15",
         "structured_output": true,
-        "temperature": true,
         "tool_call": true
       },
       "nvidia-nemotron-3-nano-30b-a3b": {
@@ -155703,7 +155252,7 @@
         "description": "NVIDIA Nemotron 3 Nano 30B は venice によって提供される AI モデルです。",
         "family": "nemotron",
         "id": "nvidia-nemotron-3-nano-30b-a3b",
-        "last_updated": "2026-06-10",
+        "last_updated": "2026-06-11",
         "limit": {
           "context": 128000,
           "output": 16384
@@ -155735,7 +155284,7 @@
         "description": "NVIDIA Nemotron 3 Ultra は venice によって提供される AI モデルです。",
         "family": "nemotron",
         "id": "nvidia-nemotron-3-ultra-550b-a55b",
-        "last_updated": "2026-06-10",
+        "last_updated": "2026-06-11",
         "limit": {
           "context": 256000,
           "output": 32768
@@ -155776,7 +155325,7 @@
         "description": "Nemotron Cascade 2 30B A3B は venice によって提供される AI モデルです。",
         "family": "nemotron",
         "id": "nvidia-nemotron-cascade-2-30b-a3b",
-        "last_updated": "2026-06-10",
+        "last_updated": "2026-06-11",
         "limit": {
           "context": 256000,
           "output": 32768
@@ -155817,7 +155366,7 @@
         "description": "GLM 4.7 Flash Heretic は venice によって提供される AI モデルです。",
         "family": "glm",
         "id": "olafangensan-glm-4.7-flash-heretic",
-        "last_updated": "2026-06-10",
+        "last_updated": "2026-06-11",
         "limit": {
           "context": 200000,
           "output": 24000
@@ -155846,7 +155395,6 @@
         ],
         "release_date": "2026-02-04",
         "structured_output": true,
-        "temperature": true,
         "tool_call": true
       },
       "openai-gpt-4o-2024-11-20": {
@@ -155859,7 +155407,7 @@
         "family": "gpt",
         "id": "openai-gpt-4o-2024-11-20",
         "knowledge": "2023-09",
-        "last_updated": "2026-06-10",
+        "last_updated": "2026-06-11",
         "limit": {
           "context": 128000,
           "output": 16384
@@ -155893,7 +155441,7 @@
         "family": "gpt",
         "id": "openai-gpt-4o-mini-2024-07-18",
         "knowledge": "2023-09",
-        "last_updated": "2026-06-10",
+        "last_updated": "2026-06-11",
         "limit": {
           "context": 128000,
           "output": 16384
@@ -155927,7 +155475,7 @@
         "family": "gpt",
         "id": "openai-gpt-52",
         "knowledge": "2025-08-31",
-        "last_updated": "2026-06-10",
+        "last_updated": "2026-06-11",
         "limit": {
           "context": 256000,
           "input": 272000,
@@ -155958,7 +155506,7 @@
         ],
         "release_date": "2025-12-13",
         "structured_output": true,
-        "temperature": true,
+        "temperature": false,
         "tool_call": true
       },
       "openai-gpt-52-codex": {
@@ -155972,7 +155520,7 @@
         "family": "gpt",
         "id": "openai-gpt-52-codex",
         "knowledge": "2025-08",
-        "last_updated": "2026-06-10",
+        "last_updated": "2026-06-11",
         "limit": {
           "context": 256000,
           "input": 272000,
@@ -156004,7 +155552,7 @@
         ],
         "release_date": "2025-01-15",
         "structured_output": true,
-        "temperature": true,
+        "temperature": false,
         "tool_call": true
       },
       "openai-gpt-53-codex": {
@@ -156018,7 +155566,7 @@
         "family": "gpt",
         "id": "openai-gpt-53-codex",
         "knowledge": "2025-08-31",
-        "last_updated": "2026-06-10",
+        "last_updated": "2026-06-11",
         "limit": {
           "context": 400000,
           "input": 272000,
@@ -156050,7 +155598,7 @@
         ],
         "release_date": "2026-02-24",
         "structured_output": true,
-        "temperature": true,
+        "temperature": false,
         "tool_call": true
       },
       "openai-gpt-54": {
@@ -156064,7 +155612,7 @@
         "family": "gpt",
         "id": "openai-gpt-54",
         "knowledge": "2025-08-31",
-        "last_updated": "2026-06-10",
+        "last_updated": "2026-06-11",
         "limit": {
           "context": 1000000,
           "input": 922000,
@@ -156096,7 +155644,7 @@
         ],
         "release_date": "2026-03-05",
         "structured_output": true,
-        "temperature": true,
+        "temperature": false,
         "tool_call": true
       },
       "openai-gpt-54-mini": {
@@ -156110,7 +155658,7 @@
         "family": "gpt",
         "id": "openai-gpt-54-mini",
         "knowledge": "2025-08-31",
-        "last_updated": "2026-06-10",
+        "last_updated": "2026-06-11",
         "limit": {
           "context": 400000,
           "input": 272000,
@@ -156142,7 +155690,7 @@
         ],
         "release_date": "2026-03-27",
         "structured_output": true,
-        "temperature": true,
+        "temperature": false,
         "tool_call": true
       },
       "openai-gpt-54-pro": {
@@ -156169,7 +155717,7 @@
         "family": "gpt",
         "id": "openai-gpt-54-pro",
         "knowledge": "2025-08-31",
-        "last_updated": "2026-06-10",
+        "last_updated": "2026-06-11",
         "limit": {
           "context": 1000000,
           "input": 922000,
@@ -156201,7 +155749,7 @@
         ],
         "release_date": "2026-03-05",
         "structured_output": true,
-        "temperature": true,
+        "temperature": false,
         "tool_call": true
       },
       "openai-gpt-55": {
@@ -156231,7 +155779,7 @@
         "family": "gpt",
         "id": "openai-gpt-55",
         "knowledge": "2025-12-01",
-        "last_updated": "2026-06-10",
+        "last_updated": "2026-06-11",
         "limit": {
           "context": 1000000,
           "input": 922000,
@@ -156263,7 +155811,7 @@
         ],
         "release_date": "2026-04-23",
         "structured_output": true,
-        "temperature": true,
+        "temperature": false,
         "tool_call": true
       },
       "openai-gpt-55-pro": {
@@ -156276,7 +155824,7 @@
         "family": "gpt",
         "id": "openai-gpt-55-pro",
         "knowledge": "2025-12-01",
-        "last_updated": "2026-06-10",
+        "last_updated": "2026-06-11",
         "limit": {
           "context": 1000000,
           "input": 922000,
@@ -156308,7 +155856,7 @@
         ],
         "release_date": "2026-04-24",
         "structured_output": true,
-        "temperature": true,
+        "temperature": false,
         "tool_call": true
       },
       "openai-gpt-oss-120b": {
@@ -156320,8 +155868,7 @@
         "description": "OpenAI GPT OSS 120B は venice によって提供される AI モデルです。",
         "family": "gpt-oss",
         "id": "openai-gpt-oss-120b",
-        "knowledge": "2025-07",
-        "last_updated": "2026-06-10",
+        "last_updated": "2026-06-11",
         "limit": {
           "context": 128000,
           "output": 16384
@@ -156349,7 +155896,6 @@
           }
         ],
         "release_date": "2025-11-06",
-        "temperature": true,
         "tool_call": true
       },
       "qwen-3-6-plus": {
@@ -156382,7 +155928,7 @@
         "family": "qwen",
         "id": "qwen-3-6-plus",
         "knowledge": "2025-04",
-        "last_updated": "2026-06-10",
+        "last_updated": "2026-06-11",
         "limit": {
           "context": 1000000,
           "output": 65536
@@ -156417,7 +155963,7 @@
         "description": "Qwen 3.7 Max は venice によって提供される AI モデルです。",
         "family": "qwen",
         "id": "qwen-3-7-max",
-        "last_updated": "2026-06-10",
+        "last_updated": "2026-06-11",
         "limit": {
           "context": 1000000,
           "output": 65536
@@ -156468,7 +156014,7 @@
         "family": "qwen",
         "id": "qwen-3-7-plus",
         "knowledge": "2025-04",
-        "last_updated": "2026-06-10",
+        "last_updated": "2026-06-11",
         "limit": {
           "context": 1000000,
           "output": 65536
@@ -156501,8 +156047,7 @@
         "description": "Qwen 3 235B A22B Instruct 2507 は venice によって提供される AI モデルです。",
         "family": "qwen",
         "id": "qwen3-235b-a22b-instruct-2507",
-        "knowledge": "2025-07",
-        "last_updated": "2026-06-10",
+        "last_updated": "2026-06-11",
         "limit": {
           "context": 128000,
           "output": 16384
@@ -156521,7 +156066,6 @@
         "reasoning_options": [],
         "release_date": "2025-04-29",
         "structured_output": true,
-        "temperature": true,
         "tool_call": true
       },
       "qwen3-235b-a22b-thinking-2507": {
@@ -156536,8 +156080,7 @@
         "interleaved": {
           "field": "reasoning_content"
         },
-        "knowledge": "2025-07",
-        "last_updated": "2026-06-10",
+        "last_updated": "2026-06-11",
         "limit": {
           "context": 128000,
           "output": 16384
@@ -156565,7 +156108,6 @@
         ],
         "release_date": "2025-04-29",
         "structured_output": true,
-        "temperature": true,
         "tool_call": true
       },
       "qwen3-5-35b-a3b": {
@@ -156578,7 +156120,7 @@
         "description": "Qwen 3.5 35B A3B は venice によって提供される AI モデルです。",
         "family": "qwen",
         "id": "qwen3-5-35b-a3b",
-        "last_updated": "2026-06-10",
+        "last_updated": "2026-06-11",
         "limit": {
           "context": 256000,
           "output": 16384
@@ -156621,7 +156163,7 @@
         "description": "Qwen 3.5 397B は venice によって提供される AI モデルです。",
         "family": "qwen",
         "id": "qwen3-5-397b-a17b",
-        "last_updated": "2026-06-10",
+        "last_updated": "2026-06-11",
         "limit": {
           "context": 128000,
           "output": 32768
@@ -156664,7 +156206,7 @@
         "description": "Qwen 3.5 9B は venice によって提供される AI モデルです。",
         "family": "qwen",
         "id": "qwen3-5-9b",
-        "last_updated": "2026-06-10",
+        "last_updated": "2026-06-11",
         "limit": {
           "context": 256000,
           "output": 32768
@@ -156694,7 +156236,6 @@
         ],
         "release_date": "2026-03-05",
         "structured_output": true,
-        "temperature": true,
         "tool_call": true
       },
       "qwen3-6-27b": {
@@ -156706,7 +156247,7 @@
         "description": "Qwen 3.6 27B は venice によって提供される AI モデルです。",
         "family": "qwen",
         "id": "qwen3-6-27b",
-        "last_updated": "2026-06-10",
+        "last_updated": "2026-06-11",
         "limit": {
           "context": 256000,
           "output": 65536
@@ -156750,7 +156291,7 @@
         "description": "Qwen 3 Coder 480B Turbo は venice によって提供される AI モデルです。",
         "family": "qwen",
         "id": "qwen3-coder-480b-a35b-instruct-turbo",
-        "last_updated": "2026-06-10",
+        "last_updated": "2026-06-11",
         "limit": {
           "context": 256000,
           "output": 65536
@@ -156769,7 +156310,6 @@
         "reasoning_options": [],
         "release_date": "2026-01-27",
         "structured_output": true,
-        "temperature": true,
         "tool_call": true
       },
       "qwen3-next-80b": {
@@ -156781,8 +156321,7 @@
         "description": "Qwen 3 Next 80b は venice によって提供される AI モデルです。",
         "family": "qwen",
         "id": "qwen3-next-80b",
-        "knowledge": "2025-07",
-        "last_updated": "2026-06-10",
+        "last_updated": "2026-06-11",
         "limit": {
           "context": 256000,
           "output": 16384
@@ -156801,7 +156340,6 @@
         "reasoning_options": [],
         "release_date": "2025-04-29",
         "structured_output": true,
-        "temperature": true,
         "tool_call": true
       },
       "qwen3-vl-235b-a22b": {
@@ -156811,9 +156349,8 @@
           "output": 1.5
         },
         "description": "Qwen3 VL 235B は venice によって提供される AI モデルです。",
-        "family": "qwen3.5",
         "id": "qwen3-vl-235b-a22b",
-        "last_updated": "2026-06-10",
+        "last_updated": "2026-06-11",
         "limit": {
           "context": 256000,
           "output": 16384
@@ -156833,7 +156370,6 @@
         "reasoning_options": [],
         "release_date": "2026-01-16",
         "structured_output": true,
-        "temperature": true,
         "tool_call": true
       },
       "tencent-hy3-preview": {
@@ -156846,7 +156382,7 @@
         "description": "Hy3 Preview は venice によって提供される AI モデルです。",
         "family": "hy3",
         "id": "tencent-hy3-preview",
-        "last_updated": "2026-06-10",
+        "last_updated": "2026-06-11",
         "limit": {
           "context": 256000,
           "output": 32768
@@ -156886,7 +156422,7 @@
         "description": "Venice Uncensored 1.2 は venice によって提供される AI モデルです。",
         "family": "venice",
         "id": "venice-uncensored-1-2",
-        "last_updated": "2026-06-10",
+        "last_updated": "2026-06-11",
         "limit": {
           "context": 128000,
           "output": 8192
@@ -156906,7 +156442,6 @@
         "reasoning_options": [],
         "release_date": "2026-04-01",
         "structured_output": true,
-        "temperature": true,
         "tool_call": true
       },
       "venice-uncensored-role-play": {
@@ -156918,7 +156453,7 @@
         "description": "Venice Role Play Uncensored は venice によって提供される AI モデルです。",
         "family": "venice",
         "id": "venice-uncensored-role-play",
-        "last_updated": "2026-06-10",
+        "last_updated": "2026-06-11",
         "limit": {
           "context": 128000,
           "output": 4096
@@ -156938,7 +156473,6 @@
         "reasoning_options": [],
         "release_date": "2026-02-20",
         "structured_output": true,
-        "temperature": true,
         "tool_call": true
       },
       "z-ai-glm-5-turbo": {
@@ -156951,7 +156485,7 @@
         "description": "GLM 5 Turbo は venice によって提供される AI モデルです。",
         "family": "glm",
         "id": "z-ai-glm-5-turbo",
-        "last_updated": "2026-06-10",
+        "last_updated": "2026-06-11",
         "limit": {
           "context": 200000,
           "output": 32768
@@ -156993,7 +156527,7 @@
         "description": "GLM 5V Turbo は venice によって提供される AI モデルです。",
         "family": "glm",
         "id": "z-ai-glm-5v-turbo",
-        "last_updated": "2026-06-10",
+        "last_updated": "2026-06-11",
         "limit": {
           "context": 200000,
           "output": 32768
@@ -157040,7 +156574,7 @@
           "field": "reasoning_content"
         },
         "knowledge": "2025-04",
-        "last_updated": "2026-06-10",
+        "last_updated": "2026-06-11",
         "limit": {
           "context": 198000,
           "output": 16384
@@ -157085,7 +156619,7 @@
           "field": "reasoning_content"
         },
         "knowledge": "2025-04",
-        "last_updated": "2026-06-10",
+        "last_updated": "2026-06-11",
         "limit": {
           "context": 198000,
           "output": 16384
@@ -157126,7 +156660,7 @@
         "family": "glm",
         "id": "zai-org-glm-4.7-flash",
         "knowledge": "2025-04",
-        "last_updated": "2026-06-10",
+        "last_updated": "2026-06-11",
         "limit": {
           "context": 128000,
           "output": 16384
@@ -157171,7 +156705,7 @@
         "interleaved": {
           "field": "reasoning_content"
         },
-        "last_updated": "2026-06-10",
+        "last_updated": "2026-06-11",
         "limit": {
           "context": 198000,
           "output": 32000
@@ -157216,7 +156750,7 @@
         "interleaved": {
           "field": "reasoning_content"
         },
-        "last_updated": "2026-06-10",
+        "last_updated": "2026-06-11",
         "limit": {
           "context": 200000,
           "output": 24000

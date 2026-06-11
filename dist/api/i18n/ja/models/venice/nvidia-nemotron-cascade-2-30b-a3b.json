@@ -7,7 +7,7 @@
   "description": "Nemotron Cascade 2 30B A3B は venice によって提供される AI モデルです。",
   "family": "nemotron",
   "id": "nvidia-nemotron-cascade-2-30b-a3b",
-  "last_updated": "2026-06-10",
+  "last_updated": "2026-06-11",
   "limit": {
     "context": 256000,
     "output": 32768

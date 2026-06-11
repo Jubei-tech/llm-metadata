@@ -8,7 +8,7 @@
   "family": "gpt",
   "id": "openai-gpt-55-pro",
   "knowledge": "2025-12-01",
-  "last_updated": "2026-06-10",
+  "last_updated": "2026-06-11",
   "limit": {
     "context": 1000000,
     "input": 922000,
@@ -40,6 +40,6 @@
   ],
   "release_date": "2026-04-24",
   "structured_output": true,
-  "temperature": true,
+  "temperature": false,
   "tool_call": true
 }

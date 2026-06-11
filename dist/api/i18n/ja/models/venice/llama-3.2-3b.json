@@ -7,8 +7,7 @@
   "description": "Llama 3.2 3B は venice によって提供される AI モデルです。",
   "family": "llama",
   "id": "llama-3.2-3b",
-  "knowledge": "2023-12",
-  "last_updated": "2026-06-10",
+  "last_updated": "2026-06-11",
   "limit": {
     "context": 128000,
     "output": 4096
@@ -26,6 +25,5 @@
   "reasoning": false,
   "reasoning_options": [],
   "release_date": "2024-10-03",
-  "temperature": true,
   "tool_call": true
 }

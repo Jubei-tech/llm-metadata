@@ -234,7 +234,7 @@
       "doc": "https://api.cortecs.ai/v1/models",
       "iconURL": "https://models.dev/logos/cortecs.svg",
       "id": "cortecs",
-      "modelCount": 50,
+      "modelCount": 51,
       "name": "Cortecs"
     },
     {
@@ -1041,7 +1041,7 @@
       "iconURL": "https://models.dev/logos/venice.svg",
       "id": "venice",
       "lobeIcon": "VeniceAI",
-      "modelCount": 88,
+      "modelCount": 74,
       "name": "Venice AI"
     },
     {

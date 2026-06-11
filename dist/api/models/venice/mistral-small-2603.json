@@ -8,7 +8,7 @@
   "family": "mistral-small",
   "id": "mistral-small-2603",
   "knowledge": "2025-06",
-  "last_updated": "2026-06-10",
+  "last_updated": "2026-06-11",
   "limit": {
     "context": 256000,
     "output": 65536

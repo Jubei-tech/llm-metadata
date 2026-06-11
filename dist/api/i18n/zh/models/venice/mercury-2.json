@@ -8,7 +8,7 @@
   "description": "Mercury 2 是由 venice 提供的人工智能模型。",
   "family": "mercury",
   "id": "mercury-2",
-  "last_updated": "2026-06-10",
+  "last_updated": "2026-06-11",
   "limit": {
     "context": 128000,
     "output": 50000
@@ -37,6 +37,5 @@
   ],
   "release_date": "2026-02-20",
   "structured_output": true,
-  "temperature": true,
   "tool_call": true
 }

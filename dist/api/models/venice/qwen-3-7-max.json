@@ -9,7 +9,7 @@
   "description": "Qwen 3.7 Max is an AI model provided by venice.",
   "family": "qwen",
   "id": "qwen-3-7-max",
-  "last_updated": "2026-06-10",
+  "last_updated": "2026-06-11",
   "limit": {
     "context": 1000000,
     "output": 65536

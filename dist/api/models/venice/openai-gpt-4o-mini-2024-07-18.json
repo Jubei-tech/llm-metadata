@@ -9,7 +9,7 @@
   "family": "gpt",
   "id": "openai-gpt-4o-mini-2024-07-18",
   "knowledge": "2023-09",
-  "last_updated": "2026-06-10",
+  "last_updated": "2026-06-11",
   "limit": {
     "context": 128000,
     "output": 16384

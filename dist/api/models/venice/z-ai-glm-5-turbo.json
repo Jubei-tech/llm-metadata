@@ -8,7 +8,7 @@
   "description": "GLM 5 Turbo is an AI model provided by venice.",
   "family": "glm",
   "id": "z-ai-glm-5-turbo",
-  "last_updated": "2026-06-10",
+  "last_updated": "2026-06-11",
   "limit": {
     "context": 200000,
     "output": 32768

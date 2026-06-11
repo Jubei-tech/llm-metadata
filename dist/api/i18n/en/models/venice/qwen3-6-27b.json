@@ -7,7 +7,7 @@
   "description": "Qwen 3.6 27B is an AI model provided by venice.",
   "family": "qwen",
   "id": "qwen3-6-27b",
-  "last_updated": "2026-06-10",
+  "last_updated": "2026-06-11",
   "limit": {
     "context": 256000,
     "output": 65536
