@@ -24829,7 +24829,7 @@
       "icon": "",
       "id": "google/gemini-2.5-flash",
       "knowledge": "2025-01",
-      "lastUpdated": "2025-06-05",
+      "lastUpdated": "2025-06-17",
       "maxCtxTokens": 1048576,
       "maxOutputTokens": 65536,
       "modalities": {
@@ -24851,7 +24851,7 @@
         "input": null,
         "output": null
       },
-      "releaseDate": "2025-03-20",
+      "releaseDate": "2025-06-17",
       "tags": []
     },
     {
@@ -24909,7 +24909,7 @@
       "icon": "",
       "id": "google/gemini-2.5-pro",
       "knowledge": "2025-01",
-      "lastUpdated": "2025-06-05",
+      "lastUpdated": "2025-06-17",
       "maxCtxTokens": 1048576,
       "maxOutputTokens": 65536,
       "modalities": {
@@ -24931,7 +24931,7 @@
         "input": null,
         "output": null
       },
-      "releaseDate": "2025-03-20",
+      "releaseDate": "2025-06-17",
       "tags": []
     },
     {
@@ -25955,7 +25955,7 @@
       "icon": "",
       "id": "gemini-2.5-flash",
       "knowledge": "2025-01",
-      "lastUpdated": "2025-06-05",
+      "lastUpdated": "2025-06-17",
       "maxCtxTokens": 1048576,
       "maxOutputTokens": 65536,
       "modalities": {
@@ -25977,7 +25977,7 @@
         "input": 0.3,
         "output": 2.5
       },
-      "releaseDate": "2025-03-20",
+      "releaseDate": "2025-06-17",
       "tags": []
     },
     {
@@ -25995,7 +25995,7 @@
       "icon": "",
       "id": "gemini-2.5-pro",
       "knowledge": "2025-01",
-      "lastUpdated": "2025-06-05",
+      "lastUpdated": "2025-06-17",
       "maxCtxTokens": 1048576,
       "maxOutputTokens": 65536,
       "modalities": {
@@ -26017,7 +26017,7 @@
         "input": 1.25,
         "output": 10
       },
-      "releaseDate": "2025-03-20",
+      "releaseDate": "2025-06-17",
       "tags": []
     },
     {
@@ -39759,6 +39759,43 @@
       "tags": []
     },
     {
+      "description": "Kimi K2.7 Code 是由 cloudflare-workers-ai 提供的人工智能模型。",
+      "firm": "cloudflare-workers-ai",
+      "flags": {
+        "attachment": true,
+        "audio": false,
+        "image": true,
+        "open_weights": true,
+        "reasoning": true,
+        "temperature": true,
+        "tool_call": true
+      },
+      "icon": "lb:cloudflare-color",
+      "id": "@cf/moonshotai/kimi-k2.7-code",
+      "knowledge": "2025-01",
+      "lastUpdated": "2026-06-12",
+      "maxCtxTokens": 262144,
+      "maxOutputTokens": 262144,
+      "modalities": {
+        "input": [
+          "text",
+          "image"
+        ],
+        "output": [
+          "text"
+        ]
+      },
+      "name": "Kimi K2.7 Code",
+      "price": {
+        "cacheRead": 0.19,
+        "cacheWrite": null,
+        "input": 0.95,
+        "output": 4
+      },
+      "releaseDate": "2026-06-12",
+      "tags": []
+    },
+    {
       "description": "Nemotron 3 Super 120B 是由 cloudflare-workers-ai 提供的人工智能模型。",
       "firm": "cloudflare-workers-ai",
       "flags": {
@@ -43471,7 +43508,7 @@
       "icon": "",
       "id": "databricks-gemini-2-5-flash",
       "knowledge": "2025-01",
-      "lastUpdated": "2025-06-05",
+      "lastUpdated": "2025-06-17",
       "maxCtxTokens": 1048576,
       "maxOutputTokens": 65536,
       "modalities": {
@@ -43493,7 +43530,7 @@
         "input": 0.3,
         "output": 2.5
       },
-      "releaseDate": "2025-03-20",
+      "releaseDate": "2025-06-17",
       "tags": []
     },
     {
@@ -43511,7 +43548,7 @@
       "icon": "",
       "id": "databricks-gemini-2-5-pro",
       "knowledge": "2025-01",
-      "lastUpdated": "2025-06-05",
+      "lastUpdated": "2025-06-17",
       "maxCtxTokens": 1048576,
       "maxOutputTokens": 65536,
       "modalities": {
@@ -43533,7 +43570,7 @@
         "input": 1.25,
         "output": 10
       },
-      "releaseDate": "2025-03-20",
+      "releaseDate": "2025-06-17",
       "tags": []
     },
     {
@@ -53204,7 +53241,7 @@
       "icon": "lb:githubcopilot",
       "id": "gemini-2.5-pro",
       "knowledge": "2025-01",
-      "lastUpdated": "2025-06-05",
+      "lastUpdated": "2025-06-17",
       "maxCtxTokens": 128000,
       "maxOutputTokens": 64000,
       "modalities": {
@@ -53226,7 +53263,7 @@
         "input": 1.25,
         "output": 10
       },
-      "releaseDate": "2025-03-20",
+      "releaseDate": "2025-06-17",
       "tags": []
     },
     {
@@ -58171,7 +58208,7 @@
       "icon": "lb:vertexai-color",
       "id": "gemini-2.5-pro",
       "knowledge": "2025-01",
-      "lastUpdated": "2025-06-05",
+      "lastUpdated": "2025-06-17",
       "maxCtxTokens": 1048576,
       "maxOutputTokens": 65536,
       "modalities": {
@@ -58193,7 +58230,7 @@
         "input": 1.25,
         "output": 10
       },
-      "releaseDate": "2025-03-20",
+      "releaseDate": "2025-06-17",
       "tags": []
     },
     {
@@ -80855,6 +80892,44 @@
       "tags": []
     },
     {
+      "description": "Kimi K2.7 Code 是由 kimi-for-coding 提供的人工智能模型。",
+      "firm": "kimi-for-coding",
+      "flags": {
+        "attachment": true,
+        "audio": false,
+        "image": true,
+        "open_weights": true,
+        "reasoning": true,
+        "temperature": false,
+        "tool_call": true
+      },
+      "icon": "",
+      "id": "k2p7",
+      "knowledge": "2025-01",
+      "lastUpdated": "2026-06-12",
+      "maxCtxTokens": 262144,
+      "maxOutputTokens": 32768,
+      "modalities": {
+        "input": [
+          "text",
+          "image",
+          "video"
+        ],
+        "output": [
+          "text"
+        ]
+      },
+      "name": "Kimi K2.7 Code",
+      "price": {
+        "cacheRead": null,
+        "cacheWrite": null,
+        "input": null,
+        "output": null
+      },
+      "releaseDate": "2026-06-12",
+      "tags": []
+    },
+    {
       "description": "Kimi K2 Thinking 是由 kimi-for-coding 提供的人工智能模型。",
       "firm": "kimi-for-coding",
       "flags": {
@@ -82427,7 +82502,7 @@
       "icon": "",
       "id": "gemini-2.5-flash",
       "knowledge": "2025-01",
-      "lastUpdated": "2025-06-05",
+      "lastUpdated": "2025-06-17",
       "maxCtxTokens": 1048576,
       "maxOutputTokens": 65536,
       "modalities": {
@@ -82449,7 +82524,7 @@
         "input": 0.3,
         "output": 2.5
       },
-      "releaseDate": "2025-03-20",
+      "releaseDate": "2025-06-17",
       "tags": []
     },
     {
@@ -82507,7 +82582,7 @@
       "icon": "",
       "id": "gemini-2.5-pro",
       "knowledge": "2025-01",
-      "lastUpdated": "2025-06-05",
+      "lastUpdated": "2025-06-17",
       "maxCtxTokens": 1048576,
       "maxOutputTokens": 65536,
       "modalities": {
@@ -82529,7 +82604,7 @@
         "input": 1.25,
         "output": 10
       },
-      "releaseDate": "2025-03-20",
+      "releaseDate": "2025-06-17",
       "tags": []
     },
     {
@@ -90055,7 +90130,7 @@
       "icon": "",
       "id": "google/gemini-2.5-flash",
       "knowledge": "2025-01",
-      "lastUpdated": "2025-06-05",
+      "lastUpdated": "2025-06-17",
       "maxCtxTokens": 1048576,
       "maxOutputTokens": 65536,
       "modalities": {
@@ -90077,7 +90152,7 @@
         "input": 0.3,
         "output": 2.5
       },
-      "releaseDate": "2025-03-20",
+      "releaseDate": "2025-06-17",
       "tags": []
     },
     {
@@ -90135,7 +90210,7 @@
       "icon": "",
       "id": "google/gemini-2.5-pro",
       "knowledge": "2025-01",
-      "lastUpdated": "2025-06-05",
+      "lastUpdated": "2025-06-17",
       "maxCtxTokens": 1048576,
       "maxOutputTokens": 65536,
       "modalities": {
@@ -90157,7 +90232,7 @@
         "input": 1.25,
         "output": 10
       },
-      "releaseDate": "2025-03-20",
+      "releaseDate": "2025-06-17",
       "tags": []
     },
     {
@@ -91041,7 +91116,7 @@
       "icon": "",
       "id": "mistral/mistral-large-2411",
       "knowledge": "2024-11",
-      "lastUpdated": "2024-11-04",
+      "lastUpdated": "2024-11-18",
       "maxCtxTokens": 131072,
       "maxOutputTokens": 16384,
       "modalities": {
@@ -91059,7 +91134,7 @@
         "input": 2,
         "output": 6
       },
-      "releaseDate": "2024-11-01",
+      "releaseDate": "2024-11-18",
       "tags": []
     },
     {
@@ -95446,6 +95521,44 @@
         "output": 4
       },
       "releaseDate": "2026-04-21",
+      "tags": []
+    },
+    {
+      "description": "Kimi K2.7 Code 是由 moonshotai 提供的人工智能模型。",
+      "firm": "moonshotai",
+      "flags": {
+        "attachment": true,
+        "audio": false,
+        "image": true,
+        "open_weights": true,
+        "reasoning": true,
+        "temperature": false,
+        "tool_call": true
+      },
+      "icon": "lb:moonshot-color",
+      "id": "kimi-k2.7-code",
+      "knowledge": "2025-01",
+      "lastUpdated": "2026-06-12",
+      "maxCtxTokens": 262144,
+      "maxOutputTokens": 262144,
+      "modalities": {
+        "input": [
+          "text",
+          "image",
+          "video"
+        ],
+        "output": [
+          "text"
+        ]
+      },
+      "name": "Kimi K2.7 Code",
+      "price": {
+        "cacheRead": 0.19,
+        "cacheWrite": null,
+        "input": 0.95,
+        "output": 4
+      },
+      "releaseDate": "2026-06-12",
       "tags": []
     },
     {
@@ -118677,7 +118790,7 @@
       "icon": "",
       "id": "google/gemini-2.5-flash",
       "knowledge": "2025-01",
-      "lastUpdated": "2025-06-05",
+      "lastUpdated": "2025-06-17",
       "maxCtxTokens": 1048576,
       "maxOutputTokens": 65536,
       "modalities": {
@@ -118699,7 +118812,7 @@
         "input": 0.3,
         "output": 2.5
       },
-      "releaseDate": "2025-03-20",
+      "releaseDate": "2025-06-17",
       "tags": []
     },
     {
@@ -118757,7 +118870,7 @@
       "icon": "",
       "id": "google/gemini-2.5-pro",
       "knowledge": "2025-01",
-      "lastUpdated": "2025-06-05",
+      "lastUpdated": "2025-06-17",
       "maxCtxTokens": 1048576,
       "maxOutputTokens": 65536,
       "modalities": {
@@ -118779,7 +118892,7 @@
         "input": 1.25,
         "output": 10
       },
-      "releaseDate": "2025-03-20",
+      "releaseDate": "2025-06-17",
       "tags": []
     },
     {
@@ -121189,7 +121302,7 @@
       "icon": "",
       "id": "gemini-2-5-flash",
       "knowledge": "2025-01",
-      "lastUpdated": "2025-06-05",
+      "lastUpdated": "2025-06-17",
       "maxCtxTokens": 1048576,
       "maxOutputTokens": 65536,
       "modalities": {
@@ -121211,7 +121324,7 @@
         "input": 0.3,
         "output": 2.5
       },
-      "releaseDate": "2025-03-20",
+      "releaseDate": "2025-06-17",
       "tags": []
     },
     {
@@ -121229,7 +121342,7 @@
       "icon": "",
       "id": "gemini-2-5-pro",
       "knowledge": "2025-01",
-      "lastUpdated": "2025-06-05",
+      "lastUpdated": "2025-06-17",
       "maxCtxTokens": 1048576,
       "maxOutputTokens": 65536,
       "modalities": {
@@ -121251,7 +121364,7 @@
         "input": 1.25,
         "output": 10
       },
-      "releaseDate": "2025-03-20",
+      "releaseDate": "2025-06-17",
       "tags": []
     },
     {
@@ -135476,6 +135589,44 @@
       "tags": []
     },
     {
+      "description": "Kimi K2.7 Code 是由 opencode-go 提供的人工智能模型。",
+      "firm": "opencode-go",
+      "flags": {
+        "attachment": true,
+        "audio": false,
+        "image": true,
+        "open_weights": true,
+        "reasoning": true,
+        "temperature": false,
+        "tool_call": true
+      },
+      "icon": "",
+      "id": "kimi-k2.7-code",
+      "knowledge": "2025-01",
+      "lastUpdated": "2026-06-12",
+      "maxCtxTokens": 262144,
+      "maxOutputTokens": 262144,
+      "modalities": {
+        "input": [
+          "text",
+          "image",
+          "video"
+        ],
+        "output": [
+          "text"
+        ]
+      },
+      "name": "Kimi K2.7 Code",
+      "price": {
+        "cacheRead": 0.19,
+        "cacheWrite": null,
+        "input": 0.95,
+        "output": 4
+      },
+      "releaseDate": "2026-06-12",
+      "tags": []
+    },
+    {
       "description": "MiMo V2 Omni 是由 opencode-go 提供的人工智能模型。",
       "firm": "opencode-go",
       "flags": {
@@ -135698,7 +135849,7 @@
       "tags": []
     },
     {
-      "description": "MiniMax M3 是由 opencode-go 提供的人工智能模型。",
+      "description": "MiniMax M3 (3x usage) 是由 opencode-go 提供的人工智能模型。",
       "firm": "opencode-go",
       "flags": {
         "attachment": false,
@@ -135725,12 +135876,12 @@
           "text"
         ]
       },
-      "name": "MiniMax M3",
+      "name": "MiniMax M3 (3x usage)",
       "price": {
-        "cacheRead": 0.06,
+        "cacheRead": 0.02,
         "cacheWrite": null,
-        "input": 0.3,
-        "output": 1.2
+        "input": 0.1,
+        "output": 0.4
       },
       "releaseDate": "2026-05-31",
       "tags": []
@@ -136133,8 +136284,8 @@
       "id": "~moonshotai/kimi-latest",
       "knowledge": null,
       "lastUpdated": "2026-04-27",
-      "maxCtxTokens": 262144,
-      "maxOutputTokens": 262144,
+      "maxCtxTokens": 262142,
+      "maxOutputTokens": 262142,
       "modalities": {
         "input": [
           "text",
@@ -136146,10 +136297,10 @@
       },
       "name": "MoonshotAI Kimi Latest",
       "price": {
-        "cacheRead": 0.14,
+        "cacheRead": 0.34,
         "cacheWrite": null,
-        "input": 0.67,
-        "output": 3.39
+        "input": 0.68,
+        "output": 3.41
       },
       "releaseDate": "2026-04-27",
       "tags": []
@@ -137912,7 +138063,7 @@
       "id": "deepseek/deepseek-chat-v3-0324",
       "knowledge": "2024-07-31",
       "lastUpdated": "2025-03-24",
-      "maxCtxTokens": 32768,
+      "maxCtxTokens": 163840,
       "maxOutputTokens": 16384,
       "modalities": {
         "input": [
@@ -138236,7 +138387,7 @@
       "id": "deepseek/deepseek-v4-flash",
       "knowledge": "2025-05",
       "lastUpdated": "2026-04-24",
-      "maxCtxTokens": 1048576,
+      "maxCtxTokens": 1048575,
       "maxOutputTokens": 131072,
       "modalities": {
         "input": [
@@ -138248,10 +138399,10 @@
       },
       "name": "DeepSeek V4 Flash",
       "price": {
-        "cacheRead": 0.0197,
+        "cacheRead": 0.02,
         "cacheWrite": null,
-        "input": 0.0983,
-        "output": 0.1966
+        "input": 0.098,
+        "output": 0.196
       },
       "releaseDate": "2026-04-24",
       "tags": []
@@ -138343,7 +138494,7 @@
       "icon": "lb:openrouter-color",
       "id": "google/gemini-2.5-flash",
       "knowledge": "2025-01",
-      "lastUpdated": "2025-06-05",
+      "lastUpdated": "2025-06-17",
       "maxCtxTokens": 1048576,
       "maxOutputTokens": 65535,
       "modalities": {
@@ -138365,7 +138516,7 @@
         "input": 0.3,
         "output": 2.5
       },
-      "releaseDate": "2025-03-20",
+      "releaseDate": "2025-06-17",
       "tags": []
     },
     {
@@ -138501,7 +138652,7 @@
       "icon": "lb:openrouter-color",
       "id": "google/gemini-2.5-pro",
       "knowledge": "2025-01",
-      "lastUpdated": "2025-06-05",
+      "lastUpdated": "2025-06-17",
       "maxCtxTokens": 1048576,
       "maxOutputTokens": 65536,
       "modalities": {
@@ -138523,7 +138674,7 @@
         "input": 1.25,
         "output": 10
       },
-      "releaseDate": "2025-03-20",
+      "releaseDate": "2025-06-17",
       "tags": []
     },
     {
@@ -140272,42 +140423,6 @@
       "tags": []
     },
     {
-      "description": "Llama Guard 3 8B 是由 openrouter 提供的人工智能模型。",
-      "firm": "openrouter",
-      "flags": {
-        "attachment": false,
-        "audio": false,
-        "image": false,
-        "open_weights": true,
-        "reasoning": false,
-        "temperature": true,
-        "tool_call": false
-      },
-      "icon": "lb:openrouter-color",
-      "id": "meta-llama/llama-guard-3-8b",
-      "knowledge": "2023-12-31",
-      "lastUpdated": "2025-02-12",
-      "maxCtxTokens": 131072,
-      "maxOutputTokens": 131072,
-      "modalities": {
-        "input": [
-          "text"
-        ],
-        "output": [
-          "text"
-        ]
-      },
-      "name": "Llama Guard 3 8B",
-      "price": {
-        "cacheRead": null,
-        "cacheWrite": null,
-        "input": 0.484,
-        "output": 0.03
-      },
-      "releaseDate": "2025-02-12",
-      "tags": []
-    },
-    {
       "description": "Llama Guard 4 12B 是由 openrouter 提供的人工智能模型。",
       "firm": "openrouter",
       "flags": {
@@ -141610,8 +141725,8 @@
       "id": "moonshotai/kimi-k2.6",
       "knowledge": "2025-01",
       "lastUpdated": "2026-04-21",
-      "maxCtxTokens": 262144,
-      "maxOutputTokens": 262144,
+      "maxCtxTokens": 262142,
+      "maxOutputTokens": 262142,
       "modalities": {
         "input": [
           "text",
@@ -141623,12 +141738,50 @@
       },
       "name": "Kimi K2.6",
       "price": {
-        "cacheRead": 0.14,
+        "cacheRead": 0.34,
         "cacheWrite": null,
-        "input": 0.67,
-        "output": 3.39
+        "input": 0.68,
+        "output": 3.41
       },
       "releaseDate": "2026-04-21",
+      "tags": []
+    },
+    {
+      "description": "Kimi K2.7 Code 是由 openrouter 提供的人工智能模型。",
+      "firm": "openrouter",
+      "flags": {
+        "attachment": true,
+        "audio": false,
+        "image": true,
+        "open_weights": true,
+        "reasoning": true,
+        "temperature": true,
+        "tool_call": true
+      },
+      "icon": "lb:openrouter-color",
+      "id": "moonshotai/kimi-k2.7-code",
+      "knowledge": "2025-01",
+      "lastUpdated": "2026-06-12",
+      "maxCtxTokens": 262144,
+      "maxOutputTokens": 262144,
+      "modalities": {
+        "input": [
+          "text",
+          "image",
+          "video"
+        ],
+        "output": [
+          "text"
+        ]
+      },
+      "name": "Kimi K2.7 Code",
+      "price": {
+        "cacheRead": 0.19,
+        "cacheWrite": null,
+        "input": 0.95,
+        "output": 4
+      },
+      "releaseDate": "2026-06-12",
       "tags": []
     },
     {
@@ -145431,8 +145584,8 @@
       "id": "qwen/qwen2.5-vl-72b-instruct",
       "knowledge": "2024-06-30",
       "lastUpdated": "2025-02-01",
-      "maxCtxTokens": 32000,
-      "maxOutputTokens": 8192,
+      "maxCtxTokens": 128000,
+      "maxOutputTokens": 128000,
       "modalities": {
         "input": [
           "text",
@@ -145444,10 +145597,10 @@
       },
       "name": "Qwen2.5 VL 72B Instruct",
       "price": {
-        "cacheRead": null,
+        "cacheRead": 0.4,
         "cacheWrite": null,
-        "input": 0.25,
-        "output": 0.75
+        "input": 0.8,
+        "output": 1
       },
       "releaseDate": "2025-02-01",
       "tags": []
@@ -146751,8 +146904,8 @@
       "id": "qwen/qwen3.6-27b",
       "knowledge": null,
       "lastUpdated": "2026-04-22",
-      "maxCtxTokens": 131072,
-      "maxOutputTokens": 131072,
+      "maxCtxTokens": 262140,
+      "maxOutputTokens": 262140,
       "modalities": {
         "input": [
           "text",
@@ -146767,8 +146920,8 @@
       "price": {
         "cacheRead": null,
         "cacheWrite": null,
-        "input": 0.289,
-        "output": 2.4
+        "input": 0.2885,
+        "output": 3.17
       },
       "releaseDate": "2026-04-22",
       "tags": []
@@ -148845,7 +148998,7 @@
       "icon": "",
       "id": "google/gemini-2.5-flash",
       "knowledge": "2025-01",
-      "lastUpdated": "2025-06-05",
+      "lastUpdated": "2025-06-17",
       "maxCtxTokens": 1048576,
       "maxOutputTokens": 65536,
       "modalities": {
@@ -148867,7 +149020,7 @@
         "input": 0.3,
         "output": 2.5
       },
-      "releaseDate": "2025-03-20",
+      "releaseDate": "2025-06-17",
       "tags": []
     },
     {
@@ -148925,7 +149078,7 @@
       "icon": "",
       "id": "google/gemini-2.5-pro",
       "knowledge": "2025-01",
-      "lastUpdated": "2025-06-05",
+      "lastUpdated": "2025-06-17",
       "maxCtxTokens": 1048576,
       "maxOutputTokens": 65536,
       "modalities": {
@@ -148947,7 +149100,7 @@
         "input": 2.5,
         "output": 15
       },
-      "releaseDate": "2025-03-20",
+      "releaseDate": "2025-06-17",
       "tags": []
     },
     {
@@ -162653,7 +162806,7 @@
       "icon": "lb:requesty",
       "id": "google/gemini-2.5-pro",
       "knowledge": "2025-01",
-      "lastUpdated": "2025-06-05",
+      "lastUpdated": "2025-06-17",
       "maxCtxTokens": 1048576,
       "maxOutputTokens": 65536,
       "modalities": {
@@ -162675,7 +162828,7 @@
         "input": 1.25,
         "output": 10
       },
-      "releaseDate": "2025-03-20",
+      "releaseDate": "2025-06-17",
       "tags": []
     },
     {
@@ -176439,6 +176592,193 @@
       "tags": []
     },
     {
+      "description": "Umans Coder 是由 umans-ai 提供的人工智能模型。",
+      "firm": "umans-ai",
+      "flags": {
+        "attachment": true,
+        "audio": false,
+        "image": true,
+        "open_weights": true,
+        "reasoning": true,
+        "temperature": false,
+        "tool_call": true
+      },
+      "icon": "",
+      "id": "umans-coder",
+      "knowledge": "2025-01",
+      "lastUpdated": "2026-04-21",
+      "maxCtxTokens": 262144,
+      "maxOutputTokens": 32768,
+      "modalities": {
+        "input": [
+          "text",
+          "image"
+        ],
+        "output": [
+          "text"
+        ]
+      },
+      "name": "Umans Coder",
+      "price": {
+        "cacheRead": 0.2,
+        "cacheWrite": null,
+        "input": 0.95,
+        "output": 4
+      },
+      "releaseDate": "2026-04-21",
+      "tags": []
+    },
+    {
+      "description": "Umans Flash 是由 umans-ai 提供的人工智能模型。",
+      "firm": "umans-ai",
+      "flags": {
+        "attachment": true,
+        "audio": false,
+        "image": true,
+        "open_weights": true,
+        "reasoning": true,
+        "temperature": false,
+        "tool_call": true
+      },
+      "icon": "",
+      "id": "umans-flash",
+      "knowledge": null,
+      "lastUpdated": "2026-04-17",
+      "maxCtxTokens": 262144,
+      "maxOutputTokens": 32768,
+      "modalities": {
+        "input": [
+          "text",
+          "image"
+        ],
+        "output": [
+          "text"
+        ]
+      },
+      "name": "Umans Flash",
+      "price": {
+        "cacheRead": 0.05,
+        "cacheWrite": null,
+        "input": 0.15,
+        "output": 1
+      },
+      "releaseDate": "2026-04-17",
+      "tags": []
+    },
+    {
+      "description": "GLM 5.1 是由 umans-ai 提供的人工智能模型。",
+      "firm": "umans-ai",
+      "flags": {
+        "attachment": false,
+        "audio": false,
+        "image": true,
+        "open_weights": true,
+        "reasoning": true,
+        "temperature": true,
+        "tool_call": true
+      },
+      "icon": "",
+      "id": "umans-glm-5.1",
+      "knowledge": null,
+      "lastUpdated": "2026-03-27",
+      "maxCtxTokens": 204800,
+      "maxOutputTokens": 131072,
+      "modalities": {
+        "input": [
+          "text",
+          "image"
+        ],
+        "output": [
+          "text"
+        ]
+      },
+      "name": "GLM 5.1",
+      "price": {
+        "cacheRead": 0.29,
+        "cacheWrite": null,
+        "input": 1.4,
+        "output": 4.4
+      },
+      "releaseDate": "2026-03-27",
+      "tags": []
+    },
+    {
+      "description": "Kimi K2.6 是由 umans-ai 提供的人工智能模型。",
+      "firm": "umans-ai",
+      "flags": {
+        "attachment": true,
+        "audio": false,
+        "image": true,
+        "open_weights": true,
+        "reasoning": true,
+        "temperature": false,
+        "tool_call": true
+      },
+      "icon": "",
+      "id": "umans-kimi-k2.6",
+      "knowledge": "2025-01",
+      "lastUpdated": "2026-04-21",
+      "maxCtxTokens": 262144,
+      "maxOutputTokens": 32768,
+      "modalities": {
+        "input": [
+          "text",
+          "image",
+          "video"
+        ],
+        "output": [
+          "text"
+        ]
+      },
+      "name": "Kimi K2.6",
+      "price": {
+        "cacheRead": 0.2,
+        "cacheWrite": null,
+        "input": 0.95,
+        "output": 4
+      },
+      "releaseDate": "2026-04-21",
+      "tags": []
+    },
+    {
+      "description": "Kimi K2.7 Code 是由 umans-ai 提供的人工智能模型。",
+      "firm": "umans-ai",
+      "flags": {
+        "attachment": true,
+        "audio": false,
+        "image": true,
+        "open_weights": true,
+        "reasoning": true,
+        "temperature": false,
+        "tool_call": true
+      },
+      "icon": "",
+      "id": "umans-kimi-k2.7",
+      "knowledge": "2025-01",
+      "lastUpdated": "2026-06-12",
+      "maxCtxTokens": 262144,
+      "maxOutputTokens": 32768,
+      "modalities": {
+        "input": [
+          "text",
+          "image",
+          "video"
+        ],
+        "output": [
+          "text"
+        ]
+      },
+      "name": "Kimi K2.7 Code",
+      "price": {
+        "cacheRead": 0.19,
+        "cacheWrite": null,
+        "input": 0.95,
+        "output": 4
+      },
+      "releaseDate": "2026-06-12",
+      "tags": []
+    },
+    {
       "description": "Umans Coder 是由 umans-ai-coding-plan 提供的人工智能模型。",
       "firm": "umans-ai-coding-plan",
       "flags": {
@@ -176518,7 +176858,7 @@
       "flags": {
         "attachment": false,
         "audio": false,
-        "image": false,
+        "image": true,
         "open_weights": true,
         "reasoning": true,
         "temperature": true,
@@ -176532,7 +176872,8 @@
       "maxOutputTokens": 131072,
       "modalities": {
         "input": [
-          "text"
+          "text",
+          "image"
         ],
         "output": [
           "text"
@@ -176569,7 +176910,8 @@
       "modalities": {
         "input": [
           "text",
-          "image"
+          "image",
+          "video"
         ],
         "output": [
           "text"
@@ -176583,6 +176925,44 @@
         "output": null
       },
       "releaseDate": "2026-04-21",
+      "tags": []
+    },
+    {
+      "description": "Kimi K2.7 Code 是由 umans-ai-coding-plan 提供的人工智能模型。",
+      "firm": "umans-ai-coding-plan",
+      "flags": {
+        "attachment": true,
+        "audio": false,
+        "image": true,
+        "open_weights": true,
+        "reasoning": true,
+        "temperature": false,
+        "tool_call": true
+      },
+      "icon": "",
+      "id": "umans-kimi-k2.7",
+      "knowledge": "2025-01",
+      "lastUpdated": "2026-06-12",
+      "maxCtxTokens": 262144,
+      "maxOutputTokens": 262144,
+      "modalities": {
+        "input": [
+          "text",
+          "image",
+          "video"
+        ],
+        "output": [
+          "text"
+        ]
+      },
+      "name": "Kimi K2.7 Code",
+      "price": {
+        "cacheRead": null,
+        "cacheWrite": null,
+        "input": null,
+        "output": null
+      },
+      "releaseDate": "2026-06-12",
       "tags": []
     },
     {
@@ -185794,6 +186174,44 @@
         "output": 4
       },
       "releaseDate": "2026-04-20",
+      "tags": []
+    },
+    {
+      "description": "Kimi K2.7 Code 是由 vercel 提供的人工智能模型。",
+      "firm": "vercel",
+      "flags": {
+        "attachment": true,
+        "audio": false,
+        "image": true,
+        "open_weights": false,
+        "reasoning": true,
+        "temperature": true,
+        "tool_call": true
+      },
+      "icon": "lb:vercel-color",
+      "id": "moonshotai/kimi-k2.7-code",
+      "knowledge": "2025-01",
+      "lastUpdated": "2026-06-12",
+      "maxCtxTokens": 256000,
+      "maxOutputTokens": 32768,
+      "modalities": {
+        "input": [
+          "text",
+          "image",
+          "pdf"
+        ],
+        "output": [
+          "text"
+        ]
+      },
+      "name": "Kimi K2.7 Code",
+      "price": {
+        "cacheRead": 0.19,
+        "cacheWrite": null,
+        "input": 0.95,
+        "output": 4
+      },
+      "releaseDate": "2026-06-12",
       "tags": []
     },
     {
@@ -195331,6 +195749,82 @@
         "output": 4
       },
       "releaseDate": "2026-04-20",
+      "tags": []
+    },
+    {
+      "description": "Kimi K2.7 Code 是由 zenmux 提供的人工智能模型。",
+      "firm": "zenmux",
+      "flags": {
+        "attachment": true,
+        "audio": false,
+        "image": true,
+        "open_weights": true,
+        "reasoning": true,
+        "temperature": false,
+        "tool_call": true
+      },
+      "icon": "",
+      "id": "moonshotai/kimi-k2.7-code",
+      "knowledge": "2025-01",
+      "lastUpdated": "2026-06-12",
+      "maxCtxTokens": 262144,
+      "maxOutputTokens": 262144,
+      "modalities": {
+        "input": [
+          "text",
+          "image",
+          "video"
+        ],
+        "output": [
+          "text"
+        ]
+      },
+      "name": "Kimi K2.7 Code",
+      "price": {
+        "cacheRead": 0.16,
+        "cacheWrite": null,
+        "input": 0.95,
+        "output": 4
+      },
+      "releaseDate": "2026-06-12",
+      "tags": []
+    },
+    {
+      "description": "Kimi K2.7 Code (Free) 是由 zenmux 提供的人工智能模型。",
+      "firm": "zenmux",
+      "flags": {
+        "attachment": true,
+        "audio": false,
+        "image": true,
+        "open_weights": true,
+        "reasoning": true,
+        "temperature": false,
+        "tool_call": true
+      },
+      "icon": "",
+      "id": "moonshotai/kimi-k2.7-code-free",
+      "knowledge": "2025-01",
+      "lastUpdated": "2026-06-12",
+      "maxCtxTokens": 262144,
+      "maxOutputTokens": 262144,
+      "modalities": {
+        "input": [
+          "text",
+          "image",
+          "video"
+        ],
+        "output": [
+          "text"
+        ]
+      },
+      "name": "Kimi K2.7 Code (Free)",
+      "price": {
+        "cacheRead": null,
+        "cacheWrite": null,
+        "input": null,
+        "output": null
+      },
+      "releaseDate": "2026-06-12",
       "tags": []
     },
     {

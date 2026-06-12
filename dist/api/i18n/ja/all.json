@@ -4547,7 +4547,7 @@
           "output": 8
         },
         "description": "Kimi K2 Turbo Preview は abacus によって提供される AI モデルです。",
-        "family": "kimi",
+        "family": "kimi-k2",
         "id": "kimi-k2-turbo-preview",
         "last_updated": "2025-07-08",
         "limit": {
@@ -4576,7 +4576,7 @@
           "output": 3
         },
         "description": "Kimi K2.5 は abacus によって提供される AI モデルです。",
-        "family": "kimi",
+        "family": "kimi-k2",
         "id": "kimi-k2.5",
         "knowledge": "2025-01",
         "last_updated": "2026-01",
@@ -6902,7 +6902,7 @@
           "output": 3
         },
         "description": "Kimi K2.5 は aihubmix によって提供される AI モデルです。",
-        "family": "kimi-k2.5",
+        "family": "kimi-k2",
         "id": "kimi-k2.5",
         "interleaved": {
           "field": "reasoning_content"
@@ -6939,7 +6939,7 @@
           "output": 4
         },
         "description": "Kimi K2.6 は aihubmix によって提供される AI モデルです。",
-        "family": "kimi-k2.6",
+        "family": "kimi-k2",
         "id": "kimi-k2.6",
         "interleaved": {
           "field": "reasoning_content"
@@ -9596,7 +9596,7 @@
           "output": 2.294
         },
         "description": "Moonshot Kimi K2 Thinking は alibaba-cn によって提供される AI モデルです。",
-        "family": "kimi",
+        "family": "kimi-thinking",
         "id": "kimi-k2-thinking",
         "interleaved": {
           "field": "reasoning_content"
@@ -9629,7 +9629,7 @@
           "output": 2.411
         },
         "description": "Moonshot Kimi K2.5 は alibaba-cn によって提供される AI モデルです。",
-        "family": "kimi",
+        "family": "kimi-k2",
         "id": "kimi-k2.5",
         "interleaved": {
           "field": "reasoning_content"
@@ -9665,7 +9665,7 @@
           "output": 3.858
         },
         "description": "Moonshot Kimi K2.6 は alibaba-cn によって提供される AI モデルです。",
-        "family": "kimi",
+        "family": "kimi-k2",
         "id": "kimi-k2.6",
         "interleaved": {
           "field": "reasoning_content"
@@ -9702,7 +9702,7 @@
           "output": 3
         },
         "description": "kimi/kimi-k2.5 は alibaba-cn によって提供される AI モデルです。",
-        "family": "kimi",
+        "family": "kimi-k2",
         "id": "kimi/kimi-k2.5",
         "interleaved": {
           "field": "reasoning_content"
@@ -9738,7 +9738,7 @@
           "output": 2.294
         },
         "description": "Moonshot Kimi K2 Instruct は alibaba-cn によって提供される AI モデルです。",
-        "family": "kimi",
+        "family": "kimi-k2",
         "id": "moonshot-kimi-k2-instruct",
         "last_updated": "2025-01-01",
         "limit": {
@@ -11814,7 +11814,7 @@
           "output": 0
         },
         "description": "Kimi K2.5 は alibaba-coding-plan によって提供される AI モデルです。",
-        "family": "kimi",
+        "family": "kimi-k2",
         "id": "kimi-k2.5",
         "interleaved": {
           "field": "reasoning_content"
@@ -12228,7 +12228,7 @@
           "output": 0
         },
         "description": "Kimi K2.5 は alibaba-coding-plan-cn によって提供される AI モデルです。",
-        "family": "kimi",
+        "family": "kimi-k2",
         "id": "kimi-k2.5",
         "interleaved": {
           "field": "reasoning_content"
@@ -12559,6 +12559,7 @@
         "name": "MiniMax-M2.5",
         "open_weights": true,
         "reasoning": true,
+        "reasoning_options": [],
         "release_date": "2026-02-12",
         "temperature": true,
         "tool_call": true
@@ -12589,6 +12590,11 @@
         "name": "DeepSeek V3.2",
         "open_weights": true,
         "reasoning": true,
+        "reasoning_options": [
+          {
+            "type": "toggle"
+          }
+        ],
         "release_date": "2025-12-03",
         "structured_output": true,
         "temperature": true,
@@ -12624,6 +12630,18 @@
         "name": "DeepSeek V4 Flash",
         "open_weights": true,
         "reasoning": true,
+        "reasoning_options": [
+          {
+            "type": "toggle"
+          },
+          {
+            "type": "effort",
+            "values": [
+              "high",
+              "max"
+            ]
+          }
+        ],
         "release_date": "2026-04-24",
         "structured_output": true,
         "temperature": true,
@@ -12659,6 +12677,18 @@
         "name": "DeepSeek V4 Pro",
         "open_weights": true,
         "reasoning": true,
+        "reasoning_options": [
+          {
+            "type": "toggle"
+          },
+          {
+            "type": "effort",
+            "values": [
+              "high",
+              "max"
+            ]
+          }
+        ],
         "release_date": "2026-04-24",
         "structured_output": true,
         "temperature": true,
@@ -12694,6 +12724,11 @@
         "name": "GLM-5",
         "open_weights": false,
         "reasoning": true,
+        "reasoning_options": [
+          {
+            "type": "toggle"
+          }
+        ],
         "release_date": "2026-02-11",
         "temperature": true,
         "tool_call": true
@@ -12728,6 +12763,11 @@
         "name": "GLM-5.1",
         "open_weights": true,
         "reasoning": true,
+        "reasoning_options": [
+          {
+            "type": "toggle"
+          }
+        ],
         "release_date": "2026-03-27",
         "structured_output": true,
         "temperature": true,
@@ -12742,7 +12782,7 @@
           "output": 0
         },
         "description": "Kimi K2.5 は alibaba-token-plan によって提供される AI モデルです。",
-        "family": "kimi",
+        "family": "kimi-k2",
         "id": "kimi-k2.5",
         "interleaved": {
           "field": "reasoning_content"
@@ -12766,6 +12806,14 @@
         "name": "Kimi K2.5",
         "open_weights": true,
         "reasoning": true,
+        "reasoning_options": [
+          {
+            "type": "toggle"
+          },
+          {
+            "type": "budget_tokens"
+          }
+        ],
         "release_date": "2026-01",
         "temperature": true,
         "tool_call": true
@@ -12779,7 +12827,7 @@
           "output": 0
         },
         "description": "Kimi K2.6 は alibaba-token-plan によって提供される AI モデルです。",
-        "family": "kimi",
+        "family": "kimi-k2",
         "id": "kimi-k2.6",
         "interleaved": {
           "field": "reasoning_content"
@@ -12803,6 +12851,14 @@
         "name": "Kimi K2.6",
         "open_weights": true,
         "reasoning": true,
+        "reasoning_options": [
+          {
+            "type": "toggle"
+          },
+          {
+            "type": "budget_tokens"
+          }
+        ],
         "release_date": "2026-04-21",
         "temperature": true,
         "tool_call": true
@@ -12894,6 +12950,15 @@
         "name": "Qwen3.6 Flash",
         "open_weights": false,
         "reasoning": true,
+        "reasoning_options": [
+          {
+            "type": "toggle"
+          },
+          {
+            "max": 81920,
+            "type": "budget_tokens"
+          }
+        ],
         "release_date": "2026-04-27",
         "structured_output": true,
         "temperature": true,
@@ -12929,6 +12994,15 @@
         "name": "Qwen3.6 Plus",
         "open_weights": false,
         "reasoning": true,
+        "reasoning_options": [
+          {
+            "type": "toggle"
+          },
+          {
+            "max": 81920,
+            "type": "budget_tokens"
+          }
+        ],
         "release_date": "2026-04-02",
         "temperature": true,
         "tool_call": true
@@ -12960,6 +13034,15 @@
         "name": "Qwen3.7 Max",
         "open_weights": false,
         "reasoning": true,
+        "reasoning_options": [
+          {
+            "type": "toggle"
+          },
+          {
+            "max": 262144,
+            "type": "budget_tokens"
+          }
+        ],
         "release_date": "2026-05-21",
         "temperature": true,
         "tool_call": true
@@ -12993,6 +13076,15 @@
         "name": "Qwen3.7 Plus",
         "open_weights": false,
         "reasoning": true,
+        "reasoning_options": [
+          {
+            "type": "toggle"
+          },
+          {
+            "max": 262144,
+            "type": "budget_tokens"
+          }
+        ],
         "release_date": "2026-06-02",
         "temperature": true,
         "tool_call": true
@@ -13280,7 +13372,7 @@
           "output": 0
         },
         "description": "Kimi K2.5 は alibaba-token-plan-cn によって提供される AI モデルです。",
-        "family": "kimi",
+        "family": "kimi-k2",
         "id": "kimi-k2.5",
         "interleaved": {
           "field": "reasoning_content"
@@ -13317,7 +13409,7 @@
           "output": 0
         },
         "description": "Kimi K2.6 は alibaba-token-plan-cn によって提供される AI モデルです。",
-        "family": "kimi",
+        "family": "kimi-k2",
         "id": "kimi-k2.6",
         "interleaved": {
           "field": "reasoning_content"
@@ -18923,7 +19015,7 @@
           "output": 4
         },
         "description": "Kimi K2.6 は ambient によって提供される AI モデルです。",
-        "family": "kimi-k2.6",
+        "family": "kimi-k2",
         "id": "moonshotai/kimi-k2.6",
         "interleaved": {
           "field": "reasoning_content"
@@ -20414,7 +20506,7 @@
         "family": "gemini-flash",
         "id": "google/gemini-2.5-flash",
         "knowledge": "2025-01",
-        "last_updated": "2025-06-05",
+        "last_updated": "2025-06-17",
         "limit": {
           "context": 1048576,
           "output": 65536
@@ -20434,7 +20526,7 @@
         "name": "Gemini 2.5 Flash",
         "open_weights": false,
         "reasoning": true,
-        "release_date": "2025-03-20",
+        "release_date": "2025-06-17",
         "structured_output": true,
         "temperature": true,
         "tool_call": true
@@ -20476,7 +20568,7 @@
         "family": "gemini-pro",
         "id": "google/gemini-2.5-pro",
         "knowledge": "2025-01",
-        "last_updated": "2025-06-05",
+        "last_updated": "2025-06-17",
         "limit": {
           "context": 1048576,
           "output": 65536
@@ -20496,7 +20588,7 @@
         "name": "Gemini 2.5 Pro",
         "open_weights": false,
         "reasoning": true,
-        "release_date": "2025-03-20",
+        "release_date": "2025-06-17",
         "structured_output": true,
         "temperature": true,
         "tool_call": true
@@ -21379,7 +21471,7 @@
         "family": "gemini-flash",
         "id": "gemini-2.5-flash",
         "knowledge": "2025-01",
-        "last_updated": "2025-06-05",
+        "last_updated": "2025-06-17",
         "limit": {
           "context": 1048576,
           "output": 65536
@@ -21399,7 +21491,7 @@
         "name": "Gemini 2.5 Flash",
         "open_weights": false,
         "reasoning": true,
-        "release_date": "2025-03-20",
+        "release_date": "2025-06-17",
         "structured_output": true,
         "temperature": true,
         "tool_call": true
@@ -21431,7 +21523,7 @@
         "family": "gemini-pro",
         "id": "gemini-2.5-pro",
         "knowledge": "2025-01",
-        "last_updated": "2025-06-05",
+        "last_updated": "2025-06-17",
         "limit": {
           "context": 1048576,
           "output": 65536
@@ -21451,7 +21543,7 @@
         "name": "Gemini 2.5 Pro",
         "open_weights": false,
         "reasoning": true,
-        "release_date": "2025-03-20",
+        "release_date": "2025-06-17",
         "structured_output": true,
         "temperature": true,
         "tool_call": true
@@ -21598,7 +21690,7 @@
           "output": 2.8
         },
         "description": "Kimi K2.5 は auriko によって提供される AI モデルです。",
-        "family": "kimi-k2.5",
+        "family": "kimi-k2",
         "id": "kimi-k2.5",
         "interleaved": {
           "field": "reasoning_content"
@@ -21635,7 +21727,7 @@
           "output": 4
         },
         "description": "Kimi K2.6 は auriko によって提供される AI モデルです。",
-        "family": "kimi-k2.6",
+        "family": "kimi-k2",
         "id": "kimi-k2.6",
         "interleaved": {
           "field": "reasoning_content"
@@ -24254,7 +24346,7 @@
           "output": 3
         },
         "description": "Kimi K2.5 は azure によって提供される AI モデルです。",
-        "family": "kimi",
+        "family": "kimi-k2",
         "id": "kimi-k2.5",
         "interleaved": true,
         "knowledge": "2025-01",
@@ -24297,7 +24389,7 @@
           "output": 4
         },
         "description": "Kimi K2.6 は azure によって提供される AI モデルです。",
-        "family": "kimi",
+        "family": "kimi-k2",
         "id": "kimi-k2.6",
         "interleaved": true,
         "knowledge": "2025-01",
@@ -27614,7 +27706,7 @@
           "output": 3
         },
         "description": "Kimi K2.5 は azure-cognitive-services によって提供される AI モデルです。",
-        "family": "kimi",
+        "family": "kimi-k2",
         "id": "kimi-k2.5",
         "interleaved": true,
         "knowledge": "2025-01",
@@ -27657,7 +27749,7 @@
           "output": 4
         },
         "description": "Kimi K2.6 は azure-cognitive-services によって提供される AI モデルです。",
-        "family": "kimi",
+        "family": "kimi-k2",
         "id": "kimi-k2.6",
         "interleaved": true,
         "knowledge": "2025-01",
@@ -29094,7 +29186,7 @@
           "output": 3
         },
         "description": "Kimi K2.5 は baseten によって提供される AI モデルです。",
-        "family": "kimi",
+        "family": "kimi-k2",
         "id": "moonshotai/Kimi-K2.5",
         "interleaved": {
           "field": "reasoning_content"
@@ -29135,7 +29227,7 @@
           "output": 4
         },
         "description": "Kimi K2.6 は baseten によって提供される AI モデルです。",
-        "family": "kimi-k2.6",
+        "family": "kimi-k2",
         "id": "moonshotai/Kimi-K2.6",
         "interleaved": {
           "field": "reasoning_content"
@@ -29556,7 +29648,7 @@
           "output": 3.85
         },
         "description": "Kimi K2.6 は berget によって提供される AI モデルです。",
-        "family": "kimi-k2.6",
+        "family": "kimi-k2",
         "id": "moonshotai/Kimi-K2.6",
         "interleaved": {
           "field": "reasoning_content"
@@ -30478,7 +30570,7 @@
           "output": 2
         },
         "description": "Kimi K2.5 TEE は chutes によって提供される AI モデルです。",
-        "family": "kimi-k2.5",
+        "family": "kimi-k2",
         "id": "moonshotai/Kimi-K2.5-TEE",
         "interleaved": {
           "field": "reasoning_content"
@@ -30515,7 +30607,7 @@
           "output": 4
         },
         "description": "Kimi K2.6 TEE は chutes によって提供される AI モデルです。",
-        "family": "kimi-k2.6",
+        "family": "kimi-k2",
         "id": "moonshotai/Kimi-K2.6-TEE",
         "interleaved": {
           "field": "reasoning_content"
@@ -31235,7 +31327,7 @@
           "output": 4
         },
         "description": "Kimi K2.6 は clarifai によって提供される AI モデルです。",
-        "family": "kimi-k2.6",
+        "family": "kimi-k2",
         "id": "moonshotai/chat-completion/models/Kimi-K2_6",
         "interleaved": {
           "field": "reasoning_content"
@@ -33751,7 +33843,7 @@
           "output": 3
         },
         "description": "Kimi K2.5 は cloudflare-ai-gateway によって提供される AI モデルです。",
-        "family": "kimi",
+        "family": "kimi-k2",
         "id": "workers-ai/@cf/moonshotai/kimi-k2.5",
         "interleaved": {
           "field": "reasoning_content"
@@ -33787,7 +33879,7 @@
           "output": 4
         },
         "description": "Kimi K2.6 は cloudflare-ai-gateway によって提供される AI モデルです。",
-        "family": "kimi",
+        "family": "kimi-k2",
         "id": "workers-ai/@cf/moonshotai/kimi-k2.6",
         "interleaved": {
           "field": "reasoning_content"
@@ -34540,7 +34632,7 @@
           "output": 4
         },
         "description": "Kimi K2.6 は cloudflare-workers-ai によって提供される AI モデルです。",
-        "family": "kimi-k2.6",
+        "family": "kimi-k2",
         "id": "@cf/moonshotai/kimi-k2.6",
         "interleaved": {
           "field": "reasoning_content"
@@ -34577,6 +34669,39 @@
           }
         ],
         "release_date": "2026-04-21",
+        "structured_output": true,
+        "temperature": true,
+        "tool_call": true
+      },
+      "@cf/moonshotai/kimi-k2.7-code": {
+        "attachment": true,
+        "cost": {
+          "cache_read": 0.19,
+          "input": 0.95,
+          "output": 4
+        },
+        "description": "Kimi K2.7 Code は cloudflare-workers-ai によって提供される AI モデルです。",
+        "family": "kimi-k2",
+        "id": "@cf/moonshotai/kimi-k2.7-code",
+        "knowledge": "2025-01",
+        "last_updated": "2026-06-12",
+        "limit": {
+          "context": 262144,
+          "output": 262144
+        },
+        "modalities": {
+          "input": [
+            "text",
+            "image"
+          ],
+          "output": [
+            "text"
+          ]
+        },
+        "name": "Kimi K2.7 Code",
+        "open_weights": true,
+        "reasoning": true,
+        "release_date": "2026-06-12",
         "structured_output": true,
         "temperature": true,
         "tool_call": true
@@ -36210,7 +36335,7 @@
           "output": 2.646
         },
         "description": "Kimi K2 Instruct は cortecs によって提供される AI モデルです。",
-        "family": "kimi",
+        "family": "kimi-k2",
         "id": "kimi-k2-instruct",
         "knowledge": "2024-07",
         "last_updated": "2025-09-05",
@@ -36988,6 +37113,17 @@
           "npm": "@ai-sdk/openai-compatible"
         },
         "reasoning": true,
+        "reasoning_options": [
+          {
+            "type": "effort",
+            "values": [
+              "none",
+              "low",
+              "medium",
+              "high"
+            ]
+          }
+        ],
         "release_date": "2026-04-24",
         "structured_output": true,
         "temperature": true,
@@ -37026,6 +37162,17 @@
           "npm": "@ai-sdk/openai-compatible"
         },
         "reasoning": true,
+        "reasoning_options": [
+          {
+            "type": "effort",
+            "values": [
+              "none",
+              "low",
+              "medium",
+              "high"
+            ]
+          }
+        ],
         "release_date": "2026-04-24",
         "structured_output": true,
         "temperature": true,
@@ -37064,6 +37211,17 @@
           "npm": "@ai-sdk/openai-compatible"
         },
         "reasoning": true,
+        "reasoning_options": [
+          {
+            "type": "effort",
+            "values": [
+              "none",
+              "low",
+              "medium",
+              "high"
+            ]
+          }
+        ],
         "release_date": "2026-04-24",
         "structured_output": true,
         "temperature": true,
@@ -37099,6 +37257,17 @@
           "npm": "@ai-sdk/openai-compatible"
         },
         "reasoning": true,
+        "reasoning_options": [
+          {
+            "type": "effort",
+            "values": [
+              "none",
+              "low",
+              "medium",
+              "high"
+            ]
+          }
+        ],
         "release_date": "2026-04-02",
         "structured_output": true,
         "temperature": true,
@@ -37138,6 +37307,7 @@
           "npm": "@ai-sdk/openai-compatible"
         },
         "reasoning": true,
+        "reasoning_options": [],
         "release_date": "2025-12-22",
         "temperature": true,
         "tool_call": true
@@ -37173,6 +37343,7 @@
           "npm": "@ai-sdk/openai-compatible"
         },
         "reasoning": true,
+        "reasoning_options": [],
         "release_date": "2026-01-19",
         "temperature": true,
         "tool_call": true
@@ -37210,6 +37381,7 @@
           "npm": "@ai-sdk/openai-compatible"
         },
         "reasoning": true,
+        "reasoning_options": [],
         "release_date": "2026-02-11",
         "temperature": true,
         "tool_call": true
@@ -37247,6 +37419,17 @@
           "npm": "@ai-sdk/openai-compatible"
         },
         "reasoning": true,
+        "reasoning_options": [
+          {
+            "type": "effort",
+            "values": [
+              "none",
+              "low",
+              "medium",
+              "high"
+            ]
+          }
+        ],
         "release_date": "2026-03-27",
         "structured_output": true,
         "temperature": true,
@@ -37376,7 +37559,7 @@
           "output": 1.7
         },
         "description": "Kimi K2.5 は crof によって提供される AI モデルです。",
-        "family": "kimi-k2.5",
+        "family": "kimi-k2",
         "id": "kimi-k2.5",
         "interleaved": {
           "field": "reasoning_content"
@@ -37403,6 +37586,17 @@
           "npm": "@ai-sdk/openai-compatible"
         },
         "reasoning": true,
+        "reasoning_options": [
+          {
+            "type": "effort",
+            "values": [
+              "none",
+              "low",
+              "medium",
+              "high"
+            ]
+          }
+        ],
         "release_date": "2026-01",
         "structured_output": true,
         "temperature": false,
@@ -37416,7 +37610,7 @@
           "output": 3
         },
         "description": "Kimi K2.5 (Lightning) は crof によって提供される AI モデルです。",
-        "family": "kimi-k2.5",
+        "family": "kimi-k2",
         "id": "kimi-k2.5-lightning",
         "interleaved": {
           "field": "reasoning_content"
@@ -37439,6 +37633,17 @@
         "name": "Kimi K2.5 (Lightning)",
         "open_weights": true,
         "reasoning": true,
+        "reasoning_options": [
+          {
+            "type": "effort",
+            "values": [
+              "none",
+              "low",
+              "medium",
+              "high"
+            ]
+          }
+        ],
         "release_date": "2026-02-06",
         "structured_output": true,
         "temperature": false,
@@ -37452,7 +37657,7 @@
           "output": 1.99
         },
         "description": "Kimi K2.6 は crof によって提供される AI モデルです。",
-        "family": "kimi-k2.6",
+        "family": "kimi-k2",
         "id": "kimi-k2.6",
         "interleaved": {
           "field": "reasoning_content"
@@ -37479,6 +37684,17 @@
           "npm": "@ai-sdk/openai-compatible"
         },
         "reasoning": true,
+        "reasoning_options": [
+          {
+            "type": "effort",
+            "values": [
+              "none",
+              "low",
+              "medium",
+              "high"
+            ]
+          }
+        ],
         "release_date": "2026-04-21",
         "structured_output": true,
         "temperature": true,
@@ -37533,6 +37749,17 @@
           "npm": "@ai-sdk/openai-compatible"
         },
         "reasoning": true,
+        "reasoning_options": [
+          {
+            "type": "effort",
+            "values": [
+              "none",
+              "low",
+              "medium",
+              "high"
+            ]
+          }
+        ],
         "release_date": "2026-04-22",
         "temperature": true,
         "tool_call": true
@@ -37567,6 +37794,7 @@
           "npm": "@ai-sdk/openai-compatible"
         },
         "reasoning": false,
+        "reasoning_options": [],
         "release_date": "2026-02-12",
         "temperature": true,
         "tool_call": true
@@ -37603,6 +37831,17 @@
           "npm": "@ai-sdk/openai-compatible"
         },
         "reasoning": true,
+        "reasoning_options": [
+          {
+            "type": "effort",
+            "values": [
+              "none",
+              "low",
+              "medium",
+              "high"
+            ]
+          }
+        ],
         "release_date": "2026-02-15",
         "structured_output": true,
         "temperature": true,
@@ -37640,6 +37879,17 @@
         "name": "Qwen3.5 9B",
         "open_weights": true,
         "reasoning": true,
+        "reasoning_options": [
+          {
+            "type": "effort",
+            "values": [
+              "none",
+              "low",
+              "medium",
+              "high"
+            ]
+          }
+        ],
         "release_date": "2026-03-13",
         "structured_output": true,
         "temperature": true,
@@ -37677,6 +37927,17 @@
           "npm": "@ai-sdk/openai-compatible"
         },
         "reasoning": true,
+        "reasoning_options": [
+          {
+            "type": "effort",
+            "values": [
+              "none",
+              "low",
+              "medium",
+              "high"
+            ]
+          }
+        ],
         "release_date": "2026-04-22",
         "structured_output": true,
         "temperature": true,
@@ -38020,7 +38281,7 @@
         "family": "gemini-flash",
         "id": "databricks-gemini-2-5-flash",
         "knowledge": "2025-01",
-        "last_updated": "2025-06-05",
+        "last_updated": "2025-06-17",
         "limit": {
           "context": 1048576,
           "output": 65536
@@ -38040,7 +38301,7 @@
         "name": "Gemini 2.5 Flash",
         "open_weights": false,
         "reasoning": true,
-        "release_date": "2025-03-20",
+        "release_date": "2025-06-17",
         "structured_output": true,
         "temperature": true,
         "tool_call": true
@@ -38072,7 +38333,7 @@
         "family": "gemini-pro",
         "id": "databricks-gemini-2-5-pro",
         "knowledge": "2025-01",
-        "last_updated": "2025-06-05",
+        "last_updated": "2025-06-17",
         "limit": {
           "context": 1048576,
           "output": 65536
@@ -38092,7 +38353,7 @@
         "name": "Gemini 2.5 Pro",
         "open_weights": false,
         "reasoning": true,
-        "release_date": "2025-03-20",
+        "release_date": "2025-06-17",
         "structured_output": true,
         "temperature": true,
         "tool_call": true
@@ -39351,7 +39612,7 @@
           "output": 2.25
         },
         "description": "Kimi K2.5 は deepinfra によって提供される AI モデルです。",
-        "family": "kimi",
+        "family": "kimi-k2",
         "id": "moonshotai/Kimi-K2.5",
         "interleaved": {
           "field": "reasoning_content"
@@ -39393,7 +39654,7 @@
           "output": 3.5
         },
         "description": "Kimi K2.6 は deepinfra によって提供される AI モデルです。",
-        "family": "kimi",
+        "family": "kimi-k2",
         "id": "moonshotai/Kimi-K2.6",
         "interleaved": {
           "field": "reasoning_content"
@@ -41009,7 +41270,7 @@
           "output": 2.7
         },
         "description": "Kimi K2.5 は digitalocean によって提供される AI モデルです。",
-        "family": "kimi",
+        "family": "kimi-k2",
         "id": "kimi-k2.5",
         "interleaved": {
           "field": "reasoning_content"
@@ -41043,7 +41304,7 @@
           "output": 4
         },
         "description": "Kimi K2.6 は digitalocean によって提供される AI モデルです。",
-        "family": "kimi",
+        "family": "kimi-k2",
         "id": "kimi-k2.6",
         "interleaved": {
           "field": "reasoning_content"
@@ -43077,7 +43338,7 @@
           "output": 5.9
         },
         "description": "Kimi K2.5 は evroc によって提供される AI モデルです。",
-        "family": "kimi",
+        "family": "kimi-k2",
         "id": "moonshotai/Kimi-K2.5",
         "interleaved": {
           "field": "reasoning_content"
@@ -43282,6 +43543,13 @@
         "name": "Claude Opus 4.1",
         "open_weights": false,
         "reasoning": true,
+        "reasoning_options": [
+          {
+            "max": 32000,
+            "min": 1024,
+            "type": "budget_tokens"
+          }
+        ],
         "release_date": "2025-08-05",
         "temperature": true,
         "tool_call": true
@@ -43313,6 +43581,13 @@
         "name": "Claude Opus 4.8",
         "open_weights": false,
         "reasoning": true,
+        "reasoning_options": [
+          {
+            "max": 32000,
+            "min": 1024,
+            "type": "budget_tokens"
+          }
+        ],
         "release_date": "2026-05-28",
         "temperature": false,
         "tool_call": true
@@ -43347,6 +43622,13 @@
         "name": "Claude Sonnet 4",
         "open_weights": false,
         "reasoning": true,
+        "reasoning_options": [
+          {
+            "max": 32000,
+            "min": 1024,
+            "type": "budget_tokens"
+          }
+        ],
         "release_date": "2025-05-22",
         "temperature": true,
         "tool_call": true
@@ -43379,6 +43661,13 @@
         "name": "Claude Sonnet 4.6",
         "open_weights": false,
         "reasoning": true,
+        "reasoning_options": [
+          {
+            "max": 32000,
+            "min": 1024,
+            "type": "budget_tokens"
+          }
+        ],
         "release_date": "2026-02-17",
         "temperature": true,
         "tool_call": true
@@ -43435,6 +43724,7 @@
         "name": "DeepSeek R1 Distill Llama 70B",
         "open_weights": true,
         "reasoning": true,
+        "reasoning_options": [],
         "release_date": "2025-01-23",
         "temperature": true,
         "tool_call": false
@@ -43465,6 +43755,11 @@
         "name": "DeepSeek V4 Pro",
         "open_weights": true,
         "reasoning": true,
+        "reasoning_options": [
+          {
+            "type": "toggle"
+          }
+        ],
         "release_date": "2026-04-24",
         "structured_output": true,
         "temperature": true,
@@ -43499,6 +43794,16 @@
         "name": "Gemini 2.5 Flash",
         "open_weights": false,
         "reasoning": true,
+        "reasoning_options": [
+          {
+            "type": "toggle"
+          },
+          {
+            "max": 24576,
+            "min": 0,
+            "type": "budget_tokens"
+          }
+        ],
         "release_date": "2025-06-17",
         "temperature": true,
         "tool_call": true
@@ -43532,6 +43837,13 @@
         "name": "Gemini 2.5 Pro",
         "open_weights": false,
         "reasoning": true,
+        "reasoning_options": [
+          {
+            "max": 32768,
+            "min": 128,
+            "type": "budget_tokens"
+          }
+        ],
         "release_date": "2025-06-17",
         "temperature": true,
         "tool_call": true
@@ -43564,6 +43876,7 @@
         "name": "Nano Banana Pro",
         "open_weights": false,
         "reasoning": true,
+        "reasoning_options": [],
         "release_date": "2025-11-20",
         "temperature": true,
         "tool_call": false
@@ -43597,6 +43910,16 @@
         "name": "Nano Banana 2",
         "open_weights": false,
         "reasoning": true,
+        "reasoning_options": [
+          {
+            "type": "effort",
+            "values": [
+              "low",
+              "medium",
+              "high"
+            ]
+          }
+        ],
         "release_date": "2026-02-26",
         "temperature": true,
         "tool_call": false
@@ -43631,6 +43954,16 @@
         "name": "Gemini 3.1 Pro Preview",
         "open_weights": false,
         "reasoning": true,
+        "reasoning_options": [
+          {
+            "type": "effort",
+            "values": [
+              "low",
+              "medium",
+              "high"
+            ]
+          }
+        ],
         "release_date": "2026-02-19",
         "structured_output": true,
         "temperature": true,
@@ -43666,6 +43999,16 @@
         "name": "Gemini 3.5 Flash",
         "open_weights": false,
         "reasoning": true,
+        "reasoning_options": [
+          {
+            "type": "effort",
+            "values": [
+              "low",
+              "medium",
+              "high"
+            ]
+          }
+        ],
         "release_date": "2026-05-19",
         "structured_output": true,
         "temperature": true,
@@ -43697,6 +44040,7 @@
         "name": "Gemma 4 31B IT",
         "open_weights": true,
         "reasoning": true,
+        "reasoning_options": [],
         "release_date": "2026-04-02",
         "structured_output": true,
         "temperature": true,
@@ -43907,6 +44251,7 @@
         "name": "MiniMax-M2.7",
         "open_weights": true,
         "reasoning": true,
+        "reasoning_options": [],
         "release_date": "2026-03-18",
         "temperature": true,
         "tool_call": true
@@ -43936,6 +44281,7 @@
         "name": "MiniMax-M2.7-highspeed",
         "open_weights": true,
         "reasoning": true,
+        "reasoning_options": [],
         "release_date": "2026-03-18",
         "temperature": true,
         "tool_call": true
@@ -43947,7 +44293,7 @@
           "output": 2.2
         },
         "description": "Kimi K2 は fastrouter によって提供される AI モデルです。",
-        "family": "kimi",
+        "family": "kimi-k2",
         "id": "moonshotai/kimi-k2",
         "knowledge": "2024-10",
         "last_updated": "2025-07-11",
@@ -43977,7 +44323,7 @@
           "output": 3.5
         },
         "description": "Kimi K2.6 は fastrouter によって提供される AI モデルです。",
-        "family": "kimi-k2.6",
+        "family": "kimi-k2",
         "id": "moonshotai/kimi-k2.6",
         "knowledge": "2025-01",
         "last_updated": "2026-04-21",
@@ -43998,6 +44344,11 @@
         "name": "Kimi K2.6",
         "open_weights": true,
         "reasoning": true,
+        "reasoning_options": [
+          {
+            "type": "toggle"
+          }
+        ],
         "release_date": "2026-04-21",
         "structured_output": true,
         "temperature": true,
@@ -44063,6 +44414,7 @@
         "name": "GPT-5",
         "open_weights": false,
         "reasoning": true,
+        "reasoning_options": [],
         "release_date": "2025-08-07",
         "temperature": true,
         "tool_call": true
@@ -44095,6 +44447,16 @@
         "name": "GPT-5 Mini",
         "open_weights": false,
         "reasoning": true,
+        "reasoning_options": [
+          {
+            "type": "effort",
+            "values": [
+              "low",
+              "medium",
+              "high"
+            ]
+          }
+        ],
         "release_date": "2025-08-07",
         "temperature": true,
         "tool_call": true
@@ -44127,6 +44489,16 @@
         "name": "GPT-5 Nano",
         "open_weights": false,
         "reasoning": true,
+        "reasoning_options": [
+          {
+            "type": "effort",
+            "values": [
+              "low",
+              "medium",
+              "high"
+            ]
+          }
+        ],
         "release_date": "2025-08-07",
         "temperature": true,
         "tool_call": true
@@ -44160,6 +44532,16 @@
         "name": "GPT-5.3 Codex",
         "open_weights": false,
         "reasoning": true,
+        "reasoning_options": [
+          {
+            "type": "effort",
+            "values": [
+              "low",
+              "medium",
+              "high"
+            ]
+          }
+        ],
         "release_date": "2026-02-05",
         "structured_output": true,
         "temperature": false,
@@ -44193,6 +44575,16 @@
         "name": "GPT-5.4 mini",
         "open_weights": false,
         "reasoning": true,
+        "reasoning_options": [
+          {
+            "type": "effort",
+            "values": [
+              "low",
+              "medium",
+              "high"
+            ]
+          }
+        ],
         "release_date": "2026-03-17",
         "structured_output": true,
         "temperature": false,
@@ -44226,6 +44618,16 @@
         "name": "GPT-5.4 nano",
         "open_weights": false,
         "reasoning": true,
+        "reasoning_options": [
+          {
+            "type": "effort",
+            "values": [
+              "low",
+              "medium",
+              "high"
+            ]
+          }
+        ],
         "release_date": "2026-03-17",
         "structured_output": true,
         "temperature": false,
@@ -44260,6 +44662,16 @@
         "name": "GPT-5.5",
         "open_weights": false,
         "reasoning": true,
+        "reasoning_options": [
+          {
+            "type": "effort",
+            "values": [
+              "low",
+              "medium",
+              "high"
+            ]
+          }
+        ],
         "release_date": "2026-04-23",
         "structured_output": true,
         "temperature": false,
@@ -44294,6 +44706,16 @@
         "name": "GPT-5.5 Pro",
         "open_weights": false,
         "reasoning": true,
+        "reasoning_options": [
+          {
+            "type": "effort",
+            "values": [
+              "low",
+              "medium",
+              "high"
+            ]
+          }
+        ],
         "release_date": "2026-04-23",
         "structured_output": true,
         "temperature": false,
@@ -44350,6 +44772,16 @@
         "name": "GPT OSS 120B",
         "open_weights": true,
         "reasoning": true,
+        "reasoning_options": [
+          {
+            "type": "effort",
+            "values": [
+              "low",
+              "medium",
+              "high"
+            ]
+          }
+        ],
         "release_date": "2025-08-05",
         "temperature": true,
         "tool_call": true
@@ -44379,6 +44811,16 @@
         "name": "GPT OSS 20B",
         "open_weights": true,
         "reasoning": true,
+        "reasoning_options": [
+          {
+            "type": "effort",
+            "values": [
+              "low",
+              "medium",
+              "high"
+            ]
+          }
+        ],
         "release_date": "2025-08-05",
         "temperature": true,
         "tool_call": true
@@ -44470,6 +44912,7 @@
         "name": "Sarvam 105B",
         "open_weights": true,
         "reasoning": true,
+        "reasoning_options": [],
         "release_date": "2025-09-01",
         "temperature": true,
         "tool_call": true
@@ -44499,6 +44942,7 @@
         "name": "Sarvam 30B",
         "open_weights": true,
         "reasoning": true,
+        "reasoning_options": [],
         "release_date": "2026-02-18",
         "temperature": true,
         "tool_call": true
@@ -44556,6 +45000,7 @@
         "name": "Grok 4",
         "open_weights": false,
         "reasoning": true,
+        "reasoning_options": [],
         "release_date": "2025-07-09",
         "temperature": true,
         "tool_call": true
@@ -44587,6 +45032,16 @@
         "name": "Grok 4.3",
         "open_weights": false,
         "reasoning": true,
+        "reasoning_options": [
+          {
+            "type": "effort",
+            "values": [
+              "low",
+              "medium",
+              "high"
+            ]
+          }
+        ],
         "release_date": "2026-04-17",
         "structured_output": true,
         "temperature": true,
@@ -44619,6 +45074,16 @@
         "name": "Grok Build 0.1",
         "open_weights": false,
         "reasoning": true,
+        "reasoning_options": [
+          {
+            "type": "effort",
+            "values": [
+              "low",
+              "medium",
+              "high"
+            ]
+          }
+        ],
         "release_date": "2026-04-16",
         "structured_output": true,
         "temperature": true,
@@ -44652,6 +45117,11 @@
         "name": "GLM-5",
         "open_weights": true,
         "reasoning": true,
+        "reasoning_options": [
+          {
+            "type": "toggle"
+          }
+        ],
         "release_date": "2026-02-11",
         "temperature": true,
         "tool_call": true
@@ -44681,6 +45151,11 @@
         "name": "GLM-5.1",
         "open_weights": true,
         "reasoning": true,
+        "reasoning_options": [
+          {
+            "type": "toggle"
+          }
+        ],
         "release_date": "2026-03-27",
         "structured_output": true,
         "temperature": true,
@@ -45383,6 +45858,12 @@
         "name": "Claude Haiku 4.5",
         "open_weights": false,
         "reasoning": true,
+        "reasoning_options": [
+          {
+            "min": 1024,
+            "type": "budget_tokens"
+          }
+        ],
         "release_date": "2025-10-15",
         "temperature": true,
         "tool_call": true
@@ -45417,6 +45898,21 @@
         "name": "Claude Opus 4.6",
         "open_weights": false,
         "reasoning": true,
+        "reasoning_options": [
+          {
+            "type": "effort",
+            "values": [
+              "low",
+              "medium",
+              "high",
+              "max"
+            ]
+          },
+          {
+            "min": 1024,
+            "type": "budget_tokens"
+          }
+        ],
         "release_date": "2026-02-05",
         "temperature": true,
         "tool_call": true
@@ -45451,6 +45947,18 @@
         "name": "Claude Opus 4.7",
         "open_weights": false,
         "reasoning": true,
+        "reasoning_options": [
+          {
+            "type": "effort",
+            "values": [
+              "low",
+              "medium",
+              "high",
+              "xhigh",
+              "max"
+            ]
+          }
+        ],
         "release_date": "2026-04-16",
         "temperature": false,
         "tool_call": true
@@ -45484,6 +45992,18 @@
         "name": "Claude Opus 4.8",
         "open_weights": false,
         "reasoning": true,
+        "reasoning_options": [
+          {
+            "type": "effort",
+            "values": [
+              "low",
+              "medium",
+              "high",
+              "xhigh",
+              "max"
+            ]
+          }
+        ],
         "release_date": "2026-05-28",
         "temperature": false,
         "tool_call": true
@@ -45518,6 +46038,21 @@
         "name": "Claude Sonnet 4.6",
         "open_weights": false,
         "reasoning": true,
+        "reasoning_options": [
+          {
+            "type": "effort",
+            "values": [
+              "low",
+              "medium",
+              "high",
+              "max"
+            ]
+          },
+          {
+            "min": 1024,
+            "type": "budget_tokens"
+          }
+        ],
         "release_date": "2026-02-17",
         "temperature": true,
         "tool_call": true
@@ -45557,6 +46092,18 @@
           "npm": "@ai-sdk/openai-compatible"
         },
         "reasoning": true,
+        "reasoning_options": [
+          {
+            "type": "effort",
+            "values": [
+              "none",
+              "low",
+              "medium",
+              "high",
+              "xhigh"
+            ]
+          }
+        ],
         "release_date": "2026-02-05",
         "structured_output": true,
         "temperature": false,
@@ -45597,6 +46144,18 @@
           "npm": "@ai-sdk/openai-compatible"
         },
         "reasoning": true,
+        "reasoning_options": [
+          {
+            "type": "effort",
+            "values": [
+              "none",
+              "low",
+              "medium",
+              "high",
+              "xhigh"
+            ]
+          }
+        ],
         "release_date": "2026-03-05",
         "structured_output": true,
         "temperature": false,
@@ -45636,6 +46195,18 @@
           "npm": "@ai-sdk/openai-compatible"
         },
         "reasoning": true,
+        "reasoning_options": [
+          {
+            "type": "effort",
+            "values": [
+              "none",
+              "low",
+              "medium",
+              "high",
+              "xhigh"
+            ]
+          }
+        ],
         "release_date": "2026-03-17",
         "structured_output": true,
         "temperature": false,
@@ -45676,6 +46247,18 @@
           "npm": "@ai-sdk/openai-compatible"
         },
         "reasoning": true,
+        "reasoning_options": [
+          {
+            "type": "effort",
+            "values": [
+              "none",
+              "low",
+              "medium",
+              "high",
+              "xhigh"
+            ]
+          }
+        ],
         "release_date": "2026-04-23",
         "structured_output": true,
         "temperature": false,
@@ -47164,7 +47747,7 @@
         "family": "gemini-pro",
         "id": "gemini-2.5-pro",
         "knowledge": "2025-01",
-        "last_updated": "2025-06-05",
+        "last_updated": "2025-06-17",
         "limit": {
           "context": 128000,
           "input": 128000,
@@ -47185,7 +47768,7 @@
         "name": "Gemini 2.5 Pro",
         "open_weights": false,
         "reasoning": true,
-        "release_date": "2025-03-20",
+        "release_date": "2025-06-17",
         "structured_output": true,
         "temperature": true,
         "tool_call": true
@@ -49423,6 +50006,7 @@
         "name": "Agentic Chat (Claude Fable 5)",
         "open_weights": false,
         "reasoning": true,
+        "reasoning_options": [],
         "release_date": "2026-06-09",
         "temperature": false,
         "tool_call": true
@@ -49455,6 +50039,7 @@
         "name": "Agentic Chat (GPT-5.1)",
         "open_weights": false,
         "reasoning": true,
+        "reasoning_options": [],
         "release_date": "2026-01-22",
         "structured_output": true,
         "temperature": false,
@@ -49488,6 +50073,7 @@
         "name": "Agentic Chat (GPT-5.2)",
         "open_weights": false,
         "reasoning": true,
+        "reasoning_options": [],
         "release_date": "2026-01-23",
         "structured_output": true,
         "temperature": false,
@@ -49522,6 +50108,7 @@
         "name": "Agentic Chat (GPT-5.2 Codex)",
         "open_weights": false,
         "reasoning": true,
+        "reasoning_options": [],
         "release_date": "2026-01-22",
         "structured_output": true,
         "temperature": false,
@@ -49556,6 +50143,7 @@
         "name": "Agentic Chat (GPT-5.3 Codex)",
         "open_weights": false,
         "reasoning": true,
+        "reasoning_options": [],
         "release_date": "2026-02-05",
         "structured_output": true,
         "temperature": false,
@@ -49590,6 +50178,7 @@
         "name": "Agentic Chat (GPT-5.4)",
         "open_weights": false,
         "reasoning": true,
+        "reasoning_options": [],
         "release_date": "2026-03-05",
         "structured_output": true,
         "temperature": false,
@@ -49623,6 +50212,7 @@
         "name": "Agentic Chat (GPT-5.4 Mini)",
         "open_weights": false,
         "reasoning": true,
+        "reasoning_options": [],
         "release_date": "2026-03-17",
         "structured_output": true,
         "temperature": false,
@@ -49656,6 +50246,7 @@
         "name": "Agentic Chat (GPT-5.4 Nano)",
         "open_weights": false,
         "reasoning": true,
+        "reasoning_options": [],
         "release_date": "2026-03-17",
         "structured_output": true,
         "temperature": false,
@@ -49690,6 +50281,7 @@
         "name": "Agentic Chat (GPT-5.5)",
         "open_weights": false,
         "reasoning": true,
+        "reasoning_options": [],
         "release_date": "2026-04-23",
         "structured_output": true,
         "temperature": false,
@@ -49723,6 +50315,7 @@
         "name": "Agentic Chat (GPT-5 Codex)",
         "open_weights": false,
         "reasoning": true,
+        "reasoning_options": [],
         "release_date": "2026-01-22",
         "structured_output": true,
         "temperature": false,
@@ -49756,6 +50349,7 @@
         "name": "Agentic Chat (GPT-5 Mini)",
         "open_weights": false,
         "reasoning": true,
+        "reasoning_options": [],
         "release_date": "2026-01-22",
         "structured_output": true,
         "temperature": false,
@@ -49791,6 +50385,7 @@
         "name": "Agentic Chat (Claude Haiku 4.5)",
         "open_weights": false,
         "reasoning": true,
+        "reasoning_options": [],
         "release_date": "2026-01-08",
         "temperature": true,
         "tool_call": true
@@ -49825,6 +50420,7 @@
         "name": "Agentic Chat (Claude Opus 4.5)",
         "open_weights": false,
         "reasoning": true,
+        "reasoning_options": [],
         "release_date": "2026-01-08",
         "temperature": true,
         "tool_call": true
@@ -49859,6 +50455,7 @@
         "name": "Agentic Chat (Claude Opus 4.6)",
         "open_weights": false,
         "reasoning": true,
+        "reasoning_options": [],
         "release_date": "2026-02-05",
         "temperature": true,
         "tool_call": true
@@ -49893,6 +50490,7 @@
         "name": "Agentic Chat (Claude Opus 4.7)",
         "open_weights": false,
         "reasoning": true,
+        "reasoning_options": [],
         "release_date": "2026-04-16",
         "temperature": false,
         "tool_call": true
@@ -49927,6 +50525,7 @@
         "name": "Agentic Chat (Claude Opus 4.8)",
         "open_weights": false,
         "reasoning": true,
+        "reasoning_options": [],
         "release_date": "2026-05-28",
         "temperature": false,
         "tool_call": true
@@ -49961,6 +50560,7 @@
         "name": "Agentic Chat (Claude Sonnet 4.5)",
         "open_weights": false,
         "reasoning": true,
+        "reasoning_options": [],
         "release_date": "2026-01-08",
         "temperature": true,
         "tool_call": true
@@ -49995,6 +50595,7 @@
         "name": "Agentic Chat (Claude Sonnet 4.6)",
         "open_weights": false,
         "reasoning": true,
+        "reasoning_options": [],
         "release_date": "2026-02-17",
         "temperature": true,
         "tool_call": true
@@ -50203,7 +50804,7 @@
           "output": 3.6
         },
         "description": "Kimi K2.6 は gmicloud によって提供される AI モデルです。",
-        "family": "kimi-k2.6",
+        "family": "kimi-k2",
         "id": "moonshotai/Kimi-K2.6",
         "interleaved": {
           "field": "reasoning_content"
@@ -50461,6 +51062,7 @@
         "name": "Nano Banana",
         "open_weights": false,
         "reasoning": true,
+        "reasoning_options": [],
         "release_date": "2025-08-26",
         "temperature": true,
         "tool_call": false
@@ -50707,6 +51309,7 @@
         "name": "Nano Banana Pro",
         "open_weights": false,
         "reasoning": true,
+        "reasoning_options": [],
         "release_date": "2025-11-20",
         "temperature": true,
         "tool_call": false
@@ -50802,6 +51405,15 @@
         "name": "Nano Banana 2",
         "open_weights": false,
         "reasoning": true,
+        "reasoning_options": [
+          {
+            "type": "effort",
+            "values": [
+              "minimal",
+              "high"
+            ]
+          }
+        ],
         "release_date": "2026-02-26",
         "temperature": true,
         "tool_call": false
@@ -50886,6 +51498,17 @@
         "name": "Gemini 3.1 Flash Lite Preview",
         "open_weights": false,
         "reasoning": true,
+        "reasoning_options": [
+          {
+            "type": "effort",
+            "values": [
+              "minimal",
+              "low",
+              "medium",
+              "high"
+            ]
+          }
+        ],
         "release_date": "2026-03-03",
         "status": "deprecated",
         "structured_output": true,
@@ -51001,6 +51624,16 @@
         "name": "Gemini 3.1 Pro Preview Custom Tools",
         "open_weights": false,
         "reasoning": true,
+        "reasoning_options": [
+          {
+            "type": "effort",
+            "values": [
+              "low",
+              "medium",
+              "high"
+            ]
+          }
+        ],
         "release_date": "2026-02-19",
         "structured_output": true,
         "temperature": true,
@@ -51118,6 +51751,16 @@
         "name": "Gemini Flash Latest",
         "open_weights": false,
         "reasoning": true,
+        "reasoning_options": [
+          {
+            "type": "toggle"
+          },
+          {
+            "max": 24576,
+            "min": 0,
+            "type": "budget_tokens"
+          }
+        ],
         "release_date": "2025-09-25",
         "structured_output": true,
         "temperature": true,
@@ -51154,6 +51797,16 @@
         "name": "Gemini Flash-Lite Latest",
         "open_weights": false,
         "reasoning": true,
+        "reasoning_options": [
+          {
+            "type": "toggle"
+          },
+          {
+            "max": 24576,
+            "min": 512,
+            "type": "budget_tokens"
+          }
+        ],
         "release_date": "2025-09-25",
         "structured_output": true,
         "temperature": true,
@@ -51181,6 +51834,11 @@
         "name": "Gemma 4 26B A4B IT",
         "open_weights": true,
         "reasoning": true,
+        "reasoning_options": [
+          {
+            "type": "toggle"
+          }
+        ],
         "release_date": "2026-04-02",
         "structured_output": true,
         "temperature": true,
@@ -51208,6 +51866,11 @@
         "name": "Gemma 4 31B IT",
         "open_weights": true,
         "reasoning": true,
+        "reasoning_options": [
+          {
+            "type": "toggle"
+          }
+        ],
         "release_date": "2026-04-02",
         "structured_output": true,
         "temperature": true,
@@ -52030,7 +52693,7 @@
         "family": "gemini-pro",
         "id": "gemini-2.5-pro",
         "knowledge": "2025-01",
-        "last_updated": "2025-06-05",
+        "last_updated": "2025-06-17",
         "limit": {
           "context": 1048576,
           "output": 65536
@@ -52057,7 +52720,7 @@
             "type": "budget_tokens"
           }
         ],
-        "release_date": "2025-03-20",
+        "release_date": "2025-06-17",
         "temperature": true,
         "tool_call": true
       },
@@ -54121,6 +54784,16 @@
         "name": "Anthropic: Claude Opus 4.5",
         "open_weights": false,
         "reasoning": true,
+        "reasoning_options": [
+          {
+            "type": "toggle"
+          },
+          {
+            "max": 63999,
+            "min": 1024,
+            "type": "budget_tokens"
+          }
+        ],
         "release_date": "2025-11-24",
         "temperature": true,
         "tool_call": true
@@ -54154,6 +54827,16 @@
         "name": "Anthropic: Claude Sonnet 4.5",
         "open_weights": false,
         "reasoning": true,
+        "reasoning_options": [
+          {
+            "type": "toggle"
+          },
+          {
+            "max": 63999,
+            "min": 1024,
+            "type": "budget_tokens"
+          }
+        ],
         "release_date": "2025-09-29",
         "temperature": true,
         "tool_call": true
@@ -54220,6 +54903,16 @@
         "name": "Anthropic: Claude Opus 4",
         "open_weights": false,
         "reasoning": true,
+        "reasoning_options": [
+          {
+            "type": "toggle"
+          },
+          {
+            "max": 31999,
+            "min": 1024,
+            "type": "budget_tokens"
+          }
+        ],
         "release_date": "2025-05-14",
         "temperature": true,
         "tool_call": true
@@ -54253,6 +54946,16 @@
         "name": "Anthropic: Claude Opus 4.1",
         "open_weights": false,
         "reasoning": true,
+        "reasoning_options": [
+          {
+            "type": "toggle"
+          },
+          {
+            "max": 31999,
+            "min": 1024,
+            "type": "budget_tokens"
+          }
+        ],
         "release_date": "2025-08-05",
         "temperature": true,
         "tool_call": true
@@ -54286,6 +54989,16 @@
         "name": "Anthropic: Claude Opus 4.1 (20250805)",
         "open_weights": false,
         "reasoning": true,
+        "reasoning_options": [
+          {
+            "type": "toggle"
+          },
+          {
+            "max": 31999,
+            "min": 1024,
+            "type": "budget_tokens"
+          }
+        ],
         "release_date": "2025-08-05",
         "temperature": true,
         "tool_call": true
@@ -54319,6 +55032,16 @@
         "name": "Anthropic: Claude Sonnet 4",
         "open_weights": false,
         "reasoning": true,
+        "reasoning_options": [
+          {
+            "type": "toggle"
+          },
+          {
+            "max": 63999,
+            "min": 1024,
+            "type": "budget_tokens"
+          }
+        ],
         "release_date": "2025-05-14",
         "temperature": true,
         "tool_call": true
@@ -54352,6 +55075,16 @@
         "name": "Anthropic: Claude Sonnet 4.5 (20250929)",
         "open_weights": false,
         "reasoning": true,
+        "reasoning_options": [
+          {
+            "type": "toggle"
+          },
+          {
+            "max": 63999,
+            "min": 1024,
+            "type": "budget_tokens"
+          }
+        ],
         "release_date": "2025-09-29",
         "temperature": true,
         "tool_call": true
@@ -54382,6 +55115,7 @@
         "name": "DeepSeek R1 Distill Llama 70B",
         "open_weights": false,
         "reasoning": true,
+        "reasoning_options": [],
         "release_date": "2025-01-20",
         "temperature": true,
         "tool_call": true
@@ -54505,6 +55239,7 @@
         "name": "DeepSeek V3.1 Terminus",
         "open_weights": false,
         "reasoning": true,
+        "reasoning_options": [],
         "release_date": "2025-09-22",
         "temperature": true,
         "tool_call": true
@@ -54565,6 +55300,7 @@
         "name": "Baidu Ernie 4.5 21B A3B Thinking",
         "open_weights": false,
         "reasoning": true,
+        "reasoning_options": [],
         "release_date": "2025-03-16",
         "temperature": true,
         "tool_call": false
@@ -54598,6 +55334,16 @@
         "name": "Google Gemini 2.5 Flash",
         "open_weights": false,
         "reasoning": true,
+        "reasoning_options": [
+          {
+            "type": "toggle"
+          },
+          {
+            "max": 24576,
+            "min": 0,
+            "type": "budget_tokens"
+          }
+        ],
         "release_date": "2025-06-17",
         "temperature": true,
         "tool_call": true
@@ -54631,6 +55377,16 @@
         "name": "Google Gemini 2.5 Flash Lite",
         "open_weights": false,
         "reasoning": true,
+        "reasoning_options": [
+          {
+            "type": "toggle"
+          },
+          {
+            "max": 24576,
+            "min": 512,
+            "type": "budget_tokens"
+          }
+        ],
         "release_date": "2025-07-22",
         "temperature": true,
         "tool_call": true
@@ -54664,6 +55420,13 @@
         "name": "Google Gemini 2.5 Pro",
         "open_weights": false,
         "reasoning": true,
+        "reasoning_options": [
+          {
+            "max": 32768,
+            "min": 128,
+            "type": "budget_tokens"
+          }
+        ],
         "release_date": "2025-06-17",
         "temperature": true,
         "tool_call": true
@@ -54698,6 +55461,15 @@
         "name": "Google Gemini 3 Pro Preview",
         "open_weights": false,
         "reasoning": true,
+        "reasoning_options": [
+          {
+            "type": "effort",
+            "values": [
+              "low",
+              "high"
+            ]
+          }
+        ],
         "release_date": "2025-11-18",
         "temperature": true,
         "tool_call": true
@@ -54789,6 +55561,7 @@
         "name": "Zai GLM-4.6",
         "open_weights": false,
         "reasoning": true,
+        "reasoning_options": [],
         "release_date": "2024-07-18",
         "temperature": true,
         "tool_call": true
@@ -55332,6 +56105,16 @@
         "name": "OpenAI GPT-OSS 120b",
         "open_weights": false,
         "reasoning": true,
+        "reasoning_options": [
+          {
+            "type": "effort",
+            "values": [
+              "low",
+              "medium",
+              "high"
+            ]
+          }
+        ],
         "release_date": "2024-06-01",
         "temperature": true,
         "tool_call": true
@@ -55362,6 +56145,16 @@
         "name": "OpenAI GPT-OSS 20b",
         "open_weights": false,
         "reasoning": true,
+        "reasoning_options": [
+          {
+            "type": "effort",
+            "values": [
+              "low",
+              "medium",
+              "high"
+            ]
+          }
+        ],
         "release_date": "2024-06-01",
         "temperature": true,
         "tool_call": true
@@ -55520,6 +56313,7 @@
         "name": "xAI Grok 4.1 Fast Reasoning",
         "open_weights": false,
         "reasoning": true,
+        "reasoning_options": [],
         "release_date": "2025-11-17",
         "temperature": true,
         "tool_call": true
@@ -55585,6 +56379,7 @@
         "name": "xAI: Grok 4 Fast Reasoning",
         "open_weights": false,
         "reasoning": true,
+        "reasoning_options": [],
         "release_date": "2025-09-01",
         "temperature": true,
         "tool_call": true
@@ -55657,7 +56452,7 @@
           "output": 2.3
         },
         "description": "Kimi K2 (07/11) は helicone によって提供される AI モデルです。",
-        "family": "kimi",
+        "family": "kimi-k2",
         "id": "kimi-k2-0711",
         "knowledge": "2025-01",
         "last_updated": "2025-01-01",
@@ -55688,7 +56483,7 @@
           "output": 2
         },
         "description": "Kimi K2 (09/05) は helicone によって提供される AI モデルです。",
-        "family": "kimi",
+        "family": "kimi-k2",
         "id": "kimi-k2-0905",
         "knowledge": "2025-09",
         "last_updated": "2025-09-05",
@@ -56382,6 +57177,7 @@
         "name": "Qwen3 235B A22B Thinking",
         "open_weights": false,
         "reasoning": true,
+        "reasoning_options": [],
         "release_date": "2025-07-25",
         "temperature": true,
         "tool_call": false
@@ -56443,6 +57239,7 @@
         "name": "Qwen3 32B",
         "open_weights": false,
         "reasoning": true,
+        "reasoning_options": [],
         "release_date": "2025-04-28",
         "temperature": true,
         "tool_call": true
@@ -56630,6 +57427,17 @@
         "name": "Perplexity Sonar Deep Research",
         "open_weights": false,
         "reasoning": true,
+        "reasoning_options": [
+          {
+            "type": "effort",
+            "values": [
+              "minimal",
+              "low",
+              "medium",
+              "high"
+            ]
+          }
+        ],
         "release_date": "2025-01-27",
         "temperature": true,
         "tool_call": false
@@ -56690,6 +57498,7 @@
         "name": "Perplexity Sonar Reasoning",
         "open_weights": false,
         "reasoning": true,
+        "reasoning_options": [],
         "release_date": "2025-01-27",
         "temperature": true,
         "tool_call": false
@@ -56720,6 +57529,17 @@
         "name": "Perplexity Sonar Reasoning Pro",
         "open_weights": false,
         "reasoning": true,
+        "reasoning_options": [
+          {
+            "type": "effort",
+            "values": [
+              "minimal",
+              "low",
+              "medium",
+              "high"
+            ]
+          }
+        ],
         "release_date": "2025-01-27",
         "temperature": true,
         "tool_call": false
@@ -56777,7 +57597,7 @@
           "output": 1.5
         },
         "description": "Kimi K2.5 は hpc-ai によって提供される AI モデルです。",
-        "family": "kimi",
+        "family": "kimi-k2",
         "id": "moonshotai/kimi-k2.5",
         "interleaved": {
           "field": "reasoning_content"
@@ -57340,7 +58160,7 @@
           "output": 3
         },
         "description": "Kimi-K2-Instruct は huggingface によって提供される AI モデルです。",
-        "family": "kimi",
+        "family": "kimi-k2",
         "id": "moonshotai/Kimi-K2-Instruct",
         "knowledge": "2024-10",
         "last_updated": "2025-07-14",
@@ -57370,7 +58190,7 @@
           "output": 3
         },
         "description": "Kimi-K2-Instruct-0905 は huggingface によって提供される AI モデルです。",
-        "family": "kimi",
+        "family": "kimi-k2",
         "id": "moonshotai/Kimi-K2-Instruct-0905",
         "knowledge": "2024-10",
         "last_updated": "2025-09-04",
@@ -57435,7 +58255,7 @@
           "output": 3
         },
         "description": "Kimi-K2.5 は huggingface によって提供される AI モデルです。",
-        "family": "kimi",
+        "family": "kimi-k2",
         "id": "moonshotai/Kimi-K2.5",
         "interleaved": {
           "field": "reasoning_content"
@@ -57471,7 +58291,7 @@
           "output": 4
         },
         "description": "Kimi-K2.6 は huggingface によって提供される AI モデルです。",
-        "family": "kimi",
+        "family": "kimi-k2",
         "id": "moonshotai/Kimi-K2.6",
         "interleaved": {
           "field": "reasoning_content"
@@ -57774,7 +58594,7 @@
           "output": 0
         },
         "description": "Kimi-K2 は iflowcn によって提供される AI モデルです。",
-        "family": "kimi",
+        "family": "kimi-k2",
         "id": "kimi-k2",
         "knowledge": "2024-10",
         "last_updated": "2024-12-01",
@@ -57804,7 +58624,7 @@
           "output": 0
         },
         "description": "Kimi-K2-0905 は iflowcn によって提供される AI モデルです。",
-        "family": "kimi",
+        "family": "kimi-k2",
         "id": "kimi-k2-0905",
         "knowledge": "2024-12",
         "last_updated": "2025-09-05",
@@ -58199,7 +59019,7 @@
           "output": 3.5
         },
         "description": "Kimi K2.6 は inceptron によって提供される AI モデルです。",
-        "family": "kimi-k2.6",
+        "family": "kimi-k2",
         "id": "moonshotai/Kimi-K2.6",
         "interleaved": {
           "field": "reasoning_content"
@@ -58994,7 +59814,7 @@
           "output": 1.9
         },
         "description": "Kimi K2 Instruct は io-net によって提供される AI モデルです。",
-        "family": "kimi",
+        "family": "kimi-k2",
         "id": "moonshotai/Kimi-K2-Instruct-0905",
         "knowledge": "2024-08",
         "last_updated": "2024-09-05",
@@ -60450,7 +61270,7 @@
           "output": 2.5
         },
         "description": "Kimi K2 0905 は jiekou によって提供される AI モデルです。",
-        "family": "kimi",
+        "family": "kimi-k2",
         "id": "moonshotai/kimi-k2-0905",
         "last_updated": "2026-01",
         "limit": {
@@ -60480,7 +61300,7 @@
           "output": 2.3
         },
         "description": "Kimi K2 Instruct は jiekou によって提供される AI モデルです。",
-        "family": "kimi",
+        "family": "kimi-k2",
         "id": "moonshotai/kimi-k2-instruct",
         "last_updated": "2026-01",
         "limit": {
@@ -60510,7 +61330,7 @@
           "output": 3
         },
         "description": "Kimi K2.5 は jiekou によって提供される AI モデルです。",
-        "family": "kimi",
+        "family": "kimi-k2",
         "id": "moonshotai/kimi-k2.5",
         "last_updated": "2026-01",
         "limit": {
@@ -71387,6 +72207,42 @@
         "temperature": true,
         "tool_call": true
       },
+      "k2p7": {
+        "attachment": true,
+        "cost": {
+          "cache_read": 0,
+          "cache_write": 0,
+          "input": 0,
+          "output": 0
+        },
+        "description": "Kimi K2.7 Code は kimi-for-coding によって提供される AI モデルです。",
+        "family": "kimi-k2",
+        "id": "k2p7",
+        "knowledge": "2025-01",
+        "last_updated": "2026-06-12",
+        "limit": {
+          "context": 262144,
+          "output": 32768
+        },
+        "modalities": {
+          "input": [
+            "text",
+            "image",
+            "video"
+          ],
+          "output": [
+            "text"
+          ]
+        },
+        "name": "Kimi K2.7 Code",
+        "open_weights": true,
+        "reasoning": true,
+        "reasoning_options": [],
+        "release_date": "2026-06-12",
+        "structured_output": true,
+        "temperature": false,
+        "tool_call": true
+      },
       "kimi-k2-thinking": {
         "attachment": false,
         "cost": {
@@ -71566,7 +72422,7 @@
           "output": 3.5
         },
         "description": "Kimi K2.6 は lilac によって提供される AI モデルです。",
-        "family": "kimi-k2.6",
+        "family": "kimi-k2",
         "id": "moonshotai/kimi-k2.6",
         "interleaved": {
           "field": "reasoning_content"
@@ -72840,7 +73696,7 @@
         "family": "gemini-flash",
         "id": "gemini-2.5-flash",
         "knowledge": "2025-01",
-        "last_updated": "2025-06-05",
+        "last_updated": "2025-06-17",
         "limit": {
           "context": 1048576,
           "output": 65536
@@ -72860,7 +73716,7 @@
         "name": "Gemini 2.5 Flash",
         "open_weights": false,
         "reasoning": true,
-        "release_date": "2025-03-20",
+        "release_date": "2025-06-17",
         "structured_output": true,
         "temperature": true,
         "tool_call": true
@@ -72929,7 +73785,7 @@
         "family": "gemini-pro",
         "id": "gemini-2.5-pro",
         "knowledge": "2025-01",
-        "last_updated": "2025-06-05",
+        "last_updated": "2025-06-17",
         "limit": {
           "context": 1048576,
           "output": 65536
@@ -72949,7 +73805,7 @@
         "name": "Gemini 2.5 Pro",
         "open_weights": false,
         "reasoning": true,
-        "release_date": "2025-03-20",
+        "release_date": "2025-06-17",
         "structured_output": true,
         "temperature": true,
         "tool_call": true
@@ -75282,7 +76138,7 @@
           "output": 2.5
         },
         "description": "Kimi K2 は llmgateway によって提供される AI モデルです。",
-        "family": "kimi",
+        "family": "kimi-k2",
         "id": "kimi-k2",
         "last_updated": "2025-07-11",
         "limit": {
@@ -75381,7 +76237,7 @@
           "output": 3
         },
         "description": "Kimi K2.5 は llmgateway によって提供される AI モデルです。",
-        "family": "kimi-k2.5",
+        "family": "kimi-k2",
         "id": "kimi-k2.5",
         "interleaved": {
           "field": "reasoning_content"
@@ -75418,7 +76274,7 @@
           "output": 4
         },
         "description": "Kimi K2.6 は llmgateway によって提供される AI モデルです。",
-        "family": "kimi-k2.6",
+        "family": "kimi-k2",
         "id": "kimi-k2.6",
         "interleaved": {
           "field": "reasoning_content"
@@ -78493,6 +79349,16 @@
         "name": "GPT OSS 20B",
         "open_weights": true,
         "reasoning": true,
+        "reasoning_options": [
+          {
+            "type": "effort",
+            "values": [
+              "low",
+              "medium",
+              "high"
+            ]
+          }
+        ],
         "release_date": "2025-08-05",
         "temperature": true,
         "tool_call": true
@@ -78671,6 +79537,7 @@
         "name": "MiniMax M2.1",
         "open_weights": true,
         "reasoning": true,
+        "reasoning_options": [],
         "release_date": "2025-12-23",
         "temperature": true,
         "tool_call": true
@@ -78703,6 +79570,7 @@
         "name": "MiniMax M2.5",
         "open_weights": true,
         "reasoning": true,
+        "reasoning_options": [],
         "release_date": "2026-02-12",
         "temperature": true,
         "tool_call": true
@@ -78797,6 +79665,7 @@
         "name": "Qwen3.5 Plus",
         "open_weights": false,
         "reasoning": true,
+        "reasoning_options": [],
         "release_date": "2026-02",
         "temperature": true,
         "tool_call": true
@@ -78827,6 +79696,11 @@
         "name": "MiMo V2 Flash",
         "open_weights": true,
         "reasoning": true,
+        "reasoning_options": [
+          {
+            "type": "toggle"
+          }
+        ],
         "release_date": "2025-12-17",
         "temperature": true,
         "tool_call": true
@@ -78860,6 +79734,7 @@
         "name": "DeepSeek R1 0528",
         "open_weights": true,
         "reasoning": true,
+        "reasoning_options": [],
         "release_date": "2025-05-28",
         "temperature": true,
         "tool_call": false
@@ -79103,6 +79978,7 @@
         "name": "Kimi K2 Thinking",
         "open_weights": true,
         "reasoning": true,
+        "reasoning_options": [],
         "release_date": "2025-11-06",
         "temperature": true,
         "tool_call": true
@@ -79114,7 +79990,7 @@
           "output": 2.8
         },
         "description": "Kimi K2.5 は meganova によって提供される AI モデルです。",
-        "family": "kimi",
+        "family": "kimi-k2",
         "id": "moonshotai/Kimi-K2.5",
         "interleaved": {
           "field": "reasoning_content"
@@ -79137,6 +80013,7 @@
         "name": "Kimi K2.5",
         "open_weights": true,
         "reasoning": true,
+        "reasoning_options": [],
         "release_date": "2026-01-27",
         "temperature": true,
         "tool_call": true
@@ -79170,6 +80047,7 @@
         "name": "GLM-4.6",
         "open_weights": true,
         "reasoning": true,
+        "reasoning_options": [],
         "release_date": "2025-09-30",
         "temperature": true,
         "tool_call": true
@@ -79203,6 +80081,7 @@
         "name": "GLM-4.7",
         "open_weights": true,
         "reasoning": true,
+        "reasoning_options": [],
         "release_date": "2025-12-22",
         "temperature": true,
         "tool_call": true
@@ -79235,6 +80114,11 @@
         "name": "GLM-5",
         "open_weights": true,
         "reasoning": true,
+        "reasoning_options": [
+          {
+            "type": "toggle"
+          }
+        ],
         "release_date": "2026-02-11",
         "temperature": true,
         "tool_call": true
@@ -79799,7 +80683,7 @@
         "family": "gemini-flash",
         "id": "google/gemini-2.5-flash",
         "knowledge": "2025-01",
-        "last_updated": "2025-06-05",
+        "last_updated": "2025-06-17",
         "limit": {
           "context": 1048576,
           "output": 65536
@@ -79819,7 +80703,7 @@
         "name": "Gemini 2.5 Flash",
         "open_weights": false,
         "reasoning": true,
-        "release_date": "2025-03-20",
+        "release_date": "2025-06-17",
         "structured_output": true,
         "temperature": true,
         "tool_call": true
@@ -79888,7 +80772,7 @@
         "family": "gemini-pro",
         "id": "google/gemini-2.5-pro",
         "knowledge": "2025-01",
-        "last_updated": "2025-06-05",
+        "last_updated": "2025-06-17",
         "limit": {
           "context": 1048576,
           "output": 65536
@@ -79908,7 +80792,7 @@
         "name": "Gemini 2.5 Pro",
         "open_weights": false,
         "reasoning": true,
-        "release_date": "2025-03-20",
+        "release_date": "2025-06-17",
         "structured_output": true,
         "temperature": true,
         "tool_call": true
@@ -80720,7 +81604,7 @@
         "family": "mistral-large",
         "id": "mistral/mistral-large-2411",
         "knowledge": "2024-11",
-        "last_updated": "2024-11-04",
+        "last_updated": "2024-11-18",
         "limit": {
           "context": 131072,
           "output": 16384
@@ -80736,7 +81620,7 @@
         "name": "Mistral Large 2.1",
         "open_weights": true,
         "reasoning": false,
-        "release_date": "2024-11-01",
+        "release_date": "2024-11-18",
         "temperature": true,
         "tool_call": true
       },
@@ -84632,7 +85516,7 @@
           "output": 2.5
         },
         "description": "Kimi K2 0711 は moonshotai によって提供される AI モデルです。",
-        "family": "kimi",
+        "family": "kimi-k2",
         "id": "kimi-k2-0711-preview",
         "knowledge": "2024-10",
         "last_updated": "2025-07-14",
@@ -84663,7 +85547,7 @@
           "output": 2.5
         },
         "description": "Kimi K2 0905 は moonshotai によって提供される AI モデルです。",
-        "family": "kimi",
+        "family": "kimi-k2",
         "id": "kimi-k2-0905-preview",
         "knowledge": "2024-10",
         "last_updated": "2025-09-05",
@@ -84762,7 +85646,7 @@
           "output": 10
         },
         "description": "Kimi K2 Turbo は moonshotai によって提供される AI モデルです。",
-        "family": "kimi",
+        "family": "kimi-k2",
         "id": "kimi-k2-turbo-preview",
         "knowledge": "2024-10",
         "last_updated": "2025-09-05",
@@ -84793,7 +85677,7 @@
           "output": 3
         },
         "description": "Kimi K2.5 は moonshotai によって提供される AI モデルです。",
-        "family": "kimi-k2.5",
+        "family": "kimi-k2",
         "id": "kimi-k2.5",
         "interleaved": {
           "field": "reasoning_content"
@@ -84835,7 +85719,7 @@
           "output": 4
         },
         "description": "Kimi K2.6 は moonshotai によって提供される AI モデルです。",
-        "family": "kimi-k2.6",
+        "family": "kimi-k2",
         "id": "kimi-k2.6",
         "interleaved": {
           "field": "reasoning_content"
@@ -84868,6 +85752,44 @@
         "structured_output": true,
         "temperature": true,
         "tool_call": true
+      },
+      "kimi-k2.7-code": {
+        "attachment": true,
+        "cost": {
+          "cache_read": 0.19,
+          "input": 0.95,
+          "output": 4
+        },
+        "description": "Kimi K2.7 Code は moonshotai によって提供される AI モデルです。",
+        "family": "kimi-k2",
+        "id": "kimi-k2.7-code",
+        "interleaved": {
+          "field": "reasoning_content"
+        },
+        "knowledge": "2025-01",
+        "last_updated": "2026-06-12",
+        "limit": {
+          "context": 262144,
+          "output": 262144
+        },
+        "modalities": {
+          "input": [
+            "text",
+            "image",
+            "video"
+          ],
+          "output": [
+            "text"
+          ]
+        },
+        "name": "Kimi K2.7 Code",
+        "open_weights": true,
+        "reasoning": true,
+        "reasoning_options": [],
+        "release_date": "2026-06-12",
+        "structured_output": true,
+        "temperature": false,
+        "tool_call": true
       }
     },
     "name": "Moonshot AI",
@@ -84891,7 +85813,7 @@
           "output": 2.5
         },
         "description": "Kimi K2 0711 は moonshotai-cn によって提供される AI モデルです。",
-        "family": "kimi",
+        "family": "kimi-k2",
         "id": "kimi-k2-0711-preview",
         "knowledge": "2024-10",
         "last_updated": "2025-07-14",
@@ -84922,7 +85844,7 @@
           "output": 2.5
         },
         "description": "Kimi K2 0905 は moonshotai-cn によって提供される AI モデルです。",
-        "family": "kimi",
+        "family": "kimi-k2",
         "id": "kimi-k2-0905-preview",
         "knowledge": "2024-10",
         "last_updated": "2025-09-05",
@@ -85021,7 +85943,7 @@
           "output": 10
         },
         "description": "Kimi K2 Turbo は moonshotai-cn によって提供される AI モデルです。",
-        "family": "kimi",
+        "family": "kimi-k2",
         "id": "kimi-k2-turbo-preview",
         "knowledge": "2024-10",
         "last_updated": "2025-09-05",
@@ -85052,7 +85974,7 @@
           "output": 3
         },
         "description": "Kimi K2.5 は moonshotai-cn によって提供される AI モデルです。",
-        "family": "kimi-k2.5",
+        "family": "kimi-k2",
         "id": "kimi-k2.5",
         "interleaved": {
           "field": "reasoning_content"
@@ -85094,7 +86016,7 @@
           "output": 4
         },
         "description": "Kimi K2.6 は moonshotai-cn によって提供される AI モデルです。",
-        "family": "kimi-k2.6",
+        "family": "kimi-k2",
         "id": "kimi-k2.6",
         "interleaved": {
           "field": "reasoning_content"
@@ -88238,7 +89160,7 @@
           "output": 1.9
         },
         "description": "Kimi K2.5 TEE は nano-gpt によって提供される AI モデルです。",
-        "family": "kimi",
+        "family": "kimi-k2",
         "id": "TEE/kimi-k2.5",
         "last_updated": "2026-01-29",
         "limit": {
@@ -90416,7 +91338,7 @@
           "output": 2
         },
         "description": "Kimi K2 0711 Instruct FP4 は nano-gpt によって提供される AI モデルです。",
-        "family": "kimi",
+        "family": "kimi-k2",
         "id": "baseten/Kimi-K2-Instruct-FP4",
         "last_updated": "2025-07-11",
         "limit": {
@@ -97393,7 +98315,7 @@
           "output": 2
         },
         "description": "Kimi K2 0905 は nano-gpt によって提供される AI モデルです。",
-        "family": "kimi",
+        "family": "kimi-k2",
         "id": "moonshotai/Kimi-K2-Instruct-0905",
         "last_updated": "2025-09-25",
         "limit": {
@@ -97423,7 +98345,7 @@
           "output": 2
         },
         "description": "Kimi K2 Instruct は nano-gpt によって提供される AI モデルです。",
-        "family": "kimi",
+        "family": "kimi-k2",
         "id": "moonshotai/kimi-k2-instruct",
         "last_updated": "2025-07-01",
         "limit": {
@@ -97453,7 +98375,7 @@
           "output": 2
         },
         "description": "Kimi K2 0711 は nano-gpt によって提供される AI モデルです。",
-        "family": "kimi",
+        "family": "kimi-k2",
         "id": "moonshotai/kimi-k2-instruct-0711",
         "last_updated": "2025-07-11",
         "limit": {
@@ -97573,7 +98495,7 @@
           "output": 1.9
         },
         "description": "Kimi K2.5 は nano-gpt によって提供される AI モデルです。",
-        "family": "kimi",
+        "family": "kimi-k2",
         "id": "moonshotai/kimi-k2.5",
         "last_updated": "2026-01-26",
         "limit": {
@@ -97635,7 +98557,7 @@
           "output": 2.73
         },
         "description": "Kimi K2.6 は nano-gpt によって提供される AI モデルです。",
-        "family": "kimi-k2.6",
+        "family": "kimi-k2",
         "id": "moonshotai/kimi-k2.6",
         "last_updated": "2026-04-21",
         "limit": {
@@ -104258,7 +105180,7 @@
         "family": "gemini-flash",
         "id": "google/gemini-2.5-flash",
         "knowledge": "2025-01",
-        "last_updated": "2025-06-05",
+        "last_updated": "2025-06-17",
         "limit": {
           "context": 1048576,
           "output": 65536
@@ -104278,7 +105200,7 @@
         "name": "Gemini 2.5 Flash",
         "open_weights": false,
         "reasoning": true,
-        "release_date": "2025-03-20",
+        "release_date": "2025-06-17",
         "structured_output": true,
         "temperature": true,
         "tool_call": true
@@ -104347,7 +105269,7 @@
         "family": "gemini-pro",
         "id": "google/gemini-2.5-pro",
         "knowledge": "2025-01",
-        "last_updated": "2025-06-05",
+        "last_updated": "2025-06-17",
         "limit": {
           "context": 1048576,
           "output": 65536
@@ -104367,7 +105289,7 @@
         "name": "Gemini 2.5 Pro",
         "open_weights": false,
         "reasoning": true,
-        "release_date": "2025-03-20",
+        "release_date": "2025-06-17",
         "structured_output": true,
         "temperature": true,
         "tool_call": true
@@ -105891,7 +106813,7 @@
           "reasoning": 2.5
         },
         "description": "Kimi-K2.5 は nebius によって提供される AI モデルです。",
-        "family": "kimi",
+        "family": "kimi-k2",
         "id": "moonshotai/Kimi-K2.5",
         "interleaved": {
           "field": "reasoning_content"
@@ -105935,7 +106857,7 @@
           "output": 2.5
         },
         "description": "Kimi-K2.5-fast は nebius によって提供される AI モデルです。",
-        "family": "kimi",
+        "family": "kimi-k2",
         "id": "moonshotai/Kimi-K2.5-fast",
         "interleaved": {
           "field": "reasoning_content"
@@ -106283,6 +107205,16 @@
         "name": "Claude Haiku 4.5 (latest)",
         "open_weights": false,
         "reasoning": true,
+        "reasoning_options": [
+          {
+            "type": "toggle"
+          },
+          {
+            "max": 63999,
+            "min": 1024,
+            "type": "budget_tokens"
+          }
+        ],
         "release_date": "2025-10-15",
         "temperature": true,
         "tool_call": true
@@ -106317,6 +107249,16 @@
         "name": "Claude Opus 4.1 (latest)",
         "open_weights": false,
         "reasoning": true,
+        "reasoning_options": [
+          {
+            "type": "toggle"
+          },
+          {
+            "max": 31999,
+            "min": 1024,
+            "type": "budget_tokens"
+          }
+        ],
         "release_date": "2025-08-05",
         "temperature": true,
         "tool_call": true
@@ -106351,6 +107293,16 @@
         "name": "Claude Opus 4.5 (latest)",
         "open_weights": false,
         "reasoning": true,
+        "reasoning_options": [
+          {
+            "type": "toggle"
+          },
+          {
+            "max": 63999,
+            "min": 1024,
+            "type": "budget_tokens"
+          }
+        ],
         "release_date": "2025-11-24",
         "temperature": true,
         "tool_call": true
@@ -106405,6 +107357,16 @@
         "name": "Claude Opus 4.6",
         "open_weights": false,
         "reasoning": true,
+        "reasoning_options": [
+          {
+            "type": "toggle"
+          },
+          {
+            "max": 127999,
+            "min": 1024,
+            "type": "budget_tokens"
+          }
+        ],
         "release_date": "2026-02-05",
         "temperature": true,
         "tool_call": true
@@ -106459,6 +107421,16 @@
         "name": "Claude Opus 4.7",
         "open_weights": false,
         "reasoning": true,
+        "reasoning_options": [
+          {
+            "type": "toggle"
+          },
+          {
+            "max": 127999,
+            "min": 1024,
+            "type": "budget_tokens"
+          }
+        ],
         "release_date": "2026-04-16",
         "temperature": false,
         "tool_call": true
@@ -106493,6 +107465,16 @@
         "name": "Claude Sonnet 4.5",
         "open_weights": false,
         "reasoning": true,
+        "reasoning_options": [
+          {
+            "type": "toggle"
+          },
+          {
+            "max": 63999,
+            "min": 1024,
+            "type": "budget_tokens"
+          }
+        ],
         "release_date": "2025-09-29",
         "temperature": true,
         "tool_call": true
@@ -106527,6 +107509,16 @@
         "name": "Claude Sonnet 4.5 (latest)",
         "open_weights": false,
         "reasoning": true,
+        "reasoning_options": [
+          {
+            "type": "toggle"
+          },
+          {
+            "max": 63999,
+            "min": 1024,
+            "type": "budget_tokens"
+          }
+        ],
         "release_date": "2025-09-29",
         "temperature": true,
         "tool_call": true
@@ -106561,6 +107553,16 @@
         "name": "Claude Sonnet 4.6",
         "open_weights": false,
         "reasoning": true,
+        "reasoning_options": [
+          {
+            "type": "toggle"
+          },
+          {
+            "max": 63999,
+            "min": 1024,
+            "type": "budget_tokens"
+          }
+        ],
         "release_date": "2026-02-17",
         "temperature": true,
         "tool_call": true
@@ -106577,7 +107579,7 @@
         "family": "gemini-flash",
         "id": "gemini-2-5-flash",
         "knowledge": "2025-01",
-        "last_updated": "2025-06-05",
+        "last_updated": "2025-06-17",
         "limit": {
           "context": 1048576,
           "output": 65536
@@ -106597,7 +107599,17 @@
         "name": "Gemini 2.5 Flash",
         "open_weights": false,
         "reasoning": true,
-        "release_date": "2025-03-20",
+        "reasoning_options": [
+          {
+            "type": "toggle"
+          },
+          {
+            "max": 24576,
+            "min": 0,
+            "type": "budget_tokens"
+          }
+        ],
+        "release_date": "2025-06-17",
         "structured_output": true,
         "temperature": true,
         "tool_call": true
@@ -106629,7 +107641,7 @@
         "family": "gemini-pro",
         "id": "gemini-2-5-pro",
         "knowledge": "2025-01",
-        "last_updated": "2025-06-05",
+        "last_updated": "2025-06-17",
         "limit": {
           "context": 1048576,
           "output": 65536
@@ -106649,7 +107661,14 @@
         "name": "Gemini 2.5 Pro",
         "open_weights": false,
         "reasoning": true,
-        "release_date": "2025-03-20",
+        "reasoning_options": [
+          {
+            "max": 32768,
+            "min": 128,
+            "type": "budget_tokens"
+          }
+        ],
+        "release_date": "2025-06-17",
         "structured_output": true,
         "temperature": true,
         "tool_call": true
@@ -106686,6 +107705,16 @@
         "name": "Gemini 3.1 Flash Lite Preview",
         "open_weights": false,
         "reasoning": true,
+        "reasoning_options": [
+          {
+            "type": "effort",
+            "values": [
+              "low",
+              "medium",
+              "high"
+            ]
+          }
+        ],
         "release_date": "2026-03-03",
         "structured_output": true,
         "temperature": true,
@@ -106738,6 +107767,16 @@
         "name": "Gemini 3.1 Pro Preview Custom Tools",
         "open_weights": false,
         "reasoning": true,
+        "reasoning_options": [
+          {
+            "type": "effort",
+            "values": [
+              "low",
+              "medium",
+              "high"
+            ]
+          }
+        ],
         "release_date": "2026-02-19",
         "structured_output": true,
         "temperature": true,
@@ -106775,6 +107814,16 @@
         "name": "Gemini 3 Flash Preview",
         "open_weights": false,
         "reasoning": true,
+        "reasoning_options": [
+          {
+            "type": "effort",
+            "values": [
+              "low",
+              "medium",
+              "high"
+            ]
+          }
+        ],
         "release_date": "2025-12-17",
         "structured_output": true,
         "temperature": true,
@@ -106827,6 +107876,16 @@
         "name": "Gemini 3 Pro Preview",
         "open_weights": false,
         "reasoning": true,
+        "reasoning_options": [
+          {
+            "type": "effort",
+            "values": [
+              "low",
+              "medium",
+              "high"
+            ]
+          }
+        ],
         "release_date": "2025-11-18",
         "structured_output": true,
         "temperature": true,
@@ -106861,6 +107920,17 @@
         "name": "GPT-5",
         "open_weights": false,
         "reasoning": true,
+        "reasoning_options": [
+          {
+            "type": "effort",
+            "values": [
+              "minimal",
+              "low",
+              "medium",
+              "high"
+            ]
+          }
+        ],
         "release_date": "2025-08-07",
         "structured_output": true,
         "temperature": false,
@@ -106895,6 +107965,17 @@
         "name": "GPT-5.1",
         "open_weights": false,
         "reasoning": true,
+        "reasoning_options": [
+          {
+            "type": "effort",
+            "values": [
+              "none",
+              "low",
+              "medium",
+              "high"
+            ]
+          }
+        ],
         "release_date": "2025-11-13",
         "structured_output": true,
         "temperature": false,
@@ -106929,6 +108010,18 @@
         "name": "GPT-5.2",
         "open_weights": false,
         "reasoning": true,
+        "reasoning_options": [
+          {
+            "type": "effort",
+            "values": [
+              "none",
+              "low",
+              "medium",
+              "high",
+              "xhigh"
+            ]
+          }
+        ],
         "release_date": "2025-12-11",
         "structured_output": true,
         "temperature": false,
@@ -106996,6 +108089,18 @@
         "name": "GPT-5.4",
         "open_weights": false,
         "reasoning": true,
+        "reasoning_options": [
+          {
+            "type": "effort",
+            "values": [
+              "none",
+              "low",
+              "medium",
+              "high",
+              "xhigh"
+            ]
+          }
+        ],
         "release_date": "2026-03-05",
         "structured_output": true,
         "temperature": false,
@@ -107046,6 +108151,18 @@
         "name": "GPT-5.4 mini",
         "open_weights": false,
         "reasoning": true,
+        "reasoning_options": [
+          {
+            "type": "effort",
+            "values": [
+              "none",
+              "low",
+              "medium",
+              "high",
+              "xhigh"
+            ]
+          }
+        ],
         "release_date": "2026-03-17",
         "structured_output": true,
         "temperature": false,
@@ -107080,6 +108197,18 @@
         "name": "GPT-5.4 nano",
         "open_weights": false,
         "reasoning": true,
+        "reasoning_options": [
+          {
+            "type": "effort",
+            "values": [
+              "none",
+              "low",
+              "medium",
+              "high",
+              "xhigh"
+            ]
+          }
+        ],
         "release_date": "2026-03-17",
         "structured_output": true,
         "temperature": false,
@@ -107147,6 +108276,18 @@
         "name": "GPT-5.5",
         "open_weights": false,
         "reasoning": true,
+        "reasoning_options": [
+          {
+            "type": "effort",
+            "values": [
+              "none",
+              "low",
+              "medium",
+              "high",
+              "xhigh"
+            ]
+          }
+        ],
         "release_date": "2026-04-23",
         "structured_output": true,
         "temperature": false,
@@ -107181,6 +108322,17 @@
         "name": "GPT-5 Mini",
         "open_weights": false,
         "reasoning": true,
+        "reasoning_options": [
+          {
+            "type": "effort",
+            "values": [
+              "minimal",
+              "low",
+              "medium",
+              "high"
+            ]
+          }
+        ],
         "release_date": "2025-08-07",
         "structured_output": true,
         "temperature": false,
@@ -107215,6 +108367,17 @@
         "name": "GPT-5 Nano",
         "open_weights": false,
         "reasoning": true,
+        "reasoning_options": [
+          {
+            "type": "effort",
+            "values": [
+              "minimal",
+              "low",
+              "medium",
+              "high"
+            ]
+          }
+        ],
         "release_date": "2025-08-07",
         "structured_output": true,
         "temperature": false,
@@ -107245,6 +108408,16 @@
         "name": "GPT OSS 120B",
         "open_weights": true,
         "reasoning": true,
+        "reasoning_options": [
+          {
+            "type": "effort",
+            "values": [
+              "low",
+              "medium",
+              "high"
+            ]
+          }
+        ],
         "release_date": "2025-08-05",
         "structured_output": true,
         "temperature": true,
@@ -107275,6 +108448,16 @@
         "name": "GPT OSS 20B",
         "open_weights": true,
         "reasoning": true,
+        "reasoning_options": [
+          {
+            "type": "effort",
+            "values": [
+              "low",
+              "medium",
+              "high"
+            ]
+          }
+        ],
         "release_date": "2025-08-05",
         "structured_output": true,
         "temperature": true,
@@ -107455,7 +108638,7 @@
           "output": 2.59
         },
         "description": "Kimi K2.5 Fast は neuralwatt によって提供される AI モデルです。",
-        "family": "kimi",
+        "family": "kimi-k2",
         "id": "kimi-k2.5-fast",
         "last_updated": "2026-01-27",
         "limit": {
@@ -107485,7 +108668,7 @@
           "output": 3.22
         },
         "description": "Kimi K2.6 Fast は neuralwatt によって提供される AI モデルです。",
-        "family": "kimi",
+        "family": "kimi-k2",
         "id": "kimi-k2.6-fast",
         "last_updated": "2026-04-21",
         "limit": {
@@ -107545,7 +108728,7 @@
           "output": 2.59
         },
         "description": "Kimi K2.5 は neuralwatt によって提供される AI モデルです。",
-        "family": "kimi",
+        "family": "kimi-k2",
         "id": "moonshotai/Kimi-K2.5",
         "interleaved": {
           "field": "reasoning_content"
@@ -107578,7 +108761,7 @@
           "output": 3.22
         },
         "description": "Kimi K2.6 は neuralwatt によって提供される AI モデルです。",
-        "family": "kimi",
+        "family": "kimi-k2",
         "id": "moonshotai/Kimi-K2.6",
         "interleaved": {
           "field": "reasoning_content"
@@ -109388,7 +110571,7 @@
           "output": 2.5
         },
         "description": "Kimi K2 0905 は novita-ai によって提供される AI モデルです。",
-        "family": "kimi",
+        "family": "kimi-k2",
         "id": "moonshotai/kimi-k2-0905",
         "knowledge": "2024-10",
         "last_updated": "2025-09-05",
@@ -109447,7 +110630,7 @@
           "output": 2.5
         },
         "description": "Kimi K2 Thinking は novita-ai によって提供される AI モデルです。",
-        "family": "kimi",
+        "family": "kimi-thinking",
         "id": "moonshotai/kimi-k2-thinking",
         "interleaved": {
           "field": "reasoning_content"
@@ -109482,7 +110665,7 @@
           "output": 3
         },
         "description": "Kimi K2.5 は novita-ai によって提供される AI モデルです。",
-        "family": "kimi",
+        "family": "kimi-k2",
         "id": "moonshotai/kimi-k2.5",
         "interleaved": {
           "field": "reasoning_content"
@@ -109524,7 +110707,7 @@
           "output": 4
         },
         "description": "Kimi K2.6 は novita-ai によって提供される AI モデルです。",
-        "family": "kimi-k2.6",
+        "family": "kimi-k2",
         "id": "moonshotai/kimi-k2.6",
         "interleaved": {
           "field": "reasoning_content"
@@ -112374,7 +113557,7 @@
           "output": 0
         },
         "description": "Kimi K2 0905 は nvidia によって提供される AI モデルです。",
-        "family": "kimi",
+        "family": "kimi-k2",
         "id": "moonshotai/kimi-k2-instruct-0905",
         "knowledge": "2024-10",
         "last_updated": "2025-09-05",
@@ -112404,7 +113587,7 @@
           "output": 0
         },
         "description": "Kimi K2.6 は nvidia によって提供される AI モデルです。",
-        "family": "kimi-k2.6",
+        "family": "kimi-k2",
         "id": "moonshotai/kimi-k2.6",
         "interleaved": {
           "field": "reasoning_content"
@@ -114445,7 +115628,7 @@
       "kimi-k2.5": {
         "attachment": true,
         "description": "kimi-k2.5 は ollama-cloud によって提供される AI モデルです。",
-        "family": "kimi",
+        "family": "kimi-k2",
         "id": "kimi-k2.5",
         "last_updated": "2026-01-27",
         "limit": {
@@ -114475,7 +115658,7 @@
       "kimi-k2.6": {
         "attachment": true,
         "description": "kimi-k2.6 は ollama-cloud によって提供される AI モデルです。",
-        "family": "kimi",
+        "family": "kimi-k2",
         "id": "kimi-k2.6",
         "last_updated": "2026-04-20",
         "limit": {
@@ -114505,7 +115688,7 @@
       "kimi-k2:1t": {
         "attachment": false,
         "description": "kimi-k2:1t は ollama-cloud によって提供される AI モデルです。",
-        "family": "kimi",
+        "family": "kimi-k2",
         "id": "kimi-k2:1t",
         "knowledge": "2024-10",
         "last_updated": "2026-01-19",
@@ -118985,7 +120168,7 @@
           "output": 2.5
         },
         "description": "Kimi K2 は opencode によって提供される AI モデルです。",
-        "family": "kimi",
+        "family": "kimi-k2",
         "id": "kimi-k2",
         "knowledge": "2024-10",
         "last_updated": "2025-09-05",
@@ -119052,7 +120235,7 @@
           "output": 3
         },
         "description": "Kimi K2.5 は opencode によって提供される AI モデルです。",
-        "family": "kimi",
+        "family": "kimi-k2",
         "id": "kimi-k2.5",
         "interleaved": {
           "field": "reasoning_content"
@@ -119125,7 +120308,7 @@
           "output": 4
         },
         "description": "Kimi K2.6 は opencode によって提供される AI モデルです。",
-        "family": "kimi",
+        "family": "kimi-k2",
         "id": "kimi-k2.6",
         "interleaved": {
           "field": "reasoning_content"
@@ -120037,7 +121220,7 @@
           "output": 3
         },
         "description": "Kimi K2.5 は opencode-go によって提供される AI モデルです。",
-        "family": "kimi-k2.5",
+        "family": "kimi-k2",
         "id": "kimi-k2.5",
         "interleaved": {
           "field": "reasoning_content"
@@ -120063,6 +121246,7 @@
         "reasoning": true,
         "reasoning_options": [],
         "release_date": "2026-01-27",
+        "status": "deprecated",
         "temperature": true,
         "tool_call": true
       },
@@ -120074,7 +121258,7 @@
           "output": 4
         },
         "description": "Kimi K2.6 は opencode-go によって提供される AI モデルです。",
-        "family": "kimi-k2.6",
+        "family": "kimi-k2",
         "id": "kimi-k2.6",
         "interleaved": {
           "field": "reasoning_content"
@@ -120101,6 +121285,44 @@
         "reasoning_options": [],
         "release_date": "2026-04-21",
         "temperature": true,
+        "tool_call": true
+      },
+      "kimi-k2.7-code": {
+        "attachment": true,
+        "cost": {
+          "cache_read": 0.19,
+          "input": 0.95,
+          "output": 4
+        },
+        "description": "Kimi K2.7 Code は opencode-go によって提供される AI モデルです。",
+        "family": "kimi-k2",
+        "id": "kimi-k2.7-code",
+        "interleaved": {
+          "field": "reasoning_content"
+        },
+        "knowledge": "2025-01",
+        "last_updated": "2026-06-12",
+        "limit": {
+          "context": 262144,
+          "output": 262144
+        },
+        "modalities": {
+          "input": [
+            "text",
+            "image",
+            "video"
+          ],
+          "output": [
+            "text"
+          ]
+        },
+        "name": "Kimi K2.7 Code",
+        "open_weights": true,
+        "reasoning": true,
+        "reasoning_options": [],
+        "release_date": "2026-06-12",
+        "structured_output": true,
+        "temperature": false,
         "tool_call": true
       },
       "mimo-v2-omni": {
@@ -120335,6 +121557,7 @@
         "reasoning": true,
         "reasoning_options": [],
         "release_date": "2026-02-12",
+        "status": "deprecated",
         "temperature": true,
         "tool_call": true
       },
@@ -120376,11 +121599,11 @@
       "minimax-m3": {
         "attachment": false,
         "cost": {
-          "cache_read": 0.06,
-          "input": 0.3,
-          "output": 1.2
+          "cache_read": 0.02,
+          "input": 0.1,
+          "output": 0.4
         },
-        "description": "MiniMax M3 は opencode-go によって提供される AI モデルです。",
+        "description": "MiniMax M3 (3x usage) は opencode-go によって提供される AI モデルです。",
         "family": "minimax-m3",
         "id": "minimax-m3",
         "knowledge": "2025-01",
@@ -120399,7 +121622,7 @@
             "text"
           ]
         },
-        "name": "MiniMax M3",
+        "name": "MiniMax M3 (3x usage)",
         "open_weights": true,
         "provider": {
           "npm": "@ai-sdk/anthropic"
@@ -122389,7 +123612,7 @@
         "knowledge": "2024-07-31",
         "last_updated": "2025-03-24",
         "limit": {
-          "context": 32768,
+          "context": 163840,
           "output": 16384
         },
         "modalities": {
@@ -122686,9 +123909,9 @@
       "deepseek/deepseek-v4-flash": {
         "attachment": false,
         "cost": {
-          "cache_read": 0.0197,
-          "input": 0.0983,
-          "output": 0.1966
+          "cache_read": 0.02,
+          "input": 0.098,
+          "output": 0.196
         },
         "description": "DeepSeek V4 Flash は openrouter によって提供される AI モデルです。",
         "family": "deepseek-flash",
@@ -122699,7 +123922,7 @@
         "knowledge": "2025-05",
         "last_updated": "2026-04-24",
         "limit": {
-          "context": 1048576,
+          "context": 1048575,
           "output": 131072
         },
         "modalities": {
@@ -122820,7 +124043,7 @@
         "family": "gemini-flash",
         "id": "google/gemini-2.5-flash",
         "knowledge": "2025-01",
-        "last_updated": "2025-06-05",
+        "last_updated": "2025-06-17",
         "limit": {
           "context": 1048576,
           "output": 65535
@@ -122850,7 +124073,7 @@
             "type": "budget_tokens"
           }
         ],
-        "release_date": "2025-03-20",
+        "release_date": "2025-06-17",
         "structured_output": true,
         "temperature": true,
         "tool_call": true
@@ -122999,7 +124222,7 @@
         "family": "gemini-pro",
         "id": "google/gemini-2.5-pro",
         "knowledge": "2025-01",
-        "last_updated": "2025-06-05",
+        "last_updated": "2025-06-17",
         "limit": {
           "context": 1048576,
           "output": 65536
@@ -123026,7 +124249,7 @@
             "type": "budget_tokens"
           }
         ],
-        "release_date": "2025-03-20",
+        "release_date": "2025-06-17",
         "structured_output": true,
         "temperature": true,
         "tool_call": true
@@ -124710,37 +125933,6 @@
         "temperature": true,
         "tool_call": true
       },
-      "meta-llama/llama-guard-3-8b": {
-        "attachment": false,
-        "cost": {
-          "input": 0.484,
-          "output": 0.03
-        },
-        "description": "Llama Guard 3 8B は openrouter によって提供される AI モデルです。",
-        "family": "llama",
-        "id": "meta-llama/llama-guard-3-8b",
-        "knowledge": "2023-12-31",
-        "last_updated": "2025-02-12",
-        "limit": {
-          "context": 131072,
-          "output": 131072
-        },
-        "modalities": {
-          "input": [
-            "text"
-          ],
-          "output": [
-            "text"
-          ]
-        },
-        "name": "Llama Guard 3 8B",
-        "open_weights": true,
-        "reasoning": false,
-        "release_date": "2025-02-12",
-        "structured_output": false,
-        "temperature": true,
-        "tool_call": false
-      },
       "meta-llama/llama-guard-4-12b": {
         "attachment": true,
         "cost": {
@@ -125761,7 +126953,7 @@
           "output": 2.3
         },
         "description": "Kimi K2 0711 は openrouter によって提供される AI モデルです。",
-        "family": "kimi",
+        "family": "kimi-k2",
         "id": "moonshotai/kimi-k2",
         "knowledge": "2024-12-31",
         "last_updated": "2025-07-11",
@@ -125792,7 +126984,7 @@
           "output": 2.5
         },
         "description": "Kimi K2 0905 は openrouter によって提供される AI モデルです。",
-        "family": "kimi",
+        "family": "kimi-k2",
         "id": "moonshotai/kimi-k2-0905",
         "knowledge": "2024-12-31",
         "last_updated": "2025-09-04",
@@ -125859,7 +127051,7 @@
           "output": 1.9
         },
         "description": "Kimi K2.5 は openrouter によって提供される AI モデルです。",
-        "family": "kimi-k2.5",
+        "family": "kimi-k2",
         "id": "moonshotai/kimi-k2.5",
         "interleaved": {
           "field": "reasoning_details"
@@ -125891,12 +127083,12 @@
       "moonshotai/kimi-k2.6": {
         "attachment": true,
         "cost": {
-          "cache_read": 0.14,
-          "input": 0.67,
-          "output": 3.39
+          "cache_read": 0.34,
+          "input": 0.68,
+          "output": 3.41
         },
         "description": "Kimi K2.6 は openrouter によって提供される AI モデルです。",
-        "family": "kimi-k2.6",
+        "family": "kimi-k2",
         "id": "moonshotai/kimi-k2.6",
         "interleaved": {
           "field": "reasoning_details"
@@ -125904,8 +127096,8 @@
         "knowledge": "2025-01",
         "last_updated": "2026-04-21",
         "limit": {
-          "context": 262144,
-          "output": 262144
+          "context": 262142,
+          "output": 262142
         },
         "modalities": {
           "input": [
@@ -125921,6 +127113,40 @@
         "reasoning": true,
         "reasoning_options": [],
         "release_date": "2026-04-21",
+        "structured_output": true,
+        "temperature": true,
+        "tool_call": true
+      },
+      "moonshotai/kimi-k2.7-code": {
+        "attachment": true,
+        "cost": {
+          "cache_read": 0.19,
+          "input": 0.95,
+          "output": 4
+        },
+        "description": "Kimi K2.7 Code は openrouter によって提供される AI モデルです。",
+        "family": "kimi-k2",
+        "id": "moonshotai/kimi-k2.7-code",
+        "knowledge": "2025-01",
+        "last_updated": "2026-06-12",
+        "limit": {
+          "context": 262144,
+          "output": 262144
+        },
+        "modalities": {
+          "input": [
+            "text",
+            "image",
+            "video"
+          ],
+          "output": [
+            "text"
+          ]
+        },
+        "name": "Kimi K2.7 Code",
+        "open_weights": true,
+        "reasoning": true,
+        "release_date": "2026-06-12",
         "structured_output": true,
         "temperature": true,
         "tool_call": true
@@ -129558,8 +130784,9 @@
       "qwen/qwen2.5-vl-72b-instruct": {
         "attachment": true,
         "cost": {
-          "input": 0.25,
-          "output": 0.75
+          "cache_read": 0.4,
+          "input": 0.8,
+          "output": 1
         },
         "description": "Qwen2.5 VL 72B Instruct は openrouter によって提供される AI モデルです。",
         "family": "qwen",
@@ -129567,8 +130794,8 @@
         "knowledge": "2024-06-30",
         "last_updated": "2025-02-01",
         "limit": {
-          "context": 32000,
-          "output": 8192
+          "context": 128000,
+          "output": 128000
         },
         "modalities": {
           "input": [
@@ -130797,16 +132024,16 @@
       "qwen/qwen3.6-27b": {
         "attachment": true,
         "cost": {
-          "input": 0.289,
-          "output": 2.4
+          "input": 0.2885,
+          "output": 3.17
         },
         "description": "Qwen3.6 27B は openrouter によって提供される AI モデルです。",
         "family": "qwen",
         "id": "qwen/qwen3.6-27b",
         "last_updated": "2026-04-22",
         "limit": {
-          "context": 131072,
-          "output": 131072
+          "context": 262140,
+          "output": 262140
         },
         "modalities": {
           "input": [
@@ -132656,17 +133883,17 @@
       "~moonshotai/kimi-latest": {
         "attachment": true,
         "cost": {
-          "cache_read": 0.14,
-          "input": 0.67,
-          "output": 3.39
+          "cache_read": 0.34,
+          "input": 0.68,
+          "output": 3.41
         },
         "description": "MoonshotAI Kimi Latest は openrouter によって提供される AI モデルです。",
         "family": "kimi",
         "id": "~moonshotai/kimi-latest",
         "last_updated": "2026-04-27",
         "limit": {
-          "context": 262144,
-          "output": 262144
+          "context": 262142,
+          "output": 262142
         },
         "modalities": {
           "input": [
@@ -133284,7 +134511,7 @@
         "family": "gemini-flash",
         "id": "google/gemini-2.5-flash",
         "knowledge": "2025-01",
-        "last_updated": "2025-06-05",
+        "last_updated": "2025-06-17",
         "limit": {
           "context": 1048576,
           "output": 65536
@@ -133304,7 +134531,7 @@
         "name": "Gemini 2.5 Flash",
         "open_weights": false,
         "reasoning": true,
-        "release_date": "2025-03-20",
+        "release_date": "2025-06-17",
         "structured_output": true,
         "temperature": true,
         "tool_call": true
@@ -133373,7 +134600,7 @@
         "family": "gemini-pro",
         "id": "google/gemini-2.5-pro",
         "knowledge": "2025-01",
-        "last_updated": "2025-06-05",
+        "last_updated": "2025-06-17",
         "limit": {
           "context": 1048576,
           "output": 65536
@@ -133393,7 +134620,7 @@
         "name": "Gemini 2.5 Pro",
         "open_weights": false,
         "reasoning": true,
-        "release_date": "2025-03-20",
+        "release_date": "2025-06-17",
         "structured_output": true,
         "temperature": true,
         "tool_call": true
@@ -133820,7 +135047,7 @@
           "output": 3
         },
         "description": "Kimi K2.5 は orcarouter によって提供される AI モデルです。",
-        "family": "kimi-k2.5",
+        "family": "kimi-k2",
         "id": "kimi/kimi-k2.5",
         "interleaved": {
           "field": "reasoning_content"
@@ -133857,7 +135084,7 @@
           "output": 4
         },
         "description": "Kimi K2.6 は orcarouter によって提供される AI モデルです。",
-        "family": "kimi-k2.6",
+        "family": "kimi-k2",
         "id": "kimi/kimi-k2.6",
         "interleaved": {
           "field": "reasoning_content"
@@ -138918,7 +140145,7 @@
       "novita/kimi-k2-thinking": {
         "attachment": true,
         "description": "kimi-k2-thinking は poe によって提供される AI モデルです。",
-        "family": "kimi",
+        "family": "kimi-thinking",
         "id": "novita/kimi-k2-thinking",
         "last_updated": "2025-11-07",
         "limit": {
@@ -144893,7 +146120,7 @@
         "family": "gemini-pro",
         "id": "google/gemini-2.5-pro",
         "knowledge": "2025-01",
-        "last_updated": "2025-06-05",
+        "last_updated": "2025-06-17",
         "limit": {
           "context": 1048576,
           "output": 65536
@@ -144913,7 +146140,7 @@
         "name": "Gemini 2.5 Pro",
         "open_weights": false,
         "reasoning": true,
-        "release_date": "2025-03-20",
+        "release_date": "2025-06-17",
         "temperature": true,
         "tool_call": true
       },
@@ -146127,7 +147354,7 @@
           "output": 2.42
         },
         "description": "Kimi K2.5 は routing-run によって提供される AI モデルです。",
-        "family": "kimi-k2.5",
+        "family": "kimi-k2",
         "id": "route/kimi-k2.5",
         "knowledge": "2025-01",
         "last_updated": "2026-01",
@@ -146161,7 +147388,7 @@
           "output": 2.42
         },
         "description": "Kimi K2.6 は routing-run によって提供される AI モデルです。",
-        "family": "kimi-k2.6",
+        "family": "kimi-k2",
         "id": "route/kimi-k2.6",
         "interleaved": {
           "field": "reasoning_content"
@@ -146198,7 +147425,7 @@
           "output": 2.42
         },
         "description": "Kimi K2.6 6bit は routing-run によって提供される AI モデルです。",
-        "family": "kimi-k2.6",
+        "family": "kimi-k2",
         "id": "route/kimi-k2.6-6bit",
         "interleaved": {
           "field": "reasoning_content"
@@ -150032,7 +151259,7 @@
           "output": 2.29
         },
         "description": "moonshotai/Kimi-K2-Instruct は siliconflow によって提供される AI モデルです。",
-        "family": "kimi",
+        "family": "kimi-k2",
         "id": "moonshotai/Kimi-K2-Instruct",
         "last_updated": "2025-11-25",
         "limit": {
@@ -150062,7 +151289,7 @@
           "output": 2
         },
         "description": "moonshotai/Kimi-K2-Instruct-0905 は siliconflow によって提供される AI モデルです。",
-        "family": "kimi",
+        "family": "kimi-k2",
         "id": "moonshotai/Kimi-K2-Instruct-0905",
         "last_updated": "2025-11-25",
         "limit": {
@@ -150122,7 +151349,7 @@
           "output": 2.25
         },
         "description": "moonshotai/Kimi-K2.5 は siliconflow によって提供される AI モデルです。",
-        "family": "kimi",
+        "family": "kimi-k2",
         "id": "moonshotai/Kimi-K2.5",
         "interleaved": {
           "field": "reasoning_content"
@@ -150157,7 +151384,7 @@
           "output": 4
         },
         "description": "moonshotai/Kimi-K2.6 は siliconflow によって提供される AI モデルです。",
-        "family": "kimi",
+        "family": "kimi-k2",
         "id": "moonshotai/Kimi-K2.6",
         "interleaved": {
           "field": "reasoning_content"
@@ -150971,7 +152198,7 @@
           "output": 2
         },
         "description": "Pro/moonshotai/Kimi-K2-Instruct-0905 は siliconflow-cn によって提供される AI モデルです。",
-        "family": "kimi",
+        "family": "kimi-k2",
         "id": "Pro/moonshotai/Kimi-K2-Instruct-0905",
         "last_updated": "2025-11-25",
         "limit": {
@@ -151031,7 +152258,7 @@
           "output": 2.25
         },
         "description": "Pro/moonshotai/Kimi-K2.5 は siliconflow-cn によって提供される AI モデルです。",
-        "family": "kimi",
+        "family": "kimi-k2",
         "id": "Pro/moonshotai/Kimi-K2.5",
         "interleaved": {
           "field": "reasoning_content"
@@ -151066,7 +152293,7 @@
           "output": 4
         },
         "description": "Pro/moonshotai/Kimi-K2.6 は siliconflow-cn によって提供される AI モデルです。",
-        "family": "kimi",
+        "family": "kimi-k2",
         "id": "Pro/moonshotai/Kimi-K2.6",
         "interleaved": {
           "field": "reasoning_content"
@@ -152909,7 +154136,7 @@
           "output": 2
         },
         "description": "moonshotai/Kimi-K2-Instruct-0905 は siliconflow-cn によって提供される AI モデルです。",
-        "family": "kimi",
+        "family": "kimi-k2",
         "id": "moonshotai/Kimi-K2-Instruct-0905",
         "last_updated": "2025-11-25",
         "limit": {
@@ -155170,7 +156397,7 @@
           "output": 1.2
         },
         "description": "Kimi K2 0905 は synthetic によって提供される AI モデルです。",
-        "family": "kimi",
+        "family": "kimi-k2",
         "id": "hf:moonshotai/Kimi-K2-Instruct-0905",
         "knowledge": "2024-10",
         "last_updated": "2025-09-05",
@@ -155230,7 +156457,7 @@
           "output": 2.19
         },
         "description": "Kimi K2.5 は synthetic によって提供される AI モデルです。",
-        "family": "kimi",
+        "family": "kimi-k2",
         "id": "hf:moonshotai/Kimi-K2.5",
         "interleaved": {
           "field": "reasoning_content"
@@ -155265,7 +156492,7 @@
           "output": 4
         },
         "description": "Kimi K2.6 は synthetic によって提供される AI モデルです。",
-        "family": "kimi-k2.6",
+        "family": "kimi-k2",
         "id": "hf:moonshotai/Kimi-K2.6",
         "interleaved": {
           "field": "reasoning_content"
@@ -155300,7 +156527,7 @@
           "output": 2.19
         },
         "description": "Kimi K2.5 (NVFP4) は synthetic によって提供される AI モデルです。",
-        "family": "kimi",
+        "family": "kimi-k2",
         "id": "hf:nvidia/Kimi-K2.5-NVFP4",
         "interleaved": {
           "field": "reasoning_content"
@@ -155742,7 +156969,7 @@
           "output": 0
         },
         "description": "Kimi-K2.5 は tencent-coding-plan によって提供される AI モデルです。",
-        "family": "kimi",
+        "family": "kimi-k2",
         "id": "kimi-k2.5",
         "interleaved": {
           "field": "reasoning_content"
@@ -156835,7 +158062,7 @@
           "output": 2.8
         },
         "description": "Kimi K2.5 は togetherai によって提供される AI モデルです。",
-        "family": "kimi",
+        "family": "kimi-k2",
         "id": "moonshotai/Kimi-K2.5",
         "interleaved": true,
         "knowledge": "2026-01",
@@ -156874,7 +158101,7 @@
           "output": 4.5
         },
         "description": "Kimi K2.6 は togetherai によって提供される AI モデルです。",
-        "family": "kimi-k2.6",
+        "family": "kimi-k2",
         "id": "moonshotai/Kimi-K2.6",
         "knowledge": "2025-01",
         "last_updated": "2026-04-21",
@@ -157129,6 +158356,224 @@
     "name": "Together AI",
     "npm": "@ai-sdk/togetherai"
   },
+  "umans-ai": {
+    "api": "https://api.code.umans.ai/v1",
+    "doc": "https://app.umans.ai/offers/code/docs/orgs",
+    "env": [
+      "UMANS_AI_API_KEY"
+    ],
+    "iconURL": "https://models.dev/logos/umans-ai.svg",
+    "id": "umans-ai",
+    "models": {
+      "umans-coder": {
+        "attachment": true,
+        "cost": {
+          "cache_read": 0.2,
+          "input": 0.95,
+          "output": 4
+        },
+        "description": "Umans Coder は umans-ai によって提供される AI モデルです。",
+        "family": "kimi-k2",
+        "id": "umans-coder",
+        "interleaved": {
+          "field": "reasoning_content"
+        },
+        "knowledge": "2025-01",
+        "last_updated": "2026-04-21",
+        "limit": {
+          "context": 262144,
+          "output": 32768
+        },
+        "modalities": {
+          "input": [
+            "text",
+            "image"
+          ],
+          "output": [
+            "text"
+          ]
+        },
+        "name": "Umans Coder",
+        "open_weights": true,
+        "reasoning": true,
+        "reasoning_options": [
+          {
+            "type": "toggle"
+          }
+        ],
+        "release_date": "2026-04-21",
+        "structured_output": true,
+        "temperature": false,
+        "tool_call": true
+      },
+      "umans-flash": {
+        "attachment": true,
+        "cost": {
+          "cache_read": 0.05,
+          "input": 0.15,
+          "output": 1
+        },
+        "description": "Umans Flash は umans-ai によって提供される AI モデルです。",
+        "family": "qwen",
+        "id": "umans-flash",
+        "interleaved": {
+          "field": "reasoning_content"
+        },
+        "last_updated": "2026-04-17",
+        "limit": {
+          "context": 262144,
+          "output": 32768
+        },
+        "modalities": {
+          "input": [
+            "text",
+            "image"
+          ],
+          "output": [
+            "text"
+          ]
+        },
+        "name": "Umans Flash",
+        "open_weights": true,
+        "reasoning": true,
+        "reasoning_options": [
+          {
+            "type": "toggle"
+          }
+        ],
+        "release_date": "2026-04-17",
+        "structured_output": true,
+        "temperature": false,
+        "tool_call": true
+      },
+      "umans-glm-5.1": {
+        "attachment": false,
+        "cost": {
+          "cache_read": 0.29,
+          "input": 1.4,
+          "output": 4.4
+        },
+        "description": "GLM 5.1 は umans-ai によって提供される AI モデルです。",
+        "family": "glm",
+        "id": "umans-glm-5.1",
+        "interleaved": {
+          "field": "reasoning_content"
+        },
+        "last_updated": "2026-03-27",
+        "limit": {
+          "context": 204800,
+          "output": 131072
+        },
+        "modalities": {
+          "input": [
+            "text",
+            "image"
+          ],
+          "output": [
+            "text"
+          ]
+        },
+        "name": "GLM 5.1",
+        "open_weights": true,
+        "reasoning": true,
+        "reasoning_options": [
+          {
+            "type": "toggle"
+          }
+        ],
+        "release_date": "2026-03-27",
+        "structured_output": true,
+        "temperature": true,
+        "tool_call": true
+      },
+      "umans-kimi-k2.6": {
+        "attachment": true,
+        "cost": {
+          "cache_read": 0.2,
+          "input": 0.95,
+          "output": 4
+        },
+        "description": "Kimi K2.6 は umans-ai によって提供される AI モデルです。",
+        "family": "kimi-k2",
+        "id": "umans-kimi-k2.6",
+        "interleaved": {
+          "field": "reasoning_content"
+        },
+        "knowledge": "2025-01",
+        "last_updated": "2026-04-21",
+        "limit": {
+          "context": 262144,
+          "output": 32768
+        },
+        "modalities": {
+          "input": [
+            "text",
+            "image",
+            "video"
+          ],
+          "output": [
+            "text"
+          ]
+        },
+        "name": "Kimi K2.6",
+        "open_weights": true,
+        "reasoning": true,
+        "reasoning_options": [
+          {
+            "type": "toggle"
+          }
+        ],
+        "release_date": "2026-04-21",
+        "structured_output": true,
+        "temperature": false,
+        "tool_call": true
+      },
+      "umans-kimi-k2.7": {
+        "attachment": true,
+        "cost": {
+          "cache_read": 0.19,
+          "input": 0.95,
+          "output": 4
+        },
+        "description": "Kimi K2.7 Code は umans-ai によって提供される AI モデルです。",
+        "family": "kimi-k2",
+        "id": "umans-kimi-k2.7",
+        "interleaved": {
+          "field": "reasoning_content"
+        },
+        "knowledge": "2025-01",
+        "last_updated": "2026-06-12",
+        "limit": {
+          "context": 262144,
+          "output": 32768
+        },
+        "modalities": {
+          "input": [
+            "text",
+            "image",
+            "video"
+          ],
+          "output": [
+            "text"
+          ]
+        },
+        "name": "Kimi K2.7 Code",
+        "open_weights": true,
+        "reasoning": true,
+        "reasoning_options": [
+          {
+            "type": "toggle"
+          }
+        ],
+        "release_date": "2026-06-12",
+        "structured_output": true,
+        "temperature": false,
+        "tool_call": true
+      }
+    },
+    "name": "Umans AI",
+    "npm": "@ai-sdk/openai-compatible"
+  },
   "umans-ai-coding-plan": {
     "api": "https://api.code.umans.ai/v1",
     "doc": "https://app.umans.ai/offers/code/docs",
@@ -157147,7 +158592,7 @@
           "output": 0
         },
         "description": "Umans Coder は umans-ai-coding-plan によって提供される AI モデルです。",
-        "family": "kimi-k2.6",
+        "family": "kimi-k2",
         "id": "umans-coder",
         "interleaved": {
           "field": "reasoning_content"
@@ -157170,6 +158615,11 @@
         "name": "Umans Coder",
         "open_weights": true,
         "reasoning": true,
+        "reasoning_options": [
+          {
+            "type": "toggle"
+          }
+        ],
         "release_date": "2026-04-21",
         "structured_output": true,
         "temperature": false,
@@ -157186,6 +158636,9 @@
         "description": "Umans Flash は umans-ai-coding-plan によって提供される AI モデルです。",
         "family": "qwen",
         "id": "umans-flash",
+        "interleaved": {
+          "field": "reasoning_content"
+        },
         "last_updated": "2026-04-17",
         "limit": {
           "context": 262144,
@@ -157203,6 +158656,11 @@
         "name": "Umans Flash",
         "open_weights": true,
         "reasoning": true,
+        "reasoning_options": [
+          {
+            "type": "toggle"
+          }
+        ],
         "release_date": "2026-04-17",
         "structured_output": true,
         "temperature": false,
@@ -157229,7 +158687,8 @@
         },
         "modalities": {
           "input": [
-            "text"
+            "text",
+            "image"
           ],
           "output": [
             "text"
@@ -157238,6 +158697,11 @@
         "name": "GLM 5.1",
         "open_weights": true,
         "reasoning": true,
+        "reasoning_options": [
+          {
+            "type": "toggle"
+          }
+        ],
         "release_date": "2026-03-27",
         "structured_output": true,
         "temperature": true,
@@ -157252,7 +158716,7 @@
           "output": 0
         },
         "description": "Kimi K2.6 は umans-ai-coding-plan によって提供される AI モデルです。",
-        "family": "kimi-k2.6",
+        "family": "kimi-k2",
         "id": "umans-kimi-k2.6",
         "interleaved": {
           "field": "reasoning_content"
@@ -157266,7 +158730,8 @@
         "modalities": {
           "input": [
             "text",
-            "image"
+            "image",
+            "video"
           ],
           "output": [
             "text"
@@ -157275,7 +158740,55 @@
         "name": "Kimi K2.6",
         "open_weights": true,
         "reasoning": true,
+        "reasoning_options": [
+          {
+            "type": "toggle"
+          }
+        ],
         "release_date": "2026-04-21",
+        "structured_output": true,
+        "temperature": false,
+        "tool_call": true
+      },
+      "umans-kimi-k2.7": {
+        "attachment": true,
+        "cost": {
+          "cache_read": 0,
+          "cache_write": 0,
+          "input": 0,
+          "output": 0
+        },
+        "description": "Kimi K2.7 Code は umans-ai-coding-plan によって提供される AI モデルです。",
+        "family": "kimi-k2",
+        "id": "umans-kimi-k2.7",
+        "interleaved": {
+          "field": "reasoning_content"
+        },
+        "knowledge": "2025-01",
+        "last_updated": "2026-06-12",
+        "limit": {
+          "context": 262144,
+          "output": 262144
+        },
+        "modalities": {
+          "input": [
+            "text",
+            "image",
+            "video"
+          ],
+          "output": [
+            "text"
+          ]
+        },
+        "name": "Kimi K2.7 Code",
+        "open_weights": true,
+        "reasoning": true,
+        "reasoning_options": [
+          {
+            "type": "toggle"
+          }
+        ],
+        "release_date": "2026-06-12",
         "structured_output": true,
         "temperature": false,
         "tool_call": true
@@ -157291,6 +158804,9 @@
         "description": "Qwen3.6 35B A3B は umans-ai-coding-plan によって提供される AI モデルです。",
         "family": "qwen",
         "id": "umans-qwen3.6-35b-a3b",
+        "interleaved": {
+          "field": "reasoning_content"
+        },
         "last_updated": "2026-04-17",
         "limit": {
           "context": 262144,
@@ -157308,6 +158824,11 @@
         "name": "Qwen3.6 35B A3B",
         "open_weights": true,
         "reasoning": true,
+        "reasoning_options": [
+          {
+            "type": "toggle"
+          }
+        ],
         "release_date": "2026-04-17",
         "structured_output": true,
         "temperature": false,
@@ -158617,7 +160138,7 @@
           "output": 3.5
         },
         "description": "Kimi K2.5 は venice によって提供される AI モデルです。",
-        "family": "kimi",
+        "family": "kimi-k2",
         "id": "kimi-k2-5",
         "interleaved": {
           "field": "reasoning_content"
@@ -158664,7 +160185,7 @@
           "output": 4.655
         },
         "description": "Kimi K2.6 は venice によって提供される AI モデルです。",
-        "family": "kimi",
+        "family": "kimi-k2",
         "id": "kimi-k2-6",
         "interleaved": {
           "field": "reasoning_content"
@@ -165568,7 +167089,7 @@
           "output": 2.3
         },
         "description": "Kimi K2 Instruct は vercel によって提供される AI モデルです。",
-        "family": "kimi",
+        "family": "kimi-k2",
         "id": "moonshotai/kimi-k2",
         "last_updated": "2025-09-05",
         "limit": {
@@ -165630,7 +167151,7 @@
           "output": 3
         },
         "description": "Kimi K2.5 は vercel によって提供される AI モデルです。",
-        "family": "kimi",
+        "family": "kimi-k2",
         "id": "moonshotai/kimi-k2.5",
         "interleaved": true,
         "knowledge": "2025-01",
@@ -165664,7 +167185,7 @@
           "output": 4
         },
         "description": "Kimi K2.6 は vercel によって提供される AI モデルです。",
-        "family": "kimi-k2.6",
+        "family": "kimi-k2",
         "id": "moonshotai/kimi-k2.6",
         "knowledge": "2025-01",
         "last_updated": "2026-04-21",
@@ -165686,6 +167207,40 @@
         "open_weights": true,
         "reasoning": true,
         "release_date": "2026-04-20",
+        "structured_output": true,
+        "temperature": true,
+        "tool_call": true
+      },
+      "moonshotai/kimi-k2.7-code": {
+        "attachment": true,
+        "cost": {
+          "cache_read": 0.19,
+          "input": 0.95,
+          "output": 4
+        },
+        "description": "Kimi K2.7 Code は vercel によって提供される AI モデルです。",
+        "family": "kimi-k2",
+        "id": "moonshotai/kimi-k2.7-code",
+        "knowledge": "2025-01",
+        "last_updated": "2026-06-12",
+        "limit": {
+          "context": 256000,
+          "output": 32768
+        },
+        "modalities": {
+          "input": [
+            "text",
+            "image",
+            "pdf"
+          ],
+          "output": [
+            "text"
+          ]
+        },
+        "name": "Kimi K2.7 Code",
+        "open_weights": false,
+        "reasoning": true,
+        "release_date": "2026-06-12",
         "structured_output": true,
         "temperature": true,
         "tool_call": true
@@ -169732,7 +171287,7 @@
           "output": 0.6
         },
         "description": "Kimi K2.6 は vultr によって提供される AI モデルです。",
-        "family": "kimi-k2.6",
+        "family": "kimi-k2",
         "id": "moonshotai/Kimi-K2.6",
         "interleaved": {
           "field": "reasoning_content"
@@ -169977,7 +171532,7 @@
           "output": 3.15
         },
         "description": "Kimi-K2.6 は wafer.ai によって提供される AI モデルです。",
-        "family": "kimi",
+        "family": "kimi-k2",
         "id": "Kimi-K2.6",
         "knowledge": "2025-01",
         "last_updated": "2026-06-01",
@@ -170611,7 +172166,7 @@
           "output": 2.85
         },
         "description": "Kimi K2.5 は wandb によって提供される AI モデルです。",
-        "family": "kimi",
+        "family": "kimi-k2",
         "id": "moonshotai/Kimi-K2.5",
         "interleaved": {
           "field": "reasoning_content"
@@ -170850,7 +172405,6 @@
         "name": "Grok 4.20 (Non-Reasoning)",
         "open_weights": false,
         "reasoning": false,
-        "reasoning_options": [],
         "release_date": "2026-03-09",
         "structured_output": true,
         "temperature": true,
@@ -174598,6 +176152,74 @@
         "open_weights": true,
         "reasoning": true,
         "release_date": "2026-04-20",
+        "temperature": false,
+        "tool_call": true
+      },
+      "moonshotai/kimi-k2.7-code": {
+        "attachment": true,
+        "cost": {
+          "cache_read": 0.16,
+          "input": 0.95,
+          "output": 4
+        },
+        "description": "Kimi K2.7 Code は zenmux によって提供される AI モデルです。",
+        "family": "kimi-k2",
+        "id": "moonshotai/kimi-k2.7-code",
+        "knowledge": "2025-01",
+        "last_updated": "2026-06-12",
+        "limit": {
+          "context": 262144,
+          "output": 262144
+        },
+        "modalities": {
+          "input": [
+            "text",
+            "image",
+            "video"
+          ],
+          "output": [
+            "text"
+          ]
+        },
+        "name": "Kimi K2.7 Code",
+        "open_weights": true,
+        "reasoning": true,
+        "release_date": "2026-06-12",
+        "structured_output": true,
+        "temperature": false,
+        "tool_call": true
+      },
+      "moonshotai/kimi-k2.7-code-free": {
+        "attachment": true,
+        "cost": {
+          "cache_read": 0,
+          "input": 0,
+          "output": 0
+        },
+        "description": "Kimi K2.7 Code (Free) は zenmux によって提供される AI モデルです。",
+        "family": "kimi-k2",
+        "id": "moonshotai/kimi-k2.7-code-free",
+        "knowledge": "2025-01",
+        "last_updated": "2026-06-12",
+        "limit": {
+          "context": 262144,
+          "output": 262144
+        },
+        "modalities": {
+          "input": [
+            "text",
+            "image",
+            "video"
+          ],
+          "output": [
+            "text"
+          ]
+        },
+        "name": "Kimi K2.7 Code (Free)",
+        "open_weights": true,
+        "reasoning": true,
+        "release_date": "2026-06-12",
+        "structured_output": true,
         "temperature": false,
         "tool_call": true
       },

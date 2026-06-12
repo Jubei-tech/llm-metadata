@@ -1784,7 +1784,7 @@
       "knowledge": "2024-07-31",
       "last_updated": "2025-03-24",
       "limit": {
-        "context": 32768,
+        "context": 163840,
         "output": 16384
       },
       "modalities": {
@@ -2081,9 +2081,9 @@
     "deepseek/deepseek-v4-flash": {
       "attachment": false,
       "cost": {
-        "cache_read": 0.0197,
-        "input": 0.0983,
-        "output": 0.1966
+        "cache_read": 0.02,
+        "input": 0.098,
+        "output": 0.196
       },
       "description": "DeepSeek V4 Flash は openrouter によって提供される AI モデルです。",
       "family": "deepseek-flash",
@@ -2094,7 +2094,7 @@
       "knowledge": "2025-05",
       "last_updated": "2026-04-24",
       "limit": {
-        "context": 1048576,
+        "context": 1048575,
         "output": 131072
       },
       "modalities": {
@@ -2215,7 +2215,7 @@
       "family": "gemini-flash",
       "id": "google/gemini-2.5-flash",
       "knowledge": "2025-01",
-      "last_updated": "2025-06-05",
+      "last_updated": "2025-06-17",
       "limit": {
         "context": 1048576,
         "output": 65535
@@ -2245,7 +2245,7 @@
           "type": "budget_tokens"
         }
       ],
-      "release_date": "2025-03-20",
+      "release_date": "2025-06-17",
       "structured_output": true,
       "temperature": true,
       "tool_call": true
@@ -2394,7 +2394,7 @@
       "family": "gemini-pro",
       "id": "google/gemini-2.5-pro",
       "knowledge": "2025-01",
-      "last_updated": "2025-06-05",
+      "last_updated": "2025-06-17",
       "limit": {
         "context": 1048576,
         "output": 65536
@@ -2421,7 +2421,7 @@
           "type": "budget_tokens"
         }
       ],
-      "release_date": "2025-03-20",
+      "release_date": "2025-06-17",
       "structured_output": true,
       "temperature": true,
       "tool_call": true
@@ -4105,37 +4105,6 @@
       "temperature": true,
       "tool_call": true
     },
-    "meta-llama/llama-guard-3-8b": {
-      "attachment": false,
-      "cost": {
-        "input": 0.484,
-        "output": 0.03
-      },
-      "description": "Llama Guard 3 8B は openrouter によって提供される AI モデルです。",
-      "family": "llama",
-      "id": "meta-llama/llama-guard-3-8b",
-      "knowledge": "2023-12-31",
-      "last_updated": "2025-02-12",
-      "limit": {
-        "context": 131072,
-        "output": 131072
-      },
-      "modalities": {
-        "input": [
-          "text"
-        ],
-        "output": [
-          "text"
-        ]
-      },
-      "name": "Llama Guard 3 8B",
-      "open_weights": true,
-      "reasoning": false,
-      "release_date": "2025-02-12",
-      "structured_output": false,
-      "temperature": true,
-      "tool_call": false
-    },
     "meta-llama/llama-guard-4-12b": {
       "attachment": true,
       "cost": {
@@ -5156,7 +5125,7 @@
         "output": 2.3
       },
       "description": "Kimi K2 0711 は openrouter によって提供される AI モデルです。",
-      "family": "kimi",
+      "family": "kimi-k2",
       "id": "moonshotai/kimi-k2",
       "knowledge": "2024-12-31",
       "last_updated": "2025-07-11",
@@ -5187,7 +5156,7 @@
         "output": 2.5
       },
       "description": "Kimi K2 0905 は openrouter によって提供される AI モデルです。",
-      "family": "kimi",
+      "family": "kimi-k2",
       "id": "moonshotai/kimi-k2-0905",
       "knowledge": "2024-12-31",
       "last_updated": "2025-09-04",
@@ -5254,7 +5223,7 @@
         "output": 1.9
       },
       "description": "Kimi K2.5 は openrouter によって提供される AI モデルです。",
-      "family": "kimi-k2.5",
+      "family": "kimi-k2",
       "id": "moonshotai/kimi-k2.5",
       "interleaved": {
         "field": "reasoning_details"
@@ -5286,12 +5255,12 @@
     "moonshotai/kimi-k2.6": {
       "attachment": true,
       "cost": {
-        "cache_read": 0.14,
-        "input": 0.67,
-        "output": 3.39
+        "cache_read": 0.34,
+        "input": 0.68,
+        "output": 3.41
       },
       "description": "Kimi K2.6 は openrouter によって提供される AI モデルです。",
-      "family": "kimi-k2.6",
+      "family": "kimi-k2",
       "id": "moonshotai/kimi-k2.6",
       "interleaved": {
         "field": "reasoning_details"
@@ -5299,8 +5268,8 @@
       "knowledge": "2025-01",
       "last_updated": "2026-04-21",
       "limit": {
-        "context": 262144,
-        "output": 262144
+        "context": 262142,
+        "output": 262142
       },
       "modalities": {
         "input": [
@@ -5316,6 +5285,40 @@
       "reasoning": true,
       "reasoning_options": [],
       "release_date": "2026-04-21",
+      "structured_output": true,
+      "temperature": true,
+      "tool_call": true
+    },
+    "moonshotai/kimi-k2.7-code": {
+      "attachment": true,
+      "cost": {
+        "cache_read": 0.19,
+        "input": 0.95,
+        "output": 4
+      },
+      "description": "Kimi K2.7 Code は openrouter によって提供される AI モデルです。",
+      "family": "kimi-k2",
+      "id": "moonshotai/kimi-k2.7-code",
+      "knowledge": "2025-01",
+      "last_updated": "2026-06-12",
+      "limit": {
+        "context": 262144,
+        "output": 262144
+      },
+      "modalities": {
+        "input": [
+          "text",
+          "image",
+          "video"
+        ],
+        "output": [
+          "text"
+        ]
+      },
+      "name": "Kimi K2.7 Code",
+      "open_weights": true,
+      "reasoning": true,
+      "release_date": "2026-06-12",
       "structured_output": true,
       "temperature": true,
       "tool_call": true
@@ -8953,8 +8956,9 @@
     "qwen/qwen2.5-vl-72b-instruct": {
       "attachment": true,
       "cost": {
-        "input": 0.25,
-        "output": 0.75
+        "cache_read": 0.4,
+        "input": 0.8,
+        "output": 1
       },
       "description": "Qwen2.5 VL 72B Instruct は openrouter によって提供される AI モデルです。",
       "family": "qwen",
@@ -8962,8 +8966,8 @@
       "knowledge": "2024-06-30",
       "last_updated": "2025-02-01",
       "limit": {
-        "context": 32000,
-        "output": 8192
+        "context": 128000,
+        "output": 128000
       },
       "modalities": {
         "input": [
@@ -10192,16 +10196,16 @@
     "qwen/qwen3.6-27b": {
       "attachment": true,
       "cost": {
-        "input": 0.289,
-        "output": 2.4
+        "input": 0.2885,
+        "output": 3.17
       },
       "description": "Qwen3.6 27B は openrouter によって提供される AI モデルです。",
       "family": "qwen",
       "id": "qwen/qwen3.6-27b",
       "last_updated": "2026-04-22",
       "limit": {
-        "context": 131072,
-        "output": 131072
+        "context": 262140,
+        "output": 262140
       },
       "modalities": {
         "input": [
@@ -12051,17 +12055,17 @@
     "~moonshotai/kimi-latest": {
       "attachment": true,
       "cost": {
-        "cache_read": 0.14,
-        "input": 0.67,
-        "output": 3.39
+        "cache_read": 0.34,
+        "input": 0.68,
+        "output": 3.41
       },
       "description": "MoonshotAI Kimi Latest は openrouter によって提供される AI モデルです。",
       "family": "kimi",
       "id": "~moonshotai/kimi-latest",
       "last_updated": "2026-04-27",
       "limit": {
-        "context": 262144,
-        "output": 262144
+        "context": 262142,
+        "output": 262142
       },
       "modalities": {
         "input": [

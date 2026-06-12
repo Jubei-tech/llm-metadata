@@ -7,7 +7,7 @@
     "output": 0
   },
   "description": "Kimi K2.6 は umans-ai-coding-plan によって提供される AI モデルです。",
-  "family": "kimi-k2.6",
+  "family": "kimi-k2",
   "id": "umans-kimi-k2.6",
   "interleaved": {
     "field": "reasoning_content"
@@ -21,7 +21,8 @@
   "modalities": {
     "input": [
       "text",
-      "image"
+      "image",
+      "video"
     ],
     "output": [
       "text"
@@ -30,6 +31,11 @@
   "name": "Kimi K2.6",
   "open_weights": true,
   "reasoning": true,
+  "reasoning_options": [
+    {
+      "type": "toggle"
+    }
+  ],
   "release_date": "2026-04-21",
   "structured_output": true,
   "temperature": false,
