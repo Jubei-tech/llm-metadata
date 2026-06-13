@@ -1,0 +1,41 @@
+{
+  "attachment": true,
+  "cost": {
+    "cache_read": 0.38,
+    "input": 2,
+    "output": 8
+  },
+  "description": "Kimi K2.7 Code Fast は fireworks-ai によって提供される AI モデルです。",
+  "family": "kimi-k2",
+  "id": "accounts/fireworks/routers/kimi-k2p7-code-fast",
+  "interleaved": {
+    "field": "reasoning_content"
+  },
+  "knowledge": "2025-01",
+  "last_updated": "2026-06-12",
+  "limit": {
+    "context": 262000,
+    "output": 262000
+  },
+  "modalities": {
+    "input": [
+      "text",
+      "image"
+    ],
+    "output": [
+      "text"
+    ]
+  },
+  "name": "Kimi K2.7 Code Fast",
+  "open_weights": true,
+  "reasoning": true,
+  "reasoning_options": [
+    {
+      "type": "toggle"
+    }
+  ],
+  "release_date": "2026-06-12",
+  "structured_output": true,
+  "temperature": true,
+  "tool_call": true
+}
