@@ -8390,7 +8390,7 @@
       "attachment": false,
       "description": "Fusion is an AI model provided by openrouter.",
       "id": "openrouter/fusion",
-      "last_updated": "2026-05-12",
+      "last_updated": "2026-06-13",
       "limit": {
         "context": 128000,
         "output": 128000
@@ -8406,7 +8406,7 @@
       "name": "Fusion",
       "open_weights": false,
       "reasoning": false,
-      "release_date": "2026-05-12",
+      "release_date": "2026-06-13",
       "structured_output": false,
       "temperature": false,
       "tool_call": false
@@ -11363,7 +11363,11 @@
       "name": "MiMo-V2.5",
       "open_weights": true,
       "reasoning": true,
-      "reasoning_options": [],
+      "reasoning_options": [
+        {
+          "type": "toggle"
+        }
+      ],
       "release_date": "2026-04-22",
       "structured_output": false,
       "temperature": true,
@@ -11399,7 +11403,11 @@
       "name": "MiMo-V2.5-Pro",
       "open_weights": true,
       "reasoning": true,
-      "reasoning_options": [],
+      "reasoning_options": [
+        {
+          "type": "toggle"
+        }
+      ],
       "release_date": "2026-04-22",
       "structured_output": true,
       "temperature": true,

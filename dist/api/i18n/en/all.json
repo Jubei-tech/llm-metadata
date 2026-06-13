@@ -3089,6 +3089,7 @@
         "name": "QwQ 32B",
         "open_weights": true,
         "reasoning": true,
+        "reasoning_options": [],
         "release_date": "2024-11-28",
         "temperature": true,
         "tool_call": true
@@ -3147,6 +3148,7 @@
         "name": "Qwen3 235B A22B Instruct",
         "open_weights": true,
         "reasoning": true,
+        "reasoning_options": [],
         "release_date": "2025-07-01",
         "temperature": true,
         "tool_call": true
@@ -3176,6 +3178,7 @@
         "name": "Qwen3 32B",
         "open_weights": true,
         "reasoning": true,
+        "reasoning_options": [],
         "release_date": "2025-04-29",
         "temperature": true,
         "tool_call": true
@@ -3205,6 +3208,7 @@
         "name": "Qwen3 Coder 480B A35B Instruct",
         "open_weights": true,
         "reasoning": true,
+        "reasoning_options": [],
         "release_date": "2025-07-22",
         "temperature": true,
         "tool_call": true
@@ -3237,6 +3241,7 @@
         "name": "Claude Sonnet 3.7",
         "open_weights": false,
         "reasoning": true,
+        "reasoning_options": [],
         "release_date": "2025-02-19",
         "temperature": true,
         "tool_call": true
@@ -3269,6 +3274,7 @@
         "name": "Claude Haiku 4.5",
         "open_weights": false,
         "reasoning": true,
+        "reasoning_options": [],
         "release_date": "2025-10-15",
         "temperature": true,
         "tool_call": true
@@ -3300,6 +3306,7 @@
         "name": "Claude Opus 4.1",
         "open_weights": false,
         "reasoning": true,
+        "reasoning_options": [],
         "release_date": "2025-08-05",
         "temperature": true,
         "tool_call": true
@@ -3331,6 +3338,7 @@
         "name": "Claude Opus 4",
         "open_weights": false,
         "reasoning": true,
+        "reasoning_options": [],
         "release_date": "2025-05-14",
         "temperature": true,
         "tool_call": true
@@ -3363,6 +3371,7 @@
         "name": "Claude Opus 4.5",
         "open_weights": false,
         "reasoning": true,
+        "reasoning_options": [],
         "release_date": "2025-11-01",
         "temperature": true,
         "tool_call": true
@@ -3395,6 +3404,7 @@
         "name": "Claude Opus 4.6",
         "open_weights": false,
         "reasoning": true,
+        "reasoning_options": [],
         "release_date": "2026-02-05",
         "temperature": true,
         "tool_call": true
@@ -3426,6 +3436,7 @@
         "name": "Claude Sonnet 4",
         "open_weights": false,
         "reasoning": true,
+        "reasoning_options": [],
         "release_date": "2025-05-14",
         "temperature": true,
         "tool_call": true
@@ -3458,6 +3469,7 @@
         "name": "Claude Sonnet 4.5",
         "open_weights": false,
         "reasoning": true,
+        "reasoning_options": [],
         "release_date": "2025-09-29",
         "temperature": true,
         "tool_call": true
@@ -3490,6 +3502,7 @@
         "name": "Claude Sonnet 4.6",
         "open_weights": false,
         "reasoning": true,
+        "reasoning_options": [],
         "release_date": "2026-02-17",
         "temperature": true,
         "tool_call": true
@@ -3519,6 +3532,7 @@
         "name": "DeepSeek R1",
         "open_weights": true,
         "reasoning": true,
+        "reasoning_options": [],
         "release_date": "2025-01-20",
         "temperature": true,
         "tool_call": true
@@ -3548,6 +3562,7 @@
         "name": "DeepSeek V3.1 Terminus",
         "open_weights": true,
         "reasoning": true,
+        "reasoning_options": [],
         "release_date": "2025-06-01",
         "temperature": true,
         "tool_call": true
@@ -3577,6 +3592,7 @@
         "name": "DeepSeek V3.2",
         "open_weights": true,
         "reasoning": true,
+        "reasoning_options": [],
         "release_date": "2025-06-15",
         "temperature": true,
         "tool_call": true
@@ -3606,6 +3622,7 @@
         "name": "DeepSeek V3.1",
         "open_weights": true,
         "reasoning": true,
+        "reasoning_options": [],
         "release_date": "2025-01-20",
         "temperature": true,
         "tool_call": true
@@ -3640,6 +3657,7 @@
         "name": "Gemini 2.5 Flash",
         "open_weights": false,
         "reasoning": true,
+        "reasoning_options": [],
         "release_date": "2025-03-20",
         "temperature": true,
         "tool_call": true
@@ -3674,6 +3692,7 @@
         "name": "Gemini 2.5 Pro",
         "open_weights": false,
         "reasoning": true,
+        "reasoning_options": [],
         "release_date": "2025-03-25",
         "temperature": true,
         "tool_call": true
@@ -3708,6 +3727,7 @@
         "name": "Gemini 3 Flash Preview",
         "open_weights": false,
         "reasoning": true,
+        "reasoning_options": [],
         "release_date": "2025-12-17",
         "temperature": true,
         "tool_call": true
@@ -3743,6 +3763,7 @@
         "name": "Gemini 3.1 Flash Lite Preview",
         "open_weights": false,
         "reasoning": true,
+        "reasoning_options": [],
         "release_date": "2026-03-01",
         "structured_output": true,
         "temperature": true,
@@ -3778,6 +3799,7 @@
         "name": "Gemini 3.1 Pro Preview",
         "open_weights": false,
         "reasoning": true,
+        "reasoning_options": [],
         "release_date": "2026-02-19",
         "structured_output": true,
         "temperature": true,
@@ -3966,6 +3988,7 @@
         "name": "GPT-5",
         "open_weights": false,
         "reasoning": true,
+        "reasoning_options": [],
         "release_date": "2025-08-07",
         "temperature": false,
         "tool_call": true
@@ -3998,6 +4021,7 @@
         "name": "GPT-5 Codex",
         "open_weights": false,
         "reasoning": true,
+        "reasoning_options": [],
         "release_date": "2025-09-15",
         "structured_output": true,
         "temperature": false,
@@ -4030,6 +4054,7 @@
         "name": "GPT-5 Mini",
         "open_weights": false,
         "reasoning": true,
+        "reasoning_options": [],
         "release_date": "2025-08-07",
         "temperature": false,
         "tool_call": true
@@ -4061,6 +4086,7 @@
         "name": "GPT-5 Nano",
         "open_weights": false,
         "reasoning": true,
+        "reasoning_options": [],
         "release_date": "2025-08-07",
         "temperature": false,
         "tool_call": true
@@ -4092,6 +4118,7 @@
         "name": "GPT-5.1",
         "open_weights": false,
         "reasoning": true,
+        "reasoning_options": [],
         "release_date": "2025-11-13",
         "temperature": false,
         "tool_call": true
@@ -4123,6 +4150,7 @@
         "name": "GPT-5.1 Chat Latest",
         "open_weights": false,
         "reasoning": true,
+        "reasoning_options": [],
         "release_date": "2025-11-13",
         "temperature": false,
         "tool_call": true
@@ -4155,6 +4183,7 @@
         "name": "GPT-5.1 Codex",
         "open_weights": false,
         "reasoning": true,
+        "reasoning_options": [],
         "release_date": "2025-11-13",
         "structured_output": true,
         "temperature": false,
@@ -4188,6 +4217,7 @@
         "name": "GPT-5.1 Codex Max",
         "open_weights": false,
         "reasoning": true,
+        "reasoning_options": [],
         "release_date": "2025-11-13",
         "structured_output": true,
         "temperature": false,
@@ -4220,6 +4250,7 @@
         "name": "GPT-5.2",
         "open_weights": false,
         "reasoning": true,
+        "reasoning_options": [],
         "release_date": "2025-12-11",
         "temperature": false,
         "tool_call": true
@@ -4251,6 +4282,7 @@
         "name": "GPT-5.2 Chat Latest",
         "open_weights": false,
         "reasoning": true,
+        "reasoning_options": [],
         "release_date": "2026-01-01",
         "temperature": true,
         "tool_call": true
@@ -4284,6 +4316,7 @@
         "name": "GPT-5.2 Codex",
         "open_weights": false,
         "reasoning": true,
+        "reasoning_options": [],
         "release_date": "2025-12-11",
         "structured_output": true,
         "temperature": false,
@@ -4315,6 +4348,7 @@
         "name": "GPT-5.3 Chat Latest",
         "open_weights": false,
         "reasoning": true,
+        "reasoning_options": [],
         "release_date": "2026-03-01",
         "temperature": true,
         "tool_call": true
@@ -4348,6 +4382,7 @@
         "name": "GPT-5.3 Codex",
         "open_weights": false,
         "reasoning": true,
+        "reasoning_options": [],
         "release_date": "2026-02-05",
         "structured_output": true,
         "temperature": false,
@@ -4382,6 +4417,7 @@
         "name": "GPT-5.3 Codex XHigh",
         "open_weights": false,
         "reasoning": true,
+        "reasoning_options": [],
         "release_date": "2026-02-05",
         "structured_output": true,
         "temperature": false,
@@ -4415,6 +4451,7 @@
         "name": "GPT-5.4",
         "open_weights": false,
         "reasoning": true,
+        "reasoning_options": [],
         "release_date": "2026-03-05",
         "structured_output": true,
         "temperature": false,
@@ -4446,6 +4483,7 @@
         "name": "Grok 4",
         "open_weights": false,
         "reasoning": true,
+        "reasoning_options": [],
         "release_date": "2025-07-09",
         "temperature": true,
         "tool_call": true
@@ -4597,6 +4635,7 @@
         "name": "Kimi K2.5",
         "open_weights": true,
         "reasoning": true,
+        "reasoning_options": [],
         "release_date": "2026-01",
         "structured_output": true,
         "temperature": true,
@@ -4747,6 +4786,7 @@
         "name": "o3",
         "open_weights": false,
         "reasoning": true,
+        "reasoning_options": [],
         "release_date": "2025-04-16",
         "temperature": false,
         "tool_call": true
@@ -4777,6 +4817,7 @@
         "name": "o3-mini",
         "open_weights": false,
         "reasoning": true,
+        "reasoning_options": [],
         "release_date": "2024-12-20",
         "temperature": false,
         "tool_call": true
@@ -4808,6 +4849,7 @@
         "name": "o3-pro",
         "open_weights": false,
         "reasoning": true,
+        "reasoning_options": [],
         "release_date": "2025-06-10",
         "temperature": false,
         "tool_call": true
@@ -4839,6 +4881,7 @@
         "name": "o4-mini",
         "open_weights": false,
         "reasoning": true,
+        "reasoning_options": [],
         "release_date": "2025-04-16",
         "temperature": false,
         "tool_call": true
@@ -4869,6 +4912,16 @@
         "name": "GPT-OSS 120B",
         "open_weights": true,
         "reasoning": true,
+        "reasoning_options": [
+          {
+            "type": "effort",
+            "values": [
+              "low",
+              "medium",
+              "high"
+            ]
+          }
+        ],
         "release_date": "2025-08-05",
         "temperature": true,
         "tool_call": true
@@ -4927,6 +4980,7 @@
         "name": "Qwen3 Max",
         "open_weights": false,
         "reasoning": true,
+        "reasoning_options": [],
         "release_date": "2025-05-28",
         "temperature": true,
         "tool_call": true
@@ -4987,6 +5041,7 @@
         "name": "GLM-4.5",
         "open_weights": true,
         "reasoning": true,
+        "reasoning_options": [],
         "release_date": "2025-07-28",
         "temperature": true,
         "tool_call": true
@@ -5074,6 +5129,7 @@
         "name": "GLM-5",
         "open_weights": true,
         "reasoning": true,
+        "reasoning_options": [],
         "release_date": "2026-02-11",
         "temperature": true,
         "tool_call": true
@@ -5784,6 +5840,11 @@
         "name": "Coding Xiaomi MiMo-V2.5",
         "open_weights": true,
         "reasoning": true,
+        "reasoning_options": [
+          {
+            "type": "toggle"
+          }
+        ],
         "release_date": "2026-04-22",
         "temperature": true,
         "tool_call": true
@@ -5834,6 +5895,11 @@
         "name": "Coding Xiaomi MiMo-V2.5-Pro",
         "open_weights": true,
         "reasoning": true,
+        "reasoning_options": [
+          {
+            "type": "toggle"
+          }
+        ],
         "release_date": "2026-04-22",
         "temperature": true,
         "tool_call": true
@@ -7212,6 +7278,11 @@
         "name": "Xiaomi MiMo-V2.5",
         "open_weights": true,
         "reasoning": true,
+        "reasoning_options": [
+          {
+            "type": "toggle"
+          }
+        ],
         "release_date": "2026-04-22",
         "temperature": true,
         "tool_call": true
@@ -7249,6 +7320,11 @@
         "name": "Xiaomi MiMo-V2.5 (free)",
         "open_weights": true,
         "reasoning": true,
+        "reasoning_options": [
+          {
+            "type": "toggle"
+          }
+        ],
         "release_date": "2026-04-22",
         "temperature": true,
         "tool_call": true
@@ -7299,6 +7375,11 @@
         "name": "Xiaomi MiMo-V2.5-Pro",
         "open_weights": true,
         "reasoning": true,
+        "reasoning_options": [
+          {
+            "type": "toggle"
+          }
+        ],
         "release_date": "2026-04-22",
         "temperature": true,
         "tool_call": true
@@ -7333,6 +7414,11 @@
         "name": "Xiaomi MiMo-V2.5-Pro (free)",
         "open_weights": true,
         "reasoning": true,
+        "reasoning_options": [
+          {
+            "type": "toggle"
+          }
+        ],
         "release_date": "2026-04-22",
         "temperature": true,
         "tool_call": true
@@ -19199,6 +19285,7 @@
         "name": "Kimi K2.6",
         "open_weights": true,
         "reasoning": true,
+        "reasoning_options": [],
         "release_date": "2026-04-21",
         "structured_output": true,
         "temperature": true,
@@ -19234,6 +19321,7 @@
         "name": "GLM-5.1",
         "open_weights": true,
         "reasoning": true,
+        "reasoning_options": [],
         "release_date": "2026-03-27",
         "structured_output": true,
         "temperature": true,
@@ -20364,6 +20452,24 @@
         "name": "Claude Haiku 4.5 (latest)",
         "open_weights": false,
         "reasoning": true,
+        "reasoning_options": [
+          {
+            "type": "toggle"
+          },
+          {
+            "type": "effort",
+            "values": [
+              "low",
+              "medium",
+              "high"
+            ]
+          },
+          {
+            "max": 63999,
+            "min": 1024,
+            "type": "budget_tokens"
+          }
+        ],
         "release_date": "2025-10-15",
         "temperature": true,
         "tool_call": true
@@ -20412,6 +20518,24 @@
         "name": "Claude Opus 4.6",
         "open_weights": false,
         "reasoning": true,
+        "reasoning_options": [
+          {
+            "type": "toggle"
+          },
+          {
+            "type": "effort",
+            "values": [
+              "low",
+              "medium",
+              "high"
+            ]
+          },
+          {
+            "max": 127999,
+            "min": 1024,
+            "type": "budget_tokens"
+          }
+        ],
         "release_date": "2026-02-05",
         "temperature": true,
         "tool_call": true
@@ -20460,6 +20584,19 @@
         "name": "Claude Opus 4.7",
         "open_weights": false,
         "reasoning": true,
+        "reasoning_options": [
+          {
+            "type": "toggle"
+          },
+          {
+            "type": "effort",
+            "values": [
+              "low",
+              "medium",
+              "high"
+            ]
+          }
+        ],
         "release_date": "2026-04-16",
         "temperature": false,
         "tool_call": true
@@ -20488,6 +20625,24 @@
         "name": "Claude Sonnet 4.5 (latest)",
         "open_weights": false,
         "reasoning": true,
+        "reasoning_options": [
+          {
+            "type": "toggle"
+          },
+          {
+            "type": "effort",
+            "values": [
+              "low",
+              "medium",
+              "high"
+            ]
+          },
+          {
+            "max": 63999,
+            "min": 1024,
+            "type": "budget_tokens"
+          }
+        ],
         "release_date": "2025-09-29",
         "temperature": true,
         "tool_call": true
@@ -20516,6 +20671,24 @@
         "name": "Claude Sonnet 4.6",
         "open_weights": false,
         "reasoning": true,
+        "reasoning_options": [
+          {
+            "type": "toggle"
+          },
+          {
+            "type": "effort",
+            "values": [
+              "low",
+              "medium",
+              "high"
+            ]
+          },
+          {
+            "max": 63999,
+            "min": 1024,
+            "type": "budget_tokens"
+          }
+        ],
         "release_date": "2026-02-17",
         "temperature": true,
         "tool_call": true
@@ -20597,6 +20770,7 @@
         "name": "DeepSeek Reasoner",
         "open_weights": true,
         "reasoning": true,
+        "reasoning_options": [],
         "release_date": "2025-12-01",
         "temperature": true,
         "tool_call": true
@@ -20626,6 +20800,7 @@
         "name": "DeepSeek V4 Flash",
         "open_weights": true,
         "reasoning": true,
+        "reasoning_options": [],
         "release_date": "2026-04-24",
         "structured_output": true,
         "temperature": true,
@@ -20656,6 +20831,7 @@
         "name": "DeepSeek V4 Pro",
         "open_weights": true,
         "reasoning": true,
+        "reasoning_options": [],
         "release_date": "2026-04-24",
         "structured_output": true,
         "temperature": true,
@@ -20687,6 +20863,7 @@
         "name": "Gemini 2.5 Flash",
         "open_weights": false,
         "reasoning": true,
+        "reasoning_options": [],
         "release_date": "2025-06-17",
         "structured_output": true,
         "temperature": true,
@@ -20718,6 +20895,7 @@
         "name": "Gemini 2.5 Flash-Lite",
         "open_weights": false,
         "reasoning": true,
+        "reasoning_options": [],
         "release_date": "2025-06-17",
         "structured_output": true,
         "temperature": true,
@@ -20749,6 +20927,7 @@
         "name": "Gemini 2.5 Pro",
         "open_weights": false,
         "reasoning": true,
+        "reasoning_options": [],
         "release_date": "2025-06-17",
         "structured_output": true,
         "temperature": true,
@@ -20780,6 +20959,7 @@
         "name": "Gemini 3 Flash Preview",
         "open_weights": false,
         "reasoning": true,
+        "reasoning_options": [],
         "release_date": "2025-12-17",
         "structured_output": true,
         "temperature": true,
@@ -20811,6 +20991,7 @@
         "name": "Gemini 3 Pro Preview",
         "open_weights": false,
         "reasoning": true,
+        "reasoning_options": [],
         "release_date": "2025-11-18",
         "structured_output": true,
         "temperature": true,
@@ -20952,6 +21133,16 @@
         "name": "GPT-5",
         "open_weights": false,
         "reasoning": true,
+        "reasoning_options": [
+          {
+            "type": "effort",
+            "values": [
+              "low",
+              "medium",
+              "high"
+            ]
+          }
+        ],
         "release_date": "2025-08-07",
         "structured_output": true,
         "temperature": false,
@@ -20981,6 +21172,16 @@
         "name": "GPT-5 Mini",
         "open_weights": false,
         "reasoning": true,
+        "reasoning_options": [
+          {
+            "type": "effort",
+            "values": [
+              "low",
+              "medium",
+              "high"
+            ]
+          }
+        ],
         "release_date": "2025-08-07",
         "structured_output": true,
         "temperature": false,
@@ -21010,6 +21211,16 @@
         "name": "GPT-5.1",
         "open_weights": false,
         "reasoning": true,
+        "reasoning_options": [
+          {
+            "type": "effort",
+            "values": [
+              "low",
+              "medium",
+              "high"
+            ]
+          }
+        ],
         "release_date": "2025-11-13",
         "structured_output": true,
         "temperature": false,
@@ -21039,6 +21250,16 @@
         "name": "GPT-5.2",
         "open_weights": false,
         "reasoning": true,
+        "reasoning_options": [
+          {
+            "type": "effort",
+            "values": [
+              "low",
+              "medium",
+              "high"
+            ]
+          }
+        ],
         "release_date": "2025-12-11",
         "structured_output": true,
         "temperature": false,
@@ -21085,6 +21306,16 @@
         "name": "GPT-5.4",
         "open_weights": false,
         "reasoning": true,
+        "reasoning_options": [
+          {
+            "type": "effort",
+            "values": [
+              "low",
+              "medium",
+              "high"
+            ]
+          }
+        ],
         "release_date": "2026-03-05",
         "structured_output": true,
         "temperature": false,
@@ -21114,6 +21345,16 @@
         "name": "o3",
         "open_weights": false,
         "reasoning": true,
+        "reasoning_options": [
+          {
+            "type": "effort",
+            "values": [
+              "low",
+              "medium",
+              "high"
+            ]
+          }
+        ],
         "release_date": "2025-04-16",
         "structured_output": true,
         "temperature": false,
@@ -21141,6 +21382,16 @@
         "name": "o3-mini",
         "open_weights": false,
         "reasoning": true,
+        "reasoning_options": [
+          {
+            "type": "effort",
+            "values": [
+              "low",
+              "medium",
+              "high"
+            ]
+          }
+        ],
         "release_date": "2024-12-20",
         "structured_output": true,
         "temperature": false,
@@ -21169,6 +21420,16 @@
         "name": "o4-mini",
         "open_weights": false,
         "reasoning": true,
+        "reasoning_options": [
+          {
+            "type": "effort",
+            "values": [
+              "low",
+              "medium",
+              "high"
+            ]
+          }
+        ],
         "release_date": "2025-04-16",
         "structured_output": true,
         "temperature": false,
@@ -21224,6 +21485,7 @@
         "name": "Sonar Reasoning Pro",
         "open_weights": false,
         "reasoning": true,
+        "reasoning_options": [],
         "release_date": "2024-01-01",
         "temperature": true,
         "tool_call": false
@@ -21251,6 +21513,7 @@
         "name": "Grok 4.3",
         "open_weights": false,
         "reasoning": true,
+        "reasoning_options": [],
         "release_date": "2026-04-17",
         "structured_output": true,
         "temperature": true,
@@ -21459,6 +21722,20 @@
         "name": "Claude Opus 4.6",
         "open_weights": false,
         "reasoning": true,
+        "reasoning_options": [
+          {
+            "type": "toggle"
+          },
+          {
+            "type": "effort",
+            "values": [
+              "low",
+              "medium",
+              "high",
+              "max"
+            ]
+          }
+        ],
         "release_date": "2026-02-05",
         "temperature": true,
         "tool_call": true
@@ -21513,6 +21790,21 @@
         "name": "Claude Opus 4.7",
         "open_weights": false,
         "reasoning": true,
+        "reasoning_options": [
+          {
+            "type": "toggle"
+          },
+          {
+            "type": "effort",
+            "values": [
+              "low",
+              "medium",
+              "high",
+              "xhigh",
+              "max"
+            ]
+          }
+        ],
         "release_date": "2026-04-16",
         "temperature": false,
         "tool_call": true
@@ -21547,6 +21839,20 @@
         "name": "Claude Sonnet 4.6",
         "open_weights": false,
         "reasoning": true,
+        "reasoning_options": [
+          {
+            "type": "toggle"
+          },
+          {
+            "type": "effort",
+            "values": [
+              "low",
+              "medium",
+              "high",
+              "max"
+            ]
+          }
+        ],
         "release_date": "2026-02-17",
         "temperature": true,
         "tool_call": true
@@ -21581,6 +21887,21 @@
         "name": "DeepSeek V4 Flash",
         "open_weights": true,
         "reasoning": true,
+        "reasoning_options": [
+          {
+            "type": "toggle"
+          },
+          {
+            "type": "effort",
+            "values": [
+              "low",
+              "medium",
+              "high",
+              "xhigh",
+              "max"
+            ]
+          }
+        ],
         "release_date": "2026-04-24",
         "structured_output": true,
         "temperature": true,
@@ -21616,6 +21937,21 @@
         "name": "DeepSeek V4 Pro",
         "open_weights": true,
         "reasoning": true,
+        "reasoning_options": [
+          {
+            "type": "toggle"
+          },
+          {
+            "type": "effort",
+            "values": [
+              "low",
+              "medium",
+              "high",
+              "xhigh",
+              "max"
+            ]
+          }
+        ],
         "release_date": "2026-04-24",
         "structured_output": true,
         "temperature": true,
@@ -21652,6 +21988,21 @@
         "name": "Gemini 2.5 Flash",
         "open_weights": false,
         "reasoning": true,
+        "reasoning_options": [
+          {
+            "type": "toggle"
+          },
+          {
+            "type": "effort",
+            "values": [
+              "low",
+              "medium",
+              "high",
+              "xhigh",
+              "max"
+            ]
+          }
+        ],
         "release_date": "2025-06-17",
         "structured_output": true,
         "temperature": true,
@@ -21704,6 +22055,18 @@
         "name": "Gemini 2.5 Pro",
         "open_weights": false,
         "reasoning": true,
+        "reasoning_options": [
+          {
+            "type": "effort",
+            "values": [
+              "low",
+              "medium",
+              "high",
+              "xhigh",
+              "max"
+            ]
+          }
+        ],
         "release_date": "2025-06-17",
         "structured_output": true,
         "temperature": true,
@@ -21756,6 +22119,16 @@
         "name": "Gemini 3.1 Pro Preview",
         "open_weights": false,
         "reasoning": true,
+        "reasoning_options": [
+          {
+            "type": "effort",
+            "values": [
+              "low",
+              "medium",
+              "high"
+            ]
+          }
+        ],
         "release_date": "2026-02-19",
         "structured_output": true,
         "temperature": true,
@@ -21790,6 +22163,7 @@
         "name": "GLM-5.1",
         "open_weights": true,
         "reasoning": true,
+        "reasoning_options": [],
         "release_date": "2026-03-27",
         "structured_output": true,
         "temperature": true,
@@ -21839,6 +22213,19 @@
         "name": "Grok 4.3",
         "open_weights": false,
         "reasoning": true,
+        "reasoning_options": [
+          {
+            "type": "toggle"
+          },
+          {
+            "type": "effort",
+            "values": [
+              "low",
+              "medium",
+              "high"
+            ]
+          }
+        ],
         "release_date": "2026-04-17",
         "structured_output": true,
         "temperature": true,
@@ -21875,6 +22262,21 @@
         "name": "Kimi K2.5",
         "open_weights": true,
         "reasoning": true,
+        "reasoning_options": [
+          {
+            "type": "toggle"
+          },
+          {
+            "type": "effort",
+            "values": [
+              "low",
+              "medium",
+              "high",
+              "xhigh",
+              "max"
+            ]
+          }
+        ],
         "release_date": "2026-01",
         "structured_output": true,
         "temperature": false,
@@ -21912,6 +22314,21 @@
         "name": "Kimi K2.6",
         "open_weights": true,
         "reasoning": true,
+        "reasoning_options": [
+          {
+            "type": "toggle"
+          },
+          {
+            "type": "effort",
+            "values": [
+              "low",
+              "medium",
+              "high",
+              "xhigh",
+              "max"
+            ]
+          }
+        ],
         "release_date": "2026-04-21",
         "structured_output": true,
         "temperature": true,
@@ -21943,6 +22360,7 @@
         "name": "MiniMax-M2.7",
         "open_weights": true,
         "reasoning": true,
+        "reasoning_options": [],
         "release_date": "2026-03-18",
         "temperature": true,
         "tool_call": true
@@ -21973,6 +22391,7 @@
         "name": "MiniMax-M2.7-highspeed",
         "open_weights": true,
         "reasoning": true,
+        "reasoning_options": [],
         "release_date": "2026-03-18",
         "temperature": true,
         "tool_call": true
@@ -22024,6 +22443,7 @@
         "name": "Qwen3.6 Plus",
         "open_weights": false,
         "reasoning": true,
+        "reasoning_options": [],
         "release_date": "2026-04-02",
         "temperature": true,
         "tool_call": true
@@ -22870,6 +23290,7 @@
           "shape": "completions"
         },
         "reasoning": true,
+        "reasoning_options": [],
         "release_date": "2026-04-24",
         "structured_output": true,
         "temperature": true,
@@ -22906,6 +23327,7 @@
           "shape": "completions"
         },
         "reasoning": true,
+        "reasoning_options": [],
         "release_date": "2026-04-24",
         "structured_output": true,
         "temperature": true,
@@ -29702,6 +30124,7 @@
         "name": "Gemma 4 31B Instruct",
         "open_weights": true,
         "reasoning": true,
+        "reasoning_options": [],
         "release_date": "2026-04-02",
         "structured_output": true,
         "temperature": true,
@@ -29733,6 +30156,7 @@
         "name": "Llama 3.3 70B Instruct",
         "open_weights": true,
         "reasoning": true,
+        "reasoning_options": [],
         "release_date": "2025-04-27",
         "structured_output": true,
         "temperature": true,
@@ -29765,6 +30189,15 @@
         "name": "Mistral Medium 3.5 128B",
         "open_weights": true,
         "reasoning": true,
+        "reasoning_options": [
+          {
+            "type": "effort",
+            "values": [
+              "none",
+              "high"
+            ]
+          }
+        ],
         "release_date": "2026-04-29",
         "structured_output": true,
         "temperature": true,
@@ -29796,6 +30229,7 @@
         "name": "Mistral Small 3.2 24B Instruct 2506",
         "open_weights": true,
         "reasoning": true,
+        "reasoning_options": [],
         "release_date": "2025-10-01",
         "structured_output": true,
         "temperature": true,
@@ -29833,6 +30267,11 @@
         "name": "Kimi K2.6",
         "open_weights": true,
         "reasoning": true,
+        "reasoning_options": [
+          {
+            "type": "toggle"
+          }
+        ],
         "release_date": "2026-05-07",
         "structured_output": true,
         "temperature": true,
@@ -29864,6 +30303,16 @@
         "name": "GPT-OSS-120B",
         "open_weights": true,
         "reasoning": true,
+        "reasoning_options": [
+          {
+            "type": "effort",
+            "values": [
+              "low",
+              "medium",
+              "high"
+            ]
+          }
+        ],
         "release_date": "2025-08-05",
         "structured_output": true,
         "temperature": true,
@@ -29895,6 +30344,7 @@
         "name": "GLM 4.7",
         "open_weights": true,
         "reasoning": true,
+        "reasoning_options": [],
         "release_date": "2026-01-19",
         "structured_output": true,
         "temperature": true,
@@ -30036,6 +30486,7 @@
         "name": "MiniMax M2.5 TEE",
         "open_weights": true,
         "reasoning": true,
+        "reasoning_options": [],
         "release_date": "2026-02-12",
         "structured_output": true,
         "temperature": true,
@@ -30101,6 +30552,11 @@
         "name": "Hermes 4 14B",
         "open_weights": true,
         "reasoning": true,
+        "reasoning_options": [
+          {
+            "type": "toggle"
+          }
+        ],
         "release_date": "2025-12-29",
         "structured_output": true,
         "temperature": true,
@@ -30261,6 +30717,7 @@
         "name": "Qwen3 235B A22B Thinking 2507",
         "open_weights": true,
         "reasoning": true,
+        "reasoning_options": [],
         "release_date": "2025-12-29",
         "structured_output": true,
         "temperature": true,
@@ -30295,6 +30752,11 @@
         "name": "Qwen3 30B A3B",
         "open_weights": true,
         "reasoning": true,
+        "reasoning_options": [
+          {
+            "type": "toggle"
+          }
+        ],
         "release_date": "2025-12-29",
         "structured_output": true,
         "temperature": true,
@@ -30327,6 +30789,11 @@
         "name": "Qwen3 32B TEE",
         "open_weights": true,
         "reasoning": true,
+        "reasoning_options": [
+          {
+            "type": "toggle"
+          }
+        ],
         "release_date": "2025-04",
         "structured_output": true,
         "temperature": true,
@@ -30424,6 +30891,11 @@
         "name": "Qwen3.5 397B A17B TEE",
         "open_weights": true,
         "reasoning": true,
+        "reasoning_options": [
+          {
+            "type": "toggle"
+          }
+        ],
         "release_date": "2026-02-15",
         "structured_output": true,
         "temperature": true,
@@ -30456,6 +30928,11 @@
         "name": "Qwen3.6 27B TEE",
         "open_weights": true,
         "reasoning": true,
+        "reasoning_options": [
+          {
+            "type": "toggle"
+          }
+        ],
         "release_date": "2026-04-22",
         "structured_output": true,
         "temperature": true,
@@ -30553,6 +31030,7 @@
         "name": "DeepSeek R1 0528 TEE",
         "open_weights": true,
         "reasoning": true,
+        "reasoning_options": [],
         "release_date": "2025-01-20",
         "structured_output": true,
         "temperature": true,
@@ -30587,6 +31065,7 @@
         "name": "DeepSeek R1 Distill Llama 70B",
         "open_weights": true,
         "reasoning": true,
+        "reasoning_options": [],
         "release_date": "2025-12-29",
         "structured_output": true,
         "temperature": true,
@@ -30652,6 +31131,11 @@
         "name": "DeepSeek V3.1 TEE",
         "open_weights": true,
         "reasoning": true,
+        "reasoning_options": [
+          {
+            "type": "toggle"
+          }
+        ],
         "release_date": "2025-12-29",
         "structured_output": true,
         "temperature": true,
@@ -30686,6 +31170,11 @@
         "name": "DeepSeek V3.2 TEE",
         "open_weights": true,
         "reasoning": true,
+        "reasoning_options": [
+          {
+            "type": "toggle"
+          }
+        ],
         "release_date": "2025-12-29",
         "structured_output": true,
         "temperature": true,
@@ -30718,6 +31207,11 @@
         "name": "gemma 4 31B turbo TEE",
         "open_weights": true,
         "reasoning": true,
+        "reasoning_options": [
+          {
+            "type": "toggle"
+          }
+        ],
         "release_date": "2026-04-02",
         "structured_output": true,
         "temperature": true,
@@ -30755,6 +31249,11 @@
         "name": "Kimi K2.5 TEE",
         "open_weights": true,
         "reasoning": true,
+        "reasoning_options": [
+          {
+            "type": "toggle"
+          }
+        ],
         "release_date": "2026-01",
         "structured_output": true,
         "temperature": true,
@@ -30792,6 +31291,11 @@
         "name": "Kimi K2.6 TEE",
         "open_weights": true,
         "reasoning": true,
+        "reasoning_options": [
+          {
+            "type": "toggle"
+          }
+        ],
         "release_date": "2026-04-21",
         "structured_output": true,
         "temperature": true,
@@ -30826,6 +31330,16 @@
         "name": "gpt oss 120b TEE",
         "open_weights": true,
         "reasoning": true,
+        "reasoning_options": [
+          {
+            "type": "effort",
+            "values": [
+              "low",
+              "medium",
+              "high"
+            ]
+          }
+        ],
         "release_date": "2025-12-29",
         "structured_output": true,
         "temperature": true,
@@ -30889,6 +31403,7 @@
         "name": "DeepSeek TNG R1T2 Chimera TEE",
         "open_weights": true,
         "reasoning": true,
+        "reasoning_options": [],
         "release_date": "2026-04-25",
         "structured_output": true,
         "temperature": true,
@@ -31110,6 +31625,11 @@
         "name": "GLM 4.6V",
         "open_weights": true,
         "reasoning": true,
+        "reasoning_options": [
+          {
+            "type": "toggle"
+          }
+        ],
         "release_date": "2025-12-29",
         "structured_output": true,
         "temperature": true,
@@ -31141,6 +31661,11 @@
         "name": "GLM 4.7 FP8",
         "open_weights": true,
         "reasoning": true,
+        "reasoning_options": [
+          {
+            "type": "toggle"
+          }
+        ],
         "release_date": "2026-01-27",
         "structured_output": true,
         "temperature": true,
@@ -31176,6 +31701,11 @@
         "name": "GLM 4.7 TEE",
         "open_weights": true,
         "reasoning": true,
+        "reasoning_options": [
+          {
+            "type": "toggle"
+          }
+        ],
         "release_date": "2025-12-22",
         "structured_output": true,
         "temperature": true,
@@ -31210,6 +31740,11 @@
         "name": "GLM 5 TEE",
         "open_weights": true,
         "reasoning": true,
+        "reasoning_options": [
+          {
+            "type": "toggle"
+          }
+        ],
         "release_date": "2026-02-11",
         "structured_output": true,
         "temperature": true,
@@ -31244,6 +31779,11 @@
         "name": "GLM 5 Turbo",
         "open_weights": true,
         "reasoning": true,
+        "reasoning_options": [
+          {
+            "type": "toggle"
+          }
+        ],
         "release_date": "2026-03-11",
         "structured_output": true,
         "temperature": true,
@@ -31278,6 +31818,11 @@
         "name": "GLM 5.1 TEE",
         "open_weights": true,
         "reasoning": true,
+        "reasoning_options": [
+          {
+            "type": "toggle"
+          }
+        ],
         "release_date": "2026-03-27",
         "structured_output": true,
         "temperature": true,
@@ -31781,6 +32326,7 @@
         "name": "MiniMax-M2.5",
         "open_weights": true,
         "reasoning": true,
+        "reasoning_options": [],
         "release_date": "2026-03-05",
         "structured_output": true,
         "temperature": true,
@@ -31841,6 +32387,16 @@
         "name": "OpenAI GPT OSS 120B",
         "open_weights": true,
         "reasoning": true,
+        "reasoning_options": [
+          {
+            "type": "effort",
+            "values": [
+              "low",
+              "medium",
+              "high"
+            ]
+          }
+        ],
         "release_date": "2025-08-28",
         "structured_output": true,
         "temperature": true,
@@ -32154,6 +32710,16 @@
         "name": "Claude Fable 5",
         "open_weights": false,
         "reasoning": true,
+        "reasoning_options": [
+          {
+            "type": "effort",
+            "values": [
+              "low",
+              "medium",
+              "high"
+            ]
+          }
+        ],
         "release_date": "2026-06-09",
         "temperature": false,
         "tool_call": true
@@ -32188,6 +32754,16 @@
         "name": "Claude Haiku 4.5 (latest)",
         "open_weights": false,
         "reasoning": true,
+        "reasoning_options": [
+          {
+            "type": "effort",
+            "values": [
+              "low",
+              "medium",
+              "high"
+            ]
+          }
+        ],
         "release_date": "2025-10-15",
         "temperature": true,
         "tool_call": true
@@ -32222,6 +32798,16 @@
         "name": "Claude Opus 4 (latest)",
         "open_weights": false,
         "reasoning": true,
+        "reasoning_options": [
+          {
+            "type": "effort",
+            "values": [
+              "low",
+              "medium",
+              "high"
+            ]
+          }
+        ],
         "release_date": "2025-05-22",
         "temperature": true,
         "tool_call": true
@@ -32256,6 +32842,16 @@
         "name": "Claude Opus 4.1 (latest)",
         "open_weights": false,
         "reasoning": true,
+        "reasoning_options": [
+          {
+            "type": "effort",
+            "values": [
+              "low",
+              "medium",
+              "high"
+            ]
+          }
+        ],
         "release_date": "2025-08-05",
         "temperature": true,
         "tool_call": true
@@ -32290,6 +32886,16 @@
         "name": "Claude Opus 4.5 (latest)",
         "open_weights": false,
         "reasoning": true,
+        "reasoning_options": [
+          {
+            "type": "effort",
+            "values": [
+              "low",
+              "medium",
+              "high"
+            ]
+          }
+        ],
         "release_date": "2025-11-24",
         "temperature": true,
         "tool_call": true
@@ -32342,6 +32948,16 @@
         "name": "Claude Opus 4.6 (latest)",
         "open_weights": false,
         "reasoning": true,
+        "reasoning_options": [
+          {
+            "type": "effort",
+            "values": [
+              "low",
+              "medium",
+              "high"
+            ]
+          }
+        ],
         "release_date": "2026-02-05",
         "temperature": true,
         "tool_call": true
@@ -32379,6 +32995,18 @@
           "npm": "@ai-sdk/anthropic"
         },
         "reasoning": true,
+        "reasoning_options": [
+          {
+            "type": "effort",
+            "values": [
+              "low",
+              "medium",
+              "high",
+              "xhigh",
+              "max"
+            ]
+          }
+        ],
         "release_date": "2026-04-16",
         "temperature": false,
         "tool_call": true
@@ -32412,6 +33040,16 @@
         "name": "Claude Opus 4.8",
         "open_weights": false,
         "reasoning": true,
+        "reasoning_options": [
+          {
+            "type": "effort",
+            "values": [
+              "low",
+              "medium",
+              "high"
+            ]
+          }
+        ],
         "release_date": "2026-05-28",
         "temperature": false,
         "tool_call": true
@@ -32446,6 +33084,16 @@
         "name": "Claude Sonnet 4 (latest)",
         "open_weights": false,
         "reasoning": true,
+        "reasoning_options": [
+          {
+            "type": "effort",
+            "values": [
+              "low",
+              "medium",
+              "high"
+            ]
+          }
+        ],
         "release_date": "2025-05-22",
         "temperature": true,
         "tool_call": true
@@ -32480,6 +33128,16 @@
         "name": "Claude Sonnet 4.5 (latest)",
         "open_weights": false,
         "reasoning": true,
+        "reasoning_options": [
+          {
+            "type": "effort",
+            "values": [
+              "low",
+              "medium",
+              "high"
+            ]
+          }
+        ],
         "release_date": "2025-09-29",
         "temperature": true,
         "tool_call": true
@@ -32536,6 +33194,16 @@
           "npm": "ai-gateway-provider"
         },
         "reasoning": true,
+        "reasoning_options": [
+          {
+            "type": "effort",
+            "values": [
+              "low",
+              "medium",
+              "high"
+            ]
+          }
+        ],
         "release_date": "2026-02-17",
         "temperature": true,
         "tool_call": true
@@ -32729,6 +33397,17 @@
         "name": "GPT-5.1",
         "open_weights": false,
         "reasoning": true,
+        "reasoning_options": [
+          {
+            "type": "effort",
+            "values": [
+              "none",
+              "low",
+              "medium",
+              "high"
+            ]
+          }
+        ],
         "release_date": "2025-11-13",
         "temperature": false,
         "tool_call": true
@@ -32761,6 +33440,16 @@
         "name": "GPT-5.1 Codex",
         "open_weights": false,
         "reasoning": true,
+        "reasoning_options": [
+          {
+            "type": "effort",
+            "values": [
+              "low",
+              "medium",
+              "high"
+            ]
+          }
+        ],
         "release_date": "2025-11-13",
         "structured_output": true,
         "temperature": false,
@@ -32794,6 +33483,18 @@
         "name": "GPT-5.2",
         "open_weights": false,
         "reasoning": true,
+        "reasoning_options": [
+          {
+            "type": "effort",
+            "values": [
+              "none",
+              "low",
+              "medium",
+              "high",
+              "xhigh"
+            ]
+          }
+        ],
         "release_date": "2025-12-11",
         "temperature": false,
         "tool_call": true
@@ -32831,6 +33532,17 @@
           "npm": "ai-gateway-provider"
         },
         "reasoning": true,
+        "reasoning_options": [
+          {
+            "type": "effort",
+            "values": [
+              "low",
+              "medium",
+              "high",
+              "xhigh"
+            ]
+          }
+        ],
         "release_date": "2025-12-11",
         "structured_output": true,
         "temperature": false,
@@ -32869,6 +33581,18 @@
           "npm": "ai-gateway-provider"
         },
         "reasoning": true,
+        "reasoning_options": [
+          {
+            "type": "effort",
+            "values": [
+              "none",
+              "low",
+              "medium",
+              "high",
+              "xhigh"
+            ]
+          }
+        ],
         "release_date": "2026-02-05",
         "structured_output": true,
         "temperature": false,
@@ -32907,6 +33631,18 @@
           "npm": "ai-gateway-provider"
         },
         "reasoning": true,
+        "reasoning_options": [
+          {
+            "type": "effort",
+            "values": [
+              "none",
+              "low",
+              "medium",
+              "high",
+              "xhigh"
+            ]
+          }
+        ],
         "release_date": "2026-03-05",
         "structured_output": true,
         "temperature": false,
@@ -32958,6 +33694,18 @@
         "name": "GPT-5.5",
         "open_weights": false,
         "reasoning": true,
+        "reasoning_options": [
+          {
+            "type": "effort",
+            "values": [
+              "none",
+              "low",
+              "medium",
+              "high",
+              "xhigh"
+            ]
+          }
+        ],
         "release_date": "2026-04-23",
         "structured_output": true,
         "temperature": false,
@@ -32991,6 +33739,16 @@
         "name": "o1",
         "open_weights": false,
         "reasoning": true,
+        "reasoning_options": [
+          {
+            "type": "effort",
+            "values": [
+              "low",
+              "medium",
+              "high"
+            ]
+          }
+        ],
         "release_date": "2024-12-05",
         "structured_output": true,
         "temperature": false,
@@ -33024,6 +33782,16 @@
         "name": "o3",
         "open_weights": false,
         "reasoning": true,
+        "reasoning_options": [
+          {
+            "type": "effort",
+            "values": [
+              "low",
+              "medium",
+              "high"
+            ]
+          }
+        ],
         "release_date": "2025-04-16",
         "structured_output": true,
         "temperature": false,
@@ -33056,6 +33824,16 @@
         "name": "o3-mini",
         "open_weights": false,
         "reasoning": true,
+        "reasoning_options": [
+          {
+            "type": "effort",
+            "values": [
+              "low",
+              "medium",
+              "high"
+            ]
+          }
+        ],
         "release_date": "2024-12-20",
         "structured_output": true,
         "temperature": false,
@@ -33088,6 +33866,16 @@
         "name": "o3-pro",
         "open_weights": false,
         "reasoning": true,
+        "reasoning_options": [
+          {
+            "type": "effort",
+            "values": [
+              "low",
+              "medium",
+              "high"
+            ]
+          }
+        ],
         "release_date": "2025-06-10",
         "structured_output": true,
         "temperature": false,
@@ -33121,6 +33909,16 @@
         "name": "o4-mini",
         "open_weights": false,
         "reasoning": true,
+        "reasoning_options": [
+          {
+            "type": "effort",
+            "values": [
+              "low",
+              "medium",
+              "high"
+            ]
+          }
+        ],
         "release_date": "2025-04-16",
         "structured_output": true,
         "temperature": false,
@@ -34027,6 +34825,19 @@
         "name": "Kimi K2.5",
         "open_weights": true,
         "reasoning": true,
+        "reasoning_options": [
+          {
+            "type": "toggle"
+          },
+          {
+            "type": "effort",
+            "values": [
+              "low",
+              "medium",
+              "high"
+            ]
+          }
+        ],
         "release_date": "2026-01-27",
         "structured_output": true,
         "temperature": true,
@@ -34063,6 +34874,19 @@
         "name": "Kimi K2.6",
         "open_weights": true,
         "reasoning": true,
+        "reasoning_options": [
+          {
+            "type": "toggle"
+          },
+          {
+            "type": "effort",
+            "values": [
+              "low",
+              "medium",
+              "high"
+            ]
+          }
+        ],
         "release_date": "2026-04-20",
         "structured_output": true,
         "temperature": true,
@@ -34125,6 +34949,19 @@
         "name": "Nemotron 3 Super 120B",
         "open_weights": true,
         "reasoning": true,
+        "reasoning_options": [
+          {
+            "type": "toggle"
+          },
+          {
+            "type": "effort",
+            "values": [
+              "low",
+              "medium",
+              "high"
+            ]
+          }
+        ],
         "release_date": "2026-03-11",
         "temperature": true,
         "tool_call": true
@@ -34385,6 +35222,19 @@
         "name": "GLM-4.7-Flash",
         "open_weights": true,
         "reasoning": true,
+        "reasoning_options": [
+          {
+            "type": "toggle"
+          },
+          {
+            "type": "effort",
+            "values": [
+              "low",
+              "medium",
+              "high"
+            ]
+          }
+        ],
         "release_date": "2026-01-19",
         "temperature": true,
         "tool_call": true
@@ -40330,6 +41180,18 @@
         "name": "Qwen3-32B",
         "open_weights": true,
         "reasoning": true,
+        "reasoning_options": [
+          {
+            "type": "effort",
+            "values": [
+              "none",
+              "low",
+              "medium",
+              "high",
+              "max"
+            ]
+          }
+        ],
         "release_date": "2025-04-30",
         "structured_output": true,
         "temperature": true,
@@ -40494,6 +41356,16 @@
         "name": "Claude 3.7 Sonnet",
         "open_weights": false,
         "reasoning": true,
+        "reasoning_options": [
+          {
+            "type": "effort",
+            "values": [
+              "low",
+              "medium",
+              "high"
+            ]
+          }
+        ],
         "release_date": "2025-02-24",
         "status": "deprecated",
         "temperature": true,
@@ -40529,6 +41401,16 @@
         "name": "Claude Opus 4.1",
         "open_weights": false,
         "reasoning": true,
+        "reasoning_options": [
+          {
+            "type": "effort",
+            "values": [
+              "low",
+              "medium",
+              "high"
+            ]
+          }
+        ],
         "release_date": "2025-08-05",
         "temperature": true,
         "tool_call": true
@@ -40562,6 +41444,16 @@
         "name": "Claude Haiku 4.5",
         "open_weights": false,
         "reasoning": true,
+        "reasoning_options": [
+          {
+            "type": "effort",
+            "values": [
+              "low",
+              "medium",
+              "high"
+            ]
+          }
+        ],
         "release_date": "2025-10-15",
         "temperature": true,
         "tool_call": true
@@ -40614,6 +41506,16 @@
         "name": "Claude Sonnet 4.5",
         "open_weights": false,
         "reasoning": true,
+        "reasoning_options": [
+          {
+            "type": "effort",
+            "values": [
+              "low",
+              "medium",
+              "high"
+            ]
+          }
+        ],
         "release_date": "2025-09-29",
         "temperature": true,
         "tool_call": true
@@ -40666,6 +41568,16 @@
         "name": "Claude Sonnet 4.6",
         "open_weights": false,
         "reasoning": true,
+        "reasoning_options": [
+          {
+            "type": "effort",
+            "values": [
+              "low",
+              "medium",
+              "high"
+            ]
+          }
+        ],
         "release_date": "2026-02-17",
         "temperature": true,
         "tool_call": true
@@ -40692,6 +41604,17 @@
         "name": "Anthropic Claude Fable 5",
         "open_weights": false,
         "reasoning": true,
+        "reasoning_options": [
+          {
+            "type": "effort",
+            "values": [
+              "low",
+              "medium",
+              "high",
+              "xhigh"
+            ]
+          }
+        ],
         "release_date": "2026-06-09",
         "temperature": true,
         "tool_call": true
@@ -40726,6 +41649,16 @@
         "name": "Claude Haiku 4.5",
         "open_weights": false,
         "reasoning": true,
+        "reasoning_options": [
+          {
+            "type": "effort",
+            "values": [
+              "low",
+              "medium",
+              "high"
+            ]
+          }
+        ],
         "release_date": "2025-10-15",
         "temperature": true,
         "tool_call": true
@@ -40760,6 +41693,16 @@
         "name": "Claude Opus 4",
         "open_weights": false,
         "reasoning": true,
+        "reasoning_options": [
+          {
+            "type": "effort",
+            "values": [
+              "low",
+              "medium",
+              "high"
+            ]
+          }
+        ],
         "release_date": "2025-05-22",
         "temperature": true,
         "tool_call": true
@@ -40794,6 +41737,16 @@
         "name": "Claude Opus 4.5",
         "open_weights": false,
         "reasoning": true,
+        "reasoning_options": [
+          {
+            "type": "effort",
+            "values": [
+              "low",
+              "medium",
+              "high"
+            ]
+          }
+        ],
         "release_date": "2025-11-24",
         "temperature": true,
         "tool_call": true
@@ -40846,6 +41799,16 @@
         "name": "Claude Opus 4.6",
         "open_weights": false,
         "reasoning": true,
+        "reasoning_options": [
+          {
+            "type": "effort",
+            "values": [
+              "low",
+              "medium",
+              "high"
+            ]
+          }
+        ],
         "release_date": "2026-02-05",
         "temperature": true,
         "tool_call": true
@@ -40880,6 +41843,17 @@
         "name": "Claude Opus 4.7",
         "open_weights": false,
         "reasoning": true,
+        "reasoning_options": [
+          {
+            "type": "effort",
+            "values": [
+              "low",
+              "medium",
+              "high",
+              "xhigh"
+            ]
+          }
+        ],
         "release_date": "2026-04-16",
         "temperature": false,
         "tool_call": true
@@ -40912,6 +41886,17 @@
         "name": "Claude Opus 4.8",
         "open_weights": false,
         "reasoning": true,
+        "reasoning_options": [
+          {
+            "type": "effort",
+            "values": [
+              "low",
+              "medium",
+              "high",
+              "xhigh"
+            ]
+          }
+        ],
         "release_date": "2026-05-28",
         "temperature": true,
         "tool_call": true
@@ -40964,6 +41949,16 @@
         "name": "Claude Sonnet 4",
         "open_weights": false,
         "reasoning": true,
+        "reasoning_options": [
+          {
+            "type": "effort",
+            "values": [
+              "low",
+              "medium",
+              "high"
+            ]
+          }
+        ],
         "release_date": "2025-05-22",
         "temperature": true,
         "tool_call": true
@@ -40994,6 +41989,16 @@
         "name": "Trinity Large Thinking",
         "open_weights": true,
         "reasoning": true,
+        "reasoning_options": [
+          {
+            "type": "effort",
+            "values": [
+              "low",
+              "medium",
+              "high"
+            ]
+          }
+        ],
         "release_date": "2026-04-02",
         "status": "beta",
         "temperature": true,
@@ -41086,6 +42091,17 @@
         "name": "DeepSeek V3.2",
         "open_weights": true,
         "reasoning": true,
+        "reasoning_options": [
+          {
+            "type": "effort",
+            "values": [
+              "none",
+              "low",
+              "medium",
+              "high"
+            ]
+          }
+        ],
         "release_date": "2025-12-02",
         "temperature": true,
         "tool_call": true
@@ -41140,6 +42156,18 @@
         "name": "DeepSeek R1 Distill Llama 70B",
         "open_weights": true,
         "reasoning": true,
+        "reasoning_options": [
+          {
+            "type": "effort",
+            "values": [
+              "none",
+              "low",
+              "medium",
+              "high",
+              "max"
+            ]
+          }
+        ],
         "release_date": "2025-01-30",
         "structured_output": true,
         "temperature": true,
@@ -41200,6 +42228,17 @@
         "name": "DeepSeek V4 Pro",
         "open_weights": true,
         "reasoning": true,
+        "reasoning_options": [
+          {
+            "type": "effort",
+            "values": [
+              "low",
+              "medium",
+              "high",
+              "xhigh"
+            ]
+          }
+        ],
         "release_date": "2026-04-24",
         "structured_output": true,
         "temperature": true,
@@ -41392,6 +42431,18 @@
         "name": "GLM 5",
         "open_weights": true,
         "reasoning": true,
+        "reasoning_options": [
+          {
+            "type": "effort",
+            "values": [
+              "none",
+              "low",
+              "medium",
+              "high",
+              "max"
+            ]
+          }
+        ],
         "release_date": "2026-02-11",
         "tool_call": true
       },
@@ -41453,6 +42504,17 @@
         "name": "Kimi K2.5",
         "open_weights": true,
         "reasoning": true,
+        "reasoning_options": [
+          {
+            "type": "effort",
+            "values": [
+              "none",
+              "low",
+              "medium",
+              "high"
+            ]
+          }
+        ],
         "release_date": "2026-01",
         "structured_output": true,
         "temperature": false,
@@ -41488,6 +42550,17 @@
         "name": "Kimi K2.6",
         "open_weights": true,
         "reasoning": true,
+        "reasoning_options": [
+          {
+            "type": "effort",
+            "values": [
+              "none",
+              "low",
+              "medium",
+              "high"
+            ]
+          }
+        ],
         "release_date": "2026-04-21",
         "structured_output": true,
         "temperature": false,
@@ -41611,6 +42684,16 @@
         "name": "MiniMax M2.5",
         "open_weights": true,
         "reasoning": true,
+        "reasoning_options": [
+          {
+            "type": "effort",
+            "values": [
+              "low",
+              "medium",
+              "high"
+            ]
+          }
+        ],
         "release_date": "2026-02-12",
         "status": "beta",
         "temperature": true,
@@ -41777,6 +42860,18 @@
         "name": "Nemotron 3 Nano 30B A3B",
         "open_weights": true,
         "reasoning": true,
+        "reasoning_options": [
+          {
+            "type": "effort",
+            "values": [
+              "none",
+              "low",
+              "medium",
+              "high",
+              "max"
+            ]
+          }
+        ],
         "release_date": "2025-04-14",
         "temperature": true,
         "tool_call": true
@@ -41809,6 +42904,18 @@
         "name": "Nemotron Nano 3 Omni",
         "open_weights": true,
         "reasoning": true,
+        "reasoning_options": [
+          {
+            "type": "effort",
+            "values": [
+              "none",
+              "low",
+              "medium",
+              "high",
+              "max"
+            ]
+          }
+        ],
         "release_date": "2026-04-28",
         "structured_output": true,
         "temperature": true,
@@ -41866,6 +42973,18 @@
         "name": "Nemotron Nano 12B v2 VL",
         "open_weights": true,
         "reasoning": true,
+        "reasoning_options": [
+          {
+            "type": "effort",
+            "values": [
+              "none",
+              "low",
+              "medium",
+              "high",
+              "max"
+            ]
+          }
+        ],
         "release_date": "2025-12-01",
         "temperature": true,
         "tool_call": true
@@ -41896,6 +43015,18 @@
         "name": "Nemotron-3-Super-120B",
         "open_weights": true,
         "reasoning": true,
+        "reasoning_options": [
+          {
+            "type": "effort",
+            "values": [
+              "none",
+              "low",
+              "medium",
+              "high",
+              "max"
+            ]
+          }
+        ],
         "release_date": "2026-03-11",
         "status": "beta",
         "structured_output": true,
@@ -42032,6 +43163,17 @@
         "name": "GPT-5",
         "open_weights": false,
         "reasoning": true,
+        "reasoning_options": [
+          {
+            "type": "effort",
+            "values": [
+              "minimal",
+              "low",
+              "medium",
+              "high"
+            ]
+          }
+        ],
         "release_date": "2025-08-07",
         "structured_output": true,
         "temperature": false,
@@ -42065,6 +43207,17 @@
         "name": "GPT-5 mini",
         "open_weights": false,
         "reasoning": true,
+        "reasoning_options": [
+          {
+            "type": "effort",
+            "values": [
+              "minimal",
+              "low",
+              "medium",
+              "high"
+            ]
+          }
+        ],
         "release_date": "2025-08-07",
         "structured_output": true,
         "temperature": false,
@@ -42098,6 +43251,17 @@
         "name": "GPT-5 nano",
         "open_weights": false,
         "reasoning": true,
+        "reasoning_options": [
+          {
+            "type": "effort",
+            "values": [
+              "minimal",
+              "low",
+              "medium",
+              "high"
+            ]
+          }
+        ],
         "release_date": "2025-08-07",
         "structured_output": true,
         "temperature": false,
@@ -42131,6 +43295,17 @@
         "name": "GPT-5.1 Codex Max",
         "open_weights": false,
         "reasoning": true,
+        "reasoning_options": [
+          {
+            "type": "effort",
+            "values": [
+              "low",
+              "medium",
+              "high",
+              "xhigh"
+            ]
+          }
+        ],
         "release_date": "2025-11-13",
         "structured_output": true,
         "temperature": false,
@@ -42164,6 +43339,18 @@
         "name": "GPT-5.2",
         "open_weights": false,
         "reasoning": true,
+        "reasoning_options": [
+          {
+            "type": "effort",
+            "values": [
+              "none",
+              "low",
+              "medium",
+              "high",
+              "xhigh"
+            ]
+          }
+        ],
         "release_date": "2025-12-11",
         "structured_output": true,
         "temperature": false,
@@ -42196,6 +43383,16 @@
         "name": "GPT-5.2 pro",
         "open_weights": false,
         "reasoning": true,
+        "reasoning_options": [
+          {
+            "type": "effort",
+            "values": [
+              "medium",
+              "high",
+              "xhigh"
+            ]
+          }
+        ],
         "release_date": "2025-12-11",
         "temperature": false,
         "tool_call": true
@@ -42229,6 +43426,18 @@
         "name": "GPT-5.3 Codex",
         "open_weights": false,
         "reasoning": true,
+        "reasoning_options": [
+          {
+            "type": "effort",
+            "values": [
+              "none",
+              "low",
+              "medium",
+              "high",
+              "xhigh"
+            ]
+          }
+        ],
         "release_date": "2026-02-05",
         "structured_output": true,
         "temperature": false,
@@ -42263,6 +43472,18 @@
         "name": "GPT-5.4",
         "open_weights": false,
         "reasoning": true,
+        "reasoning_options": [
+          {
+            "type": "effort",
+            "values": [
+              "none",
+              "low",
+              "medium",
+              "high",
+              "xhigh"
+            ]
+          }
+        ],
         "release_date": "2026-03-05",
         "structured_output": true,
         "temperature": false,
@@ -42296,6 +43517,18 @@
         "name": "GPT-5.4 mini",
         "open_weights": false,
         "reasoning": true,
+        "reasoning_options": [
+          {
+            "type": "effort",
+            "values": [
+              "none",
+              "low",
+              "medium",
+              "high",
+              "xhigh"
+            ]
+          }
+        ],
         "release_date": "2026-03-17",
         "structured_output": true,
         "temperature": false,
@@ -42329,6 +43562,18 @@
         "name": "GPT-5.4 nano",
         "open_weights": false,
         "reasoning": true,
+        "reasoning_options": [
+          {
+            "type": "effort",
+            "values": [
+              "none",
+              "low",
+              "medium",
+              "high",
+              "xhigh"
+            ]
+          }
+        ],
         "release_date": "2026-03-17",
         "structured_output": true,
         "temperature": false,
@@ -42361,6 +43606,16 @@
         "name": "GPT-5.4 pro",
         "open_weights": false,
         "reasoning": true,
+        "reasoning_options": [
+          {
+            "type": "effort",
+            "values": [
+              "medium",
+              "high",
+              "xhigh"
+            ]
+          }
+        ],
         "release_date": "2026-03-05",
         "temperature": false,
         "tool_call": true
@@ -42410,6 +43665,18 @@
         "name": "GPT-5.5",
         "open_weights": false,
         "reasoning": true,
+        "reasoning_options": [
+          {
+            "type": "effort",
+            "values": [
+              "none",
+              "low",
+              "medium",
+              "high",
+              "xhigh"
+            ]
+          }
+        ],
         "release_date": "2026-04-23",
         "structured_output": true,
         "temperature": false,
@@ -42532,6 +43799,16 @@
         "name": "gpt-oss-120b",
         "open_weights": true,
         "reasoning": true,
+        "reasoning_options": [
+          {
+            "type": "effort",
+            "values": [
+              "low",
+              "medium",
+              "high"
+            ]
+          }
+        ],
         "release_date": "2025-08-05",
         "structured_output": true,
         "temperature": true,
@@ -42563,6 +43840,16 @@
         "name": "gpt-oss-20b",
         "open_weights": true,
         "reasoning": true,
+        "reasoning_options": [
+          {
+            "type": "effort",
+            "values": [
+              "low",
+              "medium",
+              "high"
+            ]
+          }
+        ],
         "release_date": "2025-08-05",
         "structured_output": true,
         "temperature": true,
@@ -42597,6 +43884,16 @@
         "name": "o1",
         "open_weights": false,
         "reasoning": true,
+        "reasoning_options": [
+          {
+            "type": "effort",
+            "values": [
+              "low",
+              "medium",
+              "high"
+            ]
+          }
+        ],
         "release_date": "2024-12-05",
         "structured_output": true,
         "temperature": false,
@@ -42631,6 +43928,16 @@
         "name": "o3",
         "open_weights": false,
         "reasoning": true,
+        "reasoning_options": [
+          {
+            "type": "effort",
+            "values": [
+              "low",
+              "medium",
+              "high"
+            ]
+          }
+        ],
         "release_date": "2025-04-16",
         "structured_output": true,
         "temperature": false,
@@ -42663,6 +43970,16 @@
         "name": "o3-mini",
         "open_weights": false,
         "reasoning": true,
+        "reasoning_options": [
+          {
+            "type": "effort",
+            "values": [
+              "low",
+              "medium",
+              "high"
+            ]
+          }
+        ],
         "release_date": "2024-12-20",
         "structured_output": true,
         "temperature": false,
@@ -42804,6 +44121,17 @@
         "name": "Qwen 3.5 397B A17B",
         "open_weights": true,
         "reasoning": true,
+        "reasoning_options": [
+          {
+            "type": "effort",
+            "values": [
+              "none",
+              "low",
+              "medium",
+              "high"
+            ]
+          }
+        ],
         "release_date": "2026-02-15",
         "structured_output": true,
         "temperature": true,
@@ -42908,6 +44236,7 @@
         "name": "GLM-4.7",
         "open_weights": true,
         "reasoning": true,
+        "reasoning_options": [],
         "release_date": "2025-12-22",
         "temperature": true,
         "tool_call": true
@@ -42940,6 +44269,7 @@
         "name": "GLM-5",
         "open_weights": true,
         "reasoning": true,
+        "reasoning_options": [],
         "release_date": "2026-02-11",
         "temperature": true,
         "tool_call": true
@@ -42972,6 +44302,7 @@
         "name": "GLM-5.1",
         "open_weights": true,
         "reasoning": true,
+        "reasoning_options": [],
         "release_date": "2026-03-27",
         "structured_output": true,
         "temperature": true,
@@ -43030,6 +44361,7 @@
         "name": "MiniMax-M2.5",
         "open_weights": true,
         "reasoning": true,
+        "reasoning_options": [],
         "release_date": "2026-02-12",
         "temperature": true,
         "tool_call": true
@@ -43156,6 +44488,7 @@
         "name": "DeepSeek R1",
         "open_weights": true,
         "reasoning": true,
+        "reasoning_options": [],
         "release_date": "2025-01-20",
         "temperature": true,
         "tool_call": true
@@ -43218,6 +44551,7 @@
         "name": "MiniMax M2.5",
         "open_weights": false,
         "reasoning": true,
+        "reasoning_options": [],
         "release_date": "2025-03-01",
         "temperature": true,
         "tool_call": true
@@ -50858,6 +52192,13 @@
         "name": "Claude Opus 4.6",
         "open_weights": false,
         "reasoning": true,
+        "reasoning_options": [
+          {
+            "max": 127999,
+            "min": 1024,
+            "type": "budget_tokens"
+          }
+        ],
         "release_date": "2026-02-05",
         "temperature": true,
         "tool_call": true
@@ -50909,6 +52250,18 @@
         "name": "Claude Opus 4.7",
         "open_weights": false,
         "reasoning": true,
+        "reasoning_options": [
+          {
+            "type": "effort",
+            "values": [
+              "low",
+              "medium",
+              "high",
+              "xhigh",
+              "max"
+            ]
+          }
+        ],
         "release_date": "2026-04-16",
         "temperature": false,
         "tool_call": true
@@ -50940,6 +52293,13 @@
         "name": "Claude Sonnet 4.6",
         "open_weights": false,
         "reasoning": true,
+        "reasoning_options": [
+          {
+            "max": 63999,
+            "min": 1024,
+            "type": "budget_tokens"
+          }
+        ],
         "release_date": "2026-02-17",
         "temperature": true,
         "tool_call": true
@@ -50974,6 +52334,7 @@
         "name": "DeepSeek V4 Flash",
         "open_weights": true,
         "reasoning": true,
+        "reasoning_options": [],
         "release_date": "2026-04-24",
         "structured_output": true,
         "temperature": true,
@@ -51009,6 +52370,7 @@
         "name": "DeepSeek V4 Pro",
         "open_weights": true,
         "reasoning": true,
+        "reasoning_options": [],
         "release_date": "2026-04-24",
         "structured_output": true,
         "temperature": true,
@@ -51044,6 +52406,7 @@
         "name": "Kimi K2.6",
         "open_weights": true,
         "reasoning": true,
+        "reasoning_options": [],
         "release_date": "2026-04-21",
         "structured_output": true,
         "temperature": true,
@@ -51078,6 +52441,7 @@
         "name": "GLM-5",
         "open_weights": true,
         "reasoning": true,
+        "reasoning_options": [],
         "release_date": "2026-02-11",
         "temperature": true,
         "tool_call": true
@@ -51111,6 +52475,7 @@
         "name": "GLM-5.1",
         "open_weights": true,
         "reasoning": true,
+        "reasoning_options": [],
         "release_date": "2026-03-27",
         "structured_output": true,
         "temperature": true,
@@ -57931,6 +59296,7 @@
         "name": "MiniMax-M2.1",
         "open_weights": true,
         "reasoning": true,
+        "reasoning_options": [],
         "release_date": "2025-12-23",
         "temperature": true,
         "tool_call": true
@@ -57964,6 +59330,7 @@
         "name": "MiniMax-M2.5",
         "open_weights": true,
         "reasoning": true,
+        "reasoning_options": [],
         "release_date": "2026-02-12",
         "temperature": true,
         "tool_call": true
@@ -57997,6 +59364,7 @@
         "name": "MiniMax-M2.7",
         "open_weights": true,
         "reasoning": true,
+        "reasoning_options": [],
         "release_date": "2026-03-18",
         "structured_output": true,
         "temperature": true,
@@ -58028,6 +59396,7 @@
         "name": "Qwen3-235B-A22B-Thinking-2507",
         "open_weights": true,
         "reasoning": true,
+        "reasoning_options": [],
         "release_date": "2025-07-25",
         "temperature": true,
         "tool_call": true
@@ -58058,6 +59427,7 @@
         "name": "Qwen3-Coder-480B-A35B-Instruct",
         "open_weights": true,
         "reasoning": false,
+        "reasoning_options": [],
         "release_date": "2025-07-23",
         "temperature": true,
         "tool_call": true
@@ -58088,6 +59458,7 @@
         "name": "Qwen3-Coder-Next",
         "open_weights": true,
         "reasoning": false,
+        "reasoning_options": [],
         "release_date": "2026-02-03",
         "temperature": true,
         "tool_call": true
@@ -58118,6 +59489,7 @@
         "name": "Qwen 3 Embedding 4B",
         "open_weights": true,
         "reasoning": false,
+        "reasoning_options": [],
         "release_date": "2025-01-01",
         "temperature": false,
         "tool_call": false
@@ -58148,6 +59520,7 @@
         "name": "Qwen 3 Embedding 8B",
         "open_weights": true,
         "reasoning": false,
+        "reasoning_options": [],
         "release_date": "2025-01-01",
         "temperature": false,
         "tool_call": false
@@ -58178,6 +59551,7 @@
         "name": "Qwen3-Next-80B-A3B-Instruct",
         "open_weights": true,
         "reasoning": false,
+        "reasoning_options": [],
         "release_date": "2025-09-11",
         "temperature": true,
         "tool_call": true
@@ -58208,6 +59582,7 @@
         "name": "Qwen3-Next-80B-A3B-Thinking",
         "open_weights": true,
         "reasoning": false,
+        "reasoning_options": [],
         "release_date": "2025-09-11",
         "temperature": true,
         "tool_call": true
@@ -58242,6 +59617,17 @@
         "name": "Qwen3.5-397B-A17B",
         "open_weights": true,
         "reasoning": true,
+        "reasoning_options": [
+          {
+            "type": "effort",
+            "values": [
+              "none",
+              "low",
+              "medium",
+              "high"
+            ]
+          }
+        ],
         "release_date": "2026-02-01",
         "temperature": true,
         "tool_call": true
@@ -58272,6 +59658,7 @@
         "name": "MiMo-V2-Flash",
         "open_weights": true,
         "reasoning": true,
+        "reasoning_options": [],
         "release_date": "2025-12-16",
         "temperature": true,
         "tool_call": true
@@ -58302,6 +59689,7 @@
         "name": "DeepSeek-R1-0528",
         "open_weights": true,
         "reasoning": true,
+        "reasoning_options": [],
         "release_date": "2025-05-28",
         "temperature": true,
         "tool_call": true
@@ -58332,6 +59720,7 @@
         "name": "DeepSeek-V3.2",
         "open_weights": true,
         "reasoning": true,
+        "reasoning_options": [],
         "release_date": "2025-12-01",
         "temperature": true,
         "tool_call": true
@@ -58366,6 +59755,15 @@
         "name": "DeepSeek V4 Pro",
         "open_weights": true,
         "reasoning": true,
+        "reasoning_options": [
+          {
+            "type": "effort",
+            "values": [
+              "high",
+              "max"
+            ]
+          }
+        ],
         "release_date": "2026-04-24",
         "structured_output": true,
         "temperature": true,
@@ -58397,6 +59795,7 @@
         "name": "Kimi-K2-Instruct",
         "open_weights": true,
         "reasoning": false,
+        "reasoning_options": [],
         "release_date": "2025-07-14",
         "temperature": true,
         "tool_call": true
@@ -58427,6 +59826,7 @@
         "name": "Kimi-K2-Instruct-0905",
         "open_weights": true,
         "reasoning": false,
+        "reasoning_options": [],
         "release_date": "2025-09-04",
         "temperature": true,
         "tool_call": true
@@ -58461,6 +59861,7 @@
         "name": "Kimi-K2-Thinking",
         "open_weights": true,
         "reasoning": true,
+        "reasoning_options": [],
         "release_date": "2025-11-06",
         "temperature": true,
         "tool_call": true
@@ -58497,6 +59898,7 @@
         "name": "Kimi-K2.5",
         "open_weights": true,
         "reasoning": true,
+        "reasoning_options": [],
         "release_date": "2026-01-01",
         "temperature": true,
         "tool_call": true
@@ -58533,6 +59935,7 @@
         "name": "Kimi-K2.6",
         "open_weights": true,
         "reasoning": true,
+        "reasoning_options": [],
         "release_date": "2026-04-20",
         "temperature": true,
         "tool_call": true
@@ -58567,6 +59970,11 @@
         "name": "GLM-4.7",
         "open_weights": true,
         "reasoning": true,
+        "reasoning_options": [
+          {
+            "type": "toggle"
+          }
+        ],
         "release_date": "2025-12-22",
         "temperature": true,
         "tool_call": true
@@ -58600,6 +60008,7 @@
         "name": "GLM-4.7-Flash",
         "open_weights": true,
         "reasoning": true,
+        "reasoning_options": [],
         "release_date": "2025-08-08",
         "temperature": true,
         "tool_call": true
@@ -58633,6 +60042,7 @@
         "name": "GLM-5",
         "open_weights": true,
         "reasoning": true,
+        "reasoning_options": [],
         "release_date": "2026-02-11",
         "temperature": true,
         "tool_call": true
@@ -58666,6 +60076,7 @@
         "name": "GLM-5.1",
         "open_weights": true,
         "reasoning": true,
+        "reasoning_options": [],
         "release_date": "2026-04-03",
         "temperature": true,
         "tool_call": true
@@ -59149,6 +60560,16 @@
         "name": "Mercury 2",
         "open_weights": false,
         "reasoning": true,
+        "reasoning_options": [
+          {
+            "type": "effort",
+            "values": [
+              "low",
+              "medium",
+              "high"
+            ]
+          }
+        ],
         "release_date": "2026-02-24",
         "structured_output": true,
         "temperature": true,
@@ -59179,6 +60600,7 @@
         "name": "Mercury Edit 2",
         "open_weights": false,
         "reasoning": true,
+        "reasoning_options": [],
         "release_date": "2026-03-30",
         "temperature": true,
         "tool_call": false
@@ -71541,6 +72963,7 @@
         "name": "Xiaomi: MiMo-V2-Flash",
         "open_weights": true,
         "reasoning": true,
+        "reasoning_options": [],
         "release_date": "2025-12-16",
         "temperature": true,
         "tool_call": true
@@ -71576,6 +72999,7 @@
         "name": "Xiaomi: MiMo-V2-Omni",
         "open_weights": false,
         "reasoning": true,
+        "reasoning_options": [],
         "release_date": "2026-03-18",
         "temperature": true,
         "tool_call": true
@@ -71623,6 +73047,7 @@
         "name": "Xiaomi: MiMo-V2-Pro",
         "open_weights": false,
         "reasoning": true,
+        "reasoning_options": [],
         "release_date": "2026-03-18",
         "temperature": true,
         "tool_call": true
@@ -71676,6 +73101,7 @@
         "name": "Xiaomi: MiMo-V2.5",
         "open_weights": true,
         "reasoning": true,
+        "reasoning_options": [],
         "release_date": "2026-04-22",
         "temperature": true,
         "tool_call": true
@@ -71726,6 +73152,7 @@
         "name": "Xiaomi: MiMo V2.5 Pro",
         "open_weights": true,
         "reasoning": true,
+        "reasoning_options": [],
         "release_date": "2026-04-22",
         "temperature": true,
         "tool_call": true
@@ -72595,6 +74022,11 @@
         "name": "Gemma 4 31B IT",
         "open_weights": true,
         "reasoning": true,
+        "reasoning_options": [
+          {
+            "type": "toggle"
+          }
+        ],
         "release_date": "2026-04-02",
         "structured_output": true,
         "temperature": true,
@@ -72630,6 +74062,7 @@
         "name": "MiniMax M2.7",
         "open_weights": true,
         "reasoning": true,
+        "reasoning_options": [],
         "release_date": "2026-03-18",
         "structured_output": true,
         "temperature": true,
@@ -72666,6 +74099,11 @@
         "name": "Kimi K2.6",
         "open_weights": true,
         "reasoning": true,
+        "reasoning_options": [
+          {
+            "type": "toggle"
+          }
+        ],
         "release_date": "2026-04-21",
         "structured_output": true,
         "temperature": true,
@@ -72701,6 +74139,11 @@
         "name": "GLM 5.1",
         "open_weights": true,
         "reasoning": true,
+        "reasoning_options": [
+          {
+            "type": "toggle"
+          }
+        ],
         "release_date": "2026-03-27",
         "structured_output": true,
         "temperature": true,
@@ -76889,6 +78332,11 @@
         "name": "MiMo-V2-Flash",
         "open_weights": true,
         "reasoning": true,
+        "reasoning_options": [
+          {
+            "type": "toggle"
+          }
+        ],
         "release_date": "2025-12-16",
         "temperature": true,
         "tool_call": true
@@ -76926,7 +78374,7 @@
         },
         "name": "MiMo-V2-Omni",
         "open_weights": false,
-        "reasoning": true,
+        "reasoning": false,
         "release_date": "2026-03-18",
         "temperature": true,
         "tool_call": true
@@ -76977,6 +78425,11 @@
         "name": "MiMo-V2-Pro",
         "open_weights": false,
         "reasoning": true,
+        "reasoning_options": [
+          {
+            "type": "toggle"
+          }
+        ],
         "release_date": "2026-03-18",
         "temperature": true,
         "tool_call": true
@@ -77030,6 +78483,11 @@
         "name": "MiMo-V2.5",
         "open_weights": true,
         "reasoning": true,
+        "reasoning_options": [
+          {
+            "type": "toggle"
+          }
+        ],
         "release_date": "2026-04-22",
         "temperature": true,
         "tool_call": true
@@ -77080,6 +78538,11 @@
         "name": "MiMo-V2.5-Pro",
         "open_weights": true,
         "reasoning": true,
+        "reasoning_options": [
+          {
+            "type": "toggle"
+          }
+        ],
         "release_date": "2026-04-22",
         "temperature": true,
         "tool_call": true
@@ -79683,6 +81146,7 @@
         "name": "LucidNova RF1 100B",
         "open_weights": false,
         "reasoning": true,
+        "reasoning_options": [],
         "release_date": "2024-12-28",
         "temperature": false,
         "tool_call": true
@@ -79713,6 +81177,7 @@
         "name": "LucidQuery Nexus Coder",
         "open_weights": false,
         "reasoning": true,
+        "reasoning_options": [],
         "release_date": "2025-09-01",
         "temperature": false,
         "tool_call": true
@@ -79917,11 +81382,7 @@
         "name": "MiMo V2 Flash",
         "open_weights": true,
         "reasoning": true,
-        "reasoning_options": [
-          {
-            "type": "toggle"
-          }
-        ],
+        "reasoning_options": [],
         "release_date": "2025-12-17",
         "temperature": true,
         "tool_call": true
@@ -83840,6 +85301,7 @@
         "name": "MiniMax-M2",
         "open_weights": true,
         "reasoning": true,
+        "reasoning_options": [],
         "release_date": "2025-10-27",
         "temperature": true,
         "tool_call": true
@@ -83869,6 +85331,7 @@
         "name": "MiniMax-M2.1",
         "open_weights": true,
         "reasoning": true,
+        "reasoning_options": [],
         "release_date": "2025-12-23",
         "temperature": true,
         "tool_call": true
@@ -83900,6 +85363,7 @@
         "name": "MiniMax-M2.5",
         "open_weights": true,
         "reasoning": true,
+        "reasoning_options": [],
         "release_date": "2026-02-12",
         "temperature": true,
         "tool_call": true
@@ -83931,6 +85395,7 @@
         "name": "MiniMax-M2.5-highspeed",
         "open_weights": true,
         "reasoning": true,
+        "reasoning_options": [],
         "release_date": "2026-02-13",
         "temperature": true,
         "tool_call": true
@@ -83962,6 +85427,7 @@
         "name": "MiniMax-M2.7",
         "open_weights": true,
         "reasoning": true,
+        "reasoning_options": [],
         "release_date": "2026-03-18",
         "temperature": true,
         "tool_call": true
@@ -83993,6 +85459,7 @@
         "name": "MiniMax-M2.7-highspeed",
         "open_weights": true,
         "reasoning": true,
+        "reasoning_options": [],
         "release_date": "2026-03-18",
         "temperature": true,
         "tool_call": true
@@ -84561,6 +86028,7 @@
         "name": "Magistral Medium (latest)",
         "open_weights": true,
         "reasoning": true,
+        "reasoning_options": [],
         "release_date": "2025-03-17",
         "temperature": true,
         "tool_call": true
@@ -84591,6 +86059,7 @@
         "name": "Magistral Small",
         "open_weights": true,
         "reasoning": true,
+        "reasoning_options": [],
         "release_date": "2025-03-17",
         "temperature": true,
         "tool_call": true
@@ -85458,6 +86927,7 @@
         "name": "GLM-4.7",
         "open_weights": true,
         "reasoning": true,
+        "reasoning_options": [],
         "release_date": "2025-12-22",
         "temperature": true,
         "tool_call": true
@@ -85487,6 +86957,7 @@
         "name": "MiniMax-M2.1",
         "open_weights": true,
         "reasoning": true,
+        "reasoning_options": [],
         "release_date": "2025-12-23",
         "temperature": true,
         "tool_call": true
@@ -85561,6 +87032,7 @@
         "name": "Qwen3-235B-A22B-Thinking-2507",
         "open_weights": true,
         "reasoning": true,
+        "reasoning_options": [],
         "release_date": "2025-07-25",
         "temperature": true,
         "tool_call": true
@@ -85621,6 +87093,7 @@
         "name": "Qwen3 30B A3B Thinking 2507",
         "open_weights": true,
         "reasoning": true,
+        "reasoning_options": [],
         "release_date": "2025-07-30",
         "temperature": true,
         "tool_call": true
@@ -85681,6 +87154,11 @@
         "name": "GLM-4.5",
         "open_weights": true,
         "reasoning": true,
+        "reasoning_options": [
+          {
+            "type": "toggle"
+          }
+        ],
         "release_date": "2025-07-28",
         "temperature": true,
         "tool_call": true
@@ -85711,6 +87189,11 @@
         "name": "GLM-4.6",
         "open_weights": true,
         "reasoning": true,
+        "reasoning_options": [
+          {
+            "type": "toggle"
+          }
+        ],
         "release_date": "2025-09-30",
         "temperature": true,
         "tool_call": true
@@ -85821,6 +87304,7 @@
         "name": "Kimi K2 Thinking",
         "open_weights": true,
         "reasoning": true,
+        "reasoning_options": [],
         "release_date": "2025-11-06",
         "temperature": true,
         "tool_call": true
@@ -85855,6 +87339,7 @@
         "name": "Kimi K2 Thinking Turbo",
         "open_weights": true,
         "reasoning": true,
+        "reasoning_options": [],
         "release_date": "2025-11-06",
         "temperature": true,
         "tool_call": true
@@ -86118,6 +87603,7 @@
         "name": "Kimi K2 Thinking",
         "open_weights": true,
         "reasoning": true,
+        "reasoning_options": [],
         "release_date": "2025-11-06",
         "temperature": true,
         "tool_call": true
@@ -86152,6 +87638,7 @@
         "name": "Kimi K2 Thinking Turbo",
         "open_weights": true,
         "reasoning": true,
+        "reasoning_options": [],
         "release_date": "2025-11-06",
         "temperature": true,
         "tool_call": true
@@ -103735,7 +105222,12 @@
         },
         "name": "MiMo V2 Flash",
         "open_weights": false,
-        "reasoning": false,
+        "reasoning": true,
+        "reasoning_options": [
+          {
+            "type": "toggle"
+          }
+        ],
         "release_date": "2025-12-17",
         "structured_output": false,
         "tool_call": false
@@ -103765,7 +105257,12 @@
         },
         "name": "MiMo V2 Flash Original",
         "open_weights": false,
-        "reasoning": false,
+        "reasoning": true,
+        "reasoning_options": [
+          {
+            "type": "toggle"
+          }
+        ],
         "release_date": "2025-12-17",
         "structured_output": false,
         "tool_call": false
@@ -103795,7 +105292,12 @@
         },
         "name": "MiMo V2 Flash (Thinking)",
         "open_weights": false,
-        "reasoning": false,
+        "reasoning": true,
+        "reasoning_options": [
+          {
+            "type": "toggle"
+          }
+        ],
         "release_date": "2025-12-17",
         "structured_output": false,
         "tool_call": false
@@ -103825,7 +105327,12 @@
         },
         "name": "MiMo V2 Flash (Thinking) Original",
         "open_weights": false,
-        "reasoning": false,
+        "reasoning": true,
+        "reasoning_options": [
+          {
+            "type": "toggle"
+          }
+        ],
         "release_date": "2025-12-17",
         "structured_output": false,
         "tool_call": false
@@ -103858,7 +105365,12 @@
         },
         "name": "MiMo V2 Omni",
         "open_weights": false,
-        "reasoning": false,
+        "reasoning": true,
+        "reasoning_options": [
+          {
+            "type": "toggle"
+          }
+        ],
         "release_date": "2026-03-19",
         "structured_output": false,
         "tool_call": true
@@ -103889,6 +105401,11 @@
         "name": "MiMo V2 Pro",
         "open_weights": false,
         "reasoning": true,
+        "reasoning_options": [
+          {
+            "type": "toggle"
+          }
+        ],
         "release_date": "2026-03-19",
         "structured_output": true,
         "tool_call": true
@@ -103921,6 +105438,11 @@
         "name": "MiMo V2.5",
         "open_weights": false,
         "reasoning": true,
+        "reasoning_options": [
+          {
+            "type": "toggle"
+          }
+        ],
         "release_date": "2026-04-22",
         "structured_output": true,
         "tool_call": true
@@ -103951,6 +105473,11 @@
         "name": "MiMo V2.5 Pro",
         "open_weights": false,
         "reasoning": true,
+        "reasoning_options": [
+          {
+            "type": "toggle"
+          }
+        ],
         "release_date": "2026-04-22",
         "structured_output": true,
         "tool_call": true
@@ -108725,6 +110252,7 @@
         "name": "MiniMax M2.5",
         "open_weights": true,
         "reasoning": true,
+        "reasoning_options": [],
         "release_date": "2026-02-12",
         "temperature": true,
         "tool_call": true
@@ -108757,6 +110285,11 @@
         "name": "Qwen3.5 397B A17B FP8",
         "open_weights": true,
         "reasoning": true,
+        "reasoning_options": [
+          {
+            "type": "toggle"
+          }
+        ],
         "release_date": "2026-02-01",
         "temperature": true,
         "tool_call": true
@@ -108790,6 +110323,11 @@
         "name": "Qwen3.6 35B A3B",
         "open_weights": true,
         "reasoning": true,
+        "reasoning_options": [
+          {
+            "type": "toggle"
+          }
+        ],
         "release_date": "2026-04-01",
         "temperature": true,
         "tool_call": true
@@ -108971,6 +110509,11 @@
         "name": "Kimi K2.5",
         "open_weights": true,
         "reasoning": true,
+        "reasoning_options": [
+          {
+            "type": "toggle"
+          }
+        ],
         "release_date": "2026-01-27",
         "temperature": true,
         "tool_call": true
@@ -109004,6 +110547,11 @@
         "name": "Kimi K2.6",
         "open_weights": true,
         "reasoning": true,
+        "reasoning_options": [
+          {
+            "type": "toggle"
+          }
+        ],
         "release_date": "2026-04-21",
         "temperature": true,
         "tool_call": true
@@ -109033,6 +110581,16 @@
         "name": "GPT OSS 20B",
         "open_weights": true,
         "reasoning": true,
+        "reasoning_options": [
+          {
+            "type": "effort",
+            "values": [
+              "low",
+              "medium",
+              "high"
+            ]
+          }
+        ],
         "release_date": "2025-08-05",
         "temperature": true,
         "tool_call": true
@@ -109124,6 +110682,11 @@
         "name": "GLM 5.1 FP8",
         "open_weights": true,
         "reasoning": true,
+        "reasoning_options": [
+          {
+            "type": "toggle"
+          }
+        ],
         "release_date": "2026-04-07",
         "temperature": true,
         "tool_call": true
@@ -109170,6 +110733,19 @@
         "name": "Nova 2 Lite",
         "open_weights": false,
         "reasoning": true,
+        "reasoning_options": [
+          {
+            "type": "toggle"
+          },
+          {
+            "type": "effort",
+            "values": [
+              "low",
+              "medium",
+              "high"
+            ]
+          }
+        ],
         "release_date": "2025-12-01",
         "temperature": true,
         "tool_call": true
@@ -109203,6 +110779,7 @@
         "name": "Nova 2 Pro",
         "open_weights": false,
         "reasoning": true,
+        "reasoning_options": [],
         "release_date": "2025-12-03",
         "temperature": true,
         "tool_call": true
@@ -120652,6 +122229,7 @@
         "name": "MiMo V2 Flash Free",
         "open_weights": true,
         "reasoning": true,
+        "reasoning_options": [],
         "release_date": "2025-12-16",
         "status": "deprecated",
         "temperature": true,
@@ -120690,6 +122268,7 @@
         "name": "MiMo V2 Omni Free",
         "open_weights": true,
         "reasoning": true,
+        "reasoning_options": [],
         "release_date": "2026-03-18",
         "status": "deprecated",
         "temperature": true,
@@ -120725,6 +122304,7 @@
         "name": "MiMo V2 Pro Free",
         "open_weights": true,
         "reasoning": true,
+        "reasoning_options": [],
         "release_date": "2026-03-18",
         "status": "deprecated",
         "temperature": true,
@@ -120763,6 +122343,7 @@
         "name": "MiMo V2.5 Free",
         "open_weights": true,
         "reasoning": true,
+        "reasoning_options": [],
         "release_date": "2026-04-24",
         "temperature": true,
         "tool_call": true
@@ -121613,16 +123194,7 @@
         "name": "MiMo V2 Omni",
         "open_weights": true,
         "reasoning": true,
-        "reasoning_options": [
-          {
-            "type": "effort",
-            "values": [
-              "low",
-              "medium",
-              "high"
-            ]
-          }
-        ],
+        "reasoning_options": [],
         "release_date": "2026-03-18",
         "status": "deprecated",
         "temperature": true,
@@ -121674,16 +123246,7 @@
         "name": "MiMo V2 Pro",
         "open_weights": true,
         "reasoning": true,
-        "reasoning_options": [
-          {
-            "type": "effort",
-            "values": [
-              "low",
-              "medium",
-              "high"
-            ]
-          }
-        ],
+        "reasoning_options": [],
         "release_date": "2026-03-18",
         "status": "deprecated",
         "temperature": true,
@@ -121722,16 +123285,7 @@
         "name": "MiMo V2.5",
         "open_weights": true,
         "reasoning": true,
-        "reasoning_options": [
-          {
-            "type": "effort",
-            "values": [
-              "low",
-              "medium",
-              "high"
-            ]
-          }
-        ],
+        "reasoning_options": [],
         "release_date": "2026-04-22",
         "temperature": true,
         "tool_call": true
@@ -121766,16 +123320,7 @@
         "name": "MiMo V2.5 Pro",
         "open_weights": true,
         "reasoning": true,
-        "reasoning_options": [
-          {
-            "type": "effort",
-            "values": [
-              "low",
-              "medium",
-              "high"
-            ]
-          }
-        ],
+        "reasoning_options": [],
         "release_date": "2026-04-22",
         "temperature": true,
         "tool_call": true
@@ -130473,7 +132018,7 @@
         "attachment": false,
         "description": "Fusion is an AI model provided by openrouter.",
         "id": "openrouter/fusion",
-        "last_updated": "2026-05-12",
+        "last_updated": "2026-06-13",
         "limit": {
           "context": 128000,
           "output": 128000
@@ -130489,7 +132034,7 @@
         "name": "Fusion",
         "open_weights": false,
         "reasoning": false,
-        "release_date": "2026-05-12",
+        "release_date": "2026-06-13",
         "structured_output": false,
         "temperature": false,
         "tool_call": false
@@ -133446,7 +134991,11 @@
         "name": "MiMo-V2.5",
         "open_weights": true,
         "reasoning": true,
-        "reasoning_options": [],
+        "reasoning_options": [
+          {
+            "type": "toggle"
+          }
+        ],
         "release_date": "2026-04-22",
         "structured_output": false,
         "temperature": true,
@@ -133482,7 +135031,11 @@
         "name": "MiMo-V2.5-Pro",
         "open_weights": true,
         "reasoning": true,
-        "reasoning_options": [],
+        "reasoning_options": [
+          {
+            "type": "toggle"
+          }
+        ],
         "release_date": "2026-04-22",
         "structured_output": true,
         "temperature": true,
@@ -142611,6 +144164,19 @@
         "name": "Laguna M.1",
         "open_weights": false,
         "reasoning": true,
+        "reasoning_options": [
+          {
+            "type": "effort",
+            "values": [
+              "none",
+              "minimal",
+              "low",
+              "medium",
+              "high",
+              "xhigh"
+            ]
+          }
+        ],
         "release_date": "2026-04-28",
         "temperature": true,
         "tool_call": true
@@ -142644,6 +144210,19 @@
         "name": "Laguna XS.2",
         "open_weights": true,
         "reasoning": true,
+        "reasoning_options": [
+          {
+            "type": "effort",
+            "values": [
+              "none",
+              "minimal",
+              "low",
+              "medium",
+              "high",
+              "xhigh"
+            ]
+          }
+        ],
         "release_date": "2026-04-28",
         "temperature": true,
         "tool_call": true
@@ -144466,6 +146045,7 @@
         "name": "Mimo-V2-Flash",
         "open_weights": true,
         "reasoning": true,
+        "reasoning_options": [],
         "release_date": "2025-12-16",
         "temperature": true,
         "tool_call": true
@@ -145454,6 +147034,7 @@
         "name": "Xiaomi/Mimo-V2-Flash",
         "open_weights": true,
         "reasoning": true,
+        "reasoning_options": [],
         "release_date": "2025-12-16",
         "temperature": true,
         "tool_call": true
@@ -145597,6 +147178,16 @@
         "name": "GPT-OSS-120B",
         "open_weights": false,
         "reasoning": true,
+        "reasoning_options": [
+          {
+            "type": "effort",
+            "values": [
+              "low",
+              "medium",
+              "high"
+            ]
+          }
+        ],
         "release_date": "2025-08-05",
         "temperature": true,
         "tool_call": true
@@ -145626,6 +147217,16 @@
         "name": "GPT-OSS-20B",
         "open_weights": true,
         "reasoning": true,
+        "reasoning_options": [
+          {
+            "type": "effort",
+            "values": [
+              "low",
+              "medium",
+              "high"
+            ]
+          }
+        ],
         "release_date": "2026-03-01",
         "temperature": true,
         "tool_call": true
@@ -145713,6 +147314,7 @@
         "name": "MiniMax 2.5",
         "open_weights": false,
         "reasoning": true,
+        "reasoning_options": [],
         "release_date": "2026-03-10",
         "temperature": true,
         "tool_call": true
@@ -145743,6 +147345,7 @@
         "name": "Mistral Small 4 119B",
         "open_weights": false,
         "reasoning": true,
+        "reasoning_options": [],
         "release_date": "2026-03-15",
         "temperature": true,
         "tool_call": true
@@ -145772,6 +147375,7 @@
         "name": "Mistral Small 3.2",
         "open_weights": false,
         "reasoning": true,
+        "reasoning_options": [],
         "release_date": "2025-01-31",
         "temperature": true,
         "tool_call": true
@@ -145830,6 +147434,7 @@
         "name": "Qwen3-Coder-Next",
         "open_weights": true,
         "reasoning": true,
+        "reasoning_options": [],
         "release_date": "2026-03-01",
         "temperature": true,
         "tool_call": true
@@ -145918,6 +147523,7 @@
         "name": "Qwen3.5-122B",
         "open_weights": true,
         "reasoning": true,
+        "reasoning_options": [],
         "release_date": "2026-02-01",
         "temperature": true,
         "tool_call": true
@@ -145948,6 +147554,7 @@
         "name": "Qwen3.5-9B",
         "open_weights": true,
         "reasoning": true,
+        "reasoning_options": [],
         "release_date": "2026-02-01",
         "temperature": true,
         "tool_call": true
@@ -147755,6 +149362,7 @@
         "name": "MiMo V2.5",
         "open_weights": true,
         "reasoning": true,
+        "reasoning_options": [],
         "release_date": "2026-04-22",
         "temperature": true,
         "tool_call": true
@@ -147807,6 +149415,7 @@
         "name": "MiMo V2.5 Pro",
         "open_weights": true,
         "reasoning": true,
+        "reasoning_options": [],
         "release_date": "2026-04-22",
         "temperature": true,
         "tool_call": true
@@ -147859,6 +149468,7 @@
         "name": "MiMo V2.5 Pro 6bit",
         "open_weights": true,
         "reasoning": true,
+        "reasoning_options": [],
         "release_date": "2026-04-22",
         "temperature": true,
         "tool_call": true
@@ -157079,6 +158689,11 @@
         "name": "GLM-5",
         "open_weights": false,
         "reasoning": true,
+        "reasoning_options": [
+          {
+            "type": "toggle"
+          }
+        ],
         "release_date": "2026-02-11",
         "temperature": true,
         "tool_call": true
@@ -157144,6 +158759,7 @@
         "name": "Tencent HY 2.0 Think",
         "open_weights": false,
         "reasoning": true,
+        "reasoning_options": [],
         "release_date": "2026-03-08",
         "temperature": true,
         "tool_call": true
@@ -157178,6 +158794,7 @@
         "name": "Hunyuan-T1",
         "open_weights": false,
         "reasoning": true,
+        "reasoning_options": [],
         "release_date": "2026-03-08",
         "temperature": true,
         "tool_call": true
@@ -157246,6 +158863,11 @@
         "name": "Kimi-K2.5",
         "open_weights": true,
         "reasoning": true,
+        "reasoning_options": [
+          {
+            "type": "toggle"
+          }
+        ],
         "release_date": "2026-01-27",
         "temperature": true,
         "tool_call": true
@@ -157280,6 +158902,7 @@
         "name": "MiniMax-M2.5",
         "open_weights": true,
         "reasoning": true,
+        "reasoning_options": [],
         "release_date": "2026-02-12",
         "temperature": true,
         "tool_call": true
@@ -157396,6 +159019,7 @@
         "name": "Agent Max",
         "open_weights": false,
         "reasoning": true,
+        "reasoning_options": [],
         "release_date": "2026-05-04",
         "status": "beta",
         "structured_output": true,
@@ -157422,6 +159046,7 @@
         "name": "Agent Prime",
         "open_weights": false,
         "reasoning": true,
+        "reasoning_options": [],
         "release_date": "2026-05-04",
         "status": "beta",
         "structured_output": true,
@@ -157448,6 +159073,7 @@
         "name": "Agent Standard",
         "open_weights": false,
         "reasoning": true,
+        "reasoning_options": [],
         "release_date": "2026-05-04",
         "status": "beta",
         "structured_output": true,
@@ -157478,6 +159104,7 @@
         "name": "Code Max",
         "open_weights": false,
         "reasoning": true,
+        "reasoning_options": [],
         "release_date": "2026-05-04",
         "status": "beta",
         "structured_output": true,
@@ -157504,6 +159131,7 @@
         "name": "Code Prime",
         "open_weights": false,
         "reasoning": true,
+        "reasoning_options": [],
         "release_date": "2026-05-04",
         "status": "beta",
         "structured_output": true,
@@ -157530,6 +159158,7 @@
         "name": "Code Standard",
         "open_weights": false,
         "reasoning": true,
+        "reasoning_options": [],
         "release_date": "2026-05-04",
         "status": "beta",
         "structured_output": true,
@@ -157560,6 +159189,7 @@
         "name": "Text Max",
         "open_weights": false,
         "reasoning": true,
+        "reasoning_options": [],
         "release_date": "2026-03-24",
         "structured_output": true,
         "temperature": true,
@@ -157585,6 +159215,7 @@
         "name": "Text Prime",
         "open_weights": false,
         "reasoning": true,
+        "reasoning_options": [],
         "release_date": "2026-02-26",
         "structured_output": true,
         "temperature": true,
@@ -157610,6 +159241,7 @@
         "name": "Text Standard",
         "open_weights": false,
         "reasoning": true,
+        "reasoning_options": [],
         "release_date": "2026-02-26",
         "structured_output": true,
         "temperature": true,
@@ -159189,6 +160821,15 @@
         "name": "solar-pro2",
         "open_weights": false,
         "reasoning": true,
+        "reasoning_options": [
+          {
+            "type": "effort",
+            "values": [
+              "minimal",
+              "high"
+            ]
+          }
+        ],
         "release_date": "2025-05-20",
         "temperature": true,
         "tool_call": true
@@ -159219,6 +160860,16 @@
         "name": "solar-pro3",
         "open_weights": false,
         "reasoning": true,
+        "reasoning_options": [
+          {
+            "type": "effort",
+            "values": [
+              "low",
+              "medium",
+              "high"
+            ]
+          }
+        ],
         "release_date": "2026-01",
         "temperature": true,
         "tool_call": true
@@ -160069,7 +161720,6 @@
         "name": "Gemma 4 Uncensored",
         "open_weights": true,
         "reasoning": false,
-        "reasoning_options": [],
         "release_date": "2026-04-13",
         "structured_output": true,
         "tool_call": true
@@ -160100,7 +161750,6 @@
         "name": "Google Gemma 3 27B Instruct",
         "open_weights": true,
         "reasoning": false,
-        "reasoning_options": [],
         "release_date": "2025-11-04",
         "structured_output": true,
         "tool_call": true
@@ -160411,7 +162060,6 @@
         "name": "Hermes 3 Llama 3.1 405b",
         "open_weights": true,
         "reasoning": false,
-        "reasoning_options": [],
         "release_date": "2025-09-25",
         "tool_call": false
       },
@@ -160534,7 +162182,6 @@
         "name": "Llama 3.2 3B",
         "open_weights": true,
         "reasoning": false,
-        "reasoning_options": [],
         "release_date": "2024-10-03",
         "tool_call": true
       },
@@ -160563,7 +162210,6 @@
         "name": "Llama 3.3 70B",
         "open_weights": true,
         "reasoning": false,
-        "reasoning_options": [],
         "release_date": "2025-04-06",
         "tool_call": true
       },
@@ -160724,6 +162370,46 @@
         "temperature": true,
         "tool_call": true
       },
+      "minimax-m3-preview": {
+        "attachment": false,
+        "cost": {
+          "cache_read": 0.06,
+          "input": 0.3,
+          "output": 1.2
+        },
+        "description": "MiniMax M3 Preview is an AI model provided by venice.",
+        "family": "minimax-m3",
+        "id": "minimax-m3-preview",
+        "last_updated": "2026-06-13",
+        "limit": {
+          "context": 524288,
+          "output": 65536
+        },
+        "modalities": {
+          "input": [
+            "text"
+          ],
+          "output": [
+            "text"
+          ]
+        },
+        "name": "MiniMax M3 Preview",
+        "open_weights": true,
+        "reasoning": true,
+        "reasoning_options": [
+          {
+            "type": "effort",
+            "values": [
+              "none",
+              "low",
+              "medium",
+              "high"
+            ]
+          }
+        ],
+        "release_date": "2026-06-12",
+        "tool_call": true
+      },
       "mistral-small-2603": {
         "attachment": true,
         "cost": {
@@ -160790,7 +162476,6 @@
         "name": "Mistral Small 3.2 24B Instruct",
         "open_weights": true,
         "reasoning": false,
-        "reasoning_options": [],
         "release_date": "2026-01-15",
         "structured_output": true,
         "tool_call": true
@@ -160820,7 +162505,6 @@
         "name": "NVIDIA Nemotron 3 Nano 30B",
         "open_weights": true,
         "reasoning": false,
-        "reasoning_options": [],
         "release_date": "2026-01-27",
         "structured_output": true,
         "temperature": true,
@@ -160976,7 +162660,6 @@
         "name": "GPT-4o",
         "open_weights": false,
         "reasoning": false,
-        "reasoning_options": [],
         "release_date": "2026-02-28",
         "structured_output": true,
         "temperature": true,
@@ -161010,7 +162693,6 @@
         "name": "GPT-4o Mini",
         "open_weights": false,
         "reasoning": false,
-        "reasoning_options": [],
         "release_date": "2026-02-28",
         "structured_output": true,
         "temperature": true,
@@ -161615,7 +163297,6 @@
         "name": "Qwen 3 235B A22B Instruct 2507",
         "open_weights": true,
         "reasoning": false,
-        "reasoning_options": [],
         "release_date": "2025-04-29",
         "structured_output": true,
         "tool_call": true
@@ -161859,7 +163540,6 @@
         "name": "Qwen 3 Coder 480B Turbo",
         "open_weights": true,
         "reasoning": false,
-        "reasoning_options": [],
         "release_date": "2026-01-27",
         "structured_output": true,
         "tool_call": true
@@ -161889,7 +163569,6 @@
         "name": "Qwen 3 Next 80b",
         "open_weights": true,
         "reasoning": false,
-        "reasoning_options": [],
         "release_date": "2025-04-29",
         "structured_output": true,
         "tool_call": true
@@ -161919,7 +163598,6 @@
         "name": "Qwen3 VL 235B",
         "open_weights": true,
         "reasoning": false,
-        "reasoning_options": [],
         "release_date": "2026-01-16",
         "structured_output": true,
         "tool_call": true
@@ -161991,7 +163669,6 @@
         "name": "Venice Uncensored 1.2",
         "open_weights": true,
         "reasoning": false,
-        "reasoning_options": [],
         "release_date": "2026-04-01",
         "structured_output": true,
         "tool_call": true
@@ -162022,7 +163699,6 @@
         "name": "Venice Role Play Uncensored",
         "open_weights": true,
         "reasoning": false,
-        "reasoning_options": [],
         "release_date": "2026-02-20",
         "structured_output": true,
         "tool_call": true
@@ -166947,6 +168623,7 @@
         "name": "Magistral Medium (latest)",
         "open_weights": true,
         "reasoning": true,
+        "reasoning_options": [],
         "release_date": "2025-03-17",
         "temperature": true,
         "tool_call": true
@@ -166977,6 +168654,7 @@
         "name": "Magistral Small",
         "open_weights": true,
         "reasoning": true,
+        "reasoning_options": [],
         "release_date": "2025-03-17",
         "temperature": true,
         "tool_call": true
@@ -170454,6 +172132,11 @@
         "name": "MiMo V2 Flash",
         "open_weights": false,
         "reasoning": true,
+        "reasoning_options": [
+          {
+            "type": "toggle"
+          }
+        ],
         "release_date": "2025-12-17",
         "temperature": true,
         "tool_call": true
@@ -170485,6 +172168,11 @@
         "name": "MiMo V2 Pro",
         "open_weights": false,
         "reasoning": true,
+        "reasoning_options": [
+          {
+            "type": "toggle"
+          }
+        ],
         "release_date": "2026-03-18",
         "temperature": true,
         "tool_call": true
@@ -170518,6 +172206,11 @@
         "name": "MiMo M2.5",
         "open_weights": false,
         "reasoning": true,
+        "reasoning_options": [
+          {
+            "type": "toggle"
+          }
+        ],
         "release_date": "2026-04-22",
         "temperature": true,
         "tool_call": true
@@ -170551,6 +172244,11 @@
         "name": "MiMo V2.5 Pro",
         "open_weights": false,
         "reasoning": true,
+        "reasoning_options": [
+          {
+            "type": "toggle"
+          }
+        ],
         "release_date": "2026-04-22",
         "temperature": true,
         "tool_call": true
@@ -173303,6 +175001,11 @@
         "name": "MiMo-V2-Omni",
         "open_weights": false,
         "reasoning": true,
+        "reasoning_options": [
+          {
+            "type": "toggle"
+          }
+        ],
         "release_date": "2026-03-18",
         "temperature": true,
         "tool_call": true
@@ -173337,6 +175040,11 @@
         "name": "MiMo-V2-Pro",
         "open_weights": false,
         "reasoning": true,
+        "reasoning_options": [
+          {
+            "type": "toggle"
+          }
+        ],
         "release_date": "2026-03-18",
         "temperature": true,
         "tool_call": true
@@ -173402,6 +175110,11 @@
         "name": "MiMo-V2.5",
         "open_weights": true,
         "reasoning": true,
+        "reasoning_options": [
+          {
+            "type": "toggle"
+          }
+        ],
         "release_date": "2026-04-22",
         "temperature": true,
         "tool_call": true
@@ -173436,6 +175149,11 @@
         "name": "MiMo-V2.5-Pro",
         "open_weights": true,
         "reasoning": true,
+        "reasoning_options": [
+          {
+            "type": "toggle"
+          }
+        ],
         "release_date": "2026-04-22",
         "temperature": true,
         "tool_call": true
@@ -173571,6 +175289,11 @@
         "name": "MiMo-V2-Omni",
         "open_weights": false,
         "reasoning": true,
+        "reasoning_options": [
+          {
+            "type": "toggle"
+          }
+        ],
         "release_date": "2026-03-18",
         "temperature": true,
         "tool_call": true
@@ -173605,6 +175328,11 @@
         "name": "MiMo-V2-Pro",
         "open_weights": false,
         "reasoning": true,
+        "reasoning_options": [
+          {
+            "type": "toggle"
+          }
+        ],
         "release_date": "2026-03-18",
         "temperature": true,
         "tool_call": true
@@ -173670,6 +175398,11 @@
         "name": "MiMo-V2.5",
         "open_weights": true,
         "reasoning": true,
+        "reasoning_options": [
+          {
+            "type": "toggle"
+          }
+        ],
         "release_date": "2026-04-22",
         "temperature": true,
         "tool_call": true
@@ -173704,6 +175437,11 @@
         "name": "MiMo-V2.5-Pro",
         "open_weights": true,
         "reasoning": true,
+        "reasoning_options": [
+          {
+            "type": "toggle"
+          }
+        ],
         "release_date": "2026-04-22",
         "temperature": true,
         "tool_call": true
@@ -173839,6 +175577,11 @@
         "name": "MiMo-V2-Omni",
         "open_weights": false,
         "reasoning": true,
+        "reasoning_options": [
+          {
+            "type": "toggle"
+          }
+        ],
         "release_date": "2026-03-18",
         "temperature": true,
         "tool_call": true
@@ -173873,6 +175616,11 @@
         "name": "MiMo-V2-Pro",
         "open_weights": false,
         "reasoning": true,
+        "reasoning_options": [
+          {
+            "type": "toggle"
+          }
+        ],
         "release_date": "2026-03-18",
         "temperature": true,
         "tool_call": true
@@ -173938,6 +175686,11 @@
         "name": "MiMo-V2.5",
         "open_weights": true,
         "reasoning": true,
+        "reasoning_options": [
+          {
+            "type": "toggle"
+          }
+        ],
         "release_date": "2026-04-22",
         "temperature": true,
         "tool_call": true
@@ -173972,6 +175725,11 @@
         "name": "MiMo-V2.5-Pro",
         "open_weights": true,
         "reasoning": true,
+        "reasoning_options": [
+          {
+            "type": "toggle"
+          }
+        ],
         "release_date": "2026-04-22",
         "temperature": true,
         "tool_call": true
@@ -178154,6 +179912,11 @@
         "name": "MiMo-V2-Flash",
         "open_weights": true,
         "reasoning": true,
+        "reasoning_options": [
+          {
+            "type": "toggle"
+          }
+        ],
         "release_date": "2025-12-16",
         "temperature": true,
         "tool_call": true
@@ -178189,6 +179952,11 @@
         "name": "MiMo V2 Omni",
         "open_weights": false,
         "reasoning": true,
+        "reasoning_options": [
+          {
+            "type": "toggle"
+          }
+        ],
         "release_date": "2026-03-18",
         "temperature": true,
         "tool_call": true
@@ -178236,6 +180004,11 @@
         "name": "MiMo V2 Pro",
         "open_weights": false,
         "reasoning": true,
+        "reasoning_options": [
+          {
+            "type": "toggle"
+          }
+        ],
         "release_date": "2026-03-18",
         "temperature": true,
         "tool_call": true
@@ -178289,6 +180062,11 @@
         "name": "MiMo-V2.5",
         "open_weights": true,
         "reasoning": true,
+        "reasoning_options": [
+          {
+            "type": "toggle"
+          }
+        ],
         "release_date": "2026-04-22",
         "temperature": true,
         "tool_call": true
@@ -178339,6 +180117,11 @@
         "name": "MiMo-V2.5-Pro",
         "open_weights": true,
         "reasoning": true,
+        "reasoning_options": [
+          {
+            "type": "toggle"
+          }
+        ],
         "release_date": "2026-04-22",
         "temperature": true,
         "tool_call": true
@@ -179430,6 +181213,50 @@
           }
         ],
         "release_date": "2026-03-27",
+        "structured_output": true,
+        "temperature": true,
+        "tool_call": true
+      },
+      "glm-5.2": {
+        "attachment": false,
+        "cost": {
+          "cache_read": 0,
+          "cache_write": 0,
+          "input": 0,
+          "output": 0
+        },
+        "description": "GLM-5.2 is an AI model provided by zhipuai-coding-plan.",
+        "family": "glm",
+        "id": "glm-5.2",
+        "interleaved": {
+          "field": "reasoning_content"
+        },
+        "last_updated": "2026-06-13",
+        "limit": {
+          "context": 1000000,
+          "output": 131072
+        },
+        "modalities": {
+          "input": [
+            "text"
+          ],
+          "output": [
+            "text"
+          ]
+        },
+        "name": "GLM-5.2",
+        "open_weights": false,
+        "reasoning": true,
+        "reasoning_options": [
+          {
+            "type": "effort",
+            "values": [
+              "high",
+              "max"
+            ]
+          }
+        ],
+        "release_date": "2026-06-13",
         "structured_output": true,
         "temperature": true,
         "tool_call": true
