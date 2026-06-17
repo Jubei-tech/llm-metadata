@@ -1,16 +1,17 @@
 {
   "attachment": false,
   "cost": {
-    "input": 0.03,
-    "output": 0.16
+    "cache_read": 0.325,
+    "input": 1.75,
+    "output": 5.5
   },
-  "description": "GPT OSS 20B は neuralwatt によって提供される AI モデルです。",
-  "family": "gpt-oss",
-  "id": "openai/gpt-oss-20b",
-  "last_updated": "2025-08-05",
+  "description": "GLM 5.2 是由 venice 提供的人工智能模型。",
+  "family": "glm",
+  "id": "zai-org-glm-5-2",
+  "last_updated": "2026-06-16",
   "limit": {
-    "context": 16368,
-    "output": 16368
+    "context": 1000000,
+    "output": 24000
   },
   "modalities": {
     "input": [
@@ -20,20 +21,22 @@
       "text"
     ]
   },
-  "name": "GPT OSS 20B",
+  "name": "GLM 5.2",
   "open_weights": true,
   "reasoning": true,
   "reasoning_options": [
     {
       "type": "effort",
       "values": [
+        "none",
         "low",
         "medium",
         "high"
       ]
     }
   ],
-  "release_date": "2025-08-05",
+  "release_date": "2026-06-16",
+  "structured_output": true,
   "temperature": true,
   "tool_call": true
 }

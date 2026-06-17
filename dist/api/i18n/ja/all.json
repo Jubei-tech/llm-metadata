@@ -6971,6 +6971,17 @@
         "name": "Grok 4.3",
         "open_weights": false,
         "reasoning": true,
+        "reasoning_options": [
+          {
+            "type": "effort",
+            "values": [
+              "none",
+              "low",
+              "medium",
+              "high"
+            ]
+          }
+        ],
         "release_date": "2026-05-01",
         "structured_output": true,
         "temperature": true,
@@ -7008,6 +7019,11 @@
         "name": "Kimi K2.5",
         "open_weights": true,
         "reasoning": true,
+        "reasoning_options": [
+          {
+            "type": "toggle"
+          }
+        ],
         "release_date": "2026-01",
         "structured_output": true,
         "temperature": false,
@@ -7045,6 +7061,11 @@
         "name": "Kimi K2.6",
         "open_weights": true,
         "reasoning": true,
+        "reasoning_options": [
+          {
+            "type": "toggle"
+          }
+        ],
         "release_date": "2026-04-21",
         "structured_output": true,
         "temperature": false,
@@ -7136,6 +7157,11 @@
         "name": "Qwen3.6 Flash",
         "open_weights": false,
         "reasoning": true,
+        "reasoning_options": [
+          {
+            "type": "toggle"
+          }
+        ],
         "release_date": "2026-04-02",
         "structured_output": true,
         "temperature": true,
@@ -7184,6 +7210,11 @@
         "name": "Qwen3.6 Max Preview",
         "open_weights": false,
         "reasoning": true,
+        "reasoning_options": [
+          {
+            "type": "toggle"
+          }
+        ],
         "release_date": "2026-05-09",
         "structured_output": true,
         "temperature": true,
@@ -7240,6 +7271,11 @@
         "name": "Qwen3.6 Plus",
         "open_weights": false,
         "reasoning": true,
+        "reasoning_options": [
+          {
+            "type": "toggle"
+          }
+        ],
         "release_date": "2026-05-09",
         "structured_output": true,
         "temperature": true,
@@ -29897,7 +29933,8 @@
       "moonshotai/Kimi-K2.7-Code": {
         "attachment": true,
         "cost": {
-          "input": 0.16,
+          "cache_read": 0.16,
+          "input": 0.95,
           "output": 4
         },
         "description": "Kimi K2.7 Code は baseten によって提供される AI モデルです。",
@@ -30161,6 +30198,45 @@
           }
         ],
         "release_date": "2026-03-27",
+        "structured_output": true,
+        "temperature": true,
+        "tool_call": true
+      },
+      "zai-org/GLM-5.2": {
+        "attachment": false,
+        "cost": {
+          "cache_read": 0.3,
+          "input": 1.5,
+          "output": 4.5
+        },
+        "description": "GLM-5.2 は baseten によって提供される AI モデルです。",
+        "family": "glm",
+        "id": "zai-org/GLM-5.2",
+        "interleaved": {
+          "field": "reasoning_content"
+        },
+        "last_updated": "2026-06-13",
+        "limit": {
+          "context": 131072,
+          "output": 131072
+        },
+        "modalities": {
+          "input": [
+            "text"
+          ],
+          "output": [
+            "text"
+          ]
+        },
+        "name": "GLM-5.2",
+        "open_weights": false,
+        "reasoning": true,
+        "reasoning_options": [
+          {
+            "type": "toggle"
+          }
+        ],
+        "release_date": "2026-06-13",
         "structured_output": true,
         "temperature": true,
         "tool_call": true
@@ -47021,7 +47097,7 @@
       "accounts/fireworks/models/deepseek-v4-flash": {
         "attachment": false,
         "cost": {
-          "cache_read": 0.03,
+          "cache_read": 0.028,
           "input": 0.14,
           "output": 0.28
         },
@@ -47032,7 +47108,7 @@
           "field": "reasoning_content"
         },
         "knowledge": "2025-05",
-        "last_updated": "2026-04-24",
+        "last_updated": "2026-06-16",
         "limit": {
           "context": 1000000,
           "output": 384000
@@ -47150,17 +47226,62 @@
         "temperature": true,
         "tool_call": true
       },
+      "accounts/fireworks/models/glm-5p2": {
+        "attachment": false,
+        "cost": {
+          "cache_read": 0.26,
+          "input": 1.4,
+          "output": 4.4
+        },
+        "description": "GLM 5.2 は fireworks-ai によって提供される AI モデルです。",
+        "family": "glm",
+        "id": "accounts/fireworks/models/glm-5p2",
+        "interleaved": {
+          "field": "reasoning_content"
+        },
+        "last_updated": "2026-06-16",
+        "limit": {
+          "context": 1048576,
+          "output": 131072
+        },
+        "modalities": {
+          "input": [
+            "text"
+          ],
+          "output": [
+            "text"
+          ]
+        },
+        "name": "GLM 5.2",
+        "open_weights": true,
+        "reasoning": true,
+        "reasoning_options": [
+          {
+            "type": "toggle"
+          },
+          {
+            "type": "effort",
+            "values": [
+              "high",
+              "max"
+            ]
+          }
+        ],
+        "release_date": "2026-06-16",
+        "temperature": true,
+        "tool_call": true
+      },
       "accounts/fireworks/models/gpt-oss-120b": {
         "attachment": false,
         "cost": {
-          "cache_read": 0.01,
+          "cache_read": 0.015,
           "input": 0.15,
           "output": 0.6
         },
         "description": "GPT OSS 120B は fireworks-ai によって提供される AI モデルです。",
         "family": "gpt-oss",
         "id": "accounts/fireworks/models/gpt-oss-120b",
-        "last_updated": "2026-06-15",
+        "last_updated": "2026-06-16",
         "limit": {
           "context": 131072,
           "output": 32768
@@ -47282,8 +47403,7 @@
         "interleaved": {
           "field": "reasoning_content"
         },
-        "knowledge": "2025-01",
-        "last_updated": "2026-06-12",
+        "last_updated": "2026-06-16",
         "limit": {
           "context": 262000,
           "output": 262000
@@ -47306,7 +47426,6 @@
           }
         ],
         "release_date": "2026-06-12",
-        "structured_output": true,
         "temperature": true,
         "tool_call": true
       },
@@ -47564,7 +47683,7 @@
         "attachment": true,
         "cost": {
           "cache_read": 0.38,
-          "input": 2,
+          "input": 1.9,
           "output": 8
         },
         "description": "Kimi K2.7 Code Fast は fireworks-ai によって提供される AI モデルです。",
@@ -47573,8 +47692,7 @@
         "interleaved": {
           "field": "reasoning_content"
         },
-        "knowledge": "2025-01",
-        "last_updated": "2026-06-12",
+        "last_updated": "2026-06-16",
         "limit": {
           "context": 262000,
           "output": 262000
@@ -47597,7 +47715,6 @@
           }
         ],
         "release_date": "2026-06-12",
-        "structured_output": true,
         "temperature": true,
         "tool_call": true
       }
@@ -111302,39 +111419,6 @@
     "iconURL": "https://models.dev/logos/neuralwatt.svg",
     "id": "neuralwatt",
     "models": {
-      "MiniMaxAI/MiniMax-M2.5": {
-        "attachment": false,
-        "cost": {
-          "input": 0.35,
-          "output": 1.38
-        },
-        "description": "MiniMax M2.5 は neuralwatt によって提供される AI モデルです。",
-        "family": "minimax",
-        "id": "MiniMaxAI/MiniMax-M2.5",
-        "interleaved": {
-          "field": "reasoning_content"
-        },
-        "last_updated": "2026-02-12",
-        "limit": {
-          "context": 196592,
-          "output": 196592
-        },
-        "modalities": {
-          "input": [
-            "text"
-          ],
-          "output": [
-            "text"
-          ]
-        },
-        "name": "MiniMax M2.5",
-        "open_weights": true,
-        "reasoning": true,
-        "reasoning_options": [],
-        "release_date": "2026-02-12",
-        "temperature": true,
-        "tool_call": true
-      },
       "Qwen/Qwen3.5-397B-A17B-FP8": {
         "attachment": false,
         "cost": {
@@ -111468,6 +111552,47 @@
         "temperature": true,
         "tool_call": true
       },
+      "glm-5.2": {
+        "attachment": false,
+        "cost": {
+          "input": 1.45,
+          "output": 4.5
+        },
+        "description": "GLM 5.2 は neuralwatt によって提供される AI モデルです。",
+        "family": "glm",
+        "id": "glm-5.2",
+        "last_updated": "2026-06-17",
+        "limit": {
+          "context": 1048560,
+          "output": 1048560
+        },
+        "modalities": {
+          "input": [
+            "text"
+          ],
+          "output": [
+            "text"
+          ]
+        },
+        "name": "GLM 5.2",
+        "open_weights": true,
+        "reasoning": true,
+        "reasoning_options": [
+          {
+            "type": "effort",
+            "values": [
+              "minimal",
+              "low",
+              "medium",
+              "high",
+              "xhigh"
+            ]
+          }
+        ],
+        "release_date": "2026-06-17",
+        "temperature": true,
+        "tool_call": true
+      },
       "kimi-k2.5-fast": {
         "attachment": true,
         "cost": {
@@ -111525,36 +111650,6 @@
         "open_weights": true,
         "reasoning": false,
         "release_date": "2026-04-21",
-        "temperature": true,
-        "tool_call": true
-      },
-      "mistralai/Devstral-Small-2-24B-Instruct-2512": {
-        "attachment": true,
-        "cost": {
-          "input": 0.12,
-          "output": 0.35
-        },
-        "description": "Devstral Small 2 24B Instruct 2512 は neuralwatt によって提供される AI モデルです。",
-        "family": "devstral",
-        "id": "mistralai/Devstral-Small-2-24B-Instruct-2512",
-        "last_updated": "2025-12-09",
-        "limit": {
-          "context": 262128,
-          "output": 262128
-        },
-        "modalities": {
-          "input": [
-            "text",
-            "image"
-          ],
-          "output": [
-            "text"
-          ]
-        },
-        "name": "Devstral Small 2 24B Instruct 2512",
-        "open_weights": true,
-        "reasoning": false,
-        "release_date": "2025-12-09",
         "temperature": true,
         "tool_call": true
       },
@@ -111664,45 +111759,6 @@
         "release_date": "2026-06-12",
         "structured_output": true,
         "temperature": false,
-        "tool_call": true
-      },
-      "openai/gpt-oss-20b": {
-        "attachment": false,
-        "cost": {
-          "input": 0.03,
-          "output": 0.16
-        },
-        "description": "GPT OSS 20B は neuralwatt によって提供される AI モデルです。",
-        "family": "gpt-oss",
-        "id": "openai/gpt-oss-20b",
-        "last_updated": "2025-08-05",
-        "limit": {
-          "context": 16368,
-          "output": 16368
-        },
-        "modalities": {
-          "input": [
-            "text"
-          ],
-          "output": [
-            "text"
-          ]
-        },
-        "name": "GPT OSS 20B",
-        "open_weights": true,
-        "reasoning": true,
-        "reasoning_options": [
-          {
-            "type": "effort",
-            "values": [
-              "low",
-              "medium",
-              "high"
-            ]
-          }
-        ],
-        "release_date": "2025-08-05",
-        "temperature": true,
         "tool_call": true
       },
       "qwen3.5-397b-fast": {
@@ -124213,6 +124269,7 @@
         "reasoning": true,
         "reasoning_options": [],
         "release_date": "2026-02-11",
+        "status": "deprecated",
         "temperature": true,
         "tool_call": true
       },
@@ -124248,6 +124305,41 @@
         "reasoning": true,
         "reasoning_options": [],
         "release_date": "2026-04-07",
+        "temperature": true,
+        "tool_call": true
+      },
+      "glm-5.2": {
+        "attachment": false,
+        "cost": {
+          "cache_read": 0.26,
+          "input": 1.4,
+          "output": 4.4
+        },
+        "description": "GLM-5.2 は opencode-go によって提供される AI モデルです。",
+        "family": "glm",
+        "id": "glm-5.2",
+        "interleaved": {
+          "field": "reasoning_content"
+        },
+        "last_updated": "2026-06-13",
+        "limit": {
+          "context": 1000000,
+          "output": 131072
+        },
+        "modalities": {
+          "input": [
+            "text"
+          ],
+          "output": [
+            "text"
+          ]
+        },
+        "name": "GLM-5.2",
+        "open_weights": false,
+        "reasoning": true,
+        "reasoning_options": [],
+        "release_date": "2026-06-13",
+        "structured_output": true,
         "temperature": true,
         "tool_call": true
       },
@@ -126834,8 +126926,8 @@
         "attachment": false,
         "cost": {
           "cache_read": 0.02,
-          "input": 0.098,
-          "output": 0.196
+          "input": 0.09,
+          "output": 0.18
         },
         "description": "DeepSeek V4 Flash は openrouter によって提供される AI モデルです。",
         "family": "deepseek-flash",
@@ -126846,7 +126938,7 @@
         "knowledge": "2025-05",
         "last_updated": "2026-04-24",
         "limit": {
-          "context": 1048575,
+          "context": 1000000,
           "output": 65536
         },
         "modalities": {
@@ -130043,8 +130135,8 @@
       "moonshotai/kimi-k2.7-code": {
         "attachment": true,
         "cost": {
-          "cache_read": 0.16,
-          "input": 0.75,
+          "cache_read": 0.15,
+          "input": 0.74,
           "output": 3.5
         },
         "description": "Kimi K2.7 Code は openrouter によって提供される AI モデルです。",
@@ -130054,7 +130146,7 @@
         "last_updated": "2026-06-12",
         "limit": {
           "context": 262144,
-          "output": 262144
+          "output": 16384
         },
         "modalities": {
           "input": [
@@ -130521,9 +130613,9 @@
       "nvidia/nemotron-3-ultra-550b-a55b": {
         "attachment": false,
         "cost": {
-          "cache_read": 0.15,
+          "cache_read": 0.1,
           "input": 0.5,
-          "output": 2.5
+          "output": 2.2
         },
         "description": "Nemotron 3 Ultra 550B A55B は openrouter によって提供される AI モデルです。",
         "family": "nemotron",
@@ -136205,8 +136297,8 @@
       "z-ai/glm-4.5-air": {
         "attachment": false,
         "cost": {
-          "cache_read": 0.06,
-          "input": 0.125,
+          "cache_read": 0.025,
+          "input": 0.13,
           "output": 0.85
         },
         "description": "GLM-4.5-Air は openrouter によって提供される AI モデルです。",
@@ -136215,8 +136307,8 @@
         "knowledge": "2025-04",
         "last_updated": "2025-07-28",
         "limit": {
-          "context": 131070,
-          "output": 131070
+          "context": 131072,
+          "output": 98304
         },
         "modalities": {
           "input": [
@@ -136518,6 +136610,41 @@
         "reasoning": true,
         "reasoning_options": [],
         "release_date": "2026-03-27",
+        "structured_output": true,
+        "temperature": true,
+        "tool_call": true
+      },
+      "z-ai/glm-5.2": {
+        "attachment": false,
+        "cost": {
+          "cache_read": 0.26,
+          "input": 1.4,
+          "output": 4.4
+        },
+        "description": "GLM-5.2 は openrouter によって提供される AI モデルです。",
+        "family": "glm",
+        "id": "z-ai/glm-5.2",
+        "interleaved": {
+          "field": "reasoning_content"
+        },
+        "last_updated": "2026-06-13",
+        "limit": {
+          "context": 262144,
+          "output": 262144
+        },
+        "modalities": {
+          "input": [
+            "text"
+          ],
+          "output": [
+            "text"
+          ]
+        },
+        "name": "GLM-5.2",
+        "open_weights": false,
+        "reasoning": true,
+        "reasoning_options": [],
+        "release_date": "2026-06-13",
         "structured_output": true,
         "temperature": true,
         "tool_call": true
@@ -165102,6 +165229,48 @@
         "structured_output": true,
         "temperature": true,
         "tool_call": true
+      },
+      "zai-org-glm-5-2": {
+        "attachment": false,
+        "cost": {
+          "cache_read": 0.325,
+          "input": 1.75,
+          "output": 5.5
+        },
+        "description": "GLM 5.2 は venice によって提供される AI モデルです。",
+        "family": "glm",
+        "id": "zai-org-glm-5-2",
+        "last_updated": "2026-06-16",
+        "limit": {
+          "context": 1000000,
+          "output": 24000
+        },
+        "modalities": {
+          "input": [
+            "text"
+          ],
+          "output": [
+            "text"
+          ]
+        },
+        "name": "GLM 5.2",
+        "open_weights": true,
+        "reasoning": true,
+        "reasoning_options": [
+          {
+            "type": "effort",
+            "values": [
+              "none",
+              "low",
+              "medium",
+              "high"
+            ]
+          }
+        ],
+        "release_date": "2026-06-16",
+        "structured_output": true,
+        "temperature": true,
+        "tool_call": true
       }
     },
     "name": "Venice AI",
@@ -165944,6 +166113,11 @@
         "reasoning_options": [
           {
             "type": "toggle"
+          },
+          {
+            "max": 262144,
+            "min": 1,
+            "type": "budget_tokens"
           }
         ],
         "release_date": "2026-06-01",
@@ -170029,16 +170203,7 @@
         },
         "name": "Mistral Small (latest)",
         "open_weights": true,
-        "reasoning": true,
-        "reasoning_options": [
-          {
-            "type": "effort",
-            "values": [
-              "none",
-              "high"
-            ]
-          }
-        ],
+        "reasoning": false,
         "release_date": "2026-03-16",
         "temperature": true,
         "tool_call": true
@@ -170396,6 +170561,11 @@
         "name": "Nemotron 3 Nano 30B A3B",
         "open_weights": false,
         "reasoning": true,
+        "reasoning_options": [
+          {
+            "type": "toggle"
+          }
+        ],
         "release_date": "2024-12-01",
         "temperature": true,
         "tool_call": false
@@ -170456,6 +170626,11 @@
         "name": "Nemotron 3 Ultra",
         "open_weights": false,
         "reasoning": true,
+        "reasoning_options": [
+          {
+            "type": "toggle"
+          }
+        ],
         "release_date": "2026-06-04",
         "temperature": true,
         "tool_call": true
@@ -170487,6 +170662,11 @@
         "name": "Nvidia Nemotron Nano 12B V2 VL",
         "open_weights": false,
         "reasoning": true,
+        "reasoning_options": [
+          {
+            "type": "toggle"
+          }
+        ],
         "release_date": "2024-12-01",
         "temperature": true,
         "tool_call": true
@@ -170517,6 +170697,11 @@
         "name": "Nvidia Nemotron Nano 9B V2",
         "open_weights": false,
         "reasoning": true,
+        "reasoning_options": [
+          {
+            "type": "toggle"
+          }
+        ],
         "release_date": "2025-08-18",
         "temperature": true,
         "tool_call": true
@@ -171241,7 +171426,14 @@
         "name": "GPT-5.1 Instant",
         "open_weights": false,
         "reasoning": true,
-        "reasoning_options": [],
+        "reasoning_options": [
+          {
+            "type": "effort",
+            "values": [
+              "medium"
+            ]
+          }
+        ],
         "release_date": "2025-11-12",
         "temperature": true,
         "tool_call": true
@@ -171277,7 +171469,17 @@
         "name": "GPT 5.1 Thinking",
         "open_weights": false,
         "reasoning": true,
-        "reasoning_options": [],
+        "reasoning_options": [
+          {
+            "type": "effort",
+            "values": [
+              "none",
+              "low",
+              "medium",
+              "high"
+            ]
+          }
+        ],
         "release_date": "2025-11-12",
         "temperature": true,
         "tool_call": true
@@ -171359,7 +171561,14 @@
         "name": "GPT-5.2 Chat",
         "open_weights": false,
         "reasoning": true,
-        "reasoning_options": [],
+        "reasoning_options": [
+          {
+            "type": "effort",
+            "values": [
+              "medium"
+            ]
+          }
+        ],
         "release_date": "2025-12-11",
         "temperature": true,
         "tool_call": true
@@ -171483,7 +171692,14 @@
         "name": "GPT-5.3 Chat",
         "open_weights": false,
         "reasoning": true,
-        "reasoning_options": [],
+        "reasoning_options": [
+          {
+            "type": "effort",
+            "values": [
+              "medium"
+            ]
+          }
+        ],
         "release_date": "2026-03-03",
         "temperature": true,
         "tool_call": true
@@ -171522,6 +171738,7 @@
           {
             "type": "effort",
             "values": [
+              "none",
               "low",
               "medium",
               "high",
@@ -171754,6 +171971,7 @@
             "type": "effort",
             "values": [
               "none",
+              "minimal",
               "low",
               "medium",
               "high",
