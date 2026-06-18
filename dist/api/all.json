@@ -12935,7 +12935,7 @@
         "interleaved": {
           "field": "reasoning_content"
         },
-        "last_updated": "2026-02-11",
+        "last_updated": "2026-02-12",
         "limit": {
           "context": 202752,
           "output": 16384
@@ -12956,7 +12956,7 @@
             "type": "toggle"
           }
         ],
-        "release_date": "2026-02-11",
+        "release_date": "2026-02-12",
         "temperature": true,
         "tool_call": true
       },
@@ -12974,7 +12974,7 @@
         "interleaved": {
           "field": "reasoning_content"
         },
-        "last_updated": "2026-03-27",
+        "last_updated": "2026-04-07",
         "limit": {
           "context": 202752,
           "output": 128000
@@ -12995,7 +12995,7 @@
             "type": "toggle"
           }
         ],
-        "release_date": "2026-03-27",
+        "release_date": "2026-04-07",
         "structured_output": true,
         "temperature": true,
         "tool_call": true
@@ -13551,7 +13551,7 @@
         "interleaved": {
           "field": "reasoning_content"
         },
-        "last_updated": "2026-02-11",
+        "last_updated": "2026-02-12",
         "limit": {
           "context": 202752,
           "output": 16384
@@ -13572,7 +13572,7 @@
             "type": "toggle"
           }
         ],
-        "release_date": "2026-02-11",
+        "release_date": "2026-02-12",
         "temperature": true,
         "tool_call": true
       },
@@ -13590,7 +13590,7 @@
         "interleaved": {
           "field": "reasoning_content"
         },
-        "last_updated": "2026-03-27",
+        "last_updated": "2026-04-07",
         "limit": {
           "context": 202752,
           "output": 128000
@@ -13611,7 +13611,51 @@
             "type": "toggle"
           }
         ],
-        "release_date": "2026-03-27",
+        "release_date": "2026-04-07",
+        "structured_output": true,
+        "temperature": true,
+        "tool_call": true
+      },
+      "glm-5.2": {
+        "attachment": false,
+        "cost": {
+          "cache_read": 0,
+          "cache_write": 0,
+          "input": 0,
+          "output": 0
+        },
+        "description": "GLM-5.2 is an AI model provided by alibaba-token-plan-cn.",
+        "family": "glm",
+        "id": "glm-5.2",
+        "interleaved": {
+          "field": "reasoning_content"
+        },
+        "last_updated": "2026-06-13",
+        "limit": {
+          "context": 1000000,
+          "output": 131072
+        },
+        "modalities": {
+          "input": [
+            "text"
+          ],
+          "output": [
+            "text"
+          ]
+        },
+        "name": "GLM-5.2",
+        "open_weights": false,
+        "reasoning": true,
+        "reasoning_options": [
+          {
+            "type": "effort",
+            "values": [
+              "high",
+              "max"
+            ]
+          }
+        ],
+        "release_date": "2026-06-13",
         "structured_output": true,
         "temperature": true,
         "tool_call": true
@@ -19391,7 +19435,7 @@
         "interleaved": {
           "field": "reasoning_content"
         },
-        "last_updated": "2026-03-27",
+        "last_updated": "2026-04-07",
         "limit": {
           "context": 202752,
           "output": 131072
@@ -19408,7 +19452,7 @@
         "open_weights": true,
         "reasoning": true,
         "reasoning_options": [],
-        "release_date": "2026-03-27",
+        "release_date": "2026-04-07",
         "structured_output": true,
         "temperature": true,
         "tool_call": true
@@ -22233,7 +22277,7 @@
         "interleaved": {
           "field": "reasoning_content"
         },
-        "last_updated": "2026-03-27",
+        "last_updated": "2026-04-07",
         "limit": {
           "context": 200000,
           "output": 131072
@@ -22250,7 +22294,7 @@
         "open_weights": true,
         "reasoning": true,
         "reasoning_options": [],
-        "release_date": "2026-03-27",
+        "release_date": "2026-04-07",
         "structured_output": true,
         "temperature": true,
         "tool_call": true
@@ -24811,6 +24855,103 @@
         "structured_output": true,
         "temperature": false,
         "tool_call": true
+      },
+      "gpt-image-1": {
+        "attachment": true,
+        "cost": {
+          "cache_read": 1.25,
+          "input": 5,
+          "output": 40
+        },
+        "description": "GPT-Image-1 is an AI model provided by azure.",
+        "family": "gpt-image",
+        "id": "gpt-image-1",
+        "last_updated": "2025-04-24",
+        "limit": {
+          "context": 0,
+          "output": 0
+        },
+        "modalities": {
+          "input": [
+            "text",
+            "image"
+          ],
+          "output": [
+            "image"
+          ]
+        },
+        "name": "GPT-Image-1",
+        "open_weights": false,
+        "reasoning": false,
+        "reasoning_options": [],
+        "release_date": "2025-04-24",
+        "temperature": false,
+        "tool_call": false
+      },
+      "gpt-image-1.5": {
+        "attachment": true,
+        "cost": {
+          "cache_read": 1.25,
+          "input": 5,
+          "output": 32
+        },
+        "description": "GPT-Image-1.5 is an AI model provided by azure.",
+        "family": "gpt-image",
+        "id": "gpt-image-1.5",
+        "last_updated": "2025-11-25",
+        "limit": {
+          "context": 0,
+          "output": 0
+        },
+        "modalities": {
+          "input": [
+            "text",
+            "image"
+          ],
+          "output": [
+            "text",
+            "image"
+          ]
+        },
+        "name": "GPT-Image-1.5",
+        "open_weights": false,
+        "reasoning": false,
+        "reasoning_options": [],
+        "release_date": "2025-11-25",
+        "temperature": false,
+        "tool_call": false
+      },
+      "gpt-image-2": {
+        "attachment": true,
+        "cost": {
+          "cache_read": 1.25,
+          "input": 5,
+          "output": 30
+        },
+        "description": "GPT-Image-2 is an AI model provided by azure.",
+        "family": "gpt-image",
+        "id": "gpt-image-2",
+        "last_updated": "2026-04-21",
+        "limit": {
+          "context": 0,
+          "output": 0
+        },
+        "modalities": {
+          "input": [
+            "text",
+            "image"
+          ],
+          "output": [
+            "image"
+          ]
+        },
+        "name": "GPT-Image-2",
+        "open_weights": false,
+        "reasoning": false,
+        "reasoning_options": [],
+        "release_date": "2026-04-21",
+        "temperature": false,
+        "tool_call": false
       },
       "grok-4-1-fast-non-reasoning": {
         "attachment": true,
@@ -28379,7 +28520,7 @@
         "id": "kimi-k2.5",
         "interleaved": true,
         "knowledge": "2025-01",
-        "last_updated": "2026-02-06",
+        "last_updated": "2026-01",
         "limit": {
           "context": 262144,
           "output": 262144
@@ -28396,7 +28537,7 @@
         "name": "Kimi K2.5",
         "open_weights": true,
         "provider": {
-          "api": "https://${AZURE_RESOURCE_NAME}.services.ai.azure.com/models",
+          "api": "https://${AZURE_COGNITIVE_SERVICES_RESOURCE_NAME}.services.ai.azure.com/models",
           "npm": "@ai-sdk/openai-compatible",
           "shape": "completions"
         },
@@ -28406,7 +28547,7 @@
             "type": "toggle"
           }
         ],
-        "release_date": "2026-02-06",
+        "release_date": "2026-01",
         "structured_output": true,
         "temperature": true,
         "tool_call": true
@@ -28422,7 +28563,7 @@
         "id": "kimi-k2.6",
         "interleaved": true,
         "knowledge": "2025-01",
-        "last_updated": "2026-04-22",
+        "last_updated": "2026-04-21",
         "limit": {
           "context": 262144,
           "output": 262144
@@ -28439,7 +28580,7 @@
         "name": "Kimi K2.6",
         "open_weights": true,
         "provider": {
-          "api": "https://${AZURE_RESOURCE_NAME}.services.ai.azure.com/models",
+          "api": "https://${AZURE_COGNITIVE_SERVICES_RESOURCE_NAME}.services.ai.azure.com/models",
           "npm": "@ai-sdk/openai-compatible",
           "shape": "completions"
         },
@@ -28449,7 +28590,7 @@
             "type": "toggle"
           }
         ],
-        "release_date": "2026-04-22",
+        "release_date": "2026-04-21",
         "structured_output": true,
         "temperature": true,
         "tool_call": true
@@ -30005,7 +30146,7 @@
         "attachment": false,
         "cost": {
           "cache_read": 0.06,
-          "input": 0.06,
+          "input": 0.3,
           "output": 0.75
         },
         "description": "Nemotron Super is an AI model provided by baseten.",
@@ -30086,7 +30227,7 @@
         "attachment": false,
         "cost": {
           "cache_read": 0.12,
-          "input": 0.12,
+          "input": 0.6,
           "output": 2.2
         },
         "description": "GLM 4.7 is an AI model provided by baseten.",
@@ -30175,7 +30316,7 @@
         "interleaved": {
           "field": "reasoning_content"
         },
-        "last_updated": "2026-03-27",
+        "last_updated": "2026-04-07",
         "limit": {
           "context": 202800,
           "output": 202800
@@ -30196,7 +30337,7 @@
             "type": "toggle"
           }
         ],
-        "release_date": "2026-03-27",
+        "release_date": "2026-04-07",
         "structured_output": true,
         "temperature": true,
         "tool_call": true
@@ -30208,7 +30349,7 @@
           "input": 1.5,
           "output": 4.5
         },
-        "description": "GLM-5.2 is an AI model provided by baseten.",
+        "description": "GLM 5.2 is an AI model provided by baseten.",
         "family": "glm",
         "id": "zai-org/GLM-5.2",
         "interleaved": {
@@ -30227,7 +30368,7 @@
             "text"
           ]
         },
-        "name": "GLM-5.2",
+        "name": "GLM 5.2",
         "open_weights": false,
         "reasoning": true,
         "reasoning_options": [
@@ -31882,7 +32023,7 @@
         "interleaved": {
           "field": "reasoning_content"
         },
-        "last_updated": "2026-02-11",
+        "last_updated": "2026-02-12",
         "limit": {
           "context": 202752,
           "output": 65535
@@ -31903,7 +32044,7 @@
             "type": "toggle"
           }
         ],
-        "release_date": "2026-02-11",
+        "release_date": "2026-02-12",
         "structured_output": true,
         "temperature": true,
         "tool_call": true
@@ -31960,7 +32101,7 @@
         "interleaved": {
           "field": "reasoning_content"
         },
-        "last_updated": "2026-03-27",
+        "last_updated": "2026-04-07",
         "limit": {
           "context": 202752,
           "output": 65535
@@ -31981,7 +32122,7 @@
             "type": "toggle"
           }
         ],
-        "release_date": "2026-03-27",
+        "release_date": "2026-04-07",
         "structured_output": true,
         "temperature": true,
         "tool_call": true
@@ -38729,7 +38870,7 @@
         "interleaved": {
           "field": "reasoning_content"
         },
-        "last_updated": "2026-02-11",
+        "last_updated": "2026-02-12",
         "limit": {
           "context": 202752,
           "output": 202752
@@ -38749,7 +38890,7 @@
         },
         "reasoning": true,
         "reasoning_options": [],
-        "release_date": "2026-02-11",
+        "release_date": "2026-02-12",
         "temperature": true,
         "tool_call": true
       },
@@ -38767,7 +38908,7 @@
         "interleaved": {
           "field": "reasoning_content"
         },
-        "last_updated": "2026-03-27",
+        "last_updated": "2026-04-07",
         "limit": {
           "context": 202752,
           "output": 202752
@@ -38797,24 +38938,28 @@
             ]
           }
         ],
-        "release_date": "2026-03-27",
+        "release_date": "2026-04-07",
         "structured_output": true,
         "temperature": true,
         "tool_call": true
       },
-      "greg-1": {
+      "glm-5.2": {
         "attachment": false,
         "cost": {
-          "cache_read": 0.02,
-          "input": 0.1,
-          "output": 0.3
+          "cache_read": 0.08,
+          "input": 0.5,
+          "output": 2.2
         },
-        "description": "Greg 1 Normal is an AI model provided by crof.",
-        "id": "greg-1",
-        "last_updated": "2026-01-27",
+        "description": "GLM-5.2 is an AI model provided by crof.",
+        "family": "glm",
+        "id": "glm-5.2",
+        "interleaved": {
+          "field": "reasoning_content"
+        },
+        "last_updated": "2026-06-13",
         "limit": {
-          "context": 229376,
-          "output": 229376
+          "context": 1000000,
+          "output": 131072
         },
         "modalities": {
           "input": [
@@ -38824,12 +38969,27 @@
             "text"
           ]
         },
-        "name": "Greg 1 Normal",
+        "name": "GLM-5.2",
         "open_weights": false,
-        "reasoning": false,
-        "release_date": "2026-01-27",
+        "provider": {
+          "npm": "@ai-sdk/openai-compatible"
+        },
+        "reasoning": true,
+        "reasoning_options": [
+          {
+            "type": "effort",
+            "values": [
+              "none",
+              "low",
+              "medium",
+              "high"
+            ]
+          }
+        ],
+        "release_date": "2026-06-13",
+        "structured_output": true,
         "temperature": true,
-        "tool_call": false
+        "tool_call": true
       },
       "greg-1-mini": {
         "attachment": false,
@@ -38860,16 +39020,16 @@
         "temperature": true,
         "tool_call": false
       },
-      "greg-1-super": {
+      "greg-2-super": {
         "attachment": false,
         "cost": {
-          "cache_read": 0.2,
-          "input": 1,
+          "cache_read": 0.25,
+          "input": 1.5,
           "output": 5
         },
-        "description": "Greg 1 Super is an AI model provided by crof.",
-        "id": "greg-1-super",
-        "last_updated": "2026-01-27",
+        "description": "Greg 2 Super is an AI model provided by crof.",
+        "id": "greg-2-super",
+        "last_updated": "2026-06-14",
         "limit": {
           "context": 229376,
           "output": 229376
@@ -38882,10 +39042,39 @@
             "text"
           ]
         },
-        "name": "Greg 1 Super",
+        "name": "Greg 2 Super",
         "open_weights": false,
         "reasoning": false,
-        "release_date": "2026-01-27",
+        "release_date": "2026-06-14",
+        "temperature": true,
+        "tool_call": false
+      },
+      "greg-2-ultra": {
+        "attachment": false,
+        "cost": {
+          "cache_read": 0.5,
+          "input": 3,
+          "output": 10
+        },
+        "description": "Greg 2 Ultra is an AI model provided by crof.",
+        "id": "greg-2-ultra",
+        "last_updated": "2026-06-14",
+        "limit": {
+          "context": 229376,
+          "output": 229376
+        },
+        "modalities": {
+          "input": [
+            "text"
+          ],
+          "output": [
+            "text"
+          ]
+        },
+        "name": "Greg 2 Ultra",
+        "open_weights": false,
+        "reasoning": false,
+        "release_date": "2026-06-14",
         "temperature": true,
         "tool_call": false
       },
@@ -39065,6 +39254,57 @@
         "release_date": "2026-04-21",
         "structured_output": true,
         "temperature": true,
+        "tool_call": true
+      },
+      "kimi-k2.7-code": {
+        "attachment": true,
+        "cost": {
+          "cache_read": 0.05,
+          "input": 0.55,
+          "output": 2.25
+        },
+        "description": "Kimi K2.7 Code is an AI model provided by crof.",
+        "family": "kimi-k2",
+        "id": "kimi-k2.7-code",
+        "interleaved": {
+          "field": "reasoning_content"
+        },
+        "knowledge": "2025-01",
+        "last_updated": "2026-06-12",
+        "limit": {
+          "context": 262144,
+          "output": 262144
+        },
+        "modalities": {
+          "input": [
+            "text",
+            "image",
+            "video"
+          ],
+          "output": [
+            "text"
+          ]
+        },
+        "name": "Kimi K2.7 Code",
+        "open_weights": true,
+        "provider": {
+          "npm": "@ai-sdk/openai-compatible"
+        },
+        "reasoning": true,
+        "reasoning_options": [
+          {
+            "type": "effort",
+            "values": [
+              "none",
+              "low",
+              "medium",
+              "high"
+            ]
+          }
+        ],
+        "release_date": "2026-06-12",
+        "structured_output": true,
+        "temperature": false,
         "tool_call": true
       },
       "mimo-v2.5-pro": {
@@ -44609,7 +44849,7 @@
         "interleaved": {
           "field": "reasoning_content"
         },
-        "last_updated": "2026-02-11",
+        "last_updated": "2026-02-12",
         "limit": {
           "context": 200000,
           "output": 128000
@@ -44626,7 +44866,7 @@
         "open_weights": true,
         "reasoning": true,
         "reasoning_options": [],
-        "release_date": "2026-02-11",
+        "release_date": "2026-02-12",
         "temperature": true,
         "tool_call": true
       },
@@ -44642,7 +44882,7 @@
         "interleaved": {
           "field": "reasoning_content"
         },
-        "last_updated": "2026-03-27",
+        "last_updated": "2026-04-07",
         "limit": {
           "context": 200000,
           "output": 128000
@@ -44659,7 +44899,7 @@
         "open_weights": true,
         "reasoning": true,
         "reasoning_options": [],
-        "release_date": "2026-03-27",
+        "release_date": "2026-04-07",
         "structured_output": true,
         "temperature": true,
         "tool_call": true
@@ -47001,7 +47241,7 @@
         "description": "GLM-5.1 is an AI model provided by fastrouter.",
         "family": "glm",
         "id": "z-ai/glm-5.1",
-        "last_updated": "2026-03-27",
+        "last_updated": "2026-04-07",
         "limit": {
           "context": 200000,
           "output": 131072
@@ -47022,7 +47262,7 @@
             "type": "toggle"
           }
         ],
-        "release_date": "2026-03-27",
+        "release_date": "2026-04-07",
         "structured_output": true,
         "temperature": true,
         "tool_call": true
@@ -49719,6 +49959,13 @@
         "name": "Gemini 2.5 Pro",
         "open_weights": false,
         "reasoning": true,
+        "reasoning_options": [
+          {
+            "max": 32768,
+            "min": 128,
+            "type": "budget_tokens"
+          }
+        ],
         "release_date": "2025-06-17",
         "structured_output": true,
         "temperature": true,
@@ -49757,6 +50004,21 @@
         "name": "Gemini 3 Flash Preview",
         "open_weights": false,
         "reasoning": true,
+        "reasoning_options": [
+          {
+            "type": "effort",
+            "values": [
+              "low",
+              "medium",
+              "high"
+            ]
+          },
+          {
+            "max": 32000,
+            "min": 256,
+            "type": "budget_tokens"
+          }
+        ],
         "release_date": "2025-12-17",
         "structured_output": true,
         "temperature": true,
@@ -49810,6 +50072,21 @@
         "name": "Gemini 3.1 Pro Preview",
         "open_weights": false,
         "reasoning": true,
+        "reasoning_options": [
+          {
+            "type": "effort",
+            "values": [
+              "low",
+              "medium",
+              "high"
+            ]
+          },
+          {
+            "max": 32000,
+            "min": 256,
+            "type": "budget_tokens"
+          }
+        ],
         "release_date": "2026-02-19",
         "structured_output": true,
         "temperature": true,
@@ -49848,6 +50125,22 @@
         "name": "Gemini 3.5 Flash",
         "open_weights": false,
         "reasoning": true,
+        "reasoning_options": [
+          {
+            "type": "effort",
+            "values": [
+              "minimal",
+              "low",
+              "medium",
+              "high"
+            ]
+          },
+          {
+            "max": 24000,
+            "min": 256,
+            "type": "budget_tokens"
+          }
+        ],
         "release_date": "2026-05-19",
         "structured_output": true,
         "temperature": true,
@@ -50192,40 +50485,6 @@
         "open_weights": false,
         "reasoning": true,
         "release_date": "2026-04-23",
-        "structured_output": true,
-        "temperature": false,
-        "tool_call": true
-      },
-      "raptor-mini": {
-        "attachment": true,
-        "cost": {
-          "cache_read": 0.025,
-          "input": 0.25,
-          "output": 2
-        },
-        "description": "Raptor mini is an AI model provided by github-copilot.",
-        "family": "gpt-mini",
-        "id": "raptor-mini",
-        "knowledge": "2024-05-30",
-        "last_updated": "2025-08-07",
-        "limit": {
-          "context": 400000,
-          "input": 272000,
-          "output": 128000
-        },
-        "modalities": {
-          "input": [
-            "text",
-            "image"
-          ],
-          "output": [
-            "text"
-          ]
-        },
-        "name": "Raptor mini",
-        "open_weights": false,
-        "reasoning": true,
-        "release_date": "2025-08-07",
         "structured_output": true,
         "temperature": false,
         "tool_call": true
@@ -52797,7 +53056,7 @@
         "interleaved": {
           "field": "reasoning_content"
         },
-        "last_updated": "2026-02-11",
+        "last_updated": "2026-02-12",
         "limit": {
           "context": 202752,
           "output": 131072
@@ -52814,7 +53073,7 @@
         "open_weights": true,
         "reasoning": true,
         "reasoning_options": [],
-        "release_date": "2026-02-11",
+        "release_date": "2026-02-12",
         "temperature": true,
         "tool_call": true
       },
@@ -52831,7 +53090,7 @@
         "interleaved": {
           "field": "reasoning_content"
         },
-        "last_updated": "2026-03-27",
+        "last_updated": "2026-04-07",
         "limit": {
           "context": 202752,
           "output": 131072
@@ -52848,7 +53107,7 @@
         "open_weights": true,
         "reasoning": true,
         "reasoning_options": [],
-        "release_date": "2026-03-27",
+        "release_date": "2026-04-07",
         "structured_output": true,
         "temperature": true,
         "tool_call": true
@@ -61174,7 +61433,7 @@
         "interleaved": {
           "field": "reasoning_content"
         },
-        "last_updated": "2026-03-27",
+        "last_updated": "2026-04-07",
         "limit": {
           "context": 202752,
           "output": 202752
@@ -61191,7 +61450,7 @@
         "open_weights": true,
         "reasoning": true,
         "reasoning_options": [],
-        "release_date": "2026-03-27",
+        "release_date": "2026-04-07",
         "structured_output": true,
         "temperature": true,
         "tool_call": true
@@ -74877,7 +75136,7 @@
           "field": "reasoning_content"
         },
         "knowledge": "2025-04",
-        "last_updated": "2026-03-27",
+        "last_updated": "2026-04-07",
         "limit": {
           "context": 202800,
           "output": 131072
@@ -74898,7 +75157,7 @@
             "type": "toggle"
           }
         ],
-        "release_date": "2026-03-27",
+        "release_date": "2026-04-07",
         "structured_output": true,
         "temperature": true,
         "tool_call": true
@@ -77013,7 +77272,7 @@
         "interleaved": {
           "field": "reasoning_content"
         },
-        "last_updated": "2026-02-11",
+        "last_updated": "2026-02-12",
         "limit": {
           "context": 204800,
           "output": 131072
@@ -77029,7 +77288,7 @@
         "name": "GLM-5",
         "open_weights": true,
         "reasoning": true,
-        "release_date": "2026-02-11",
+        "release_date": "2026-02-12",
         "temperature": true,
         "tool_call": true
       },
@@ -77047,7 +77306,7 @@
         "interleaved": {
           "field": "reasoning_content"
         },
-        "last_updated": "2026-03-27",
+        "last_updated": "2026-04-07",
         "limit": {
           "context": 200000,
           "output": 131072
@@ -77063,7 +77322,7 @@
         "name": "GLM-5.1",
         "open_weights": true,
         "reasoning": true,
-        "release_date": "2026-03-27",
+        "release_date": "2026-04-07",
         "structured_output": true,
         "temperature": true,
         "tool_call": true
@@ -82067,8 +82326,8 @@
     "npm": "@ai-sdk/openai-compatible"
   },
   "lucidquery": {
-    "api": "https://lucidquery.com/api/v1",
-    "doc": "https://lucidquery.com/api/docs",
+    "api": "https://api.lucidquery.com/v1",
+    "doc": "https://lucidquery.com/docs",
     "env": [
       "LUCIDQUERY_API_KEY"
     ],
@@ -82106,6 +82365,70 @@
         "temperature": false,
         "tool_call": true
       },
+      "lucidquery-agi-01-frontier": {
+        "attachment": true,
+        "cost": {
+          "input": 4.5,
+          "output": 22
+        },
+        "description": "AGI-01 Frontier is an AI model provided by lucidquery.",
+        "family": "agi",
+        "id": "lucidquery-agi-01-frontier",
+        "knowledge": "2026-06-05",
+        "last_updated": "2026-06-16",
+        "limit": {
+          "context": 300000,
+          "output": 120000
+        },
+        "modalities": {
+          "input": [
+            "text",
+            "image"
+          ],
+          "output": [
+            "text"
+          ]
+        },
+        "name": "AGI-01 Frontier",
+        "open_weights": false,
+        "reasoning": true,
+        "reasoning_options": [],
+        "release_date": "2026-06-16",
+        "temperature": true,
+        "tool_call": true
+      },
+      "lucidquery-agi-01-swift": {
+        "attachment": true,
+        "cost": {
+          "input": 2.5,
+          "output": 15
+        },
+        "description": "AGI-01 Swift is an AI model provided by lucidquery.",
+        "family": "agi",
+        "id": "lucidquery-agi-01-swift",
+        "knowledge": "2026-06-05",
+        "last_updated": "2026-06-16",
+        "limit": {
+          "context": 300000,
+          "output": 120000
+        },
+        "modalities": {
+          "input": [
+            "text",
+            "image"
+          ],
+          "output": [
+            "text"
+          ]
+        },
+        "name": "AGI-01 Swift",
+        "open_weights": false,
+        "reasoning": true,
+        "reasoning_options": [],
+        "release_date": "2026-06-16",
+        "temperature": true,
+        "tool_call": true
+      },
       "lucidquery-nexus-coder": {
         "attachment": true,
         "cost": {
@@ -82138,7 +82461,7 @@
         "tool_call": true
       }
     },
-    "name": "LucidQuery AI",
+    "name": "LucidQuery",
     "npm": "@ai-sdk/openai-compatible"
   },
   "meganova": {
@@ -85650,7 +85973,7 @@
         "interleaved": {
           "field": "reasoning_content"
         },
-        "last_updated": "2026-02-11",
+        "last_updated": "2026-02-12",
         "limit": {
           "context": 204800,
           "output": 131072
@@ -85666,7 +85989,7 @@
         "name": "GLM-5",
         "open_weights": true,
         "reasoning": true,
-        "release_date": "2026-02-11",
+        "release_date": "2026-02-12",
         "temperature": true,
         "tool_call": true
       },
@@ -85719,7 +86042,7 @@
         "interleaved": {
           "field": "reasoning_content"
         },
-        "last_updated": "2026-03-27",
+        "last_updated": "2026-04-07",
         "limit": {
           "context": 200000,
           "output": 131072
@@ -85735,7 +86058,7 @@
         "name": "GLM-5.1",
         "open_weights": true,
         "reasoning": true,
-        "release_date": "2026-03-27",
+        "release_date": "2026-04-07",
         "structured_output": true,
         "temperature": true,
         "tool_call": true
@@ -101284,6 +101607,7 @@
         "name": "Kimi K2 Thinking Original",
         "open_weights": false,
         "reasoning": true,
+        "reasoning_options": [],
         "release_date": "2025-11-06",
         "structured_output": false,
         "tool_call": false
@@ -101314,6 +101638,7 @@
         "name": "Kimi K2 Thinking Turbo Original",
         "open_weights": false,
         "reasoning": true,
+        "reasoning_options": [],
         "release_date": "2025-11-06",
         "structured_output": false,
         "tool_call": false
@@ -101376,6 +101701,7 @@
         "name": "Kimi K2.5 Thinking",
         "open_weights": false,
         "reasoning": true,
+        "reasoning_options": [],
         "release_date": "2026-01-26",
         "structured_output": false,
         "tool_call": true
@@ -101436,6 +101762,7 @@
         "name": "Kimi K2.6 Thinking",
         "open_weights": true,
         "reasoning": true,
+        "reasoning_options": [],
         "release_date": "2026-04-16",
         "structured_output": false,
         "tool_call": true
@@ -101467,6 +101794,7 @@
         "name": "Kimi Latest",
         "open_weights": false,
         "reasoning": true,
+        "reasoning_options": [],
         "release_date": "2026-05-03",
         "structured_output": false,
         "tool_call": true
@@ -106235,6 +106563,16 @@
         "name": "Grok 4.20",
         "open_weights": false,
         "reasoning": true,
+        "reasoning_options": [
+          {
+            "type": "effort",
+            "values": [
+              "low",
+              "medium",
+              "high"
+            ]
+          }
+        ],
         "release_date": "2026-03-31",
         "structured_output": true,
         "tool_call": true
@@ -106265,6 +106603,16 @@
         "name": "Grok 4.20 Multi-Agent",
         "open_weights": false,
         "reasoning": true,
+        "reasoning_options": [
+          {
+            "type": "effort",
+            "values": [
+              "low",
+              "medium",
+              "high"
+            ]
+          }
+        ],
         "release_date": "2026-03-31",
         "structured_output": true,
         "tool_call": true
@@ -106296,6 +106644,16 @@
         "name": "Grok 4.3",
         "open_weights": false,
         "reasoning": true,
+        "reasoning_options": [
+          {
+            "type": "effort",
+            "values": [
+              "low",
+              "medium",
+              "high"
+            ]
+          }
+        ],
         "release_date": "2026-04-30",
         "structured_output": true,
         "tool_call": true
@@ -106327,6 +106685,16 @@
         "name": "Grok Build 0.1",
         "open_weights": false,
         "reasoning": true,
+        "reasoning_options": [
+          {
+            "type": "effort",
+            "values": [
+              "low",
+              "medium",
+              "high"
+            ]
+          }
+        ],
         "release_date": "2026-05-20",
         "structured_output": true,
         "tool_call": true
@@ -106358,6 +106726,16 @@
         "name": "Grok Latest",
         "open_weights": false,
         "reasoning": true,
+        "reasoning_options": [
+          {
+            "type": "effort",
+            "values": [
+              "low",
+              "medium",
+              "high"
+            ]
+          }
+        ],
         "release_date": "2026-05-03",
         "structured_output": true,
         "tool_call": true
@@ -118490,6 +118868,44 @@
         "release_date": "2026-03-27",
         "tool_call": true
       },
+      "glm-5.2": {
+        "attachment": false,
+        "description": "GLM-5.2 is an AI model provided by ollama-cloud.",
+        "family": "glm",
+        "id": "glm-5.2",
+        "interleaved": {
+          "field": "reasoning_content"
+        },
+        "last_updated": "2026-06-13",
+        "limit": {
+          "context": 976000,
+          "output": 131072
+        },
+        "modalities": {
+          "input": [
+            "text"
+          ],
+          "output": [
+            "text"
+          ]
+        },
+        "name": "GLM-5.2",
+        "open_weights": true,
+        "reasoning": true,
+        "reasoning_options": [
+          {
+            "type": "effort",
+            "values": [
+              "high",
+              "max"
+            ]
+          }
+        ],
+        "release_date": "2026-06-13",
+        "structured_output": true,
+        "temperature": true,
+        "tool_call": true
+      },
       "gpt-oss:120b": {
         "attachment": false,
         "description": "gpt-oss:120b is an AI model provided by ollama-cloud.",
@@ -120887,6 +121303,7 @@
         "name": "GPT-IMAGE-1",
         "open_weights": true,
         "reasoning": true,
+        "reasoning_options": [],
         "release_date": "2024-01-15",
         "temperature": true,
         "tool_call": true
@@ -120943,7 +121360,41 @@
         "name": "gpt-image-1.5",
         "open_weights": false,
         "reasoning": false,
+        "reasoning_options": [],
         "release_date": "2025-11-25",
+        "temperature": false,
+        "tool_call": false
+      },
+      "gpt-image-2": {
+        "attachment": true,
+        "cost": {
+          "cache_read": 1.25,
+          "input": 5,
+          "output": 30
+        },
+        "description": "gpt-image-2 is an AI model provided by openai.",
+        "family": "gpt-image",
+        "id": "gpt-image-2",
+        "last_updated": "2026-04-21",
+        "limit": {
+          "context": 0,
+          "input": 0,
+          "output": 0
+        },
+        "modalities": {
+          "input": [
+            "text",
+            "image"
+          ],
+          "output": [
+            "image"
+          ]
+        },
+        "name": "gpt-image-2",
+        "open_weights": false,
+        "reasoning": false,
+        "reasoning_options": [],
+        "release_date": "2026-04-21",
         "temperature": false,
         "tool_call": false
       },
@@ -121553,6 +122004,13 @@
           "npm": "@ai-sdk/anthropic"
         },
         "reasoning": true,
+        "reasoning_options": [
+          {
+            "max": 63999,
+            "min": 1024,
+            "type": "budget_tokens"
+          }
+        ],
         "release_date": "2025-10-15",
         "temperature": true,
         "tool_call": true
@@ -121590,6 +122048,13 @@
           "npm": "@ai-sdk/anthropic"
         },
         "reasoning": true,
+        "reasoning_options": [
+          {
+            "max": 31999,
+            "min": 1024,
+            "type": "budget_tokens"
+          }
+        ],
         "release_date": "2025-08-05",
         "temperature": true,
         "tool_call": true
@@ -121627,6 +122092,21 @@
           "npm": "@ai-sdk/anthropic"
         },
         "reasoning": true,
+        "reasoning_options": [
+          {
+            "type": "effort",
+            "values": [
+              "low",
+              "medium",
+              "high"
+            ]
+          },
+          {
+            "max": 63999,
+            "min": 1024,
+            "type": "budget_tokens"
+          }
+        ],
         "release_date": "2025-11-24",
         "temperature": true,
         "tool_call": true
@@ -121664,6 +122144,22 @@
           "npm": "@ai-sdk/anthropic"
         },
         "reasoning": true,
+        "reasoning_options": [
+          {
+            "type": "effort",
+            "values": [
+              "low",
+              "medium",
+              "high",
+              "max"
+            ]
+          },
+          {
+            "max": 127999,
+            "min": 1024,
+            "type": "budget_tokens"
+          }
+        ],
         "release_date": "2026-02-05",
         "temperature": true,
         "tool_call": true
@@ -121701,6 +122197,18 @@
           "npm": "@ai-sdk/anthropic"
         },
         "reasoning": true,
+        "reasoning_options": [
+          {
+            "type": "effort",
+            "values": [
+              "low",
+              "medium",
+              "high",
+              "xhigh",
+              "max"
+            ]
+          }
+        ],
         "release_date": "2026-04-16",
         "temperature": false,
         "tool_call": true
@@ -121737,6 +122245,18 @@
           "npm": "@ai-sdk/anthropic"
         },
         "reasoning": true,
+        "reasoning_options": [
+          {
+            "type": "effort",
+            "values": [
+              "low",
+              "medium",
+              "high",
+              "xhigh",
+              "max"
+            ]
+          }
+        ],
         "release_date": "2026-05-28",
         "temperature": false,
         "tool_call": true
@@ -121792,6 +122312,13 @@
           "npm": "@ai-sdk/anthropic"
         },
         "reasoning": true,
+        "reasoning_options": [
+          {
+            "max": 63999,
+            "min": 1024,
+            "type": "budget_tokens"
+          }
+        ],
         "release_date": "2025-05-22",
         "temperature": true,
         "tool_call": true
@@ -121848,6 +122375,13 @@
           "npm": "@ai-sdk/anthropic"
         },
         "reasoning": true,
+        "reasoning_options": [
+          {
+            "max": 63999,
+            "min": 1024,
+            "type": "budget_tokens"
+          }
+        ],
         "release_date": "2025-09-29",
         "temperature": true,
         "tool_call": true
@@ -121886,6 +122420,22 @@
           "npm": "@ai-sdk/anthropic"
         },
         "reasoning": true,
+        "reasoning_options": [
+          {
+            "type": "effort",
+            "values": [
+              "low",
+              "medium",
+              "high",
+              "max"
+            ]
+          },
+          {
+            "max": 63999,
+            "min": 1024,
+            "type": "budget_tokens"
+          }
+        ],
         "release_date": "2026-02-17",
         "temperature": true,
         "tool_call": true
@@ -123602,6 +124152,7 @@
         "name": "MiniMax M2.1",
         "open_weights": true,
         "reasoning": true,
+        "reasoning_options": [],
         "release_date": "2025-12-23",
         "status": "deprecated",
         "temperature": true,
@@ -123637,6 +124188,7 @@
           "npm": "@ai-sdk/anthropic"
         },
         "reasoning": true,
+        "reasoning_options": [],
         "release_date": "2025-12-23",
         "status": "deprecated",
         "temperature": true,
@@ -123672,6 +124224,7 @@
         "name": "MiniMax M2.5",
         "open_weights": true,
         "reasoning": true,
+        "reasoning_options": [],
         "release_date": "2026-02-12",
         "temperature": true,
         "tool_call": true
@@ -123706,6 +124259,7 @@
           "npm": "@ai-sdk/anthropic"
         },
         "reasoning": true,
+        "reasoning_options": [],
         "release_date": "2026-02-12",
         "status": "deprecated",
         "temperature": true,
@@ -123741,6 +124295,7 @@
         "name": "MiniMax M2.7",
         "open_weights": true,
         "reasoning": true,
+        "reasoning_options": [],
         "release_date": "2026-03-18",
         "temperature": true,
         "tool_call": true
@@ -123777,6 +124332,11 @@
           "npm": "@ai-sdk/anthropic"
         },
         "reasoning": true,
+        "reasoning_options": [
+          {
+            "type": "toggle"
+          }
+        ],
         "release_date": "2026-05-31",
         "status": "deprecated",
         "temperature": true,
@@ -125297,7 +125857,7 @@
         "open_weights": true,
         "reasoning": false,
         "release_date": "2024-10-22",
-        "structured_output": false,
+        "structured_output": true,
         "temperature": true,
         "tool_call": false
       },
@@ -126421,7 +126981,7 @@
         "open_weights": true,
         "reasoning": false,
         "release_date": "2025-07-22",
-        "structured_output": false,
+        "structured_output": true,
         "temperature": true,
         "tool_call": false
       },
@@ -126579,6 +127139,36 @@
         "structured_output": true,
         "temperature": true,
         "tool_call": false
+      },
+      "cohere/north-mini-code:free": {
+        "attachment": false,
+        "cost": {
+          "input": 0,
+          "output": 0
+        },
+        "description": "North Mini Code (free) is an AI model provided by openrouter.",
+        "family": "north",
+        "id": "cohere/north-mini-code:free",
+        "last_updated": "2026-06-17",
+        "limit": {
+          "context": 256000,
+          "output": 64000
+        },
+        "modalities": {
+          "input": [
+            "text"
+          ],
+          "output": [
+            "text"
+          ]
+        },
+        "name": "North Mini Code (free)",
+        "open_weights": true,
+        "reasoning": true,
+        "release_date": "2026-06-17",
+        "structured_output": false,
+        "temperature": true,
+        "tool_call": true
       },
       "deepcogito/cogito-v2.1-671b": {
         "attachment": false,
@@ -127104,7 +127694,7 @@
         "last_updated": "2025-08-26",
         "limit": {
           "context": 32768,
-          "output": 32768
+          "output": 8192
         },
         "modalities": {
           "input": [
@@ -127373,7 +127963,7 @@
         "last_updated": "2025-12-17",
         "limit": {
           "context": 1048576,
-          "output": 65536
+          "output": 65535
         },
         "modalities": {
           "input": [
@@ -127402,6 +127992,41 @@
           }
         ],
         "release_date": "2025-12-17",
+        "structured_output": true,
+        "temperature": true,
+        "tool_call": true
+      },
+      "google/gemini-3-pro-image": {
+        "attachment": true,
+        "cost": {
+          "cache_read": 0.2,
+          "cache_write": 0.375,
+          "input": 2,
+          "output": 12,
+          "reasoning": 12
+        },
+        "description": "Nano Banana Pro (Gemini 3 Pro Image) is an AI model provided by openrouter.",
+        "family": "gemini",
+        "id": "google/gemini-3-pro-image",
+        "last_updated": "2026-06-18",
+        "limit": {
+          "context": 65536,
+          "output": 32768
+        },
+        "modalities": {
+          "input": [
+            "image",
+            "text"
+          ],
+          "output": [
+            "image",
+            "text"
+          ]
+        },
+        "name": "Nano Banana Pro (Gemini 3 Pro Image)",
+        "open_weights": false,
+        "reasoning": true,
+        "release_date": "2026-06-18",
         "structured_output": true,
         "temperature": true,
         "tool_call": true
@@ -127439,6 +128064,38 @@
         "reasoning": true,
         "reasoning_options": [],
         "release_date": "2025-11-20",
+        "structured_output": true,
+        "temperature": true,
+        "tool_call": false
+      },
+      "google/gemini-3.1-flash-image": {
+        "attachment": true,
+        "cost": {
+          "input": 0.5,
+          "output": 3
+        },
+        "description": "Nano Banana 2 (Gemini 3.1 Flash Image) is an AI model provided by openrouter.",
+        "family": "gemini",
+        "id": "google/gemini-3.1-flash-image",
+        "last_updated": "2026-06-18",
+        "limit": {
+          "context": 65536,
+          "output": 65536
+        },
+        "modalities": {
+          "input": [
+            "image",
+            "text"
+          ],
+          "output": [
+            "image",
+            "text"
+          ]
+        },
+        "name": "Nano Banana 2 (Gemini 3.1 Flash Image)",
+        "open_weights": false,
+        "reasoning": true,
+        "release_date": "2026-06-18",
         "structured_output": true,
         "temperature": true,
         "tool_call": false
@@ -127920,7 +128577,7 @@
         "open_weights": true,
         "reasoning": false,
         "release_date": "2025-05-20",
-        "structured_output": false,
+        "structured_output": true,
         "temperature": true,
         "tool_call": false
       },
@@ -127972,7 +128629,7 @@
         "id": "google/gemma-4-26b-a4b-it:free",
         "last_updated": "2026-04-02",
         "limit": {
-          "context": 262144,
+          "context": 131072,
           "output": 32768
         },
         "modalities": {
@@ -128048,7 +128705,7 @@
         "last_updated": "2026-04-02",
         "limit": {
           "context": 262144,
-          "output": 32768
+          "output": 8192
         },
         "modalities": {
           "input": [
@@ -128502,7 +129159,7 @@
         "open_weights": true,
         "reasoning": false,
         "release_date": "2026-01-20",
-        "structured_output": false,
+        "structured_output": true,
         "temperature": true,
         "tool_call": false
       },
@@ -128534,9 +129191,9 @@
         "reasoning": true,
         "reasoning_options": [],
         "release_date": "2026-01-20",
-        "structured_output": false,
+        "structured_output": true,
         "temperature": true,
-        "tool_call": false
+        "tool_call": true
       },
       "mancer/weaver": {
         "attachment": false,
@@ -128565,7 +129222,7 @@
         "open_weights": false,
         "reasoning": false,
         "release_date": "2023-08-02",
-        "structured_output": false,
+        "structured_output": true,
         "temperature": true,
         "tool_call": false
       },
@@ -128627,7 +129284,7 @@
         "open_weights": true,
         "reasoning": false,
         "release_date": "2024-04-18",
-        "structured_output": false,
+        "structured_output": true,
         "temperature": true,
         "tool_call": false
       },
@@ -130216,7 +130873,7 @@
         "open_weights": false,
         "reasoning": false,
         "release_date": "2025-07-07",
-        "structured_output": false,
+        "structured_output": true,
         "temperature": true,
         "tool_call": false
       },
@@ -132676,7 +133333,7 @@
         "last_updated": "2025-08-05",
         "limit": {
           "context": 131072,
-          "output": 8192
+          "output": 32768
         },
         "modalities": {
           "input": [
@@ -132741,7 +133398,7 @@
           }
         ],
         "release_date": "2025-10-29",
-        "structured_output": false,
+        "structured_output": true,
         "temperature": true,
         "tool_call": true
       },
@@ -133525,7 +134182,7 @@
         "reasoning": true,
         "reasoning_options": [],
         "release_date": "2026-04-28",
-        "structured_output": false,
+        "structured_output": true,
         "temperature": true,
         "tool_call": true
       },
@@ -133558,7 +134215,7 @@
         "reasoning": true,
         "reasoning_options": [],
         "release_date": "2026-04-28",
-        "structured_output": false,
+        "structured_output": true,
         "temperature": true,
         "tool_call": true
       },
@@ -133652,9 +134309,9 @@
         "open_weights": true,
         "reasoning": false,
         "release_date": "2024-10-16",
-        "structured_output": false,
+        "structured_output": true,
         "temperature": true,
-        "tool_call": false
+        "tool_call": true
       },
       "qwen/qwen-2.5-coder-32b-instruct": {
         "attachment": false,
@@ -133716,7 +134373,7 @@
         "open_weights": false,
         "reasoning": false,
         "release_date": "2024-01-25",
-        "structured_output": false,
+        "structured_output": true,
         "temperature": true,
         "tool_call": true
       },
@@ -134356,7 +135013,7 @@
         "open_weights": false,
         "reasoning": false,
         "release_date": "2025-09-23",
-        "structured_output": false,
+        "structured_output": true,
         "temperature": true,
         "tool_call": true
       },
@@ -134553,7 +135210,7 @@
         "reasoning": true,
         "reasoning_options": [],
         "release_date": "2025-09-23",
-        "structured_output": false,
+        "structured_output": true,
         "temperature": true,
         "tool_call": true
       },
@@ -134649,7 +135306,7 @@
         "open_weights": true,
         "reasoning": false,
         "release_date": "2025-10-23",
-        "structured_output": false,
+        "structured_output": true,
         "temperature": true,
         "tool_call": true
       },
@@ -135500,7 +136157,7 @@
         "open_weights": true,
         "reasoning": false,
         "release_date": "2025-01-08",
-        "structured_output": false,
+        "structured_output": true,
         "temperature": true,
         "tool_call": false
       },
@@ -135772,7 +136429,7 @@
         "open_weights": true,
         "reasoning": false,
         "release_date": "2025-09-27",
-        "structured_output": false,
+        "structured_output": true,
         "temperature": true,
         "tool_call": false
       },
@@ -135833,7 +136490,7 @@
         "open_weights": true,
         "reasoning": false,
         "release_date": "2025-03-10",
-        "structured_output": false,
+        "structured_output": true,
         "temperature": true,
         "tool_call": false
       },
@@ -136126,46 +136783,6 @@
         "reasoning_options": [],
         "release_date": "2026-04-16",
         "structured_output": true,
-        "temperature": true,
-        "tool_call": true
-      },
-      "xiaomi/mimo-v2-flash": {
-        "attachment": false,
-        "cost": {
-          "cache_read": 0.01,
-          "input": 0.1,
-          "output": 0.3
-        },
-        "description": "MiMo-V2-Flash is an AI model provided by openrouter.",
-        "family": "mimo",
-        "id": "xiaomi/mimo-v2-flash",
-        "interleaved": {
-          "field": "reasoning_details"
-        },
-        "knowledge": "2024-12-01",
-        "last_updated": "2026-02-04",
-        "limit": {
-          "context": 262144,
-          "output": 65536
-        },
-        "modalities": {
-          "input": [
-            "text"
-          ],
-          "output": [
-            "text"
-          ]
-        },
-        "name": "MiMo-V2-Flash",
-        "open_weights": true,
-        "reasoning": true,
-        "reasoning_options": [
-          {
-            "type": "toggle"
-          }
-        ],
-        "release_date": "2025-12-16",
-        "structured_output": false,
         "temperature": true,
         "tool_call": true
       },
@@ -136517,7 +137134,7 @@
         "interleaved": {
           "field": "reasoning_content"
         },
-        "last_updated": "2026-02-11",
+        "last_updated": "2026-02-12",
         "limit": {
           "context": 202752,
           "output": 16384
@@ -136534,7 +137151,7 @@
         "open_weights": true,
         "reasoning": true,
         "reasoning_options": [],
-        "release_date": "2026-02-11",
+        "release_date": "2026-02-12",
         "structured_output": true,
         "temperature": true,
         "tool_call": true
@@ -136587,7 +137204,7 @@
         "interleaved": {
           "field": "reasoning_content"
         },
-        "last_updated": "2026-03-27",
+        "last_updated": "2026-04-07",
         "limit": {
           "context": 202752,
           "output": 131072
@@ -136604,7 +137221,7 @@
         "open_weights": true,
         "reasoning": true,
         "reasoning_options": [],
-        "release_date": "2026-03-27",
+        "release_date": "2026-04-07",
         "structured_output": true,
         "temperature": true,
         "tool_call": true
@@ -139995,7 +140612,7 @@
         "interleaved": {
           "field": "reasoning_content"
         },
-        "last_updated": "2026-02-11",
+        "last_updated": "2026-02-12",
         "limit": {
           "context": 204800,
           "output": 131072
@@ -140011,7 +140628,7 @@
         "name": "GLM-5",
         "open_weights": true,
         "reasoning": true,
-        "release_date": "2026-02-11",
+        "release_date": "2026-02-12",
         "temperature": true,
         "tool_call": true
       },
@@ -140029,7 +140646,7 @@
         "interleaved": {
           "field": "reasoning_content"
         },
-        "last_updated": "2026-03-27",
+        "last_updated": "2026-04-07",
         "limit": {
           "context": 200000,
           "output": 131072
@@ -140045,7 +140662,7 @@
         "name": "GLM-5.1",
         "open_weights": true,
         "reasoning": true,
-        "release_date": "2026-03-27",
+        "release_date": "2026-04-07",
         "structured_output": true,
         "temperature": true,
         "tool_call": true
@@ -150411,7 +151028,7 @@
         "interleaved": {
           "field": "reasoning_content"
         },
-        "last_updated": "2026-03-27",
+        "last_updated": "2026-04-07",
         "limit": {
           "context": 202752,
           "output": 65536
@@ -150427,7 +151044,7 @@
         "name": "GLM 5.1",
         "open_weights": true,
         "reasoning": true,
-        "release_date": "2026-03-27",
+        "release_date": "2026-04-07",
         "structured_output": true,
         "temperature": true,
         "tool_call": true
@@ -150446,7 +151063,7 @@
         "interleaved": {
           "field": "reasoning_content"
         },
-        "last_updated": "2026-03-27",
+        "last_updated": "2026-04-07",
         "limit": {
           "context": 202752,
           "output": 65536
@@ -150462,7 +151079,7 @@
         "name": "GLM 5.1 6bit",
         "open_weights": true,
         "reasoning": true,
-        "release_date": "2026-03-27",
+        "release_date": "2026-04-07",
         "structured_output": true,
         "temperature": true,
         "tool_call": true
@@ -153735,126 +154352,6 @@
         "temperature": true,
         "tool_call": true
       },
-      "THUDM/GLM-4-32B-0414": {
-        "attachment": false,
-        "cost": {
-          "input": 0.27,
-          "output": 0.27
-        },
-        "description": "THUDM/GLM-4-32B-0414 is an AI model provided by siliconflow.",
-        "family": "glm",
-        "id": "THUDM/GLM-4-32B-0414",
-        "last_updated": "2025-11-25",
-        "limit": {
-          "context": 33000,
-          "output": 33000
-        },
-        "modalities": {
-          "input": [
-            "text"
-          ],
-          "output": [
-            "text"
-          ]
-        },
-        "name": "THUDM/GLM-4-32B-0414",
-        "open_weights": false,
-        "reasoning": false,
-        "release_date": "2025-04-18",
-        "structured_output": true,
-        "temperature": true,
-        "tool_call": true
-      },
-      "THUDM/GLM-4-9B-0414": {
-        "attachment": false,
-        "cost": {
-          "input": 0.086,
-          "output": 0.086
-        },
-        "description": "THUDM/GLM-4-9B-0414 is an AI model provided by siliconflow.",
-        "family": "glm",
-        "id": "THUDM/GLM-4-9B-0414",
-        "last_updated": "2025-11-25",
-        "limit": {
-          "context": 33000,
-          "output": 33000
-        },
-        "modalities": {
-          "input": [
-            "text"
-          ],
-          "output": [
-            "text"
-          ]
-        },
-        "name": "THUDM/GLM-4-9B-0414",
-        "open_weights": false,
-        "reasoning": false,
-        "release_date": "2025-04-18",
-        "structured_output": true,
-        "temperature": true,
-        "tool_call": true
-      },
-      "THUDM/GLM-Z1-32B-0414": {
-        "attachment": false,
-        "cost": {
-          "input": 0.14,
-          "output": 0.57
-        },
-        "description": "THUDM/GLM-Z1-32B-0414 is an AI model provided by siliconflow.",
-        "family": "glm-z",
-        "id": "THUDM/GLM-Z1-32B-0414",
-        "last_updated": "2025-11-25",
-        "limit": {
-          "context": 131000,
-          "output": 131000
-        },
-        "modalities": {
-          "input": [
-            "text"
-          ],
-          "output": [
-            "text"
-          ]
-        },
-        "name": "THUDM/GLM-Z1-32B-0414",
-        "open_weights": false,
-        "reasoning": true,
-        "release_date": "2025-04-18",
-        "structured_output": true,
-        "temperature": true,
-        "tool_call": true
-      },
-      "THUDM/GLM-Z1-9B-0414": {
-        "attachment": false,
-        "cost": {
-          "input": 0.086,
-          "output": 0.086
-        },
-        "description": "THUDM/GLM-Z1-9B-0414 is an AI model provided by siliconflow.",
-        "family": "glm-z",
-        "id": "THUDM/GLM-Z1-9B-0414",
-        "last_updated": "2025-11-25",
-        "limit": {
-          "context": 131000,
-          "output": 131000
-        },
-        "modalities": {
-          "input": [
-            "text"
-          ],
-          "output": [
-            "text"
-          ]
-        },
-        "name": "THUDM/GLM-Z1-9B-0414",
-        "open_weights": false,
-        "reasoning": true,
-        "release_date": "2025-04-18",
-        "structured_output": true,
-        "temperature": true,
-        "tool_call": true
-      },
       "baidu/ERNIE-4.5-300B-A47B": {
         "attachment": false,
         "cost": {
@@ -154597,25 +155094,36 @@
         },
         "name": "tencent/Hunyuan-A13B-Instruct",
         "open_weights": false,
-        "reasoning": false,
+        "reasoning": true,
+        "reasoning_options": [
+          {
+            "type": "toggle"
+          },
+          {
+            "max": 32768,
+            "min": 128,
+            "type": "budget_tokens"
+          }
+        ],
         "release_date": "2025-06-30",
         "structured_output": true,
         "temperature": true,
         "tool_call": true
       },
-      "tencent/Hunyuan-MT-7B": {
+      "tencent/Hy3-preview": {
         "attachment": false,
         "cost": {
-          "input": 0,
-          "output": 0
+          "cache_read": 0.029,
+          "input": 0.066,
+          "output": 0.26
         },
-        "description": "tencent/Hunyuan-MT-7B is an AI model provided by siliconflow.",
-        "family": "hunyuan",
-        "id": "tencent/Hunyuan-MT-7B",
-        "last_updated": "2025-11-25",
+        "description": "Hy3 preview is an AI model provided by siliconflow.",
+        "family": "Hy",
+        "id": "tencent/Hy3-preview",
+        "last_updated": "2026-04-20",
         "limit": {
-          "context": 33000,
-          "output": 33000
+          "context": 262144,
+          "output": 262144
         },
         "modalities": {
           "input": [
@@ -154625,11 +155133,17 @@
             "text"
           ]
         },
-        "name": "tencent/Hunyuan-MT-7B",
+        "name": "Hy3 preview",
         "open_weights": false,
-        "reasoning": false,
-        "release_date": "2025-09-18",
-        "structured_output": true,
+        "reasoning": true,
+        "reasoning_options": [
+          {
+            "max": 32768,
+            "min": 128,
+            "type": "budget_tokens"
+          }
+        ],
+        "release_date": "2026-04-20",
         "temperature": true,
         "tool_call": true
       },
@@ -156601,126 +157115,6 @@
         "temperature": true,
         "tool_call": true
       },
-      "THUDM/GLM-4-32B-0414": {
-        "attachment": false,
-        "cost": {
-          "input": 0.27,
-          "output": 0.27
-        },
-        "description": "THUDM/GLM-4-32B-0414 is an AI model provided by siliconflow-cn.",
-        "family": "glm",
-        "id": "THUDM/GLM-4-32B-0414",
-        "last_updated": "2025-11-25",
-        "limit": {
-          "context": 33000,
-          "output": 33000
-        },
-        "modalities": {
-          "input": [
-            "text"
-          ],
-          "output": [
-            "text"
-          ]
-        },
-        "name": "THUDM/GLM-4-32B-0414",
-        "open_weights": false,
-        "reasoning": false,
-        "release_date": "2025-04-18",
-        "structured_output": true,
-        "temperature": true,
-        "tool_call": true
-      },
-      "THUDM/GLM-4-9B-0414": {
-        "attachment": false,
-        "cost": {
-          "input": 0.086,
-          "output": 0.086
-        },
-        "description": "THUDM/GLM-4-9B-0414 is an AI model provided by siliconflow-cn.",
-        "family": "glm",
-        "id": "THUDM/GLM-4-9B-0414",
-        "last_updated": "2025-11-25",
-        "limit": {
-          "context": 33000,
-          "output": 33000
-        },
-        "modalities": {
-          "input": [
-            "text"
-          ],
-          "output": [
-            "text"
-          ]
-        },
-        "name": "THUDM/GLM-4-9B-0414",
-        "open_weights": false,
-        "reasoning": false,
-        "release_date": "2025-04-18",
-        "structured_output": true,
-        "temperature": true,
-        "tool_call": true
-      },
-      "THUDM/GLM-Z1-32B-0414": {
-        "attachment": false,
-        "cost": {
-          "input": 0.14,
-          "output": 0.57
-        },
-        "description": "THUDM/GLM-Z1-32B-0414 is an AI model provided by siliconflow-cn.",
-        "family": "glm-z",
-        "id": "THUDM/GLM-Z1-32B-0414",
-        "last_updated": "2025-11-25",
-        "limit": {
-          "context": 131000,
-          "output": 131000
-        },
-        "modalities": {
-          "input": [
-            "text"
-          ],
-          "output": [
-            "text"
-          ]
-        },
-        "name": "THUDM/GLM-Z1-32B-0414",
-        "open_weights": false,
-        "reasoning": true,
-        "release_date": "2025-04-18",
-        "structured_output": true,
-        "temperature": true,
-        "tool_call": true
-      },
-      "THUDM/GLM-Z1-9B-0414": {
-        "attachment": false,
-        "cost": {
-          "input": 0.086,
-          "output": 0.086
-        },
-        "description": "THUDM/GLM-Z1-9B-0414 is an AI model provided by siliconflow-cn.",
-        "family": "glm-z",
-        "id": "THUDM/GLM-Z1-9B-0414",
-        "last_updated": "2025-11-25",
-        "limit": {
-          "context": 131000,
-          "output": 131000
-        },
-        "modalities": {
-          "input": [
-            "text"
-          ],
-          "output": [
-            "text"
-          ]
-        },
-        "name": "THUDM/GLM-Z1-9B-0414",
-        "open_weights": false,
-        "reasoning": true,
-        "release_date": "2025-04-18",
-        "structured_output": true,
-        "temperature": true,
-        "tool_call": true
-      },
       "baidu/ERNIE-4.5-300B-A47B": {
         "attachment": false,
         "cost": {
@@ -157167,38 +157561,13 @@
         },
         "name": "tencent/Hunyuan-A13B-Instruct",
         "open_weights": false,
-        "reasoning": false,
+        "reasoning": true,
+        "reasoning_options": [
+          {
+            "type": "toggle"
+          }
+        ],
         "release_date": "2025-06-30",
-        "structured_output": true,
-        "temperature": true,
-        "tool_call": true
-      },
-      "tencent/Hunyuan-MT-7B": {
-        "attachment": false,
-        "cost": {
-          "input": 0,
-          "output": 0
-        },
-        "description": "tencent/Hunyuan-MT-7B is an AI model provided by siliconflow-cn.",
-        "family": "hunyuan",
-        "id": "tencent/Hunyuan-MT-7B",
-        "last_updated": "2025-11-25",
-        "limit": {
-          "context": 33000,
-          "output": 33000
-        },
-        "modalities": {
-          "input": [
-            "text"
-          ],
-          "output": [
-            "text"
-          ]
-        },
-        "name": "tencent/Hunyuan-MT-7B",
-        "open_weights": false,
-        "reasoning": false,
-        "release_date": "2025-09-18",
         "structured_output": true,
         "temperature": true,
         "tool_call": true
@@ -161411,7 +161780,7 @@
       "umans-coder": {
         "attachment": true,
         "cost": {
-          "cache_read": 0.2,
+          "cache_read": 0.19,
           "input": 0.95,
           "output": 4
         },
@@ -161422,7 +161791,7 @@
           "field": "reasoning_content"
         },
         "knowledge": "2025-01",
-        "last_updated": "2026-04-21",
+        "last_updated": "2026-06-12",
         "limit": {
           "context": 262144,
           "output": 32768
@@ -161441,10 +161810,15 @@
         "reasoning": true,
         "reasoning_options": [
           {
-            "type": "toggle"
+            "type": "effort",
+            "values": [
+              "low",
+              "medium",
+              "high"
+            ]
           }
         ],
-        "release_date": "2026-04-21",
+        "release_date": "2026-06-12",
         "structured_output": true,
         "temperature": false,
         "tool_call": true
@@ -161482,6 +161856,14 @@
         "reasoning_options": [
           {
             "type": "toggle"
+          },
+          {
+            "type": "effort",
+            "values": [
+              "low",
+              "medium",
+              "high"
+            ]
           }
         ],
         "release_date": "2026-04-17",
@@ -161502,7 +161884,7 @@
         "interleaved": {
           "field": "reasoning_content"
         },
-        "last_updated": "2026-03-27",
+        "last_updated": "2026-04-07",
         "limit": {
           "context": 204800,
           "output": 131072
@@ -161522,53 +161904,67 @@
         "reasoning_options": [
           {
             "type": "toggle"
+          },
+          {
+            "type": "effort",
+            "values": [
+              "low",
+              "medium",
+              "high"
+            ]
           }
         ],
-        "release_date": "2026-03-27",
+        "release_date": "2026-04-07",
         "structured_output": true,
         "temperature": true,
         "tool_call": true
       },
-      "umans-kimi-k2.6": {
-        "attachment": true,
+      "umans-glm-5.2": {
+        "attachment": false,
         "cost": {
-          "cache_read": 0.2,
-          "input": 0.95,
-          "output": 4
+          "cache_read": 0.26,
+          "input": 1.4,
+          "output": 4.4
         },
-        "description": "Kimi K2.6 is an AI model provided by umans-ai.",
-        "family": "kimi-k2",
-        "id": "umans-kimi-k2.6",
+        "description": "GLM 5.2 is an AI model provided by umans-ai.",
+        "family": "glm",
+        "id": "umans-glm-5.2",
         "interleaved": {
           "field": "reasoning_content"
         },
-        "knowledge": "2025-01",
-        "last_updated": "2026-04-21",
+        "last_updated": "2026-06-13",
         "limit": {
-          "context": 262144,
-          "output": 32768
+          "context": 405504,
+          "output": 131072
         },
         "modalities": {
           "input": [
             "text",
-            "image",
-            "video"
+            "image"
           ],
           "output": [
             "text"
           ]
         },
-        "name": "Kimi K2.6",
-        "open_weights": true,
+        "name": "GLM 5.2",
+        "open_weights": false,
         "reasoning": true,
         "reasoning_options": [
           {
             "type": "toggle"
+          },
+          {
+            "type": "effort",
+            "values": [
+              "low",
+              "medium",
+              "high"
+            ]
           }
         ],
-        "release_date": "2026-04-21",
+        "release_date": "2026-06-13",
         "structured_output": true,
-        "temperature": false,
+        "temperature": true,
         "tool_call": true
       },
       "umans-kimi-k2.7": {
@@ -161605,7 +162001,12 @@
         "reasoning": true,
         "reasoning_options": [
           {
-            "type": "toggle"
+            "type": "effort",
+            "values": [
+              "low",
+              "medium",
+              "high"
+            ]
           }
         ],
         "release_date": "2026-06-12",
@@ -161641,7 +162042,7 @@
           "field": "reasoning_content"
         },
         "knowledge": "2025-01",
-        "last_updated": "2026-04-21",
+        "last_updated": "2026-06-12",
         "limit": {
           "context": 262144,
           "output": 262144
@@ -161660,10 +162061,15 @@
         "reasoning": true,
         "reasoning_options": [
           {
-            "type": "toggle"
+            "type": "effort",
+            "values": [
+              "low",
+              "medium",
+              "high"
+            ]
           }
         ],
-        "release_date": "2026-04-21",
+        "release_date": "2026-06-12",
         "structured_output": true,
         "temperature": false,
         "tool_call": true
@@ -161702,6 +162108,14 @@
         "reasoning_options": [
           {
             "type": "toggle"
+          },
+          {
+            "type": "effort",
+            "values": [
+              "low",
+              "medium",
+              "high"
+            ]
           }
         ],
         "release_date": "2026-04-17",
@@ -161723,7 +162137,7 @@
         "interleaved": {
           "field": "reasoning_content"
         },
-        "last_updated": "2026-03-27",
+        "last_updated": "2026-04-07",
         "limit": {
           "context": 204800,
           "output": 131072
@@ -161743,54 +162157,68 @@
         "reasoning_options": [
           {
             "type": "toggle"
+          },
+          {
+            "type": "effort",
+            "values": [
+              "low",
+              "medium",
+              "high"
+            ]
           }
         ],
-        "release_date": "2026-03-27",
+        "release_date": "2026-04-07",
         "structured_output": true,
         "temperature": true,
         "tool_call": true
       },
-      "umans-kimi-k2.6": {
-        "attachment": true,
+      "umans-glm-5.2": {
+        "attachment": false,
         "cost": {
           "cache_read": 0,
           "cache_write": 0,
           "input": 0,
           "output": 0
         },
-        "description": "Kimi K2.6 is an AI model provided by umans-ai-coding-plan.",
-        "family": "kimi-k2",
-        "id": "umans-kimi-k2.6",
+        "description": "GLM 5.2 is an AI model provided by umans-ai-coding-plan.",
+        "family": "glm",
+        "id": "umans-glm-5.2",
         "interleaved": {
           "field": "reasoning_content"
         },
-        "knowledge": "2025-01",
-        "last_updated": "2026-04-21",
+        "last_updated": "2026-06-13",
         "limit": {
-          "context": 262144,
-          "output": 262144
+          "context": 405504,
+          "output": 131072
         },
         "modalities": {
           "input": [
             "text",
-            "image",
-            "video"
+            "image"
           ],
           "output": [
             "text"
           ]
         },
-        "name": "Kimi K2.6",
-        "open_weights": true,
+        "name": "GLM 5.2",
+        "open_weights": false,
         "reasoning": true,
         "reasoning_options": [
           {
             "type": "toggle"
+          },
+          {
+            "type": "effort",
+            "values": [
+              "low",
+              "medium",
+              "high"
+            ]
           }
         ],
-        "release_date": "2026-04-21",
+        "release_date": "2026-06-13",
         "structured_output": true,
-        "temperature": false,
+        "temperature": true,
         "tool_call": true
       },
       "umans-kimi-k2.7": {
@@ -161828,7 +162256,12 @@
         "reasoning": true,
         "reasoning_options": [
           {
-            "type": "toggle"
+            "type": "effort",
+            "values": [
+              "low",
+              "medium",
+              "high"
+            ]
           }
         ],
         "release_date": "2026-06-12",
@@ -161870,6 +162303,14 @@
         "reasoning_options": [
           {
             "type": "toggle"
+          },
+          {
+            "type": "effort",
+            "values": [
+              "low",
+              "medium",
+              "high"
+            ]
           }
         ],
         "release_date": "2026-04-17",
@@ -164771,47 +165212,6 @@
         "structured_output": true,
         "tool_call": true
       },
-      "tencent-hy3-preview": {
-        "attachment": false,
-        "cost": {
-          "cache_read": 0.021,
-          "input": 0.063,
-          "output": 0.21
-        },
-        "description": "Hy3 Preview is an AI model provided by venice.",
-        "family": "hy3",
-        "id": "tencent-hy3-preview",
-        "last_updated": "2026-06-11",
-        "limit": {
-          "context": 256000,
-          "output": 32768
-        },
-        "modalities": {
-          "input": [
-            "text"
-          ],
-          "output": [
-            "text"
-          ]
-        },
-        "name": "Hy3 Preview",
-        "open_weights": true,
-        "reasoning": true,
-        "reasoning_options": [
-          {
-            "type": "effort",
-            "values": [
-              "none",
-              "low",
-              "high"
-            ]
-          }
-        ],
-        "release_date": "2026-06-08",
-        "structured_output": true,
-        "temperature": true,
-        "tool_call": true
-      },
       "venice-uncensored-1-2": {
         "attachment": true,
         "cost": {
@@ -165175,7 +165575,7 @@
             ]
           }
         ],
-        "release_date": "2026-02-11",
+        "release_date": "2026-02-12",
         "structured_output": true,
         "temperature": true,
         "tool_call": true
@@ -165256,9 +165656,8 @@
             "type": "effort",
             "values": [
               "none",
-              "low",
-              "medium",
-              "high"
+              "high",
+              "max"
             ]
           }
         ],
@@ -169493,6 +169892,7 @@
         "name": "MiniMax M2",
         "open_weights": true,
         "reasoning": true,
+        "reasoning_options": [],
         "release_date": "2025-10-27",
         "temperature": true,
         "tool_call": true
@@ -169526,6 +169926,7 @@
         "name": "MiniMax M2.1",
         "open_weights": false,
         "reasoning": true,
+        "reasoning_options": [],
         "release_date": "2025-10-27",
         "temperature": true,
         "tool_call": true
@@ -169558,6 +169959,7 @@
         "name": "MiniMax M2.1 Lightning",
         "open_weights": false,
         "reasoning": true,
+        "reasoning_options": [],
         "release_date": "2025-10-27",
         "temperature": true,
         "tool_call": true
@@ -169589,6 +169991,7 @@
         "name": "MiniMax M2.5",
         "open_weights": false,
         "reasoning": true,
+        "reasoning_options": [],
         "release_date": "2026-02-12",
         "temperature": true,
         "tool_call": true
@@ -169620,6 +170023,7 @@
         "name": "MiniMax M2.5 High Speed",
         "open_weights": false,
         "reasoning": true,
+        "reasoning_options": [],
         "release_date": "2026-02-12",
         "temperature": true,
         "tool_call": true
@@ -169651,6 +170055,7 @@
         "name": "Minimax M2.7",
         "open_weights": true,
         "reasoning": true,
+        "reasoning_options": [],
         "release_date": "2026-03-18",
         "temperature": true,
         "tool_call": true
@@ -169682,6 +170087,7 @@
         "name": "MiniMax M2.7 High Speed",
         "open_weights": true,
         "reasoning": true,
+        "reasoning_options": [],
         "release_date": "2026-03-18",
         "temperature": true,
         "tool_call": true
@@ -169714,6 +170120,11 @@
         "name": "MiniMax M3",
         "open_weights": true,
         "reasoning": true,
+        "reasoning_options": [
+          {
+            "type": "toggle"
+          }
+        ],
         "release_date": "2026-05-31",
         "temperature": true,
         "tool_call": true
@@ -174222,7 +174633,7 @@
         "description": "GLM-5 is an AI model provided by vercel.",
         "family": "glm",
         "id": "zai/glm-5",
-        "last_updated": "2026-02-11",
+        "last_updated": "2026-02-12",
         "limit": {
           "context": 202800,
           "output": 131100
@@ -174293,7 +174704,7 @@
         "description": "GLM 5.1 is an AI model provided by vercel.",
         "family": "glm",
         "id": "zai/glm-5.1",
-        "last_updated": "2026-03-27",
+        "last_updated": "2026-04-07",
         "limit": {
           "context": 202800,
           "output": 64000
@@ -175115,7 +175526,7 @@
         "interleaved": {
           "field": "reasoning_content"
         },
-        "last_updated": "2026-03-27",
+        "last_updated": "2026-04-07",
         "limit": {
           "context": 200000,
           "output": 131072
@@ -175132,7 +175543,7 @@
         "open_weights": true,
         "reasoning": true,
         "reasoning_options": [],
-        "release_date": "2026-03-27",
+        "release_date": "2026-04-07",
         "structured_output": true,
         "temperature": true,
         "tool_call": true
@@ -175992,7 +176403,7 @@
         "interleaved": {
           "field": "reasoning_content"
         },
-        "last_updated": "2026-03-27",
+        "last_updated": "2026-04-07",
         "limit": {
           "context": 200000,
           "output": 131072
@@ -176008,7 +176419,7 @@
         "name": "GLM-5.1",
         "open_weights": true,
         "reasoning": true,
-        "release_date": "2026-03-27",
+        "release_date": "2026-04-07",
         "structured_output": true,
         "temperature": true,
         "tool_call": true
@@ -177993,7 +178404,7 @@
         "interleaved": {
           "field": "reasoning_content"
         },
-        "last_updated": "2026-02-11",
+        "last_updated": "2026-02-12",
         "limit": {
           "context": 204800,
           "output": 131072
@@ -178014,7 +178425,7 @@
             "type": "toggle"
           }
         ],
-        "release_date": "2026-02-11",
+        "release_date": "2026-02-12",
         "temperature": true,
         "tool_call": true
       },
@@ -178072,7 +178483,7 @@
         "interleaved": {
           "field": "reasoning_content"
         },
-        "last_updated": "2026-03-27",
+        "last_updated": "2026-04-07",
         "limit": {
           "context": 200000,
           "output": 131072
@@ -178086,14 +178497,14 @@
           ]
         },
         "name": "GLM-5.1",
-        "open_weights": false,
+        "open_weights": true,
         "reasoning": true,
         "reasoning_options": [
           {
             "type": "toggle"
           }
         ],
-        "release_date": "2026-03-27",
+        "release_date": "2026-04-07",
         "structured_output": true,
         "temperature": true,
         "tool_call": true
@@ -183222,6 +183633,50 @@
           }
         ],
         "release_date": "2026-03-27",
+        "structured_output": true,
+        "temperature": true,
+        "tool_call": true
+      },
+      "glm-5.2": {
+        "attachment": false,
+        "cost": {
+          "cache_read": 0.26,
+          "cache_write": 0,
+          "input": 1.4,
+          "output": 4.4
+        },
+        "description": "GLM-5.2 is an AI model provided by zhipuai.",
+        "family": "glm",
+        "id": "glm-5.2",
+        "interleaved": {
+          "field": "reasoning_content"
+        },
+        "last_updated": "2026-06-13",
+        "limit": {
+          "context": 1000000,
+          "output": 131072
+        },
+        "modalities": {
+          "input": [
+            "text"
+          ],
+          "output": [
+            "text"
+          ]
+        },
+        "name": "GLM-5.2",
+        "open_weights": false,
+        "reasoning": true,
+        "reasoning_options": [
+          {
+            "type": "effort",
+            "values": [
+              "high",
+              "max"
+            ]
+          }
+        ],
+        "release_date": "2026-06-13",
         "structured_output": true,
         "temperature": true,
         "tool_call": true
