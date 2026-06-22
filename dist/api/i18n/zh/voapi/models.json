@@ -137545,8 +137545,8 @@
       "id": "~moonshotai/kimi-latest",
       "knowledge": null,
       "lastUpdated": "2026-04-27",
-      "maxCtxTokens": 262142,
-      "maxOutputTokens": 262142,
+      "maxCtxTokens": 262144,
+      "maxOutputTokens": 65535,
       "modalities": {
         "input": [
           "text",
@@ -138115,43 +138115,6 @@
         "output": 1.25
       },
       "releaseDate": "2024-03-13",
-      "tags": []
-    },
-    {
-      "description": "Claude 3.5 Haiku 是由 openrouter 提供的人工智能模型。",
-      "firm": "openrouter",
-      "flags": {
-        "attachment": true,
-        "audio": false,
-        "image": true,
-        "open_weights": false,
-        "reasoning": false,
-        "temperature": true,
-        "tool_call": true
-      },
-      "icon": "lb:openrouter-color",
-      "id": "anthropic/claude-3.5-haiku",
-      "knowledge": "2024-07-31",
-      "lastUpdated": "2024-11-04",
-      "maxCtxTokens": 200000,
-      "maxOutputTokens": 8192,
-      "modalities": {
-        "input": [
-          "text",
-          "image"
-        ],
-        "output": [
-          "text"
-        ]
-      },
-      "name": "Claude 3.5 Haiku",
-      "price": {
-        "cacheRead": 0.08,
-        "cacheWrite": 1,
-        "input": 0.8,
-        "output": 4
-      },
-      "releaseDate": "2024-11-04",
       "tags": []
     },
     {
@@ -142988,8 +142951,8 @@
       "id": "moonshotai/kimi-k2.6",
       "knowledge": "2025-01",
       "lastUpdated": "2026-04-21",
-      "maxCtxTokens": 262142,
-      "maxOutputTokens": 262142,
+      "maxCtxTokens": 262144,
+      "maxOutputTokens": 65535,
       "modalities": {
         "input": [
           "text",
@@ -143119,6 +143082,43 @@
       "tags": []
     },
     {
+      "description": "Nex-N2-Pro 是由 openrouter 提供的人工智能模型。",
+      "firm": "openrouter",
+      "flags": {
+        "attachment": true,
+        "audio": false,
+        "image": true,
+        "open_weights": true,
+        "reasoning": true,
+        "temperature": true,
+        "tool_call": false
+      },
+      "icon": "lb:openrouter-color",
+      "id": "nex-agi/nex-n2-pro",
+      "knowledge": null,
+      "lastUpdated": "2026-06-08",
+      "maxCtxTokens": 262144,
+      "maxOutputTokens": 262144,
+      "modalities": {
+        "input": [
+          "text",
+          "image"
+        ],
+        "output": [
+          "text"
+        ]
+      },
+      "name": "Nex-N2-Pro",
+      "price": {
+        "cacheRead": 0.25,
+        "cacheWrite": null,
+        "input": 0.5,
+        "output": 2.5
+      },
+      "releaseDate": "2026-06-08",
+      "tags": []
+    },
+    {
       "description": "Nex-N2-Pro (free) 是由 openrouter 提供的人工智能模型。",
       "firm": "openrouter",
       "flags": {
@@ -143135,7 +143135,7 @@
       "knowledge": null,
       "lastUpdated": "2026-06-08",
       "maxCtxTokens": 262144,
-      "maxOutputTokens": 262144,
+      "maxOutputTokens": 256000,
       "modalities": {
         "input": [
           "text",
@@ -149812,7 +149812,7 @@
       "knowledge": null,
       "lastUpdated": "2026-06-13",
       "maxCtxTokens": 1048576,
-      "maxOutputTokens": 131072,
+      "maxOutputTokens": 32768,
       "modalities": {
         "input": [
           "text"
@@ -149823,10 +149823,10 @@
       },
       "name": "GLM-5.2",
       "price": {
-        "cacheRead": 0.2,
+        "cacheRead": 0.18,
         "cacheWrite": null,
-        "input": 1.2,
-        "output": 4.1
+        "input": 1,
+        "output": 4
       },
       "releaseDate": "2026-06-13",
       "tags": []
@@ -183458,78 +183458,6 @@
       "tags": []
     },
     {
-      "description": "Seedance v1.0 Lite Image-to-Video 是由 vercel 提供的人工智能模型。",
-      "firm": "vercel",
-      "flags": {
-        "attachment": false,
-        "audio": false,
-        "image": false,
-        "open_weights": false,
-        "reasoning": false,
-        "temperature": true,
-        "tool_call": false
-      },
-      "icon": "lb:vercel-color",
-      "id": "bytedance/seedance-v1.0-lite-i2v",
-      "knowledge": null,
-      "lastUpdated": "2025-06-01",
-      "maxCtxTokens": 0,
-      "maxOutputTokens": 0,
-      "modalities": {
-        "input": [
-          "text"
-        ],
-        "output": [
-          "video"
-        ]
-      },
-      "name": "Seedance v1.0 Lite Image-to-Video",
-      "price": {
-        "cacheRead": null,
-        "cacheWrite": null,
-        "input": null,
-        "output": null
-      },
-      "releaseDate": "2025-06-01",
-      "tags": []
-    },
-    {
-      "description": "Seedance v1.0 Lite Text-to-Video 是由 vercel 提供的人工智能模型。",
-      "firm": "vercel",
-      "flags": {
-        "attachment": false,
-        "audio": false,
-        "image": false,
-        "open_weights": false,
-        "reasoning": false,
-        "temperature": true,
-        "tool_call": false
-      },
-      "icon": "lb:vercel-color",
-      "id": "bytedance/seedance-v1.0-lite-t2v",
-      "knowledge": null,
-      "lastUpdated": "2025-06-01",
-      "maxCtxTokens": 0,
-      "maxOutputTokens": 0,
-      "modalities": {
-        "input": [
-          "text"
-        ],
-        "output": [
-          "video"
-        ]
-      },
-      "name": "Seedance v1.0 Lite Text-to-Video",
-      "price": {
-        "cacheRead": null,
-        "cacheWrite": null,
-        "input": null,
-        "output": null
-      },
-      "releaseDate": "2025-06-01",
-      "tags": []
-    },
-    {
       "description": "Seedance v1.0 Pro 是由 vercel 提供的人工智能模型。",
       "firm": "vercel",
       "flags": {
@@ -194932,6 +194860,42 @@
       "tags": []
     },
     {
+      "description": "GLM-5.2 是由 zai 提供的人工智能模型。",
+      "firm": "zai",
+      "flags": {
+        "attachment": false,
+        "audio": false,
+        "image": false,
+        "open_weights": true,
+        "reasoning": true,
+        "temperature": true,
+        "tool_call": true
+      },
+      "icon": "lb:zai",
+      "id": "glm-5.2",
+      "knowledge": null,
+      "lastUpdated": "2026-06-13",
+      "maxCtxTokens": 1000000,
+      "maxOutputTokens": 131072,
+      "modalities": {
+        "input": [
+          "text"
+        ],
+        "output": [
+          "text"
+        ]
+      },
+      "name": "GLM-5.2",
+      "price": {
+        "cacheRead": 0.26,
+        "cacheWrite": null,
+        "input": 1.4,
+        "output": 4.4
+      },
+      "releaseDate": "2026-06-13",
+      "tags": []
+    },
+    {
       "description": "GLM-5V-Turbo 是由 zai 提供的人工智能模型。",
       "firm": "zai",
       "flags": {
@@ -199275,6 +199239,78 @@
         "output": 3.5126
       },
       "releaseDate": "2026-04-03",
+      "tags": []
+    },
+    {
+      "description": "GLM 5.2 是由 zenmux 提供的人工智能模型。",
+      "firm": "zenmux",
+      "flags": {
+        "attachment": false,
+        "audio": false,
+        "image": false,
+        "open_weights": true,
+        "reasoning": true,
+        "temperature": true,
+        "tool_call": true
+      },
+      "icon": "",
+      "id": "z-ai/glm-5.2",
+      "knowledge": null,
+      "lastUpdated": "2026-06-13",
+      "maxCtxTokens": 1000000,
+      "maxOutputTokens": 131072,
+      "modalities": {
+        "input": [
+          "text"
+        ],
+        "output": [
+          "text"
+        ]
+      },
+      "name": "GLM 5.2",
+      "price": {
+        "cacheRead": 0.26,
+        "cacheWrite": null,
+        "input": 1.4,
+        "output": 4.5
+      },
+      "releaseDate": "2026-06-13",
+      "tags": []
+    },
+    {
+      "description": "GLM 5.2 (Free) 是由 zenmux 提供的人工智能模型。",
+      "firm": "zenmux",
+      "flags": {
+        "attachment": false,
+        "audio": false,
+        "image": false,
+        "open_weights": true,
+        "reasoning": true,
+        "temperature": true,
+        "tool_call": true
+      },
+      "icon": "",
+      "id": "z-ai/glm-5.2-free",
+      "knowledge": null,
+      "lastUpdated": "2026-06-13",
+      "maxCtxTokens": 1000000,
+      "maxOutputTokens": 131072,
+      "modalities": {
+        "input": [
+          "text"
+        ],
+        "output": [
+          "text"
+        ]
+      },
+      "name": "GLM 5.2 (Free)",
+      "price": {
+        "cacheRead": null,
+        "cacheWrite": null,
+        "input": null,
+        "output": null
+      },
+      "releaseDate": "2026-06-13",
       "tags": []
     },
     {
