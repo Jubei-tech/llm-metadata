@@ -20228,7 +20228,7 @@
     {
       "flags": {
         "attachment": true,
-        "reasoning": false,
+        "reasoning": true,
         "tool_call": true
       },
       "id": "gemini-2.5-flash",
@@ -20239,7 +20239,7 @@
     {
       "flags": {
         "attachment": true,
-        "reasoning": false,
+        "reasoning": true,
         "tool_call": true
       },
       "id": "gemini-2.5-flash-lite",
@@ -20250,7 +20250,7 @@
     {
       "flags": {
         "attachment": true,
-        "reasoning": false,
+        "reasoning": true,
         "tool_call": true
       },
       "id": "gemini-2.5-flash-lite-preview-06-17",
@@ -20272,7 +20272,7 @@
     {
       "flags": {
         "attachment": true,
-        "reasoning": false,
+        "reasoning": true,
         "tool_call": true
       },
       "id": "gemini-2.5-flash-preview-05-20",
@@ -20283,7 +20283,7 @@
     {
       "flags": {
         "attachment": true,
-        "reasoning": false,
+        "reasoning": true,
         "tool_call": true
       },
       "id": "gemini-2.5-pro",
@@ -20294,7 +20294,7 @@
     {
       "flags": {
         "attachment": true,
-        "reasoning": false,
+        "reasoning": true,
         "tool_call": true
       },
       "id": "gemini-2.5-pro-preview-06-05",
@@ -57165,6 +57165,17 @@
     },
     {
       "flags": {
+        "attachment": false,
+        "reasoning": true,
+        "tool_call": true
+      },
+      "id": "zai/glm-5.2-fast",
+      "name": "GLM 5.2 Fast",
+      "providerId": "vercel",
+      "updated": "2026-06-16"
+    },
+    {
+      "flags": {
         "attachment": true,
         "reasoning": true,
         "tool_call": true
@@ -60870,7 +60881,7 @@
       "iconURL": "https://models.dev/logos/vercel.svg",
       "id": "vercel",
       "lobeIcon": "Vercel.Color",
-      "modelCount": 292,
+      "modelCount": 293,
       "name": "Vercel AI Gateway"
     },
     {
