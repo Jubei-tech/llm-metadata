@@ -52644,6 +52644,83 @@
     },
     {
       "flags": {
+        "attachment": true,
+        "reasoning": true,
+        "tool_call": true
+      },
+      "id": "gemma4-31b",
+      "name": "Gemma 4 31B IT",
+      "providerId": "tinfoil",
+      "updated": "2026-04-02"
+    },
+    {
+      "flags": {
+        "attachment": false,
+        "reasoning": true,
+        "tool_call": true
+      },
+      "id": "glm-5-2",
+      "name": "GLM-5.2",
+      "providerId": "tinfoil",
+      "updated": "2026-06-13"
+    },
+    {
+      "flags": {
+        "attachment": false,
+        "reasoning": true,
+        "tool_call": true
+      },
+      "id": "gpt-oss-120b",
+      "name": "gpt-oss-120b",
+      "providerId": "tinfoil",
+      "updated": "2025-08-05"
+    },
+    {
+      "flags": {
+        "attachment": false,
+        "reasoning": true,
+        "tool_call": true
+      },
+      "id": "gpt-oss-safeguard-120b",
+      "name": "gpt-oss-safeguard-120b",
+      "providerId": "tinfoil",
+      "updated": "2025-10-29"
+    },
+    {
+      "flags": {
+        "attachment": true,
+        "reasoning": true,
+        "tool_call": true
+      },
+      "id": "kimi-k2-6",
+      "name": "Kimi K2.6",
+      "providerId": "tinfoil",
+      "updated": "2026-04-21"
+    },
+    {
+      "flags": {
+        "attachment": true,
+        "reasoning": false,
+        "tool_call": true
+      },
+      "id": "llama3-3-70b",
+      "name": "Llama-3.3-70B-Instruct",
+      "providerId": "tinfoil",
+      "updated": "2024-12-06"
+    },
+    {
+      "flags": {
+        "attachment": false,
+        "reasoning": false,
+        "tool_call": false
+      },
+      "id": "nomic-embed-text",
+      "name": "Nomic Embed Text v1.5",
+      "providerId": "tinfoil",
+      "updated": "2024-02"
+    },
+    {
+      "flags": {
         "attachment": false,
         "reasoning": true,
         "tool_call": false
@@ -56601,6 +56678,17 @@
       "name": "Flux Schnell",
       "providerId": "vercel",
       "updated": "2026-06-08"
+    },
+    {
+      "flags": {
+        "attachment": false,
+        "reasoning": false,
+        "tool_call": false
+      },
+      "id": "quiverai/arrow-1.1",
+      "name": "Arrow 1.1",
+      "providerId": "vercel",
+      "updated": "2026-04-16"
     },
     {
       "flags": {
@@ -60894,6 +60982,14 @@
       "name": "The Grid AI"
     },
     {
+      "api": "https://inference.tinfoil.sh/v1",
+      "doc": "https://docs.tinfoil.sh",
+      "iconURL": "https://models.dev/logos/tinfoil.svg",
+      "id": "tinfoil",
+      "modelCount": 7,
+      "name": "Tinfoil"
+    },
+    {
       "doc": "https://docs.together.ai/docs/serverless-models",
       "iconURL": "https://models.dev/logos/togetherai.svg",
       "id": "togetherai",
@@ -60947,7 +61043,7 @@
       "iconURL": "https://models.dev/logos/vercel.svg",
       "id": "vercel",
       "lobeIcon": "Vercel.Color",
-      "modelCount": 294,
+      "modelCount": 295,
       "name": "Vercel AI Gateway"
     },
     {
