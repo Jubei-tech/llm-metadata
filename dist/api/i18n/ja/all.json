@@ -20802,75 +20802,6 @@
     "id": "anthropic",
     "lobeIcon": "Claude.Color",
     "models": {
-      "claude-3-5-haiku-20241022": {
-        "attachment": true,
-        "cost": {
-          "cache_read": 0.08,
-          "cache_write": 1,
-          "input": 0.8,
-          "output": 4
-        },
-        "description": "Claude Haiku 3.5 は anthropic によって提供される AI モデルです。",
-        "family": "claude-haiku",
-        "id": "claude-3-5-haiku-20241022",
-        "knowledge": "2024-07-31",
-        "last_updated": "2024-10-22",
-        "limit": {
-          "context": 200000,
-          "output": 8192
-        },
-        "modalities": {
-          "input": [
-            "text",
-            "image",
-            "pdf"
-          ],
-          "output": [
-            "text"
-          ]
-        },
-        "name": "Claude Haiku 3.5",
-        "open_weights": false,
-        "reasoning": false,
-        "release_date": "2024-10-22",
-        "status": "deprecated",
-        "temperature": true,
-        "tool_call": true
-      },
-      "claude-3-5-haiku-latest": {
-        "attachment": true,
-        "cost": {
-          "cache_read": 0.08,
-          "cache_write": 1,
-          "input": 0.8,
-          "output": 4
-        },
-        "description": "Claude Haiku 3.5 (latest) は anthropic によって提供される AI モデルです。",
-        "family": "claude-haiku",
-        "id": "claude-3-5-haiku-latest",
-        "knowledge": "2024-07-31",
-        "last_updated": "2024-10-22",
-        "limit": {
-          "context": 200000,
-          "output": 8192
-        },
-        "modalities": {
-          "input": [
-            "text",
-            "image",
-            "pdf"
-          ],
-          "output": [
-            "text"
-          ]
-        },
-        "name": "Claude Haiku 3.5 (latest)",
-        "open_weights": false,
-        "reasoning": false,
-        "release_date": "2024-10-22",
-        "temperature": true,
-        "tool_call": true
-      },
       "claude-3-5-sonnet-20240620": {
         "attachment": true,
         "cost": {
@@ -32296,216 +32227,21 @@
         "temperature": true,
         "tool_call": true
       },
-      "NousResearch/DeepHermes-3-Mistral-24B-Preview": {
-        "attachment": false,
-        "cost": {
-          "cache_read": 0.01225,
-          "input": 0.0245,
-          "output": 0.0978
-        },
-        "description": "DeepHermes 3 Mistral 24B Preview は chutes によって提供される AI モデルです。",
-        "family": "nousresearch",
-        "id": "NousResearch/DeepHermes-3-Mistral-24B-Preview",
-        "last_updated": "2026-04-25",
-        "limit": {
-          "context": 32768,
-          "output": 32768
-        },
-        "modalities": {
-          "input": [
-            "text"
-          ],
-          "output": [
-            "text"
-          ]
-        },
-        "name": "DeepHermes 3 Mistral 24B Preview",
-        "open_weights": true,
-        "reasoning": false,
-        "release_date": "2025-12-29",
-        "structured_output": true,
-        "temperature": true,
-        "tool_call": true
-      },
-      "NousResearch/Hermes-4-14B": {
-        "attachment": false,
-        "cost": {
-          "cache_read": 0.0068,
-          "input": 0.0136,
-          "output": 0.0543
-        },
-        "description": "Hermes 4 14B は chutes によって提供される AI モデルです。",
-        "family": "nousresearch",
-        "id": "NousResearch/Hermes-4-14B",
-        "interleaved": {
-          "field": "reasoning_content"
-        },
-        "last_updated": "2026-04-25",
-        "limit": {
-          "context": 40960,
-          "output": 40960
-        },
-        "modalities": {
-          "input": [
-            "text"
-          ],
-          "output": [
-            "text"
-          ]
-        },
-        "name": "Hermes 4 14B",
-        "open_weights": true,
-        "reasoning": true,
-        "reasoning_options": [
-          {
-            "type": "toggle"
-          }
-        ],
-        "release_date": "2025-12-29",
-        "structured_output": true,
-        "temperature": true,
-        "tool_call": true
-      },
-      "Qwen/Qwen2.5-72B-Instruct": {
+      "Qwen/Qwen3-235B-A22B-Thinking-2507-TEE": {
         "attachment": false,
         "cost": {
           "cache_read": 0.14945,
           "input": 0.2989,
           "output": 1.1957
         },
-        "description": "Qwen2.5 72B Instruct は chutes によって提供される AI モデルです。",
+        "description": "Qwen3 235B A22B Thinking 2507 TEE は chutes によって提供される AI モデルです。",
         "family": "qwen",
-        "id": "Qwen/Qwen2.5-72B-Instruct",
-        "last_updated": "2026-04-25",
-        "limit": {
-          "context": 32768,
-          "output": 32768
-        },
-        "modalities": {
-          "input": [
-            "text"
-          ],
-          "output": [
-            "text"
-          ]
-        },
-        "name": "Qwen2.5 72B Instruct",
-        "open_weights": true,
-        "reasoning": false,
-        "release_date": "2025-12-29",
-        "structured_output": true,
-        "temperature": true,
-        "tool_call": true
-      },
-      "Qwen/Qwen2.5-Coder-32B-Instruct": {
-        "attachment": false,
-        "cost": {
-          "cache_read": 0.0136,
-          "input": 0.0272,
-          "output": 0.1087
-        },
-        "description": "Qwen2.5 Coder 32B Instruct は chutes によって提供される AI モデルです。",
-        "family": "qwen",
-        "id": "Qwen/Qwen2.5-Coder-32B-Instruct",
-        "last_updated": "2026-04-25",
-        "limit": {
-          "context": 32768,
-          "output": 32768
-        },
-        "modalities": {
-          "input": [
-            "text"
-          ],
-          "output": [
-            "text"
-          ]
-        },
-        "name": "Qwen2.5 Coder 32B Instruct",
-        "open_weights": true,
-        "reasoning": false,
-        "release_date": "2025-12-29",
-        "structured_output": true,
-        "temperature": true,
-        "tool_call": false
-      },
-      "Qwen/Qwen2.5-VL-32B-Instruct": {
-        "attachment": true,
-        "cost": {
-          "cache_read": 0.02715,
-          "input": 0.0543,
-          "output": 0.2174
-        },
-        "description": "Qwen2.5 VL 32B Instruct は chutes によって提供される AI モデルです。",
-        "family": "qwen",
-        "id": "Qwen/Qwen2.5-VL-32B-Instruct",
-        "last_updated": "2026-04-25",
-        "limit": {
-          "context": 16384,
-          "output": 16384
-        },
-        "modalities": {
-          "input": [
-            "text",
-            "image"
-          ],
-          "output": [
-            "text"
-          ]
-        },
-        "name": "Qwen2.5 VL 32B Instruct",
-        "open_weights": true,
-        "reasoning": false,
-        "release_date": "2025-12-29",
-        "structured_output": true,
-        "temperature": true,
-        "tool_call": false
-      },
-      "Qwen/Qwen3-235B-A22B-Instruct-2507-TEE": {
-        "attachment": false,
-        "cost": {
-          "cache_read": 0.05,
-          "input": 0.1,
-          "output": 0.6
-        },
-        "description": "Qwen3 235B A22B Instruct 2507 TEE は chutes によって提供される AI モデルです。",
-        "family": "qwen",
-        "id": "Qwen/Qwen3-235B-A22B-Instruct-2507-TEE",
-        "knowledge": "2025-04",
-        "last_updated": "2025-04",
-        "limit": {
-          "context": 262144,
-          "output": 65536
-        },
-        "modalities": {
-          "input": [
-            "text"
-          ],
-          "output": [
-            "text"
-          ]
-        },
-        "name": "Qwen3 235B A22B Instruct 2507 TEE",
-        "open_weights": true,
-        "reasoning": false,
-        "release_date": "2025-04",
-        "structured_output": true,
-        "temperature": true,
-        "tool_call": true
-      },
-      "Qwen/Qwen3-235B-A22B-Thinking-2507": {
-        "attachment": false,
-        "cost": {
-          "cache_read": 0.055,
-          "input": 0.11,
-          "output": 0.6
-        },
-        "description": "Qwen3 235B A22B Thinking 2507 は chutes によって提供される AI モデルです。",
-        "family": "qwen",
-        "id": "Qwen/Qwen3-235B-A22B-Thinking-2507",
+        "id": "Qwen/Qwen3-235B-A22B-Thinking-2507-TEE",
         "interleaved": {
           "field": "reasoning_content"
         },
-        "last_updated": "2026-04-25",
+        "knowledge": "2025-04",
+        "last_updated": "2026-06-21",
         "limit": {
           "context": 262144,
           "output": 262144
@@ -32518,50 +32254,11 @@
             "text"
           ]
         },
-        "name": "Qwen3 235B A22B Thinking 2507",
+        "name": "Qwen3 235B A22B Thinking 2507 TEE",
         "open_weights": true,
         "reasoning": true,
         "reasoning_options": [],
-        "release_date": "2025-12-29",
-        "structured_output": true,
-        "temperature": true,
-        "tool_call": true
-      },
-      "Qwen/Qwen3-30B-A3B": {
-        "attachment": false,
-        "cost": {
-          "cache_read": 0.03,
-          "input": 0.06,
-          "output": 0.22
-        },
-        "description": "Qwen3 30B A3B は chutes によって提供される AI モデルです。",
-        "family": "qwen",
-        "id": "Qwen/Qwen3-30B-A3B",
-        "interleaved": {
-          "field": "reasoning_content"
-        },
-        "last_updated": "2026-04-25",
-        "limit": {
-          "context": 40960,
-          "output": 40960
-        },
-        "modalities": {
-          "input": [
-            "text"
-          ],
-          "output": [
-            "text"
-          ]
-        },
-        "name": "Qwen3 30B A3B",
-        "open_weights": true,
-        "reasoning": true,
-        "reasoning_options": [
-          {
-            "type": "toggle"
-          }
-        ],
-        "release_date": "2025-12-29",
+        "release_date": "2025-07",
         "structured_output": true,
         "temperature": true,
         "tool_call": true
@@ -32569,9 +32266,9 @@
       "Qwen/Qwen3-32B-TEE": {
         "attachment": false,
         "cost": {
-          "cache_read": 0.04,
-          "input": 0.08,
-          "output": 0.24
+          "cache_read": 0.052,
+          "input": 0.104,
+          "output": 0.416
         },
         "description": "Qwen3 32B TEE は chutes によって提供される AI モデルです。",
         "family": "qwen",
@@ -32593,74 +32290,8 @@
         "name": "Qwen3 32B TEE",
         "open_weights": true,
         "reasoning": true,
-        "reasoning_options": [
-          {
-            "type": "toggle"
-          }
-        ],
+        "reasoning_options": [],
         "release_date": "2025-04",
-        "structured_output": true,
-        "temperature": true,
-        "tool_call": true
-      },
-      "Qwen/Qwen3-Coder-Next-TEE": {
-        "attachment": false,
-        "cost": {
-          "cache_read": 0.06,
-          "input": 0.12,
-          "output": 0.75
-        },
-        "description": "Qwen3 Coder Next TEE は chutes によって提供される AI モデルです。",
-        "family": "qwen",
-        "id": "Qwen/Qwen3-Coder-Next-TEE",
-        "last_updated": "2026-04-25",
-        "limit": {
-          "context": 262144,
-          "output": 65536
-        },
-        "modalities": {
-          "input": [
-            "text"
-          ],
-          "output": [
-            "text"
-          ]
-        },
-        "name": "Qwen3 Coder Next TEE",
-        "open_weights": true,
-        "reasoning": false,
-        "release_date": "2026-04-25",
-        "structured_output": true,
-        "temperature": true,
-        "tool_call": true
-      },
-      "Qwen/Qwen3-Next-80B-A3B-Instruct": {
-        "attachment": false,
-        "cost": {
-          "cache_read": 0.05,
-          "input": 0.1,
-          "output": 0.8
-        },
-        "description": "Qwen3 Next 80B A3B Instruct は chutes によって提供される AI モデルです。",
-        "family": "qwen",
-        "id": "Qwen/Qwen3-Next-80B-A3B-Instruct",
-        "last_updated": "2026-04-25",
-        "limit": {
-          "context": 262144,
-          "output": 262144
-        },
-        "modalities": {
-          "input": [
-            "text"
-          ],
-          "output": [
-            "text"
-          ]
-        },
-        "name": "Qwen3 Next 80B A3B Instruct",
-        "open_weights": true,
-        "reasoning": false,
-        "release_date": "2025-12-29",
         "structured_output": true,
         "temperature": true,
         "tool_call": true
@@ -32668,9 +32299,9 @@
       "Qwen/Qwen3.5-397B-A17B-TEE": {
         "attachment": true,
         "cost": {
-          "cache_read": 0.195,
-          "input": 0.39,
-          "output": 2.34
+          "cache_read": 0.225,
+          "input": 0.45,
+          "output": 3
         },
         "description": "Qwen3.5 397B A17B TEE は chutes によって提供される AI モデルです。",
         "family": "qwen",
@@ -32695,11 +32326,7 @@
         "name": "Qwen3.5 397B A17B TEE",
         "open_weights": true,
         "reasoning": true,
-        "reasoning_options": [
-          {
-            "type": "toggle"
-          }
-        ],
+        "reasoning_options": [],
         "release_date": "2026-02-15",
         "structured_output": true,
         "temperature": true,
@@ -32708,9 +32335,9 @@
       "Qwen/Qwen3.6-27B-TEE": {
         "attachment": true,
         "cost": {
-          "cache_read": 0.0975,
-          "input": 0.195,
-          "output": 1.56
+          "cache_read": 0.15,
+          "input": 0.3,
+          "output": 2
         },
         "description": "Qwen3.6 27B TEE は chutes によって提供される AI モデルです。",
         "family": "qwen",
@@ -32732,215 +32359,8 @@
         "name": "Qwen3.6 27B TEE",
         "open_weights": true,
         "reasoning": true,
-        "reasoning_options": [
-          {
-            "type": "toggle"
-          }
-        ],
+        "reasoning_options": [],
         "release_date": "2026-04-22",
-        "structured_output": true,
-        "temperature": true,
-        "tool_call": true
-      },
-      "Qwen/Qwen3Guard-Gen-0.6B": {
-        "attachment": false,
-        "cost": {
-          "cache_read": 0.005,
-          "input": 0.01,
-          "output": 0.0109
-        },
-        "description": "Qwen3Guard Gen 0.6B は chutes によって提供される AI モデルです。",
-        "family": "qwen",
-        "id": "Qwen/Qwen3Guard-Gen-0.6B",
-        "last_updated": "2026-04-25",
-        "limit": {
-          "context": 32768,
-          "output": 8192
-        },
-        "modalities": {
-          "input": [
-            "text"
-          ],
-          "output": [
-            "text"
-          ]
-        },
-        "name": "Qwen3Guard Gen 0.6B",
-        "open_weights": true,
-        "reasoning": false,
-        "release_date": "2025-12-29",
-        "temperature": true,
-        "tool_call": false
-      },
-      "XiaomiMiMo/MiMo-V2-Flash-TEE": {
-        "attachment": false,
-        "cost": {
-          "cache_read": 0.045,
-          "input": 0.09,
-          "output": 0.29
-        },
-        "description": "MiMo V2 Flash TEE は chutes によって提供される AI モデルです。",
-        "family": "mimo",
-        "id": "XiaomiMiMo/MiMo-V2-Flash-TEE",
-        "knowledge": "2024-12-01",
-        "last_updated": "2026-02-04",
-        "limit": {
-          "context": 262144,
-          "output": 65536
-        },
-        "modalities": {
-          "input": [
-            "text"
-          ],
-          "output": [
-            "text"
-          ]
-        },
-        "name": "MiMo V2 Flash TEE",
-        "open_weights": true,
-        "reasoning": false,
-        "release_date": "2025-12-16",
-        "structured_output": true,
-        "temperature": true,
-        "tool_call": true
-      },
-      "deepseek-ai/DeepSeek-R1-0528-TEE": {
-        "attachment": false,
-        "cost": {
-          "cache_read": 0.225,
-          "input": 0.45,
-          "output": 2.15
-        },
-        "description": "DeepSeek R1 0528 TEE は chutes によって提供される AI モデルです。",
-        "family": "deepseek-thinking",
-        "id": "deepseek-ai/DeepSeek-R1-0528-TEE",
-        "interleaved": {
-          "field": "reasoning_content"
-        },
-        "knowledge": "2024-07",
-        "last_updated": "2025-05-29",
-        "limit": {
-          "context": 163840,
-          "output": 65536
-        },
-        "modalities": {
-          "input": [
-            "text"
-          ],
-          "output": [
-            "text"
-          ]
-        },
-        "name": "DeepSeek R1 0528 TEE",
-        "open_weights": true,
-        "reasoning": true,
-        "reasoning_options": [],
-        "release_date": "2025-01-20",
-        "structured_output": true,
-        "temperature": true,
-        "tool_call": true
-      },
-      "deepseek-ai/DeepSeek-R1-Distill-Llama-70B": {
-        "attachment": false,
-        "cost": {
-          "cache_read": 0.0136,
-          "input": 0.0272,
-          "output": 0.1087
-        },
-        "description": "DeepSeek R1 Distill Llama 70B は chutes によって提供される AI モデルです。",
-        "family": "deepseek-thinking",
-        "id": "deepseek-ai/DeepSeek-R1-Distill-Llama-70B",
-        "interleaved": {
-          "field": "reasoning_content"
-        },
-        "last_updated": "2026-04-25",
-        "limit": {
-          "context": 131072,
-          "output": 131072
-        },
-        "modalities": {
-          "input": [
-            "text"
-          ],
-          "output": [
-            "text"
-          ]
-        },
-        "name": "DeepSeek R1 Distill Llama 70B",
-        "open_weights": true,
-        "reasoning": true,
-        "reasoning_options": [],
-        "release_date": "2025-12-29",
-        "structured_output": true,
-        "temperature": true,
-        "tool_call": true
-      },
-      "deepseek-ai/DeepSeek-V3-0324-TEE": {
-        "attachment": false,
-        "cost": {
-          "cache_read": 0.125,
-          "input": 0.25,
-          "output": 1
-        },
-        "description": "DeepSeek V3 0324 TEE は chutes によって提供される AI モデルです。",
-        "family": "deepseek",
-        "id": "deepseek-ai/DeepSeek-V3-0324-TEE",
-        "last_updated": "2026-04-25",
-        "limit": {
-          "context": 163840,
-          "output": 65536
-        },
-        "modalities": {
-          "input": [
-            "text"
-          ],
-          "output": [
-            "text"
-          ]
-        },
-        "name": "DeepSeek V3 0324 TEE",
-        "open_weights": true,
-        "reasoning": false,
-        "release_date": "2025-12-29",
-        "structured_output": true,
-        "temperature": true,
-        "tool_call": true
-      },
-      "deepseek-ai/DeepSeek-V3.1-TEE": {
-        "attachment": false,
-        "cost": {
-          "cache_read": 0.135,
-          "input": 0.27,
-          "output": 1
-        },
-        "description": "DeepSeek V3.1 TEE は chutes によって提供される AI モデルです。",
-        "family": "deepseek",
-        "id": "deepseek-ai/DeepSeek-V3.1-TEE",
-        "interleaved": {
-          "field": "reasoning_content"
-        },
-        "last_updated": "2026-04-25",
-        "limit": {
-          "context": 163840,
-          "output": 65536
-        },
-        "modalities": {
-          "input": [
-            "text"
-          ],
-          "output": [
-            "text"
-          ]
-        },
-        "name": "DeepSeek V3.1 TEE",
-        "open_weights": true,
-        "reasoning": true,
-        "reasoning_options": [
-          {
-            "type": "toggle"
-          }
-        ],
-        "release_date": "2025-12-29",
         "structured_output": true,
         "temperature": true,
         "tool_call": true
@@ -32948,9 +32368,9 @@
       "deepseek-ai/DeepSeek-V3.2-TEE": {
         "attachment": false,
         "cost": {
-          "cache_read": 0.14,
-          "input": 0.28,
-          "output": 0.42
+          "cache_read": 0.5,
+          "input": 1,
+          "output": 1
         },
         "description": "DeepSeek V3.2 TEE は chutes によって提供される AI モデルです。",
         "family": "deepseek",
@@ -32958,7 +32378,7 @@
         "interleaved": {
           "field": "reasoning_content"
         },
-        "last_updated": "2026-04-25",
+        "last_updated": "2026-06-21",
         "limit": {
           "context": 131072,
           "output": 65536
@@ -32974,12 +32394,8 @@
         "name": "DeepSeek V3.2 TEE",
         "open_weights": true,
         "reasoning": true,
-        "reasoning_options": [
-          {
-            "type": "toggle"
-          }
-        ],
-        "release_date": "2025-12-29",
+        "reasoning_options": [],
+        "release_date": "2025-12",
         "structured_output": true,
         "temperature": true,
         "tool_call": true
@@ -32987,9 +32403,9 @@
       "google/gemma-4-31B-turbo-TEE": {
         "attachment": true,
         "cost": {
-          "cache_read": 0.065,
-          "input": 0.13,
-          "output": 0.38
+          "cache_read": 0.06,
+          "input": 0.12,
+          "output": 0.37
         },
         "description": "gemma 4 31B turbo TEE は chutes によって提供される AI モデルです。",
         "family": "gemma",
@@ -33011,11 +32427,7 @@
         "name": "gemma 4 31B turbo TEE",
         "open_weights": true,
         "reasoning": true,
-        "reasoning_options": [
-          {
-            "type": "toggle"
-          }
-        ],
+        "reasoning_options": [],
         "release_date": "2026-04-02",
         "structured_output": true,
         "temperature": true,
@@ -33053,11 +32465,7 @@
         "name": "Kimi K2.5 TEE",
         "open_weights": true,
         "reasoning": true,
-        "reasoning_options": [
-          {
-            "type": "toggle"
-          }
-        ],
+        "reasoning_options": [],
         "release_date": "2026-01",
         "structured_output": true,
         "temperature": true,
@@ -33066,9 +32474,9 @@
       "moonshotai/Kimi-K2.6-TEE": {
         "attachment": true,
         "cost": {
-          "cache_read": 0.475,
-          "input": 0.95,
-          "output": 4
+          "cache_read": 0.33,
+          "input": 0.66,
+          "output": 3.5
         },
         "description": "Kimi K2.6 TEE は chutes によって提供される AI モデルです。",
         "family": "kimi-k2",
@@ -33095,195 +32503,24 @@
         "name": "Kimi K2.6 TEE",
         "open_weights": true,
         "reasoning": true,
-        "reasoning_options": [
-          {
-            "type": "toggle"
-          }
-        ],
+        "reasoning_options": [],
         "release_date": "2026-04-21",
         "structured_output": true,
         "temperature": true,
         "tool_call": true
       },
-      "openai/gpt-oss-120b-TEE": {
+      "unsloth/Mistral-Nemo-Instruct-2407-TEE": {
         "attachment": false,
         "cost": {
-          "cache_read": 0.045,
-          "input": 0.09,
-          "output": 0.36
+          "cache_read": 0.01225,
+          "input": 0.0245,
+          "output": 0.0978
         },
-        "description": "gpt oss 120b TEE は chutes によって提供される AI モデルです。",
-        "family": "gpt-oss",
-        "id": "openai/gpt-oss-120b-TEE",
-        "interleaved": {
-          "field": "reasoning_content"
-        },
-        "last_updated": "2026-04-25",
-        "limit": {
-          "context": 131072,
-          "output": 65536
-        },
-        "modalities": {
-          "input": [
-            "text"
-          ],
-          "output": [
-            "text"
-          ]
-        },
-        "name": "gpt oss 120b TEE",
-        "open_weights": true,
-        "reasoning": true,
-        "reasoning_options": [
-          {
-            "type": "effort",
-            "values": [
-              "low",
-              "medium",
-              "high"
-            ]
-          }
-        ],
-        "release_date": "2025-12-29",
-        "structured_output": true,
-        "temperature": true,
-        "tool_call": true
-      },
-      "rednote-hilab/dots.ocr": {
-        "attachment": true,
-        "cost": {
-          "cache_read": 0.005,
-          "input": 0.01,
-          "output": 0.0109
-        },
-        "description": "dots.ocr は chutes によって提供される AI モデルです。",
-        "family": "rednote",
-        "id": "rednote-hilab/dots.ocr",
-        "last_updated": "2026-04-25",
-        "limit": {
-          "context": 131072,
-          "output": 131072
-        },
-        "modalities": {
-          "input": [
-            "text",
-            "image"
-          ],
-          "output": [
-            "text"
-          ]
-        },
-        "name": "dots.ocr",
-        "open_weights": true,
-        "reasoning": false,
-        "release_date": "2025-12-29",
-        "structured_output": true,
-        "temperature": true,
-        "tool_call": false
-      },
-      "tngtech/DeepSeek-TNG-R1T2-Chimera-TEE": {
-        "attachment": false,
-        "cost": {
-          "cache_read": 0.15,
-          "input": 0.3,
-          "output": 1.1
-        },
-        "description": "DeepSeek TNG R1T2 Chimera TEE は chutes によって提供される AI モデルです。",
-        "family": "deepseek",
-        "id": "tngtech/DeepSeek-TNG-R1T2-Chimera-TEE",
-        "last_updated": "2026-04-25",
-        "limit": {
-          "context": 163840,
-          "output": 163840
-        },
-        "modalities": {
-          "input": [
-            "text"
-          ],
-          "output": [
-            "text"
-          ]
-        },
-        "name": "DeepSeek TNG R1T2 Chimera TEE",
-        "open_weights": true,
-        "reasoning": true,
-        "reasoning_options": [],
-        "release_date": "2026-04-25",
-        "structured_output": true,
-        "temperature": true,
-        "tool_call": true
-      },
-      "unsloth/Llama-3.2-1B-Instruct": {
-        "attachment": false,
-        "cost": {
-          "cache_read": 0.005,
-          "input": 0.01,
-          "output": 0.0109
-        },
-        "description": "Llama 3.2 1B Instruct は chutes によって提供される AI モデルです。",
-        "family": "unsloth",
-        "id": "unsloth/Llama-3.2-1B-Instruct",
-        "last_updated": "2026-04-25",
-        "limit": {
-          "context": 16384,
-          "output": 8192
-        },
-        "modalities": {
-          "input": [
-            "text"
-          ],
-          "output": [
-            "text"
-          ]
-        },
-        "name": "Llama 3.2 1B Instruct",
-        "open_weights": true,
-        "reasoning": false,
-        "release_date": "2026-01-27",
-        "temperature": true,
-        "tool_call": false
-      },
-      "unsloth/Llama-3.2-3B-Instruct": {
-        "attachment": false,
-        "cost": {
-          "cache_read": 0.005,
-          "input": 0.01,
-          "output": 0.0136
-        },
-        "description": "Llama 3.2 3B Instruct は chutes によって提供される AI モデルです。",
-        "family": "unsloth",
-        "id": "unsloth/Llama-3.2-3B-Instruct",
-        "last_updated": "2026-04-25",
-        "limit": {
-          "context": 16384,
-          "output": 16384
-        },
-        "modalities": {
-          "input": [
-            "text"
-          ],
-          "output": [
-            "text"
-          ]
-        },
-        "name": "Llama 3.2 3B Instruct",
-        "open_weights": true,
-        "reasoning": false,
-        "release_date": "2025-02-12",
-        "temperature": true,
-        "tool_call": false
-      },
-      "unsloth/Mistral-Nemo-Instruct-2407": {
-        "attachment": false,
-        "cost": {
-          "cache_read": 0.01,
-          "input": 0.02,
-          "output": 0.04
-        },
-        "description": "Mistral Nemo Instruct 2407 は chutes によって提供される AI モデルです。",
-        "family": "unsloth",
-        "id": "unsloth/Mistral-Nemo-Instruct-2407",
-        "last_updated": "2026-04-25",
+        "description": "Mistral Nemo Instruct 2407 TEE は chutes によって提供される AI モデルです。",
+        "family": "mistral-nemo",
+        "id": "unsloth/Mistral-Nemo-Instruct-2407-TEE",
+        "knowledge": "2024-07",
+        "last_updated": "2024-07-01",
         "limit": {
           "context": 131072,
           "output": 131072
@@ -33296,224 +32533,12 @@
             "text"
           ]
         },
-        "name": "Mistral Nemo Instruct 2407",
+        "name": "Mistral Nemo Instruct 2407 TEE",
         "open_weights": true,
         "reasoning": false,
-        "release_date": "2025-12-29",
-        "structured_output": true,
+        "release_date": "2024-07-01",
         "temperature": true,
         "tool_call": false
-      },
-      "unsloth/gemma-3-12b-it": {
-        "attachment": true,
-        "cost": {
-          "cache_read": 0.015,
-          "input": 0.03,
-          "output": 0.1
-        },
-        "description": "gemma 3 12b it は chutes によって提供される AI モデルです。",
-        "family": "unsloth",
-        "id": "unsloth/gemma-3-12b-it",
-        "last_updated": "2026-04-25",
-        "limit": {
-          "context": 131072,
-          "output": 131072
-        },
-        "modalities": {
-          "input": [
-            "text",
-            "image"
-          ],
-          "output": [
-            "text"
-          ]
-        },
-        "name": "gemma 3 12b it",
-        "open_weights": true,
-        "reasoning": false,
-        "release_date": "2025-12-29",
-        "temperature": true,
-        "tool_call": false
-      },
-      "unsloth/gemma-3-27b-it": {
-        "attachment": true,
-        "cost": {
-          "cache_read": 0.0136,
-          "input": 0.0272,
-          "output": 0.1087
-        },
-        "description": "gemma 3 27b it は chutes によって提供される AI モデルです。",
-        "family": "unsloth",
-        "id": "unsloth/gemma-3-27b-it",
-        "last_updated": "2026-04-25",
-        "limit": {
-          "context": 128000,
-          "output": 65536
-        },
-        "modalities": {
-          "input": [
-            "text",
-            "image"
-          ],
-          "output": [
-            "text"
-          ]
-        },
-        "name": "gemma 3 27b it",
-        "open_weights": true,
-        "reasoning": false,
-        "release_date": "2025-12-29",
-        "structured_output": true,
-        "temperature": true,
-        "tool_call": true
-      },
-      "unsloth/gemma-3-4b-it": {
-        "attachment": true,
-        "cost": {
-          "cache_read": 0.005,
-          "input": 0.01,
-          "output": 0.0272
-        },
-        "description": "gemma 3 4b it は chutes によって提供される AI モデルです。",
-        "family": "unsloth",
-        "id": "unsloth/gemma-3-4b-it",
-        "last_updated": "2026-04-25",
-        "limit": {
-          "context": 96000,
-          "output": 96000
-        },
-        "modalities": {
-          "input": [
-            "text",
-            "image"
-          ],
-          "output": [
-            "text"
-          ]
-        },
-        "name": "gemma 3 4b it",
-        "open_weights": true,
-        "reasoning": false,
-        "release_date": "2025-12-29",
-        "structured_output": true,
-        "temperature": true,
-        "tool_call": false
-      },
-      "zai-org/GLM-4.6V": {
-        "attachment": true,
-        "cost": {
-          "cache_read": 0.15,
-          "input": 0.3,
-          "output": 0.9
-        },
-        "description": "GLM 4.6V は chutes によって提供される AI モデルです。",
-        "family": "glm",
-        "id": "zai-org/GLM-4.6V",
-        "interleaved": {
-          "field": "reasoning_content"
-        },
-        "last_updated": "2026-04-25",
-        "limit": {
-          "context": 131072,
-          "output": 65536
-        },
-        "modalities": {
-          "input": [
-            "text",
-            "image"
-          ],
-          "output": [
-            "text"
-          ]
-        },
-        "name": "GLM 4.6V",
-        "open_weights": true,
-        "reasoning": true,
-        "reasoning_options": [
-          {
-            "type": "toggle"
-          }
-        ],
-        "release_date": "2025-12-29",
-        "structured_output": true,
-        "temperature": true,
-        "tool_call": true
-      },
-      "zai-org/GLM-4.7-FP8": {
-        "attachment": false,
-        "cost": {
-          "cache_read": 0.14945,
-          "input": 0.2989,
-          "output": 1.1957
-        },
-        "description": "GLM 4.7 FP8 は chutes によって提供される AI モデルです。",
-        "family": "glm",
-        "id": "zai-org/GLM-4.7-FP8",
-        "last_updated": "2026-04-25",
-        "limit": {
-          "context": 202752,
-          "output": 65535
-        },
-        "modalities": {
-          "input": [
-            "text"
-          ],
-          "output": [
-            "text"
-          ]
-        },
-        "name": "GLM 4.7 FP8",
-        "open_weights": true,
-        "reasoning": true,
-        "reasoning_options": [
-          {
-            "type": "toggle"
-          }
-        ],
-        "release_date": "2026-01-27",
-        "structured_output": true,
-        "temperature": true,
-        "tool_call": true
-      },
-      "zai-org/GLM-4.7-TEE": {
-        "attachment": false,
-        "cost": {
-          "cache_read": 0.195,
-          "input": 0.39,
-          "output": 1.75
-        },
-        "description": "GLM 4.7 TEE は chutes によって提供される AI モデルです。",
-        "family": "glm",
-        "id": "zai-org/GLM-4.7-TEE",
-        "interleaved": {
-          "field": "reasoning_content"
-        },
-        "knowledge": "2025-04",
-        "last_updated": "2025-12-22",
-        "limit": {
-          "context": 202752,
-          "output": 65535
-        },
-        "modalities": {
-          "input": [
-            "text"
-          ],
-          "output": [
-            "text"
-          ]
-        },
-        "name": "GLM 4.7 TEE",
-        "open_weights": true,
-        "reasoning": true,
-        "reasoning_options": [
-          {
-            "type": "toggle"
-          }
-        ],
-        "release_date": "2025-12-22",
-        "structured_output": true,
-        "temperature": true,
-        "tool_call": true
       },
       "zai-org/GLM-5-TEE": {
         "attachment": false,
@@ -33544,51 +32569,8 @@
         "name": "GLM 5 TEE",
         "open_weights": true,
         "reasoning": true,
-        "reasoning_options": [
-          {
-            "type": "toggle"
-          }
-        ],
+        "reasoning_options": [],
         "release_date": "2026-02-12",
-        "structured_output": true,
-        "temperature": true,
-        "tool_call": true
-      },
-      "zai-org/GLM-5-Turbo": {
-        "attachment": false,
-        "cost": {
-          "cache_read": 0.24455,
-          "input": 0.4891,
-          "output": 1.9565
-        },
-        "description": "GLM 5 Turbo は chutes によって提供される AI モデルです。",
-        "family": "glm",
-        "id": "zai-org/GLM-5-Turbo",
-        "interleaved": {
-          "field": "reasoning_content"
-        },
-        "last_updated": "2026-04-25",
-        "limit": {
-          "context": 202752,
-          "output": 65535
-        },
-        "modalities": {
-          "input": [
-            "text"
-          ],
-          "output": [
-            "text"
-          ]
-        },
-        "name": "GLM 5 Turbo",
-        "open_weights": true,
-        "reasoning": true,
-        "reasoning_options": [
-          {
-            "type": "toggle"
-          }
-        ],
-        "release_date": "2026-03-11",
         "structured_output": true,
         "temperature": true,
         "tool_call": true
@@ -33596,9 +32578,9 @@
       "zai-org/GLM-5.1-TEE": {
         "attachment": false,
         "cost": {
-          "cache_read": 0.525,
-          "input": 1.05,
-          "output": 3.5
+          "cache_read": 0.49,
+          "input": 0.98,
+          "output": 3.08
         },
         "description": "GLM 5.1 TEE は chutes によって提供される AI モデルです。",
         "family": "glm",
@@ -33622,12 +32604,43 @@
         "name": "GLM 5.1 TEE",
         "open_weights": true,
         "reasoning": true,
-        "reasoning_options": [
-          {
-            "type": "toggle"
-          }
-        ],
+        "reasoning_options": [],
         "release_date": "2026-04-07",
+        "structured_output": true,
+        "temperature": true,
+        "tool_call": true
+      },
+      "zai-org/GLM-5.2-TEE": {
+        "attachment": false,
+        "cost": {
+          "cache_read": 0.7,
+          "input": 1.4,
+          "output": 4.4
+        },
+        "description": "GLM 5.2 TEE は chutes によって提供される AI モデルです。",
+        "family": "glm",
+        "id": "zai-org/GLM-5.2-TEE",
+        "interleaved": {
+          "field": "reasoning_content"
+        },
+        "last_updated": "2026-06-13",
+        "limit": {
+          "context": 1048576,
+          "output": 65535
+        },
+        "modalities": {
+          "input": [
+            "text"
+          ],
+          "output": [
+            "text"
+          ]
+        },
+        "name": "GLM 5.2 TEE",
+        "open_weights": true,
+        "reasoning": true,
+        "reasoning_options": [],
+        "release_date": "2026-06-13",
         "structured_output": true,
         "temperature": true,
         "tool_call": true
@@ -68082,6 +67095,24 @@
         "name": "Anthropic: Claude Haiku 4.5",
         "open_weights": false,
         "reasoning": true,
+        "reasoning_options": [
+          {
+            "type": "toggle"
+          },
+          {
+            "type": "effort",
+            "values": [
+              "low",
+              "medium",
+              "high",
+              "max"
+            ]
+          },
+          {
+            "min": 1024,
+            "type": "budget_tokens"
+          }
+        ],
         "release_date": "2025-10-15",
         "temperature": true,
         "tool_call": true
@@ -68114,6 +67145,25 @@
         "name": "Anthropic: Claude Opus 4",
         "open_weights": false,
         "reasoning": true,
+        "reasoning_options": [
+          {
+            "type": "toggle"
+          },
+          {
+            "type": "effort",
+            "values": [
+              "low",
+              "medium",
+              "high",
+              "xhigh",
+              "max"
+            ]
+          },
+          {
+            "min": 1024,
+            "type": "budget_tokens"
+          }
+        ],
         "release_date": "2025-05-22",
         "temperature": true,
         "tool_call": true
@@ -68146,6 +67196,25 @@
         "name": "Anthropic: Claude Opus 4.1",
         "open_weights": false,
         "reasoning": true,
+        "reasoning_options": [
+          {
+            "type": "toggle"
+          },
+          {
+            "type": "effort",
+            "values": [
+              "low",
+              "medium",
+              "high",
+              "xhigh",
+              "max"
+            ]
+          },
+          {
+            "min": 1024,
+            "type": "budget_tokens"
+          }
+        ],
         "release_date": "2025-08-05",
         "temperature": true,
         "tool_call": true
@@ -68178,6 +67247,25 @@
         "name": "Anthropic: Claude Opus 4.5",
         "open_weights": false,
         "reasoning": true,
+        "reasoning_options": [
+          {
+            "type": "toggle"
+          },
+          {
+            "type": "effort",
+            "values": [
+              "low",
+              "medium",
+              "high",
+              "xhigh",
+              "max"
+            ]
+          },
+          {
+            "min": 1024,
+            "type": "budget_tokens"
+          }
+        ],
         "release_date": "2025-11-24",
         "temperature": true,
         "tool_call": true
@@ -68210,6 +67298,25 @@
         "name": "Anthropic: Claude Opus 4.6",
         "open_weights": false,
         "reasoning": true,
+        "reasoning_options": [
+          {
+            "type": "toggle"
+          },
+          {
+            "type": "effort",
+            "values": [
+              "low",
+              "medium",
+              "high",
+              "xhigh",
+              "max"
+            ]
+          },
+          {
+            "min": 1024,
+            "type": "budget_tokens"
+          }
+        ],
         "release_date": "2026-02-05",
         "temperature": true,
         "tool_call": true
@@ -68242,6 +67349,25 @@
         "name": "Anthropic: Claude Opus 4.6 (Fast)",
         "open_weights": false,
         "reasoning": true,
+        "reasoning_options": [
+          {
+            "type": "toggle"
+          },
+          {
+            "type": "effort",
+            "values": [
+              "low",
+              "medium",
+              "high",
+              "xhigh",
+              "max"
+            ]
+          },
+          {
+            "min": 1024,
+            "type": "budget_tokens"
+          }
+        ],
         "release_date": "2026-04-07",
         "temperature": true,
         "tool_call": true
@@ -68274,6 +67400,21 @@
         "name": "Anthropic: Claude Opus 4.7",
         "open_weights": false,
         "reasoning": true,
+        "reasoning_options": [
+          {
+            "type": "toggle"
+          },
+          {
+            "type": "effort",
+            "values": [
+              "low",
+              "medium",
+              "high",
+              "xhigh",
+              "max"
+            ]
+          }
+        ],
         "release_date": "2026-04-16",
         "temperature": false,
         "tool_call": true
@@ -68306,6 +67447,21 @@
         "name": "Anthropic: Claude Opus 4.7 (Fast)",
         "open_weights": false,
         "reasoning": true,
+        "reasoning_options": [
+          {
+            "type": "toggle"
+          },
+          {
+            "type": "effort",
+            "values": [
+              "low",
+              "medium",
+              "high",
+              "xhigh",
+              "max"
+            ]
+          }
+        ],
         "release_date": "2026-05-12",
         "temperature": false,
         "tool_call": true
@@ -68338,6 +67494,24 @@
         "name": "Anthropic: Claude Sonnet 4",
         "open_weights": false,
         "reasoning": true,
+        "reasoning_options": [
+          {
+            "type": "toggle"
+          },
+          {
+            "type": "effort",
+            "values": [
+              "low",
+              "medium",
+              "high",
+              "max"
+            ]
+          },
+          {
+            "min": 1024,
+            "type": "budget_tokens"
+          }
+        ],
         "release_date": "2025-05-22",
         "temperature": true,
         "tool_call": true
@@ -68370,6 +67544,24 @@
         "name": "Anthropic: Claude Sonnet 4.5",
         "open_weights": false,
         "reasoning": true,
+        "reasoning_options": [
+          {
+            "type": "toggle"
+          },
+          {
+            "type": "effort",
+            "values": [
+              "low",
+              "medium",
+              "high",
+              "max"
+            ]
+          },
+          {
+            "min": 1024,
+            "type": "budget_tokens"
+          }
+        ],
         "release_date": "2025-09-29",
         "temperature": true,
         "tool_call": true
@@ -68400,6 +67592,24 @@
         "name": "Anthropic: Claude Sonnet 4.6",
         "open_weights": false,
         "reasoning": true,
+        "reasoning_options": [
+          {
+            "type": "toggle"
+          },
+          {
+            "type": "effort",
+            "values": [
+              "low",
+              "medium",
+              "high",
+              "max"
+            ]
+          },
+          {
+            "min": 1024,
+            "type": "budget_tokens"
+          }
+        ],
         "release_date": "2026-02-17",
         "temperature": true,
         "tool_call": true
@@ -68741,6 +67951,11 @@
         "name": "Baidu: ERNIE 4.5 VL 424B A47B ",
         "open_weights": true,
         "reasoning": true,
+        "reasoning_options": [
+          {
+            "type": "toggle"
+          }
+        ],
         "release_date": "2025-06-30",
         "temperature": true,
         "tool_call": false
@@ -68800,6 +68015,20 @@
         "name": "ByteDance Seed: Seed 1.6",
         "open_weights": false,
         "reasoning": true,
+        "reasoning_options": [
+          {
+            "type": "toggle"
+          },
+          {
+            "type": "effort",
+            "values": [
+              "minimal",
+              "low",
+              "medium",
+              "high"
+            ]
+          }
+        ],
         "release_date": "2025-09",
         "temperature": true,
         "tool_call": true
@@ -68830,6 +68059,20 @@
         "name": "ByteDance Seed: Seed 1.6 Flash",
         "open_weights": true,
         "reasoning": true,
+        "reasoning_options": [
+          {
+            "type": "toggle"
+          },
+          {
+            "type": "effort",
+            "values": [
+              "minimal",
+              "low",
+              "medium",
+              "high"
+            ]
+          }
+        ],
         "release_date": "2025-12-23",
         "temperature": true,
         "tool_call": true
@@ -68860,6 +68103,20 @@
         "name": "ByteDance Seed: Seed-2.0-Lite",
         "open_weights": true,
         "reasoning": true,
+        "reasoning_options": [
+          {
+            "type": "toggle"
+          },
+          {
+            "type": "effort",
+            "values": [
+              "minimal",
+              "low",
+              "medium",
+              "high"
+            ]
+          }
+        ],
         "release_date": "2026-03-10",
         "temperature": true,
         "tool_call": true
@@ -68890,6 +68147,20 @@
         "name": "ByteDance Seed: Seed-2.0-Mini",
         "open_weights": true,
         "reasoning": true,
+        "reasoning_options": [
+          {
+            "type": "toggle"
+          },
+          {
+            "type": "effort",
+            "values": [
+              "minimal",
+              "low",
+              "medium",
+              "high"
+            ]
+          }
+        ],
         "release_date": "2026-02-27",
         "temperature": true,
         "tool_call": true
@@ -69146,6 +68417,11 @@
         "name": "DeepSeek: DeepSeek V3.1",
         "open_weights": true,
         "reasoning": true,
+        "reasoning_options": [
+          {
+            "type": "toggle"
+          }
+        ],
         "release_date": "2025-08-21",
         "temperature": true,
         "tool_call": true
@@ -69174,6 +68450,7 @@
         "name": "DeepSeek: R1",
         "open_weights": true,
         "reasoning": true,
+        "reasoning_options": [],
         "release_date": "2025-01-20",
         "temperature": true,
         "tool_call": true
@@ -69203,6 +68480,7 @@
         "name": "DeepSeek: R1 0528",
         "open_weights": true,
         "reasoning": true,
+        "reasoning_options": [],
         "release_date": "2025-05-28",
         "temperature": true,
         "tool_call": true
@@ -69232,6 +68510,11 @@
         "name": "DeepSeek: R1 Distill Llama 70B",
         "open_weights": true,
         "reasoning": true,
+        "reasoning_options": [
+          {
+            "type": "toggle"
+          }
+        ],
         "release_date": "2025-01-23",
         "temperature": true,
         "tool_call": false
@@ -69289,6 +68572,11 @@
         "name": "DeepSeek: DeepSeek V3.1 Terminus",
         "open_weights": true,
         "reasoning": true,
+        "reasoning_options": [
+          {
+            "type": "toggle"
+          }
+        ],
         "release_date": "2025-09-22",
         "temperature": true,
         "tool_call": true
@@ -69318,6 +68606,11 @@
         "name": "DeepSeek: DeepSeek V3.2",
         "open_weights": true,
         "reasoning": true,
+        "reasoning_options": [
+          {
+            "type": "toggle"
+          }
+        ],
         "release_date": "2025-12-01",
         "temperature": true,
         "tool_call": true
@@ -69346,6 +68639,11 @@
         "name": "DeepSeek: DeepSeek V3.2 Exp",
         "open_weights": true,
         "reasoning": true,
+        "reasoning_options": [
+          {
+            "type": "toggle"
+          }
+        ],
         "release_date": "2025-01-01",
         "temperature": true,
         "tool_call": true
@@ -69404,6 +68702,18 @@
         "name": "DeepSeek: DeepSeek V4 Flash",
         "open_weights": false,
         "reasoning": true,
+        "reasoning_options": [
+          {
+            "type": "toggle"
+          },
+          {
+            "type": "effort",
+            "values": [
+              "high",
+              "xhigh"
+            ]
+          }
+        ],
         "release_date": "2026-04-24",
         "temperature": true,
         "tool_call": true
@@ -69433,6 +68743,18 @@
         "name": "DeepSeek: DeepSeek V4 Pro",
         "open_weights": false,
         "reasoning": true,
+        "reasoning_options": [
+          {
+            "type": "toggle"
+          },
+          {
+            "type": "effort",
+            "values": [
+              "high",
+              "xhigh"
+            ]
+          }
+        ],
         "release_date": "2026-04-24",
         "temperature": true,
         "tool_call": true
@@ -70735,6 +70057,7 @@
         "name": "Kilo Auto Balanced",
         "open_weights": false,
         "reasoning": true,
+        "reasoning_options": [],
         "release_date": "2026-03-15",
         "temperature": true,
         "tool_call": true
@@ -70763,6 +70086,7 @@
         "name": "Kilo Auto Free",
         "open_weights": false,
         "reasoning": true,
+        "reasoning_options": [],
         "release_date": "2026-03-15",
         "temperature": true,
         "tool_call": true
@@ -70792,6 +70116,7 @@
         "name": "Kilo Auto Frontier",
         "open_weights": false,
         "reasoning": true,
+        "reasoning_options": [],
         "release_date": "2026-03-15",
         "temperature": true,
         "tool_call": true
@@ -70821,6 +70146,7 @@
         "name": "Kilo Auto Small",
         "open_weights": false,
         "reasoning": true,
+        "reasoning_options": [],
         "release_date": "2026-03-15",
         "temperature": true,
         "tool_call": true
@@ -71389,6 +70715,7 @@
         "name": "MiniMax: MiniMax M1",
         "open_weights": true,
         "reasoning": true,
+        "reasoning_options": [],
         "release_date": "2025-06-17",
         "temperature": true,
         "tool_call": true
@@ -71418,6 +70745,7 @@
         "name": "MiniMax: MiniMax M2",
         "open_weights": true,
         "reasoning": true,
+        "reasoning_options": [],
         "release_date": "2025-10-23",
         "temperature": true,
         "tool_call": true
@@ -71475,6 +70803,7 @@
         "name": "MiniMax: MiniMax M2.1",
         "open_weights": true,
         "reasoning": true,
+        "reasoning_options": [],
         "release_date": "2025-12-23",
         "temperature": true,
         "tool_call": true
@@ -71504,6 +70833,7 @@
         "name": "MiniMax: MiniMax M2.5",
         "open_weights": true,
         "reasoning": true,
+        "reasoning_options": [],
         "release_date": "2026-02-12",
         "temperature": true,
         "tool_call": true
@@ -71534,6 +70864,7 @@
         "name": "MiniMax: MiniMax M2.7",
         "open_weights": true,
         "reasoning": true,
+        "reasoning_options": [],
         "release_date": "2026-03-18",
         "temperature": true,
         "tool_call": true
@@ -72654,6 +71985,11 @@
         "name": "NVIDIA: Llama 3.3 Nemotron Super 49B V1.5",
         "open_weights": false,
         "reasoning": true,
+        "reasoning_options": [
+          {
+            "type": "toggle"
+          }
+        ],
         "release_date": "2025-03-16",
         "temperature": true,
         "tool_call": true
@@ -72683,6 +72019,11 @@
         "name": "NVIDIA: Nemotron 3 Nano 30B A3B",
         "open_weights": true,
         "reasoning": true,
+        "reasoning_options": [
+          {
+            "type": "toggle"
+          }
+        ],
         "release_date": "2024-12",
         "temperature": true,
         "tool_call": true
@@ -72715,6 +72056,14 @@
         "name": "NVIDIA: Nemotron 3 Nano Omni (free)",
         "open_weights": false,
         "reasoning": true,
+        "reasoning_options": [
+          {
+            "type": "toggle"
+          },
+          {
+            "type": "budget_tokens"
+          }
+        ],
         "release_date": "2026-04-28",
         "temperature": true,
         "tool_call": true
@@ -72745,6 +72094,11 @@
         "name": "NVIDIA: Nemotron 3 Super",
         "open_weights": true,
         "reasoning": true,
+        "reasoning_options": [
+          {
+            "type": "toggle"
+          }
+        ],
         "release_date": "2026-03-11",
         "temperature": true,
         "tool_call": true
@@ -72774,6 +72128,11 @@
         "name": "NVIDIA: Nemotron 3 Super (free)",
         "open_weights": true,
         "reasoning": true,
+        "reasoning_options": [
+          {
+            "type": "toggle"
+          }
+        ],
         "release_date": "2026-03-12",
         "temperature": true,
         "tool_call": true
@@ -73449,6 +72808,17 @@
         "name": "OpenAI: GPT-5",
         "open_weights": false,
         "reasoning": true,
+        "reasoning_options": [
+          {
+            "type": "effort",
+            "values": [
+              "minimal",
+              "low",
+              "medium",
+              "high"
+            ]
+          }
+        ],
         "release_date": "2025-08-07",
         "temperature": false,
         "tool_call": true
@@ -73510,6 +72880,16 @@
         "name": "OpenAI: GPT-5 Codex",
         "open_weights": false,
         "reasoning": true,
+        "reasoning_options": [
+          {
+            "type": "effort",
+            "values": [
+              "low",
+              "medium",
+              "high"
+            ]
+          }
+        ],
         "release_date": "2025-09-15",
         "temperature": false,
         "tool_call": true
@@ -73541,6 +72921,7 @@
         "name": "OpenAI: GPT-5 Image",
         "open_weights": false,
         "reasoning": true,
+        "reasoning_options": [],
         "release_date": "2025-10-14",
         "temperature": true,
         "tool_call": true
@@ -73572,6 +72953,7 @@
         "name": "OpenAI: GPT-5 Image Mini",
         "open_weights": false,
         "reasoning": true,
+        "reasoning_options": [],
         "release_date": "2025-10-16",
         "temperature": true,
         "tool_call": true
@@ -73603,6 +72985,17 @@
         "name": "OpenAI: GPT-5 Mini",
         "open_weights": false,
         "reasoning": true,
+        "reasoning_options": [
+          {
+            "type": "effort",
+            "values": [
+              "minimal",
+              "low",
+              "medium",
+              "high"
+            ]
+          }
+        ],
         "release_date": "2025-08-07",
         "temperature": false,
         "tool_call": true
@@ -73634,6 +73027,17 @@
         "name": "OpenAI: GPT-5 Nano",
         "open_weights": false,
         "reasoning": true,
+        "reasoning_options": [
+          {
+            "type": "effort",
+            "values": [
+              "minimal",
+              "low",
+              "medium",
+              "high"
+            ]
+          }
+        ],
         "release_date": "2025-08-07",
         "temperature": false,
         "tool_call": true
@@ -73664,6 +73068,14 @@
         "name": "OpenAI: GPT-5 Pro",
         "open_weights": false,
         "reasoning": true,
+        "reasoning_options": [
+          {
+            "type": "effort",
+            "values": [
+              "high"
+            ]
+          }
+        ],
         "release_date": "2025-10-06",
         "temperature": false,
         "tool_call": true
@@ -73695,6 +73107,17 @@
         "name": "OpenAI: GPT-5.1",
         "open_weights": false,
         "reasoning": true,
+        "reasoning_options": [
+          {
+            "type": "effort",
+            "values": [
+              "none",
+              "low",
+              "medium",
+              "high"
+            ]
+          }
+        ],
         "release_date": "2025-11-13",
         "temperature": false,
         "tool_call": true
@@ -73756,6 +73179,16 @@
         "name": "OpenAI: GPT-5.1-Codex",
         "open_weights": false,
         "reasoning": true,
+        "reasoning_options": [
+          {
+            "type": "effort",
+            "values": [
+              "low",
+              "medium",
+              "high"
+            ]
+          }
+        ],
         "release_date": "2025-11-13",
         "temperature": false,
         "tool_call": true
@@ -73786,6 +73219,17 @@
         "name": "OpenAI: GPT-5.1-Codex-Max",
         "open_weights": false,
         "reasoning": true,
+        "reasoning_options": [
+          {
+            "type": "effort",
+            "values": [
+              "low",
+              "medium",
+              "high",
+              "xhigh"
+            ]
+          }
+        ],
         "release_date": "2025-11-13",
         "temperature": false,
         "tool_call": true
@@ -73816,6 +73260,16 @@
         "name": "OpenAI: GPT-5.1-Codex-Mini",
         "open_weights": false,
         "reasoning": true,
+        "reasoning_options": [
+          {
+            "type": "effort",
+            "values": [
+              "low",
+              "medium",
+              "high"
+            ]
+          }
+        ],
         "release_date": "2025-11-13",
         "temperature": false,
         "tool_call": true
@@ -73847,6 +73301,18 @@
         "name": "OpenAI: GPT-5.2",
         "open_weights": false,
         "reasoning": true,
+        "reasoning_options": [
+          {
+            "type": "effort",
+            "values": [
+              "none",
+              "low",
+              "medium",
+              "high",
+              "xhigh"
+            ]
+          }
+        ],
         "release_date": "2025-12-11",
         "temperature": false,
         "tool_call": true
@@ -73908,6 +73374,17 @@
         "name": "OpenAI: GPT-5.2-Codex",
         "open_weights": false,
         "reasoning": true,
+        "reasoning_options": [
+          {
+            "type": "effort",
+            "values": [
+              "low",
+              "medium",
+              "high",
+              "xhigh"
+            ]
+          }
+        ],
         "release_date": "2026-01-14",
         "temperature": false,
         "tool_call": true
@@ -73938,6 +73415,16 @@
         "name": "OpenAI: GPT-5.2 Pro",
         "open_weights": false,
         "reasoning": true,
+        "reasoning_options": [
+          {
+            "type": "effort",
+            "values": [
+              "medium",
+              "high",
+              "xhigh"
+            ]
+          }
+        ],
         "release_date": "2025-12-11",
         "temperature": false,
         "tool_call": true
@@ -73996,6 +73483,17 @@
         "name": "OpenAI: GPT-5.3-Codex",
         "open_weights": false,
         "reasoning": true,
+        "reasoning_options": [
+          {
+            "type": "effort",
+            "values": [
+              "low",
+              "medium",
+              "high",
+              "xhigh"
+            ]
+          }
+        ],
         "release_date": "2026-02-25",
         "tool_call": true
       },
@@ -74025,6 +73523,18 @@
         "name": "OpenAI: GPT-5.4",
         "open_weights": false,
         "reasoning": true,
+        "reasoning_options": [
+          {
+            "type": "effort",
+            "values": [
+              "none",
+              "low",
+              "medium",
+              "high",
+              "xhigh"
+            ]
+          }
+        ],
         "release_date": "2026-03-06",
         "tool_call": true
       },
@@ -74056,6 +73566,7 @@
         "name": "OpenAI: GPT-5.4 Image 2",
         "open_weights": false,
         "reasoning": true,
+        "reasoning_options": [],
         "release_date": "2026-04-21",
         "temperature": false,
         "tool_call": false
@@ -74087,6 +73598,18 @@
         "name": "OpenAI: GPT-5.4 Mini",
         "open_weights": false,
         "reasoning": true,
+        "reasoning_options": [
+          {
+            "type": "effort",
+            "values": [
+              "none",
+              "low",
+              "medium",
+              "high",
+              "xhigh"
+            ]
+          }
+        ],
         "release_date": "2026-03-17",
         "temperature": false,
         "tool_call": true
@@ -74118,6 +73641,18 @@
         "name": "OpenAI: GPT-5.4 Nano",
         "open_weights": false,
         "reasoning": true,
+        "reasoning_options": [
+          {
+            "type": "effort",
+            "values": [
+              "none",
+              "low",
+              "medium",
+              "high",
+              "xhigh"
+            ]
+          }
+        ],
         "release_date": "2026-03-17",
         "temperature": false,
         "tool_call": true
@@ -74148,6 +73683,16 @@
         "name": "OpenAI: GPT-5.4 Pro",
         "open_weights": false,
         "reasoning": true,
+        "reasoning_options": [
+          {
+            "type": "effort",
+            "values": [
+              "medium",
+              "high",
+              "xhigh"
+            ]
+          }
+        ],
         "release_date": "2026-03-06",
         "tool_call": true
       },
@@ -74178,6 +73723,18 @@
         "name": "OpenAI: GPT-5.5",
         "open_weights": false,
         "reasoning": true,
+        "reasoning_options": [
+          {
+            "type": "effort",
+            "values": [
+              "none",
+              "low",
+              "medium",
+              "high",
+              "xhigh"
+            ]
+          }
+        ],
         "release_date": "2026-04-24",
         "temperature": false,
         "tool_call": true
@@ -74208,6 +73765,16 @@
         "name": "OpenAI: GPT-5.5 Pro",
         "open_weights": false,
         "reasoning": true,
+        "reasoning_options": [
+          {
+            "type": "effort",
+            "values": [
+              "medium",
+              "high",
+              "xhigh"
+            ]
+          }
+        ],
         "release_date": "2026-04-24",
         "temperature": false,
         "tool_call": true
@@ -74299,6 +73866,7 @@
         "name": "OpenAI: GPT Chat Latest",
         "open_weights": false,
         "reasoning": true,
+        "reasoning_options": [],
         "release_date": "2026-05-05",
         "structured_output": true,
         "temperature": false,
@@ -74328,6 +73896,16 @@
         "name": "OpenAI: gpt-oss-120b",
         "open_weights": true,
         "reasoning": true,
+        "reasoning_options": [
+          {
+            "type": "effort",
+            "values": [
+              "low",
+              "medium",
+              "high"
+            ]
+          }
+        ],
         "release_date": "2025-08-05",
         "temperature": true,
         "tool_call": true
@@ -74356,6 +73934,16 @@
         "name": "OpenAI: gpt-oss-20b",
         "open_weights": true,
         "reasoning": true,
+        "reasoning_options": [
+          {
+            "type": "effort",
+            "values": [
+              "low",
+              "medium",
+              "high"
+            ]
+          }
+        ],
         "release_date": "2025-08-05",
         "temperature": true,
         "tool_call": true
@@ -74385,6 +73973,16 @@
         "name": "OpenAI: gpt-oss-safeguard-20b",
         "open_weights": false,
         "reasoning": true,
+        "reasoning_options": [
+          {
+            "type": "effort",
+            "values": [
+              "low",
+              "medium",
+              "high"
+            ]
+          }
+        ],
         "release_date": "2025-10-29",
         "temperature": true,
         "tool_call": true
@@ -74446,6 +74044,16 @@
         "name": "OpenAI: o1-pro",
         "open_weights": false,
         "reasoning": true,
+        "reasoning_options": [
+          {
+            "type": "effort",
+            "values": [
+              "low",
+              "medium",
+              "high"
+            ]
+          }
+        ],
         "release_date": "2025-03-19",
         "temperature": false,
         "tool_call": false
@@ -74477,6 +74085,16 @@
         "name": "OpenAI: o3",
         "open_weights": false,
         "reasoning": true,
+        "reasoning_options": [
+          {
+            "type": "effort",
+            "values": [
+              "low",
+              "medium",
+              "high"
+            ]
+          }
+        ],
         "release_date": "2025-04-16",
         "temperature": false,
         "tool_call": true
@@ -74508,6 +74126,14 @@
         "name": "OpenAI: o3 Deep Research",
         "open_weights": false,
         "reasoning": true,
+        "reasoning_options": [
+          {
+            "type": "effort",
+            "values": [
+              "medium"
+            ]
+          }
+        ],
         "release_date": "2024-06-26",
         "temperature": true,
         "tool_call": true
@@ -74598,6 +74224,16 @@
         "name": "OpenAI: o3 Pro",
         "open_weights": false,
         "reasoning": true,
+        "reasoning_options": [
+          {
+            "type": "effort",
+            "values": [
+              "low",
+              "medium",
+              "high"
+            ]
+          }
+        ],
         "release_date": "2025-04-16",
         "temperature": false,
         "tool_call": true
@@ -75317,6 +74953,13 @@
         "name": "Qwen: Qwen Plus 0728 (thinking)",
         "open_weights": true,
         "reasoning": true,
+        "reasoning_options": [
+          {
+            "max": 81920,
+            "min": 1,
+            "type": "budget_tokens"
+          }
+        ],
         "release_date": "2025-09-09",
         "temperature": true,
         "tool_call": true
@@ -75376,6 +75019,11 @@
         "name": "Qwen: Qwen3 14B",
         "open_weights": true,
         "reasoning": true,
+        "reasoning_options": [
+          {
+            "type": "toggle"
+          }
+        ],
         "release_date": "2025-04",
         "temperature": true,
         "tool_call": true
@@ -75405,6 +75053,16 @@
         "name": "Qwen: Qwen3 235B A22B",
         "open_weights": true,
         "reasoning": true,
+        "reasoning_options": [
+          {
+            "type": "toggle"
+          },
+          {
+            "max": 38912,
+            "min": 1,
+            "type": "budget_tokens"
+          }
+        ],
         "release_date": "2024-12-01",
         "temperature": true,
         "tool_call": true
@@ -75432,7 +75090,7 @@
         },
         "name": "Qwen: Qwen3 235B A22B Instruct 2507",
         "open_weights": true,
-        "reasoning": true,
+        "reasoning": false,
         "release_date": "2025-04",
         "temperature": true,
         "tool_call": true
@@ -75461,6 +75119,7 @@
         "name": "Qwen: Qwen3 235B A22B Thinking 2507",
         "open_weights": true,
         "reasoning": true,
+        "reasoning_options": [],
         "release_date": "2025-07-25",
         "temperature": true,
         "tool_call": true
@@ -75490,6 +75149,11 @@
         "name": "Qwen: Qwen3 30B A3B",
         "open_weights": true,
         "reasoning": true,
+        "reasoning_options": [
+          {
+            "type": "toggle"
+          }
+        ],
         "release_date": "2025-04",
         "temperature": true,
         "tool_call": true
@@ -75547,6 +75211,7 @@
         "name": "Qwen: Qwen3 30B A3B Thinking 2507",
         "open_weights": true,
         "reasoning": true,
+        "reasoning_options": [],
         "release_date": "2025-07-29",
         "temperature": true,
         "tool_call": true
@@ -75576,6 +75241,11 @@
         "name": "Qwen: Qwen3 32B",
         "open_weights": true,
         "reasoning": true,
+        "reasoning_options": [
+          {
+            "type": "toggle"
+          }
+        ],
         "release_date": "2024-12-01",
         "temperature": true,
         "tool_call": true
@@ -75605,6 +75275,11 @@
         "name": "Qwen: Qwen3 8B",
         "open_weights": true,
         "reasoning": true,
+        "reasoning_options": [
+          {
+            "type": "toggle"
+          }
+        ],
         "release_date": "2025-04",
         "temperature": true,
         "tool_call": true
@@ -75806,6 +75481,13 @@
         "name": "Qwen: Qwen3 Max Thinking",
         "open_weights": false,
         "reasoning": true,
+        "reasoning_options": [
+          {
+            "max": 81920,
+            "min": 1,
+            "type": "budget_tokens"
+          }
+        ],
         "release_date": "2026-01-23",
         "temperature": true,
         "tool_call": true
@@ -75862,6 +75544,7 @@
         "name": "Qwen: Qwen3 Next 80B A3B Thinking",
         "open_weights": true,
         "reasoning": true,
+        "reasoning_options": [],
         "release_date": "2025-09-11",
         "temperature": true,
         "tool_call": true
@@ -75921,6 +75604,7 @@
         "name": "Qwen: Qwen3 VL 235B A22B Thinking",
         "open_weights": true,
         "reasoning": true,
+        "reasoning_options": [],
         "release_date": "2025-09-24",
         "temperature": true,
         "tool_call": true
@@ -75979,6 +75663,7 @@
         "name": "Qwen: Qwen3 VL 30B A3B Thinking",
         "open_weights": true,
         "reasoning": true,
+        "reasoning_options": [],
         "release_date": "2025-10-11",
         "temperature": true,
         "tool_call": true
@@ -76066,6 +75751,7 @@
         "name": "Qwen: Qwen3 VL 8B Thinking",
         "open_weights": false,
         "reasoning": true,
+        "reasoning_options": [],
         "release_date": "2025-10-15",
         "temperature": true,
         "tool_call": true
@@ -76096,6 +75782,11 @@
         "name": "Qwen: Qwen3.5-122B-A10B",
         "open_weights": true,
         "reasoning": true,
+        "reasoning_options": [
+          {
+            "type": "toggle"
+          }
+        ],
         "release_date": "2026-02-26",
         "temperature": true,
         "tool_call": true
@@ -76126,6 +75817,11 @@
         "name": "Qwen: Qwen3.5-27B",
         "open_weights": true,
         "reasoning": true,
+        "reasoning_options": [
+          {
+            "type": "toggle"
+          }
+        ],
         "release_date": "2026-02-26",
         "temperature": true,
         "tool_call": true
@@ -76156,6 +75852,11 @@
         "name": "Qwen: Qwen3.5-35B-A3B",
         "open_weights": true,
         "reasoning": true,
+        "reasoning_options": [
+          {
+            "type": "toggle"
+          }
+        ],
         "release_date": "2026-02-26",
         "temperature": true,
         "tool_call": true
@@ -76186,6 +75887,11 @@
         "name": "Qwen: Qwen3.5 397B A17B",
         "open_weights": false,
         "reasoning": true,
+        "reasoning_options": [
+          {
+            "type": "toggle"
+          }
+        ],
         "release_date": "2026-02-15",
         "temperature": true,
         "tool_call": true
@@ -76216,6 +75922,11 @@
         "name": "Qwen: Qwen3.5-9B",
         "open_weights": true,
         "reasoning": true,
+        "reasoning_options": [
+          {
+            "type": "toggle"
+          }
+        ],
         "release_date": "2026-03-10",
         "temperature": true,
         "tool_call": true
@@ -76246,6 +75957,16 @@
         "name": "Qwen: Qwen3.5-Flash",
         "open_weights": true,
         "reasoning": true,
+        "reasoning_options": [
+          {
+            "type": "toggle"
+          },
+          {
+            "max": 81920,
+            "min": 1,
+            "type": "budget_tokens"
+          }
+        ],
         "release_date": "2026-02-26",
         "temperature": true,
         "tool_call": true
@@ -76276,6 +75997,16 @@
         "name": "Qwen: Qwen3.5 Plus 2026-02-15",
         "open_weights": false,
         "reasoning": true,
+        "reasoning_options": [
+          {
+            "type": "toggle"
+          },
+          {
+            "max": 81920,
+            "min": 1,
+            "type": "budget_tokens"
+          }
+        ],
         "release_date": "2026-02-15",
         "temperature": true,
         "tool_call": true
@@ -76306,6 +76037,16 @@
         "name": "Qwen: Qwen3.5 Plus 2026-04-20",
         "open_weights": false,
         "reasoning": true,
+        "reasoning_options": [
+          {
+            "type": "toggle"
+          },
+          {
+            "max": 81920,
+            "min": 1,
+            "type": "budget_tokens"
+          }
+        ],
         "release_date": "2026-04-27",
         "temperature": true,
         "tool_call": true
@@ -76336,6 +76077,11 @@
         "name": "Qwen: Qwen3.6 27B",
         "open_weights": false,
         "reasoning": true,
+        "reasoning_options": [
+          {
+            "type": "toggle"
+          }
+        ],
         "release_date": "2026-04-27",
         "temperature": true,
         "tool_call": true
@@ -76367,6 +76113,11 @@
         "name": "Qwen: Qwen3.6 35B A3B",
         "open_weights": false,
         "reasoning": true,
+        "reasoning_options": [
+          {
+            "type": "toggle"
+          }
+        ],
         "release_date": "2026-04-27",
         "temperature": true,
         "tool_call": false
@@ -76398,6 +76149,16 @@
         "name": "Qwen: Qwen3.6 Flash",
         "open_weights": false,
         "reasoning": true,
+        "reasoning_options": [
+          {
+            "type": "toggle"
+          },
+          {
+            "max": 81920,
+            "min": 1,
+            "type": "budget_tokens"
+          }
+        ],
         "release_date": "2026-04-27",
         "temperature": true,
         "tool_call": true
@@ -76427,6 +76188,16 @@
         "name": "Qwen: Qwen3.6 Max Preview",
         "open_weights": false,
         "reasoning": true,
+        "reasoning_options": [
+          {
+            "type": "toggle"
+          },
+          {
+            "max": 131072,
+            "min": 1,
+            "type": "budget_tokens"
+          }
+        ],
         "release_date": "2026-04-27",
         "temperature": true,
         "tool_call": true
@@ -76458,6 +76229,16 @@
         "name": "Qwen: Qwen3.6 Plus",
         "open_weights": false,
         "reasoning": true,
+        "reasoning_options": [
+          {
+            "type": "toggle"
+          },
+          {
+            "max": 81920,
+            "min": 1,
+            "type": "budget_tokens"
+          }
+        ],
         "release_date": "2025-08-26",
         "temperature": true,
         "tool_call": true
@@ -76488,6 +76269,16 @@
         "name": "Qwen: Qwen3.7 Max",
         "open_weights": false,
         "reasoning": true,
+        "reasoning_options": [
+          {
+            "type": "toggle"
+          },
+          {
+            "max": 262144,
+            "min": 1,
+            "type": "budget_tokens"
+          }
+        ],
         "release_date": "2025-08-26",
         "temperature": true,
         "tool_call": true
@@ -77246,6 +77037,11 @@
         "name": "xAI: Grok 4.20",
         "open_weights": false,
         "reasoning": true,
+        "reasoning_options": [
+          {
+            "type": "toggle"
+          }
+        ],
         "release_date": "2026-03-31",
         "temperature": true,
         "tool_call": true
@@ -77277,6 +77073,20 @@
         "name": "xAI: Grok 4.20 Multi-Agent",
         "open_weights": false,
         "reasoning": true,
+        "reasoning_options": [
+          {
+            "type": "toggle"
+          },
+          {
+            "type": "effort",
+            "values": [
+              "low",
+              "medium",
+              "high",
+              "xhigh"
+            ]
+          }
+        ],
         "release_date": "2026-03-31",
         "temperature": true,
         "tool_call": false
@@ -77308,6 +77118,17 @@
         "name": "xAI: Grok 4.3",
         "open_weights": false,
         "reasoning": true,
+        "reasoning_options": [
+          {
+            "type": "effort",
+            "values": [
+              "none",
+              "low",
+              "medium",
+              "high"
+            ]
+          }
+        ],
         "release_date": "2026-05-01",
         "temperature": true,
         "tool_call": true
@@ -77338,6 +77159,7 @@
         "name": "xAI: Grok Build 0.1",
         "open_weights": false,
         "reasoning": true,
+        "reasoning_options": [],
         "release_date": "2026-05-20",
         "temperature": true,
         "tool_call": true
@@ -77616,6 +77438,18 @@
         "name": "Z.ai: GLM 4.5",
         "open_weights": true,
         "reasoning": true,
+        "reasoning_options": [
+          {
+            "type": "toggle"
+          },
+          {
+            "type": "effort",
+            "values": [
+              "high",
+              "xhigh"
+            ]
+          }
+        ],
         "release_date": "2025-07-28",
         "temperature": true,
         "tool_call": true
@@ -77645,6 +77479,18 @@
         "name": "Z.ai: GLM 4.5 Air",
         "open_weights": true,
         "reasoning": true,
+        "reasoning_options": [
+          {
+            "type": "toggle"
+          },
+          {
+            "type": "effort",
+            "values": [
+              "high",
+              "xhigh"
+            ]
+          }
+        ],
         "release_date": "2025-07-28",
         "temperature": true,
         "tool_call": true
@@ -77675,6 +77521,18 @@
         "name": "Z.ai: GLM 4.5V",
         "open_weights": true,
         "reasoning": true,
+        "reasoning_options": [
+          {
+            "type": "toggle"
+          },
+          {
+            "type": "effort",
+            "values": [
+              "high",
+              "xhigh"
+            ]
+          }
+        ],
         "release_date": "2025-08-11",
         "temperature": true,
         "tool_call": true
@@ -77704,6 +77562,18 @@
         "name": "Z.ai: GLM 4.6",
         "open_weights": true,
         "reasoning": true,
+        "reasoning_options": [
+          {
+            "type": "toggle"
+          },
+          {
+            "type": "effort",
+            "values": [
+              "high",
+              "xhigh"
+            ]
+          }
+        ],
         "release_date": "2025-09-30",
         "temperature": true,
         "tool_call": true
@@ -77734,6 +77604,18 @@
         "name": "Z.ai: GLM 4.6V",
         "open_weights": true,
         "reasoning": true,
+        "reasoning_options": [
+          {
+            "type": "toggle"
+          },
+          {
+            "type": "effort",
+            "values": [
+              "high",
+              "xhigh"
+            ]
+          }
+        ],
         "release_date": "2025-09-30",
         "temperature": true,
         "tool_call": true
@@ -77763,6 +77645,18 @@
         "name": "Z.ai: GLM 4.7",
         "open_weights": true,
         "reasoning": true,
+        "reasoning_options": [
+          {
+            "type": "toggle"
+          },
+          {
+            "type": "effort",
+            "values": [
+              "high",
+              "xhigh"
+            ]
+          }
+        ],
         "release_date": "2025-12-22",
         "temperature": true,
         "tool_call": true
@@ -77792,6 +77686,18 @@
         "name": "Z.ai: GLM 4.7 Flash",
         "open_weights": true,
         "reasoning": true,
+        "reasoning_options": [
+          {
+            "type": "toggle"
+          },
+          {
+            "type": "effort",
+            "values": [
+              "high",
+              "xhigh"
+            ]
+          }
+        ],
         "release_date": "2026-01-19",
         "temperature": true,
         "tool_call": true
@@ -77820,6 +77726,18 @@
         "name": "Z.ai: GLM 5",
         "open_weights": true,
         "reasoning": true,
+        "reasoning_options": [
+          {
+            "type": "toggle"
+          },
+          {
+            "type": "effort",
+            "values": [
+              "high",
+              "xhigh"
+            ]
+          }
+        ],
         "release_date": "2026-02-12",
         "temperature": true,
         "tool_call": true
@@ -77849,6 +77767,18 @@
         "name": "Z.ai: GLM 5 Turbo",
         "open_weights": true,
         "reasoning": true,
+        "reasoning_options": [
+          {
+            "type": "toggle"
+          },
+          {
+            "type": "effort",
+            "values": [
+              "high",
+              "xhigh"
+            ]
+          }
+        ],
         "release_date": "2026-03-15",
         "temperature": true,
         "tool_call": true
@@ -77877,6 +77807,18 @@
         "name": "Z.ai: GLM 5.1",
         "open_weights": true,
         "reasoning": true,
+        "reasoning_options": [
+          {
+            "type": "toggle"
+          },
+          {
+            "type": "effort",
+            "values": [
+              "high",
+              "xhigh"
+            ]
+          }
+        ],
         "release_date": "2026-03-27",
         "temperature": true,
         "tool_call": true
@@ -77908,6 +77850,18 @@
         "name": "Z.ai: GLM 5V Turbo",
         "open_weights": true,
         "reasoning": true,
+        "reasoning_options": [
+          {
+            "type": "toggle"
+          },
+          {
+            "type": "effort",
+            "values": [
+              "high",
+              "xhigh"
+            ]
+          }
+        ],
         "release_date": "2026-04-01",
         "temperature": true,
         "tool_call": true
@@ -100079,6 +100033,7 @@
         "name": "DeepSeek R1",
         "open_weights": false,
         "reasoning": true,
+        "reasoning_options": [],
         "release_date": "2025-01-20",
         "structured_output": false,
         "tool_call": false
@@ -100225,6 +100180,15 @@
         "name": "DeepSeek Latest",
         "open_weights": false,
         "reasoning": true,
+        "reasoning_options": [
+          {
+            "type": "effort",
+            "values": [
+              "high",
+              "xhigh"
+            ]
+          }
+        ],
         "release_date": "2026-05-03",
         "structured_output": true,
         "tool_call": true
@@ -100348,6 +100312,7 @@
         "name": "DeepSeek V3.2 Thinking",
         "open_weights": false,
         "reasoning": true,
+        "reasoning_options": [],
         "release_date": "2025-12-01",
         "structured_output": true,
         "tool_call": true
@@ -100378,6 +100343,18 @@
         "name": "DeepSeek V4 Flash",
         "open_weights": false,
         "reasoning": true,
+        "reasoning_options": [
+          {
+            "type": "toggle"
+          },
+          {
+            "type": "effort",
+            "values": [
+              "high",
+              "xhigh"
+            ]
+          }
+        ],
         "release_date": "2026-04-24",
         "structured_output": true,
         "tool_call": true
@@ -100408,6 +100385,15 @@
         "name": "DeepSeek V4 Flash (Thinking)",
         "open_weights": false,
         "reasoning": true,
+        "reasoning_options": [
+          {
+            "type": "effort",
+            "values": [
+              "high",
+              "xhigh"
+            ]
+          }
+        ],
         "release_date": "2026-04-24",
         "structured_output": true,
         "tool_call": true
@@ -100438,6 +100424,18 @@
         "name": "DeepSeek V4 Pro",
         "open_weights": false,
         "reasoning": true,
+        "reasoning_options": [
+          {
+            "type": "toggle"
+          },
+          {
+            "type": "effort",
+            "values": [
+              "high",
+              "xhigh"
+            ]
+          }
+        ],
         "release_date": "2026-04-24",
         "structured_output": true,
         "tool_call": true
@@ -100468,6 +100466,18 @@
         "name": "DeepSeek V4 Pro Cheaper",
         "open_weights": false,
         "reasoning": true,
+        "reasoning_options": [
+          {
+            "type": "toggle"
+          },
+          {
+            "type": "effort",
+            "values": [
+              "high",
+              "xhigh"
+            ]
+          }
+        ],
         "release_date": "2026-04-25",
         "structured_output": true,
         "tool_call": true
@@ -100498,6 +100508,15 @@
         "name": "DeepSeek V4 Pro Cheaper (Thinking)",
         "open_weights": false,
         "reasoning": true,
+        "reasoning_options": [
+          {
+            "type": "effort",
+            "values": [
+              "high",
+              "xhigh"
+            ]
+          }
+        ],
         "release_date": "2026-04-25",
         "structured_output": true,
         "tool_call": true
@@ -100528,6 +100547,15 @@
         "name": "DeepSeek V4 Pro (Thinking)",
         "open_weights": false,
         "reasoning": true,
+        "reasoning_options": [
+          {
+            "type": "effort",
+            "values": [
+              "high",
+              "xhigh"
+            ]
+          }
+        ],
         "release_date": "2026-04-24",
         "structured_output": true,
         "tool_call": true
@@ -171149,7 +171177,7 @@
           "input": 0.8,
           "output": 4
         },
-        "description": "Claude Haiku 3.5 は vercel によって提供される AI モデルです。",
+        "description": "Claude 3.5 Haiku は vercel によって提供される AI モデルです。",
         "family": "claude-haiku",
         "id": "anthropic/claude-3.5-haiku",
         "knowledge": "2024-07-31",
@@ -171168,11 +171196,10 @@
             "text"
           ]
         },
-        "name": "Claude Haiku 3.5",
+        "name": "Claude 3.5 Haiku",
         "open_weights": false,
         "reasoning": false,
         "release_date": "2024-10-22",
-        "status": "deprecated",
         "temperature": true,
         "tool_call": true
       },
@@ -172372,9 +172399,8 @@
       "deepseek/deepseek-v3.1": {
         "attachment": false,
         "cost": {
-          "cache_read": 0.28,
-          "input": 0.56,
-          "output": 1.68
+          "input": 0.6,
+          "output": 1.7
         },
         "description": "DeepSeek-V3.1 は vercel によって提供される AI モデルです。",
         "family": "deepseek",
@@ -172382,8 +172408,8 @@
         "knowledge": "2024-07",
         "last_updated": "2025-08-21",
         "limit": {
-          "context": 163840,
-          "output": 8192
+          "context": 128000,
+          "output": 128000
         },
         "modalities": {
           "input": [
@@ -174927,9 +174953,9 @@
       "moonshotai/kimi-k2-thinking": {
         "attachment": false,
         "cost": {
-          "cache_read": 0.15,
-          "input": 0.6,
-          "output": 2.5
+          "cache_read": 0.141,
+          "input": 0.47,
+          "output": 2
         },
         "description": "Kimi K2 Thinking は vercel によって提供される AI モデルです。",
         "family": "kimi-thinking",
@@ -174938,8 +174964,8 @@
         "knowledge": "2024-08",
         "last_updated": "2025-11-06",
         "limit": {
-          "context": 262114,
-          "output": 262114
+          "context": 216144,
+          "output": 216144
         },
         "modalities": {
           "input": [

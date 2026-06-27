@@ -1203,7 +1203,7 @@
         "input": 0.8,
         "output": 4
       },
-      "description": "Claude Haiku 3.5 is an AI model provided by vercel.",
+      "description": "Claude 3.5 Haiku is an AI model provided by vercel.",
       "family": "claude-haiku",
       "id": "anthropic/claude-3.5-haiku",
       "knowledge": "2024-07-31",
@@ -1222,11 +1222,10 @@
           "text"
         ]
       },
-      "name": "Claude Haiku 3.5",
+      "name": "Claude 3.5 Haiku",
       "open_weights": false,
       "reasoning": false,
       "release_date": "2024-10-22",
-      "status": "deprecated",
       "temperature": true,
       "tool_call": true
     },
@@ -2426,9 +2425,8 @@
     "deepseek/deepseek-v3.1": {
       "attachment": false,
       "cost": {
-        "cache_read": 0.28,
-        "input": 0.56,
-        "output": 1.68
+        "input": 0.6,
+        "output": 1.7
       },
       "description": "DeepSeek-V3.1 is an AI model provided by vercel.",
       "family": "deepseek",
@@ -2436,8 +2434,8 @@
       "knowledge": "2024-07",
       "last_updated": "2025-08-21",
       "limit": {
-        "context": 163840,
-        "output": 8192
+        "context": 128000,
+        "output": 128000
       },
       "modalities": {
         "input": [
@@ -4981,9 +4979,9 @@
     "moonshotai/kimi-k2-thinking": {
       "attachment": false,
       "cost": {
-        "cache_read": 0.15,
-        "input": 0.6,
-        "output": 2.5
+        "cache_read": 0.141,
+        "input": 0.47,
+        "output": 2
       },
       "description": "Kimi K2 Thinking is an AI model provided by vercel.",
       "family": "kimi-thinking",
@@ -4992,8 +4990,8 @@
       "knowledge": "2024-08",
       "last_updated": "2025-11-06",
       "limit": {
-        "context": 262114,
-        "output": 262114
+        "context": 216144,
+        "output": 216144
       },
       "modalities": {
         "input": [

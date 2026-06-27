@@ -107,7 +107,7 @@
       "iconURL": "https://models.dev/logos/anthropic.svg",
       "id": "anthropic",
       "lobeIcon": "Claude.Color",
-      "modelCount": 25,
+      "modelCount": 23,
       "name": "Anthropic"
     },
     {
@@ -187,7 +187,7 @@
       "iconURL": "https://models.dev/logos/chutes.svg",
       "id": "chutes",
       "lobeIcon": "Chutes",
-      "modelCount": 39,
+      "modelCount": 13,
       "name": "Chutes"
     },
     {
