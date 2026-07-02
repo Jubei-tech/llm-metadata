@@ -10371,6 +10371,17 @@
     },
     {
       "flags": {
+        "attachment": true,
+        "reasoning": true,
+        "tool_call": true
+      },
+      "id": "gemma-4-31b",
+      "name": "Gemma 4 31B IT",
+      "providerId": "cerebras",
+      "updated": "2026-07-01"
+    },
+    {
+      "flags": {
         "attachment": false,
         "reasoning": true,
         "tool_call": true
@@ -41187,7 +41198,7 @@
         "tool_call": true
       },
       "id": "minimax-m3",
-      "name": "MiniMax-M3 (3x usage)",
+      "name": "MiniMax-M3",
       "providerId": "opencode-go",
       "updated": "2026-05-31"
     },
@@ -41476,6 +41487,17 @@
       "name": "Claude 3 Haiku",
       "providerId": "openrouter",
       "updated": "2024-03-13"
+    },
+    {
+      "flags": {
+        "attachment": true,
+        "reasoning": true,
+        "tool_call": true
+      },
+      "id": "anthropic/claude-fable-5",
+      "name": "Claude Fable 5",
+      "providerId": "openrouter",
+      "updated": "2026-06-09"
     },
     {
       "flags": {
@@ -52754,17 +52776,6 @@
     },
     {
       "flags": {
-        "attachment": false,
-        "reasoning": true,
-        "tool_call": true
-      },
-      "id": "arcee-trinity-large-thinking",
-      "name": "Trinity Large Thinking",
-      "providerId": "venice",
-      "updated": "2026-06-11"
-    },
-    {
-      "flags": {
         "attachment": true,
         "reasoning": true,
         "tool_call": true
@@ -52861,6 +52872,17 @@
       "name": "Claude Sonnet 4.6",
       "providerId": "venice",
       "updated": "2026-06-11"
+    },
+    {
+      "flags": {
+        "attachment": true,
+        "reasoning": true,
+        "tool_call": true
+      },
+      "id": "claude-sonnet-5",
+      "name": "Claude Sonnet 5",
+      "providerId": "venice",
+      "updated": "2026-07-01"
     },
     {
       "flags": {
@@ -54005,6 +54027,17 @@
       "name": "Claude 3.5 Haiku",
       "providerId": "vercel",
       "updated": "2024-10-22"
+    },
+    {
+      "flags": {
+        "attachment": true,
+        "reasoning": true,
+        "tool_call": true
+      },
+      "id": "anthropic/claude-fable-5",
+      "name": "Claude Fable 5",
+      "providerId": "vercel",
+      "updated": "2026-06-09"
     },
     {
       "flags": {
@@ -59642,7 +59675,7 @@
       "iconURL": "https://models.dev/logos/cerebras.svg",
       "id": "cerebras",
       "lobeIcon": "Cerebras",
-      "modelCount": 2,
+      "modelCount": 3,
       "name": "Cerebras"
     },
     {
@@ -60263,7 +60296,7 @@
       "iconURL": "https://models.dev/logos/openrouter.svg",
       "id": "openrouter",
       "lobeIcon": "OpenRouter.Color",
-      "modelCount": 337,
+      "modelCount": 338,
       "name": "OpenRouter"
     },
     {
@@ -60553,7 +60586,7 @@
       "iconURL": "https://models.dev/logos/vercel.svg",
       "id": "vercel",
       "lobeIcon": "Vercel.Color",
-      "modelCount": 297,
+      "modelCount": 298,
       "name": "Vercel AI Gateway"
     },
     {
