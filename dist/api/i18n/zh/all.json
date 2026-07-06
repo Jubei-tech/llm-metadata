@@ -19040,6 +19040,47 @@
         "temperature": true,
         "tool_call": true
       },
+      "jp.anthropic.claude-haiku-4-5-20251001-v1:0": {
+        "attachment": true,
+        "cost": {
+          "cache_read": 0.1,
+          "cache_write": 1.25,
+          "input": 1,
+          "output": 5
+        },
+        "description": "Fast Claude model for responsive assistance, classification, and lightweight agents",
+        "family": "claude-haiku",
+        "id": "jp.anthropic.claude-haiku-4-5-20251001-v1:0",
+        "knowledge": "2025-02-28",
+        "last_updated": "2025-10-15",
+        "limit": {
+          "context": 200000,
+          "output": 64000
+        },
+        "modalities": {
+          "input": [
+            "text",
+            "image",
+            "pdf"
+          ],
+          "output": [
+            "text"
+          ]
+        },
+        "name": "Claude Haiku 4.5 (JP)",
+        "open_weights": false,
+        "reasoning": true,
+        "reasoning_options": [
+          {
+            "min": 1024,
+            "type": "budget_tokens"
+          }
+        ],
+        "release_date": "2025-10-15",
+        "structured_output": true,
+        "temperature": true,
+        "tool_call": true
+      },
       "jp.anthropic.claude-opus-4-7": {
         "attachment": true,
         "cost": {
@@ -142825,7 +142866,6 @@
         "description": "Open-weight GPT model for self-hosted reasoning and instruction-following workloads",
         "family": "gpt-oss",
         "id": "openai/gpt-oss-20b",
-        "knowledge": "2024-06-30",
         "last_updated": "2025-08-05",
         "limit": {
           "context": 131072,
@@ -142839,7 +142879,7 @@
             "text"
           ]
         },
-        "name": "gpt-oss-20b",
+        "name": "GPT OSS 20B",
         "open_weights": true,
         "reasoning": true,
         "reasoning_options": [
@@ -142866,7 +142906,6 @@
         "description": "Open-weight GPT model for self-hosted reasoning and instruction-following workloads",
         "family": "gpt-oss",
         "id": "openai/gpt-oss-20b:free",
-        "knowledge": "2024-06-30",
         "last_updated": "2025-08-05",
         "limit": {
           "context": 131072,
@@ -146878,9 +146917,9 @@
       "z-ai/glm-5.2": {
         "attachment": false,
         "cost": {
-          "cache_read": 0.104,
-          "input": 0.56,
-          "output": 1.76
+          "cache_read": 0.1274,
+          "input": 0.686,
+          "output": 2.156
         },
         "description": "Open flagship GLM for long-horizon coding agents and million-token context work",
         "family": "glm",
@@ -183835,6 +183874,7 @@
           }
         ],
         "release_date": "2025-08-05",
+        "structured_output": true,
         "temperature": true,
         "tool_call": true
       },
