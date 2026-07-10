@@ -518,6 +518,12 @@
     },
     {
       "description": "",
+      "icon": "",
+      "name": "Model Oracle AI",
+      "status": 1
+    },
+    {
+      "description": "",
       "icon": "ModelScope",
       "name": "ModelScope",
       "status": 1
@@ -820,6 +826,12 @@
       "description": "",
       "icon": "",
       "name": "Umans AI Coding Plan",
+      "status": 1
+    },
+    {
+      "description": "",
+      "icon": "",
+      "name": "UnoRouter",
       "status": 1
     },
     {
