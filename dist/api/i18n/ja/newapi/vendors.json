@@ -243,6 +243,12 @@
     {
       "description": "",
       "icon": "",
+      "name": "EmpirioLabs AI",
+      "status": 1
+    },
+    {
+      "description": "",
+      "icon": "",
       "name": "evroc",
       "status": 1
     },
@@ -646,6 +652,12 @@
       "description": "",
       "icon": "",
       "name": "Perplexity Agent",
+      "status": 1
+    },
+    {
+      "description": "",
+      "icon": "",
+      "name": "Pioneer",
       "status": 1
     },
     {
