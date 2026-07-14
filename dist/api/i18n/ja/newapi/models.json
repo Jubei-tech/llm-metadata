@@ -18939,6 +18939,23 @@
       "vendor_name": "Cloudflare AI Gateway"
     },
     {
+      "description": "Open flagship GLM for long-horizon coding agents and million-token context work",
+      "endpoints": null,
+      "icon": "",
+      "model_name": "workers-ai/@cf/zai-org/glm-5.2",
+      "name_rule": 0,
+      "price_per_m_cache_read": 0.26,
+      "price_per_m_cache_write": null,
+      "price_per_m_input": 1.4,
+      "price_per_m_output": 4.4,
+      "ratio_cache": 0.18571428571428572,
+      "ratio_completion": 3.1428571428571432,
+      "ratio_model": 0.7,
+      "status": 1,
+      "tags": "推論,ツール,オープンウェイト,262.1K",
+      "vendor_name": "Cloudflare AI Gateway"
+    },
+    {
       "description": "Open Gemma instruction model for efficient chat and self-hosted deployments",
       "endpoints": null,
       "icon": "Cloudflare.Color",

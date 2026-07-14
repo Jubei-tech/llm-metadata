@@ -296,7 +296,7 @@
       "doc": "https://developers.cloudflare.com/ai-gateway/",
       "icon": "https://models.dev/logos/cloudflare-ai-gateway.svg",
       "id": "cloudflare-ai-gateway",
-      "modelCount": 81,
+      "modelCount": 82,
       "name": "Cloudflare AI Gateway",
       "status": 1
     },

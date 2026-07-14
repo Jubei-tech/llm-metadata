@@ -12121,6 +12121,17 @@
     {
       "flags": {
         "attachment": false,
+        "reasoning": true,
+        "tool_call": true
+      },
+      "id": "workers-ai/@cf/zai-org/glm-5.2",
+      "name": "Glm 5.2",
+      "providerId": "cloudflare-ai-gateway",
+      "updated": "2026-06-13"
+    },
+    {
+      "flags": {
+        "attachment": false,
         "reasoning": false,
         "tool_call": false
       },
@@ -64241,7 +64252,7 @@
       "doc": "https://developers.cloudflare.com/ai-gateway/",
       "iconURL": "https://models.dev/logos/cloudflare-ai-gateway.svg",
       "id": "cloudflare-ai-gateway",
-      "modelCount": 81,
+      "modelCount": 82,
       "name": "Cloudflare AI Gateway"
     },
     {
