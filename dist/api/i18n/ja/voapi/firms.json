@@ -766,7 +766,7 @@
       "doc": "https://llmgateway.io/docs",
       "icon": "https://models.dev/logos/llmgateway.svg",
       "id": "llmgateway",
-      "modelCount": 178,
+      "modelCount": 171,
       "name": "LLM Gateway",
       "status": 1
     },
@@ -1066,7 +1066,7 @@
       "doc": "https://docs.ollama.com/cloud",
       "icon": "https://models.dev/logos/ollama-cloud.svg",
       "id": "ollama-cloud",
-      "modelCount": 43,
+      "modelCount": 18,
       "name": "Ollama Cloud",
       "status": 1
     },
@@ -1106,7 +1106,7 @@
       "doc": "https://openrouter.ai/models",
       "icon": "lb:openrouter-color",
       "id": "openrouter",
-      "modelCount": 343,
+      "modelCount": 342,
       "name": "OpenRouter",
       "status": 1
     },
