@@ -585,7 +585,7 @@
       "doc": "https://www.kimi.com/code/docs/en/third-party-tools/other-coding-agents.html",
       "iconURL": "https://models.dev/logos/kimi-for-coding.svg",
       "id": "kimi-for-coding",
-      "modelCount": 4,
+      "modelCount": 5,
       "name": "Kimi For Coding"
     },
     {
@@ -1225,7 +1225,7 @@
       "iconURL": "https://models.dev/logos/venice.svg",
       "id": "venice",
       "lobeIcon": "VeniceAI",
-      "modelCount": 84,
+      "modelCount": 83,
       "name": "Venice AI"
     },
     {

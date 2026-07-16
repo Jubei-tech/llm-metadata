@@ -26904,6 +26904,17 @@
     },
     {
       "flags": {
+        "attachment": true,
+        "reasoning": true,
+        "tool_call": true
+      },
+      "id": "kimi-for-coding-highspeed",
+      "name": "Kimi For Coding HighSpeed",
+      "providerId": "kimi-for-coding",
+      "updated": "2026-06-12"
+    },
+    {
+      "flags": {
         "attachment": false,
         "reasoning": true,
         "tool_call": true
@@ -56661,17 +56672,6 @@
       "flags": {
         "attachment": false,
         "reasoning": true,
-        "tool_call": false
-      },
-      "id": "aion-labs-aion-2-0",
-      "name": "Aion 2.0",
-      "providerId": "venice",
-      "updated": "2026-06-11"
-    },
-    {
-      "flags": {
-        "attachment": false,
-        "reasoning": true,
         "tool_call": true
       },
       "id": "aion-labs-aion-3-0",
@@ -64339,7 +64339,7 @@
       "doc": "https://www.kimi.com/code/docs/en/third-party-tools/other-coding-agents.html",
       "iconURL": "https://models.dev/logos/kimi-for-coding.svg",
       "id": "kimi-for-coding",
-      "modelCount": 4,
+      "modelCount": 5,
       "name": "Kimi For Coding"
     },
     {
@@ -64979,7 +64979,7 @@
       "iconURL": "https://models.dev/logos/venice.svg",
       "id": "venice",
       "lobeIcon": "VeniceAI",
-      "modelCount": 84,
+      "modelCount": 83,
       "name": "Venice AI"
     },
     {

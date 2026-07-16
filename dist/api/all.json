@@ -89005,6 +89005,42 @@
         "temperature": false,
         "tool_call": true
       },
+      "kimi-for-coding-highspeed": {
+        "attachment": true,
+        "cost": {
+          "cache_read": 0,
+          "cache_write": 0,
+          "input": 0,
+          "output": 0
+        },
+        "description": "Lower-latency Kimi Code variant for interactive edits and coding-agent loops",
+        "family": "kimi-k2",
+        "id": "kimi-for-coding-highspeed",
+        "knowledge": "2025-01",
+        "last_updated": "2026-06-12",
+        "limit": {
+          "context": 262144,
+          "output": 32768
+        },
+        "modalities": {
+          "input": [
+            "text",
+            "image",
+            "video"
+          ],
+          "output": [
+            "text"
+          ]
+        },
+        "name": "Kimi For Coding HighSpeed",
+        "open_weights": true,
+        "reasoning": true,
+        "reasoning_options": [],
+        "release_date": "2026-06-12",
+        "structured_output": true,
+        "temperature": false,
+        "tool_call": true
+      },
       "kimi-k2-thinking": {
         "attachment": false,
         "cost": {
@@ -187644,44 +187680,6 @@
     "id": "venice",
     "lobeIcon": "VeniceAI",
     "models": {
-      "aion-labs-aion-2-0": {
-        "attachment": false,
-        "cost": {
-          "cache_read": 0.25,
-          "input": 1,
-          "output": 2
-        },
-        "description": "Reasoning model for deliberate analysis, multi-step problem solving, and tool use",
-        "id": "aion-labs-aion-2-0",
-        "last_updated": "2026-06-11",
-        "limit": {
-          "context": 128000,
-          "output": 32768
-        },
-        "modalities": {
-          "input": [
-            "text"
-          ],
-          "output": [
-            "text"
-          ]
-        },
-        "name": "Aion 2.0",
-        "open_weights": false,
-        "reasoning": true,
-        "reasoning_options": [
-          {
-            "type": "effort",
-            "values": [
-              "low",
-              "medium",
-              "high"
-            ]
-          }
-        ],
-        "release_date": "2026-03-24",
-        "tool_call": false
-      },
       "aion-labs-aion-3-0": {
         "attachment": false,
         "cost": {

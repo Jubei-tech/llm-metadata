@@ -90673,6 +90673,44 @@
       "tags": []
     },
     {
+      "description": "Lower-latency Kimi Code variant for interactive edits and coding-agent loops",
+      "firm": "kimi-for-coding",
+      "flags": {
+        "attachment": true,
+        "audio": false,
+        "image": true,
+        "open_weights": true,
+        "reasoning": true,
+        "temperature": false,
+        "tool_call": true
+      },
+      "icon": "",
+      "id": "kimi-for-coding-highspeed",
+      "knowledge": "2025-01",
+      "lastUpdated": "2026-06-12",
+      "maxCtxTokens": 262144,
+      "maxOutputTokens": 32768,
+      "modalities": {
+        "input": [
+          "text",
+          "image",
+          "video"
+        ],
+        "output": [
+          "text"
+        ]
+      },
+      "name": "Kimi For Coding HighSpeed",
+      "price": {
+        "cacheRead": null,
+        "cacheWrite": null,
+        "input": null,
+        "output": null
+      },
+      "releaseDate": "2026-06-12",
+      "tags": []
+    },
+    {
       "description": "Kimi reasoning model for long-horizon research, planning, and tool use",
       "firm": "kimi-for-coding",
       "flags": {
@@ -190439,42 +190477,6 @@
         "output": 15
       },
       "releaseDate": "2025-06-09",
-      "tags": []
-    },
-    {
-      "description": "Reasoning model for deliberate analysis, multi-step problem solving, and tool use",
-      "firm": "venice",
-      "flags": {
-        "attachment": false,
-        "audio": false,
-        "image": false,
-        "open_weights": false,
-        "reasoning": true,
-        "temperature": false,
-        "tool_call": false
-      },
-      "icon": "lb:veniceai",
-      "id": "aion-labs-aion-2-0",
-      "knowledge": null,
-      "lastUpdated": "2026-06-11",
-      "maxCtxTokens": 128000,
-      "maxOutputTokens": 32768,
-      "modalities": {
-        "input": [
-          "text"
-        ],
-        "output": [
-          "text"
-        ]
-      },
-      "name": "Aion 2.0",
-      "price": {
-        "cacheRead": 0.25,
-        "cacheWrite": null,
-        "input": 1,
-        "output": 2
-      },
-      "releaseDate": "2026-03-24",
       "tags": []
     },
     {
