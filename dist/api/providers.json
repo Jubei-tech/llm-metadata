@@ -1249,7 +1249,7 @@
       "iconURL": "https://models.dev/logos/venice.svg",
       "id": "venice",
       "lobeIcon": "VeniceAI",
-      "modelCount": 87,
+      "modelCount": 88,
       "name": "Venice AI"
     },
     {
@@ -1290,7 +1290,7 @@
       "iconURL": "https://models.dev/logos/wandb.svg",
       "id": "wandb",
       "lobeIcon": "WeightsBiases",
-      "modelCount": 29,
+      "modelCount": 30,
       "name": "Weights & Biases"
     },
     {

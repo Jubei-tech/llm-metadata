@@ -1546,7 +1546,7 @@
       "doc": "https://docs.venice.ai",
       "icon": "lb:veniceai",
       "id": "venice",
-      "modelCount": 87,
+      "modelCount": 88,
       "name": "Venice AI",
       "status": 1
     },
@@ -1596,7 +1596,7 @@
       "doc": "https://docs.wandb.ai/guides/integrations/inference/",
       "icon": "lb:weightsbiases",
       "id": "wandb",
-      "modelCount": 29,
+      "modelCount": 30,
       "name": "Weights & Biases",
       "status": 1
     },

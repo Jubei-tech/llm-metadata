@@ -22317,28 +22317,6 @@
     },
     {
       "flags": {
-        "attachment": false,
-        "reasoning": false,
-        "tool_call": true
-      },
-      "id": "qwen/qwen3-coder-next-fp8",
-      "name": "Qwen3 Coder Next FP8",
-      "providerId": "inferx",
-      "updated": "2026-02-03"
-    },
-    {
-      "flags": {
-        "attachment": false,
-        "reasoning": false,
-        "tool_call": true
-      },
-      "id": "qwen/qwen3-coder-next-fp8-1m",
-      "name": "Qwen3 Coder Next FP8 1M",
-      "providerId": "inferx",
-      "updated": "2026-02-03"
-    },
-    {
-      "flags": {
         "attachment": true,
         "reasoning": true,
         "tool_call": true
@@ -22369,6 +22347,28 @@
       "name": "Qwen3.6 35B A3B FP8",
       "providerId": "inferx",
       "updated": "2026-04-17"
+    },
+    {
+      "flags": {
+        "attachment": false,
+        "reasoning": false,
+        "tool_call": true
+      },
+      "id": "qwen3-coder-next-fp8",
+      "name": "Qwen3 Coder Next FP8",
+      "providerId": "inferx",
+      "updated": "2026-02-03"
+    },
+    {
+      "flags": {
+        "attachment": false,
+        "reasoning": false,
+        "tool_call": true
+      },
+      "id": "qwen3-coder-next-fp8-1m",
+      "name": "Qwen3 Coder Next FP8 1M",
+      "providerId": "inferx",
+      "updated": "2026-02-03"
     },
     {
       "flags": {
@@ -58035,6 +58035,17 @@
     {
       "flags": {
         "attachment": false,
+        "reasoning": true,
+        "tool_call": true
+      },
+      "id": "qwen3-6-35b-a3b",
+      "name": "Qwen 3.6 35B A3B",
+      "providerId": "venice",
+      "updated": "2026-07-22"
+    },
+    {
+      "flags": {
+        "attachment": false,
         "reasoning": false,
         "tool_call": true
       },
@@ -62009,6 +62020,17 @@
         "reasoning": true,
         "tool_call": true
       },
+      "id": "MiniMaxAI/MiniMax-M3",
+      "name": "MiniMax M3",
+      "providerId": "wandb",
+      "updated": "2026-06-12"
+    },
+    {
+      "flags": {
+        "attachment": true,
+        "reasoning": true,
+        "tool_call": true
+      },
       "id": "moonshotai/Kimi-K2.5",
       "name": "Kimi K2.5",
       "providerId": "wandb",
@@ -65663,7 +65685,7 @@
       "iconURL": "https://models.dev/logos/venice.svg",
       "id": "venice",
       "lobeIcon": "VeniceAI",
-      "modelCount": 87,
+      "modelCount": 88,
       "name": "Venice AI"
     },
     {
@@ -65704,7 +65726,7 @@
       "iconURL": "https://models.dev/logos/wandb.svg",
       "id": "wandb",
       "lobeIcon": "WeightsBiases",
-      "modelCount": 29,
+      "modelCount": 30,
       "name": "Weights & Biases"
     },
     {
