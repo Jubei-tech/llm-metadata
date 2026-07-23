@@ -235,7 +235,7 @@
       "doc": "https://docs.cline.bot/getting-started/clinepass",
       "iconURL": "https://models.dev/logos/cline-pass.svg",
       "id": "cline-pass",
-      "modelCount": 10,
+      "modelCount": 11,
       "name": "ClinePass"
     },
     {
@@ -871,6 +871,14 @@
       "id": "nvidia",
       "modelCount": 84,
       "name": "Nvidia"
+    },
+    {
+      "api": "https://api.ofox.ai/v1",
+      "doc": "https://ofox.ai/docs",
+      "iconURL": "https://models.dev/logos/ofox.svg",
+      "id": "ofox",
+      "modelCount": 13,
+      "name": "Ofox"
     },
     {
       "api": "https://ollama.com/v1",
