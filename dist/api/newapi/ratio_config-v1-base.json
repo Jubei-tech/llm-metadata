@@ -484,6 +484,7 @@
       "google/gemma-4-26b-a4b-it": 0.1,
       "google/gemma-4-31B-it": 0.19999999999999998,
       "google/gemma-4-31B-turbo-TEE": 0.5,
+      "google/gemma-4-31b-it": 0.75,
       "google/gemma-4-E2B-it": 1,
       "google/gemma-4-E4B-it": 1,
       "google/nano-banana": 0.1,
