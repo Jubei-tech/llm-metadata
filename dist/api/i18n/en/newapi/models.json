@@ -22084,6 +22084,23 @@
       "vendor_name": "CrossModel"
     },
     {
+      "description": "Strongest Claude Opus model for coding, agents, and professional work",
+      "endpoints": null,
+      "icon": "",
+      "model_name": "anthropic/claude-opus-5",
+      "name_rule": 0,
+      "price_per_m_cache_read": 0.5,
+      "price_per_m_cache_write": 6.25,
+      "price_per_m_input": 5,
+      "price_per_m_output": 25,
+      "ratio_cache": 0.1,
+      "ratio_completion": 5,
+      "ratio_model": 2.5,
+      "status": 1,
+      "tags": "Reasoning,Tools,Files,Vision,1M",
+      "vendor_name": "CrossModel"
+    },
+    {
       "description": "Claude workhorse for coding agents, careful analysis, and production cost control",
       "endpoints": null,
       "icon": "",
