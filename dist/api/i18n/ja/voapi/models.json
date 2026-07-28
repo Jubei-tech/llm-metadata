@@ -27047,10 +27047,10 @@
       },
       "name": "Ambient Large",
       "price": {
-        "cacheRead": 0.14,
+        "cacheRead": 0.2,
         "cacheWrite": null,
-        "input": 0.76,
-        "output": 2.42
+        "input": 1.05,
+        "output": 4.4
       },
       "releaseDate": "2026-06-13",
       "tags": []
@@ -27271,10 +27271,10 @@
       },
       "name": "GLM-5.2",
       "price": {
-        "cacheRead": 0.14,
+        "cacheRead": 0.2,
         "cacheWrite": null,
-        "input": 0.76,
-        "output": 2.42
+        "input": 1.05,
+        "output": 4.4
       },
       "releaseDate": "2026-06-13",
       "tags": []
@@ -35599,6 +35599,43 @@
         "output": 4
       },
       "releaseDate": "2026-06-12",
+      "tags": []
+    },
+    {
+      "description": "Kimi multimodal agent model for visual understanding, coding, and planning",
+      "firm": "baseten",
+      "flags": {
+        "attachment": true,
+        "audio": false,
+        "image": true,
+        "open_weights": true,
+        "reasoning": true,
+        "temperature": true,
+        "tool_call": true
+      },
+      "icon": "",
+      "id": "moonshotai/Kimi-K3",
+      "knowledge": null,
+      "lastUpdated": "2026-07-16",
+      "maxCtxTokens": 1048576,
+      "maxOutputTokens": 1048576,
+      "modalities": {
+        "input": [
+          "text",
+          "image"
+        ],
+        "output": [
+          "text"
+        ]
+      },
+      "name": "Kimi K3",
+      "price": {
+        "cacheRead": null,
+        "cacheWrite": null,
+        "input": 3,
+        "output": 15
+      },
+      "releaseDate": "2026-07-16",
       "tags": []
     },
     {
@@ -49083,6 +49120,43 @@
         "output": 3.5
       },
       "releaseDate": "2026-06-12",
+      "tags": []
+    },
+    {
+      "description": "Multimodal Kimi model with 1M context and toggleable max-effort thinking for long-horizon agent work",
+      "firm": "deepinfra",
+      "flags": {
+        "attachment": true,
+        "audio": false,
+        "image": true,
+        "open_weights": true,
+        "reasoning": true,
+        "temperature": false,
+        "tool_call": true
+      },
+      "icon": "lb:deepinfra",
+      "id": "moonshotai/Kimi-K3",
+      "knowledge": null,
+      "lastUpdated": "2026-07-16",
+      "maxCtxTokens": 1048576,
+      "maxOutputTokens": 131072,
+      "modalities": {
+        "input": [
+          "text",
+          "image"
+        ],
+        "output": [
+          "text"
+        ]
+      },
+      "name": "Kimi K3",
+      "price": {
+        "cacheRead": 0.27,
+        "cacheWrite": null,
+        "input": 2.7,
+        "output": 13.5
+      },
+      "releaseDate": "2026-07-16",
       "tags": []
     },
     {
@@ -72535,6 +72609,43 @@
       "tags": []
     },
     {
+      "description": "Kimi multimodal agent model for visual understanding, coding, and planning",
+      "firm": "huggingface",
+      "flags": {
+        "attachment": true,
+        "audio": false,
+        "image": true,
+        "open_weights": true,
+        "reasoning": true,
+        "temperature": false,
+        "tool_call": true
+      },
+      "icon": "lb:huggingface-color",
+      "id": "moonshotai/Kimi-K3",
+      "knowledge": null,
+      "lastUpdated": "2026-07-16",
+      "maxCtxTokens": 1000000,
+      "maxOutputTokens": 131072,
+      "modalities": {
+        "input": [
+          "text",
+          "image"
+        ],
+        "output": [
+          "text"
+        ]
+      },
+      "name": "Kimi K3",
+      "price": {
+        "cacheRead": null,
+        "cacheWrite": null,
+        "input": 3,
+        "output": 15
+      },
+      "releaseDate": "2026-07-16",
+      "tags": []
+    },
+    {
       "description": "Open GPT reasoning model for self-hosted agents and controllable deployments",
       "firm": "huggingface",
       "flags": {
@@ -93520,10 +93631,10 @@
       },
       "name": "DeepSeek V4 Flash",
       "price": {
-        "cacheRead": 0.0028,
+        "cacheRead": 0.014,
         "cacheWrite": null,
-        "input": 0.14,
-        "output": 0.28
+        "input": 0.076,
+        "output": 0.153
       },
       "releaseDate": "2026-04-24",
       "tags": []
@@ -94137,10 +94248,10 @@
       },
       "name": "Gemma 4 31B IT",
       "price": {
-        "cacheRead": null,
+        "cacheRead": 0.012,
         "cacheWrite": null,
-        "input": 0.13,
-        "output": 0.38
+        "input": 0.102,
+        "output": 0.297
       },
       "releaseDate": "2026-04-02",
       "tags": []
@@ -94682,10 +94793,10 @@
       },
       "name": "GLM-5.2",
       "price": {
-        "cacheRead": 0.234,
+        "cacheRead": 0.16,
         "cacheWrite": null,
-        "input": 1.26,
-        "output": 3.96
+        "input": 0.8,
+        "output": 2.55
       },
       "releaseDate": "2026-06-13",
       "tags": []
@@ -95026,6 +95137,43 @@
       "tags": []
     },
     {
+      "description": "Speech transcription model for accurate audio-to-text and captioning workflows",
+      "firm": "llmgateway",
+      "flags": {
+        "attachment": true,
+        "audio": true,
+        "image": false,
+        "open_weights": false,
+        "reasoning": false,
+        "temperature": true,
+        "tool_call": true
+      },
+      "icon": "",
+      "id": "gpt-4o-mini-transcribe",
+      "knowledge": null,
+      "lastUpdated": "2025-03-20",
+      "maxCtxTokens": 16000,
+      "maxOutputTokens": 16000,
+      "modalities": {
+        "input": [
+          "text",
+          "audio"
+        ],
+        "output": [
+          "text"
+        ]
+      },
+      "name": "GPT-4o Mini Transcribe",
+      "price": {
+        "cacheRead": null,
+        "cacheWrite": null,
+        "input": 1.25,
+        "output": 5
+      },
+      "releaseDate": "2025-03-20",
+      "tags": []
+    },
+    {
       "description": "GPT model for general reasoning, writing, coding, and tool-assisted tasks",
       "firm": "llmgateway",
       "flags": {
@@ -95060,6 +95208,43 @@
         "output": 10
       },
       "releaseDate": "2024-10-01",
+      "tags": []
+    },
+    {
+      "description": "Speech transcription model for accurate audio-to-text and captioning workflows",
+      "firm": "llmgateway",
+      "flags": {
+        "attachment": true,
+        "audio": true,
+        "image": false,
+        "open_weights": false,
+        "reasoning": false,
+        "temperature": true,
+        "tool_call": true
+      },
+      "icon": "",
+      "id": "gpt-4o-transcribe",
+      "knowledge": null,
+      "lastUpdated": "2025-03-20",
+      "maxCtxTokens": 16000,
+      "maxOutputTokens": 16000,
+      "modalities": {
+        "input": [
+          "text",
+          "audio"
+        ],
+        "output": [
+          "text"
+        ]
+      },
+      "name": "GPT-4o Transcribe",
+      "price": {
+        "cacheRead": null,
+        "cacheWrite": null,
+        "input": 2.5,
+        "output": 10
+      },
+      "releaseDate": "2025-03-20",
       "tags": []
     },
     {
@@ -95949,10 +96134,10 @@
       },
       "name": "GPT OSS 120B",
       "price": {
-        "cacheRead": null,
+        "cacheRead": 0.032,
         "cacheWrite": null,
-        "input": 0.05,
-        "output": 0.25
+        "input": 0.032,
+        "output": 0.14
       },
       "releaseDate": "2025-08-05",
       "tags": []
@@ -132707,6 +132892,42 @@
       "tags": []
     },
     {
+      "description": "Multimodal Kimi model with 1M context and toggleable max-effort thinking for long-horizon agent work",
+      "firm": "nebius",
+      "flags": {
+        "attachment": false,
+        "audio": false,
+        "image": false,
+        "open_weights": true,
+        "reasoning": true,
+        "temperature": false,
+        "tool_call": true
+      },
+      "icon": "",
+      "id": "moonshotai/Kimi-K3",
+      "knowledge": null,
+      "lastUpdated": "2026-07-16",
+      "maxCtxTokens": 1048576,
+      "maxOutputTokens": 8000,
+      "modalities": {
+        "input": [
+          "text"
+        ],
+        "output": [
+          "text"
+        ]
+      },
+      "name": "Kimi K3",
+      "price": {
+        "cacheRead": null,
+        "cacheWrite": null,
+        "input": 3,
+        "output": 15
+      },
+      "releaseDate": "2026-07-16",
+      "tags": []
+    },
+    {
       "description": "Reasoning model for deliberate analysis, multi-step problem solving, and tool use",
       "firm": "nebius",
       "flags": {
@@ -143390,6 +143611,43 @@
         "output": null
       },
       "releaseDate": "2026-06-12",
+      "tags": []
+    },
+    {
+      "description": "Multimodal Kimi model with 1M context and toggleable max-effort thinking for long-horizon agent work",
+      "firm": "ollama-cloud",
+      "flags": {
+        "attachment": true,
+        "audio": false,
+        "image": true,
+        "open_weights": true,
+        "reasoning": true,
+        "temperature": false,
+        "tool_call": true
+      },
+      "icon": "",
+      "id": "kimi-k3",
+      "knowledge": null,
+      "lastUpdated": "2026-07-27",
+      "maxCtxTokens": 1048576,
+      "maxOutputTokens": 131072,
+      "modalities": {
+        "input": [
+          "text",
+          "image"
+        ],
+        "output": [
+          "text"
+        ]
+      },
+      "name": "kimi-k3",
+      "price": {
+        "cacheRead": null,
+        "cacheWrite": null,
+        "input": null,
+        "output": null
+      },
+      "releaseDate": "2026-07-16",
       "tags": []
     },
     {
@@ -190970,6 +191228,44 @@
       "tags": []
     },
     {
+      "description": "Multimodal Kimi model with 1M context and toggleable max-effort thinking for long-horizon agent work",
+      "firm": "togetherai",
+      "flags": {
+        "attachment": true,
+        "audio": false,
+        "image": true,
+        "open_weights": true,
+        "reasoning": true,
+        "temperature": false,
+        "tool_call": true
+      },
+      "icon": "lb:togetherai-color",
+      "id": "moonshotai/Kimi-K3",
+      "knowledge": null,
+      "lastUpdated": "2026-07-16",
+      "maxCtxTokens": 1048576,
+      "maxOutputTokens": 131072,
+      "modalities": {
+        "input": [
+          "text",
+          "image",
+          "video"
+        ],
+        "output": [
+          "text"
+        ]
+      },
+      "name": "Kimi K3",
+      "price": {
+        "cacheRead": 0.3,
+        "cacheWrite": null,
+        "input": 3,
+        "output": 15
+      },
+      "releaseDate": "2026-07-16",
+      "tags": []
+    },
+    {
       "description": "Largest Nemotron 3 model for maximum open-weight reasoning and agent accuracy",
       "firm": "togetherai",
       "flags": {
@@ -194630,10 +194926,10 @@
       },
       "name": "Kimi K3",
       "price": {
-        "cacheRead": 0.375,
+        "cacheRead": 0.46875,
         "cacheWrite": null,
-        "input": 3.75,
-        "output": 18.75
+        "input": 4.6875,
+        "output": 23.4375
       },
       "releaseDate": "2026-07-16",
       "tags": []
@@ -196068,7 +196364,7 @@
       "price": {
         "cacheRead": 0.05,
         "cacheWrite": null,
-        "input": 0.15,
+        "input": 0.1,
         "output": 1
       },
       "releaseDate": "2026-07-20",
@@ -203004,6 +203300,44 @@
         "output": 15
       },
       "releaseDate": "2026-07-16",
+      "tags": []
+    },
+    {
+      "description": "Kimi multimodal agent model for visual understanding, coding, and planning",
+      "firm": "vercel",
+      "flags": {
+        "attachment": true,
+        "audio": false,
+        "image": true,
+        "open_weights": false,
+        "reasoning": true,
+        "temperature": false,
+        "tool_call": true
+      },
+      "icon": "lb:vercel-color",
+      "id": "moonshotai/kimi-k3-fast",
+      "knowledge": null,
+      "lastUpdated": "2026-07-16",
+      "maxCtxTokens": 1000000,
+      "maxOutputTokens": 131072,
+      "modalities": {
+        "input": [
+          "text",
+          "image",
+          "pdf"
+        ],
+        "output": [
+          "text"
+        ]
+      },
+      "name": "Kimi K3 Fast",
+      "price": {
+        "cacheRead": 0.45,
+        "cacheWrite": null,
+        "input": 4.5,
+        "output": 22.5
+      },
+      "releaseDate": "2026-07-27",
       "tags": []
     },
     {

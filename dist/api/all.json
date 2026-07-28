@@ -24489,10 +24489,10 @@
       "ambient/large": {
         "attachment": false,
         "cost": {
-          "cache_read": 0.14,
+          "cache_read": 0.2,
           "cache_write": 0,
-          "input": 0.76,
-          "output": 2.42
+          "input": 1.05,
+          "output": 4.4
         },
         "description": "Flagship GLM model for hybrid reasoning, coding, and agentic engineering",
         "family": "glm",
@@ -24734,10 +24734,10 @@
       "z-ai/glm-5.2": {
         "attachment": false,
         "cost": {
-          "cache_read": 0.14,
+          "cache_read": 0.2,
           "cache_write": 0,
-          "input": 0.76,
-          "output": 2.42
+          "input": 1.05,
+          "output": 4.4
         },
         "description": "Flagship GLM model for hybrid reasoning, coding, and agentic engineering",
         "family": "glm",
@@ -33962,6 +33962,38 @@
           }
         ],
         "release_date": "2026-06-12",
+        "structured_output": true,
+        "temperature": true,
+        "tool_call": true
+      },
+      "moonshotai/Kimi-K3": {
+        "attachment": true,
+        "cost": {
+          "input": 3,
+          "output": 15
+        },
+        "description": "Kimi multimodal agent model for visual understanding, coding, and planning",
+        "family": "kimi-k3",
+        "id": "moonshotai/Kimi-K3",
+        "last_updated": "2026-07-16",
+        "limit": {
+          "context": 1048576,
+          "output": 1048576
+        },
+        "modalities": {
+          "input": [
+            "text",
+            "image"
+          ],
+          "output": [
+            "text"
+          ]
+        },
+        "name": "Kimi K3",
+        "open_weights": true,
+        "reasoning": true,
+        "reasoning_options": [],
+        "release_date": "2026-07-16",
         "structured_output": true,
         "temperature": true,
         "tool_call": true
@@ -49230,6 +49262,48 @@
           }
         ],
         "release_date": "2026-06-12",
+        "structured_output": true,
+        "temperature": false,
+        "tool_call": true
+      },
+      "moonshotai/Kimi-K3": {
+        "attachment": true,
+        "cost": {
+          "cache_read": 0.27,
+          "input": 2.7,
+          "output": 13.5
+        },
+        "description": "Multimodal Kimi model with 1M context and toggleable max-effort thinking for long-horizon agent work",
+        "family": "kimi-k3",
+        "id": "moonshotai/Kimi-K3",
+        "last_updated": "2026-07-16",
+        "limit": {
+          "context": 1048576,
+          "output": 131072
+        },
+        "modalities": {
+          "input": [
+            "text",
+            "image"
+          ],
+          "output": [
+            "text"
+          ]
+        },
+        "name": "Kimi K3",
+        "open_weights": true,
+        "reasoning": true,
+        "reasoning_options": [
+          {
+            "type": "effort",
+            "values": [
+              "low",
+              "high",
+              "max"
+            ]
+          }
+        ],
+        "release_date": "2026-07-16",
         "structured_output": true,
         "temperature": false,
         "tool_call": true
@@ -73978,6 +74052,47 @@
         "temperature": false,
         "tool_call": true
       },
+      "moonshotai/Kimi-K3": {
+        "attachment": true,
+        "cost": {
+          "input": 3,
+          "output": 15
+        },
+        "description": "Kimi multimodal agent model for visual understanding, coding, and planning",
+        "family": "kimi-k3",
+        "id": "moonshotai/Kimi-K3",
+        "last_updated": "2026-07-16",
+        "limit": {
+          "context": 1000000,
+          "output": 131072
+        },
+        "modalities": {
+          "input": [
+            "text",
+            "image"
+          ],
+          "output": [
+            "text"
+          ]
+        },
+        "name": "Kimi K3",
+        "open_weights": true,
+        "reasoning": true,
+        "reasoning_options": [
+          {
+            "type": "effort",
+            "values": [
+              "low",
+              "high",
+              "max"
+            ]
+          }
+        ],
+        "release_date": "2026-07-16",
+        "structured_output": true,
+        "temperature": false,
+        "tool_call": true
+      },
       "openai/gpt-oss-120b": {
         "attachment": false,
         "cost": {
@@ -92908,9 +93023,9 @@
       "deepseek-v4-flash": {
         "attachment": false,
         "cost": {
-          "cache_read": 0.0028,
-          "input": 0.14,
-          "output": 0.28
+          "cache_read": 0.014,
+          "input": 0.076,
+          "output": 0.153
         },
         "description": "Fast DeepSeek V4 lane for economical reasoning, coding, and long-context work",
         "family": "deepseek-flash",
@@ -93606,8 +93721,9 @@
       "gemma-4-31b-it": {
         "attachment": true,
         "cost": {
-          "input": 0.13,
-          "output": 0.38
+          "cache_read": 0.012,
+          "input": 0.102,
+          "output": 0.297
         },
         "description": "Largest Gemma 4 instruction model for open, self-hosted chat and reasoning",
         "family": "gemma",
@@ -94145,10 +94261,10 @@
       "glm-5.2": {
         "attachment": false,
         "cost": {
-          "cache_read": 0.234,
+          "cache_read": 0.16,
           "cache_write": 0,
-          "input": 1.26,
-          "output": 3.96
+          "input": 0.8,
+          "output": 2.55
         },
         "description": "Open flagship GLM for long-horizon coding agents and million-token context work",
         "family": "glm",
@@ -94484,6 +94600,37 @@
         "temperature": true,
         "tool_call": false
       },
+      "gpt-4o-mini-transcribe": {
+        "attachment": true,
+        "cost": {
+          "input": 1.25,
+          "output": 5
+        },
+        "description": "Speech transcription model for accurate audio-to-text and captioning workflows",
+        "family": "gpt",
+        "id": "gpt-4o-mini-transcribe",
+        "last_updated": "2025-03-20",
+        "limit": {
+          "context": 16000,
+          "output": 16000
+        },
+        "modalities": {
+          "input": [
+            "text",
+            "audio"
+          ],
+          "output": [
+            "text"
+          ]
+        },
+        "name": "GPT-4o Mini Transcribe",
+        "open_weights": false,
+        "reasoning": false,
+        "release_date": "2025-03-20",
+        "structured_output": false,
+        "temperature": true,
+        "tool_call": true
+      },
       "gpt-4o-search-preview": {
         "attachment": true,
         "cost": {
@@ -94514,6 +94661,37 @@
         "structured_output": false,
         "temperature": true,
         "tool_call": false
+      },
+      "gpt-4o-transcribe": {
+        "attachment": true,
+        "cost": {
+          "input": 2.5,
+          "output": 10
+        },
+        "description": "Speech transcription model for accurate audio-to-text and captioning workflows",
+        "family": "gpt",
+        "id": "gpt-4o-transcribe",
+        "last_updated": "2025-03-20",
+        "limit": {
+          "context": 16000,
+          "output": 16000
+        },
+        "modalities": {
+          "input": [
+            "text",
+            "audio"
+          ],
+          "output": [
+            "text"
+          ]
+        },
+        "name": "GPT-4o Transcribe",
+        "open_weights": false,
+        "reasoning": false,
+        "release_date": "2025-03-20",
+        "structured_output": false,
+        "temperature": true,
+        "tool_call": true
       },
       "gpt-5": {
         "attachment": true,
@@ -95567,8 +95745,9 @@
       "gpt-oss-120b": {
         "attachment": false,
         "cost": {
-          "input": 0.05,
-          "output": 0.25
+          "cache_read": 0.032,
+          "input": 0.032,
+          "output": 0.14
         },
         "description": "Open-weight GPT model for self-hosted reasoning and instruction-following workloads",
         "family": "gpt-oss",
@@ -130593,6 +130772,40 @@
         "temperature": false,
         "tool_call": true
       },
+      "moonshotai/Kimi-K3": {
+        "attachment": false,
+        "cost": {
+          "input": 3,
+          "output": 15
+        },
+        "description": "Multimodal Kimi model with 1M context and toggleable max-effort thinking for long-horizon agent work",
+        "family": "kimi-k3",
+        "id": "moonshotai/Kimi-K3",
+        "interleaved": {
+          "field": "reasoning_content"
+        },
+        "last_updated": "2026-07-16",
+        "limit": {
+          "context": 1048576,
+          "output": 8000
+        },
+        "modalities": {
+          "input": [
+            "text"
+          ],
+          "output": [
+            "text"
+          ]
+        },
+        "name": "Kimi K3",
+        "open_weights": true,
+        "reasoning": true,
+        "reasoning_options": [],
+        "release_date": "2026-07-16",
+        "structured_output": true,
+        "temperature": false,
+        "tool_call": true
+      },
       "nvidia/Llama-3_1-Nemotron-Ultra-253B-v1": {
         "attachment": false,
         "cost": {
@@ -140586,6 +140799,46 @@
           }
         ],
         "release_date": "2026-06-12",
+        "structured_output": true,
+        "temperature": false,
+        "tool_call": true
+      },
+      "kimi-k3": {
+        "attachment": true,
+        "description": "Multimodal Kimi model with 1M context and toggleable max-effort thinking for long-horizon agent work",
+        "family": "kimi-k3",
+        "id": "kimi-k3",
+        "last_updated": "2026-07-27",
+        "limit": {
+          "context": 1048576,
+          "output": 131072
+        },
+        "modalities": {
+          "input": [
+            "text",
+            "image"
+          ],
+          "output": [
+            "text"
+          ]
+        },
+        "name": "kimi-k3",
+        "open_weights": true,
+        "reasoning": true,
+        "reasoning_options": [
+          {
+            "type": "toggle"
+          },
+          {
+            "type": "effort",
+            "values": [
+              "low",
+              "high",
+              "max"
+            ]
+          }
+        ],
+        "release_date": "2026-07-16",
         "structured_output": true,
         "temperature": false,
         "tool_call": true
@@ -189768,6 +190021,52 @@
         "temperature": true,
         "tool_call": true
       },
+      "moonshotai/Kimi-K3": {
+        "attachment": true,
+        "cost": {
+          "cache_read": 0.3,
+          "input": 3,
+          "output": 15
+        },
+        "description": "Multimodal Kimi model with 1M context and toggleable max-effort thinking for long-horizon agent work",
+        "family": "kimi-k3",
+        "id": "moonshotai/Kimi-K3",
+        "interleaved": {
+          "field": "reasoning_content"
+        },
+        "last_updated": "2026-07-16",
+        "limit": {
+          "context": 1048576,
+          "output": 131072
+        },
+        "modalities": {
+          "input": [
+            "text",
+            "image",
+            "video"
+          ],
+          "output": [
+            "text"
+          ]
+        },
+        "name": "Kimi K3",
+        "open_weights": true,
+        "reasoning": true,
+        "reasoning_options": [
+          {
+            "type": "effort",
+            "values": [
+              "low",
+              "high",
+              "max"
+            ]
+          }
+        ],
+        "release_date": "2026-07-16",
+        "structured_output": true,
+        "temperature": false,
+        "tool_call": true
+      },
       "nvidia/nemotron-3-ultra-550b-a55b": {
         "attachment": false,
         "cost": {
@@ -193248,7 +193547,17 @@
         "name": "Kimi K2.6",
         "open_weights": true,
         "reasoning": true,
-        "reasoning_options": [],
+        "reasoning_options": [
+          {
+            "type": "effort",
+            "values": [
+              "none",
+              "low",
+              "medium",
+              "high"
+            ]
+          }
+        ],
         "release_date": "2026-04-20",
         "structured_output": true,
         "temperature": true,
@@ -193300,9 +193609,9 @@
       "kimi-k3": {
         "attachment": true,
         "cost": {
-          "cache_read": 0.375,
-          "input": 3.75,
-          "output": 18.75
+          "cache_read": 0.46875,
+          "input": 4.6875,
+          "output": 23.4375
         },
         "description": "Kimi multimodal agent model for visual understanding, coding, and planning",
         "family": "kimi-k3",
@@ -194937,7 +195246,7 @@
         "attachment": true,
         "cost": {
           "cache_read": 0.05,
-          "input": 0.15,
+          "input": 0.1,
           "output": 1
         },
         "description": "Qwen instruction model for multilingual chat, reasoning, and tool use",
@@ -201299,6 +201608,49 @@
         "reasoning": true,
         "reasoning_options": [],
         "release_date": "2026-07-16",
+        "structured_output": true,
+        "temperature": false,
+        "tool_call": true
+      },
+      "moonshotai/kimi-k3-fast": {
+        "attachment": true,
+        "cost": {
+          "cache_read": 0.45,
+          "input": 4.5,
+          "output": 22.5
+        },
+        "description": "Kimi multimodal agent model for visual understanding, coding, and planning",
+        "family": "kimi-k3",
+        "id": "moonshotai/kimi-k3-fast",
+        "last_updated": "2026-07-16",
+        "limit": {
+          "context": 1000000,
+          "output": 131072
+        },
+        "modalities": {
+          "input": [
+            "text",
+            "image",
+            "pdf"
+          ],
+          "output": [
+            "text"
+          ]
+        },
+        "name": "Kimi K3 Fast",
+        "open_weights": false,
+        "reasoning": true,
+        "reasoning_options": [
+          {
+            "type": "effort",
+            "values": [
+              "low",
+              "high",
+              "max"
+            ]
+          }
+        ],
+        "release_date": "2026-07-27",
         "structured_output": true,
         "temperature": false,
         "tool_call": true

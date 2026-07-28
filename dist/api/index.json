@@ -10481,6 +10481,17 @@
     },
     {
       "flags": {
+        "attachment": true,
+        "reasoning": true,
+        "tool_call": true
+      },
+      "id": "moonshotai/Kimi-K3",
+      "name": "Kimi K3",
+      "providerId": "baseten",
+      "updated": "2026-07-16"
+    },
+    {
+      "flags": {
         "attachment": false,
         "reasoning": true,
         "tool_call": true
@@ -14504,6 +14515,17 @@
       "name": "Kimi K2.7 Code",
       "providerId": "deepinfra",
       "updated": "2026-06-12"
+    },
+    {
+      "flags": {
+        "attachment": true,
+        "reasoning": true,
+        "tool_call": true
+      },
+      "id": "moonshotai/Kimi-K3",
+      "name": "Kimi K3",
+      "providerId": "deepinfra",
+      "updated": "2026-07-16"
     },
     {
       "flags": {
@@ -21459,6 +21481,17 @@
     },
     {
       "flags": {
+        "attachment": true,
+        "reasoning": true,
+        "tool_call": true
+      },
+      "id": "moonshotai/Kimi-K3",
+      "name": "Kimi K3",
+      "providerId": "huggingface",
+      "updated": "2026-07-16"
+    },
+    {
+      "flags": {
         "attachment": false,
         "reasoning": true,
         "tool_call": true
@@ -28160,12 +28193,34 @@
       "flags": {
         "attachment": true,
         "reasoning": false,
+        "tool_call": true
+      },
+      "id": "gpt-4o-mini-transcribe",
+      "name": "GPT-4o Mini Transcribe",
+      "providerId": "llmgateway",
+      "updated": "2025-03-20"
+    },
+    {
+      "flags": {
+        "attachment": true,
+        "reasoning": false,
         "tool_call": false
       },
       "id": "gpt-4o-search-preview",
       "name": "GPT-4o Search Preview",
       "providerId": "llmgateway",
       "updated": "2024-10-01"
+    },
+    {
+      "flags": {
+        "attachment": true,
+        "reasoning": false,
+        "tool_call": true
+      },
+      "id": "gpt-4o-transcribe",
+      "name": "GPT-4o Transcribe",
+      "providerId": "llmgateway",
+      "updated": "2025-03-20"
     },
     {
       "flags": {
@@ -39437,6 +39492,17 @@
         "reasoning": true,
         "tool_call": true
       },
+      "id": "moonshotai/Kimi-K3",
+      "name": "Kimi K3",
+      "providerId": "nebius",
+      "updated": "2026-07-16"
+    },
+    {
+      "flags": {
+        "attachment": false,
+        "reasoning": true,
+        "tool_call": true
+      },
       "id": "NousResearch/Hermes-4-405B",
       "name": "Hermes-4-405B",
       "providerId": "nebius",
@@ -42631,6 +42697,17 @@
       "name": "kimi-k2.7-code",
       "providerId": "ollama-cloud",
       "updated": "2026-06-12"
+    },
+    {
+      "flags": {
+        "attachment": true,
+        "reasoning": true,
+        "tool_call": true
+      },
+      "id": "kimi-k3",
+      "name": "kimi-k3",
+      "providerId": "ollama-cloud",
+      "updated": "2026-07-27"
     },
     {
       "flags": {
@@ -56769,6 +56846,17 @@
     },
     {
       "flags": {
+        "attachment": true,
+        "reasoning": true,
+        "tool_call": true
+      },
+      "id": "moonshotai/Kimi-K3",
+      "name": "Kimi K3",
+      "providerId": "togetherai",
+      "updated": "2026-07-16"
+    },
+    {
+      "flags": {
         "attachment": false,
         "reasoning": true,
         "tool_call": true
@@ -60361,6 +60449,17 @@
       },
       "id": "moonshotai/kimi-k3",
       "name": "Kimi K3",
+      "providerId": "vercel",
+      "updated": "2026-07-16"
+    },
+    {
+      "flags": {
+        "attachment": true,
+        "reasoning": true,
+        "tool_call": true
+      },
+      "id": "moonshotai/kimi-k3-fast",
+      "name": "Kimi K3 Fast",
       "providerId": "vercel",
       "updated": "2026-07-16"
     },
@@ -64908,7 +65007,7 @@
       "doc": "https://docs.baseten.co/inference/model-apis/overview",
       "iconURL": "https://models.dev/logos/baseten.svg",
       "id": "baseten",
-      "modelCount": 15,
+      "modelCount": 16,
       "name": "Baseten"
     },
     {
@@ -65044,7 +65143,7 @@
       "iconURL": "https://models.dev/logos/deepinfra.svg",
       "id": "deepinfra",
       "lobeIcon": "DeepInfra",
-      "modelCount": 40,
+      "modelCount": 41,
       "name": "Deep Infra"
     },
     {
@@ -65257,7 +65356,7 @@
       "iconURL": "https://models.dev/logos/huggingface.svg",
       "id": "huggingface",
       "lobeIcon": "HuggingFace.Color",
-      "modelCount": 52,
+      "modelCount": 53,
       "name": "Hugging Face"
     },
     {
@@ -65372,7 +65471,7 @@
       "doc": "https://llmgateway.io/docs",
       "iconURL": "https://models.dev/logos/llmgateway.svg",
       "id": "llmgateway",
-      "modelCount": 183,
+      "modelCount": 185,
       "name": "LLM Gateway"
     },
     {
@@ -65567,7 +65666,7 @@
       "doc": "https://docs.tokenfactory.nebius.com/",
       "iconURL": "https://models.dev/logos/nebius.svg",
       "id": "nebius",
-      "modelCount": 32,
+      "modelCount": 33,
       "name": "Nebius Token Factory"
     },
     {
@@ -65623,7 +65722,7 @@
       "doc": "https://docs.ollama.com/cloud",
       "iconURL": "https://models.dev/logos/ollama-cloud.svg",
       "id": "ollama-cloud",
-      "modelCount": 18,
+      "modelCount": 19,
       "name": "Ollama Cloud"
     },
     {
@@ -65938,7 +66037,7 @@
       "iconURL": "https://models.dev/logos/togetherai.svg",
       "id": "togetherai",
       "lobeIcon": "TogetherAI.Color",
-      "modelCount": 33,
+      "modelCount": 34,
       "name": "Together AI"
     },
     {
@@ -66003,7 +66102,7 @@
       "iconURL": "https://models.dev/logos/vercel.svg",
       "id": "vercel",
       "lobeIcon": "Vercel.Color",
-      "modelCount": 306,
+      "modelCount": 307,
       "name": "Vercel AI Gateway"
     },
     {
