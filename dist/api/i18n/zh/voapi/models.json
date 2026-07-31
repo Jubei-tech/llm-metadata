@@ -151050,7 +151050,7 @@
       "tags": []
     },
     {
-      "description": "Fast DeepSeek model for efficient chat, coding help, and agent loops",
+      "description": "Fast DeepSeek V4 lane for economical reasoning, coding, and long-context work",
       "firm": "opencode",
       "flags": {
         "attachment": false,
@@ -151075,7 +151075,7 @@
           "text"
         ]
       },
-      "name": "DeepSeek V4 Flash Free",
+      "name": "DeepSeek V4 Flash Free (New)",
       "price": {
         "cacheRead": null,
         "cacheWrite": null,
@@ -153652,7 +153652,7 @@
       "tags": []
     },
     {
-      "description": "Fast DeepSeek model for efficient chat, coding help, and agent loops",
+      "description": "Fast DeepSeek V4 lane for economical reasoning, coding, and long-context work",
       "firm": "opencode-go",
       "flags": {
         "attachment": false,
@@ -153677,7 +153677,7 @@
           "text"
         ]
       },
-      "name": "DeepSeek V4 Flash",
+      "name": "DeepSeek V4 Flash (New)",
       "price": {
         "cacheRead": 0.0028,
         "cacheWrite": null,
