@@ -15178,6 +15178,17 @@
     },
     {
       "flags": {
+        "attachment": true,
+        "reasoning": true,
+        "tool_call": true
+      },
+      "id": "ByteDance/Seed-2.0-code",
+      "name": "Seed 2.0 Code",
+      "providerId": "deepinfra",
+      "updated": "2026-02-14"
+    },
+    {
+      "flags": {
         "attachment": false,
         "reasoning": true,
         "tool_call": true
@@ -17375,6 +17386,17 @@
       "name": "Qwen3 Max",
       "providerId": "empiriolabs",
       "updated": "2025-09-23"
+    },
+    {
+      "flags": {
+        "attachment": true,
+        "reasoning": true,
+        "tool_call": true
+      },
+      "id": "seed-2-0-code",
+      "name": "Seed 2.0 Code",
+      "providerId": "empiriolabs",
+      "updated": "2026-02-14"
     },
     {
       "flags": {
@@ -40742,6 +40764,17 @@
     },
     {
       "flags": {
+        "attachment": true,
+        "reasoning": true,
+        "tool_call": true
+      },
+      "id": "sakana/sakana-namazu",
+      "name": "Sakana Namazu",
+      "providerId": "nano-gpt",
+      "updated": "2026-08-11"
+    },
+    {
+      "flags": {
         "attachment": false,
         "reasoning": false,
         "tool_call": false
@@ -48119,7 +48152,7 @@
       "id": "hy3-free",
       "name": "Hy3 Free",
       "providerId": "opencode",
-      "updated": "2026-06-26"
+      "updated": "2026-07-06"
     },
     {
       "flags": {
@@ -49260,6 +49293,17 @@
         "reasoning": true,
         "tool_call": true
       },
+      "id": "bytedance-seed/seed-2.0-code",
+      "name": "Seed 2.0 Code",
+      "providerId": "openrouter",
+      "updated": "2026-02-14"
+    },
+    {
+      "flags": {
+        "attachment": true,
+        "reasoning": true,
+        "tool_call": true
+      },
       "id": "bytedance-seed/seed-2.0-lite",
       "name": "Seed-2.0-Lite",
       "providerId": "openrouter",
@@ -49957,6 +50001,17 @@
       "name": "KAT-Coder-Pro V2.5",
       "providerId": "openrouter",
       "updated": "2026-07-10"
+    },
+    {
+      "flags": {
+        "attachment": false,
+        "reasoning": true,
+        "tool_call": true
+      },
+      "id": "liquid/lfm-2.5-2.6b:free",
+      "name": "LFM2.5-2.6B (free)",
+      "providerId": "openrouter",
+      "updated": "2026-08-11"
     },
     {
       "flags": {
@@ -50661,6 +50716,17 @@
       "name": "Nemotron 3.5 Content Safety (free)",
       "providerId": "openrouter",
       "updated": "2026-06-04"
+    },
+    {
+      "flags": {
+        "attachment": false,
+        "reasoning": true,
+        "tool_call": false
+      },
+      "id": "nvidia/nemotron-3.5-lightning",
+      "name": "Nemotron 3.5 Lightning 30B A3B",
+      "providerId": "openrouter",
+      "updated": "2026-08-11"
     },
     {
       "flags": {
@@ -70772,7 +70838,7 @@
       "iconURL": "https://models.dev/logos/deepinfra.svg",
       "id": "deepinfra",
       "lobeIcon": "DeepInfra",
-      "modelCount": 51,
+      "modelCount": 52,
       "name": "Deep Infra"
     },
     {
@@ -70828,7 +70894,7 @@
       "doc": "https://docs.empiriolabs.ai",
       "iconURL": "https://models.dev/logos/empiriolabs.svg",
       "id": "empiriolabs",
-      "modelCount": 42,
+      "modelCount": 43,
       "name": "EmpirioLabs AI"
     },
     {
@@ -71324,7 +71390,7 @@
       "doc": "https://docs.nano-gpt.com",
       "iconURL": "https://models.dev/logos/nano-gpt.svg",
       "id": "nano-gpt",
-      "modelCount": 621,
+      "modelCount": 622,
       "name": "NanoGPT"
     },
     {
@@ -71430,7 +71496,7 @@
       "iconURL": "https://models.dev/logos/openrouter.svg",
       "id": "openrouter",
       "lobeIcon": "OpenRouter.Color",
-      "modelCount": 342,
+      "modelCount": 345,
       "name": "OpenRouter"
     },
     {

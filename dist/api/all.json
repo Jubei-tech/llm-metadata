@@ -51481,6 +51481,60 @@
     "id": "deepinfra",
     "lobeIcon": "DeepInfra",
     "models": {
+      "ByteDance/Seed-2.0-code": {
+        "attachment": true,
+        "cost": {
+          "cache_read": 0.1,
+          "input": 0.5,
+          "output": 3,
+          "tiers": [
+            {
+              "cache_read": 0.2,
+              "input": 1,
+              "output": 6,
+              "tier": {
+                "size": 128000,
+                "type": "context"
+              }
+            }
+          ]
+        },
+        "description": "ByteDance Seed coding model for multimodal software engineering and long-running agents",
+        "family": "seed",
+        "id": "ByteDance/Seed-2.0-code",
+        "last_updated": "2026-02-14",
+        "limit": {
+          "context": 256000,
+          "output": 131072
+        },
+        "modalities": {
+          "input": [
+            "text",
+            "image"
+          ],
+          "output": [
+            "text"
+          ]
+        },
+        "name": "Seed 2.0 Code",
+        "open_weights": false,
+        "reasoning": true,
+        "reasoning_options": [
+          {
+            "type": "effort",
+            "values": [
+              "none",
+              "low",
+              "medium",
+              "high"
+            ]
+          }
+        ],
+        "release_date": "2026-02-14",
+        "structured_output": true,
+        "temperature": true,
+        "tool_call": true
+      },
       "MiniMaxAI/MiniMax-M2.5": {
         "attachment": false,
         "cost": {
@@ -55038,9 +55092,9 @@
       "glm-5.2": {
         "attachment": false,
         "cost": {
-          "cache_read": 0.21,
-          "input": 1.4,
-          "output": 4.4
+          "cache_read": 0.0945,
+          "input": 0.63,
+          "output": 1.98
         },
         "description": "Open flagship GLM for long-horizon coding agents and million-token context work",
         "family": "glm",
@@ -59667,6 +59721,63 @@
         "reasoning": true,
         "reasoning_options": [],
         "release_date": "2025-09-23",
+        "structured_output": true,
+        "temperature": true,
+        "tool_call": true
+      },
+      "seed-2-0-code": {
+        "attachment": true,
+        "cost": {
+          "cache_read": 0.4,
+          "input": 0.4,
+          "output": 2.4,
+          "tiers": [
+            {
+              "cache_read": 0.8,
+              "input": 0.8,
+              "output": 4.8,
+              "tier": {
+                "size": 128000,
+                "type": "context"
+              }
+            }
+          ]
+        },
+        "description": "ByteDance Seed coding model for multimodal software engineering and long-running agents",
+        "family": "seed",
+        "id": "seed-2-0-code",
+        "last_updated": "2026-02-14",
+        "limit": {
+          "context": 256000,
+          "output": 128000
+        },
+        "modalities": {
+          "input": [
+            "text",
+            "image",
+            "video"
+          ],
+          "output": [
+            "text"
+          ]
+        },
+        "name": "Seed 2.0 Code",
+        "open_weights": false,
+        "reasoning": true,
+        "reasoning_options": [
+          {
+            "type": "toggle"
+          },
+          {
+            "type": "effort",
+            "values": [
+              "low",
+              "medium",
+              "high"
+            ]
+          }
+        ],
+        "release_date": "2026-02-14",
         "structured_output": true,
         "temperature": true,
         "tool_call": true
@@ -93341,8 +93452,8 @@
         "attachment": true,
         "cost": {
           "cache_read": 0.04,
-          "input": 0.35,
-          "output": 1.5
+          "input": 0.3,
+          "output": 1.2
         },
         "description": "Muse Glimmer 30B is a dense, open-weight multimodal model from Meta Superintelligence Labs, distilled from Muse Spark and optimized for autonomous agents on consumer hardware. It is suited for long-horizon...",
         "family": "muse",
@@ -131090,7 +131201,7 @@
           "input": 0.782,
           "output": 3.893
         },
-        "description": "Compact GPT model for low-latency assistance and high-volume workloads",
+        "description": "ByteDance Seed coding model for multimodal software engineering and long-running agents",
         "family": "seed",
         "id": "doubao-seed-2-0-code-preview-260215",
         "last_updated": "2026-02-14",
@@ -131112,6 +131223,7 @@
         "reasoning": false,
         "release_date": "2026-02-14",
         "structured_output": false,
+        "temperature": true,
         "tool_call": false
       },
       "doubao-seed-2-0-lite-260215": {
@@ -141864,6 +141976,47 @@
           }
         ],
         "release_date": "2026-07-24",
+        "structured_output": true,
+        "tool_call": true
+      },
+      "sakana/sakana-namazu": {
+        "attachment": true,
+        "cost": {
+          "cache_read": 0.1575,
+          "input": 0.9975,
+          "output": 4.2
+        },
+        "description": "Sakana AI's Japanese-specialized reasoning model, based on Kimi K2.6 and tuned for natural Japanese, Japanese business contexts, coding, and agentic problem solving.",
+        "id": "sakana/sakana-namazu",
+        "last_updated": "2026-08-11",
+        "limit": {
+          "context": 262144,
+          "input": 262144,
+          "output": 65536
+        },
+        "modalities": {
+          "input": [
+            "text",
+            "image",
+            "pdf"
+          ],
+          "output": [
+            "text"
+          ]
+        },
+        "name": "Sakana Namazu",
+        "open_weights": false,
+        "reasoning": true,
+        "reasoning_options": [
+          {
+            "type": "effort",
+            "values": [
+              "none",
+              "high"
+            ]
+          }
+        ],
+        "release_date": "2026-08-11",
         "structured_output": true,
         "tool_call": true
       },
@@ -166020,7 +166173,10 @@
         "description": "Tencent Hy reasoning model for coding, instruction following, and agent tasks",
         "family": "hy3-free",
         "id": "hy3-free",
-        "last_updated": "2026-06-26",
+        "interleaved": {
+          "field": "reasoning_content"
+        },
+        "last_updated": "2026-07-06",
         "limit": {
           "context": 190000,
           "output": 64000
@@ -166036,9 +166192,21 @@
         "name": "Hy3 Free",
         "open_weights": true,
         "reasoning": true,
-        "reasoning_options": [],
-        "release_date": "2026-06-26",
-        "status": "deprecated",
+        "reasoning_options": [
+          {
+            "type": "toggle"
+          },
+          {
+            "type": "effort",
+            "values": [
+              "low",
+              "medium",
+              "high"
+            ]
+          }
+        ],
+        "release_date": "2026-07-06",
+        "structured_output": true,
         "temperature": true,
         "tool_call": true
       },
@@ -169131,6 +169299,9 @@
         "reasoning": true,
         "reasoning_options": [
           {
+            "type": "toggle"
+          },
+          {
             "type": "effort",
             "values": [
               "low",
@@ -169198,6 +169369,9 @@
         "reasoning": true,
         "reasoning_options": [
           {
+            "type": "toggle"
+          },
+          {
             "type": "effort",
             "values": [
               "low",
@@ -169244,6 +169418,9 @@
         "open_weights": false,
         "reasoning": true,
         "reasoning_options": [
+          {
+            "type": "toggle"
+          },
           {
             "type": "effort",
             "values": [
@@ -169292,6 +169469,9 @@
         "reasoning": true,
         "reasoning_options": [
           {
+            "type": "toggle"
+          },
+          {
             "type": "effort",
             "values": [
               "low",
@@ -169338,6 +169518,9 @@
         "open_weights": false,
         "reasoning": true,
         "reasoning_options": [
+          {
+            "type": "toggle"
+          },
           {
             "type": "effort",
             "values": [
@@ -169386,6 +169569,9 @@
         "reasoning": true,
         "reasoning_options": [
           {
+            "type": "toggle"
+          },
+          {
             "type": "effort",
             "values": [
               "low",
@@ -169432,6 +169618,9 @@
         "open_weights": false,
         "reasoning": true,
         "reasoning_options": [
+          {
+            "type": "toggle"
+          },
           {
             "type": "effort",
             "values": [
@@ -169624,6 +169813,9 @@
         "reasoning": true,
         "reasoning_options": [
           {
+            "type": "toggle"
+          },
+          {
             "type": "effort",
             "values": [
               "low",
@@ -169669,6 +169861,9 @@
         "open_weights": false,
         "reasoning": true,
         "reasoning_options": [
+          {
+            "type": "toggle"
+          },
           {
             "type": "effort",
             "values": [
@@ -169866,6 +170061,61 @@
         "temperature": true,
         "tool_call": true
       },
+      "bytedance-seed/seed-2.0-code": {
+        "attachment": true,
+        "cost": {
+          "input": 0.5,
+          "output": 3,
+          "tiers": [
+            {
+              "input": 1,
+              "output": 6,
+              "tier": {
+                "size": 128000,
+                "type": "context"
+              }
+            }
+          ]
+        },
+        "description": "Coding model for repository understanding, refactors, and agentic engineering tasks",
+        "family": "seed",
+        "id": "bytedance-seed/seed-2.0-code",
+        "last_updated": "2026-02-14",
+        "limit": {
+          "context": 262144,
+          "output": 131072
+        },
+        "modalities": {
+          "input": [
+            "text",
+            "image",
+            "video"
+          ],
+          "output": [
+            "text"
+          ]
+        },
+        "name": "Seed 2.0 Code",
+        "open_weights": false,
+        "reasoning": true,
+        "reasoning_options": [
+          {
+            "type": "toggle"
+          },
+          {
+            "type": "effort",
+            "values": [
+              "low",
+              "medium",
+              "high"
+            ]
+          }
+        ],
+        "release_date": "2026-02-14",
+        "structured_output": true,
+        "temperature": true,
+        "tool_call": true
+      },
       "bytedance-seed/seed-2.0-lite": {
         "attachment": true,
         "cost": {
@@ -169904,6 +170154,9 @@
         "open_weights": false,
         "reasoning": true,
         "reasoning_options": [
+          {
+            "type": "toggle"
+          },
           {
             "type": "effort",
             "values": [
@@ -169957,6 +170210,9 @@
         "open_weights": false,
         "reasoning": true,
         "reasoning_options": [
+          {
+            "type": "toggle"
+          },
           {
             "type": "effort",
             "values": [
@@ -170421,9 +170677,9 @@
       "deepseek/deepseek-v3.1-terminus": {
         "attachment": false,
         "cost": {
-          "cache_read": 0.135,
+          "cache_read": 0.13,
           "input": 0.27,
-          "output": 1
+          "output": 0.95
         },
         "description": "DeepSeek chat model for instruction following, coding, and analysis",
         "family": "deepseek",
@@ -170560,6 +170816,9 @@
         "reasoning": true,
         "reasoning_options": [
           {
+            "type": "toggle"
+          },
+          {
             "type": "effort",
             "values": [
               "high",
@@ -170600,6 +170859,9 @@
         "open_weights": true,
         "reasoning": true,
         "reasoning_options": [
+          {
+            "type": "toggle"
+          },
           {
             "type": "effort",
             "values": [
@@ -170645,6 +170907,9 @@
         "open_weights": true,
         "reasoning": true,
         "reasoning_options": [
+          {
+            "type": "toggle"
+          },
           {
             "type": "effort",
             "values": [
@@ -171009,6 +171274,9 @@
         "reasoning": true,
         "reasoning_options": [
           {
+            "type": "toggle"
+          },
+          {
             "type": "effort",
             "values": [
               "minimal",
@@ -171114,8 +171382,8 @@
         },
         "modalities": {
           "input": [
-            "text",
-            "image"
+            "image",
+            "text"
           ],
           "output": [
             "text",
@@ -171126,6 +171394,9 @@
         "open_weights": false,
         "reasoning": true,
         "reasoning_options": [
+          {
+            "type": "toggle"
+          },
           {
             "type": "effort",
             "values": [
@@ -171168,6 +171439,9 @@
         "open_weights": false,
         "reasoning": true,
         "reasoning_options": [
+          {
+            "type": "toggle"
+          },
           {
             "type": "effort",
             "values": [
@@ -171216,6 +171490,9 @@
         "reasoning": true,
         "reasoning_options": [
           {
+            "type": "toggle"
+          },
+          {
             "type": "effort",
             "values": [
               "minimal",
@@ -171259,6 +171536,9 @@
         "open_weights": false,
         "reasoning": true,
         "reasoning_options": [
+          {
+            "type": "toggle"
+          },
           {
             "type": "effort",
             "values": [
@@ -171306,6 +171586,9 @@
         "open_weights": false,
         "reasoning": true,
         "reasoning_options": [
+          {
+            "type": "toggle"
+          },
           {
             "type": "effort",
             "values": [
@@ -172362,6 +172645,37 @@
         "open_weights": false,
         "reasoning": false,
         "release_date": "2026-07-10",
+        "structured_output": true,
+        "temperature": true,
+        "tool_call": true
+      },
+      "liquid/lfm-2.5-2.6b:free": {
+        "attachment": false,
+        "cost": {
+          "input": 0,
+          "output": 0
+        },
+        "description": "Free provider route for experiments, demos, and cost-sensitive chat workloads",
+        "family": "liquid",
+        "id": "liquid/lfm-2.5-2.6b:free",
+        "last_updated": "2026-08-11",
+        "limit": {
+          "context": 128000,
+          "output": 32768
+        },
+        "modalities": {
+          "input": [
+            "text"
+          ],
+          "output": [
+            "text"
+          ]
+        },
+        "name": "LFM2.5-2.6B (free)",
+        "open_weights": true,
+        "reasoning": true,
+        "reasoning_options": [],
+        "release_date": "2026-08-11",
         "structured_output": true,
         "temperature": true,
         "tool_call": true
@@ -173892,9 +174206,9 @@
       "moonshotai/kimi-k2.6": {
         "attachment": true,
         "cost": {
-          "cache_read": 0.0976,
-          "input": 0.5795,
-          "output": 2.44
+          "cache_read": 0.16,
+          "input": 0.95,
+          "output": 4
         },
         "description": "Multimodal Kimi workhorse for agent loops, coding tasks, and visual context",
         "family": "kimi-k2",
@@ -173989,6 +174303,9 @@
         "open_weights": true,
         "reasoning": true,
         "reasoning_options": [
+          {
+            "type": "toggle"
+          },
           {
             "type": "effort",
             "values": [
@@ -174391,6 +174708,9 @@
         "reasoning": true,
         "reasoning_options": [
           {
+            "type": "toggle"
+          },
+          {
             "type": "effort",
             "values": [
               "low",
@@ -174432,6 +174752,9 @@
         "open_weights": true,
         "reasoning": true,
         "reasoning_options": [
+          {
+            "type": "toggle"
+          },
           {
             "type": "effort",
             "values": [
@@ -174476,6 +174799,9 @@
         "reasoning": true,
         "reasoning_options": [
           {
+            "type": "toggle"
+          },
+          {
             "type": "effort",
             "values": [
               "medium",
@@ -174517,6 +174843,9 @@
         "open_weights": true,
         "reasoning": true,
         "reasoning_options": [
+          {
+            "type": "toggle"
+          },
           {
             "type": "effort",
             "values": [
@@ -174565,6 +174894,42 @@
         "temperature": true,
         "tool_call": false
       },
+      "nvidia/nemotron-3.5-lightning": {
+        "attachment": false,
+        "cost": {
+          "cache_read": 0.05,
+          "input": 0.1,
+          "output": 0.25
+        },
+        "description": "Nemotron model for efficient reasoning, coding, and specialized AI agents",
+        "family": "nemotron",
+        "id": "nvidia/nemotron-3.5-lightning",
+        "last_updated": "2026-08-11",
+        "limit": {
+          "context": 262144,
+          "output": 262144
+        },
+        "modalities": {
+          "input": [
+            "text"
+          ],
+          "output": [
+            "text"
+          ]
+        },
+        "name": "Nemotron 3.5 Lightning 30B A3B",
+        "open_weights": true,
+        "reasoning": true,
+        "reasoning_options": [
+          {
+            "type": "toggle"
+          }
+        ],
+        "release_date": "2026-08-11",
+        "structured_output": true,
+        "temperature": true,
+        "tool_call": false
+      },
       "nvidia/nemotron-3.5-lightning:free": {
         "attachment": false,
         "cost": {
@@ -174590,7 +174955,11 @@
         "name": "Nemotron 3.5 Lightning (free)",
         "open_weights": true,
         "reasoning": true,
-        "reasoning_options": [],
+        "reasoning_options": [
+          {
+            "type": "toggle"
+          }
+        ],
         "release_date": "2026-08-11",
         "structured_output": false,
         "temperature": true,
@@ -175599,6 +175968,9 @@
         "open_weights": false,
         "reasoning": true,
         "reasoning_options": [
+          {
+            "type": "toggle"
+          },
           {
             "type": "effort",
             "values": [
@@ -176714,7 +177086,8 @@
       "openai/gpt-oss-120b": {
         "attachment": false,
         "cost": {
-          "input": 0.037,
+          "cache_read": 0.03,
+          "input": 0.03,
           "output": 0.17
         },
         "description": "Open GPT reasoning model for self-hosted agents and controllable deployments",
@@ -178631,9 +179004,8 @@
       "qwen/qwen3-vl-235b-a22b-instruct": {
         "attachment": true,
         "cost": {
-          "cache_read": 0.1,
-          "input": 0.21,
-          "output": 1.9
+          "input": 0.26,
+          "output": 1.04
         },
         "description": "Qwen vision-language model for visual reasoning, documents, and agent tasks",
         "family": "qwen",
@@ -180977,9 +181349,9 @@
       "z-ai/glm-4.6": {
         "attachment": false,
         "cost": {
-          "cache_read": 0.1,
-          "input": 0.5,
-          "output": 2
+          "cache_read": 0.11,
+          "input": 0.55,
+          "output": 2.2
         },
         "description": "Late GLM-4 workhorse for coding agents, reasoning, and structured tasks",
         "family": "glm",
@@ -181187,9 +181559,9 @@
       "z-ai/glm-5.1": {
         "attachment": false,
         "cost": {
-          "cache_read": 0.1768,
-          "input": 0.952,
-          "output": 2.992
+          "cache_read": 0.26,
+          "input": 1.4,
+          "output": 4.4
         },
         "description": "Strong GLM coding model for agentic engineering, terminals, and repository generation",
         "family": "glm",
@@ -181222,9 +181594,9 @@
       "z-ai/glm-5.2": {
         "attachment": false,
         "cost": {
-          "cache_read": 0.09074,
-          "input": 0.4886,
-          "output": 1.5356
+          "cache_read": 0.10374,
+          "input": 0.5586,
+          "output": 1.7556
         },
         "description": "Open flagship GLM for long-horizon coding agents and million-token context work",
         "family": "glm",
@@ -181249,6 +181621,9 @@
         "open_weights": true,
         "reasoning": true,
         "reasoning_options": [
+          {
+            "type": "toggle"
+          },
           {
             "type": "effort",
             "values": [
@@ -181417,6 +181792,9 @@
         "reasoning": true,
         "reasoning_options": [
           {
+            "type": "toggle"
+          },
+          {
             "type": "effort",
             "values": [
               "low",
@@ -181464,6 +181842,9 @@
         "reasoning": true,
         "reasoning_options": [
           {
+            "type": "toggle"
+          },
+          {
             "type": "effort",
             "values": [
               "low",
@@ -181482,9 +181863,9 @@
       "~deepseek/deepseek-v4-flash-latest": {
         "attachment": false,
         "cost": {
-          "cache_read": 0.01596,
-          "input": 0.0798,
-          "output": 0.1596
+          "cache_read": 0.0144,
+          "input": 0.072,
+          "output": 0.144
         },
         "description": "Fast DeepSeek model for efficient chat, coding help, and agent loops",
         "family": "deepseek",
@@ -181492,7 +181873,7 @@
         "last_updated": "2026-08-01",
         "limit": {
           "context": 1048576,
-          "output": 131072
+          "output": 262144
         },
         "modalities": {
           "input": [
@@ -181506,6 +181887,9 @@
         "open_weights": false,
         "reasoning": true,
         "reasoning_options": [
+          {
+            "type": "toggle"
+          },
           {
             "type": "effort",
             "values": [
@@ -181662,6 +182046,9 @@
         "open_weights": false,
         "reasoning": true,
         "reasoning_options": [
+          {
+            "type": "toggle"
+          },
           {
             "type": "effort",
             "values": [

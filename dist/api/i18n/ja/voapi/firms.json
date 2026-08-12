@@ -416,7 +416,7 @@
       "doc": "https://deepinfra.com/models",
       "icon": "lb:deepinfra",
       "id": "deepinfra",
-      "modelCount": 51,
+      "modelCount": 52,
       "name": "Deep Infra",
       "status": 1
     },
@@ -486,7 +486,7 @@
       "doc": "https://docs.empiriolabs.ai",
       "icon": "https://models.dev/logos/empiriolabs.svg",
       "id": "empiriolabs",
-      "modelCount": 42,
+      "modelCount": 43,
       "name": "EmpirioLabs AI",
       "status": 1
     },
@@ -1096,7 +1096,7 @@
       "doc": "https://docs.nano-gpt.com",
       "icon": "https://models.dev/logos/nano-gpt.svg",
       "id": "nano-gpt",
-      "modelCount": 621,
+      "modelCount": 622,
       "name": "NanoGPT",
       "status": 1
     },
@@ -1226,7 +1226,7 @@
       "doc": "https://openrouter.ai/models",
       "icon": "lb:openrouter-color",
       "id": "openrouter",
-      "modelCount": 342,
+      "modelCount": 345,
       "name": "OpenRouter",
       "status": 1
     },

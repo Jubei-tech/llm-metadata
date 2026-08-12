@@ -23,7 +23,11 @@
   "name": "Nemotron 3.5 Lightning (free)",
   "open_weights": true,
   "reasoning": true,
-  "reasoning_options": [],
+  "reasoning_options": [
+    {
+      "type": "toggle"
+    }
+  ],
   "release_date": "2026-08-11",
   "structured_output": false,
   "temperature": true,
