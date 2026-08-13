@@ -135,9 +135,9 @@
     "gemma-4-26b-a4b-it": {
       "attachment": false,
       "cost": {
-        "cache_write": 0.058,
-        "input": 0.116,
-        "output": 0.408
+        "cache_write": 0.063,
+        "input": 0.126,
+        "output": 0.42
       },
       "description": "Open Gemma instruction model for efficient chat and self-hosted deployments",
       "family": "gemma",
@@ -249,7 +249,7 @@
       "cost": {
         "cache_write": 0.094,
         "input": 0.188,
-        "output": 0.73
+        "output": 0.7
       },
       "description": "Open GPT reasoning model for self-hosted agents and controllable deployments",
       "family": "gpt-oss",
@@ -288,9 +288,9 @@
     "kimi-k2.5": {
       "attachment": false,
       "cost": {
-        "cache_write": 0.279,
-        "input": 0.558,
-        "output": 2.94
+        "cache_write": 0.266,
+        "input": 0.532,
+        "output": 2.8
       },
       "description": "Earlier Kimi frontier model for long-context agents, coding, and multimodal work",
       "family": "kimi-k2",
@@ -502,9 +502,9 @@
     "minimax-m2.7": {
       "attachment": false,
       "cost": {
-        "cache_write": 0.218,
-        "input": 0.436,
-        "output": 1.66
+        "cache_write": 0.235,
+        "input": 0.47,
+        "output": 1.76
       },
       "description": "Open MiniMax flagship for coding agents, office automation, and complex environments",
       "family": "minimax",
