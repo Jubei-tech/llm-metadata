@@ -48766,10 +48766,10 @@
       },
       "name": "DeepSeek V4 Flash",
       "price": {
-        "cacheRead": 0.015,
-        "cacheWrite": 0.45,
-        "input": 0.45,
-        "output": 1.35
+        "cacheRead": 0.0135,
+        "cacheWrite": 0.405,
+        "input": 0.405,
+        "output": 1.215
       },
       "releaseDate": "2026-04-24",
       "tags": []
@@ -48802,10 +48802,10 @@
       },
       "name": "DeepSeek V4 Pro",
       "price": {
-        "cacheRead": 0.045,
-        "cacheWrite": 1.35,
-        "input": 1.35,
-        "output": 4.05
+        "cacheRead": 0.0405,
+        "cacheWrite": 1.215,
+        "input": 1.215,
+        "output": 3.645
       },
       "releaseDate": "2026-04-24",
       "tags": []
@@ -60696,10 +60696,10 @@
       },
       "name": "DeepSeek V4 Flash",
       "price": {
-        "cacheRead": 0.0028,
+        "cacheRead": 0.007,
         "cacheWrite": null,
-        "input": 0.14,
-        "output": 0.28
+        "input": 0.22,
+        "output": 0.66
       },
       "releaseDate": "2026-04-24",
       "tags": []
@@ -60732,10 +60732,10 @@
       },
       "name": "DeepSeek V4 Pro",
       "price": {
-        "cacheRead": 0.003625,
+        "cacheRead": 0.022,
         "cacheWrite": null,
-        "input": 0.435,
-        "output": 0.87
+        "input": 0.66,
+        "output": 1.98
       },
       "releaseDate": "2026-04-24",
       "tags": []
@@ -98004,8 +98004,8 @@
       "id": "~moonshotai/kimi-latest",
       "knowledge": null,
       "lastUpdated": "2026-04-27",
-      "maxCtxTokens": 1048576,
-      "maxOutputTokens": 1048576,
+      "maxCtxTokens": 974842,
+      "maxOutputTokens": 974842,
       "modalities": {
         "input": [
           "text",
@@ -98020,8 +98020,8 @@
       "price": {
         "cacheRead": 0.29,
         "cacheWrite": null,
-        "input": 2.8,
-        "output": 14
+        "input": 2.6,
+        "output": 13
       },
       "releaseDate": "2026-04-27",
       "tags": []
@@ -100299,7 +100299,7 @@
       "knowledge": "2025-05",
       "lastUpdated": "2026-04-24",
       "maxCtxTokens": 1048576,
-      "maxOutputTokens": 393216,
+      "maxOutputTokens": 384000,
       "modalities": {
         "input": [
           "text"
@@ -101420,7 +101420,7 @@
       "knowledge": null,
       "lastUpdated": "2026-04-02",
       "maxCtxTokens": 262144,
-      "maxOutputTokens": 262144,
+      "maxOutputTokens": 16384,
       "modalities": {
         "input": [
           "image",
@@ -104249,7 +104249,7 @@
       "knowledge": null,
       "lastUpdated": "2025-12-15",
       "maxCtxTokens": 262144,
-      "maxOutputTokens": 228000,
+      "maxOutputTokens": 262144,
       "modalities": {
         "input": [
           "text"
@@ -108751,8 +108751,8 @@
       "id": "qwen/qwen3.6-27b",
       "knowledge": null,
       "lastUpdated": "2026-04-22",
-      "maxCtxTokens": 262144,
-      "maxOutputTokens": 65536,
+      "maxCtxTokens": 131072,
+      "maxOutputTokens": 131072,
       "modalities": {
         "input": [
           "text",
@@ -109877,10 +109877,10 @@
       },
       "name": "Hy3",
       "price": {
-        "cacheRead": 0.033,
+        "cacheRead": 0.035,
         "cacheWrite": null,
-        "input": 0.132,
-        "output": 0.528
+        "input": 0.14,
+        "output": 0.58
       },
       "releaseDate": "2026-07-06",
       "tags": []
@@ -111003,8 +111003,8 @@
       "id": "z-ai/glm-5.2",
       "knowledge": null,
       "lastUpdated": "2026-06-13",
-      "maxCtxTokens": 1024000,
-      "maxOutputTokens": 128000,
+      "maxCtxTokens": 1048576,
+      "maxOutputTokens": 262144,
       "modalities": {
         "input": [
           "text"
@@ -111019,6 +111019,42 @@
         "cacheWrite": null,
         "input": 1.4,
         "output": 4.4
+      },
+      "releaseDate": "2026-06-13",
+      "tags": []
+    },
+    {
+      "description": "GLM 5.2 is a large-scale reasoning model from Z.ai. It supports text input and output with a 1M-token context window, and is suited for long-horizon agent workflows, project-level software engineering,...",
+      "firm": "kilo",
+      "flags": {
+        "attachment": false,
+        "audio": false,
+        "image": false,
+        "open_weights": true,
+        "reasoning": true,
+        "temperature": true,
+        "tool_call": false
+      },
+      "icon": "",
+      "id": "z-ai/glm-5.2:free",
+      "knowledge": null,
+      "lastUpdated": "2026-06-13",
+      "maxCtxTokens": 128000,
+      "maxOutputTokens": 128000,
+      "modalities": {
+        "input": [
+          "text"
+        ],
+        "output": [
+          "text"
+        ]
+      },
+      "name": "Z.ai: GLM 5.2 (free)",
+      "price": {
+        "cacheRead": null,
+        "cacheWrite": null,
+        "input": null,
+        "output": null
       },
       "releaseDate": "2026-06-13",
       "tags": []
@@ -177529,7 +177565,7 @@
       "knowledge": null,
       "lastUpdated": "2026-04-27",
       "maxCtxTokens": 1048576,
-      "maxOutputTokens": 1048576,
+      "maxOutputTokens": 974842,
       "modalities": {
         "input": [
           "text",
@@ -177544,8 +177580,8 @@
       "price": {
         "cacheRead": 0.29,
         "cacheWrite": null,
-        "input": 2.8,
-        "output": 14
+        "input": 2.6,
+        "output": 13
       },
       "releaseDate": "2026-04-27",
       "tags": []
@@ -179725,10 +179761,10 @@
       },
       "name": "DeepSeek V4 Flash",
       "price": {
-        "cacheRead": 0.011732,
+        "cacheRead": 0.01652,
         "cacheWrite": null,
-        "input": 0.05866,
-        "output": 0.11732
+        "input": 0.0826,
+        "output": 0.1652
       },
       "releaseDate": "2026-04-24",
       "tags": []
@@ -179786,7 +179822,7 @@
       "knowledge": "2025-05",
       "lastUpdated": "2026-04-24",
       "maxCtxTokens": 1048576,
-      "maxOutputTokens": 393216,
+      "maxOutputTokens": 384000,
       "modalities": {
         "input": [
           "text"
@@ -179797,10 +179833,10 @@
       },
       "name": "DeepSeek V4 Pro",
       "price": {
-        "cacheRead": 0.09855,
+        "cacheRead": 0.022,
         "cacheWrite": null,
-        "input": 1.168,
-        "output": 2.336
+        "input": 0.66,
+        "output": 1.98
       },
       "releaseDate": "2026-04-24",
       "tags": []
@@ -183194,10 +183230,10 @@
       },
       "name": "Kimi K2.6",
       "price": {
-        "cacheRead": 0.0912,
+        "cacheRead": 0.16,
         "cacheWrite": null,
-        "input": 0.5415,
-        "output": 2.28
+        "input": 0.95,
+        "output": 4
       },
       "releaseDate": "2026-04-21",
       "tags": []
@@ -183584,7 +183620,7 @@
       "knowledge": null,
       "lastUpdated": "2025-12-15",
       "maxCtxTokens": 262144,
-      "maxOutputTokens": 228000,
+      "maxOutputTokens": 262144,
       "modalities": {
         "input": [
           "text"
@@ -183595,7 +183631,7 @@
       },
       "name": "Nemotron 3 Nano 30B A3B",
       "price": {
-        "cacheRead": 0.025,
+        "cacheRead": 0.03,
         "cacheWrite": null,
         "input": 0.05,
         "output": 0.2
@@ -187705,10 +187741,10 @@
       },
       "name": "Qwen3 VL 235B A22B Instruct",
       "price": {
-        "cacheRead": null,
+        "cacheRead": 0.1,
         "cacheWrite": null,
-        "input": 0.26,
-        "output": 1.04
+        "input": 0.21,
+        "output": 1.9
       },
       "releaseDate": "2025-09-23",
       "tags": []
@@ -190208,7 +190244,7 @@
       "knowledge": null,
       "lastUpdated": "2026-06-13",
       "maxCtxTokens": 1048576,
-      "maxOutputTokens": 128000,
+      "maxOutputTokens": 262144,
       "modalities": {
         "input": [
           "text"
@@ -190219,10 +190255,10 @@
       },
       "name": "GLM-5.2",
       "price": {
-        "cacheRead": 0.0572,
+        "cacheRead": 0.221,
         "cacheWrite": null,
-        "input": 0.308,
-        "output": 0.968
+        "input": 1.19,
+        "output": 3.74
       },
       "releaseDate": "2026-06-13",
       "tags": []
@@ -230448,6 +230484,43 @@
       "tags": []
     },
     {
+      "description": "Qwen vision-language model for visual reasoning, documents, and agent tasks",
+      "firm": "vercel",
+      "flags": {
+        "attachment": true,
+        "audio": false,
+        "image": true,
+        "open_weights": false,
+        "reasoning": true,
+        "temperature": true,
+        "tool_call": true
+      },
+      "icon": "lb:vercel-color",
+      "id": "alibaba/qwen3.8-27b",
+      "knowledge": null,
+      "lastUpdated": "2026-08-14",
+      "maxCtxTokens": 262144,
+      "maxOutputTokens": 262133,
+      "modalities": {
+        "input": [
+          "text",
+          "image"
+        ],
+        "output": [
+          "text"
+        ]
+      },
+      "name": "Qwen3.8 27B",
+      "price": {
+        "cacheRead": null,
+        "cacheWrite": null,
+        "input": null,
+        "output": null
+      },
+      "releaseDate": "2026-08-14",
+      "tags": []
+    },
+    {
       "description": "Preview Qwen flagship for million-token multimodal reasoning and long-horizon agentic workflows",
       "firm": "vercel",
       "flags": {
@@ -236536,6 +236609,42 @@
         "output": 2.4
       },
       "releaseDate": "2026-06-04",
+      "tags": []
+    },
+    {
+      "description": "Nemotron model for efficient reasoning, coding, and specialized AI agents",
+      "firm": "vercel",
+      "flags": {
+        "attachment": false,
+        "audio": false,
+        "image": false,
+        "open_weights": false,
+        "reasoning": true,
+        "temperature": true,
+        "tool_call": true
+      },
+      "icon": "lb:vercel-color",
+      "id": "nvidia/nemotron-3.5-lightning",
+      "knowledge": null,
+      "lastUpdated": "2026-08-11",
+      "maxCtxTokens": 262144,
+      "maxOutputTokens": 131072,
+      "modalities": {
+        "input": [
+          "text"
+        ],
+        "output": [
+          "text"
+        ]
+      },
+      "name": "Nemotron 3.5 Lightning 30B",
+      "price": {
+        "cacheRead": null,
+        "cacheWrite": null,
+        "input": null,
+        "output": null
+      },
+      "releaseDate": "2026-08-11",
       "tags": []
     },
     {

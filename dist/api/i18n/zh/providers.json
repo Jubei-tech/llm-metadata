@@ -670,7 +670,7 @@
       "doc": "https://kilo.ai",
       "iconURL": "https://models.dev/logos/kilo.svg",
       "id": "kilo",
-      "modelCount": 359,
+      "modelCount": 360,
       "name": "Kilo Gateway"
     },
     {
@@ -1405,7 +1405,7 @@
       "iconURL": "https://models.dev/logos/vercel.svg",
       "id": "vercel",
       "lobeIcon": "Vercel.Color",
-      "modelCount": 327,
+      "modelCount": 329,
       "name": "Vercel AI Gateway"
     },
     {

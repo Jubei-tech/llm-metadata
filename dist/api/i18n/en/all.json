@@ -48358,10 +48358,10 @@
       "deepseek/deepseek-v4-flash": {
         "attachment": false,
         "cost": {
-          "cache_read": 0.015,
-          "cache_write": 0.45,
-          "input": 0.45,
-          "output": 1.35
+          "cache_read": 0.0135,
+          "cache_write": 0.405,
+          "input": 0.405,
+          "output": 1.215
         },
         "description": "Fast DeepSeek V4 lane for economical reasoning, coding, and long-context work",
         "family": "deepseek-flash",
@@ -48406,10 +48406,10 @@
       "deepseek/deepseek-v4-pro": {
         "attachment": false,
         "cost": {
-          "cache_read": 0.045,
-          "cache_write": 1.35,
-          "input": 1.35,
-          "output": 4.05
+          "cache_read": 0.0405,
+          "cache_write": 1.215,
+          "input": 1.215,
+          "output": 3.645
         },
         "description": "Open MoE flagship with million-token context for coding and long agent runs",
         "family": "deepseek-thinking",
@@ -61882,9 +61882,9 @@
       "deepseek/deepseek-v4-flash": {
         "attachment": false,
         "cost": {
-          "cache_read": 0.0028,
-          "input": 0.14,
-          "output": 0.28
+          "cache_read": 0.007,
+          "input": 0.22,
+          "output": 0.66
         },
         "description": "Fast DeepSeek V4 lane for economical reasoning, coding, and long-context work",
         "family": "deepseek-flash",
@@ -61925,9 +61925,9 @@
       "deepseek/deepseek-v4-pro": {
         "attachment": false,
         "cost": {
-          "cache_read": 0.003625,
-          "input": 0.435,
-          "output": 0.87
+          "cache_read": 0.022,
+          "input": 0.66,
+          "output": 1.98
         },
         "description": "Open MoE flagship with million-token context for coding and long agent runs",
         "family": "deepseek-thinking",
@@ -103909,7 +103909,7 @@
         "last_updated": "2026-04-24",
         "limit": {
           "context": 1048576,
-          "output": 393216
+          "output": 384000
         },
         "modalities": {
           "input": [
@@ -105153,7 +105153,7 @@
         "last_updated": "2026-04-02",
         "limit": {
           "context": 262144,
-          "output": 262144
+          "output": 16384
         },
         "modalities": {
           "input": [
@@ -107835,7 +107835,7 @@
         "last_updated": "2025-12-15",
         "limit": {
           "context": 262144,
-          "output": 228000
+          "output": 262144
         },
         "modalities": {
           "input": [
@@ -112483,8 +112483,8 @@
         "id": "qwen/qwen3.6-27b",
         "last_updated": "2026-04-22",
         "limit": {
-          "context": 262144,
-          "output": 65536
+          "context": 131072,
+          "output": 131072
         },
         "modalities": {
           "input": [
@@ -113695,9 +113695,9 @@
       "tencent/hy3": {
         "attachment": false,
         "cost": {
-          "cache_read": 0.033,
-          "input": 0.132,
-          "output": 0.528
+          "cache_read": 0.035,
+          "input": 0.14,
+          "output": 0.58
         },
         "description": "Hy3 is a 295B-parameter Mixture-of-Experts model from Tencent (21B active, 192 experts with top-8 routing) built for reasoning, agentic workflows, and real-world production use. It supports a configurable reasoning effort:...",
         "family": "Hy",
@@ -114969,8 +114969,8 @@
         "id": "z-ai/glm-5.2",
         "last_updated": "2026-06-13",
         "limit": {
-          "context": 1024000,
-          "output": 128000
+          "context": 1048576,
+          "output": 262144
         },
         "modalities": {
           "input": [
@@ -114997,6 +114997,46 @@
         "structured_output": true,
         "temperature": true,
         "tool_call": true
+      },
+      "z-ai/glm-5.2:free": {
+        "attachment": false,
+        "cost": {
+          "input": 0,
+          "output": 0
+        },
+        "description": "GLM 5.2 is a large-scale reasoning model from Z.ai. It supports text input and output with a 1M-token context window, and is suited for long-horizon agent workflows, project-level software engineering,...",
+        "family": "glm",
+        "id": "z-ai/glm-5.2:free",
+        "last_updated": "2026-06-13",
+        "limit": {
+          "context": 128000,
+          "output": 128000
+        },
+        "modalities": {
+          "input": [
+            "text"
+          ],
+          "output": [
+            "text"
+          ]
+        },
+        "name": "Z.ai: GLM 5.2 (free)",
+        "open_weights": true,
+        "reasoning": true,
+        "reasoning_options": [
+          {
+            "type": "effort",
+            "values": [
+              "none",
+              "high",
+              "xhigh"
+            ]
+          }
+        ],
+        "release_date": "2026-06-13",
+        "structured_output": false,
+        "temperature": true,
+        "tool_call": false
       },
       "z-ai/glm-5v-turbo": {
         "attachment": true,
@@ -115364,16 +115404,16 @@
         "attachment": true,
         "cost": {
           "cache_read": 0.29,
-          "input": 2.8,
-          "output": 14
+          "input": 2.6,
+          "output": 13
         },
         "description": "Kimi multimodal agent model for visual understanding, coding, and planning",
         "family": "kimi",
         "id": "~moonshotai/kimi-latest",
         "last_updated": "2026-04-27",
         "limit": {
-          "context": 1048576,
-          "output": 1048576
+          "context": 974842,
+          "output": 974842
         },
         "modalities": {
           "input": [
@@ -185967,9 +186007,9 @@
       "deepseek/deepseek-v4-flash": {
         "attachment": false,
         "cost": {
-          "cache_read": 0.011732,
-          "input": 0.05866,
-          "output": 0.11732
+          "cache_read": 0.01652,
+          "input": 0.0826,
+          "output": 0.1652
         },
         "description": "Fast DeepSeek V4 lane for economical reasoning, coding, and long-context work",
         "family": "deepseek-flash",
@@ -186059,9 +186099,9 @@
       "deepseek/deepseek-v4-pro": {
         "attachment": false,
         "cost": {
-          "cache_read": 0.09855,
-          "input": 1.168,
-          "output": 2.336
+          "cache_read": 0.022,
+          "input": 0.66,
+          "output": 1.98
         },
         "description": "Open MoE flagship with million-token context for coding and long agent runs",
         "family": "deepseek-thinking",
@@ -186073,7 +186113,7 @@
         "last_updated": "2026-04-24",
         "limit": {
           "context": 1048576,
-          "output": 393216
+          "output": 384000
         },
         "modalities": {
           "input": [
@@ -189477,9 +189517,9 @@
       "moonshotai/kimi-k2.6": {
         "attachment": true,
         "cost": {
-          "cache_read": 0.0912,
-          "input": 0.5415,
-          "output": 2.28
+          "cache_read": 0.16,
+          "input": 0.95,
+          "output": 4
         },
         "description": "Multimodal Kimi workhorse for agent loops, coding tasks, and visual context",
         "family": "kimi-k2",
@@ -189854,7 +189894,7 @@
       "nvidia/nemotron-3-nano-30b-a3b": {
         "attachment": false,
         "cost": {
-          "cache_read": 0.025,
+          "cache_read": 0.03,
           "input": 0.05,
           "output": 0.2
         },
@@ -189864,7 +189904,7 @@
         "last_updated": "2025-12-15",
         "limit": {
           "context": 262144,
-          "output": 228000
+          "output": 262144
         },
         "modalities": {
           "input": [
@@ -194273,8 +194313,9 @@
       "qwen/qwen3-vl-235b-a22b-instruct": {
         "attachment": true,
         "cost": {
-          "input": 0.26,
-          "output": 1.04
+          "cache_read": 0.1,
+          "input": 0.21,
+          "output": 1.9
         },
         "description": "Qwen vision-language model for visual reasoning, documents, and agent tasks",
         "family": "qwen",
@@ -197010,9 +197051,9 @@
       "z-ai/glm-5.2": {
         "attachment": false,
         "cost": {
-          "cache_read": 0.0572,
-          "input": 0.308,
-          "output": 0.968
+          "cache_read": 0.221,
+          "input": 1.19,
+          "output": 3.74
         },
         "description": "Open flagship GLM for long-horizon coding agents and million-token context work",
         "family": "glm",
@@ -197023,7 +197064,7 @@
         "last_updated": "2026-06-13",
         "limit": {
           "context": 1048576,
-          "output": 128000
+          "output": 262144
         },
         "modalities": {
           "input": [
@@ -197478,8 +197519,8 @@
         "attachment": true,
         "cost": {
           "cache_read": 0.29,
-          "input": 2.8,
-          "output": 14
+          "input": 2.6,
+          "output": 13
         },
         "description": "Kimi multimodal agent model for visual understanding, coding, and planning",
         "family": "kimi",
@@ -197487,7 +197528,7 @@
         "last_updated": "2026-04-27",
         "limit": {
           "context": 1048576,
-          "output": 1048576
+          "output": 974842
         },
         "modalities": {
           "input": [
@@ -238868,6 +238909,44 @@
         "temperature": true,
         "tool_call": true
       },
+      "alibaba/qwen3.8-27b": {
+        "attachment": true,
+        "description": "Qwen vision-language model for visual reasoning, documents, and agent tasks",
+        "family": "qwen",
+        "id": "alibaba/qwen3.8-27b",
+        "last_updated": "2026-08-14",
+        "limit": {
+          "context": 262144,
+          "output": 262133
+        },
+        "modalities": {
+          "input": [
+            "text",
+            "image"
+          ],
+          "output": [
+            "text"
+          ]
+        },
+        "name": "Qwen3.8 27B",
+        "open_weights": false,
+        "reasoning": true,
+        "reasoning_options": [
+          {
+            "type": "effort",
+            "values": [
+              "none",
+              "low",
+              "medium",
+              "xhigh"
+            ]
+          }
+        ],
+        "release_date": "2026-08-14",
+        "structured_output": true,
+        "temperature": true,
+        "tool_call": true
+      },
       "alibaba/qwen3.8-max": {
         "attachment": true,
         "cost": {
@@ -244269,6 +244348,37 @@
           }
         ],
         "release_date": "2026-06-04",
+        "temperature": true,
+        "tool_call": true
+      },
+      "nvidia/nemotron-3.5-lightning": {
+        "attachment": false,
+        "description": "Nemotron model for efficient reasoning, coding, and specialized AI agents",
+        "family": "nemotron",
+        "id": "nvidia/nemotron-3.5-lightning",
+        "last_updated": "2026-08-11",
+        "limit": {
+          "context": 262144,
+          "output": 131072
+        },
+        "modalities": {
+          "input": [
+            "text"
+          ],
+          "output": [
+            "text"
+          ]
+        },
+        "name": "Nemotron 3.5 Lightning 30B",
+        "open_weights": false,
+        "reasoning": true,
+        "reasoning_options": [
+          {
+            "type": "toggle"
+          }
+        ],
+        "release_date": "2026-08-11",
+        "structured_output": true,
         "temperature": true,
         "tool_call": true
       },
