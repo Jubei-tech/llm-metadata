@@ -2224,9 +2224,9 @@
     "deepseek/deepseek-v4-flash": {
       "attachment": false,
       "cost": {
-        "cache_read": 0.01596,
-        "input": 0.0798,
-        "output": 0.1596
+        "cache_read": 0.01372,
+        "input": 0.0686,
+        "output": 0.1372
       },
       "description": "Fast DeepSeek V4 lane for economical reasoning, coding, and long-context work",
       "family": "deepseek-flash",
@@ -8249,22 +8249,22 @@
     "openai/gpt-5.6-sol": {
       "attachment": true,
       "cost": {
-        "cache_read": 0.5,
-        "cache_write": 6.25,
+        "cache_read": 0.25,
+        "cache_write": 3.125,
         "context_over_200k": {
-          "cache_read": 1,
-          "cache_write": 12.5,
-          "input": 10,
-          "output": 45
+          "cache_read": 0.5,
+          "cache_write": 6.25,
+          "input": 5,
+          "output": 22.5
         },
-        "input": 5,
-        "output": 30,
+        "input": 2.5,
+        "output": 15,
         "tiers": [
           {
-            "cache_read": 1,
-            "cache_write": 12.5,
-            "input": 10,
-            "output": 45,
+            "cache_read": 0.5,
+            "cache_write": 6.25,
+            "input": 5,
+            "output": 22.5,
             "tier": {
               "size": 272000,
               "type": "context"
@@ -8316,22 +8316,22 @@
     "openai/gpt-5.6-sol-pro": {
       "attachment": true,
       "cost": {
-        "cache_read": 0.5,
-        "cache_write": 6.25,
+        "cache_read": 0.25,
+        "cache_write": 3.125,
         "context_over_200k": {
-          "cache_read": 1,
-          "cache_write": 12.5,
-          "input": 10,
-          "output": 45
+          "cache_read": 0.5,
+          "cache_write": 6.25,
+          "input": 5,
+          "output": 22.5
         },
-        "input": 5,
-        "output": 30,
+        "input": 2.5,
+        "output": 15,
         "tiers": [
           {
-            "cache_read": 1,
-            "cache_write": 12.5,
-            "input": 10,
-            "output": 45,
+            "cache_read": 0.5,
+            "cache_write": 6.25,
+            "input": 5,
+            "output": 22.5,
             "tier": {
               "size": 272000,
               "type": "context"
@@ -13268,9 +13268,9 @@
     "z-ai/glm-5.2": {
       "attachment": false,
       "cost": {
-        "cache_read": 0.221,
-        "input": 1.19,
-        "output": 3.74
+        "cache_read": 0.0858,
+        "input": 0.462,
+        "output": 1.452
       },
       "description": "Open flagship GLM for long-horizon coding agents and million-token context work",
       "family": "glm",
@@ -13281,7 +13281,7 @@
       "last_updated": "2026-06-13",
       "limit": {
         "context": 1048576,
-        "output": 262144
+        "output": 131072
       },
       "modalities": {
         "input": [
@@ -13579,9 +13579,9 @@
     "~deepseek/deepseek-v4-flash-latest": {
       "attachment": false,
       "cost": {
-        "cache_read": 0.015719,
-        "input": 0.078596,
-        "output": 0.157192
+        "cache_read": 0.01566,
+        "input": 0.0783,
+        "output": 0.1566
       },
       "description": "Fast DeepSeek model for efficient chat, coding help, and agent loops",
       "family": "deepseek",
@@ -13589,7 +13589,7 @@
       "last_updated": "2026-08-01",
       "limit": {
         "context": 1310720,
-        "output": 384000
+        "output": 262144
       },
       "modalities": {
         "input": [
@@ -13781,22 +13781,22 @@
     "~openai/gpt-latest": {
       "attachment": true,
       "cost": {
-        "cache_read": 0.5,
-        "cache_write": 6.25,
+        "cache_read": 0.25,
+        "cache_write": 3.125,
         "context_over_200k": {
-          "cache_read": 1,
-          "cache_write": 12.5,
-          "input": 10,
-          "output": 45
+          "cache_read": 0.5,
+          "cache_write": 6.25,
+          "input": 5,
+          "output": 22.5
         },
-        "input": 5,
-        "output": 30,
+        "input": 2.5,
+        "output": 15,
         "tiers": [
           {
-            "cache_read": 1,
-            "cache_write": 12.5,
-            "input": 10,
-            "output": 45,
+            "cache_read": 0.5,
+            "cache_write": 6.25,
+            "input": 5,
+            "output": 22.5,
             "tier": {
               "size": 272000,
               "type": "context"
