@@ -1,9 +1,9 @@
 {
   "attachment": false,
   "cost": {
-    "cache_read": 0.0858,
-    "input": 0.462,
-    "output": 1.452
+    "cache_read": 0.115,
+    "input": 0.5,
+    "output": 3.15
   },
   "description": "Open flagship GLM for long-horizon coding agents and million-token context work",
   "family": "glm",
