@@ -3577,7 +3577,7 @@
       "last_updated": "2026-04-02",
       "limit": {
         "context": 262144,
-        "output": 262144
+        "output": 16384
       },
       "modalities": {
         "input": [
@@ -3900,7 +3900,7 @@
         }
       ],
       "release_date": "2026-07-23",
-      "structured_output": true,
+      "structured_output": false,
       "temperature": true,
       "tool_call": true
     },
@@ -10226,7 +10226,7 @@
       "last_updated": "2025-09",
       "limit": {
         "context": 262144,
-        "output": 262144
+        "output": 16384
       },
       "modalities": {
         "input": [
@@ -10538,7 +10538,7 @@
       "last_updated": "2026-02-23",
       "limit": {
         "context": 262144,
-        "output": 81920
+        "output": 262144
       },
       "modalities": {
         "input": [
@@ -10866,8 +10866,8 @@
       "id": "qwen/qwen3.6-27b",
       "last_updated": "2026-04-22",
       "limit": {
-        "context": 131072,
-        "output": 131072
+        "context": 262144,
+        "output": 65536
       },
       "modalities": {
         "input": [
@@ -13354,7 +13354,7 @@
       "last_updated": "2026-06-13",
       "limit": {
         "context": 1048576,
-        "output": 262144
+        "output": 131072
       },
       "modalities": {
         "input": [
