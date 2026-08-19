@@ -8,37 +8,6 @@
   "id": "openrouter",
   "lobeIcon": "OpenRouter.Color",
   "models": {
-    "ai21/jamba-large-1.7": {
-      "attachment": false,
-      "cost": {
-        "input": 2,
-        "output": 8
-      },
-      "description": "Flagship model for demanding analysis, coding, and production agent workflows",
-      "family": "jamba",
-      "id": "ai21/jamba-large-1.7",
-      "knowledge": "2024-08-31",
-      "last_updated": "2025-08-08",
-      "limit": {
-        "context": 256000,
-        "output": 4096
-      },
-      "modalities": {
-        "input": [
-          "text"
-        ],
-        "output": [
-          "text"
-        ]
-      },
-      "name": "Jamba Large 1.7",
-      "open_weights": true,
-      "reasoning": false,
-      "release_date": "2025-08-08",
-      "structured_output": false,
-      "temperature": true,
-      "tool_call": true
-    },
     "aion-labs/aion-2.0": {
       "attachment": false,
       "cost": {
@@ -1949,9 +1918,8 @@
     "deepseek/deepseek-chat-v3-0324": {
       "attachment": false,
       "cost": {
-        "cache_read": 0.135,
-        "input": 0.27,
-        "output": 1.12
+        "input": 0.25,
+        "output": 1
       },
       "description": "DeepSeek chat model for instruction following, coding, and analysis",
       "family": "deepseek",
@@ -1960,7 +1928,7 @@
       "last_updated": "2025-03-24",
       "limit": {
         "context": 163840,
-        "output": 65536
+        "output": 163840
       },
       "modalities": {
         "input": [
@@ -4893,8 +4861,8 @@
     "minimax/minimax-m2.5": {
       "attachment": false,
       "cost": {
-        "cache_read": 0.05,
-        "input": 0.22,
+        "cache_read": 0.06,
+        "input": 0.225,
         "output": 0.9
       },
       "description": "Prior MiniMax coding model for agent workflows, office edits, and automation",
@@ -5734,9 +5702,9 @@
     "moonshotai/kimi-k2.6": {
       "attachment": true,
       "cost": {
-        "cache_read": 0.16,
-        "input": 0.95,
-        "output": 4
+        "cache_read": 0.0944,
+        "input": 0.5605,
+        "output": 2.36
       },
       "description": "Multimodal Kimi workhorse for agent loops, coding tasks, and visual context",
       "family": "kimi-k2",
@@ -10828,9 +10796,9 @@
     "qwen/qwen3.5-35b-a3b": {
       "attachment": true,
       "cost": {
-        "cache_read": 0.225,
-        "input": 0.225,
-        "output": 1.8
+        "cache_read": 0.25,
+        "input": 0.25,
+        "output": 1.25
       },
       "description": "Qwen vision-language model for visual reasoning, documents, and agent tasks",
       "family": "qwen",
@@ -10838,7 +10806,7 @@
       "last_updated": "2026-02-23",
       "limit": {
         "context": 262144,
-        "output": 65536
+        "output": 262144
       },
       "modalities": {
         "input": [
@@ -13989,6 +13957,47 @@
       ],
       "release_date": "2026-07-08",
       "structured_output": true,
+      "temperature": true,
+      "tool_call": true
+    },
+    "~z-ai/glm-latest": {
+      "attachment": false,
+      "cost": {
+        "cache_read": 0.26,
+        "input": 1.4,
+        "output": 4.4
+      },
+      "description": "Flagship GLM model for hybrid reasoning, coding, and agentic engineering",
+      "family": "glm",
+      "id": "~z-ai/glm-latest",
+      "last_updated": "2026-08-19",
+      "limit": {
+        "context": 1048576,
+        "output": 131072
+      },
+      "modalities": {
+        "input": [
+          "text"
+        ],
+        "output": [
+          "text"
+        ]
+      },
+      "name": "GLM Latest",
+      "open_weights": false,
+      "reasoning": true,
+      "reasoning_options": [
+        {
+          "type": "effort",
+          "values": [
+            "low",
+            "high",
+            "max"
+          ]
+        }
+      ],
+      "release_date": "2026-08-19",
+      "structured_output": false,
       "temperature": true,
       "tool_call": true
     }
