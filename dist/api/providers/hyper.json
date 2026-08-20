@@ -270,9 +270,9 @@
     "glm-5.2": {
       "attachment": false,
       "cost": {
-        "cache_read": 0.275,
-        "input": 1.1,
-        "output": 3.851
+        "cache_read": 0.152432,
+        "input": 1.52432,
+        "output": 4.79072
       },
       "description": "Open flagship GLM for long-horizon coding agents and million-token context work",
       "family": "glm",
@@ -310,9 +310,9 @@
     "gpt-oss-120b": {
       "attachment": false,
       "cost": {
-        "cache_read": 0.015243,
-        "input": 0.16332,
-        "output": 0.65328
+        "cache_write": 0.094,
+        "input": 0.188,
+        "output": 0.7
       },
       "description": "Open GPT reasoning model for self-hosted agents and controllable deployments",
       "family": "gpt-oss",
@@ -418,9 +418,9 @@
     "kimi-k2.7-code": {
       "attachment": true,
       "cost": {
-        "cache_read": 0.19,
-        "input": 0.95,
-        "output": 4
+        "cache_read": 0.206872,
+        "input": 1.03436,
+        "output": 4.3552
       },
       "description": "Coding-focused Kimi model, stronger on long-horizon repo work with less overthinking",
       "family": "kimi-k2",
