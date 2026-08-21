@@ -2176,7 +2176,7 @@
       "last_updated": "2026-07-31",
       "limit": {
         "context": 1048576,
-        "output": 393216
+        "output": 384000
       },
       "modalities": {
         "input": [
@@ -9625,8 +9625,8 @@
       "id": "qwen/qwen3-14b",
       "last_updated": "2025-04-28",
       "limit": {
-        "context": 131072,
-        "output": 8192
+        "context": 40960,
+        "output": 16384
       },
       "modalities": {
         "input": [
@@ -13671,17 +13671,17 @@
     "~deepseek/deepseek-v4-flash-latest": {
       "attachment": false,
       "cost": {
-        "cache_read": 0.014,
+        "cache_read": 0.02,
         "input": 0.065,
-        "output": 0.14
+        "output": 0.18
       },
       "description": "This model always redirects to the latest model in the DeepSeek V4 Flash family.",
       "family": "deepseek",
       "id": "~deepseek/deepseek-v4-flash-latest",
       "last_updated": "2026-08-01",
       "limit": {
-        "context": 262144,
-        "output": 262144
+        "context": 1048576,
+        "output": 1048576
       },
       "modalities": {
         "input": [
