@@ -17224,12 +17224,12 @@
     },
     {
       "flags": {
-        "attachment": false,
+        "attachment": true,
         "reasoning": true,
         "tool_call": true
       },
       "id": "qwen3.8-max",
-      "name": "Qwen3.8-2.4T-A95B",
+      "name": "Qwen3.8-Max",
       "providerId": "digitalocean",
       "updated": "2026-08-03"
     },
@@ -30656,6 +30656,17 @@
     {
       "flags": {
         "attachment": false,
+        "reasoning": false,
+        "tool_call": false
+      },
+      "id": "mancer/weaver",
+      "name": "Mancer: Weaver (alpha)",
+      "providerId": "kilo",
+      "updated": "2023-08-02"
+    },
+    {
+      "flags": {
+        "attachment": false,
         "reasoning": true,
         "tool_call": true
       },
@@ -37468,17 +37479,6 @@
         "reasoning": true,
         "tool_call": true
       },
-      "id": "granite/qwen3.7-max",
-      "name": "Qwen3.7 Max (Granite)",
-      "providerId": "llmgateway-providers",
-      "updated": "2026-05-21"
-    },
-    {
-      "flags": {
-        "attachment": false,
-        "reasoning": true,
-        "tool_call": true
-      },
       "id": "groq/gpt-oss-120b",
       "name": "GPT OSS 120B (Groq)",
       "providerId": "llmgateway-providers",
@@ -41820,7 +41820,7 @@
     },
     {
       "flags": {
-        "attachment": true,
+        "attachment": false,
         "reasoning": true,
         "tool_call": true
       },
@@ -41831,7 +41831,7 @@
     },
     {
       "flags": {
-        "attachment": false,
+        "attachment": true,
         "reasoning": true,
         "tool_call": true
       },
@@ -77351,6 +77351,39 @@
     {
       "flags": {
         "attachment": false,
+        "reasoning": false,
+        "tool_call": false
+      },
+      "id": "tencent/hy-mt2-lite",
+      "name": "Tencent Hy-MT2-Lite",
+      "providerId": "vercel",
+      "updated": "2026-06-12"
+    },
+    {
+      "flags": {
+        "attachment": false,
+        "reasoning": false,
+        "tool_call": false
+      },
+      "id": "tencent/hy-mt2-plus",
+      "name": "Tencent Hy-MT2-Plus",
+      "providerId": "vercel",
+      "updated": "2026-06-12"
+    },
+    {
+      "flags": {
+        "attachment": false,
+        "reasoning": false,
+        "tool_call": false
+      },
+      "id": "tencent/hy-mt2-pro",
+      "name": "Tencent Hy-MT2-Pro",
+      "providerId": "vercel",
+      "updated": "2026-05-21"
+    },
+    {
+      "flags": {
+        "attachment": false,
         "reasoning": true,
         "tool_call": true
       },
@@ -81498,7 +81531,7 @@
       "doc": "https://kilo.ai",
       "iconURL": "https://models.dev/logos/kilo.svg",
       "id": "kilo",
-      "modelCount": 361,
+      "modelCount": 362,
       "name": "Kilo Gateway"
     },
     {
@@ -81555,7 +81588,7 @@
       "doc": "https://llmgateway.io/docs",
       "iconURL": "https://models.dev/logos/llmgateway-providers.svg",
       "id": "llmgateway-providers",
-      "modelCount": 368,
+      "modelCount": 367,
       "name": "LLM Gateway"
     },
     {
@@ -82249,7 +82282,7 @@
       "iconURL": "https://models.dev/logos/vercel.svg",
       "id": "vercel",
       "lobeIcon": "Vercel.Color",
-      "modelCount": 347,
+      "modelCount": 350,
       "name": "Vercel AI Gateway"
     },
     {

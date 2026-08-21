@@ -3463,7 +3463,7 @@
       "last_updated": "2026-04-02",
       "limit": {
         "context": 262144,
-        "output": 16384
+        "output": 262144
       },
       "modalities": {
         "input": [
@@ -4108,7 +4108,7 @@
       "id": "liquid/lfm-2.5-2.6b:free",
       "last_updated": "2026-08-11",
       "limit": {
-        "context": 128000,
+        "context": 65536,
         "output": 8192
       },
       "modalities": {
@@ -4134,6 +4134,36 @@
       "structured_output": true,
       "temperature": true,
       "tool_call": true
+    },
+    "mancer/weaver": {
+      "attachment": false,
+      "cost": {
+        "input": 0.5,
+        "output": 0.75
+      },
+      "description": "An attempt to recreate Claude-style verbosity, but don't expect the same level of coherence or memory. Meant for use in roleplay/narrative situations.",
+      "family": "alpha",
+      "id": "mancer/weaver",
+      "last_updated": "2023-08-02",
+      "limit": {
+        "context": 8000,
+        "output": 6000
+      },
+      "modalities": {
+        "input": [
+          "text"
+        ],
+        "output": [
+          "text"
+        ]
+      },
+      "name": "Mancer: Weaver (alpha)",
+      "open_weights": false,
+      "reasoning": false,
+      "release_date": "2023-08-02",
+      "structured_output": false,
+      "temperature": true,
+      "tool_call": false
     },
     "meituan/longcat-2.0": {
       "attachment": false,
@@ -4808,8 +4838,8 @@
       "id": "minimax/minimax-m2.5",
       "last_updated": "2026-02-12",
       "limit": {
-        "context": 65536,
-        "output": 196608
+        "context": 198000,
+        "output": 32768
       },
       "modalities": {
         "input": [
@@ -9595,8 +9625,8 @@
       "id": "qwen/qwen3-14b",
       "last_updated": "2025-04-28",
       "limit": {
-        "context": 40960,
-        "output": 16384
+        "context": 131072,
+        "output": 8192
       },
       "modalities": {
         "input": [
@@ -10472,7 +10502,7 @@
       "last_updated": "2026-02-23",
       "limit": {
         "context": 262144,
-        "output": 262144
+        "output": 65536
       },
       "modalities": {
         "input": [
@@ -12068,9 +12098,9 @@
     "tencent/hy3": {
       "attachment": false,
       "cost": {
-        "cache_read": 0.033,
-        "input": 0.132,
-        "output": 0.528
+        "cache_read": 0.035,
+        "input": 0.14,
+        "output": 0.58
       },
       "description": "Hy3 is a 295B-parameter Mixture-of-Experts model from Tencent (21B active, 192 experts with top-8 routing) built for reasoning, agentic workflows, and real-world production use. It supports a configurable reasoning effort:...",
       "family": "Hy",
