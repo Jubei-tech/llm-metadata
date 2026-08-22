@@ -1816,8 +1816,8 @@
       "id": "deepseek/deepseek-chat-v3.1",
       "last_updated": "2025-08-21",
       "limit": {
-        "context": 163840,
-        "output": 32768
+        "context": 161000,
+        "output": 161000
       },
       "modalities": {
         "input": [
@@ -2015,7 +2015,7 @@
       "last_updated": "2025-12-01",
       "limit": {
         "context": 163840,
-        "output": 65536
+        "output": 163840
       },
       "modalities": {
         "input": [
@@ -2222,8 +2222,8 @@
       "knowledge": "2025-05",
       "last_updated": "2026-04-24",
       "limit": {
-        "context": 1048576,
-        "output": 393216
+        "context": 1024000,
+        "output": 384000
       },
       "modalities": {
         "input": [
@@ -4930,8 +4930,8 @@
       "id": "minimax/minimax-m2.5",
       "last_updated": "2026-02-12",
       "limit": {
-        "context": 198000,
-        "output": 32768
+        "context": 200000,
+        "output": 128000
       },
       "modalities": {
         "input": [
@@ -10282,7 +10282,7 @@
       "last_updated": "2025-09",
       "limit": {
         "context": 262144,
-        "output": 16384
+        "output": 262144
       },
       "modalities": {
         "input": [
@@ -10594,7 +10594,7 @@
       "last_updated": "2026-02-23",
       "limit": {
         "context": 262144,
-        "output": 262144
+        "output": 65536
       },
       "modalities": {
         "input": [
