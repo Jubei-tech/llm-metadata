@@ -896,7 +896,7 @@
       "doc": "https://kilo.ai",
       "icon": "https://models.dev/logos/kilo.svg",
       "id": "kilo",
-      "modelCount": 366,
+      "modelCount": 367,
       "name": "Kilo Gateway",
       "status": 1
     },
@@ -1346,7 +1346,7 @@
       "doc": "https://openrouter.ai/models",
       "icon": "lb:openrouter-color",
       "id": "openrouter",
-      "modelCount": 356,
+      "modelCount": 357,
       "name": "OpenRouter",
       "status": 1
     },

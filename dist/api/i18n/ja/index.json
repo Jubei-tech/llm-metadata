@@ -30710,6 +30710,17 @@
     {
       "flags": {
         "attachment": true,
+        "reasoning": true,
+        "tool_call": true
+      },
+      "id": "minimax/minimax-m3:free",
+      "name": "MiniMax: MiniMax M3 (free)",
+      "providerId": "kilo",
+      "updated": "2026-06-01"
+    },
+    {
+      "flags": {
+        "attachment": true,
         "reasoning": false,
         "tool_call": true
       },
@@ -58903,6 +58914,17 @@
     {
       "flags": {
         "attachment": true,
+        "reasoning": true,
+        "tool_call": true
+      },
+      "id": "minimax/minimax-m3:free",
+      "name": "MiniMax M3 (free)",
+      "providerId": "openrouter",
+      "updated": "2026-06-01"
+    },
+    {
+      "flags": {
+        "attachment": true,
         "reasoning": false,
         "tool_call": true
       },
@@ -82269,7 +82291,7 @@
       "doc": "https://kilo.ai",
       "iconURL": "https://models.dev/logos/kilo.svg",
       "id": "kilo",
-      "modelCount": 366,
+      "modelCount": 367,
       "name": "Kilo Gateway"
     },
     {
@@ -82636,7 +82658,7 @@
       "iconURL": "https://models.dev/logos/openrouter.svg",
       "id": "openrouter",
       "lobeIcon": "OpenRouter.Color",
-      "modelCount": 356,
+      "modelCount": 357,
       "name": "OpenRouter"
     },
     {

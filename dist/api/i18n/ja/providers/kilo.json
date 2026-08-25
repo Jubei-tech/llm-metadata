@@ -4974,6 +4974,47 @@
       "temperature": true,
       "tool_call": true
     },
+    "minimax/minimax-m3:free": {
+      "attachment": true,
+      "cost": {
+        "input": 0,
+        "output": 0
+      },
+      "description": "MiniMax-M3 is a multimodal foundation model from MiniMax. It supports text, image, and video inputs with text output, a 1M-token context window, and is suited for long-horizon agentic work, coding,...",
+      "family": "minimax",
+      "id": "minimax/minimax-m3:free",
+      "last_updated": "2026-06-01",
+      "limit": {
+        "context": 1048576,
+        "output": 1048576
+      },
+      "modalities": {
+        "input": [
+          "text",
+          "image",
+          "video"
+        ],
+        "output": [
+          "text"
+        ]
+      },
+      "name": "MiniMax: MiniMax M3 (free)",
+      "open_weights": true,
+      "reasoning": true,
+      "reasoning_options": [
+        {
+          "type": "effort",
+          "values": [
+            "none",
+            "high"
+          ]
+        }
+      ],
+      "release_date": "2026-06-01",
+      "structured_output": false,
+      "temperature": true,
+      "tool_call": true
+    },
     "mistralai/codestral-2508": {
       "attachment": true,
       "cost": {
@@ -8540,9 +8581,8 @@
     "openai/gpt-oss-20b": {
       "attachment": false,
       "cost": {
-        "cache_read": 0.03,
-        "input": 0.03,
-        "output": 0.13
+        "input": 0.02,
+        "output": 0.1
       },
       "description": "Open-weight GPT model for self-hosted reasoning and instruction-following workloads",
       "family": "gpt-oss",
@@ -11274,7 +11314,7 @@
       "id": "qwen/qwen3.8-27b",
       "last_updated": "2026-08-14",
       "limit": {
-        "context": 262144,
+        "context": 1000000,
         "output": 131072
       },
       "modalities": {
@@ -11355,6 +11395,7 @@
     "rekaai/reka-edge": {
       "attachment": true,
       "cost": {
+        "cache_read": 0.1,
         "input": 0.1,
         "output": 0.1
       },
@@ -11387,6 +11428,7 @@
     "rekaai/reka-flash-3": {
       "attachment": false,
       "cost": {
+        "cache_read": 0.1,
         "input": 0.1,
         "output": 0.2
       },
@@ -13856,7 +13898,7 @@
       "cost": {
         "cache_read": 0.008,
         "input": 0.035,
-        "output": 0.075
+        "output": 0.1
       },
       "description": "This model always redirects to the latest model in the DeepSeek V4 Flash family.",
       "family": "deepseek",
