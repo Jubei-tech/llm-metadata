@@ -3702,6 +3702,45 @@
       "temperature": true,
       "tool_call": true
     },
+    "inclusionai/ling-3.0-flash-fin:free": {
+      "attachment": false,
+      "cost": {
+        "input": 0,
+        "output": 0
+      },
+      "description": "Ling 3.0 Flash Fin is a finance-focused mixture-of-experts model from InclusionAI, built on Ling 3.0 Flash with 5.1B active parameters out of 124B total. It is designed for real-world investment...",
+      "family": "ling",
+      "id": "inclusionai/ling-3.0-flash-fin:free",
+      "last_updated": "2026-08-27",
+      "limit": {
+        "context": 262144,
+        "output": 32768
+      },
+      "modalities": {
+        "input": [
+          "text"
+        ],
+        "output": [
+          "text"
+        ]
+      },
+      "name": "Ling 3.0 Flash Fin (free)",
+      "open_weights": false,
+      "reasoning": true,
+      "reasoning_options": [
+        {
+          "type": "effort",
+          "values": [
+            "none",
+            "high"
+          ]
+        }
+      ],
+      "release_date": "2026-08-27",
+      "structured_output": false,
+      "temperature": true,
+      "tool_call": true
+    },
     "kilo-auto/balanced": {
       "attachment": true,
       "cost": {
@@ -5117,36 +5156,6 @@
       "temperature": true,
       "tool_call": true
     },
-    "mistralai/ministral-8b": {
-      "attachment": false,
-      "cost": {
-        "input": 0.11,
-        "output": 0.11
-      },
-      "description": "Ministral 8B is an 8B parameter model featuring a unique interleaved sliding-window attention pattern for faster, memory-efficient inference. Designed for edge use cases, it supports up to 128k context length...",
-      "family": "ministral",
-      "id": "mistralai/ministral-8b",
-      "last_updated": "2024-10-17",
-      "limit": {
-        "context": 128000,
-        "output": 102400
-      },
-      "modalities": {
-        "input": [
-          "text"
-        ],
-        "output": [
-          "text"
-        ]
-      },
-      "name": "Mistral: Ministral 8B",
-      "open_weights": false,
-      "reasoning": false,
-      "release_date": "2024-10-17",
-      "structured_output": true,
-      "temperature": true,
-      "tool_call": false
-    },
     "mistralai/ministral-8b-2512": {
       "attachment": true,
       "cost": {
@@ -6370,8 +6379,8 @@
       "id": "nvidia/nemotron-3-ultra-550b-a55b",
       "last_updated": "2026-06-04",
       "limit": {
-        "context": 512288,
-        "output": 461059
+        "context": 262144,
+        "output": 16384
       },
       "modalities": {
         "input": [
@@ -12165,9 +12174,9 @@
     "tencent/hy3": {
       "attachment": false,
       "cost": {
-        "cache_read": 0.035,
-        "input": 0.14,
-        "output": 0.58
+        "cache_read": 0.033,
+        "input": 0.132,
+        "output": 0.528
       },
       "description": "Hy3 is a 295B-parameter Mixture-of-Experts model from Tencent (21B active, 192 experts with top-8 routing) built for reasoning, agentic workflows, and real-world production use. It supports a configurable reasoning effort:...",
       "family": "Hy",
@@ -12312,35 +12321,6 @@
       "open_weights": false,
       "reasoning": false,
       "release_date": "2025-09-27",
-      "structured_output": true,
-      "temperature": true,
-      "tool_call": false
-    },
-    "thedrummer/rocinante-12b": {
-      "attachment": false,
-      "cost": {
-        "input": 0.25,
-        "output": 0.5
-      },
-      "description": "Open-weight instruction model for adaptable chat and self-hosted production workloads",
-      "id": "thedrummer/rocinante-12b",
-      "last_updated": "2024-09-30",
-      "limit": {
-        "context": 65536,
-        "output": 58982
-      },
-      "modalities": {
-        "input": [
-          "text"
-        ],
-        "output": [
-          "text"
-        ]
-      },
-      "name": "TheDrummer: Rocinante 12B",
-      "open_weights": false,
-      "reasoning": false,
-      "release_date": "2024-09-30",
       "structured_output": true,
       "temperature": true,
       "tool_call": false
