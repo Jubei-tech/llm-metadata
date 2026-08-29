@@ -7,11 +7,11 @@
   },
   "description": "Flagship GLM model for long-horizon coding, agents, and complex project delivery",
   "family": "glm",
-  "id": "glm-5.3",
+  "id": "scx-ai-gp/glm-5.3",
   "last_updated": "2026-08-14",
   "limit": {
-    "context": 1048576,
-    "output": 131072
+    "context": 1000000,
+    "output": 128000
   },
   "modalities": {
     "input": [
@@ -21,7 +21,7 @@
       "text"
     ]
   },
-  "name": "GLM-5.3",
+  "name": "GLM-5.3 (SCX.ai)",
   "open_weights": false,
   "reasoning": true,
   "reasoning_options": [
@@ -35,7 +35,7 @@
     }
   ],
   "release_date": "2026-08-14",
-  "structured_output": true,
+  "structured_output": false,
   "temperature": true,
   "tool_call": true
 }
