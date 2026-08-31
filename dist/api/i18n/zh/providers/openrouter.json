@@ -2091,9 +2091,9 @@
     "deepseek/deepseek-v4-flash": {
       "attachment": false,
       "cost": {
-        "cache_read": 0.017721,
-        "input": 0.088606,
-        "output": 0.177212
+        "cache_read": 0.016492,
+        "input": 0.08246,
+        "output": 0.16492
       },
       "description": "Fast DeepSeek V4 lane for economical reasoning, coding, and long-context work",
       "family": "deepseek-flash",
@@ -2228,9 +2228,9 @@
     "deepseek/deepseek-v4-pro": {
       "attachment": false,
       "cost": {
-        "cache_read": 0.086855,
-        "input": 1.04226,
-        "output": 2.08452
+        "cache_read": 0.086188,
+        "input": 1.034256,
+        "output": 2.068512
       },
       "description": "Open MoE flagship with million-token context for coding and long agent runs",
       "family": "deepseek-thinking",
@@ -3896,37 +3896,6 @@
       "temperature": true,
       "tool_call": true
     },
-    "kwaipilot/kat-coder-air-v2.5": {
-      "attachment": false,
-      "cost": {
-        "cache_read": 0.03,
-        "input": 0.15,
-        "output": 0.6
-      },
-      "description": "Coding model for repository understanding, refactors, and agentic engineering tasks",
-      "family": "kat-coder",
-      "id": "kwaipilot/kat-coder-air-v2.5",
-      "last_updated": "2026-07-10",
-      "limit": {
-        "context": 256000,
-        "output": 80000
-      },
-      "modalities": {
-        "input": [
-          "text"
-        ],
-        "output": [
-          "text"
-        ]
-      },
-      "name": "KAT-Coder-Air V2.5",
-      "open_weights": false,
-      "reasoning": false,
-      "release_date": "2026-07-10",
-      "structured_output": true,
-      "temperature": true,
-      "tool_call": true
-    },
     "kwaipilot/kat-coder-pro-v2": {
       "attachment": false,
       "cost": {
@@ -3940,7 +3909,7 @@
       "last_updated": "2026-03-27",
       "limit": {
         "context": 262144,
-        "output": 80000
+        "output": 144000
       },
       "modalities": {
         "input": [
@@ -3971,7 +3940,7 @@
       "last_updated": "2026-07-10",
       "limit": {
         "context": 262144,
-        "output": 80000
+        "output": 235929
       },
       "modalities": {
         "input": [
@@ -11287,7 +11256,7 @@
     "qwen/qwen3.8-2.4t-a95b": {
       "attachment": false,
       "cost": {
-        "cache_read": 0.25,
+        "cache_read": 0.2,
         "input": 2,
         "output": 6
       },
@@ -11297,7 +11266,7 @@
       "last_updated": "2026-08-12",
       "limit": {
         "context": 1048576,
-        "output": 262144
+        "output": 131072
       },
       "modalities": {
         "input": [
@@ -11979,9 +11948,9 @@
     "tencent/hy3": {
       "attachment": false,
       "cost": {
-        "cache_read": 0.033,
-        "input": 0.132,
-        "output": 0.528
+        "cache_read": 0.020625,
+        "input": 0.0825,
+        "output": 0.33
       },
       "description": "Tencent Hy reasoning model for coding, instruction following, and agent tasks",
       "family": "Hy",

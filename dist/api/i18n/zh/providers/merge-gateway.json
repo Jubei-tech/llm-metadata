@@ -665,8 +665,8 @@
       "cost": {
         "cache_read": 0.2,
         "cache_write": 2.5,
-        "input": 2,
-        "output": 10
+        "input": 3,
+        "output": 15
       },
       "description": "Everyday Claude agent model for coding, planning, browsing, and general work",
       "family": "claude-sonnet",
@@ -4439,6 +4439,7 @@
       "attachment": true,
       "cost": {
         "cache_read": 0.02,
+        "cache_write": 0.25,
         "input": 0.2,
         "output": 1.2
       },
@@ -4487,6 +4488,7 @@
       "attachment": true,
       "cost": {
         "cache_read": 0.5,
+        "cache_write": 5,
         "input": 5,
         "output": 30
       },
@@ -4535,6 +4537,7 @@
       "attachment": true,
       "cost": {
         "cache_read": 0.2,
+        "cache_write": 2.5,
         "input": 2,
         "output": 12
       },
@@ -5423,7 +5426,7 @@
       "tool_call": true
     },
     "qwen/qwen3.5-27b": {
-      "attachment": true,
+      "attachment": false,
       "cost": {
         "cache_read": 0.0172,
         "input": 0.086,
@@ -5434,13 +5437,12 @@
       "id": "qwen/qwen3.5-27b",
       "last_updated": "2026-02-23",
       "limit": {
-        "context": 256000,
-        "output": 64000
+        "context": 131072,
+        "output": 32768
       },
       "modalities": {
         "input": [
-          "text",
-          "image"
+          "text"
         ],
         "output": [
           "text"
@@ -5496,7 +5498,7 @@
       "tool_call": true
     },
     "qwen/qwen3.5-397b-a17b": {
-      "attachment": true,
+      "attachment": false,
       "cost": {
         "cache_read": 0.0344,
         "input": 0.172,
@@ -5507,13 +5509,12 @@
       "id": "qwen/qwen3.5-397b-a17b",
       "last_updated": "2026-02-15",
       "limit": {
-        "context": 256000,
-        "output": 64000
+        "context": 131072,
+        "output": 32768
       },
       "modalities": {
         "input": [
-          "text",
-          "image"
+          "text"
         ],
         "output": [
           "text"
@@ -6288,9 +6289,9 @@
     "xai/grok-4.6": {
       "attachment": true,
       "cost": {
-        "cache_read": 0.375,
-        "input": 1.5,
-        "output": 4.5
+        "cache_read": 0.5,
+        "input": 2,
+        "output": 6
       },
       "description": "xAI's frontier model for long-running agents, coding, knowledge work, and visual projects",
       "family": "grok",

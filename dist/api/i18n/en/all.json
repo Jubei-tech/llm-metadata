@@ -51240,10 +51240,10 @@
       "qwen/qwen3.7-max": {
         "attachment": false,
         "cost": {
-          "cache_read": 0.3,
-          "cache_write": 1.88,
-          "input": 1.504,
-          "output": 4.504
+          "cache_read": 0.375,
+          "cache_write": 2.35,
+          "input": 1.88,
+          "output": 5.63
         },
         "description": "Qwen frontier model tuned for agent frameworks, coding assistants, and long tasks",
         "family": "qwen",
@@ -51277,22 +51277,22 @@
       "qwen/qwen3.7-plus": {
         "attachment": true,
         "cost": {
-          "cache_read": 0.0288,
-          "cache_write": 0.36,
+          "cache_read": 0.032,
+          "cache_write": 0.4,
           "context_over_200k": {
-            "cache_read": 0.0864,
-            "cache_write": 1.08,
-            "input": 0.864,
-            "output": 3.375
+            "cache_read": 0.096,
+            "cache_write": 1.2,
+            "input": 0.96,
+            "output": 3.75
           },
-          "input": 0.288,
-          "output": 1.125,
+          "input": 0.32,
+          "output": 1.25,
           "tiers": [
             {
-              "cache_read": 0.0864,
-              "cache_write": 1.08,
-              "input": 0.864,
-              "output": 3.375,
+              "cache_read": 0.096,
+              "cache_write": 1.2,
+              "input": 0.96,
+              "output": 3.75,
               "tier": {
                 "size": 256000,
                 "type": "context"
@@ -65171,8 +65171,8 @@
       "ionos/meta-llama/Llama-3.3-70B-Instruct": {
         "attachment": false,
         "cost": {
-          "input": 0.756795,
-          "output": 0.756795
+          "input": 0.75374,
+          "output": 0.75374
         },
         "description": "Popular open Llama workhorse for multilingual chat, coding, and self-hosting",
         "family": "llama",
@@ -65202,8 +65202,8 @@
       "ionos/openai/gpt-oss-120b": {
         "attachment": false,
         "cost": {
-          "input": 0.174645,
-          "output": 0.756795
+          "input": 0.17394,
+          "output": 0.75374
         },
         "description": "Open GPT reasoning model for self-hosted agents and controllable deployments",
         "family": "gpt-oss",
@@ -68852,8 +68852,8 @@
       "scaleway/deepseek-v4-flash-0731": {
         "attachment": false,
         "cost": {
-          "input": 0.46572,
-          "output": 0.93144
+          "input": 0.46384,
+          "output": 0.92768
         },
         "description": "Official DeepSeek V4 Flash release with enhanced agentic capabilities and integrated DSpark speculative decoding",
         "family": "deepseek-flash",
@@ -68894,8 +68894,8 @@
       "scaleway/gpt-oss-120b": {
         "attachment": false,
         "cost": {
-          "input": 0.174645,
-          "output": 0.69858
+          "input": 0.17394,
+          "output": 0.69576
         },
         "description": "Open GPT reasoning model for self-hosted agents and controllable deployments",
         "family": "gpt-oss",
@@ -68934,8 +68934,8 @@
       "scaleway/llama-3.3-70b-instruct": {
         "attachment": false,
         "cost": {
-          "input": 1.04787,
-          "output": 1.04787
+          "input": 1.04364,
+          "output": 1.04364
         },
         "description": "Popular open Llama workhorse for multilingual chat, coding, and self-hosting",
         "family": "llama",
@@ -94312,9 +94312,9 @@
       "gemma-4-26b-a4b-it": {
         "attachment": false,
         "cost": {
-          "cache_write": 0.055,
-          "input": 0.11,
-          "output": 0.408
+          "cache_write": 0.06,
+          "input": 0.12,
+          "output": 0.42
         },
         "description": "Open Gemma instruction model for efficient chat and self-hosted deployments",
         "family": "gemma",
@@ -94344,9 +94344,9 @@
       "glm-5": {
         "attachment": false,
         "cost": {
-          "cache_write": 0.45,
-          "input": 0.9,
-          "output": 2.804
+          "cache_write": 0.455,
+          "input": 0.91,
+          "output": 2.934
         },
         "description": "General GLM flagship for coding, analysis, and tool-heavy engineering workflows",
         "family": "glm",
@@ -94375,9 +94375,9 @@
       "glm-5.1": {
         "attachment": false,
         "cost": {
-          "cache_write": 0.657,
-          "input": 1.314,
-          "output": 4.268
+          "cache_write": 0.666,
+          "input": 1.332,
+          "output": 4.312
         },
         "description": "Strong GLM coding model for agentic engineering, terminals, and repository generation",
         "family": "glm",
@@ -94444,12 +94444,95 @@
         "temperature": true,
         "tool_call": true
       },
+      "glm-5.3": {
+        "attachment": false,
+        "cost": {
+          "cache_read": 0.283088,
+          "input": 1.52432,
+          "output": 4.79072
+        },
+        "description": "Flagship GLM model for long-horizon coding, agents, and complex project delivery",
+        "family": "glm",
+        "id": "glm-5.3",
+        "last_updated": "2026-08-31",
+        "limit": {
+          "context": 1048576,
+          "output": 262144
+        },
+        "modalities": {
+          "input": [
+            "text"
+          ],
+          "output": [
+            "text"
+          ]
+        },
+        "name": "GLM-5.3",
+        "open_weights": true,
+        "reasoning": true,
+        "reasoning_options": [
+          {
+            "type": "effort",
+            "values": [
+              "low",
+              "high",
+              "max"
+            ]
+          }
+        ],
+        "release_date": "2026-08-28",
+        "structured_output": true,
+        "temperature": true,
+        "tool_call": true
+      },
+      "glm-5.3-flash": {
+        "attachment": true,
+        "cost": {
+          "cache_read": 0.031575,
+          "input": 0.16332,
+          "output": 0.5444
+        },
+        "description": "Native multimodal GLM model for efficient coding and long-horizon agent tasks",
+        "family": "glm",
+        "id": "glm-5.3-flash",
+        "last_updated": "2026-08-31",
+        "limit": {
+          "context": 1048576,
+          "output": 131072
+        },
+        "modalities": {
+          "input": [
+            "text",
+            "image"
+          ],
+          "output": [
+            "text"
+          ]
+        },
+        "name": "GLM-5.3-Flash",
+        "open_weights": false,
+        "reasoning": true,
+        "reasoning_options": [
+          {
+            "type": "effort",
+            "values": [
+              "low",
+              "high",
+              "max"
+            ]
+          }
+        ],
+        "release_date": "2026-08-26",
+        "structured_output": true,
+        "temperature": true,
+        "tool_call": true
+      },
       "gpt-oss-120b": {
         "attachment": false,
         "cost": {
-          "cache_write": 0.089,
-          "input": 0.178,
-          "output": 0.68
+          "cache_write": 0.094,
+          "input": 0.188,
+          "output": 0.7
         },
         "description": "Open GPT reasoning model for self-hosted agents and controllable deployments",
         "family": "gpt-oss",
@@ -94675,9 +94758,9 @@
       "llama-4-maverick-17b-128e-instruct-fp8": {
         "attachment": false,
         "cost": {
-          "cache_write": 0.142,
-          "input": 0.284,
-          "output": 0.934
+          "cache_write": 0.137,
+          "input": 0.274,
+          "output": 0.8992
         },
         "description": "Open multimodal Llama for strong reasoning with efficient everyday serving",
         "family": "llama",
@@ -94706,9 +94789,9 @@
       "minimax-m2.7": {
         "attachment": false,
         "cost": {
-          "cache_write": 0.202,
-          "input": 0.404,
-          "output": 1.496
+          "cache_write": 0.212,
+          "input": 0.424,
+          "output": 1.612
         },
         "description": "Open MiniMax flagship for coding agents, office automation, and complex environments",
         "family": "minimax",
@@ -107538,8 +107621,8 @@
       "deepseek/deepseek-chat": {
         "attachment": false,
         "cost": {
-          "input": 0.4,
-          "output": 1.3
+          "input": 0.2574,
+          "output": 1.0287
         },
         "description": "DeepSeek chat model for instruction following, coding, and analysis",
         "family": "deepseek",
@@ -107569,9 +107652,8 @@
       "deepseek/deepseek-chat-v3-0324": {
         "attachment": false,
         "cost": {
-          "cache_read": 0.135,
-          "input": 0.27,
-          "output": 1.12
+          "input": 0.25,
+          "output": 1
         },
         "description": "DeepSeek chat model for instruction following, coding, and analysis",
         "family": "deepseek",
@@ -107962,9 +108044,9 @@
       "deepseek/deepseek-v4-flash-vision-exp": {
         "attachment": true,
         "cost": {
-          "cache_read": 0.007,
-          "input": 0.22,
-          "output": 0.66
+          "cache_read": 0.028,
+          "input": 0.44,
+          "output": 1.32
         },
         "description": "DeepSeek V4 Flash Vision Exp is an experimental vision-enabled version of [DeepSeek V4 Flash 0731](https://openrouter.ai/deepseek/deepseek-v4-flash-0731) from DeepSeek, adding image understanding while matching the base model on text capabilities including agents,...",
         "family": "deepseek-flash",
@@ -109708,37 +109790,6 @@
         "temperature": true,
         "tool_call": true
       },
-      "kwaipilot/kat-coder-air-v2.5": {
-        "attachment": false,
-        "cost": {
-          "cache_read": 0.03,
-          "input": 0.15,
-          "output": 0.6
-        },
-        "description": "KAT-Coder-Air V2.5 is a flagship-level Agentic Coding model that can directly hand over an entire issue or an entire business workflow to it, allowing it to autonomously locate and make...",
-        "family": "kat-coder",
-        "id": "kwaipilot/kat-coder-air-v2.5",
-        "last_updated": "2026-07-10",
-        "limit": {
-          "context": 256000,
-          "output": 80000
-        },
-        "modalities": {
-          "input": [
-            "text"
-          ],
-          "output": [
-            "text"
-          ]
-        },
-        "name": "Kwaipilot: KAT-Coder-Air V2.5",
-        "open_weights": false,
-        "reasoning": false,
-        "release_date": "2026-07-10",
-        "structured_output": true,
-        "temperature": true,
-        "tool_call": true
-      },
       "kwaipilot/kat-coder-pro-v2": {
         "attachment": false,
         "cost": {
@@ -109751,8 +109802,8 @@
         "id": "kwaipilot/kat-coder-pro-v2",
         "last_updated": "2026-03-27",
         "limit": {
-          "context": 256000,
-          "output": 80000
+          "context": 262144,
+          "output": 144000
         },
         "modalities": {
           "input": [
@@ -109782,8 +109833,8 @@
         "id": "kwaipilot/kat-coder-pro-v2.5",
         "last_updated": "2026-07-10",
         "limit": {
-          "context": 256000,
-          "output": 80000
+          "context": 262144,
+          "output": 235929
         },
         "modalities": {
           "input": [
@@ -117005,8 +117056,8 @@
         "id": "qwen/qwen3.8-2.4t-a95b",
         "last_updated": "2026-08-12",
         "limit": {
-          "context": 1000000,
-          "output": 262144
+          "context": 262144,
+          "output": 131072
         },
         "modalities": {
           "input": [
@@ -117965,9 +118016,9 @@
       "tencent/hy3": {
         "attachment": false,
         "cost": {
-          "cache_read": 0.035,
-          "input": 0.14,
-          "output": 0.58
+          "cache_read": 0.020625,
+          "input": 0.0825,
+          "output": 0.33
         },
         "description": "Hy3 is a 295B-parameter Mixture-of-Experts model from Tencent (21B active, 192 experts with top-8 routing) built for reasoning, agentic workflows, and real-world production use. It supports a configurable reasoning effort:...",
         "family": "Hy",
@@ -118040,48 +118091,6 @@
           }
         ],
         "release_date": "2026-04-20",
-        "structured_output": false,
-        "temperature": true,
-        "tool_call": true
-      },
-      "tencent/hy3:free": {
-        "attachment": false,
-        "cost": {
-          "cache_read": 0,
-          "input": 0,
-          "output": 0,
-          "reasoning": 0
-        },
-        "description": "Hy3 is a 295B-parameter Mixture-of-Experts model from Tencent, activating 21B parameters per token. It supports configurable reasoning effort, agentic workflows, reliable tool calling, and long-context tasks across coding, document processing, financial analysis, and frontend development.",
-        "family": "Hy",
-        "id": "tencent/hy3:free",
-        "last_updated": "2026-07-06",
-        "limit": {
-          "context": 262144,
-          "output": 128000
-        },
-        "modalities": {
-          "input": [
-            "text"
-          ],
-          "output": [
-            "text"
-          ]
-        },
-        "name": "Tencent: Hy3 (free)",
-        "open_weights": true,
-        "reasoning": true,
-        "reasoning_options": [
-          {
-            "type": "effort",
-            "values": [
-              "none",
-              "low",
-              "high"
-            ]
-          }
-        ],
-        "release_date": "2026-07-06",
         "structured_output": false,
         "temperature": true,
         "tool_call": true
@@ -147767,8 +147776,8 @@
         "cost": {
           "cache_read": 0.2,
           "cache_write": 2.5,
-          "input": 2,
-          "output": 10
+          "input": 3,
+          "output": 15
         },
         "description": "Everyday Claude agent model for coding, planning, browsing, and general work",
         "family": "claude-sonnet",
@@ -151541,6 +151550,7 @@
         "attachment": true,
         "cost": {
           "cache_read": 0.02,
+          "cache_write": 0.25,
           "input": 0.2,
           "output": 1.2
         },
@@ -151589,6 +151599,7 @@
         "attachment": true,
         "cost": {
           "cache_read": 0.5,
+          "cache_write": 5,
           "input": 5,
           "output": 30
         },
@@ -151637,6 +151648,7 @@
         "attachment": true,
         "cost": {
           "cache_read": 0.2,
+          "cache_write": 2.5,
           "input": 2,
           "output": 12
         },
@@ -152525,7 +152537,7 @@
         "tool_call": true
       },
       "qwen/qwen3.5-27b": {
-        "attachment": true,
+        "attachment": false,
         "cost": {
           "cache_read": 0.0172,
           "input": 0.086,
@@ -152536,13 +152548,12 @@
         "id": "qwen/qwen3.5-27b",
         "last_updated": "2026-02-23",
         "limit": {
-          "context": 256000,
-          "output": 64000
+          "context": 131072,
+          "output": 32768
         },
         "modalities": {
           "input": [
-            "text",
-            "image"
+            "text"
           ],
           "output": [
             "text"
@@ -152598,7 +152609,7 @@
         "tool_call": true
       },
       "qwen/qwen3.5-397b-a17b": {
-        "attachment": true,
+        "attachment": false,
         "cost": {
           "cache_read": 0.0344,
           "input": 0.172,
@@ -152609,13 +152620,12 @@
         "id": "qwen/qwen3.5-397b-a17b",
         "last_updated": "2026-02-15",
         "limit": {
-          "context": 256000,
-          "output": 64000
+          "context": 131072,
+          "output": 32768
         },
         "modalities": {
           "input": [
-            "text",
-            "image"
+            "text"
           ],
           "output": [
             "text"
@@ -153390,9 +153400,9 @@
       "xai/grok-4.6": {
         "attachment": true,
         "cost": {
-          "cache_read": 0.375,
-          "input": 1.5,
-          "output": 4.5
+          "cache_read": 0.5,
+          "input": 2,
+          "output": 6
         },
         "description": "xAI's frontier model for long-running agents, coding, knowledge work, and visual projects",
         "family": "grok",
@@ -161879,6 +161889,46 @@
         "structured_output": true,
         "tool_call": true
       },
+      "abliteration-ai/abliterated-model-large-v2": {
+        "attachment": false,
+        "cost": {
+          "cache_read": 0.5,
+          "input": 5,
+          "output": 5
+        },
+        "description": "Abliteration.ai's default large text reasoning model is derived from GLM-5.3 for harder reasoning and evaluation workloads, with automatic prompt caching and a one-million-token context window.",
+        "id": "abliteration-ai/abliterated-model-large-v2",
+        "last_updated": "2026-08-31",
+        "limit": {
+          "context": 1000000,
+          "input": 1000000,
+          "output": 999990
+        },
+        "modalities": {
+          "input": [
+            "text"
+          ],
+          "output": [
+            "text"
+          ]
+        },
+        "name": "Abliterated Model Large V2",
+        "open_weights": false,
+        "reasoning": true,
+        "reasoning_options": [
+          {
+            "type": "effort",
+            "values": [
+              "low",
+              "high",
+              "max"
+            ]
+          }
+        ],
+        "release_date": "2026-08-31",
+        "structured_output": true,
+        "tool_call": false
+      },
       "aion-labs/aion-2.0": {
         "attachment": false,
         "cost": {
@@ -167559,9 +167609,9 @@
       "gemma-4-12b-it": {
         "attachment": true,
         "cost": {
-          "cache_read": 0.03,
-          "input": 0.06,
-          "output": 0.3
+          "cache_read": 0.025,
+          "input": 0.05,
+          "output": 0.25
         },
         "description": "Google's Gemma 4 12B Instruct is an open-weight multimodal model for text, image, audio, and video understanding, with tool calling and structured output support.",
         "family": "gemma",
@@ -209248,9 +209298,9 @@
       "deepseek/deepseek-v4-flash": {
         "attachment": false,
         "cost": {
-          "cache_read": 0.017721,
-          "input": 0.088606,
-          "output": 0.177212
+          "cache_read": 0.016492,
+          "input": 0.08246,
+          "output": 0.16492
         },
         "description": "Fast DeepSeek V4 lane for economical reasoning, coding, and long-context work",
         "family": "deepseek-flash",
@@ -209385,9 +209435,9 @@
       "deepseek/deepseek-v4-pro": {
         "attachment": false,
         "cost": {
-          "cache_read": 0.086855,
-          "input": 1.04226,
-          "output": 2.08452
+          "cache_read": 0.086188,
+          "input": 1.034256,
+          "output": 2.068512
         },
         "description": "Open MoE flagship with million-token context for coding and long agent runs",
         "family": "deepseek-thinking",
@@ -211053,37 +211103,6 @@
         "temperature": true,
         "tool_call": true
       },
-      "kwaipilot/kat-coder-air-v2.5": {
-        "attachment": false,
-        "cost": {
-          "cache_read": 0.03,
-          "input": 0.15,
-          "output": 0.6
-        },
-        "description": "Coding model for repository understanding, refactors, and agentic engineering tasks",
-        "family": "kat-coder",
-        "id": "kwaipilot/kat-coder-air-v2.5",
-        "last_updated": "2026-07-10",
-        "limit": {
-          "context": 256000,
-          "output": 80000
-        },
-        "modalities": {
-          "input": [
-            "text"
-          ],
-          "output": [
-            "text"
-          ]
-        },
-        "name": "KAT-Coder-Air V2.5",
-        "open_weights": false,
-        "reasoning": false,
-        "release_date": "2026-07-10",
-        "structured_output": true,
-        "temperature": true,
-        "tool_call": true
-      },
       "kwaipilot/kat-coder-pro-v2": {
         "attachment": false,
         "cost": {
@@ -211097,7 +211116,7 @@
         "last_updated": "2026-03-27",
         "limit": {
           "context": 262144,
-          "output": 80000
+          "output": 144000
         },
         "modalities": {
           "input": [
@@ -211128,7 +211147,7 @@
         "last_updated": "2026-07-10",
         "limit": {
           "context": 262144,
-          "output": 80000
+          "output": 235929
         },
         "modalities": {
           "input": [
@@ -218444,7 +218463,7 @@
       "qwen/qwen3.8-2.4t-a95b": {
         "attachment": false,
         "cost": {
-          "cache_read": 0.25,
+          "cache_read": 0.2,
           "input": 2,
           "output": 6
         },
@@ -218454,7 +218473,7 @@
         "last_updated": "2026-08-12",
         "limit": {
           "context": 1048576,
-          "output": 262144
+          "output": 131072
         },
         "modalities": {
           "input": [
@@ -219136,9 +219155,9 @@
       "tencent/hy3": {
         "attachment": false,
         "cost": {
-          "cache_read": 0.033,
-          "input": 0.132,
-          "output": 0.528
+          "cache_read": 0.020625,
+          "input": 0.0825,
+          "output": 0.33
         },
         "description": "Tencent Hy reasoning model for coding, instruction following, and agent tasks",
         "family": "Hy",

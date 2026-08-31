@@ -26632,6 +26632,28 @@
         "reasoning": true,
         "tool_call": true
       },
+      "id": "glm-5.3",
+      "name": "GLM-5.3",
+      "providerId": "hyper",
+      "updated": "2026-08-31"
+    },
+    {
+      "flags": {
+        "attachment": true,
+        "reasoning": true,
+        "tool_call": true
+      },
+      "id": "glm-5.3-flash",
+      "name": "GLM-5.3-Flash",
+      "providerId": "hyper",
+      "updated": "2026-08-31"
+    },
+    {
+      "flags": {
+        "attachment": false,
+        "reasoning": true,
+        "tool_call": true
+      },
       "id": "gpt-oss-120b",
       "name": "GPT OSS 120B",
       "providerId": "hyper",
@@ -31153,17 +31175,6 @@
         "reasoning": false,
         "tool_call": true
       },
-      "id": "kwaipilot/kat-coder-air-v2.5",
-      "name": "Kwaipilot: KAT-Coder-Air V2.5",
-      "providerId": "kilo",
-      "updated": "2026-07-10"
-    },
-    {
-      "flags": {
-        "attachment": false,
-        "reasoning": false,
-        "tool_call": true
-      },
       "id": "kwaipilot/kat-coder-pro-v2",
       "name": "Kwaipilot: KAT-Coder-Pro V2",
       "providerId": "kilo",
@@ -33577,17 +33588,6 @@
       "name": "Hy3 preview",
       "providerId": "kilo",
       "updated": "2026-04-20"
-    },
-    {
-      "flags": {
-        "attachment": false,
-        "reasoning": true,
-        "tool_call": true
-      },
-      "id": "tencent/hy3:free",
-      "name": "Tencent: Hy3 (free)",
-      "providerId": "kilo",
-      "updated": "2026-07-06"
     },
     {
       "flags": {
@@ -42688,7 +42688,7 @@
     },
     {
       "flags": {
-        "attachment": true,
+        "attachment": false,
         "reasoning": true,
         "tool_call": true
       },
@@ -42710,7 +42710,7 @@
     },
     {
       "flags": {
-        "attachment": true,
+        "attachment": false,
         "reasoning": true,
         "tool_call": true
       },
@@ -44577,6 +44577,17 @@
       "name": "Abliterated Model Large",
       "providerId": "nano-gpt",
       "updated": "2026-08-27"
+    },
+    {
+      "flags": {
+        "attachment": false,
+        "reasoning": true,
+        "tool_call": false
+      },
+      "id": "abliteration-ai/abliterated-model-large-v2",
+      "name": "Abliterated Model Large V2",
+      "providerId": "nano-gpt",
+      "updated": "2026-08-31"
     },
     {
       "flags": {
@@ -59658,17 +59669,6 @@
       "name": "Ling 3.0 Flash Fin (free)",
       "providerId": "openrouter",
       "updated": "2026-08-27"
-    },
-    {
-      "flags": {
-        "attachment": false,
-        "reasoning": false,
-        "tool_call": true
-      },
-      "id": "kwaipilot/kat-coder-air-v2.5",
-      "name": "KAT-Coder-Air V2.5",
-      "providerId": "openrouter",
-      "updated": "2026-07-10"
     },
     {
       "flags": {
@@ -84508,7 +84508,7 @@
       "doc": "https://hyper.charm.land",
       "iconURL": "https://models.dev/logos/hyper.svg",
       "id": "hyper",
-      "modelCount": 29,
+      "modelCount": 31,
       "name": "Charm Hyper"
     },
     {
@@ -84614,7 +84614,7 @@
       "doc": "https://kilo.ai",
       "iconURL": "https://models.dev/logos/kilo.svg",
       "id": "kilo",
-      "modelCount": 364,
+      "modelCount": 362,
       "name": "Kilo Gateway"
     },
     {
@@ -84883,7 +84883,7 @@
       "doc": "https://docs.nano-gpt.com",
       "iconURL": "https://models.dev/logos/nano-gpt.svg",
       "id": "nano-gpt",
-      "modelCount": 606,
+      "modelCount": 607,
       "name": "NanoGPT"
     },
     {
@@ -85005,7 +85005,7 @@
       "iconURL": "https://models.dev/logos/openrouter.svg",
       "id": "openrouter",
       "lobeIcon": "OpenRouter.Color",
-      "modelCount": 354,
+      "modelCount": 353,
       "name": "OpenRouter"
     },
     {
