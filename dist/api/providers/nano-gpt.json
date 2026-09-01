@@ -3621,6 +3621,52 @@
       "temperature": false,
       "tool_call": true
     },
+    "anthropic/claude-fable-5.1": {
+      "attachment": true,
+      "cost": {
+        "cache_read": 0.25,
+        "cache_write": 12.5,
+        "input": 10,
+        "output": 50
+      },
+      "description": "Claude Fable 5.1 improves on Fable 5 across agentic coding, long-running workflows, front-end and visual code generation, finance, analysis, and knowledge work, with more concise plans and summaries. Anthropic retains prompts and outputs for 30 days; Zero Data Retention is not available.",
+      "family": "claude-fable",
+      "id": "anthropic/claude-fable-5.1",
+      "last_updated": "2026-09-01",
+      "limit": {
+        "context": 1000000,
+        "input": 1000000,
+        "output": 128000
+      },
+      "modalities": {
+        "input": [
+          "text",
+          "image",
+          "pdf"
+        ],
+        "output": [
+          "text"
+        ]
+      },
+      "name": "Claude Fable 5.1",
+      "open_weights": false,
+      "reasoning": true,
+      "reasoning_options": [
+        {
+          "type": "effort",
+          "values": [
+            "low",
+            "medium",
+            "high",
+            "xhigh",
+            "max"
+          ]
+        }
+      ],
+      "release_date": "2026-09-01",
+      "structured_output": true,
+      "tool_call": true
+    },
     "anthropic/claude-fable-latest": {
       "attachment": true,
       "cost": {
@@ -10885,6 +10931,48 @@
         }
       ],
       "release_date": "2026-08-31",
+      "structured_output": true,
+      "tool_call": true
+    },
+    "inception/mercury-2.5-preview": {
+      "attachment": false,
+      "cost": {
+        "cache_read": 0.004,
+        "input": 0.04,
+        "output": 0.15
+      },
+      "description": "Mercury 2.5 Preview is Inception's latest and most intelligent diffusion language model. Instead of generating tokens strictly one at a time, it produces and refines multiple tokens in parallel, reaching up to 1,107 tokens per second on standard GPUs. It delivers a 10+ point intelligence gain over Mercury 2, with tunable reasoning, parallel tool calls, schema-aligned JSON output, and a 260K context window. It is built for latency-sensitive production work such as search agents, voice pipelines, customer support, rapid coding iteration, and coding subagents.",
+      "family": "mercury",
+      "id": "inception/mercury-2.5-preview",
+      "last_updated": "2026-09-01",
+      "limit": {
+        "context": 260000,
+        "input": 260000,
+        "output": 65536
+      },
+      "modalities": {
+        "input": [
+          "text"
+        ],
+        "output": [
+          "text"
+        ]
+      },
+      "name": "Mercury 2.5 Preview",
+      "open_weights": false,
+      "reasoning": true,
+      "reasoning_options": [
+        {
+          "type": "effort",
+          "values": [
+            "none",
+            "low",
+            "medium",
+            "high"
+          ]
+        }
+      ],
+      "release_date": "2026-09-01",
       "structured_output": true,
       "tool_call": true
     },
