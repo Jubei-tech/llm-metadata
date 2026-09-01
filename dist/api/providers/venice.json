@@ -449,10 +449,10 @@
     "claude-sonnet-5": {
       "attachment": true,
       "cost": {
-        "cache_read": 0.2,
-        "cache_write": 2.5000000000000004,
-        "input": 2,
-        "output": 10.000000000000002
+        "cache_read": 0.3,
+        "cache_write": 3.75,
+        "input": 3,
+        "output": 15
       },
       "description": "Balanced Claude model for coding, analysis, agent workflows, and cost control",
       "family": "claude-sonnet",
@@ -706,7 +706,7 @@
         ]
       },
       "name": "DeepSeek V4 Pro 0813",
-      "open_weights": false,
+      "open_weights": true,
       "reasoning": true,
       "reasoning_options": [],
       "release_date": "2026-08-14",
@@ -1553,7 +1553,7 @@
         ]
       },
       "name": "Kimi K2.5",
-      "open_weights": false,
+      "open_weights": true,
       "reasoning": true,
       "reasoning_options": [],
       "release_date": "2026-01-27",
@@ -3447,7 +3447,7 @@
         ]
       },
       "name": "Qwen 3.6 27B",
-      "open_weights": false,
+      "open_weights": true,
       "reasoning": true,
       "reasoning_options": [
         {
@@ -3750,7 +3750,7 @@
         ]
       },
       "name": "GLM 5.3",
-      "open_weights": false,
+      "open_weights": true,
       "reasoning": true,
       "reasoning_options": [],
       "release_date": "2026-08-18",
