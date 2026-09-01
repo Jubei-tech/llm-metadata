@@ -742,7 +742,7 @@
       "doc": "https://kilo.ai",
       "iconURL": "https://models.dev/logos/kilo.svg",
       "id": "kilo",
-      "modelCount": 363,
+      "modelCount": 360,
       "name": "Kilo Gateway"
     },
     {
@@ -1133,7 +1133,7 @@
       "iconURL": "https://models.dev/logos/openrouter.svg",
       "id": "openrouter",
       "lobeIcon": "OpenRouter.Color",
-      "modelCount": 354,
+      "modelCount": 352,
       "name": "OpenRouter"
     },
     {
