@@ -7,10 +7,10 @@
   },
   "description": "Flagship GLM model for long-horizon coding, agents, and complex project delivery",
   "family": "glm",
-  "id": "glm-5.3",
+  "id": "runware/glm-5.3",
   "last_updated": "2026-08-14",
   "limit": {
-    "context": 1048576,
+    "context": 1000000,
     "output": 131072
   },
   "modalities": {
@@ -21,7 +21,7 @@
       "text"
     ]
   },
-  "name": "GLM-5.3",
+  "name": "GLM-5.3 (Runware)",
   "open_weights": true,
   "reasoning": true,
   "reasoning_options": [
