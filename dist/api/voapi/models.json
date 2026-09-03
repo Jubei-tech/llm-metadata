@@ -29926,6 +29926,79 @@
       "tags": []
     },
     {
+      "description": "Experimental multimodal DeepSeek V4 Flash model for image understanding, coding, and agentic work",
+      "firm": "amd",
+      "flags": {
+        "attachment": true,
+        "audio": false,
+        "image": true,
+        "open_weights": false,
+        "reasoning": true,
+        "temperature": true,
+        "tool_call": true
+      },
+      "icon": "",
+      "id": "DeepSeek-V4-Flash-Vision-Exp",
+      "knowledge": null,
+      "lastUpdated": "2026-08-21",
+      "maxCtxTokens": 1000000,
+      "maxOutputTokens": 384000,
+      "modalities": {
+        "input": [
+          "text",
+          "image"
+        ],
+        "output": [
+          "text"
+        ]
+      },
+      "name": "DeepSeek V4 Flash Vision Exp",
+      "price": {
+        "cacheRead": 0.0028,
+        "cacheWrite": null,
+        "input": 0.14,
+        "output": 0.28
+      },
+      "releaseDate": "2026-08-21",
+      "tags": []
+    },
+    {
+      "description": "Dense 1B-class open-source model for on-device and resource-constrained use, with native long-context support, Think / No Think chat modes, and tool calling",
+      "firm": "amd",
+      "flags": {
+        "attachment": false,
+        "audio": false,
+        "image": false,
+        "open_weights": true,
+        "reasoning": true,
+        "temperature": true,
+        "tool_call": true
+      },
+      "icon": "",
+      "id": "MiniCPM5-1B",
+      "knowledge": null,
+      "lastUpdated": "2026-05-19",
+      "maxCtxTokens": 131072,
+      "maxOutputTokens": 131072,
+      "modalities": {
+        "input": [
+          "text"
+        ],
+        "output": [
+          "text"
+        ]
+      },
+      "name": "MiniCPM5-1B",
+      "price": {
+        "cacheRead": 0.124,
+        "cacheWrite": null,
+        "input": 0.124,
+        "output": 0.7425
+      },
+      "releaseDate": "2026-05-19",
+      "tags": []
+    },
+    {
       "description": "Open-weight experimental preview of the Qwen4 architecture: hybrid-attention MoE (125B total, 6B active) with vision encoder for coding, agent tasks, and image and video understanding",
       "firm": "amd",
       "flags": {
@@ -53951,6 +54024,43 @@
       "tags": []
     },
     {
+      "description": "Experimental multimodal DeepSeek V4 Flash model for image understanding, coding, and agentic work",
+      "firm": "deepinfra",
+      "flags": {
+        "attachment": true,
+        "audio": false,
+        "image": true,
+        "open_weights": false,
+        "reasoning": true,
+        "temperature": true,
+        "tool_call": true
+      },
+      "icon": "lb:deepinfra",
+      "id": "deepseek-ai/DeepSeek-V4-Flash-Vision-Exp",
+      "knowledge": null,
+      "lastUpdated": "2026-08-21",
+      "maxCtxTokens": 1048576,
+      "maxOutputTokens": 384000,
+      "modalities": {
+        "input": [
+          "text",
+          "image"
+        ],
+        "output": [
+          "text"
+        ]
+      },
+      "name": "DeepSeek V4 Flash Vision Exp",
+      "price": {
+        "cacheRead": 0.14,
+        "cacheWrite": null,
+        "input": 0.44,
+        "output": 1.32
+      },
+      "releaseDate": "2026-08-21",
+      "tags": []
+    },
+    {
       "description": "Open MoE flagship with million-token context for coding and long agent runs",
       "firm": "deepinfra",
       "flags": {
@@ -63532,6 +63642,46 @@
       "tags": []
     },
     {
+      "description": "Google's most intelligent Flash model, engineered for long-horizon software engineering, autonomous agents, and complex enterprise workflows",
+      "firm": "edenai",
+      "flags": {
+        "attachment": true,
+        "audio": true,
+        "image": true,
+        "open_weights": false,
+        "reasoning": true,
+        "temperature": true,
+        "tool_call": true
+      },
+      "icon": "",
+      "id": "google/gemini-3.8-flash",
+      "knowledge": null,
+      "lastUpdated": "2026-09-02",
+      "maxCtxTokens": 1048576,
+      "maxOutputTokens": 65536,
+      "modalities": {
+        "input": [
+          "text",
+          "image",
+          "video",
+          "audio",
+          "pdf"
+        ],
+        "output": [
+          "text"
+        ]
+      },
+      "name": "Gemini 3.8 Flash",
+      "price": {
+        "cacheRead": 0.15,
+        "cacheWrite": 0.083333,
+        "input": 1.5,
+        "output": 7.5
+      },
+      "releaseDate": "2026-09-02",
+      "tags": []
+    },
+    {
       "description": "High-efficiency Gemini model for agentic workflows, coding, and multimodal reasoning",
       "firm": "edenai",
       "flags": {
@@ -63713,8 +63863,8 @@
       "price": {
         "cacheRead": null,
         "cacheWrite": null,
-        "input": 0.75257,
-        "output": 0.75257
+        "input": 0.754975,
+        "output": 0.754975
       },
       "releaseDate": "2024-12-06",
       "tags": []
@@ -63749,8 +63899,8 @@
       "price": {
         "cacheRead": null,
         "cacheWrite": null,
-        "input": 0.17367,
-        "output": 0.75257
+        "input": 0.174225,
+        "output": 0.754975
       },
       "releaseDate": "2025-08-05",
       "tags": []
@@ -67053,7 +67203,7 @@
       "price": {
         "cacheRead": 0.016,
         "cacheWrite": 0.2,
-        "input": 0.16,
+        "input": 0.15,
         "output": 0.47
       },
       "releaseDate": "2026-08-26",
@@ -67163,8 +67313,8 @@
       "price": {
         "cacheRead": null,
         "cacheWrite": null,
-        "input": 0.46312,
-        "output": 0.92624
+        "input": 0.4646,
+        "output": 0.9292
       },
       "releaseDate": "2026-07-31",
       "tags": []
@@ -67199,8 +67349,8 @@
       "price": {
         "cacheRead": null,
         "cacheWrite": null,
-        "input": 0.17367,
-        "output": 0.69468
+        "input": 0.174225,
+        "output": 0.6969
       },
       "releaseDate": "2025-08-05",
       "tags": []
@@ -67235,8 +67385,8 @@
       "price": {
         "cacheRead": null,
         "cacheWrite": null,
-        "input": 1.04202,
-        "output": 1.04202
+        "input": 1.04535,
+        "output": 1.04535
       },
       "releaseDate": "2024-12-06",
       "tags": []
@@ -68437,6 +68587,126 @@
         "output": 3.75
       },
       "releaseDate": "2026-08-13",
+      "tags": []
+    },
+    {
+      "description": "Google's most intelligent Flash model, engineered for long-horizon software engineering, autonomous agents, and complex enterprise workflows",
+      "firm": "edenai",
+      "flags": {
+        "attachment": true,
+        "audio": true,
+        "image": true,
+        "open_weights": false,
+        "reasoning": true,
+        "temperature": true,
+        "tool_call": true
+      },
+      "icon": "",
+      "id": "vertex/gemini-3.8-flash",
+      "knowledge": null,
+      "lastUpdated": "2026-09-02",
+      "maxCtxTokens": 1048576,
+      "maxOutputTokens": 65536,
+      "modalities": {
+        "input": [
+          "text",
+          "image",
+          "video",
+          "audio",
+          "pdf"
+        ],
+        "output": [
+          "text"
+        ]
+      },
+      "name": "Gemini 3.8 Flash",
+      "price": {
+        "cacheRead": 0.15,
+        "cacheWrite": 0.083333,
+        "input": 1.5,
+        "output": 7.5
+      },
+      "releaseDate": "2026-09-02",
+      "tags": []
+    },
+    {
+      "description": "Google's most intelligent Flash model, engineered for long-horizon software engineering, autonomous agents, and complex enterprise workflows",
+      "firm": "edenai",
+      "flags": {
+        "attachment": true,
+        "audio": true,
+        "image": true,
+        "open_weights": false,
+        "reasoning": true,
+        "temperature": true,
+        "tool_call": true
+      },
+      "icon": "",
+      "id": "vertex/gemini-3.8-flash@eu",
+      "knowledge": null,
+      "lastUpdated": "2026-09-02",
+      "maxCtxTokens": 1048576,
+      "maxOutputTokens": 65536,
+      "modalities": {
+        "input": [
+          "text",
+          "image",
+          "video",
+          "audio",
+          "pdf"
+        ],
+        "output": [
+          "text"
+        ]
+      },
+      "name": "Gemini 3.8 Flash (EU)",
+      "price": {
+        "cacheRead": 0.15,
+        "cacheWrite": 0.083333,
+        "input": 1.5,
+        "output": 7.5
+      },
+      "releaseDate": "2026-09-02",
+      "tags": []
+    },
+    {
+      "description": "Google's most intelligent Flash model, engineered for long-horizon software engineering, autonomous agents, and complex enterprise workflows",
+      "firm": "edenai",
+      "flags": {
+        "attachment": true,
+        "audio": true,
+        "image": true,
+        "open_weights": false,
+        "reasoning": true,
+        "temperature": true,
+        "tool_call": true
+      },
+      "icon": "",
+      "id": "vertex/gemini-3.8-flash@us",
+      "knowledge": null,
+      "lastUpdated": "2026-09-02",
+      "maxCtxTokens": 1048576,
+      "maxOutputTokens": 65536,
+      "modalities": {
+        "input": [
+          "text",
+          "image",
+          "video",
+          "audio",
+          "pdf"
+        ],
+        "output": [
+          "text"
+        ]
+      },
+      "name": "Gemini 3.8 Flash (US)",
+      "price": {
+        "cacheRead": 0.15,
+        "cacheWrite": 0.083333,
+        "input": 1.5,
+        "output": 7.5
+      },
+      "releaseDate": "2026-09-02",
       "tags": []
     },
     {
@@ -70186,6 +70456,44 @@
         "output": 4.25
       },
       "releaseDate": "2026-08-05",
+      "tags": []
+    },
+    {
+      "description": "Muse Spark 1.3 is a multimodal reasoning model from Meta for long-running agentic, multi-agent, and coding workflows. It improves long-horizon agent collaboration, instruction following, and coding efficiency relative to Muse Spark 1.2.",
+      "firm": "empiriolabs",
+      "flags": {
+        "attachment": true,
+        "audio": false,
+        "image": true,
+        "open_weights": false,
+        "reasoning": true,
+        "temperature": true,
+        "tool_call": true
+      },
+      "icon": "",
+      "id": "muse-spark-1-3",
+      "knowledge": null,
+      "lastUpdated": "2026-09-02",
+      "maxCtxTokens": 1048576,
+      "maxOutputTokens": 131072,
+      "modalities": {
+        "input": [
+          "text",
+          "image",
+          "video"
+        ],
+        "output": [
+          "text"
+        ]
+      },
+      "name": "Muse Spark 1.3",
+      "price": {
+        "cacheRead": 1,
+        "cacheWrite": null,
+        "input": 1.25,
+        "output": 4.25
+      },
+      "releaseDate": "2026-09-02",
       "tags": []
     },
     {
@@ -88305,6 +88613,43 @@
       "tags": []
     },
     {
+      "description": "Fast DeepSeek model for efficient chat, coding help, and agent loops",
+      "firm": "huggingface",
+      "flags": {
+        "attachment": true,
+        "audio": false,
+        "image": true,
+        "open_weights": true,
+        "reasoning": true,
+        "temperature": true,
+        "tool_call": true
+      },
+      "icon": "lb:huggingface-color",
+      "id": "deepseek-ai/DeepSeek-V4-Flash-Vision-Exp",
+      "knowledge": null,
+      "lastUpdated": "2026-08-21",
+      "maxCtxTokens": 1048576,
+      "maxOutputTokens": 384000,
+      "modalities": {
+        "input": [
+          "text",
+          "image"
+        ],
+        "output": [
+          "text"
+        ]
+      },
+      "name": "DeepSeek V4 Flash Vision Exp",
+      "price": {
+        "cacheRead": null,
+        "cacheWrite": null,
+        "input": 0.44,
+        "output": 1.32
+      },
+      "releaseDate": "2026-08-21",
+      "tags": []
+    },
+    {
       "description": "Open MoE flagship with million-token context for coding and long agent runs",
       "firm": "huggingface",
       "flags": {
@@ -90807,9 +91152,9 @@
       "name": "Gemma 4 26B A4B IT",
       "price": {
         "cacheRead": null,
-        "cacheWrite": 0.058,
-        "input": 0.116,
-        "output": 0.38
+        "cacheWrite": 0.053,
+        "input": 0.106,
+        "output": 0.368
       },
       "releaseDate": "2026-04-30",
       "tags": []
@@ -90843,9 +91188,9 @@
       "name": "GLM-5",
       "price": {
         "cacheRead": null,
-        "cacheWrite": 0.425,
-        "input": 0.85,
-        "output": 2.774
+        "cacheWrite": 0.465,
+        "input": 0.93,
+        "output": 2.878
       },
       "releaseDate": "2026-04-13",
       "tags": []
@@ -91315,9 +91660,9 @@
       "name": "MiniMax-M2.7",
       "price": {
         "cacheRead": null,
-        "cacheWrite": 0.213,
-        "input": 0.426,
-        "output": 1.62
+        "cacheWrite": 0.209,
+        "input": 0.418,
+        "output": 1.588
       },
       "releaseDate": "2026-06-05",
       "tags": []
@@ -102601,10 +102946,10 @@
       },
       "name": "MoonshotAI Kimi Latest",
       "price": {
-        "cacheRead": 0.256,
+        "cacheRead": 0.29,
         "cacheWrite": null,
-        "input": 2.55,
-        "output": 12.75
+        "input": 2.5,
+        "output": 14
       },
       "releaseDate": "2026-04-27",
       "tags": []
@@ -102740,7 +103085,7 @@
       "knowledge": null,
       "lastUpdated": "2026-08-27",
       "maxCtxTokens": 1048576,
-      "maxOutputTokens": 943718,
+      "maxOutputTokens": 131072,
       "modalities": {
         "input": [
           "text",
@@ -102753,10 +103098,10 @@
       },
       "name": "Z.ai: GLM Flash Latest",
       "price": {
-        "cacheRead": 0.015,
+        "cacheRead": 0.01425,
         "cacheWrite": null,
-        "input": 0.075,
-        "output": 0.25
+        "input": 0.07125,
+        "output": 0.2375
       },
       "releaseDate": "2026-08-27",
       "tags": []
@@ -102789,10 +103134,10 @@
       },
       "name": "Z.ai: GLM Latest",
       "price": {
-        "cacheRead": 0.1863,
+        "cacheRead": 0.1886,
         "cacheWrite": null,
-        "input": 1.134,
-        "output": 3.564
+        "input": 1.148,
+        "output": 3.608
       },
       "releaseDate": "2026-08-19",
       "tags": []
@@ -104375,8 +104720,8 @@
       "id": "deepseek/deepseek-chat-v3.1",
       "knowledge": null,
       "lastUpdated": "2025-08-21",
-      "maxCtxTokens": 163840,
-      "maxOutputTokens": 32768,
+      "maxCtxTokens": 161000,
+      "maxOutputTokens": 144900,
       "modalities": {
         "input": [
           "text"
@@ -106226,6 +106571,42 @@
         "tool_call": true
       },
       "icon": "",
+      "id": "inclusionai/ling-3.0-flash-fin",
+      "knowledge": null,
+      "lastUpdated": "2026-08-27",
+      "maxCtxTokens": 262144,
+      "maxOutputTokens": 235929,
+      "modalities": {
+        "input": [
+          "text"
+        ],
+        "output": [
+          "text"
+        ]
+      },
+      "name": "Ling 3.0 Flash Fin",
+      "price": {
+        "cacheRead": 0.012,
+        "cacheWrite": null,
+        "input": 0.06,
+        "output": 0.18
+      },
+      "releaseDate": "2026-08-27",
+      "tags": []
+    },
+    {
+      "description": "Ling 3.0 Flash Fin is a finance-focused mixture-of-experts model from InclusionAI, built on Ling 3.0 Flash with 5.1B active parameters out of 124B total. It is designed for real-world investment...",
+      "firm": "kilo",
+      "flags": {
+        "attachment": false,
+        "audio": false,
+        "image": false,
+        "open_weights": false,
+        "reasoning": true,
+        "temperature": true,
+        "tool_call": true
+      },
+      "icon": "",
       "id": "inclusionai/ling-3.0-flash-fin:free",
       "knowledge": null,
       "lastUpdated": "2026-08-27",
@@ -107093,7 +107474,7 @@
           "text"
         ]
       },
-      "name": "Meta: Muse Spark 1.3",
+      "name": "Muse Spark 1.3",
       "price": {
         "cacheRead": 0.15,
         "cacheWrite": null,
@@ -113393,7 +113774,7 @@
       "knowledge": null,
       "lastUpdated": "2026-04-17",
       "maxCtxTokens": 262144,
-      "maxOutputTokens": 16384,
+      "maxOutputTokens": 235929,
       "modalities": {
         "input": [
           "text",
@@ -113406,10 +113787,10 @@
       },
       "name": "Qwen3.6 35B-A3B",
       "price": {
-        "cacheRead": null,
+        "cacheRead": 0.05,
         "cacheWrite": null,
-        "input": 0.05,
-        "output": 0.7
+        "input": 0.1,
+        "output": 0.9
       },
       "releaseDate": "2026-04-17",
       "tags": []
@@ -114588,10 +114969,10 @@
       },
       "name": "Hy3",
       "price": {
-        "cacheRead": 0.035,
+        "cacheRead": 0.020625,
         "cacheWrite": null,
-        "input": 0.14,
-        "output": 0.58
+        "input": 0.0825,
+        "output": 0.33
       },
       "releaseDate": "2026-07-06",
       "tags": []
@@ -121594,7 +121975,7 @@
       "knowledge": null,
       "lastUpdated": "2026-07-09",
       "maxCtxTokens": 1048576,
-      "maxOutputTokens": 32000,
+      "maxOutputTokens": 131072,
       "modalities": {
         "input": [
           "text",
@@ -121654,6 +122035,83 @@
         "output": 4.25
       },
       "releaseDate": "2026-08-05",
+      "tags": []
+    },
+    {
+      "description": "Muse Spark 1.3 is a multimodal reasoning model from Meta for long-running agentic, multi-agent, and coding workflows. It improves long-horizon agent collaboration, instruction following, and coding efficiency relative to Muse Spark 1.2.",
+      "firm": "llmgateway",
+      "flags": {
+        "attachment": true,
+        "audio": true,
+        "image": true,
+        "open_weights": false,
+        "reasoning": true,
+        "temperature": true,
+        "tool_call": true
+      },
+      "icon": "",
+      "id": "muse-spark-1.3",
+      "knowledge": null,
+      "lastUpdated": "2026-09-02",
+      "maxCtxTokens": 1048576,
+      "maxOutputTokens": 131072,
+      "modalities": {
+        "input": [
+          "text",
+          "image",
+          "video",
+          "pdf",
+          "audio"
+        ],
+        "output": [
+          "text"
+        ]
+      },
+      "name": "Muse Spark 1.3",
+      "price": {
+        "cacheRead": 0.15,
+        "cacheWrite": null,
+        "input": 1.25,
+        "output": 4.25
+      },
+      "releaseDate": "2026-09-02",
+      "tags": []
+    },
+    {
+      "description": "Multimodal reasoning model for visual analysis, planning, and tool use",
+      "firm": "llmgateway",
+      "flags": {
+        "attachment": true,
+        "audio": false,
+        "image": true,
+        "open_weights": false,
+        "reasoning": true,
+        "temperature": true,
+        "tool_call": true
+      },
+      "icon": "",
+      "id": "muse-spark-1.3-contributor",
+      "knowledge": null,
+      "lastUpdated": "2026-09-02",
+      "maxCtxTokens": 1048576,
+      "maxOutputTokens": 1048576,
+      "modalities": {
+        "input": [
+          "text",
+          "image"
+        ],
+        "output": [
+          "text"
+        ]
+      },
+      "name": "Muse Spark 1.3 Contributor",
+      "price": {
+        "cacheRead": 0.002,
+        "cacheWrite": null,
+        "input": 0.1,
+        "output": 0.2
+      },
+      "releaseDate": "2026-09-02",
       "tags": []
     },
     {
@@ -122980,28 +123438,26 @@
       "tags": []
     },
     {
-      "description": "Dense 27B vision-language model for coding, agent tasks, and image and video understanding",
+      "description": "Reasoning model for deliberate analysis, multi-step problem solving, and tool use",
       "firm": "llmgateway",
       "flags": {
-        "attachment": true,
+        "attachment": false,
         "audio": false,
-        "image": true,
-        "open_weights": true,
+        "image": false,
+        "open_weights": false,
         "reasoning": true,
         "temperature": true,
         "tool_call": true
       },
       "icon": "",
-      "id": "qwen3.8-27b",
+      "id": "Qwen3.8-27B",
       "knowledge": null,
-      "lastUpdated": "2026-08-14",
-      "maxCtxTokens": 1000000,
+      "lastUpdated": "2026-09-02",
+      "maxCtxTokens": 32768,
       "maxOutputTokens": 32768,
       "modalities": {
         "input": [
-          "text",
-          "image",
-          "video"
+          "text"
         ],
         "output": [
           "text"
@@ -123009,12 +123465,12 @@
       },
       "name": "Qwen3.8 27B",
       "price": {
-        "cacheRead": 0.085,
+        "cacheRead": 0.08,
         "cacheWrite": null,
-        "input": 0.42,
-        "output": 3
+        "input": 0.41,
+        "output": 2.5
       },
-      "releaseDate": "2026-08-14",
+      "releaseDate": "2026-09-02",
       "tags": []
     },
     {
@@ -130404,6 +130860,43 @@
       "tags": []
     },
     {
+      "description": "Multimodal reasoning model for visual analysis, planning, and tool use",
+      "firm": "llmgateway-providers",
+      "flags": {
+        "attachment": true,
+        "audio": false,
+        "image": true,
+        "open_weights": false,
+        "reasoning": true,
+        "temperature": true,
+        "tool_call": true
+      },
+      "icon": "",
+      "id": "meta-contributor/muse-spark-1.3-contributor",
+      "knowledge": null,
+      "lastUpdated": "2026-09-02",
+      "maxCtxTokens": 1048576,
+      "maxOutputTokens": 1048576,
+      "modalities": {
+        "input": [
+          "text",
+          "image"
+        ],
+        "output": [
+          "text"
+        ]
+      },
+      "name": "Muse Spark 1.3 Contributor (Meta Contributor)",
+      "price": {
+        "cacheRead": 0.002,
+        "cacheWrite": null,
+        "input": 0.1,
+        "output": 0.2
+      },
+      "releaseDate": "2026-09-02",
+      "tags": []
+    },
+    {
       "description": "Muse Spark is a natively multimodal reasoning model with support for tool-use, visual chain of thought, and multi-agent orchestration.",
       "firm": "llmgateway-providers",
       "flags": {
@@ -130480,6 +130973,46 @@
         "output": 4.25
       },
       "releaseDate": "2026-08-05",
+      "tags": []
+    },
+    {
+      "description": "Muse Spark 1.3 is a multimodal reasoning model from Meta for long-running agentic, multi-agent, and coding workflows. It improves long-horizon agent collaboration, instruction following, and coding efficiency relative to Muse Spark 1.2.",
+      "firm": "llmgateway-providers",
+      "flags": {
+        "attachment": true,
+        "audio": true,
+        "image": true,
+        "open_weights": false,
+        "reasoning": true,
+        "temperature": true,
+        "tool_call": true
+      },
+      "icon": "",
+      "id": "meta/muse-spark-1.3",
+      "knowledge": null,
+      "lastUpdated": "2026-09-02",
+      "maxCtxTokens": 1048576,
+      "maxOutputTokens": 1048576,
+      "modalities": {
+        "input": [
+          "text",
+          "image",
+          "video",
+          "pdf",
+          "audio"
+        ],
+        "output": [
+          "text"
+        ]
+      },
+      "name": "Muse Spark 1.3 (Meta)",
+      "price": {
+        "cacheRead": 0.15,
+        "cacheWrite": null,
+        "input": 1.25,
+        "output": 4.25
+      },
+      "releaseDate": "2026-09-02",
       "tags": []
     },
     {
@@ -144335,9 +144868,9 @@
       "description": "Qwen vision-language model for visual reasoning, documents, and agent tasks",
       "firm": "merge-gateway",
       "flags": {
-        "attachment": true,
+        "attachment": false,
         "audio": false,
-        "image": true,
+        "image": false,
         "open_weights": true,
         "reasoning": true,
         "temperature": true,
@@ -144347,12 +144880,11 @@
       "id": "qwen/qwen3.5-122b-a10b",
       "knowledge": null,
       "lastUpdated": "2026-02-23",
-      "maxCtxTokens": 256000,
-      "maxOutputTokens": 64000,
+      "maxCtxTokens": 131072,
+      "maxOutputTokens": 32768,
       "modalities": {
         "input": [
-          "text",
-          "image"
+          "text"
         ],
         "output": [
           "text"
@@ -144372,9 +144904,9 @@
       "description": "Qwen vision-language model for visual reasoning, documents, and agent tasks",
       "firm": "merge-gateway",
       "flags": {
-        "attachment": false,
+        "attachment": true,
         "audio": false,
-        "image": false,
+        "image": true,
         "open_weights": true,
         "reasoning": true,
         "temperature": true,
@@ -144384,11 +144916,12 @@
       "id": "qwen/qwen3.5-27b",
       "knowledge": null,
       "lastUpdated": "2026-02-23",
-      "maxCtxTokens": 131072,
-      "maxOutputTokens": 32768,
+      "maxCtxTokens": 256000,
+      "maxOutputTokens": 64000,
       "modalities": {
         "input": [
-          "text"
+          "text",
+          "image"
         ],
         "output": [
           "text"
@@ -144408,9 +144941,9 @@
       "description": "Qwen vision-language model for visual reasoning, documents, and agent tasks",
       "firm": "merge-gateway",
       "flags": {
-        "attachment": false,
+        "attachment": true,
         "audio": false,
-        "image": false,
+        "image": true,
         "open_weights": true,
         "reasoning": true,
         "temperature": true,
@@ -144420,11 +144953,12 @@
       "id": "qwen/qwen3.5-35b-a3b",
       "knowledge": null,
       "lastUpdated": "2026-02-23",
-      "maxCtxTokens": 131072,
-      "maxOutputTokens": 32768,
+      "maxCtxTokens": 256000,
+      "maxOutputTokens": 64000,
       "modalities": {
         "input": [
-          "text"
+          "text",
+          "image"
         ],
         "output": [
           "text"
@@ -145805,7 +146339,7 @@
       "knowledge": null,
       "lastUpdated": "2026-07-09",
       "maxCtxTokens": 1048576,
-      "maxOutputTokens": 32000,
+      "maxOutputTokens": 131072,
       "modalities": {
         "input": [
           "text",
@@ -145905,6 +146439,86 @@
         "output": 0.2
       },
       "releaseDate": "2026-08-05",
+      "tags": []
+    },
+    {
+      "description": "Muse Spark 1.3 is a multimodal reasoning model from Meta for long-running agentic, multi-agent, and coding workflows. It improves long-horizon agent collaboration, instruction following, and coding efficiency relative to Muse Spark 1.2.",
+      "firm": "meta",
+      "flags": {
+        "attachment": true,
+        "audio": true,
+        "image": true,
+        "open_weights": false,
+        "reasoning": true,
+        "temperature": true,
+        "tool_call": true
+      },
+      "icon": "",
+      "id": "muse-spark-1.3",
+      "knowledge": null,
+      "lastUpdated": "2026-09-02",
+      "maxCtxTokens": 1048576,
+      "maxOutputTokens": 131072,
+      "modalities": {
+        "input": [
+          "text",
+          "image",
+          "video",
+          "pdf",
+          "audio"
+        ],
+        "output": [
+          "text"
+        ]
+      },
+      "name": "Muse Spark 1.3",
+      "price": {
+        "cacheRead": 0.15,
+        "cacheWrite": null,
+        "input": 1.25,
+        "output": 4.25
+      },
+      "releaseDate": "2026-09-02",
+      "tags": []
+    },
+    {
+      "description": "Muse Spark 1.3 is a multimodal reasoning model from Meta for long-running agentic, multi-agent, and coding workflows. It improves long-horizon agent collaboration, instruction following, and coding efficiency relative to Muse Spark 1.2.",
+      "firm": "meta",
+      "flags": {
+        "attachment": true,
+        "audio": true,
+        "image": true,
+        "open_weights": false,
+        "reasoning": true,
+        "temperature": true,
+        "tool_call": true
+      },
+      "icon": "",
+      "id": "muse-spark-1.3-contributor",
+      "knowledge": null,
+      "lastUpdated": "2026-09-02",
+      "maxCtxTokens": 1048576,
+      "maxOutputTokens": 131072,
+      "modalities": {
+        "input": [
+          "text",
+          "image",
+          "video",
+          "pdf",
+          "audio"
+        ],
+        "output": [
+          "text"
+        ]
+      },
+      "name": "Muse Spark 1.3 Contributor",
+      "price": {
+        "cacheRead": 0.002,
+        "cacheWrite": null,
+        "input": 0.1,
+        "output": 0.2
+      },
+      "releaseDate": "2026-09-02",
       "tags": []
     },
     {
@@ -150564,6 +151178,264 @@
       "tags": []
     },
     {
+      "description": "Fast DeepSeek V4 lane for economical reasoning, coding, and long-context work",
+      "firm": "nan",
+      "flags": {
+        "attachment": false,
+        "audio": false,
+        "image": false,
+        "open_weights": true,
+        "reasoning": true,
+        "temperature": true,
+        "tool_call": true
+      },
+      "icon": "",
+      "id": "deepseek-v4-flash",
+      "knowledge": "2025-05",
+      "lastUpdated": "2026-04-24",
+      "maxCtxTokens": 1000000,
+      "maxOutputTokens": 384000,
+      "modalities": {
+        "input": [
+          "text"
+        ],
+        "output": [
+          "text"
+        ]
+      },
+      "name": "DeepSeek V4 Flash",
+      "price": {
+        "cacheRead": null,
+        "cacheWrite": null,
+        "input": null,
+        "output": null
+      },
+      "releaseDate": "2026-04-24",
+      "tags": []
+    },
+    {
+      "description": "Open Gemma instruction model for efficient chat and self-hosted deployments",
+      "firm": "nan",
+      "flags": {
+        "attachment": true,
+        "audio": false,
+        "image": true,
+        "open_weights": true,
+        "reasoning": true,
+        "temperature": true,
+        "tool_call": true
+      },
+      "icon": "",
+      "id": "gemma4",
+      "knowledge": null,
+      "lastUpdated": "2026-04-02",
+      "maxCtxTokens": 262144,
+      "maxOutputTokens": 32768,
+      "modalities": {
+        "input": [
+          "text",
+          "image"
+        ],
+        "output": [
+          "text"
+        ]
+      },
+      "name": "Gemma 4 26B A4B IT",
+      "price": {
+        "cacheRead": null,
+        "cacheWrite": null,
+        "input": null,
+        "output": null
+      },
+      "releaseDate": "2026-04-02",
+      "tags": []
+    },
+    {
+      "description": "Open flagship GLM for long-horizon coding agents, served at 500K context on the NaN premium tier",
+      "firm": "nan",
+      "flags": {
+        "attachment": false,
+        "audio": false,
+        "image": false,
+        "open_weights": true,
+        "reasoning": true,
+        "temperature": true,
+        "tool_call": true
+      },
+      "icon": "",
+      "id": "glm5.2",
+      "knowledge": null,
+      "lastUpdated": "2026-06-13",
+      "maxCtxTokens": 500000,
+      "maxOutputTokens": 131072,
+      "modalities": {
+        "input": [
+          "text"
+        ],
+        "output": [
+          "text"
+        ]
+      },
+      "name": "GLM-5.2",
+      "price": {
+        "cacheRead": null,
+        "cacheWrite": null,
+        "input": null,
+        "output": null
+      },
+      "releaseDate": "2026-06-13",
+      "tags": []
+    },
+    {
+      "description": "Native multimodal GLM model for efficient coding and long-horizon agent tasks",
+      "firm": "nan",
+      "flags": {
+        "attachment": true,
+        "audio": false,
+        "image": true,
+        "open_weights": false,
+        "reasoning": true,
+        "temperature": true,
+        "tool_call": true
+      },
+      "icon": "",
+      "id": "glm5.3-flash",
+      "knowledge": null,
+      "lastUpdated": "2026-08-26",
+      "maxCtxTokens": 1000000,
+      "maxOutputTokens": 131072,
+      "modalities": {
+        "input": [
+          "text",
+          "image"
+        ],
+        "output": [
+          "text"
+        ]
+      },
+      "name": "GLM-5.3-Flash",
+      "price": {
+        "cacheRead": null,
+        "cacheWrite": null,
+        "input": null,
+        "output": null
+      },
+      "releaseDate": "2026-08-26",
+      "tags": []
+    },
+    {
+      "description": "Open MiMo model for multimodal coding agents and long-context automation",
+      "firm": "nan",
+      "flags": {
+        "attachment": true,
+        "audio": true,
+        "image": true,
+        "open_weights": true,
+        "reasoning": true,
+        "temperature": true,
+        "tool_call": true
+      },
+      "icon": "",
+      "id": "mimo-v2.5",
+      "knowledge": "2024-12",
+      "lastUpdated": "2026-04-22",
+      "maxCtxTokens": 1048576,
+      "maxOutputTokens": 131072,
+      "modalities": {
+        "input": [
+          "text",
+          "image",
+          "audio"
+        ],
+        "output": [
+          "text"
+        ]
+      },
+      "name": "MiMo-V2.5",
+      "price": {
+        "cacheRead": null,
+        "cacheWrite": null,
+        "input": null,
+        "output": null
+      },
+      "releaseDate": "2026-04-22",
+      "tags": []
+    },
+    {
+      "description": "Open multimodal Qwen MoE for local agents that need vision, audio, and code",
+      "firm": "nan",
+      "flags": {
+        "attachment": true,
+        "audio": false,
+        "image": true,
+        "open_weights": true,
+        "reasoning": true,
+        "temperature": true,
+        "tool_call": true
+      },
+      "icon": "",
+      "id": "qwen3.6",
+      "knowledge": null,
+      "lastUpdated": "2026-04-17",
+      "maxCtxTokens": 262144,
+      "maxOutputTokens": 65536,
+      "modalities": {
+        "input": [
+          "text",
+          "image"
+        ],
+        "output": [
+          "text"
+        ]
+      },
+      "name": "Qwen3.6 35B-A3B",
+      "price": {
+        "cacheRead": null,
+        "cacheWrite": null,
+        "input": null,
+        "output": null
+      },
+      "releaseDate": "2026-04-17",
+      "tags": []
+    },
+    {
+      "description": "Qwen vision-language model for visual reasoning, documents, and agent tasks",
+      "firm": "nan",
+      "flags": {
+        "attachment": true,
+        "audio": false,
+        "image": true,
+        "open_weights": false,
+        "reasoning": true,
+        "temperature": false,
+        "tool_call": true
+      },
+      "icon": "",
+      "id": "qwen3.8-flash",
+      "knowledge": null,
+      "lastUpdated": "2026-08-26",
+      "maxCtxTokens": 262144,
+      "maxOutputTokens": 131072,
+      "modalities": {
+        "input": [
+          "text",
+          "image"
+        ],
+        "output": [
+          "text"
+        ]
+      },
+      "name": "Qwen3.8 Flash",
+      "price": {
+        "cacheRead": null,
+        "cacheWrite": null,
+        "input": null,
+        "output": null
+      },
+      "releaseDate": "2026-08-26",
+      "tags": []
+    },
+    {
       "description": "Open Llama instruction model for multilingual chat, reasoning, and coding",
       "firm": "nano-gpt",
       "flags": {
@@ -151005,7 +151877,7 @@
       "tags": []
     },
     {
-      "description": "Qwen3.8 Max 0902 is Alibaba's September 2 checkpoint of its flagship Qwen3.8 Max model for coding, knowledge work, data analysis, and long-running agent workflows. It supports text, image, video, PDF input, selectable thinking, tool calling, structured output, and a near-million-token context window.",
+      "description": "2026-09-02 upgraded snapshot of Qwen3.8 Max with stronger coding, collaborative agents, and multimodal document understanding",
       "firm": "nano-gpt",
       "flags": {
         "attachment": true,
@@ -151013,7 +151885,7 @@
         "image": true,
         "open_weights": false,
         "reasoning": true,
-        "temperature": false,
+        "temperature": true,
         "tool_call": true
       },
       "icon": "",
@@ -151330,7 +152202,7 @@
       },
       "name": "Claude Fable Latest",
       "price": {
-        "cacheRead": 1,
+        "cacheRead": 0.25,
         "cacheWrite": 12.5,
         "input": 10,
         "output": 50
@@ -160185,7 +161057,7 @@
       "tags": []
     },
     {
-      "description": "Meta's Muse Spark 1.3 is a frontier multimodal reasoning model for long-horizon coding and agentic workflows, with strong gains in computer use, browsing, professional tool use, codebase understanding, instruction following, and million-token retrieval. It accepts text, images, audio, video, and files, supports tool calling and structured output, and always reasons before answering.",
+      "description": "Muse Spark 1.3 is a multimodal reasoning model from Meta for long-running agentic, multi-agent, and coding workflows. It improves long-horizon agent collaboration, instruction following, and coding efficiency relative to Muse Spark 1.2.",
       "firm": "nano-gpt",
       "flags": {
         "attachment": true,
@@ -160193,7 +161065,7 @@
         "image": true,
         "open_weights": false,
         "reasoning": true,
-        "temperature": false,
+        "temperature": true,
         "tool_call": true
       },
       "icon": "",
@@ -160207,8 +161079,8 @@
           "text",
           "image",
           "video",
-          "audio",
-          "pdf"
+          "pdf",
+          "audio"
         ],
         "output": [
           "text"
@@ -184720,6 +185592,44 @@
       "tags": []
     },
     {
+      "description": "Claude model for demanding reasoning and long-horizon agentic work",
+      "firm": "ofox",
+      "flags": {
+        "attachment": true,
+        "audio": false,
+        "image": true,
+        "open_weights": false,
+        "reasoning": true,
+        "temperature": false,
+        "tool_call": true
+      },
+      "icon": "",
+      "id": "anthropic/claude-fable-5.1",
+      "knowledge": "2026-06",
+      "lastUpdated": "2026-09-01",
+      "maxCtxTokens": 1000000,
+      "maxOutputTokens": 128000,
+      "modalities": {
+        "input": [
+          "text",
+          "image",
+          "pdf"
+        ],
+        "output": [
+          "text"
+        ]
+      },
+      "name": "Claude Fable 5.1",
+      "price": {
+        "cacheRead": 0.25,
+        "cacheWrite": 12.5,
+        "input": 10,
+        "output": 50
+      },
+      "releaseDate": "2026-09-01",
+      "tags": []
+    },
+    {
       "description": "Fast Claude lane for lightweight agents, office tasks, and responsive chat",
       "firm": "ofox",
       "flags": {
@@ -185914,6 +186824,45 @@
         "output": 6
       },
       "releaseDate": "2026-08-03",
+      "tags": []
+    },
+    {
+      "description": "2026-09-02 upgraded snapshot of Qwen3.8 Max with stronger coding, collaborative agents, and multimodal document understanding",
+      "firm": "ofox",
+      "flags": {
+        "attachment": true,
+        "audio": false,
+        "image": true,
+        "open_weights": false,
+        "reasoning": true,
+        "temperature": true,
+        "tool_call": true
+      },
+      "icon": "",
+      "id": "bailian/qwen3.8-max-0902",
+      "knowledge": null,
+      "lastUpdated": "2026-09-02",
+      "maxCtxTokens": 1000000,
+      "maxOutputTokens": 131072,
+      "modalities": {
+        "input": [
+          "text",
+          "image",
+          "video",
+          "pdf"
+        ],
+        "output": [
+          "text"
+        ]
+      },
+      "name": "Qwen3.8 Max 0902",
+      "price": {
+        "cacheRead": 0.25,
+        "cacheWrite": 2.5,
+        "input": 2,
+        "output": 6
+      },
+      "releaseDate": "2026-09-02",
       "tags": []
     },
     {
@@ -196806,10 +197755,10 @@
       },
       "name": "MoonshotAI Kimi Latest",
       "price": {
-        "cacheRead": 0.256,
+        "cacheRead": 0.29,
         "cacheWrite": null,
-        "input": 2.55,
-        "output": 12.75
+        "input": 2.5,
+        "output": 14
       },
       "releaseDate": "2026-04-27",
       "tags": []
@@ -196945,7 +197894,7 @@
       "knowledge": null,
       "lastUpdated": "2026-08-27",
       "maxCtxTokens": 1310720,
-      "maxOutputTokens": 943718,
+      "maxOutputTokens": 131072,
       "modalities": {
         "input": [
           "text",
@@ -196958,10 +197907,10 @@
       },
       "name": "GLM Flash Latest",
       "price": {
-        "cacheRead": 0.015,
+        "cacheRead": 0.01425,
         "cacheWrite": null,
-        "input": 0.075,
-        "output": 0.25
+        "input": 0.07125,
+        "output": 0.2375
       },
       "releaseDate": "2026-08-27",
       "tags": []
@@ -196994,10 +197943,10 @@
       },
       "name": "GLM Latest",
       "price": {
-        "cacheRead": 0.1863,
+        "cacheRead": 0.1886,
         "cacheWrite": null,
-        "input": 1.134,
-        "output": 3.564
+        "input": 1.148,
+        "output": 3.608
       },
       "releaseDate": "2026-08-19",
       "tags": []
@@ -198580,7 +199529,7 @@
       "knowledge": "2025-03-31",
       "lastUpdated": "2025-08-21",
       "maxCtxTokens": 163840,
-      "maxOutputTokens": 32768,
+      "maxOutputTokens": 144900,
       "modalities": {
         "input": [
           "text"
@@ -198591,10 +199540,10 @@
       },
       "name": "DeepSeek V3.1",
       "price": {
-        "cacheRead": 0.13,
+        "cacheRead": 0.55,
         "cacheWrite": null,
-        "input": 0.25,
-        "output": 0.95
+        "input": 0.55,
+        "output": 1.65
       },
       "releaseDate": "2025-08-21",
       "tags": []
@@ -198843,10 +199792,10 @@
       },
       "name": "DeepSeek V4 Flash",
       "price": {
-        "cacheRead": 0.017416,
+        "cacheRead": 0.015876,
         "cacheWrite": null,
-        "input": 0.08708,
-        "output": 0.17416
+        "input": 0.07938,
+        "output": 0.15876
       },
       "releaseDate": "2026-04-24",
       "tags": []
@@ -198952,10 +199901,10 @@
       },
       "name": "DeepSeek V4 Pro",
       "price": {
-        "cacheRead": 0.086609,
+        "cacheRead": 0.085898,
         "cacheWrite": null,
-        "input": 1.039302,
-        "output": 2.078604
+        "input": 1.030776,
+        "output": 2.061552
       },
       "releaseDate": "2026-04-24",
       "tags": []
@@ -198988,10 +199937,10 @@
       },
       "name": "DeepSeek V4 Pro 0813",
       "price": {
-        "cacheRead": 0.03718,
+        "cacheRead": 0.022,
         "cacheWrite": null,
-        "input": 1.1154,
-        "output": 3.3462
+        "input": 0.66,
+        "output": 1.98
       },
       "releaseDate": "2026-08-12",
       "tags": []
@@ -200485,6 +201434,42 @@
         "output": 0.063
       },
       "releaseDate": "2026-07-23",
+      "tags": []
+    },
+    {
+      "description": "Efficient model for low-latency assistance, extraction, and routine automation",
+      "firm": "openrouter",
+      "flags": {
+        "attachment": false,
+        "audio": false,
+        "image": false,
+        "open_weights": false,
+        "reasoning": true,
+        "temperature": true,
+        "tool_call": true
+      },
+      "icon": "lb:openrouter-color",
+      "id": "inclusionai/ling-3.0-flash-fin",
+      "knowledge": null,
+      "lastUpdated": "2026-08-27",
+      "maxCtxTokens": 262144,
+      "maxOutputTokens": 235929,
+      "modalities": {
+        "input": [
+          "text"
+        ],
+        "output": [
+          "text"
+        ]
+      },
+      "name": "Ling 3.0 Flash Fin",
+      "price": {
+        "cacheRead": 0.012,
+        "cacheWrite": null,
+        "input": 0.06,
+        "output": 0.18
+      },
+      "releaseDate": "2026-08-27",
       "tags": []
     },
     {
@@ -207466,7 +208451,7 @@
       "knowledge": null,
       "lastUpdated": "2026-04-17",
       "maxCtxTokens": 262144,
-      "maxOutputTokens": 16384,
+      "maxOutputTokens": 235929,
       "modalities": {
         "input": [
           "text",
@@ -207479,10 +208464,10 @@
       },
       "name": "Qwen3.6 35B-A3B",
       "price": {
-        "cacheRead": null,
+        "cacheRead": 0.05,
         "cacheWrite": null,
-        "input": 0.05,
-        "output": 0.7
+        "input": 0.1,
+        "output": 0.9
       },
       "releaseDate": "2026-04-17",
       "tags": []
@@ -207777,9 +208762,9 @@
       "name": "Qwen3.8 27B",
       "price": {
         "cacheRead": 0.085,
-        "cacheWrite": 0.53125,
-        "input": 0.425,
-        "output": 2.55
+        "cacheWrite": null,
+        "input": 0.42,
+        "output": 3
       },
       "releaseDate": "2026-08-14",
       "tags": []
@@ -208435,10 +209420,10 @@
       },
       "name": "Hy3",
       "price": {
-        "cacheRead": 0.033,
+        "cacheRead": 0.020625,
         "cacheWrite": null,
-        "input": 0.132,
-        "output": 0.528
+        "input": 0.0825,
+        "output": 0.33
       },
       "releaseDate": "2026-07-06",
       "tags": []
@@ -212871,8 +213856,8 @@
       "id": "meta/muse-spark-1.1",
       "knowledge": null,
       "lastUpdated": "2026-07-09",
-      "maxCtxTokens": 1000000,
-      "maxOutputTokens": 32000,
+      "maxCtxTokens": 1048576,
+      "maxOutputTokens": 131072,
       "modalities": {
         "input": [
           "text",
@@ -249566,39 +250551,42 @@
       "tags": []
     },
     {
-      "description": "Open flagship GLM for long-horizon coding agents and million-token context work",
+      "description": "Native multimodal GLM model for efficient coding and long-horizon agent tasks",
       "firm": "tinfoil",
       "flags": {
-        "attachment": false,
+        "attachment": true,
         "audio": false,
-        "image": false,
-        "open_weights": true,
+        "image": true,
+        "open_weights": false,
         "reasoning": true,
         "temperature": true,
         "tool_call": true
       },
       "icon": "",
-      "id": "glm-5-2",
+      "id": "glm-5-3-flash",
       "knowledge": null,
-      "lastUpdated": "2026-06-13",
-      "maxCtxTokens": 393216,
+      "lastUpdated": "2026-08-26",
+      "maxCtxTokens": 1048576,
       "maxOutputTokens": 131072,
       "modalities": {
         "input": [
-          "text"
+          "text",
+          "image",
+          "video",
+          "pdf"
         ],
         "output": [
           "text"
         ]
       },
-      "name": "GLM-5.2",
+      "name": "GLM-5.3-Flash",
       "price": {
-        "cacheRead": 0.375,
+        "cacheRead": 0.1,
         "cacheWrite": null,
-        "input": 1.5,
-        "output": 5.25
+        "input": 0.4,
+        "output": 1.25
       },
-      "releaseDate": "2026-06-13",
+      "releaseDate": "2026-08-26",
       "tags": []
     },
     {
@@ -258974,13 +259962,13 @@
         "image": true,
         "open_weights": false,
         "reasoning": true,
-        "temperature": false,
+        "temperature": true,
         "tool_call": true
       },
       "icon": "lb:vercel-color",
       "id": "alibaba/qwen3.8-max-0902",
       "knowledge": null,
-      "lastUpdated": "2026-09-01",
+      "lastUpdated": "2026-09-02",
       "maxCtxTokens": 991000,
       "maxOutputTokens": 128000,
       "modalities": {
@@ -259000,7 +259988,7 @@
         "input": 2,
         "output": 6
       },
-      "releaseDate": "2026-09-01",
+      "releaseDate": "2026-09-02",
       "tags": []
     },
     {
@@ -264045,7 +265033,7 @@
         "image": true,
         "open_weights": false,
         "reasoning": true,
-        "temperature": false,
+        "temperature": true,
         "tool_call": true
       },
       "icon": "lb:vercel-color",
@@ -271184,10 +272172,46 @@
       },
       "name": "GLM 5.3",
       "price": {
-        "cacheRead": 0.14,
+        "cacheRead": 0.13,
         "cacheWrite": null,
-        "input": 1.4,
-        "output": 4.4
+        "input": 0.7,
+        "output": 2.2
+      },
+      "releaseDate": "2026-08-14",
+      "tags": []
+    },
+    {
+      "description": "Flagship GLM model for long-horizon coding, agents, and complex project delivery",
+      "firm": "vercel",
+      "flags": {
+        "attachment": false,
+        "audio": false,
+        "image": false,
+        "open_weights": true,
+        "reasoning": true,
+        "temperature": true,
+        "tool_call": true
+      },
+      "icon": "lb:vercel-color",
+      "id": "zai/glm-5.3-fast",
+      "knowledge": null,
+      "lastUpdated": "2026-08-14",
+      "maxCtxTokens": 1048576,
+      "maxOutputTokens": 262144,
+      "modalities": {
+        "input": [
+          "text"
+        ],
+        "output": [
+          "text"
+        ]
+      },
+      "name": "GLM 5.3 Fast",
+      "price": {
+        "cacheRead": 0.21,
+        "cacheWrite": null,
+        "input": 2.1,
+        "output": 6.6
       },
       "releaseDate": "2026-08-14",
       "tags": []

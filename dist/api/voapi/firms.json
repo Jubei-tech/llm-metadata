@@ -206,7 +206,7 @@
       "doc": "https://developer.amd.com.cn/radeon/tokenfactory",
       "icon": "https://models.dev/logos/amd.svg",
       "id": "amd",
-      "modelCount": 2,
+      "modelCount": 4,
       "name": "AMD",
       "status": 1
     },
@@ -496,7 +496,7 @@
       "doc": "https://deepinfra.com/models",
       "icon": "lb:deepinfra",
       "id": "deepinfra",
-      "modelCount": 62,
+      "modelCount": 63,
       "name": "Deep Infra",
       "status": 1
     },
@@ -576,7 +576,7 @@
       "doc": "https://docs.edenai.co",
       "icon": "https://models.dev/logos/edenai.svg",
       "id": "edenai",
-      "modelCount": 242,
+      "modelCount": 246,
       "name": "Eden AI",
       "status": 1
     },
@@ -586,7 +586,7 @@
       "doc": "https://docs.empiriolabs.ai",
       "icon": "https://models.dev/logos/empiriolabs.svg",
       "id": "empiriolabs",
-      "modelCount": 57,
+      "modelCount": 58,
       "name": "EmpirioLabs AI",
       "status": 1
     },
@@ -786,7 +786,7 @@
       "doc": "https://huggingface.co/docs/inference-providers",
       "icon": "lb:huggingface-color",
       "id": "huggingface",
-      "modelCount": 72,
+      "modelCount": 73,
       "name": "Hugging Face",
       "status": 1
     },
@@ -926,7 +926,7 @@
       "doc": "https://kilo.ai",
       "icon": "https://models.dev/logos/kilo.svg",
       "id": "kilo",
-      "modelCount": 365,
+      "modelCount": 366,
       "name": "Kilo Gateway",
       "status": 1
     },
@@ -996,7 +996,7 @@
       "doc": "https://llmgateway.io/docs",
       "icon": "https://models.dev/logos/llmgateway.svg",
       "id": "llmgateway",
-      "modelCount": 182,
+      "modelCount": 184,
       "name": "DevPass (LLM Gateway)",
       "status": 1
     },
@@ -1006,7 +1006,7 @@
       "doc": "https://llmgateway.io/docs",
       "icon": "https://models.dev/logos/llmgateway-providers.svg",
       "id": "llmgateway-providers",
-      "modelCount": 365,
+      "modelCount": 367,
       "name": "LLM Gateway",
       "status": 1
     },
@@ -1096,7 +1096,7 @@
       "doc": "https://dev.meta.ai/docs",
       "icon": "https://models.dev/logos/meta.svg",
       "id": "meta",
-      "modelCount": 3,
+      "modelCount": 5,
       "name": "Meta",
       "status": 1
     },
@@ -1251,6 +1251,16 @@
       "status": 1
     },
     {
+      "api": "https://api.nan.builders/v1",
+      "description": "",
+      "doc": "https://nan.builders/docs/models",
+      "icon": "https://models.dev/logos/nan.svg",
+      "id": "nan",
+      "modelCount": 7,
+      "name": "NaN",
+      "status": 1
+    },
+    {
       "api": "https://nano-gpt.com/api/v1",
       "description": "",
       "doc": "https://docs.nano-gpt.com",
@@ -1346,7 +1356,7 @@
       "doc": "https://ofox.ai/docs",
       "icon": "https://models.dev/logos/ofox.svg",
       "id": "ofox",
-      "modelCount": 112,
+      "modelCount": 114,
       "name": "Ofox",
       "status": 1
     },
@@ -1406,7 +1416,7 @@
       "doc": "https://openrouter.ai/models",
       "icon": "lb:openrouter-color",
       "id": "openrouter",
-      "modelCount": 357,
+      "modelCount": 358,
       "name": "OpenRouter",
       "status": 1
     },
@@ -1966,7 +1976,7 @@
       "doc": "https://github.com/vercel/ai/tree/5eb85cc45a259553501f535b8ac79a77d0e79223/packages/gateway",
       "icon": "lb:vercel-color",
       "id": "vercel",
-      "modelCount": 368,
+      "modelCount": 369,
       "name": "Vercel AI Gateway",
       "status": 1
     },

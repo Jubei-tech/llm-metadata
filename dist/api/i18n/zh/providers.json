@@ -163,7 +163,7 @@
       "doc": "https://developer.amd.com.cn/radeon/tokenfactory",
       "iconURL": "https://models.dev/logos/amd.svg",
       "id": "amd",
-      "modelCount": 2,
+      "modelCount": 4,
       "name": "AMD"
     },
     {
@@ -394,7 +394,7 @@
       "iconURL": "https://models.dev/logos/deepinfra.svg",
       "id": "deepinfra",
       "lobeIcon": "DeepInfra",
-      "modelCount": 62,
+      "modelCount": 63,
       "name": "Deep Infra"
     },
     {
@@ -458,7 +458,7 @@
       "doc": "https://docs.edenai.co",
       "iconURL": "https://models.dev/logos/edenai.svg",
       "id": "edenai",
-      "modelCount": 242,
+      "modelCount": 246,
       "name": "Eden AI"
     },
     {
@@ -466,7 +466,7 @@
       "doc": "https://docs.empiriolabs.ai",
       "iconURL": "https://models.dev/logos/empiriolabs.svg",
       "id": "empiriolabs",
-      "modelCount": 57,
+      "modelCount": 58,
       "name": "EmpirioLabs AI"
     },
     {
@@ -628,7 +628,7 @@
       "iconURL": "https://models.dev/logos/huggingface.svg",
       "id": "huggingface",
       "lobeIcon": "HuggingFace.Color",
-      "modelCount": 72,
+      "modelCount": 73,
       "name": "Hugging Face"
     },
     {
@@ -742,7 +742,7 @@
       "doc": "https://kilo.ai",
       "iconURL": "https://models.dev/logos/kilo.svg",
       "id": "kilo",
-      "modelCount": 365,
+      "modelCount": 366,
       "name": "Kilo Gateway"
     },
     {
@@ -799,7 +799,7 @@
       "doc": "https://llmgateway.io/docs",
       "iconURL": "https://models.dev/logos/llmgateway.svg",
       "id": "llmgateway",
-      "modelCount": 182,
+      "modelCount": 184,
       "name": "DevPass (LLM Gateway)"
     },
     {
@@ -807,7 +807,7 @@
       "doc": "https://llmgateway.io/docs",
       "iconURL": "https://models.dev/logos/llmgateway-providers.svg",
       "id": "llmgateway-providers",
-      "modelCount": 365,
+      "modelCount": 367,
       "name": "LLM Gateway"
     },
     {
@@ -880,7 +880,7 @@
       "doc": "https://dev.meta.ai/docs",
       "iconURL": "https://models.dev/logos/meta.svg",
       "id": "meta",
-      "modelCount": 3,
+      "modelCount": 5,
       "name": "Meta"
     },
     {
@@ -1007,6 +1007,14 @@
       "name": "Morph"
     },
     {
+      "api": "https://api.nan.builders/v1",
+      "doc": "https://nan.builders/docs/models",
+      "iconURL": "https://models.dev/logos/nan.svg",
+      "id": "nan",
+      "modelCount": 7,
+      "name": "NaN"
+    },
+    {
       "api": "https://nano-gpt.com/api/v1",
       "doc": "https://docs.nano-gpt.com",
       "iconURL": "https://models.dev/logos/nano-gpt.svg",
@@ -1083,7 +1091,7 @@
       "doc": "https://ofox.ai/docs",
       "iconURL": "https://models.dev/logos/ofox.svg",
       "id": "ofox",
-      "modelCount": 112,
+      "modelCount": 114,
       "name": "Ofox"
     },
     {
@@ -1133,7 +1141,7 @@
       "iconURL": "https://models.dev/logos/openrouter.svg",
       "id": "openrouter",
       "lobeIcon": "OpenRouter.Color",
-      "modelCount": 357,
+      "modelCount": 358,
       "name": "OpenRouter"
     },
     {
@@ -1581,7 +1589,7 @@
       "iconURL": "https://models.dev/logos/vercel.svg",
       "id": "vercel",
       "lobeIcon": "Vercel.Color",
-      "modelCount": 368,
+      "modelCount": 369,
       "name": "Vercel AI Gateway"
     },
     {

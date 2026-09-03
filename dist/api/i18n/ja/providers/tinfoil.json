@@ -98,47 +98,46 @@
       "temperature": true,
       "tool_call": true
     },
-    "glm-5-2": {
-      "attachment": false,
+    "glm-5-3-flash": {
+      "attachment": true,
       "cost": {
-        "cache_read": 0.375,
-        "input": 1.5,
-        "output": 5.25
+        "cache_read": 0.1,
+        "input": 0.4,
+        "output": 1.25
       },
-      "description": "Open flagship GLM for long-horizon coding agents and million-token context work",
+      "description": "Native multimodal GLM model for efficient coding and long-horizon agent tasks",
       "family": "glm",
-      "id": "glm-5-2",
-      "last_updated": "2026-06-13",
+      "id": "glm-5-3-flash",
+      "last_updated": "2026-08-26",
       "limit": {
-        "context": 393216,
+        "context": 1048576,
         "output": 131072
       },
       "modalities": {
         "input": [
-          "text"
+          "text",
+          "image",
+          "video",
+          "pdf"
         ],
         "output": [
           "text"
         ]
       },
-      "name": "GLM-5.2",
-      "open_weights": true,
+      "name": "GLM-5.3-Flash",
+      "open_weights": false,
       "reasoning": true,
       "reasoning_options": [
         {
           "type": "effort",
           "values": [
-            "none",
-            "minimal",
             "low",
-            "medium",
             "high",
-            "xhigh",
             "max"
           ]
         }
       ],
-      "release_date": "2026-06-13",
+      "release_date": "2026-08-26",
       "structured_output": true,
       "temperature": true,
       "tool_call": true
