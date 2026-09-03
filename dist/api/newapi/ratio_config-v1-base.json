@@ -1440,7 +1440,7 @@
       "nvidia/Nemotron-3-Nano-Omni-Reasoning-30B-A3B": 0.6,
       "nvidia/Nemotron-3-Ultra-550b-a55b": 1,
       "nvidia/Nemotron-3_5-Lightning": 1,
-      "nvidia/nemotron-3-nano-30b-a3b": 0.5,
+      "nvidia/nemotron-3-nano-30b-a3b": 0.6,
       "nvidia/nemotron-3-nano-omni-30b-a3b-reasoning": 0.5,
       "nvidia/nemotron-3-super-120b-a12b": 0.25,
       "nvidia/nemotron-3-super-120b-a12b:thinking": 0.5,
@@ -8171,7 +8171,7 @@
       "~openai/gpt-mini-latest": 0.375,
       "~x-ai/grok-latest": 1,
       "~z-ai/glm-flash-latest": 0.0375,
-      "~z-ai/glm-latest": 0.546
+      "~z-ai/glm-latest": 0.553
     }
   },
   "message": "",

@@ -110666,9 +110666,9 @@
       "ibm-granite/granite-4.2-8b": {
         "attachment": false,
         "cost": {
-          "cache_read": 0.05,
-          "input": 0.1,
-          "output": 0.15
+          "cache_read": 0.015,
+          "input": 0.06,
+          "output": 0.25
         },
         "description": "Granite 4.2 8B is a dense reasoning model from IBM. It is suited for mathematics, code generation, multilingual dialogue, and agentic workflows that need multi-step reasoning. It supports full, low-effort,...",
         "family": "granite",
@@ -111470,7 +111470,7 @@
         "last_updated": "2026-08-10",
         "limit": {
           "context": 131072,
-          "output": 16384
+          "output": 117964
         },
         "modalities": {
           "input": [
@@ -113351,7 +113351,7 @@
       "nvidia/nemotron-3-nano-30b-a3b": {
         "attachment": false,
         "cost": {
-          "cache_read": 0.025,
+          "cache_read": 0.03,
           "input": 0.05,
           "output": 0.2
         },
@@ -113522,8 +113522,8 @@
         "id": "nvidia/nemotron-3-ultra-550b-a55b",
         "last_updated": "2026-06-04",
         "limit": {
-          "context": 256000,
-          "output": 32768
+          "context": 202800,
+          "output": 182520
         },
         "modalities": {
           "input": [
@@ -116813,8 +116813,8 @@
         "id": "qwen/qwen3-14b",
         "last_updated": "2025-04-28",
         "limit": {
-          "context": 131072,
-          "output": 8192
+          "context": 40960,
+          "output": 16384
         },
         "modalities": {
           "input": [
@@ -118357,8 +118357,8 @@
         "id": "qwen/qwen3.8-2.4t-a95b",
         "last_updated": "2026-08-12",
         "limit": {
-          "context": 262144,
-          "output": 131072
+          "context": 1000000,
+          "output": 262144
         },
         "modalities": {
           "input": [
@@ -120694,7 +120694,7 @@
         "last_updated": "2026-08-14",
         "limit": {
           "context": 1048576,
-          "output": 131072
+          "output": 262144
         },
         "modalities": {
           "input": [
@@ -121320,7 +121320,7 @@
         "last_updated": "2026-08-27",
         "limit": {
           "context": 1048576,
-          "output": 131072
+          "output": 943718
         },
         "modalities": {
           "input": [
@@ -121353,9 +121353,9 @@
       "~z-ai/glm-latest": {
         "attachment": false,
         "cost": {
-          "cache_read": 0.1794,
-          "input": 1.092,
-          "output": 3.432
+          "cache_read": 0.1817,
+          "input": 1.106,
+          "output": 3.476
         },
         "description": "This model always redirects to the latest GLM model from Z.ai.",
         "family": "glm",
@@ -162283,7 +162283,7 @@
         ],
         "release_date": "2026-08-31",
         "structured_output": true,
-        "tool_call": false
+        "tool_call": true
       },
       "aion-labs/aion-2.0": {
         "attachment": false,
@@ -208859,9 +208859,9 @@
       "deepseek/deepseek-v4-flash-vision-exp": {
         "attachment": true,
         "cost": {
-          "cache_read": 0.007,
-          "input": 0.22,
-          "output": 0.66
+          "cache_read": 0.014,
+          "input": 0.44,
+          "output": 1.32
         },
         "description": "Fast DeepSeek model for efficient chat, coding help, and agent loops",
         "family": "deepseek-flash",
@@ -211122,7 +211122,7 @@
         "cost": {
           "cache_read": 0.04,
           "input": 0.3,
-          "output": 1.2
+          "output": 1.1
         },
         "description": "Muse Glimmer is a 30-billion-parameter open-weight multimodal model from Meta Superintelligence Labs, distilled from Muse Spark for always-on local agents, tool use, coding, and image understanding.",
         "family": "muse",
@@ -211131,7 +211131,7 @@
         "last_updated": "2026-08-10",
         "limit": {
           "context": 131072,
-          "output": 16384
+          "output": 117964
         },
         "modalities": {
           "input": [
@@ -213134,9 +213134,9 @@
       "nvidia/nemotron-3-ultra-550b-a55b": {
         "attachment": false,
         "cost": {
-          "cache_read": 0.1875,
-          "input": 0.625,
-          "output": 3.125
+          "cache_read": 0.12,
+          "input": 0.6,
+          "output": 2.4
         },
         "description": "Largest Nemotron 3 model for maximum open-weight reasoning and agent accuracy",
         "family": "nemotron",
@@ -213144,7 +213144,7 @@
         "last_updated": "2026-06-04",
         "limit": {
           "context": 262144,
-          "output": 32768
+          "output": 182520
         },
         "modalities": {
           "input": [
@@ -216526,8 +216526,8 @@
       "qwen/qwen3-14b": {
         "attachment": false,
         "cost": {
-          "input": 0.2275,
-          "output": 0.91
+          "input": 0.12,
+          "output": 0.24
         },
         "description": "Qwen instruction model for multilingual chat, reasoning, and tool use",
         "family": "qwen",
@@ -216536,7 +216536,7 @@
         "last_updated": "2025-04-28",
         "limit": {
           "context": 131072,
-          "output": 8192
+          "output": 16384
         },
         "modalities": {
           "input": [
@@ -218156,7 +218156,7 @@
       "qwen/qwen3.8-2.4t-a95b": {
         "attachment": false,
         "cost": {
-          "cache_read": 0.2,
+          "cache_read": 0.25,
           "input": 2,
           "output": 6
         },
@@ -218166,7 +218166,7 @@
         "last_updated": "2026-08-12",
         "limit": {
           "context": 1048576,
-          "output": 131072
+          "output": 262144
         },
         "modalities": {
           "input": [
@@ -220280,7 +220280,7 @@
       "z-ai/glm-5.3": {
         "attachment": false,
         "cost": {
-          "cache_read": 0.26,
+          "cache_read": 0.14,
           "input": 1.4,
           "output": 4.4
         },
@@ -220290,7 +220290,7 @@
         "last_updated": "2026-08-14",
         "limit": {
           "context": 1310720,
-          "output": 131072
+          "output": 262144
         },
         "modalities": {
           "input": [
@@ -220970,7 +220970,7 @@
         "last_updated": "2026-08-27",
         "limit": {
           "context": 1310720,
-          "output": 131072
+          "output": 943718
         },
         "modalities": {
           "input": [
@@ -221003,9 +221003,9 @@
       "~z-ai/glm-latest": {
         "attachment": false,
         "cost": {
-          "cache_read": 0.1794,
-          "input": 1.092,
-          "output": 3.432
+          "cache_read": 0.1817,
+          "input": 1.106,
+          "output": 3.476
         },
         "description": "Flagship GLM model for hybrid reasoning, coding, and agentic engineering",
         "family": "glm",

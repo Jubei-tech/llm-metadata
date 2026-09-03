@@ -102776,7 +102776,7 @@
       "knowledge": null,
       "lastUpdated": "2026-08-27",
       "maxCtxTokens": 1048576,
-      "maxOutputTokens": 131072,
+      "maxOutputTokens": 943718,
       "modalities": {
         "input": [
           "text",
@@ -102825,10 +102825,10 @@
       },
       "name": "Z.ai: GLM Latest",
       "price": {
-        "cacheRead": 0.1794,
+        "cacheRead": 0.1817,
         "cacheWrite": null,
-        "input": 1.092,
-        "output": 3.432
+        "input": 1.106,
+        "output": 3.476
       },
       "releaseDate": "2026-08-19",
       "tags": []
@@ -106133,10 +106133,10 @@
       },
       "name": "IBM: Granite 4.2 8B",
       "price": {
-        "cacheRead": 0.05,
+        "cacheRead": 0.015,
         "cacheWrite": null,
-        "input": 0.1,
-        "output": 0.15
+        "input": 0.06,
+        "output": 0.25
       },
       "releaseDate": "2026-08-31",
       "tags": []
@@ -106958,7 +106958,7 @@
       "knowledge": "2026-01-04",
       "lastUpdated": "2026-08-10",
       "maxCtxTokens": 131072,
-      "maxOutputTokens": 16384,
+      "maxOutputTokens": 117964,
       "modalities": {
         "input": [
           "text",
@@ -108897,7 +108897,7 @@
       },
       "name": "Nemotron 3 Nano 30B A3B",
       "price": {
-        "cacheRead": 0.025,
+        "cacheRead": 0.03,
         "cacheWrite": null,
         "input": 0.05,
         "output": 0.2
@@ -109032,8 +109032,8 @@
       "id": "nvidia/nemotron-3-ultra-550b-a55b",
       "knowledge": null,
       "lastUpdated": "2026-06-04",
-      "maxCtxTokens": 256000,
-      "maxOutputTokens": 32768,
+      "maxCtxTokens": 202800,
+      "maxOutputTokens": 182520,
       "modalities": {
         "input": [
           "text"
@@ -112179,8 +112179,8 @@
       "id": "qwen/qwen3-14b",
       "knowledge": null,
       "lastUpdated": "2025-04-28",
-      "maxCtxTokens": 131072,
-      "maxOutputTokens": 8192,
+      "maxCtxTokens": 40960,
+      "maxOutputTokens": 16384,
       "modalities": {
         "input": [
           "text"
@@ -113689,8 +113689,8 @@
       "id": "qwen/qwen3.8-2.4t-a95b",
       "knowledge": null,
       "lastUpdated": "2026-08-12",
-      "maxCtxTokens": 262144,
-      "maxOutputTokens": 131072,
+      "maxCtxTokens": 1000000,
+      "maxOutputTokens": 262144,
       "modalities": {
         "input": [
           "text"
@@ -115827,7 +115827,7 @@
       "knowledge": null,
       "lastUpdated": "2026-08-14",
       "maxCtxTokens": 1048576,
-      "maxOutputTokens": 131072,
+      "maxOutputTokens": 262144,
       "modalities": {
         "input": [
           "text"
@@ -150683,7 +150683,7 @@
         "open_weights": false,
         "reasoning": true,
         "temperature": false,
-        "tool_call": false
+        "tool_call": true
       },
       "icon": "",
       "id": "abliteration-ai/abliterated-model-large-v2",
@@ -196798,7 +196798,7 @@
       "knowledge": null,
       "lastUpdated": "2026-08-27",
       "maxCtxTokens": 1310720,
-      "maxOutputTokens": 131072,
+      "maxOutputTokens": 943718,
       "modalities": {
         "input": [
           "text",
@@ -196847,10 +196847,10 @@
       },
       "name": "GLM Latest",
       "price": {
-        "cacheRead": 0.1794,
+        "cacheRead": 0.1817,
         "cacheWrite": null,
-        "input": 1.092,
-        "output": 3.432
+        "input": 1.106,
+        "output": 3.476
       },
       "releaseDate": "2026-08-19",
       "tags": []
@@ -198769,10 +198769,10 @@
       },
       "name": "DeepSeek V4 Flash Vision Exp",
       "price": {
-        "cacheRead": 0.007,
+        "cacheRead": 0.014,
         "cacheWrite": null,
-        "input": 0.22,
-        "output": 0.66
+        "input": 0.44,
+        "output": 1.32
       },
       "releaseDate": "2026-08-21",
       "tags": []
@@ -200864,7 +200864,7 @@
       "knowledge": "2026-01-04",
       "lastUpdated": "2026-08-10",
       "maxCtxTokens": 131072,
-      "maxOutputTokens": 16384,
+      "maxOutputTokens": 117964,
       "modalities": {
         "input": [
           "text",
@@ -200879,7 +200879,7 @@
         "cacheRead": 0.04,
         "cacheWrite": null,
         "input": 0.3,
-        "output": 1.2
+        "output": 1.1
       },
       "releaseDate": "2026-08-10",
       "tags": []
@@ -202938,7 +202938,7 @@
       "knowledge": null,
       "lastUpdated": "2026-06-04",
       "maxCtxTokens": 262144,
-      "maxOutputTokens": 32768,
+      "maxOutputTokens": 182520,
       "modalities": {
         "input": [
           "text"
@@ -202949,10 +202949,10 @@
       },
       "name": "Nemotron 3 Ultra 550B A55B",
       "price": {
-        "cacheRead": 0.1875,
+        "cacheRead": 0.12,
         "cacheWrite": null,
-        "input": 0.625,
-        "output": 3.125
+        "input": 0.6,
+        "output": 2.4
       },
       "releaseDate": "2026-06-04",
       "tags": []
@@ -206070,7 +206070,7 @@
       "knowledge": "2025-03-31",
       "lastUpdated": "2025-04-28",
       "maxCtxTokens": 131072,
-      "maxOutputTokens": 8192,
+      "maxOutputTokens": 16384,
       "modalities": {
         "input": [
           "text"
@@ -206083,8 +206083,8 @@
       "price": {
         "cacheRead": null,
         "cacheWrite": null,
-        "input": 0.2275,
-        "output": 0.91
+        "input": 0.12,
+        "output": 0.24
       },
       "releaseDate": "2025-04-28",
       "tags": []
@@ -207580,7 +207580,7 @@
       "knowledge": null,
       "lastUpdated": "2026-08-12",
       "maxCtxTokens": 1048576,
-      "maxOutputTokens": 131072,
+      "maxOutputTokens": 262144,
       "modalities": {
         "input": [
           "text"
@@ -207591,7 +207591,7 @@
       },
       "name": "Qwen3.8 2.4T A95B",
       "price": {
-        "cacheRead": 0.2,
+        "cacheRead": 0.25,
         "cacheWrite": null,
         "input": 2,
         "output": 6
@@ -209527,7 +209527,7 @@
       "knowledge": null,
       "lastUpdated": "2026-08-14",
       "maxCtxTokens": 1310720,
-      "maxOutputTokens": 131072,
+      "maxOutputTokens": 262144,
       "modalities": {
         "input": [
           "text"
@@ -209538,7 +209538,7 @@
       },
       "name": "GLM-5.3",
       "price": {
-        "cacheRead": 0.26,
+        "cacheRead": 0.14,
         "cacheWrite": null,
         "input": 1.4,
         "output": 4.4
