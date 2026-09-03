@@ -1,9 +1,8 @@
 {
   "attachment": true,
   "cost": {
-    "cache_read": 0.05,
-    "input": 0.1,
-    "output": 0.9
+    "input": 0.05,
+    "output": 0.7
   },
   "description": "Qwen vision-language model for visual reasoning, documents, and agent tasks",
   "family": "qwen",
@@ -11,7 +10,7 @@
   "last_updated": "2026-04-17",
   "limit": {
     "context": 262144,
-    "output": 235929
+    "output": 16384
   },
   "modalities": {
     "input": [

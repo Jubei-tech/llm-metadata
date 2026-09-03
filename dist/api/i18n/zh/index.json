@@ -18532,17 +18532,6 @@
     },
     {
       "flags": {
-        "attachment": false,
-        "reasoning": true,
-        "tool_call": true
-      },
-      "id": "fireworks_ai/accounts/fireworks/models/gpt-oss-120b",
-      "name": "GPT OSS 120B",
-      "providerId": "edenai",
-      "updated": "2025-08-05"
-    },
-    {
-      "flags": {
         "attachment": true,
         "reasoning": true,
         "tool_call": true
@@ -37915,6 +37904,17 @@
     {
       "flags": {
         "attachment": false,
+        "reasoning": true,
+        "tool_call": true
+      },
+      "id": "consensusprotocol/Qwen3.8-27B",
+      "name": "Qwen3.8 27B (Consensus Protocol)",
+      "providerId": "llmgateway-providers",
+      "updated": "2026-09-02"
+    },
+    {
+      "flags": {
+        "attachment": false,
         "reasoning": false,
         "tool_call": true
       },
@@ -42721,7 +42721,7 @@
     },
     {
       "flags": {
-        "attachment": true,
+        "attachment": false,
         "reasoning": true,
         "tool_call": true
       },
@@ -48771,6 +48771,28 @@
     },
     {
       "flags": {
+        "attachment": true,
+        "reasoning": true,
+        "tool_call": true
+      },
+      "id": "ornith-ai/ornith-1.5-9b",
+      "name": "Ornith 1.5 9B",
+      "providerId": "nano-gpt",
+      "updated": "2026-07-29"
+    },
+    {
+      "flags": {
+        "attachment": true,
+        "reasoning": true,
+        "tool_call": true
+      },
+      "id": "ornith-ai/ornith-1.5-9b:thinking",
+      "name": "Ornith 1.5 9B Thinking",
+      "providerId": "nano-gpt",
+      "updated": "2026-07-29"
+    },
+    {
+      "flags": {
         "attachment": false,
         "reasoning": true,
         "tool_call": false
@@ -49175,6 +49197,28 @@
       "name": "Qwen3.6 35B A3B",
       "providerId": "nano-gpt",
       "updated": "2026-04-17"
+    },
+    {
+      "flags": {
+        "attachment": true,
+        "reasoning": true,
+        "tool_call": true
+      },
+      "id": "qwen/qwen3.6-35b-a3b-uncensored",
+      "name": "Qwen 3.6 35B A3B Uncensored",
+      "providerId": "nano-gpt",
+      "updated": "2026-07-29"
+    },
+    {
+      "flags": {
+        "attachment": true,
+        "reasoning": true,
+        "tool_call": true
+      },
+      "id": "qwen/qwen3.6-35b-a3b-uncensored:thinking",
+      "name": "Qwen 3.6 35B A3B Uncensored Thinking",
+      "providerId": "nano-gpt",
+      "updated": "2026-07-29"
     },
     {
       "flags": {
@@ -84341,7 +84385,7 @@
       "doc": "https://docs.edenai.co",
       "iconURL": "https://models.dev/logos/edenai.svg",
       "id": "edenai",
-      "modelCount": 243,
+      "modelCount": 242,
       "name": "Eden AI"
     },
     {
@@ -84690,7 +84734,7 @@
       "doc": "https://llmgateway.io/docs",
       "iconURL": "https://models.dev/logos/llmgateway-providers.svg",
       "id": "llmgateway-providers",
-      "modelCount": 364,
+      "modelCount": 365,
       "name": "LLM Gateway"
     },
     {
@@ -84894,7 +84938,7 @@
       "doc": "https://docs.nano-gpt.com",
       "iconURL": "https://models.dev/logos/nano-gpt.svg",
       "id": "nano-gpt",
-      "modelCount": 590,
+      "modelCount": 594,
       "name": "NanoGPT"
     },
     {

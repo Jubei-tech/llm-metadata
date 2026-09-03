@@ -64650,47 +64650,6 @@
         "temperature": true,
         "tool_call": true
       },
-      "fireworks_ai/accounts/fireworks/models/gpt-oss-120b": {
-        "attachment": false,
-        "cost": {
-          "cache_read": 0.015,
-          "input": 0.15,
-          "output": 0.6
-        },
-        "description": "Open GPT reasoning model for self-hosted agents and controllable deployments",
-        "family": "gpt-oss",
-        "id": "fireworks_ai/accounts/fireworks/models/gpt-oss-120b",
-        "last_updated": "2025-08-05",
-        "limit": {
-          "context": 131072,
-          "output": 32768
-        },
-        "modalities": {
-          "input": [
-            "text"
-          ],
-          "output": [
-            "text"
-          ]
-        },
-        "name": "GPT OSS 120B",
-        "open_weights": true,
-        "reasoning": true,
-        "reasoning_options": [
-          {
-            "type": "effort",
-            "values": [
-              "low",
-              "medium",
-              "high"
-            ]
-          }
-        ],
-        "release_date": "2025-08-05",
-        "structured_output": true,
-        "temperature": true,
-        "tool_call": true
-      },
       "fireworks_ai/accounts/fireworks/models/muse-glimmer-30b": {
         "attachment": true,
         "cost": {
@@ -108742,8 +108701,8 @@
       "deepseek/deepseek-chat": {
         "attachment": false,
         "cost": {
-          "input": 0.2574,
-          "output": 1.0287
+          "input": 0.32,
+          "output": 0.89
         },
         "description": "DeepSeek chat model for instruction following, coding, and analysis",
         "family": "deepseek",
@@ -108751,8 +108710,8 @@
         "knowledge": "2025-09",
         "last_updated": "2026-02-28",
         "limit": {
-          "context": 128000,
-          "output": 16000
+          "context": 163840,
+          "output": 16384
         },
         "modalities": {
           "input": [
@@ -116774,16 +116733,17 @@
       "qwen/qwen2.5-vl-72b-instruct": {
         "attachment": true,
         "cost": {
-          "input": 0.25,
-          "output": 0.75
+          "cache_read": 0.4,
+          "input": 0.8,
+          "output": 1
         },
         "description": "Qwen vision-language model for visual reasoning, documents, and agent tasks",
         "family": "qwen",
         "id": "qwen/qwen2.5-vl-72b-instruct",
         "last_updated": "2025-02-01",
         "limit": {
-          "context": 32000,
-          "output": 28800
+          "context": 128000,
+          "output": 115200
         },
         "modalities": {
           "input": [
@@ -118051,9 +118011,8 @@
       "qwen/qwen3.6-35b-a3b": {
         "attachment": true,
         "cost": {
-          "cache_read": 0.05,
-          "input": 0.1,
-          "output": 0.9
+          "input": 0.05,
+          "output": 0.7
         },
         "description": "Qwen vision-language model for visual reasoning, documents, and agent tasks",
         "family": "qwen",
@@ -118061,7 +118020,7 @@
         "last_updated": "2026-04-17",
         "limit": {
           "context": 262144,
-          "output": 235929
+          "output": 16384
         },
         "modalities": {
           "input": [
@@ -121353,9 +121312,9 @@
       "~z-ai/glm-latest": {
         "attachment": false,
         "cost": {
-          "cache_read": 0.1817,
-          "input": 1.106,
-          "output": 3.476
+          "cache_read": 0.1863,
+          "input": 1.134,
+          "output": 3.564
         },
         "description": "This model always redirects to the latest GLM model from Z.ai.",
         "family": "glm",
@@ -135245,6 +135204,46 @@
         "open_weights": true,
         "reasoning": false,
         "release_date": "2025-07-21",
+        "structured_output": false,
+        "temperature": true,
+        "tool_call": true
+      },
+      "consensusprotocol/Qwen3.8-27B": {
+        "attachment": false,
+        "cost": {
+          "cache_read": 0.08,
+          "input": 0.41,
+          "output": 2.5
+        },
+        "description": "Reasoning model for deliberate analysis, multi-step problem solving, and tool use",
+        "id": "consensusprotocol/Qwen3.8-27B",
+        "last_updated": "2026-09-02",
+        "limit": {
+          "context": 32768,
+          "output": 32768
+        },
+        "modalities": {
+          "input": [
+            "text"
+          ],
+          "output": [
+            "text"
+          ]
+        },
+        "name": "Qwen3.8 27B (Consensus Protocol)",
+        "open_weights": false,
+        "reasoning": true,
+        "reasoning_options": [
+          {
+            "type": "effort",
+            "values": [
+              "low",
+              "medium",
+              "xhigh"
+            ]
+          }
+        ],
+        "release_date": "2026-09-02",
         "structured_output": false,
         "temperature": true,
         "tool_call": true
@@ -153020,7 +153019,7 @@
         "tool_call": true
       },
       "qwen/qwen3.5-27b": {
-        "attachment": true,
+        "attachment": false,
         "cost": {
           "cache_read": 0.0172,
           "input": 0.086,
@@ -153031,13 +153030,12 @@
         "id": "qwen/qwen3.5-27b",
         "last_updated": "2026-02-23",
         "limit": {
-          "context": 256000,
-          "output": 64000
+          "context": 131072,
+          "output": 32768
         },
         "modalities": {
           "input": [
-            "text",
-            "image"
+            "text"
           ],
           "output": [
             "text"
@@ -166266,9 +166264,9 @@
       "deepseek/deepseek-v4-flash-vision-exp": {
         "attachment": true,
         "cost": {
-          "cache_read": 0.014,
-          "input": 0.44,
-          "output": 1.32
+          "cache_read": 0.007,
+          "input": 0.22,
+          "output": 0.66
         },
         "description": "Experimental multimodal DeepSeek V4 Flash model for image understanding, coding, and agentic work",
         "family": "deepseek-flash",
@@ -175059,6 +175057,72 @@
         "structured_output": true,
         "tool_call": true
       },
+      "ornith-ai/ornith-1.5-9b": {
+        "attachment": true,
+        "cost": {
+          "cache_read": 0.05,
+          "input": 0.1,
+          "output": 0.2
+        },
+        "description": "Ornith 1.5 9B is an FP8 dense open-weight model built for agentic coding, tool use, visual understanding, and efficient long-context work. This variant disables thinking for faster direct responses.",
+        "family": "ornith",
+        "id": "ornith-ai/ornith-1.5-9b",
+        "last_updated": "2026-07-29",
+        "limit": {
+          "context": 262144,
+          "input": 262144,
+          "output": 32768
+        },
+        "modalities": {
+          "input": [
+            "text",
+            "image"
+          ],
+          "output": [
+            "text"
+          ]
+        },
+        "name": "Ornith 1.5 9B",
+        "open_weights": true,
+        "reasoning": true,
+        "reasoning_options": [],
+        "release_date": "2026-07-29",
+        "structured_output": true,
+        "tool_call": true
+      },
+      "ornith-ai/ornith-1.5-9b:thinking": {
+        "attachment": true,
+        "cost": {
+          "cache_read": 0.05,
+          "input": 0.1,
+          "output": 0.2
+        },
+        "description": "Ornith 1.5 9B with thinking enabled for more deliberate agentic coding, tool use, visual understanding, and long-context work.",
+        "family": "ornith",
+        "id": "ornith-ai/ornith-1.5-9b:thinking",
+        "last_updated": "2026-07-29",
+        "limit": {
+          "context": 262144,
+          "input": 262144,
+          "output": 32768
+        },
+        "modalities": {
+          "input": [
+            "text",
+            "image"
+          ],
+          "output": [
+            "text"
+          ]
+        },
+        "name": "Ornith 1.5 9B Thinking",
+        "open_weights": true,
+        "reasoning": true,
+        "reasoning_options": [],
+        "release_date": "2026-07-29",
+        "structured_output": true,
+        "tool_call": true
+      },
       "pamanseau/OpenReasoning-Nemotron-32B": {
         "attachment": false,
         "cost": {
@@ -176335,6 +176399,72 @@
         "structured_output": false,
         "temperature": true,
         "tool_call": false
+      },
+      "qwen/qwen3.6-35b-a3b-uncensored": {
+        "attachment": true,
+        "cost": {
+          "cache_read": 0.075,
+          "input": 0.15,
+          "output": 0.95
+        },
+        "description": "Qwen 3.6 35B A3B Uncensored is an NVFP4 open-weight mixture-of-experts model LoRA-tuned for fewer refusals across chat, coding, tool use, and multimodal tasks.",
+        "family": "qwen3.6",
+        "id": "qwen/qwen3.6-35b-a3b-uncensored",
+        "last_updated": "2026-07-29",
+        "limit": {
+          "context": 262144,
+          "input": 262144,
+          "output": 32768
+        },
+        "modalities": {
+          "input": [
+            "text",
+            "image"
+          ],
+          "output": [
+            "text"
+          ]
+        },
+        "name": "Qwen 3.6 35B A3B Uncensored",
+        "open_weights": true,
+        "reasoning": true,
+        "reasoning_options": [],
+        "release_date": "2026-07-29",
+        "structured_output": true,
+        "tool_call": true
+      },
+      "qwen/qwen3.6-35b-a3b-uncensored:thinking": {
+        "attachment": true,
+        "cost": {
+          "cache_read": 0.075,
+          "input": 0.15,
+          "output": 0.95
+        },
+        "description": "Qwen 3.6 35B A3B Uncensored with thinking enabled for more deliberate coding, multimodal analysis, tool use, and complex chat tasks.",
+        "family": "qwen3.6",
+        "id": "qwen/qwen3.6-35b-a3b-uncensored:thinking",
+        "last_updated": "2026-07-29",
+        "limit": {
+          "context": 262144,
+          "input": 262144,
+          "output": 32768
+        },
+        "modalities": {
+          "input": [
+            "text",
+            "image"
+          ],
+          "output": [
+            "text"
+          ]
+        },
+        "name": "Qwen 3.6 35B A3B Uncensored Thinking",
+        "open_weights": true,
+        "reasoning": true,
+        "reasoning_options": [],
+        "release_date": "2026-07-29",
+        "structured_output": true,
+        "tool_call": true
       },
       "qwen/qwen3.8-2.4t-a95b": {
         "attachment": true,
@@ -208457,8 +208587,8 @@
       "deepseek/deepseek-chat": {
         "attachment": false,
         "cost": {
-          "input": 0.2574,
-          "output": 1.0287
+          "input": 0.32,
+          "output": 0.89
         },
         "description": "DeepSeek chat model for instruction following, coding, and analysis",
         "family": "deepseek",
@@ -208467,7 +208597,7 @@
         "last_updated": "2026-02-28",
         "limit": {
           "context": 163840,
-          "output": 16000
+          "output": 16384
         },
         "modalities": {
           "input": [
@@ -208767,9 +208897,9 @@
       "deepseek/deepseek-v4-flash": {
         "attachment": false,
         "cost": {
-          "cache_read": 0.017721,
-          "input": 0.088606,
-          "output": 0.177212
+          "cache_read": 0.017416,
+          "input": 0.08708,
+          "output": 0.17416
         },
         "description": "Fast DeepSeek V4 lane for economical reasoning, coding, and long-context work",
         "family": "deepseek-flash",
@@ -208859,9 +208989,9 @@
       "deepseek/deepseek-v4-flash-vision-exp": {
         "attachment": true,
         "cost": {
-          "cache_read": 0.014,
-          "input": 0.44,
-          "output": 1.32
+          "cache_read": 0.007,
+          "input": 0.22,
+          "output": 0.66
         },
         "description": "Fast DeepSeek model for efficient chat, coding help, and agent loops",
         "family": "deepseek-flash",
@@ -208904,9 +209034,9 @@
       "deepseek/deepseek-v4-pro": {
         "attachment": false,
         "cost": {
-          "cache_read": 0.086855,
-          "input": 1.04226,
-          "output": 2.08452
+          "cache_read": 0.086609,
+          "input": 1.039302,
+          "output": 2.078604
         },
         "description": "Open MoE flagship with million-token context for coding and long agent runs",
         "family": "deepseek-thinking",
@@ -216494,8 +216624,9 @@
       "qwen/qwen2.5-vl-72b-instruct": {
         "attachment": true,
         "cost": {
-          "input": 0.25,
-          "output": 0.75
+          "cache_read": 0.4,
+          "input": 0.8,
+          "output": 1
         },
         "description": "Qwen vision-language model for visual reasoning, documents, and agent tasks",
         "family": "qwen",
@@ -216504,7 +216635,7 @@
         "last_updated": "2025-02-01",
         "limit": {
           "context": 128000,
-          "output": 28800
+          "output": 115200
         },
         "modalities": {
           "input": [
@@ -217802,9 +217933,8 @@
       "qwen/qwen3.6-35b-a3b": {
         "attachment": true,
         "cost": {
-          "cache_read": 0.05,
-          "input": 0.1,
-          "output": 0.9
+          "input": 0.05,
+          "output": 0.7
         },
         "description": "Open multimodal Qwen MoE for local agents that need vision, audio, and code",
         "family": "qwen",
@@ -217812,7 +217942,7 @@
         "last_updated": "2026-04-17",
         "limit": {
           "context": 262144,
-          "output": 235929
+          "output": 16384
         },
         "modalities": {
           "input": [
@@ -221003,9 +221133,9 @@
       "~z-ai/glm-latest": {
         "attachment": false,
         "cost": {
-          "cache_read": 0.1817,
-          "input": 1.106,
-          "output": 3.476
+          "cache_read": 0.1863,
+          "input": 1.134,
+          "output": 3.564
         },
         "description": "Flagship GLM model for hybrid reasoning, coding, and agentic engineering",
         "family": "glm",
