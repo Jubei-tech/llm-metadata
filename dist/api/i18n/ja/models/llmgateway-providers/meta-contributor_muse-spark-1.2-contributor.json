@@ -1,17 +1,17 @@
 {
   "attachment": true,
   "cost": {
-    "cache_read": 0.007,
-    "input": 0.22,
-    "output": 0.66
+    "cache_read": 0.002,
+    "input": 0.1,
+    "output": 0.2
   },
-  "description": "Fast DeepSeek model for efficient chat, coding help, and agent loops",
-  "family": "deepseek-flash",
-  "id": "deepseek/deepseek-v4-flash-vision-exp",
-  "last_updated": "2026-08-21",
+  "description": "Multimodal reasoning model for visual analysis, planning, and tool use",
+  "family": "muse",
+  "id": "meta-contributor/muse-spark-1.2-contributor",
+  "last_updated": "2026-08-06",
   "limit": {
     "context": 1048576,
-    "output": 384000
+    "output": 131072
   },
   "modalities": {
     "input": [
@@ -22,23 +22,22 @@
       "text"
     ]
   },
-  "name": "DeepSeek V4 Flash Vision Exp",
+  "name": "Muse Spark 1.2 Contributor (Meta Contributor)",
   "open_weights": false,
   "reasoning": true,
   "reasoning_options": [
     {
-      "type": "toggle"
-    },
-    {
       "type": "effort",
       "values": [
+        "minimal",
         "low",
+        "medium",
         "high",
-        "max"
+        "xhigh"
       ]
     }
   ],
-  "release_date": "2026-08-21",
+  "release_date": "2026-08-06",
   "structured_output": true,
   "temperature": true,
   "tool_call": true
