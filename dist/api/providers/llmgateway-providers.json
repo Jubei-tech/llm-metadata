@@ -5619,9 +5619,9 @@
     "consensusprotocol/Qwen3.8-27B": {
       "attachment": true,
       "cost": {
-        "cache_read": 0.08,
-        "input": 0.41,
-        "output": 2.5
+        "cache_read": 0.05,
+        "input": 0.2,
+        "output": 2
       },
       "description": "Reasoning model for deliberate analysis, multi-step problem solving, and tool use",
       "id": "consensusprotocol/Qwen3.8-27B",
@@ -5752,7 +5752,7 @@
       "tool_call": true
     },
     "consensusprotocol/gpt-oss-20b": {
-      "attachment": false,
+      "attachment": true,
       "cost": {
         "cache_read": 0.01,
         "input": 0.04,
@@ -7074,55 +7074,6 @@
         }
       ],
       "release_date": "2026-04-24",
-      "structured_output": false,
-      "temperature": true,
-      "tool_call": true
-    },
-    "gonka24/kimi-k2.6": {
-      "attachment": false,
-      "cost": {
-        "cache_read": 0.048,
-        "input": 0.22,
-        "output": 1.137
-      },
-      "description": "Multimodal Kimi workhorse for agent loops, coding tasks, and visual context",
-      "family": "kimi-k2",
-      "id": "gonka24/kimi-k2.6",
-      "interleaved": {
-        "field": "reasoning_content"
-      },
-      "knowledge": "2025-01",
-      "last_updated": "2026-04-21",
-      "limit": {
-        "context": 262144,
-        "output": 98304
-      },
-      "modalities": {
-        "input": [
-          "text"
-        ],
-        "output": [
-          "text"
-        ]
-      },
-      "name": "Kimi K2.6 (Gonka24)",
-      "open_weights": true,
-      "reasoning": true,
-      "reasoning_options": [
-        {
-          "type": "effort",
-          "values": [
-            "none",
-            "minimal",
-            "low",
-            "medium",
-            "high",
-            "xhigh",
-            "max"
-          ]
-        }
-      ],
-      "release_date": "2026-04-21",
       "structured_output": false,
       "temperature": true,
       "tool_call": true

@@ -1,8 +1,8 @@
 {
   "attachment": true,
   "cost": {
-    "input": 0.47,
-    "output": 3.19
+    "input": 0.46,
+    "output": 3.13
   },
   "description": "Multimodal reasoning model for visual analysis, planning, and tool use",
   "id": "qwen3.6-27b",
