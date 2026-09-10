@@ -19028,6 +19028,17 @@
     {
       "flags": {
         "attachment": true,
+        "reasoning": true,
+        "tool_call": false
+      },
+      "id": "deepinfra/deepseek-ai/DeepSeek-V4.1-Flash",
+      "name": "DeepSeek V4.1 Flash (Deep Infra)",
+      "providerId": "edenai",
+      "updated": "2026-09-10"
+    },
+    {
+      "flags": {
+        "attachment": true,
         "reasoning": false,
         "tool_call": false
       },
@@ -42549,6 +42560,17 @@
         "reasoning": true,
         "tool_call": true
       },
+      "id": "deepseek/deepseek-v4.1-flash",
+      "name": "DeepSeek V4.1 Flash",
+      "providerId": "merge-gateway",
+      "updated": "2026-09-10"
+    },
+    {
+      "flags": {
+        "attachment": true,
+        "reasoning": true,
+        "tool_call": true
+      },
       "id": "google/gemini-2.5-computer-use-preview-10-2025",
       "name": "Gemini 2.5 Computer Use Preview (10-2025)",
       "providerId": "merge-gateway",
@@ -46766,17 +46788,6 @@
       "name": "DeepSeek V4 Flash Vision Exp",
       "providerId": "nano-gpt",
       "updated": "2026-08-21"
-    },
-    {
-      "flags": {
-        "attachment": true,
-        "reasoning": true,
-        "tool_call": true
-      },
-      "id": "deepseek/deepseek-v4-flash-vision-exp-uncensored",
-      "name": "DeepSeek V4 Flash Vision Exp Uncensored",
-      "providerId": "nano-gpt",
-      "updated": "2026-09-07"
     },
     {
       "flags": {
@@ -76590,6 +76601,17 @@
     },
     {
       "flags": {
+        "attachment": true,
+        "reasoning": true,
+        "tool_call": true
+      },
+      "id": "deepseek-v4-1-flash",
+      "name": "DeepSeek V4.1 Flash",
+      "providerId": "venice",
+      "updated": "2026-09-10"
+    },
+    {
+      "flags": {
         "attachment": false,
         "reasoning": true,
         "tool_call": true
@@ -85650,7 +85672,7 @@
       "doc": "https://docs.edenai.co",
       "iconURL": "https://models.dev/logos/edenai.svg",
       "id": "edenai",
-      "modelCount": 259,
+      "modelCount": 260,
       "name": "Eden AI"
     },
     {
@@ -86064,7 +86086,7 @@
       "doc": "https://docs.merge.dev/merge-gateway",
       "iconURL": "https://models.dev/logos/merge-gateway.svg",
       "id": "merge-gateway",
-      "modelCount": 181,
+      "modelCount": 182,
       "name": "Merge Gateway"
     },
     {
@@ -86211,7 +86233,7 @@
       "doc": "https://docs.nano-gpt.com",
       "iconURL": "https://models.dev/logos/nano-gpt.svg",
       "id": "nano-gpt",
-      "modelCount": 587,
+      "modelCount": 586,
       "name": "NanoGPT"
     },
     {
@@ -86773,7 +86795,7 @@
       "iconURL": "https://models.dev/logos/venice.svg",
       "id": "venice",
       "lobeIcon": "VeniceAI",
-      "modelCount": 106,
+      "modelCount": 107,
       "name": "Venice AI"
     },
     {

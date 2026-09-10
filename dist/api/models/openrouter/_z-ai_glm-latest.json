@@ -2,7 +2,7 @@
   "attachment": false,
   "cost": {
     "cache_read": 0.2015,
-    "input": 1.085,
+    "input": 1.0075,
     "output": 3.41
   },
   "description": "Flagship GLM model for hybrid reasoning, coding, and agentic engineering",
@@ -11,7 +11,7 @@
   "last_updated": "2026-08-19",
   "limit": {
     "context": 1310720,
-    "output": 128000
+    "output": 235929
   },
   "modalities": {
     "input": [

@@ -206,7 +206,7 @@
       "~openai/gpt-mini-latest": 0.09999999999999999,
       "~x-ai/grok-latest": 0.25,
       "~z-ai/glm-flash-latest": 0.2,
-      "~z-ai/glm-latest": 0.18571428571428572
+      "~z-ai/glm-latest": 0.2
     },
     "completion_ratio": {
       "aion-labs/aion-2.0": 2,
@@ -551,7 +551,7 @@
       "~openai/gpt-mini-latest": 6,
       "~x-ai/grok-latest": 3,
       "~z-ai/glm-flash-latest": 3.3333333333333335,
-      "~z-ai/glm-latest": 3.1428571428571432
+      "~z-ai/glm-latest": 3.3846153846153846
     },
     "model_price": {},
     "model_ratio": {
@@ -897,7 +897,7 @@
       "~openai/gpt-mini-latest": 0.375,
       "~x-ai/grok-latest": 1,
       "~z-ai/glm-flash-latest": 0.0375,
-      "~z-ai/glm-latest": 0.5425
+      "~z-ai/glm-latest": 0.50375
     }
   },
   "message": "",
