@@ -100489,9 +100489,9 @@
       "gemma-4-26b-a4b-it": {
         "attachment": false,
         "cost": {
-          "cache_read": 0.061,
-          "input": 0.122,
-          "output": 0.42
+          "cache_read": 0.051,
+          "input": 0.102,
+          "output": 0.356
         },
         "description": "Open Gemma instruction model for efficient chat and self-hosted deployments",
         "family": "gemma",
@@ -100523,7 +100523,7 @@
         "cost": {
           "cache_read": 0.43,
           "input": 0.86,
-          "output": 2.784
+          "output": 2.752
         },
         "description": "General GLM flagship for coding, analysis, and tool-heavy engineering workflows",
         "family": "glm",
@@ -100552,9 +100552,9 @@
       "glm-5.1": {
         "attachment": false,
         "cost": {
-          "cache_read": 0.663,
-          "input": 1.326,
-          "output": 4.22
+          "cache_read": 0.659,
+          "input": 1.318,
+          "output": 4.308
         },
         "description": "Strong GLM coding model for agentic engineering, terminals, and repository generation",
         "family": "glm",
@@ -100708,9 +100708,9 @@
       "gpt-oss-120b": {
         "attachment": false,
         "cost": {
-          "cache_read": 0.089,
-          "input": 0.178,
-          "output": 0.68
+          "cache_read": 0.084,
+          "input": 0.168,
+          "output": 0.66
         },
         "description": "Open GPT reasoning model for self-hosted agents and controllable deployments",
         "family": "gpt-oss",
@@ -101012,9 +101012,9 @@
       "llama-4-maverick-17b-128e-instruct-fp8": {
         "attachment": false,
         "cost": {
-          "cache_read": 0.137,
-          "input": 0.274,
-          "output": 0.8992
+          "cache_read": 0.1275,
+          "input": 0.255,
+          "output": 0.8365
         },
         "description": "Open multimodal Llama for strong reasoning with efficient everyday serving",
         "family": "llama",
@@ -101043,9 +101043,9 @@
       "minimax-m2.7": {
         "attachment": false,
         "cost": {
-          "cache_read": 0.202,
-          "input": 0.404,
-          "output": 1.496
+          "cache_read": 0.198,
+          "input": 0.396,
+          "output": 1.464
         },
         "description": "Open MiniMax flagship for coding agents, office automation, and complex environments",
         "family": "minimax",
@@ -114487,8 +114487,8 @@
         "id": "deepseek/deepseek-v4-pro-0813",
         "last_updated": "2026-08-22",
         "limit": {
-          "context": 1048576,
-          "output": 943718
+          "context": 1024000,
+          "output": 384000
         },
         "modalities": {
           "input": [
@@ -116190,6 +116190,48 @@
         "temperature": true,
         "tool_call": true
       },
+      "inclusionai/ling-3.0-flash-vl": {
+        "attachment": true,
+        "cost": {
+          "cache_read": 0.012,
+          "input": 0.06,
+          "output": 0.18
+        },
+        "description": "Ling 3.0 Flash VL builds on Ling 3.0 Flash (124B total / 5.5B active MoE from InclusionAI), further strengthening its language capabilities while adding native visual perception and advanced visual...",
+        "family": "ling",
+        "id": "inclusionai/ling-3.0-flash-vl",
+        "last_updated": "2026-09-10",
+        "limit": {
+          "context": 131072,
+          "output": 32768
+        },
+        "modalities": {
+          "input": [
+            "text",
+            "image",
+            "video"
+          ],
+          "output": [
+            "text"
+          ]
+        },
+        "name": "inclusionAI: Ling 3.0 Flash VL",
+        "open_weights": false,
+        "reasoning": true,
+        "reasoning_options": [
+          {
+            "type": "effort",
+            "values": [
+              "none",
+              "high"
+            ]
+          }
+        ],
+        "release_date": "2026-09-10",
+        "structured_output": true,
+        "temperature": true,
+        "tool_call": true
+      },
       "inclusionai/ling-3.0-flash-vl:free": {
         "attachment": true,
         "cost": {
@@ -116588,7 +116630,7 @@
         "last_updated": "2024-07-23",
         "limit": {
           "context": 131072,
-          "output": 8192
+          "output": 16384
         },
         "modalities": {
           "input": [
@@ -117352,8 +117394,8 @@
         "id": "minimax/minimax-m2.5",
         "last_updated": "2026-02-12",
         "limit": {
-          "context": 204800,
-          "output": 131072
+          "context": 200000,
+          "output": 128000
         },
         "modalities": {
           "input": [
@@ -126640,6 +126682,52 @@
         "temperature": true,
         "tool_call": true
       },
+      "~openai/gpt-astra-latest": {
+        "attachment": true,
+        "cost": {
+          "cache_read": 1,
+          "cache_write": 12.5,
+          "input": 10,
+          "output": 50
+        },
+        "description": "This model always redirects to the latest model in the OpenAI GPT Astra family.",
+        "family": "gpt-astra",
+        "id": "~openai/gpt-astra-latest",
+        "last_updated": "2026-09-11",
+        "limit": {
+          "context": 1050000,
+          "output": 128000
+        },
+        "modalities": {
+          "input": [
+            "pdf",
+            "image",
+            "text"
+          ],
+          "output": [
+            "text"
+          ]
+        },
+        "name": "OpenAI GPT Astra Latest ($$$$)",
+        "open_weights": false,
+        "reasoning": true,
+        "reasoning_options": [
+          {
+            "type": "effort",
+            "values": [
+              "low",
+              "medium",
+              "high",
+              "xhigh",
+              "max"
+            ]
+          }
+        ],
+        "release_date": "2026-09-11",
+        "structured_output": true,
+        "temperature": false,
+        "tool_call": true
+      },
       "~openai/gpt-latest": {
         "attachment": true,
         "cost": {
@@ -126687,6 +126775,53 @@
         "temperature": false,
         "tool_call": true
       },
+      "~openai/gpt-luna-latest": {
+        "attachment": true,
+        "cost": {
+          "cache_read": 0.02,
+          "cache_write": 0.25,
+          "input": 0.2,
+          "output": 1.2
+        },
+        "description": "This model always redirects to the latest model in the OpenAI GPT Luna family.",
+        "family": "gpt-luna",
+        "id": "~openai/gpt-luna-latest",
+        "last_updated": "2026-09-11",
+        "limit": {
+          "context": 1050000,
+          "output": 128000
+        },
+        "modalities": {
+          "input": [
+            "pdf",
+            "image",
+            "text"
+          ],
+          "output": [
+            "text"
+          ]
+        },
+        "name": "OpenAI GPT Luna Latest",
+        "open_weights": false,
+        "reasoning": true,
+        "reasoning_options": [
+          {
+            "type": "effort",
+            "values": [
+              "none",
+              "low",
+              "medium",
+              "high",
+              "xhigh",
+              "max"
+            ]
+          }
+        ],
+        "release_date": "2026-09-11",
+        "structured_output": true,
+        "temperature": false,
+        "tool_call": true
+      },
       "~openai/gpt-mini-latest": {
         "attachment": true,
         "cost": {
@@ -126728,6 +126863,100 @@
           }
         ],
         "release_date": "2026-04-27",
+        "structured_output": true,
+        "temperature": false,
+        "tool_call": true
+      },
+      "~openai/gpt-sol-latest": {
+        "attachment": true,
+        "cost": {
+          "cache_read": 0.2,
+          "cache_write": 2.5,
+          "input": 2,
+          "output": 10
+        },
+        "description": "This model always redirects to the latest model in the OpenAI GPT Sol family.",
+        "family": "gpt-sol",
+        "id": "~openai/gpt-sol-latest",
+        "last_updated": "2026-09-11",
+        "limit": {
+          "context": 1050000,
+          "output": 128000
+        },
+        "modalities": {
+          "input": [
+            "pdf",
+            "image",
+            "text"
+          ],
+          "output": [
+            "text"
+          ]
+        },
+        "name": "OpenAI GPT Sol Latest",
+        "open_weights": false,
+        "reasoning": true,
+        "reasoning_options": [
+          {
+            "type": "effort",
+            "values": [
+              "none",
+              "low",
+              "medium",
+              "high",
+              "xhigh",
+              "max"
+            ]
+          }
+        ],
+        "release_date": "2026-09-11",
+        "structured_output": true,
+        "temperature": false,
+        "tool_call": true
+      },
+      "~openai/gpt-terra-latest": {
+        "attachment": true,
+        "cost": {
+          "cache_read": 0.2,
+          "cache_write": 2.5,
+          "input": 2,
+          "output": 12
+        },
+        "description": "This model always redirects to the latest model in the OpenAI GPT Terra family.",
+        "family": "gpt-terra",
+        "id": "~openai/gpt-terra-latest",
+        "last_updated": "2026-09-11",
+        "limit": {
+          "context": 1050000,
+          "output": 128000
+        },
+        "modalities": {
+          "input": [
+            "pdf",
+            "image",
+            "text"
+          ],
+          "output": [
+            "text"
+          ]
+        },
+        "name": "OpenAI GPT Terra Latest",
+        "open_weights": false,
+        "reasoning": true,
+        "reasoning_options": [
+          {
+            "type": "effort",
+            "values": [
+              "none",
+              "low",
+              "medium",
+              "high",
+              "xhigh",
+              "max"
+            ]
+          }
+        ],
+        "release_date": "2026-09-11",
         "structured_output": true,
         "temperature": false,
         "tool_call": true
@@ -126822,17 +127051,17 @@
       "~z-ai/glm-latest": {
         "attachment": false,
         "cost": {
-          "cache_read": 0.194,
-          "input": 0.97,
-          "output": 3.3077
+          "cache_read": 0.13,
+          "input": 0.7,
+          "output": 2.2
         },
         "description": "This model always redirects to the latest GLM model from Z.ai.",
         "family": "glm",
         "id": "~z-ai/glm-latest",
         "last_updated": "2026-08-19",
         "limit": {
-          "context": 1048576,
-          "output": 943718
+          "context": 1024000,
+          "output": 128000
         },
         "modalities": {
           "input": [
@@ -128711,6 +128940,48 @@
         "temperature": true,
         "tool_call": false
       },
+      "fugu-max": {
+        "attachment": true,
+        "cost": {
+          "cache_read": 0.25,
+          "input": 2,
+          "output": 6
+        },
+        "description": "Multi-agent model for routing expert agents across complex analytical tasks",
+        "family": "fugu",
+        "id": "fugu-max",
+        "last_updated": "2026-09-11",
+        "limit": {
+          "context": 1000000,
+          "output": 1000000
+        },
+        "modalities": {
+          "input": [
+            "text",
+            "image"
+          ],
+          "output": [
+            "text"
+          ]
+        },
+        "name": "Fugu Max",
+        "open_weights": false,
+        "reasoning": true,
+        "reasoning_options": [
+          {
+            "type": "effort",
+            "values": [
+              "high",
+              "xhigh",
+              "max"
+            ]
+          }
+        ],
+        "release_date": "2026-09-11",
+        "structured_output": true,
+        "temperature": true,
+        "tool_call": true
+      },
       "fugu-ultra": {
         "attachment": true,
         "cost": {
@@ -128749,6 +129020,48 @@
         ],
         "release_date": "2026-06-22",
         "structured_output": false,
+        "temperature": true,
+        "tool_call": true
+      },
+      "fugu-ultra-v2.0": {
+        "attachment": true,
+        "cost": {
+          "cache_read": 0.5,
+          "input": 5,
+          "output": 30
+        },
+        "description": "Quality-first multi-agent model for hard research, analysis, and competitions",
+        "family": "fugu",
+        "id": "fugu-ultra-v2.0",
+        "last_updated": "2026-09-11",
+        "limit": {
+          "context": 1000000,
+          "output": 1000000
+        },
+        "modalities": {
+          "input": [
+            "text",
+            "image"
+          ],
+          "output": [
+            "text"
+          ]
+        },
+        "name": "Fugu Ultra v2.0",
+        "open_weights": false,
+        "reasoning": true,
+        "reasoning_options": [
+          {
+            "type": "effort",
+            "values": [
+              "high",
+              "xhigh",
+              "max"
+            ]
+          }
+        ],
+        "release_date": "2026-09-11",
+        "structured_output": true,
         "temperature": true,
         "tool_call": true
       },
@@ -148586,6 +148899,48 @@
         "temperature": false,
         "tool_call": true
       },
+      "sakana/fugu-max": {
+        "attachment": true,
+        "cost": {
+          "cache_read": 0.25,
+          "input": 2,
+          "output": 6
+        },
+        "description": "Multi-agent model for routing expert agents across complex analytical tasks",
+        "family": "fugu",
+        "id": "sakana/fugu-max",
+        "last_updated": "2026-09-11",
+        "limit": {
+          "context": 1000000,
+          "output": 1000000
+        },
+        "modalities": {
+          "input": [
+            "text",
+            "image"
+          ],
+          "output": [
+            "text"
+          ]
+        },
+        "name": "Fugu Max (Sakana AI)",
+        "open_weights": false,
+        "reasoning": true,
+        "reasoning_options": [
+          {
+            "type": "effort",
+            "values": [
+              "high",
+              "xhigh",
+              "max"
+            ]
+          }
+        ],
+        "release_date": "2026-09-11",
+        "structured_output": true,
+        "temperature": true,
+        "tool_call": true
+      },
       "sakana/fugu-ultra": {
         "attachment": true,
         "cost": {
@@ -148626,6 +148981,48 @@
         "release_date": "2026-06-15",
         "structured_output": false,
         "temperature": false,
+        "tool_call": true
+      },
+      "sakana/fugu-ultra-v2.0": {
+        "attachment": true,
+        "cost": {
+          "cache_read": 0.5,
+          "input": 5,
+          "output": 30
+        },
+        "description": "Quality-first multi-agent model for hard research, analysis, and competitions",
+        "family": "fugu",
+        "id": "sakana/fugu-ultra-v2.0",
+        "last_updated": "2026-09-11",
+        "limit": {
+          "context": 1000000,
+          "output": 1000000
+        },
+        "modalities": {
+          "input": [
+            "text",
+            "image"
+          ],
+          "output": [
+            "text"
+          ]
+        },
+        "name": "Fugu Ultra v2.0 (Sakana AI)",
+        "open_weights": false,
+        "reasoning": true,
+        "reasoning_options": [
+          {
+            "type": "effort",
+            "values": [
+              "high",
+              "xhigh",
+              "max"
+            ]
+          }
+        ],
+        "release_date": "2026-09-11",
+        "structured_output": true,
+        "temperature": true,
         "tool_call": true
       },
       "scx-ai-gp/glm-5.2": {
@@ -159414,7 +159811,7 @@
         "tool_call": true
       },
       "qwen/qwen3.5-122b-a10b": {
-        "attachment": false,
+        "attachment": true,
         "cost": {
           "cache_read": 0.023,
           "input": 0.115,
@@ -159425,12 +159822,13 @@
         "id": "qwen/qwen3.5-122b-a10b",
         "last_updated": "2026-02-23",
         "limit": {
-          "context": 131072,
-          "output": 32768
+          "context": 256000,
+          "output": 64000
         },
         "modalities": {
           "input": [
-            "text"
+            "text",
+            "image"
           ],
           "output": [
             "text"
@@ -159523,7 +159921,7 @@
         "tool_call": true
       },
       "qwen/qwen3.5-397b-a17b": {
-        "attachment": false,
+        "attachment": true,
         "cost": {
           "cache_read": 0.0344,
           "input": 0.172,
@@ -159534,12 +159932,13 @@
         "id": "qwen/qwen3.5-397b-a17b",
         "last_updated": "2026-02-15",
         "limit": {
-          "context": 131072,
-          "output": 32768
+          "context": 256000,
+          "output": 64000
         },
         "modalities": {
           "input": [
-            "text"
+            "text",
+            "image"
           ],
           "output": [
             "text"
@@ -167723,6 +168122,49 @@
         "temperature": true,
         "tool_call": true
       },
+      "TEE/nemotron-3.5-lightning": {
+        "attachment": false,
+        "cost": {
+          "cache_read": 0.04,
+          "input": 0.08,
+          "output": 0.2
+        },
+        "description": "Fast NVIDIA Nemotron MoE for reliable agentic tasks across enterprise workloads",
+        "family": "nemotron",
+        "id": "TEE/nemotron-3.5-lightning",
+        "last_updated": "2026-08-11",
+        "limit": {
+          "context": 262144,
+          "input": 262144,
+          "output": 65536
+        },
+        "modalities": {
+          "input": [
+            "text"
+          ],
+          "output": [
+            "text"
+          ]
+        },
+        "name": "Nvidia Nemotron 3.5 Lightning TEE",
+        "open_weights": true,
+        "reasoning": true,
+        "reasoning_options": [
+          {
+            "type": "effort",
+            "values": [
+              "none",
+              "low",
+              "medium",
+              "high"
+            ]
+          }
+        ],
+        "release_date": "2026-08-11",
+        "structured_output": true,
+        "temperature": true,
+        "tool_call": true
+      },
       "TEE/qwen2.5-vl-72b-instruct": {
         "attachment": true,
         "cost": {
@@ -172486,9 +172928,9 @@
       "deepseek/deepseek-v4-flash-vision-exp": {
         "attachment": true,
         "cost": {
-          "cache_read": 0.014,
-          "input": 0.44,
-          "output": 1.32
+          "cache_read": 0.007,
+          "input": 0.22,
+          "output": 0.66
         },
         "description": "Experimental multimodal DeepSeek V4 Flash model for image understanding, coding, and agentic work",
         "family": "deepseek-flash",
@@ -172745,9 +173187,9 @@
       "deepseek/deepseek-v4.1-flash": {
         "attachment": true,
         "cost": {
-          "cache_read": 0.006,
-          "input": 0.3,
-          "output": 1.2
+          "cache_read": 0.003,
+          "input": 0.15,
+          "output": 0.6
         },
         "description": "DeepSeek V4.1 Flash model for reasoning and agentic coding",
         "family": "deepseek-flash",
@@ -172790,9 +173232,9 @@
       "deepseek/deepseek-v4.1-flash:thinking": {
         "attachment": true,
         "cost": {
-          "cache_read": 0.006,
-          "input": 0.3,
-          "output": 1.2
+          "cache_read": 0.003,
+          "input": 0.15,
+          "output": 0.6
         },
         "description": "DeepSeek V4.1 Flash model for reasoning and agentic coding",
         "family": "deepseek-flash",
@@ -216923,9 +217365,9 @@
       "deepseek/deepseek-v4-flash": {
         "attachment": false,
         "cost": {
-          "cache_read": 0.017721,
-          "input": 0.088606,
-          "output": 0.177212
+          "cache_read": 0.01736,
+          "input": 0.0868,
+          "output": 0.1736
         },
         "description": "Fast DeepSeek V4 lane for economical reasoning, coding, and long-context work",
         "family": "deepseek-flash",
@@ -217060,9 +217502,9 @@
       "deepseek/deepseek-v4-pro": {
         "attachment": false,
         "cost": {
-          "cache_read": 0.079605,
-          "input": 0.95526,
-          "output": 1.91052
+          "cache_read": 0.078982,
+          "input": 0.947778,
+          "output": 1.895556
         },
         "description": "Open MoE flagship with million-token context for coding and long agent runs",
         "family": "deepseek-thinking",
@@ -217107,9 +217549,9 @@
       "deepseek/deepseek-v4-pro-0813": {
         "attachment": false,
         "cost": {
-          "cache_read": 0.066,
-          "input": 0.66,
-          "output": 1.98
+          "cache_read": 0.019316,
+          "input": 0.57948,
+          "output": 1.73844
         },
         "description": "DeepSeek V4 Pro snapshot with million-token context and support for thinking and non-thinking modes",
         "family": "deepseek-thinking",
@@ -217117,7 +217559,7 @@
         "last_updated": "2026-08-22",
         "limit": {
           "context": 1048576,
-          "output": 943718
+          "output": 384000
         },
         "modalities": {
           "input": [
@@ -217151,9 +217593,9 @@
       "deepseek/deepseek-v4.1-flash": {
         "attachment": true,
         "cost": {
-          "cache_read": 0.006,
-          "input": 0.3,
-          "output": 1.2
+          "cache_read": 0.003,
+          "input": 0.15,
+          "output": 0.6
         },
         "description": "Fast DeepSeek model for efficient chat, coding help, and agent loops",
         "family": "deepseek-flash",
@@ -218944,6 +219386,44 @@
         "temperature": true,
         "tool_call": true
       },
+      "inclusionai/ling-3.0-flash-vl": {
+        "attachment": true,
+        "cost": {
+          "cache_read": 0.012,
+          "input": 0.06,
+          "output": 0.18
+        },
+        "description": "Multimodal reasoning model for visual analysis, planning, and tool use",
+        "family": "ling",
+        "id": "inclusionai/ling-3.0-flash-vl",
+        "last_updated": "2026-09-10",
+        "limit": {
+          "context": 131072,
+          "output": 32768
+        },
+        "modalities": {
+          "input": [
+            "text",
+            "image",
+            "video"
+          ],
+          "output": [
+            "text"
+          ]
+        },
+        "name": "Ling 3.0 Flash VL",
+        "open_weights": true,
+        "reasoning": true,
+        "reasoning_options": [
+          {
+            "type": "toggle"
+          }
+        ],
+        "release_date": "2026-09-10",
+        "structured_output": true,
+        "temperature": true,
+        "tool_call": true
+      },
       "inclusionai/ling-3.0-flash-vl:free": {
         "attachment": true,
         "cost": {
@@ -219147,8 +219627,8 @@
       "meta-llama/llama-3.1-70b-instruct": {
         "attachment": false,
         "cost": {
-          "input": 0.72,
-          "output": 0.72
+          "input": 0.4,
+          "output": 0.4
         },
         "description": "Open Llama instruction model for multilingual chat, reasoning, and coding",
         "family": "llama",
@@ -219157,7 +219637,7 @@
         "last_updated": "2024-07-23",
         "limit": {
           "context": 131072,
-          "output": 8192
+          "output": 16384
         },
         "modalities": {
           "input": [
@@ -219909,9 +220389,9 @@
       "minimax/minimax-m2.5": {
         "attachment": false,
         "cost": {
-          "cache_read": 0.03,
-          "input": 0.3,
-          "output": 1.2
+          "cache_read": 0.027,
+          "input": 0.27,
+          "output": 1.08
         },
         "description": "Prior MiniMax coding model for agent workflows, office edits, and automation",
         "family": "minimax",
@@ -219922,7 +220402,7 @@
         "last_updated": "2026-02-12",
         "limit": {
           "context": 204800,
-          "output": 131072
+          "output": 128000
         },
         "modalities": {
           "input": [
@@ -229194,6 +229674,70 @@
         "temperature": true,
         "tool_call": true
       },
+      "~openai/gpt-astra-latest": {
+        "attachment": true,
+        "cost": {
+          "cache_read": 1,
+          "cache_write": 12.5,
+          "context_over_200k": {
+            "cache_read": 2,
+            "cache_write": 25,
+            "input": 20,
+            "output": 75
+          },
+          "input": 10,
+          "output": 50,
+          "tiers": [
+            {
+              "cache_read": 2,
+              "cache_write": 25,
+              "input": 20,
+              "output": 75,
+              "tier": {
+                "size": 272000,
+                "type": "context"
+              }
+            }
+          ]
+        },
+        "description": "GPT model for general reasoning, writing, coding, and tool-assisted tasks",
+        "family": "gpt-astra",
+        "id": "~openai/gpt-astra-latest",
+        "last_updated": "2026-09-11",
+        "limit": {
+          "context": 1050000,
+          "output": 128000
+        },
+        "modalities": {
+          "input": [
+            "pdf",
+            "image",
+            "text"
+          ],
+          "output": [
+            "text"
+          ]
+        },
+        "name": "OpenAI GPT Astra Latest",
+        "open_weights": false,
+        "reasoning": true,
+        "reasoning_options": [
+          {
+            "type": "effort",
+            "values": [
+              "low",
+              "medium",
+              "high",
+              "xhigh",
+              "max"
+            ]
+          }
+        ],
+        "release_date": "2026-09-11",
+        "structured_output": true,
+        "temperature": false,
+        "tool_call": true
+      },
       "~openai/gpt-latest": {
         "attachment": true,
         "cost": {
@@ -229260,6 +229804,72 @@
         "temperature": false,
         "tool_call": true
       },
+      "~openai/gpt-luna-latest": {
+        "attachment": true,
+        "cost": {
+          "cache_read": 0.02,
+          "cache_write": 0.25,
+          "context_over_200k": {
+            "cache_read": 0.04,
+            "cache_write": 0.5,
+            "input": 0.4,
+            "output": 1.8
+          },
+          "input": 0.2,
+          "output": 1.2,
+          "tiers": [
+            {
+              "cache_read": 0.04,
+              "cache_write": 0.5,
+              "input": 0.4,
+              "output": 1.8,
+              "tier": {
+                "size": 272000,
+                "type": "context"
+              }
+            }
+          ]
+        },
+        "description": "GPT model for general reasoning, writing, coding, and tool-assisted tasks",
+        "family": "gpt-luna",
+        "id": "~openai/gpt-luna-latest",
+        "knowledge": "2026-02-16",
+        "last_updated": "2026-09-11",
+        "limit": {
+          "context": 1050000,
+          "output": 128000
+        },
+        "modalities": {
+          "input": [
+            "pdf",
+            "image",
+            "text"
+          ],
+          "output": [
+            "text"
+          ]
+        },
+        "name": "OpenAI GPT Luna Latest",
+        "open_weights": false,
+        "reasoning": true,
+        "reasoning_options": [
+          {
+            "type": "effort",
+            "values": [
+              "none",
+              "low",
+              "medium",
+              "high",
+              "xhigh",
+              "max"
+            ]
+          }
+        ],
+        "release_date": "2026-09-11",
+        "structured_output": true,
+        "temperature": false,
+        "tool_call": true
+      },
       "~openai/gpt-mini-latest": {
         "attachment": true,
         "cost": {
@@ -229302,6 +229912,138 @@
           }
         ],
         "release_date": "2026-04-27",
+        "structured_output": true,
+        "temperature": false,
+        "tool_call": true
+      },
+      "~openai/gpt-sol-latest": {
+        "attachment": true,
+        "cost": {
+          "cache_read": 0.2,
+          "cache_write": 2.5,
+          "context_over_200k": {
+            "cache_read": 0.4,
+            "cache_write": 5,
+            "input": 4,
+            "output": 15
+          },
+          "input": 2,
+          "output": 10,
+          "tiers": [
+            {
+              "cache_read": 0.4,
+              "cache_write": 5,
+              "input": 4,
+              "output": 15,
+              "tier": {
+                "size": 272000,
+                "type": "context"
+              }
+            }
+          ]
+        },
+        "description": "GPT model for general reasoning, writing, coding, and tool-assisted tasks",
+        "family": "gpt-sol",
+        "id": "~openai/gpt-sol-latest",
+        "knowledge": "2026-02-16",
+        "last_updated": "2026-09-11",
+        "limit": {
+          "context": 1050000,
+          "output": 128000
+        },
+        "modalities": {
+          "input": [
+            "pdf",
+            "image",
+            "text"
+          ],
+          "output": [
+            "text"
+          ]
+        },
+        "name": "OpenAI GPT Sol Latest",
+        "open_weights": false,
+        "reasoning": true,
+        "reasoning_options": [
+          {
+            "type": "effort",
+            "values": [
+              "none",
+              "low",
+              "medium",
+              "high",
+              "xhigh",
+              "max"
+            ]
+          }
+        ],
+        "release_date": "2026-09-11",
+        "structured_output": true,
+        "temperature": false,
+        "tool_call": true
+      },
+      "~openai/gpt-terra-latest": {
+        "attachment": true,
+        "cost": {
+          "cache_read": 0.2,
+          "cache_write": 2.5,
+          "context_over_200k": {
+            "cache_read": 0.4,
+            "cache_write": 5,
+            "input": 4,
+            "output": 18
+          },
+          "input": 2,
+          "output": 12,
+          "tiers": [
+            {
+              "cache_read": 0.4,
+              "cache_write": 5,
+              "input": 4,
+              "output": 18,
+              "tier": {
+                "size": 272000,
+                "type": "context"
+              }
+            }
+          ]
+        },
+        "description": "GPT model for general reasoning, writing, coding, and tool-assisted tasks",
+        "family": "gpt-terra",
+        "id": "~openai/gpt-terra-latest",
+        "knowledge": "2026-02-16",
+        "last_updated": "2026-09-11",
+        "limit": {
+          "context": 1050000,
+          "output": 128000
+        },
+        "modalities": {
+          "input": [
+            "pdf",
+            "image",
+            "text"
+          ],
+          "output": [
+            "text"
+          ]
+        },
+        "name": "OpenAI GPT Terra Latest",
+        "open_weights": false,
+        "reasoning": true,
+        "reasoning_options": [
+          {
+            "type": "effort",
+            "values": [
+              "none",
+              "low",
+              "medium",
+              "high",
+              "xhigh",
+              "max"
+            ]
+          }
+        ],
+        "release_date": "2026-09-11",
         "structured_output": true,
         "temperature": false,
         "tool_call": true
@@ -229412,9 +230154,9 @@
       "~z-ai/glm-latest": {
         "attachment": false,
         "cost": {
-          "cache_read": 0.194,
-          "input": 0.97,
-          "output": 3.3077
+          "cache_read": 0.13,
+          "input": 0.7,
+          "output": 2.2
         },
         "description": "Flagship GLM model for hybrid reasoning, coding, and agentic engineering",
         "family": "glm",
@@ -229422,7 +230164,7 @@
         "last_updated": "2026-08-19",
         "limit": {
           "context": 1310720,
-          "output": 943718
+          "output": 128000
         },
         "modalities": {
           "input": [

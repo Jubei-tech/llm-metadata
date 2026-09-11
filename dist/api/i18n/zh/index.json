@@ -31571,6 +31571,17 @@
         "reasoning": true,
         "tool_call": true
       },
+      "id": "~openai/gpt-astra-latest",
+      "name": "OpenAI GPT Astra Latest ($$$$)",
+      "providerId": "kilo",
+      "updated": "2026-09-11"
+    },
+    {
+      "flags": {
+        "attachment": true,
+        "reasoning": true,
+        "tool_call": true
+      },
       "id": "~openai/gpt-latest",
       "name": "OpenAI GPT Latest",
       "providerId": "kilo",
@@ -31582,10 +31593,43 @@
         "reasoning": true,
         "tool_call": true
       },
+      "id": "~openai/gpt-luna-latest",
+      "name": "OpenAI GPT Luna Latest",
+      "providerId": "kilo",
+      "updated": "2026-09-11"
+    },
+    {
+      "flags": {
+        "attachment": true,
+        "reasoning": true,
+        "tool_call": true
+      },
       "id": "~openai/gpt-mini-latest",
       "name": "OpenAI GPT Mini Latest",
       "providerId": "kilo",
       "updated": "2026-04-27"
+    },
+    {
+      "flags": {
+        "attachment": true,
+        "reasoning": true,
+        "tool_call": true
+      },
+      "id": "~openai/gpt-sol-latest",
+      "name": "OpenAI GPT Sol Latest",
+      "providerId": "kilo",
+      "updated": "2026-09-11"
+    },
+    {
+      "flags": {
+        "attachment": true,
+        "reasoning": true,
+        "tool_call": true
+      },
+      "id": "~openai/gpt-terra-latest",
+      "name": "OpenAI GPT Terra Latest",
+      "providerId": "kilo",
+      "updated": "2026-09-11"
     },
     {
       "flags": {
@@ -32653,6 +32697,17 @@
       "name": "inclusionAI: Ling 3.0 Flash Sante (free)",
       "providerId": "kilo",
       "updated": "2026-09-04"
+    },
+    {
+      "flags": {
+        "attachment": true,
+        "reasoning": true,
+        "tool_call": true
+      },
+      "id": "inclusionai/ling-3.0-flash-vl",
+      "name": "inclusionAI: Ling 3.0 Flash VL",
+      "providerId": "kilo",
+      "updated": "2026-09-10"
     },
     {
       "flags": {
@@ -36026,10 +36081,32 @@
         "reasoning": true,
         "tool_call": true
       },
+      "id": "fugu-max",
+      "name": "Fugu Max",
+      "providerId": "llmgateway",
+      "updated": "2026-09-11"
+    },
+    {
+      "flags": {
+        "attachment": true,
+        "reasoning": true,
+        "tool_call": true
+      },
       "id": "fugu-ultra",
       "name": "Fugu Ultra",
       "providerId": "llmgateway",
       "updated": "2026-06-22"
+    },
+    {
+      "flags": {
+        "attachment": true,
+        "reasoning": true,
+        "tool_call": true
+      },
+      "id": "fugu-ultra-v2.0",
+      "name": "Fugu Ultra v2.0",
+      "providerId": "llmgateway",
+      "updated": "2026-09-11"
     },
     {
       "flags": {
@@ -41218,10 +41295,32 @@
         "reasoning": true,
         "tool_call": true
       },
+      "id": "sakana/fugu-max",
+      "name": "Fugu Max (Sakana AI)",
+      "providerId": "llmgateway-providers",
+      "updated": "2026-09-11"
+    },
+    {
+      "flags": {
+        "attachment": true,
+        "reasoning": true,
+        "tool_call": true
+      },
       "id": "sakana/fugu-ultra",
       "name": "Fugu Ultra (Sakana AI)",
       "providerId": "llmgateway-providers",
       "updated": "2026-06-15"
+    },
+    {
+      "flags": {
+        "attachment": true,
+        "reasoning": true,
+        "tool_call": true
+      },
+      "id": "sakana/fugu-ultra-v2.0",
+      "name": "Fugu Ultra v2.0 (Sakana AI)",
+      "providerId": "llmgateway-providers",
+      "updated": "2026-09-11"
     },
     {
       "flags": {
@@ -44228,7 +44327,7 @@
     },
     {
       "flags": {
-        "attachment": false,
+        "attachment": true,
         "reasoning": true,
         "tool_call": true
       },
@@ -44261,7 +44360,7 @@
     },
     {
       "flags": {
-        "attachment": false,
+        "attachment": true,
         "reasoning": true,
         "tool_call": true
       },
@@ -51573,6 +51672,17 @@
       "name": "Muse Glimmer 30B TEE",
       "providerId": "nano-gpt",
       "updated": "2026-08-10"
+    },
+    {
+      "flags": {
+        "attachment": false,
+        "reasoning": true,
+        "tool_call": true
+      },
+      "id": "TEE/nemotron-3.5-lightning",
+      "name": "Nvidia Nemotron 3.5 Lightning TEE",
+      "providerId": "nano-gpt",
+      "updated": "2026-08-11"
     },
     {
       "flags": {
@@ -60204,6 +60314,17 @@
         "reasoning": true,
         "tool_call": true
       },
+      "id": "~openai/gpt-astra-latest",
+      "name": "OpenAI GPT Astra Latest",
+      "providerId": "openrouter",
+      "updated": "2026-09-11"
+    },
+    {
+      "flags": {
+        "attachment": true,
+        "reasoning": true,
+        "tool_call": true
+      },
       "id": "~openai/gpt-latest",
       "name": "OpenAI GPT Latest",
       "providerId": "openrouter",
@@ -60215,10 +60336,43 @@
         "reasoning": true,
         "tool_call": true
       },
+      "id": "~openai/gpt-luna-latest",
+      "name": "OpenAI GPT Luna Latest",
+      "providerId": "openrouter",
+      "updated": "2026-09-11"
+    },
+    {
+      "flags": {
+        "attachment": true,
+        "reasoning": true,
+        "tool_call": true
+      },
       "id": "~openai/gpt-mini-latest",
       "name": "OpenAI GPT Mini Latest",
       "providerId": "openrouter",
       "updated": "2026-04-27"
+    },
+    {
+      "flags": {
+        "attachment": true,
+        "reasoning": true,
+        "tool_call": true
+      },
+      "id": "~openai/gpt-sol-latest",
+      "name": "OpenAI GPT Sol Latest",
+      "providerId": "openrouter",
+      "updated": "2026-09-11"
+    },
+    {
+      "flags": {
+        "attachment": true,
+        "reasoning": true,
+        "tool_call": true
+      },
+      "id": "~openai/gpt-terra-latest",
+      "name": "OpenAI GPT Terra Latest",
+      "providerId": "openrouter",
+      "updated": "2026-09-11"
     },
     {
       "flags": {
@@ -61308,6 +61462,17 @@
       "name": "Ling 3.0 Flash Sante (free)",
       "providerId": "openrouter",
       "updated": "2026-09-04"
+    },
+    {
+      "flags": {
+        "attachment": true,
+        "reasoning": true,
+        "tool_call": true
+      },
+      "id": "inclusionai/ling-3.0-flash-vl",
+      "name": "Ling 3.0 Flash VL",
+      "providerId": "openrouter",
+      "updated": "2026-09-10"
     },
     {
       "flags": {
@@ -86836,7 +87001,7 @@
       "doc": "https://kilo.ai",
       "iconURL": "https://models.dev/logos/kilo.svg",
       "id": "kilo",
-      "modelCount": 370,
+      "modelCount": 375,
       "name": "Kilo Gateway"
     },
     {
@@ -86893,7 +87058,7 @@
       "doc": "https://llmgateway.io/docs",
       "iconURL": "https://models.dev/logos/llmgateway.svg",
       "id": "llmgateway",
-      "modelCount": 186,
+      "modelCount": 188,
       "name": "DevPass (LLM Gateway)"
     },
     {
@@ -86901,7 +87066,7 @@
       "doc": "https://llmgateway.io/docs",
       "iconURL": "https://models.dev/logos/llmgateway-providers.svg",
       "id": "llmgateway-providers",
-      "modelCount": 375,
+      "modelCount": 377,
       "name": "LLM Gateway"
     },
     {
@@ -87113,7 +87278,7 @@
       "doc": "https://docs.nano-gpt.com",
       "iconURL": "https://models.dev/logos/nano-gpt.svg",
       "id": "nano-gpt",
-      "modelCount": 589,
+      "modelCount": 590,
       "name": "NanoGPT"
     },
     {
@@ -87235,7 +87400,7 @@
       "iconURL": "https://models.dev/logos/openrouter.svg",
       "id": "openrouter",
       "lobeIcon": "OpenRouter.Color",
-      "modelCount": 361,
+      "modelCount": 366,
       "name": "OpenRouter"
     },
     {
