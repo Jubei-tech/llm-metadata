@@ -1988,9 +1988,9 @@
     "deepseek/deepseek-v4-flash": {
       "attachment": false,
       "cost": {
-        "cache_read": 0.01736,
-        "input": 0.0868,
-        "output": 0.1736
+        "cache_read": 0.01708,
+        "input": 0.0854,
+        "output": 0.1708
       },
       "description": "Fast DeepSeek V4 lane for economical reasoning, coding, and long-context work",
       "family": "deepseek-flash",
@@ -2125,9 +2125,9 @@
     "deepseek/deepseek-v4-pro": {
       "attachment": false,
       "cost": {
-        "cache_read": 0.078982,
-        "input": 0.947778,
-        "output": 1.895556
+        "cache_read": 0.071659,
+        "input": 0.859908,
+        "output": 1.719816
       },
       "description": "Open MoE flagship with million-token context for coding and long agent runs",
       "family": "deepseek-thinking",
@@ -5969,9 +5969,9 @@
     "moonshotai/kimi-k3": {
       "attachment": true,
       "cost": {
-        "cache_read": 0.261,
-        "input": 2.34,
-        "output": 11.7
+        "cache_read": 0.235,
+        "input": 2.1,
+        "output": 10.53
       },
       "description": "Kimi multimodal agent model for visual understanding, coding, and planning",
       "family": "kimi-k3",
@@ -12403,9 +12403,9 @@
     "tencent/hy3": {
       "attachment": false,
       "cost": {
-        "cache_read": 0.033,
-        "input": 0.132,
-        "output": 0.528
+        "cache_read": 0.020625,
+        "input": 0.0825,
+        "output": 0.33
       },
       "description": "Tencent Hy reasoning model for coding, instruction following, and agent tasks",
       "family": "Hy",
@@ -13746,9 +13746,9 @@
     "z-ai/glm-5.2": {
       "attachment": false,
       "cost": {
-        "cache_read": 0.1932,
-        "input": 0.966,
-        "output": 3.036
+        "cache_read": 0.15,
+        "input": 0.6,
+        "output": 2
       },
       "description": "Open flagship GLM for long-horizon coding agents and million-token context work",
       "family": "glm",
@@ -13759,7 +13759,7 @@
       "last_updated": "2026-06-13",
       "limit": {
         "context": 1048576,
-        "output": 131072
+        "output": 182476
       },
       "modalities": {
         "input": [
@@ -14254,9 +14254,9 @@
     "~moonshotai/kimi-latest": {
       "attachment": true,
       "cost": {
-        "cache_read": 0.261,
-        "input": 2.34,
-        "output": 11.7
+        "cache_read": 0.235,
+        "input": 2.1,
+        "output": 10.53
       },
       "description": "Kimi multimodal agent model for visual understanding, coding, and planning",
       "family": "kimi",
@@ -14357,72 +14357,6 @@
         }
       ],
       "release_date": "2026-09-11",
-      "structured_output": true,
-      "temperature": false,
-      "tool_call": true
-    },
-    "~openai/gpt-latest": {
-      "attachment": true,
-      "cost": {
-        "cache_read": 0.2,
-        "cache_write": 2.5,
-        "context_over_200k": {
-          "cache_read": 0.4,
-          "cache_write": 5,
-          "input": 4,
-          "output": 15
-        },
-        "input": 2,
-        "output": 10,
-        "tiers": [
-          {
-            "cache_read": 0.4,
-            "cache_write": 5,
-            "input": 4,
-            "output": 15,
-            "tier": {
-              "size": 272000,
-              "type": "context"
-            }
-          }
-        ]
-      },
-      "description": "GPT model for general reasoning, writing, coding, and tool-assisted tasks",
-      "family": "gpt",
-      "id": "~openai/gpt-latest",
-      "knowledge": "2026-02-16",
-      "last_updated": "2026-04-27",
-      "limit": {
-        "context": 1050000,
-        "output": 128000
-      },
-      "modalities": {
-        "input": [
-          "pdf",
-          "image",
-          "text"
-        ],
-        "output": [
-          "text"
-        ]
-      },
-      "name": "OpenAI GPT Latest",
-      "open_weights": false,
-      "reasoning": true,
-      "reasoning_options": [
-        {
-          "type": "effort",
-          "values": [
-            "none",
-            "low",
-            "medium",
-            "high",
-            "xhigh",
-            "max"
-          ]
-        }
-      ],
-      "release_date": "2026-04-27",
       "structured_output": true,
       "temperature": false,
       "tool_call": true
@@ -14777,9 +14711,9 @@
     "~z-ai/glm-latest": {
       "attachment": false,
       "cost": {
-        "cache_read": 0.13,
-        "input": 0.7,
-        "output": 2.2
+        "cache_read": 0.1639,
+        "input": 0.8727,
+        "output": 3.36
       },
       "description": "Flagship GLM model for hybrid reasoning, coding, and agentic engineering",
       "family": "glm",
@@ -14787,7 +14721,7 @@
       "last_updated": "2026-08-19",
       "limit": {
         "context": 1310720,
-        "output": 128000
+        "output": 943718
       },
       "modalities": {
         "input": [
