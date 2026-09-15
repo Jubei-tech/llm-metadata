@@ -1609,6 +1609,14 @@
       "name": "Vercel AI Gateway"
     },
     {
+      "api": "https://api.lab.vispark.in/v1",
+      "doc": "https://lab.vispark.in/#vision",
+      "iconURL": "https://models.dev/logos/vispark.svg",
+      "id": "vispark",
+      "modelCount": 3,
+      "name": "Vispark"
+    },
+    {
       "api": "https://api.vivgrid.com/v1",
       "doc": "https://docs.vivgrid.com/models",
       "iconURL": "https://models.dev/logos/vivgrid.svg",

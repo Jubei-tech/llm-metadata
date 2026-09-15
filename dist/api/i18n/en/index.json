@@ -19731,7 +19731,7 @@
     },
     {
       "flags": {
-        "attachment": false,
+        "attachment": true,
         "reasoning": true,
         "tool_call": true
       },
@@ -23361,7 +23361,7 @@
     },
     {
       "flags": {
-        "attachment": true,
+        "attachment": false,
         "reasoning": true,
         "tool_call": true
       },
@@ -23438,7 +23438,7 @@
     },
     {
       "flags": {
-        "attachment": false,
+        "attachment": true,
         "reasoning": true,
         "tool_call": true
       },
@@ -83755,6 +83755,39 @@
         "reasoning": true,
         "tool_call": true
       },
+      "id": "vispark/vision-large",
+      "name": "Vision Large",
+      "providerId": "vispark",
+      "updated": "2026-09"
+    },
+    {
+      "flags": {
+        "attachment": true,
+        "reasoning": true,
+        "tool_call": true
+      },
+      "id": "vispark/vision-medium",
+      "name": "Vision Medium",
+      "providerId": "vispark",
+      "updated": "2026-09"
+    },
+    {
+      "flags": {
+        "attachment": true,
+        "reasoning": true,
+        "tool_call": true
+      },
+      "id": "vispark/vision-small",
+      "name": "Vision Small",
+      "providerId": "vispark",
+      "updated": "2026-09"
+    },
+    {
+      "flags": {
+        "attachment": true,
+        "reasoning": true,
+        "tool_call": true
+      },
       "id": "claude-fable-5",
       "name": "Claude Fable 5",
       "providerId": "vivgrid",
@@ -88900,6 +88933,14 @@
       "lobeIcon": "Vercel.Color",
       "modelCount": 376,
       "name": "Vercel AI Gateway"
+    },
+    {
+      "api": "https://api.lab.vispark.in/v1",
+      "doc": "https://lab.vispark.in/#vision",
+      "iconURL": "https://models.dev/logos/vispark.svg",
+      "id": "vispark",
+      "modelCount": 3,
+      "name": "Vispark"
     },
     {
       "api": "https://api.vivgrid.com/v1",

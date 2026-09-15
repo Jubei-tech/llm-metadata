@@ -2001,6 +2001,16 @@
       "status": 1
     },
     {
+      "api": "https://api.lab.vispark.in/v1",
+      "description": "",
+      "doc": "https://lab.vispark.in/#vision",
+      "icon": "https://models.dev/logos/vispark.svg",
+      "id": "vispark",
+      "modelCount": 3,
+      "name": "Vispark",
+      "status": 1
+    },
+    {
       "api": "https://api.vivgrid.com/v1",
       "description": "",
       "doc": "https://docs.vivgrid.com/models",
