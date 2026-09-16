@@ -2035,9 +2035,9 @@
     "deepseek/deepseek-v4-flash-0731": {
       "attachment": false,
       "cost": {
-        "cache_read": 0.011,
-        "input": 0.055,
-        "output": 0.11
+        "cache_read": 0.012,
+        "input": 0.06,
+        "output": 0.12
       },
       "description": "Official DeepSeek V4 Flash release with enhanced agentic capabilities and integrated DSpark speculative decoding",
       "family": "deepseek-flash",
@@ -13849,7 +13849,7 @@
         "output": 0.3333
       },
       "description": "GLM vision model for visual reasoning, documents, and multimodal agents",
-      "family": "glm",
+      "family": "glm-flash",
       "id": "z-ai/glm-5.3-flash",
       "last_updated": "2026-08-26",
       "limit": {
@@ -14354,9 +14354,9 @@
     "~moonshotai/kimi-latest": {
       "attachment": true,
       "cost": {
-        "cache_read": 0.23,
-        "input": 2.1,
-        "output": 10.95
+        "cache_read": 0.2059,
+        "input": 1.775,
+        "output": 9.94
       },
       "description": "Kimi multimodal agent model for visual understanding, coding, and planning",
       "family": "kimi",
