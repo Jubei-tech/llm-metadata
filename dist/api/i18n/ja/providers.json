@@ -774,7 +774,7 @@
       "doc": "https://kilo.ai",
       "iconURL": "https://models.dev/logos/kilo.svg",
       "id": "kilo",
-      "modelCount": 378,
+      "modelCount": 379,
       "name": "Kilo Gateway"
     },
     {
@@ -1197,7 +1197,7 @@
       "iconURL": "https://models.dev/logos/openrouter.svg",
       "id": "openrouter",
       "lobeIcon": "OpenRouter.Color",
-      "modelCount": 370,
+      "modelCount": 371,
       "name": "OpenRouter"
     },
     {
@@ -1645,7 +1645,7 @@
       "iconURL": "https://models.dev/logos/vercel.svg",
       "id": "vercel",
       "lobeIcon": "Vercel.Color",
-      "modelCount": 375,
+      "modelCount": 376,
       "name": "Vercel AI Gateway"
     },
     {
