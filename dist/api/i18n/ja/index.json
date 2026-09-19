@@ -50546,17 +50546,6 @@
         "reasoning": false,
         "tool_call": false
       },
-      "id": "mistralai/mistral-large-3-675b-instruct-2512",
-      "name": "Mistral Large 3 675B",
-      "providerId": "nano-gpt",
-      "updated": "2025-12-02"
-    },
-    {
-      "flags": {
-        "attachment": true,
-        "reasoning": false,
-        "tool_call": false
-      },
       "id": "mistralai/mistral-medium-3",
       "name": "Mistral Medium 3",
       "providerId": "nano-gpt",
@@ -51705,6 +51694,17 @@
       "name": "Laguna S 2.1 Thinking",
       "providerId": "nano-gpt",
       "updated": "2026-07-21"
+    },
+    {
+      "flags": {
+        "attachment": true,
+        "reasoning": true,
+        "tool_call": true
+      },
+      "id": "prism-ml/ternary-bonsai-2-27b",
+      "name": "Ternary Bonsai 2 27B",
+      "providerId": "nano-gpt",
+      "updated": "2026-09-18"
     },
     {
       "flags": {
@@ -81357,30 +81357,8 @@
         "reasoning": false,
         "tool_call": false
       },
-      "id": "fish-audio/s1-free",
-      "name": "S1 (Free)",
-      "providerId": "vercel",
-      "updated": "2025-10-20"
-    },
-    {
-      "flags": {
-        "attachment": false,
-        "reasoning": false,
-        "tool_call": false
-      },
       "id": "fish-audio/s2-pro",
       "name": "S2 Pro",
-      "providerId": "vercel",
-      "updated": "2026-03-09"
-    },
-    {
-      "flags": {
-        "attachment": false,
-        "reasoning": false,
-        "tool_call": false
-      },
-      "id": "fish-audio/s2-pro-free",
-      "name": "S2 Pro (Free)",
       "providerId": "vercel",
       "updated": "2026-03-09"
     },
@@ -81401,30 +81379,8 @@
         "reasoning": false,
         "tool_call": false
       },
-      "id": "fish-audio/s2.1-pro-free",
-      "name": "S2.1 Pro (Free)",
-      "providerId": "vercel",
-      "updated": "2026-07-28"
-    },
-    {
-      "flags": {
-        "attachment": false,
-        "reasoning": false,
-        "tool_call": false
-      },
       "id": "fish-audio/transcribe-1",
       "name": "Transcribe-1",
-      "providerId": "vercel",
-      "updated": "2026-03-01"
-    },
-    {
-      "flags": {
-        "attachment": false,
-        "reasoning": false,
-        "tool_call": false
-      },
-      "id": "fish-audio/transcribe-1-free",
-      "name": "Transcribe-1 (Free)",
       "providerId": "vercel",
       "updated": "2026-03-01"
     },
@@ -89477,7 +89433,7 @@
       "iconURL": "https://models.dev/logos/vercel.svg",
       "id": "vercel",
       "lobeIcon": "Vercel.Color",
-      "modelCount": 376,
+      "modelCount": 372,
       "name": "Vercel AI Gateway"
     },
     {
