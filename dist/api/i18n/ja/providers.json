@@ -482,7 +482,7 @@
       "doc": "https://docs.empiriolabs.ai",
       "iconURL": "https://models.dev/logos/empiriolabs.svg",
       "id": "empiriolabs",
-      "modelCount": 63,
+      "modelCount": 65,
       "name": "EmpirioLabs AI"
     },
     {
@@ -774,7 +774,7 @@
       "doc": "https://kilo.ai",
       "iconURL": "https://models.dev/logos/kilo.svg",
       "id": "kilo",
-      "modelCount": 380,
+      "modelCount": 381,
       "name": "Kilo Gateway"
     },
     {
@@ -1067,7 +1067,7 @@
       "doc": "https://docs.nano-gpt.com",
       "iconURL": "https://models.dev/logos/nano-gpt.svg",
       "id": "nano-gpt",
-      "modelCount": 576,
+      "modelCount": 577,
       "name": "NanoGPT"
     },
     {

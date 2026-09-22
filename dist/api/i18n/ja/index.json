@@ -22492,6 +22492,28 @@
     },
     {
       "flags": {
+        "attachment": true,
+        "reasoning": true,
+        "tool_call": true
+      },
+      "id": "mimo-v2-6-flash",
+      "name": "MiMo V2.6 Flash",
+      "providerId": "empiriolabs",
+      "updated": "2026-09-22"
+    },
+    {
+      "flags": {
+        "attachment": true,
+        "reasoning": true,
+        "tool_call": true
+      },
+      "id": "mimo-v2-6-pro",
+      "name": "MiMo V2.6 Pro",
+      "providerId": "empiriolabs",
+      "updated": "2026-09-22"
+    },
+    {
+      "flags": {
         "attachment": false,
         "reasoning": true,
         "tool_call": true
@@ -36514,6 +36536,17 @@
       "name": "MiMo-V2.6-Pro",
       "providerId": "kilo",
       "updated": "2026-09-22"
+    },
+    {
+      "flags": {
+        "attachment": true,
+        "reasoning": true,
+        "tool_call": true
+      },
+      "id": "xiaomi/mimo-v2.6-pro-ultraspeed",
+      "name": "Xiaomi: MiMo-V2.6-Pro-UltraSpeed",
+      "providerId": "kilo",
+      "updated": "2026-09-21"
     },
     {
       "flags": {
@@ -53740,6 +53773,17 @@
       "name": "Grok 4.6",
       "providerId": "nano-gpt",
       "updated": "2026-08-12"
+    },
+    {
+      "flags": {
+        "attachment": true,
+        "reasoning": true,
+        "tool_call": true
+      },
+      "id": "x-ai/grok-4.7",
+      "name": "Grok 4.7",
+      "providerId": "nano-gpt",
+      "updated": "2026-09-21"
     },
     {
       "flags": {
@@ -89370,7 +89414,7 @@
       "doc": "https://docs.empiriolabs.ai",
       "iconURL": "https://models.dev/logos/empiriolabs.svg",
       "id": "empiriolabs",
-      "modelCount": 63,
+      "modelCount": 65,
       "name": "EmpirioLabs AI"
     },
     {
@@ -89662,7 +89706,7 @@
       "doc": "https://kilo.ai",
       "iconURL": "https://models.dev/logos/kilo.svg",
       "id": "kilo",
-      "modelCount": 380,
+      "modelCount": 381,
       "name": "Kilo Gateway"
     },
     {
@@ -89955,7 +89999,7 @@
       "doc": "https://docs.nano-gpt.com",
       "iconURL": "https://models.dev/logos/nano-gpt.svg",
       "id": "nano-gpt",
-      "modelCount": 576,
+      "modelCount": 577,
       "name": "NanoGPT"
     },
     {
