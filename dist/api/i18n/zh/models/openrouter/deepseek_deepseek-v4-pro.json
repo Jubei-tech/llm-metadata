@@ -1,9 +1,9 @@
 {
   "attachment": false,
   "cost": {
-    "cache_read": 0.03322,
-    "input": 0.398634,
-    "output": 0.797268
+    "cache_read": 0.029,
+    "input": 0.348,
+    "output": 0.696
   },
   "description": "Open MoE flagship with million-token context for coding and long agent runs",
   "family": "deepseek-thinking",
