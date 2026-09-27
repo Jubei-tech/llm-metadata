@@ -1,9 +1,9 @@
 {
   "attachment": false,
   "cost": {
-    "cache_read": 0.007938,
-    "input": 0.24948,
-    "output": 0.74844
+    "cache_read": 0.007812,
+    "input": 0.24552,
+    "output": 0.73656
   },
   "description": "This model always redirects to the latest model in the DeepSeek Pro family.",
   "family": "deepseek",
