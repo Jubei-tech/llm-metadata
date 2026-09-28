@@ -36159,7 +36159,7 @@
         "tool_call": true
       },
       "id": "qwen/qwen3-14b",
-      "name": "Qwen: Qwen3 14B",
+      "name": "Qwen: Qwen3 14B (retires Oct 9)",
       "providerId": "kilo",
       "updated": "2025-04-28"
     },
