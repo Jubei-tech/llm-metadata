@@ -1,5 +1,6 @@
 {
   "attachment": false,
+  "canonical_model_id": "nvidia/nemotron-3-content-safety",
   "cost": {
     "input": 0,
     "output": 0
@@ -24,6 +25,7 @@
   "open_weights": true,
   "reasoning": false,
   "release_date": "2026-04-16",
+  "status": "deprecated",
   "temperature": false,
   "tool_call": false
 }

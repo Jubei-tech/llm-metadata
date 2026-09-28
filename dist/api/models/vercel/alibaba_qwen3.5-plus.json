@@ -1,5 +1,6 @@
 {
   "attachment": true,
+  "canonical_model_id": "alibaba/qwen3.5-plus",
   "cost": {
     "cache_read": 0.04,
     "cache_write": 0.5,
@@ -10,7 +11,7 @@
       "output": 3
     },
     "input": 0.4,
-    "output": 2.5,
+    "output": 2.4,
     "tiers": [
       {
         "cache_read": 0.05,

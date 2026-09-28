@@ -1,5 +1,6 @@
 {
   "attachment": false,
+  "canonical_model_id": "nvidia/nemotron-nano-9b-v2",
   "cost": {
     "input": 0,
     "output": 0
@@ -30,6 +31,7 @@
     }
   ],
   "release_date": "2025-08-18",
+  "status": "deprecated",
   "temperature": true,
   "tool_call": true
 }

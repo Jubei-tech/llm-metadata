@@ -195,6 +195,12 @@
     {
       "description": "",
       "icon": "",
+      "name": "Bee by HEOSSI",
+      "status": 1
+    },
+    {
+      "description": "",
+      "icon": "",
       "name": "Berget.AI",
       "status": 1
     },
@@ -910,6 +916,12 @@
       "description": "",
       "icon": "",
       "name": "OVHcloud AI Endpoints",
+      "status": 1
+    },
+    {
+      "description": "",
+      "icon": "",
+      "name": "Pareto Inference",
       "status": 1
     },
     {

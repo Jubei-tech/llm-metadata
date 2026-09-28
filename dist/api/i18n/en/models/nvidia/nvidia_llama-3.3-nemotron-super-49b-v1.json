@@ -1,5 +1,6 @@
 {
   "attachment": false,
+  "canonical_model_id": "nvidia/llama-3.3-nemotron-super-49b-v1",
   "cost": {
     "input": 0,
     "output": 0
@@ -29,6 +30,7 @@
     }
   ],
   "release_date": "2025-04-07",
+  "status": "deprecated",
   "temperature": true,
   "tool_call": true
 }

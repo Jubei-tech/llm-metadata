@@ -1,5 +1,6 @@
 {
   "attachment": true,
+  "canonical_model_id": "thinkingmachines/inkling",
   "cost": {
     "input": 0,
     "output": 0
@@ -27,6 +28,7 @@
   "reasoning": true,
   "reasoning_options": [],
   "release_date": "2026-07-15",
+  "status": "deprecated",
   "temperature": true,
   "tool_call": true
 }

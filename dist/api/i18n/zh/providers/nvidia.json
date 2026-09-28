@@ -32,6 +32,7 @@
       "open_weights": true,
       "reasoning": false,
       "release_date": "2024-09-11",
+      "status": "deprecated",
       "temperature": true,
       "tool_call": true
     },
@@ -211,12 +212,14 @@
       "open_weights": false,
       "reasoning": false,
       "release_date": "2025-09-04",
+      "status": "deprecated",
       "structured_output": true,
       "temperature": true,
       "tool_call": true
     },
     "deepseek-ai/deepseek-v4-flash": {
       "attachment": false,
+      "canonical_model_id": "deepseek/deepseek-v4-flash",
       "cost": {
         "cache_read": 0.0028,
         "input": 0.14,
@@ -256,12 +259,14 @@
         }
       ],
       "release_date": "2026-04-24",
+      "status": "deprecated",
       "structured_output": true,
       "temperature": true,
       "tool_call": true
     },
     "deepseek-ai/deepseek-v4-flash-0731": {
       "attachment": false,
+      "canonical_model_id": "deepseek/deepseek-v4-flash-0731",
       "cost": {
         "input": 0,
         "output": 0
@@ -300,12 +305,14 @@
         }
       ],
       "release_date": "2026-07-31",
+      "status": "deprecated",
       "structured_output": true,
       "temperature": true,
       "tool_call": true
     },
     "deepseek-ai/deepseek-v4-pro": {
       "attachment": false,
+      "canonical_model_id": "deepseek/deepseek-v4-pro",
       "cost": {
         "cache_read": 0.003625,
         "input": 0.435,
@@ -345,12 +352,14 @@
         }
       ],
       "release_date": "2026-04-24",
+      "status": "deprecated",
       "structured_output": true,
       "temperature": true,
       "tool_call": true
     },
     "deepseek-ai/deepseek-v4-pro-0813": {
       "attachment": false,
+      "canonical_model_id": "deepseek/deepseek-v4-pro-0813",
       "cost": {
         "input": 0,
         "output": 0
@@ -388,6 +397,7 @@
         }
       ],
       "release_date": "2026-08-12",
+      "status": "deprecated",
       "structured_output": true,
       "temperature": true,
       "tool_call": true
@@ -417,6 +427,7 @@
       "open_weights": true,
       "reasoning": false,
       "release_date": "2024-07-16",
+      "status": "deprecated",
       "structured_output": true,
       "temperature": true,
       "tool_call": true
@@ -508,6 +519,7 @@
       "open_weights": true,
       "reasoning": false,
       "release_date": "2025-06-12",
+      "status": "deprecated",
       "structured_output": true,
       "temperature": true,
       "tool_call": true
@@ -539,6 +551,7 @@
       "open_weights": true,
       "reasoning": false,
       "release_date": "2025-06-03",
+      "status": "deprecated",
       "structured_output": true,
       "temperature": true,
       "tool_call": true
@@ -690,6 +703,7 @@
       "open_weights": true,
       "reasoning": false,
       "release_date": "2024-07-16",
+      "status": "deprecated",
       "structured_output": true,
       "temperature": true,
       "tool_call": true
@@ -721,6 +735,7 @@
       "open_weights": true,
       "reasoning": false,
       "release_date": "2025-01-01",
+      "status": "deprecated",
       "temperature": true,
       "tool_call": true
     },
@@ -781,6 +796,7 @@
       "open_weights": true,
       "reasoning": false,
       "release_date": "2024-09-18",
+      "status": "deprecated",
       "structured_output": true,
       "temperature": true,
       "tool_call": true
@@ -811,6 +827,7 @@
       "open_weights": true,
       "reasoning": false,
       "release_date": "2024-09-18",
+      "status": "deprecated",
       "structured_output": true,
       "temperature": true,
       "tool_call": false
@@ -871,6 +888,7 @@
       "open_weights": true,
       "reasoning": false,
       "release_date": "2024-11-26",
+      "status": "deprecated",
       "structured_output": true,
       "temperature": true,
       "tool_call": true
@@ -902,6 +920,7 @@
       "open_weights": true,
       "reasoning": false,
       "release_date": "2025-04-01",
+      "status": "deprecated",
       "structured_output": true,
       "temperature": true,
       "tool_call": true
@@ -938,6 +957,7 @@
     },
     "meta/muse-glimmer-30b": {
       "attachment": true,
+      "canonical_model_id": "meta/muse-glimmer-30b",
       "cost": {
         "input": 0,
         "output": 0
@@ -1011,6 +1031,7 @@
       "open_weights": true,
       "reasoning": false,
       "release_date": "2024-12-01",
+      "status": "deprecated",
       "temperature": true,
       "tool_call": true
     },
@@ -1040,6 +1061,7 @@
       "open_weights": false,
       "reasoning": false,
       "release_date": "2025-07-26",
+      "status": "deprecated",
       "structured_output": false,
       "tool_call": false
     },
@@ -1070,11 +1092,13 @@
       "reasoning": true,
       "reasoning_options": [],
       "release_date": "2026-03-18",
+      "status": "deprecated",
       "temperature": true,
       "tool_call": true
     },
     "minimaxai/minimax-m3": {
       "attachment": true,
+      "canonical_model_id": "minimax/MiniMax-M3",
       "cost": {
         "input": 0,
         "output": 0
@@ -1106,6 +1130,7 @@
         }
       ],
       "release_date": "2026-06-01",
+      "status": "deprecated",
       "temperature": true,
       "tool_call": true
     },
@@ -1165,6 +1190,7 @@
       "open_weights": true,
       "reasoning": false,
       "release_date": "2025-12-02",
+      "status": "deprecated",
       "temperature": true,
       "tool_call": true
     },
@@ -1225,6 +1251,7 @@
       "open_weights": true,
       "reasoning": false,
       "release_date": "2025-12-02",
+      "status": "deprecated",
       "structured_output": true,
       "temperature": true,
       "tool_call": true
@@ -1262,6 +1289,7 @@
     },
     "mistralai/mistral-medium-3.5-128b": {
       "attachment": true,
+      "canonical_model_id": "mistral/mistral-medium-2604",
       "cost": {
         "input": 0,
         "output": 0
@@ -1296,12 +1324,14 @@
         }
       ],
       "release_date": "2026-04-29",
+      "status": "deprecated",
       "structured_output": true,
       "temperature": true,
       "tool_call": true
     },
     "mistralai/mistral-nemotron": {
       "attachment": false,
+      "canonical_model_id": "nvidia/mistral-nemotron",
       "cost": {
         "input": 0,
         "output": 0
@@ -1364,6 +1394,7 @@
         }
       ],
       "release_date": "2026-03-16",
+      "status": "deprecated",
       "structured_output": true,
       "temperature": true,
       "tool_call": true
@@ -1508,6 +1539,7 @@
     },
     "moonshotai/kimi-k3": {
       "attachment": true,
+      "canonical_model_id": "moonshotai/kimi-k3",
       "cost": {
         "input": 0,
         "output": 0
@@ -1756,11 +1788,13 @@
       "open_weights": true,
       "reasoning": false,
       "release_date": "2026-03-03",
+      "status": "deprecated",
       "temperature": true,
       "tool_call": false
     },
     "nvidia/llama-3.1-nemotron-70b-instruct": {
       "attachment": false,
+      "canonical_model_id": "nvidia/llama-3.1-nemotron-70b-instruct",
       "cost": {
         "input": 0,
         "output": 0
@@ -1819,6 +1853,7 @@
         }
       ],
       "release_date": "2025-03-18",
+      "status": "deprecated",
       "temperature": true,
       "tool_call": true
     },
@@ -1850,11 +1885,13 @@
       "reasoning": true,
       "reasoning_options": [],
       "release_date": "2025-04-10",
+      "status": "deprecated",
       "temperature": true,
       "tool_call": true
     },
     "nvidia/llama-3.1-nemotron-safety-guard-8b-v3": {
       "attachment": false,
+      "canonical_model_id": "nvidia/llama-3.1-nemotron-safety-guard-8b-v3",
       "cost": {
         "input": 0,
         "output": 0
@@ -1884,6 +1921,7 @@
     },
     "nvidia/llama-3.1-nemotron-ultra-253b-v1": {
       "attachment": false,
+      "canonical_model_id": "nvidia/llama-3.1-nemotron-ultra-253b",
       "cost": {
         "input": 0,
         "output": 0
@@ -1918,6 +1956,7 @@
     },
     "nvidia/llama-3.3-nemotron-super-49b-v1": {
       "attachment": false,
+      "canonical_model_id": "nvidia/llama-3.3-nemotron-super-49b-v1",
       "cost": {
         "input": 0,
         "output": 0
@@ -1947,11 +1986,13 @@
         }
       ],
       "release_date": "2025-04-07",
+      "status": "deprecated",
       "temperature": true,
       "tool_call": true
     },
     "nvidia/llama-3.3-nemotron-super-49b-v1.5": {
       "attachment": false,
+      "canonical_model_id": "nvidia/llama-3.3-nemotron-super-49b-v1.5",
       "cost": {
         "input": 0,
         "output": 0
@@ -1981,6 +2022,7 @@
         }
       ],
       "release_date": "2025-07-25",
+      "status": "deprecated",
       "temperature": true,
       "tool_call": true
     },
@@ -2014,6 +2056,7 @@
     },
     "nvidia/llama-nemotron-embed-vl-1b-v2": {
       "attachment": true,
+      "canonical_model_id": "nvidia/llama-nemotron-embed-vl-1b-v2",
       "cost": {
         "input": 0,
         "output": 0
@@ -2044,6 +2087,7 @@
     },
     "nvidia/llama-nemotron-rerank-vl-1b-v2": {
       "attachment": true,
+      "canonical_model_id": "nvidia/llama-nemotron-rerank-vl-1b-v2",
       "cost": {
         "input": 0,
         "output": 0
@@ -2103,6 +2147,7 @@
     },
     "nvidia/nemotron-3-content-safety": {
       "attachment": false,
+      "canonical_model_id": "nvidia/nemotron-3-content-safety",
       "cost": {
         "input": 0,
         "output": 0
@@ -2127,11 +2172,13 @@
       "open_weights": true,
       "reasoning": false,
       "release_date": "2026-04-16",
+      "status": "deprecated",
       "temperature": false,
       "tool_call": false
     },
     "nvidia/nemotron-3-nano-30b-a3b": {
       "attachment": false,
+      "canonical_model_id": "nvidia/nemotron-3-nano-30b-a3b",
       "cost": {
         "input": 0,
         "output": 0
@@ -2162,11 +2209,13 @@
         }
       ],
       "release_date": "2024-12",
+      "status": "deprecated",
       "temperature": true,
       "tool_call": true
     },
     "nvidia/nemotron-3-nano-omni-30b-a3b-reasoning": {
       "attachment": true,
+      "canonical_model_id": "nvidia/nemotron-3-nano-omni-30b-a3b-reasoning",
       "cost": {
         "input": 0,
         "output": 0
@@ -2210,6 +2259,7 @@
     },
     "nvidia/nemotron-3-super-120b-a12b": {
       "attachment": false,
+      "canonical_model_id": "nvidia/nemotron-3-super-120b-a12b",
       "cost": {
         "input": 0.2,
         "output": 0.8
@@ -2245,6 +2295,7 @@
     },
     "nvidia/nemotron-3-ultra-550b-a55b": {
       "attachment": false,
+      "canonical_model_id": "nvidia/nemotron-3-ultra-550b-a55b",
       "cost": {
         "cache_read": 0.15,
         "input": 0.5,
@@ -2281,6 +2332,7 @@
     },
     "nvidia/nemotron-3.5-lightning-30b-a3b": {
       "attachment": false,
+      "canonical_model_id": "nvidia/nemotron-3.5-lightning",
       "cost": {
         "input": 0,
         "output": 0
@@ -2316,6 +2368,7 @@
     },
     "nvidia/nemotron-content-safety-reasoning-4b": {
       "attachment": false,
+      "canonical_model_id": "nvidia/nemotron-content-safety-reasoning-4b",
       "cost": {
         "input": 0,
         "output": 0
@@ -2341,11 +2394,13 @@
       "reasoning": true,
       "reasoning_options": [],
       "release_date": "2026-01-22",
+      "status": "deprecated",
       "temperature": false,
       "tool_call": false
     },
     "nvidia/nemotron-mini-4b-instruct": {
       "attachment": false,
+      "canonical_model_id": "nvidia/nemotron-mini-4b-instruct",
       "cost": {
         "input": 0,
         "output": 0
@@ -2370,11 +2425,13 @@
       "open_weights": true,
       "reasoning": false,
       "release_date": "2024-08-21",
+      "status": "deprecated",
       "temperature": true,
       "tool_call": true
     },
     "nvidia/nemotron-nano-12b-v2-vl": {
       "attachment": true,
+      "canonical_model_id": "nvidia/nemotron-nano-12b-v2-vl",
       "cost": {
         "input": 0,
         "output": 0
@@ -2402,11 +2459,13 @@
       "reasoning": true,
       "reasoning_options": [],
       "release_date": "2025-10-28",
+      "status": "deprecated",
       "temperature": true,
       "tool_call": true
     },
     "nvidia/nemotron-voicechat": {
       "attachment": true,
+      "canonical_model_id": "nvidia/nemotron-voicechat",
       "cost": {
         "input": 0,
         "output": 0
@@ -2493,6 +2552,7 @@
     },
     "nvidia/nvidia-nemotron-nano-9b-v2": {
       "attachment": false,
+      "canonical_model_id": "nvidia/nemotron-nano-9b-v2",
       "cost": {
         "input": 0,
         "output": 0
@@ -2523,6 +2583,7 @@
         }
       ],
       "release_date": "2025-08-18",
+      "status": "deprecated",
       "temperature": true,
       "tool_call": true
     },
@@ -2752,6 +2813,7 @@
     },
     "openai/gpt-oss-120b": {
       "attachment": false,
+      "canonical_model_id": "openai/gpt-oss-120b",
       "cost": {
         "input": 0,
         "output": 0
@@ -2787,6 +2849,7 @@
         }
       ],
       "release_date": "2025-08-04",
+      "status": "deprecated",
       "structured_output": true,
       "temperature": true,
       "tool_call": true
@@ -2863,6 +2926,7 @@
     },
     "poolside/laguna-xs-2.1": {
       "attachment": false,
+      "canonical_model_id": "poolside/laguna-xs-2.1",
       "cost": {
         "input": 0,
         "output": 0
@@ -2979,6 +3043,7 @@
       "open_weights": true,
       "reasoning": false,
       "release_date": "2024-11-06",
+      "status": "deprecated",
       "structured_output": true,
       "temperature": true,
       "tool_call": true
@@ -3010,6 +3075,7 @@
       "open_weights": false,
       "reasoning": false,
       "release_date": "2025-07-23",
+      "status": "deprecated",
       "temperature": true,
       "tool_call": true
     },
@@ -3040,6 +3106,7 @@
       "open_weights": false,
       "reasoning": false,
       "release_date": "2024-12-01",
+      "status": "deprecated",
       "temperature": true,
       "tool_call": true
     },
@@ -3077,6 +3144,7 @@
         }
       ],
       "release_date": "2026-02-23",
+      "status": "deprecated",
       "structured_output": true,
       "temperature": true,
       "tool_call": true
@@ -3114,6 +3182,7 @@
         }
       ],
       "release_date": "2026-02-16",
+      "status": "deprecated",
       "structured_output": true,
       "temperature": true,
       "tool_call": true
@@ -3143,6 +3212,7 @@
       "open_weights": true,
       "reasoning": false,
       "release_date": "2025-07-25",
+      "status": "deprecated",
       "temperature": true,
       "tool_call": true
     },
@@ -3181,6 +3251,7 @@
         }
       ],
       "release_date": "2026-02-02",
+      "status": "deprecated",
       "temperature": true,
       "tool_call": true
     },
@@ -3223,11 +3294,13 @@
         }
       ],
       "release_date": "2026-05-28",
+      "status": "deprecated",
       "temperature": true,
       "tool_call": true
     },
     "thinkingmachines/inkling": {
       "attachment": true,
+      "canonical_model_id": "thinkingmachines/inkling",
       "cost": {
         "input": 0,
         "output": 0
@@ -3255,6 +3328,7 @@
       "reasoning": true,
       "reasoning_options": [],
       "release_date": "2026-07-15",
+      "status": "deprecated",
       "temperature": true,
       "tool_call": true
     },
@@ -3283,11 +3357,13 @@
       "open_weights": true,
       "reasoning": false,
       "release_date": "2024-06-05",
+      "status": "deprecated",
       "temperature": true,
       "tool_call": true
     },
     "z-ai/glm-5.2": {
       "attachment": false,
+      "canonical_model_id": "zhipuai/glm-5.2",
       "cost": {
         "input": 0,
         "output": 0
@@ -3320,12 +3396,14 @@
         }
       ],
       "release_date": "2026-06-13",
+      "status": "deprecated",
       "structured_output": true,
       "temperature": true,
       "tool_call": true
     },
     "z-ai/glm-5.3": {
       "attachment": false,
+      "canonical_model_id": "zhipuai/glm-5.3",
       "cost": {
         "input": 0,
         "output": 0
@@ -3369,6 +3447,7 @@
     },
     "z-ai/glm-5.3-flash": {
       "attachment": true,
+      "canonical_model_id": "zhipuai/glm-5.3-flash",
       "cost": {
         "input": 0,
         "output": 0

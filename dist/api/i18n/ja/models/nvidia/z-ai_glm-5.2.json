@@ -1,5 +1,6 @@
 {
   "attachment": false,
+  "canonical_model_id": "zhipuai/glm-5.2",
   "cost": {
     "input": 0,
     "output": 0
@@ -32,6 +33,7 @@
     }
   ],
   "release_date": "2026-06-13",
+  "status": "deprecated",
   "structured_output": true,
   "temperature": true,
   "tool_call": true

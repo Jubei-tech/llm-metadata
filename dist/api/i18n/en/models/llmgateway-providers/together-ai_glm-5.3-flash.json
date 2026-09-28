@@ -1,5 +1,6 @@
 {
   "attachment": true,
+  "canonical_model_id": "zhipuai/glm-5.3-flash",
   "cost": {
     "cache_read": 0.03,
     "input": 0.15,
@@ -31,12 +32,8 @@
     {
       "type": "effort",
       "values": [
-        "none",
-        "minimal",
         "low",
-        "medium",
         "high",
-        "xhigh",
         "max"
       ]
     }
