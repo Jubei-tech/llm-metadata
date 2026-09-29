@@ -12058,6 +12058,17 @@
         "reasoning": true,
         "tool_call": true
       },
+      "id": "gpt-6.1-sol",
+      "name": "GPT-6.1 Sol",
+      "providerId": "azure",
+      "updated": "2026-09-29"
+    },
+    {
+      "flags": {
+        "attachment": true,
+        "reasoning": true,
+        "tool_call": true
+      },
       "id": "gpt-chat-latest",
       "name": "GPT Chat Latest",
       "providerId": "azure",
@@ -13052,6 +13063,17 @@
       "name": "GPT-6 Sol",
       "providerId": "azure-cognitive-services",
       "updated": "2026-09-22"
+    },
+    {
+      "flags": {
+        "attachment": true,
+        "reasoning": true,
+        "tool_call": true
+      },
+      "id": "gpt-6.1-sol",
+      "name": "GPT-6.1 Sol",
+      "providerId": "azure-cognitive-services",
+      "updated": "2026-09-29"
     },
     {
       "flags": {
@@ -22430,6 +22452,17 @@
         "reasoning": true,
         "tool_call": true
       },
+      "id": "openai/gpt-6.1-sol",
+      "name": "GPT-6.1 Sol",
+      "providerId": "edenai",
+      "updated": "2026-09-29"
+    },
+    {
+      "flags": {
+        "attachment": true,
+        "reasoning": true,
+        "tool_call": true
+      },
       "id": "openai/gpt-latest",
       "name": "GPT Latest (GPT-6 Astra)",
       "providerId": "edenai",
@@ -25943,6 +25976,17 @@
       "name": "GPT-6 Sol",
       "providerId": "github-copilot",
       "updated": "2026-09-22"
+    },
+    {
+      "flags": {
+        "attachment": true,
+        "reasoning": true,
+        "tool_call": true
+      },
+      "id": "gpt-6.1-sol",
+      "name": "GPT-6.1 Sol",
+      "providerId": "github-copilot",
+      "updated": "2026-09-29"
     },
     {
       "flags": {
@@ -36496,6 +36540,28 @@
     {
       "flags": {
         "attachment": true,
+        "reasoning": true,
+        "tool_call": true
+      },
+      "id": "openai/gpt-6.1-sol",
+      "name": "GPT-6.1 Sol",
+      "providerId": "kilo",
+      "updated": "2026-09-29"
+    },
+    {
+      "flags": {
+        "attachment": true,
+        "reasoning": true,
+        "tool_call": true
+      },
+      "id": "openai/gpt-6.1-sol-pro",
+      "name": "OpenAI: GPT-6.1 Sol Pro",
+      "providerId": "kilo",
+      "updated": "2026-09-29"
+    },
+    {
+      "flags": {
+        "attachment": true,
         "reasoning": false,
         "tool_call": true
       },
@@ -39476,6 +39542,17 @@
     },
     {
       "flags": {
+        "attachment": true,
+        "reasoning": true,
+        "tool_call": true
+      },
+      "id": "gpt-6.1-sol",
+      "name": "GPT-6.1 Sol",
+      "providerId": "llmgateway",
+      "updated": "2026-09-29"
+    },
+    {
+      "flags": {
         "attachment": false,
         "reasoning": true,
         "tool_call": true
@@ -41643,39 +41720,6 @@
     },
     {
       "flags": {
-        "attachment": false,
-        "reasoning": false,
-        "tool_call": true
-      },
-      "id": "azure/gpt-3.5-turbo",
-      "name": "GPT-3.5 Turbo (Azure)",
-      "providerId": "llmgateway-providers",
-      "updated": "2023-11-06"
-    },
-    {
-      "flags": {
-        "attachment": false,
-        "reasoning": false,
-        "tool_call": true
-      },
-      "id": "azure/gpt-4",
-      "name": "GPT-4 (Azure)",
-      "providerId": "llmgateway-providers",
-      "updated": "2024-04-09"
-    },
-    {
-      "flags": {
-        "attachment": true,
-        "reasoning": false,
-        "tool_call": true
-      },
-      "id": "azure/gpt-4-turbo",
-      "name": "GPT-4 Turbo (Azure)",
-      "providerId": "llmgateway-providers",
-      "updated": "2024-04-09"
-    },
-    {
-      "flags": {
         "attachment": true,
         "reasoning": false,
         "tool_call": true
@@ -41803,17 +41847,6 @@
       },
       "id": "azure/gpt-5.2-codex",
       "name": "GPT-5.2 Codex (Azure)",
-      "providerId": "llmgateway-providers",
-      "updated": "2025-12-11"
-    },
-    {
-      "flags": {
-        "attachment": true,
-        "reasoning": true,
-        "tool_call": true
-      },
-      "id": "azure/gpt-5.2-pro",
-      "name": "GPT-5.2 Pro (Azure)",
       "providerId": "llmgateway-providers",
       "updated": "2025-12-11"
     },
@@ -41959,50 +41992,6 @@
       "name": "GPT OSS 120B (Azure)",
       "providerId": "llmgateway-providers",
       "updated": "2025-08-05"
-    },
-    {
-      "flags": {
-        "attachment": true,
-        "reasoning": true,
-        "tool_call": false
-      },
-      "id": "azure/o1",
-      "name": "o1 (Azure)",
-      "providerId": "llmgateway-providers",
-      "updated": "2024-12-05"
-    },
-    {
-      "flags": {
-        "attachment": true,
-        "reasoning": false,
-        "tool_call": false
-      },
-      "id": "azure/o3",
-      "name": "o3 (Azure)",
-      "providerId": "llmgateway-providers",
-      "updated": "2025-04-16"
-    },
-    {
-      "flags": {
-        "attachment": false,
-        "reasoning": false,
-        "tool_call": false
-      },
-      "id": "azure/o3-mini",
-      "name": "o3 Mini (Azure)",
-      "providerId": "llmgateway-providers",
-      "updated": "2025-01-29"
-    },
-    {
-      "flags": {
-        "attachment": true,
-        "reasoning": true,
-        "tool_call": true
-      },
-      "id": "azure/o4-mini",
-      "name": "o4 Mini (Azure)",
-      "providerId": "llmgateway-providers",
-      "updated": "2025-04-16"
     },
     {
       "flags": {
@@ -44401,6 +44390,17 @@
       "name": "GPT-6 Sol (OpenAI)",
       "providerId": "llmgateway-providers",
       "updated": "2026-09-22"
+    },
+    {
+      "flags": {
+        "attachment": true,
+        "reasoning": true,
+        "tool_call": true
+      },
+      "id": "openai/gpt-6.1-sol",
+      "name": "GPT-6.1 Sol (OpenAI)",
+      "providerId": "llmgateway-providers",
+      "updated": "2026-09-29"
     },
     {
       "flags": {
@@ -47789,6 +47789,17 @@
       "name": "GPT-6 Sol",
       "providerId": "merge-gateway",
       "updated": "2026-09-22"
+    },
+    {
+      "flags": {
+        "attachment": false,
+        "reasoning": true,
+        "tool_call": false
+      },
+      "id": "openai/gpt-6.1-sol",
+      "name": "GPT-6.1 Sol",
+      "providerId": "merge-gateway",
+      "updated": "2026-09-29"
     },
     {
       "flags": {
@@ -53872,6 +53883,28 @@
       "name": "GPT 6 Sol Pro",
       "providerId": "nano-gpt",
       "updated": "2026-09-22"
+    },
+    {
+      "flags": {
+        "attachment": true,
+        "reasoning": true,
+        "tool_call": true
+      },
+      "id": "openai/gpt-6.1-sol",
+      "name": "GPT 6.1 Sol",
+      "providerId": "nano-gpt",
+      "updated": "2026-09-29"
+    },
+    {
+      "flags": {
+        "attachment": true,
+        "reasoning": true,
+        "tool_call": true
+      },
+      "id": "openai/gpt-6.1-sol-pro",
+      "name": "GPT 6.1 Sol Pro",
+      "providerId": "nano-gpt",
+      "updated": "2026-09-29"
     },
     {
       "flags": {
@@ -62723,6 +62756,17 @@
         "reasoning": true,
         "tool_call": true
       },
+      "id": "gpt-6.1-sol",
+      "name": "GPT-6.1 Sol",
+      "providerId": "openai",
+      "updated": "2026-09-29"
+    },
+    {
+      "flags": {
+        "attachment": true,
+        "reasoning": true,
+        "tool_call": true
+      },
       "id": "gpt-daybreak-blue-latest",
       "name": "Daybreak Blue",
       "providerId": "openai",
@@ -63574,6 +63618,17 @@
       "name": "GPT-6 Sol",
       "providerId": "opencode",
       "updated": "2026-09-22"
+    },
+    {
+      "flags": {
+        "attachment": true,
+        "reasoning": true,
+        "tool_call": true
+      },
+      "id": "gpt-6.1-sol",
+      "name": "GPT-6.1 Sol",
+      "providerId": "opencode",
+      "updated": "2026-09-29"
     },
     {
       "flags": {
@@ -67149,6 +67204,28 @@
       "name": "GPT-6 Sol Pro",
       "providerId": "openrouter",
       "updated": "2026-09-22"
+    },
+    {
+      "flags": {
+        "attachment": true,
+        "reasoning": true,
+        "tool_call": true
+      },
+      "id": "openai/gpt-6.1-sol",
+      "name": "GPT-6.1 Sol",
+      "providerId": "openrouter",
+      "updated": "2026-09-29"
+    },
+    {
+      "flags": {
+        "attachment": true,
+        "reasoning": true,
+        "tool_call": true
+      },
+      "id": "openai/gpt-6.1-sol-pro",
+      "name": "GPT-6.1 Sol Pro",
+      "providerId": "openrouter",
+      "updated": "2026-09-29"
     },
     {
       "flags": {
@@ -76572,6 +76649,28 @@
         "reasoning": true,
         "tool_call": true
       },
+      "id": "gpt-6.1-sol",
+      "name": "GPT-6.1 Sol",
+      "providerId": "requesty",
+      "updated": "2026-09-29"
+    },
+    {
+      "flags": {
+        "attachment": true,
+        "reasoning": true,
+        "tool_call": true
+      },
+      "id": "gpt-6.1-sol@eu",
+      "name": "GPT-6.1 Sol (EU)",
+      "providerId": "requesty",
+      "updated": "2026-09-29"
+    },
+    {
+      "flags": {
+        "attachment": true,
+        "reasoning": true,
+        "tool_call": true
+      },
       "id": "grok-4.2-beta",
       "name": "grok-4.2-beta",
       "providerId": "requesty",
@@ -84070,6 +84169,17 @@
     },
     {
       "flags": {
+        "attachment": true,
+        "reasoning": true,
+        "tool_call": true
+      },
+      "id": "openai-gpt-61-sol",
+      "name": "GPT-6.1 Sol",
+      "providerId": "venice",
+      "updated": "2026-09-29"
+    },
+    {
+      "flags": {
         "attachment": false,
         "reasoning": true,
         "tool_call": true
@@ -87422,6 +87532,28 @@
       "name": "GPT-6 Sol (Fast)",
       "providerId": "vercel",
       "updated": "2026-09-22"
+    },
+    {
+      "flags": {
+        "attachment": true,
+        "reasoning": true,
+        "tool_call": true
+      },
+      "id": "openai/gpt-6.1-sol",
+      "name": "GPT-6.1 Sol",
+      "providerId": "vercel",
+      "updated": "2026-09-29"
+    },
+    {
+      "flags": {
+        "attachment": true,
+        "reasoning": true,
+        "tool_call": true
+      },
+      "id": "openai/gpt-6.1-sol-fast",
+      "name": "GPT-6.1 Sol (Fast)",
+      "providerId": "vercel",
+      "updated": "2026-09-29"
     },
     {
       "flags": {
@@ -92800,14 +92932,14 @@
       "iconURL": "https://models.dev/logos/azure.svg",
       "id": "azure",
       "lobeIcon": "AzureAI.Color",
-      "modelCount": 93,
+      "modelCount": 94,
       "name": "Azure"
     },
     {
       "doc": "https://learn.microsoft.com/en-us/azure/ai-services/openai/concepts/models",
       "iconURL": "https://models.dev/logos/azure-cognitive-services.svg",
       "id": "azure-cognitive-services",
-      "modelCount": 85,
+      "modelCount": 86,
       "name": "Azure Cognitive Services"
     },
     {
@@ -93055,7 +93187,7 @@
       "doc": "https://docs.edenai.co",
       "iconURL": "https://models.dev/logos/edenai.svg",
       "id": "edenai",
-      "modelCount": 285,
+      "modelCount": 286,
       "name": "Eden AI"
     },
     {
@@ -93131,7 +93263,7 @@
       "iconURL": "https://models.dev/logos/github-copilot.svg",
       "id": "github-copilot",
       "lobeIcon": "GithubCopilot",
-      "modelCount": 33,
+      "modelCount": 34,
       "name": "GitHub Copilot"
     },
     {
@@ -93355,7 +93487,7 @@
       "doc": "https://kilo.ai",
       "iconURL": "https://models.dev/logos/kilo.svg",
       "id": "kilo",
-      "modelCount": 392,
+      "modelCount": 394,
       "name": "Kilo Gateway"
     },
     {
@@ -93420,7 +93552,7 @@
       "doc": "https://llmgateway.io/docs",
       "iconURL": "https://models.dev/logos/llmgateway.svg",
       "id": "llmgateway",
-      "modelCount": 213,
+      "modelCount": 214,
       "name": "DevPass (LLM Gateway)"
     },
     {
@@ -93428,7 +93560,7 @@
       "doc": "https://llmgateway.io/docs",
       "iconURL": "https://models.dev/logos/llmgateway-providers.svg",
       "id": "llmgateway-providers",
-      "modelCount": 439,
+      "modelCount": 432,
       "name": "LLM Gateway"
     },
     {
@@ -93501,7 +93633,7 @@
       "doc": "https://docs.merge.dev/merge-gateway",
       "iconURL": "https://models.dev/logos/merge-gateway.svg",
       "id": "merge-gateway",
-      "modelCount": 192,
+      "modelCount": 193,
       "name": "Merge Gateway"
     },
     {
@@ -93648,7 +93780,7 @@
       "doc": "https://docs.nano-gpt.com",
       "iconURL": "https://models.dev/logos/nano-gpt.svg",
       "id": "nano-gpt",
-      "modelCount": 597,
+      "modelCount": 599,
       "name": "NanoGPT"
     },
     {
@@ -93744,7 +93876,7 @@
       "iconURL": "https://models.dev/logos/openai.svg",
       "id": "openai",
       "lobeIcon": "OpenAI.Color",
-      "modelCount": 54,
+      "modelCount": 55,
       "name": "OpenAI"
     },
     {
@@ -93753,7 +93885,7 @@
       "iconURL": "https://models.dev/logos/opencode.svg",
       "id": "opencode",
       "lobeIcon": "OpenCode",
-      "modelCount": 113,
+      "modelCount": 114,
       "name": "OpenCode Zen"
     },
     {
@@ -93778,7 +93910,7 @@
       "iconURL": "https://models.dev/logos/openrouter.svg",
       "id": "openrouter",
       "lobeIcon": "OpenRouter.Color",
-      "modelCount": 385,
+      "modelCount": 387,
       "name": "OpenRouter"
     },
     {
@@ -93905,7 +94037,7 @@
       "iconURL": "https://models.dev/logos/requesty.svg",
       "id": "requesty",
       "lobeIcon": "Requesty",
-      "modelCount": 161,
+      "modelCount": 163,
       "name": "Requesty"
     },
     {
@@ -94234,7 +94366,7 @@
       "iconURL": "https://models.dev/logos/venice.svg",
       "id": "venice",
       "lobeIcon": "VeniceAI",
-      "modelCount": 114,
+      "modelCount": 115,
       "name": "Venice AI"
     },
     {
@@ -94242,7 +94374,7 @@
       "iconURL": "https://models.dev/logos/vercel.svg",
       "id": "vercel",
       "lobeIcon": "Vercel.Color",
-      "modelCount": 389,
+      "modelCount": 391,
       "name": "Vercel AI Gateway"
     },
     {

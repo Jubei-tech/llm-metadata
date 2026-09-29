@@ -41102,6 +41102,44 @@
       "tags": []
     },
     {
+      "description": "Near-Astra performance for complex coding, computer use, and professional work at a lower cost.",
+      "firm": "azure",
+      "flags": {
+        "attachment": true,
+        "audio": false,
+        "image": true,
+        "open_weights": false,
+        "reasoning": true,
+        "temperature": false,
+        "tool_call": true
+      },
+      "icon": "lb:azureai-color",
+      "id": "gpt-6.1-sol",
+      "knowledge": "2026-04-30",
+      "lastUpdated": "2026-09-29",
+      "maxCtxTokens": 1050000,
+      "maxOutputTokens": 128000,
+      "modalities": {
+        "input": [
+          "text",
+          "image",
+          "pdf"
+        ],
+        "output": [
+          "text"
+        ]
+      },
+      "name": "GPT-6.1 Sol",
+      "price": {
+        "cacheRead": 0.1,
+        "cacheWrite": 2.5,
+        "input": 2,
+        "output": 10
+      },
+      "releaseDate": "2026-09-29",
+      "tags": []
+    },
+    {
       "description": "Compact GPT model for low-latency assistance and high-volume workloads",
       "firm": "azure",
       "flags": {
@@ -44476,6 +44514,44 @@
         "output": 10
       },
       "releaseDate": "2026-09-22",
+      "tags": []
+    },
+    {
+      "description": "Near-Astra performance for complex coding, computer use, and professional work at a lower cost.",
+      "firm": "azure-cognitive-services",
+      "flags": {
+        "attachment": true,
+        "audio": false,
+        "image": true,
+        "open_weights": false,
+        "reasoning": true,
+        "temperature": false,
+        "tool_call": true
+      },
+      "icon": "",
+      "id": "gpt-6.1-sol",
+      "knowledge": "2026-04-30",
+      "lastUpdated": "2026-09-29",
+      "maxCtxTokens": 1050000,
+      "maxOutputTokens": 128000,
+      "modalities": {
+        "input": [
+          "text",
+          "image",
+          "pdf"
+        ],
+        "output": [
+          "text"
+        ]
+      },
+      "name": "GPT-6.1 Sol",
+      "price": {
+        "cacheRead": 0.1,
+        "cacheWrite": 2.5,
+        "input": 2,
+        "output": 10
+      },
+      "releaseDate": "2026-09-29",
       "tags": []
     },
     {
@@ -64280,7 +64356,7 @@
       "price": {
         "cacheRead": 0.0028,
         "cacheWrite": null,
-        "input": 0.14,
+        "input": 0.08,
         "output": 0.28
       },
       "releaseDate": "2026-09-22",
@@ -66621,7 +66697,7 @@
       },
       "name": "Llama 4 Maverick",
       "price": {
-        "cacheRead": null,
+        "cacheRead": 0.05,
         "cacheWrite": null,
         "input": 0.25,
         "output": 0.87
@@ -66839,7 +66915,7 @@
       },
       "name": "Ministral 3 14B",
       "price": {
-        "cacheRead": null,
+        "cacheRead": 0.04,
         "cacheWrite": null,
         "input": 0.2,
         "output": 0.2
@@ -67021,7 +67097,7 @@
       },
       "name": "Nemotron 3 Nano Omni",
       "price": {
-        "cacheRead": null,
+        "cacheRead": 0.1,
         "cacheWrite": null,
         "input": 0.5,
         "output": 0.9
@@ -67057,7 +67133,7 @@
       },
       "name": "Nemotron 3 Ultra",
       "price": {
-        "cacheRead": null,
+        "cacheRead": 0.18,
         "cacheWrite": null,
         "input": 0.9,
         "output": 1.7
@@ -67095,7 +67171,7 @@
       },
       "name": "Nemotron-nano 12b v2-vl",
       "price": {
-        "cacheRead": null,
+        "cacheRead": 0.04,
         "cacheWrite": null,
         "input": 0.2,
         "output": 0.6
@@ -68093,7 +68169,7 @@
       },
       "name": "OpenAI GPT-oss-20b",
       "price": {
-        "cacheRead": null,
+        "cacheRead": 0.01,
         "cacheWrite": null,
         "input": 0.05,
         "output": 0.45
@@ -76029,6 +76105,44 @@
         "output": 10
       },
       "releaseDate": "2026-09-22",
+      "tags": []
+    },
+    {
+      "description": "Near-Astra performance for complex coding, computer use, and professional work at a lower cost.",
+      "firm": "edenai",
+      "flags": {
+        "attachment": true,
+        "audio": false,
+        "image": true,
+        "open_weights": false,
+        "reasoning": true,
+        "temperature": false,
+        "tool_call": true
+      },
+      "icon": "",
+      "id": "openai/gpt-6.1-sol",
+      "knowledge": "2026-04-30",
+      "lastUpdated": "2026-09-29",
+      "maxCtxTokens": 1050000,
+      "maxOutputTokens": 128000,
+      "modalities": {
+        "input": [
+          "text",
+          "image",
+          "pdf"
+        ],
+        "output": [
+          "text"
+        ]
+      },
+      "name": "GPT-6.1 Sol",
+      "price": {
+        "cacheRead": 0.1,
+        "cacheWrite": 2.5,
+        "input": 2,
+        "output": 10
+      },
+      "releaseDate": "2026-09-29",
       "tags": []
     },
     {
@@ -88003,6 +88117,44 @@
         "output": 10
       },
       "releaseDate": "2026-09-22",
+      "tags": []
+    },
+    {
+      "description": "Near-Astra performance for complex coding, computer use, and professional work at a lower cost.",
+      "firm": "github-copilot",
+      "flags": {
+        "attachment": true,
+        "audio": false,
+        "image": true,
+        "open_weights": false,
+        "reasoning": true,
+        "temperature": false,
+        "tool_call": true
+      },
+      "icon": "lb:githubcopilot",
+      "id": "gpt-6.1-sol",
+      "knowledge": "2026-04-30",
+      "lastUpdated": "2026-09-29",
+      "maxCtxTokens": 1050000,
+      "maxOutputTokens": 128000,
+      "modalities": {
+        "input": [
+          "text",
+          "image",
+          "pdf"
+        ],
+        "output": [
+          "text"
+        ]
+      },
+      "name": "GPT-6.1 Sol",
+      "price": {
+        "cacheRead": 0.1,
+        "cacheWrite": 2.5,
+        "input": 2,
+        "output": 10
+      },
+      "releaseDate": "2026-09-29",
       "tags": []
     },
     {
@@ -115156,7 +115308,7 @@
       },
       "name": "OpenAI: GPT Sol Latest",
       "price": {
-        "cacheRead": 0.2,
+        "cacheRead": 0.1,
         "cacheWrite": 2.5,
         "input": 2,
         "output": 10
@@ -115295,7 +115447,7 @@
       "knowledge": null,
       "lastUpdated": "2026-08-19",
       "maxCtxTokens": 1048576,
-      "maxOutputTokens": 131072,
+      "maxOutputTokens": 943718,
       "modalities": {
         "input": [
           "text"
@@ -115306,10 +115458,10 @@
       },
       "name": "Z.ai: GLM Latest",
       "price": {
-        "cacheRead": 0.102,
+        "cacheRead": 0.1955,
         "cacheWrite": null,
-        "input": 0.19,
-        "output": 2.04
+        "input": 0.1428,
+        "output": 2.992
       },
       "releaseDate": "2026-08-19",
       "tags": []
@@ -123642,6 +123794,82 @@
       "tags": []
     },
     {
+      "description": "GPT-6.1 Sol is an upgrade to GPT-6 Sol from OpenAI, positioned below the flagship GPT-6 Astra in the GPT-6 series. It is suited for agentic coding, computer use, document-heavy professional...",
+      "firm": "kilo",
+      "flags": {
+        "attachment": true,
+        "audio": false,
+        "image": true,
+        "open_weights": false,
+        "reasoning": true,
+        "temperature": false,
+        "tool_call": true
+      },
+      "icon": "",
+      "id": "openai/gpt-6.1-sol",
+      "knowledge": "2026-04-30",
+      "lastUpdated": "2026-09-29",
+      "maxCtxTokens": 1050000,
+      "maxOutputTokens": 128000,
+      "modalities": {
+        "input": [
+          "text",
+          "image",
+          "pdf"
+        ],
+        "output": [
+          "text"
+        ]
+      },
+      "name": "GPT-6.1 Sol",
+      "price": {
+        "cacheRead": 0.1,
+        "cacheWrite": 2.5,
+        "input": 2,
+        "output": 10
+      },
+      "releaseDate": "2026-09-29",
+      "tags": []
+    },
+    {
+      "description": "GPT-6.1 Sol Pro is the same underlying model as [GPT-6.1 Sol](https://openrouter.ai/openai/gpt-6.1-sol), served with `reasoning.mode` set to `pro` for higher-quality responses on complex tasks. **Cost note:** pro mode spends far more...",
+      "firm": "kilo",
+      "flags": {
+        "attachment": true,
+        "audio": false,
+        "image": true,
+        "open_weights": false,
+        "reasoning": true,
+        "temperature": false,
+        "tool_call": true
+      },
+      "icon": "",
+      "id": "openai/gpt-6.1-sol-pro",
+      "knowledge": null,
+      "lastUpdated": "2026-09-29",
+      "maxCtxTokens": 1050000,
+      "maxOutputTokens": 128000,
+      "modalities": {
+        "input": [
+          "pdf",
+          "image",
+          "text"
+        ],
+        "output": [
+          "text"
+        ]
+      },
+      "name": "OpenAI: GPT-6.1 Sol Pro",
+      "price": {
+        "cacheRead": 0.1,
+        "cacheWrite": 2.5,
+        "input": 2,
+        "output": 10
+      },
+      "releaseDate": "2026-09-29",
+      "tags": []
+    },
+    {
       "description": "Speech generation model for controllable voice, narration, and audio delivery",
       "firm": "kilo",
       "flags": {
@@ -128557,10 +128785,10 @@
       },
       "name": "MiMo-V2.6-Flash",
       "price": {
-        "cacheRead": 0.08,
+        "cacheRead": 0.0028,
         "cacheWrite": null,
         "input": 0.08,
-        "output": 1.28
+        "output": 0.28
       },
       "releaseDate": "2026-09-22",
       "tags": []
@@ -128818,7 +129046,7 @@
       },
       "name": "GLM-4.6V",
       "price": {
-        "cacheRead": 0.05,
+        "cacheRead": 0.055,
         "cacheWrite": null,
         "input": 0.3,
         "output": 0.9
@@ -133708,6 +133936,44 @@
         "output": 10
       },
       "releaseDate": "2026-09-22",
+      "tags": []
+    },
+    {
+      "description": "Near-Astra performance for complex coding, computer use, and professional work at a lower cost.",
+      "firm": "llmgateway",
+      "flags": {
+        "attachment": true,
+        "audio": false,
+        "image": true,
+        "open_weights": false,
+        "reasoning": true,
+        "temperature": false,
+        "tool_call": true
+      },
+      "icon": "",
+      "id": "gpt-6.1-sol",
+      "knowledge": "2026-04-30",
+      "lastUpdated": "2026-09-29",
+      "maxCtxTokens": 1050000,
+      "maxOutputTokens": 128000,
+      "modalities": {
+        "input": [
+          "text",
+          "image",
+          "pdf"
+        ],
+        "output": [
+          "text"
+        ]
+      },
+      "name": "GPT-6.1 Sol",
+      "price": {
+        "cacheRead": 0.1,
+        "cacheWrite": 2.5,
+        "input": 2,
+        "output": 10
+      },
+      "releaseDate": "2026-09-29",
       "tags": []
     },
     {
@@ -141044,115 +141310,6 @@
       "tags": []
     },
     {
-      "description": "Compact GPT model for low-latency assistance and high-volume workloads",
-      "firm": "llmgateway-providers",
-      "flags": {
-        "attachment": false,
-        "audio": false,
-        "image": false,
-        "open_weights": false,
-        "reasoning": false,
-        "temperature": true,
-        "tool_call": true
-      },
-      "icon": "",
-      "id": "azure/gpt-3.5-turbo",
-      "knowledge": "2021-09-01",
-      "lastUpdated": "2023-11-06",
-      "maxCtxTokens": 16385,
-      "maxOutputTokens": 4096,
-      "modalities": {
-        "input": [
-          "text"
-        ],
-        "output": [
-          "text"
-        ]
-      },
-      "name": "GPT-3.5 Turbo (Azure)",
-      "price": {
-        "cacheRead": null,
-        "cacheWrite": null,
-        "input": 0.5,
-        "output": 1.5
-      },
-      "releaseDate": "2023-03-01",
-      "tags": []
-    },
-    {
-      "description": "GPT model for general reasoning, writing, coding, and tool-assisted tasks",
-      "firm": "llmgateway-providers",
-      "flags": {
-        "attachment": false,
-        "audio": false,
-        "image": false,
-        "open_weights": false,
-        "reasoning": false,
-        "temperature": true,
-        "tool_call": true
-      },
-      "icon": "",
-      "id": "azure/gpt-4",
-      "knowledge": "2023-11",
-      "lastUpdated": "2024-04-09",
-      "maxCtxTokens": 8192,
-      "maxOutputTokens": 8192,
-      "modalities": {
-        "input": [
-          "text"
-        ],
-        "output": [
-          "text"
-        ]
-      },
-      "name": "GPT-4 (Azure)",
-      "price": {
-        "cacheRead": null,
-        "cacheWrite": null,
-        "input": 30,
-        "output": 60
-      },
-      "releaseDate": "2023-11-06",
-      "tags": []
-    },
-    {
-      "description": "Compact GPT model for low-latency assistance and high-volume workloads",
-      "firm": "llmgateway-providers",
-      "flags": {
-        "attachment": true,
-        "audio": false,
-        "image": true,
-        "open_weights": false,
-        "reasoning": false,
-        "temperature": true,
-        "tool_call": true
-      },
-      "icon": "",
-      "id": "azure/gpt-4-turbo",
-      "knowledge": "2023-12",
-      "lastUpdated": "2024-04-09",
-      "maxCtxTokens": 128000,
-      "maxOutputTokens": 4096,
-      "modalities": {
-        "input": [
-          "text",
-          "image"
-        ],
-        "output": [
-          "text"
-        ]
-      },
-      "name": "GPT-4 Turbo (Azure)",
-      "price": {
-        "cacheRead": null,
-        "cacheWrite": null,
-        "input": 10,
-        "output": 30
-      },
-      "releaseDate": "2023-11-06",
-      "tags": []
-    },
-    {
       "description": "Long-lived GPT workhorse for coding, instruction following, and production apps",
       "firm": "llmgateway-providers",
       "flags": {
@@ -141595,43 +141752,6 @@
         "cacheWrite": null,
         "input": 1.75,
         "output": 14
-      },
-      "releaseDate": "2025-12-11",
-      "tags": []
-    },
-    {
-      "description": "Higher-accuracy GPT-5.2 variant for tougher reasoning and review workflows",
-      "firm": "llmgateway-providers",
-      "flags": {
-        "attachment": true,
-        "audio": false,
-        "image": true,
-        "open_weights": false,
-        "reasoning": true,
-        "temperature": false,
-        "tool_call": true
-      },
-      "icon": "",
-      "id": "azure/gpt-5.2-pro",
-      "knowledge": "2025-08-31",
-      "lastUpdated": "2025-12-11",
-      "maxCtxTokens": 400000,
-      "maxOutputTokens": 272000,
-      "modalities": {
-        "input": [
-          "text",
-          "image"
-        ],
-        "output": [
-          "text"
-        ]
-      },
-      "name": "GPT-5.2 Pro (Azure)",
-      "price": {
-        "cacheRead": null,
-        "cacheWrite": null,
-        "input": 21,
-        "output": 168
       },
       "releaseDate": "2025-12-11",
       "tags": []
@@ -142123,155 +142243,6 @@
         "output": 0.6
       },
       "releaseDate": "2025-08-05",
-      "tags": []
-    },
-    {
-      "description": "O-series reasoning model for hard analysis, math, coding, and planning",
-      "firm": "llmgateway-providers",
-      "flags": {
-        "attachment": true,
-        "audio": false,
-        "image": true,
-        "open_weights": false,
-        "reasoning": true,
-        "temperature": false,
-        "tool_call": false
-      },
-      "icon": "",
-      "id": "azure/o1",
-      "knowledge": "2023-09",
-      "lastUpdated": "2024-12-05",
-      "maxCtxTokens": 200000,
-      "maxOutputTokens": 100000,
-      "modalities": {
-        "input": [
-          "text",
-          "image",
-          "pdf"
-        ],
-        "output": [
-          "text"
-        ]
-      },
-      "name": "o1 (Azure)",
-      "price": {
-        "cacheRead": 7.5,
-        "cacheWrite": null,
-        "input": 15,
-        "output": 60
-      },
-      "releaseDate": "2024-12-05",
-      "tags": []
-    },
-    {
-      "description": "Deliberate o-series reasoner for hard math, coding, and multi-step analysis",
-      "firm": "llmgateway-providers",
-      "flags": {
-        "attachment": true,
-        "audio": false,
-        "image": true,
-        "open_weights": false,
-        "reasoning": false,
-        "temperature": false,
-        "tool_call": false
-      },
-      "icon": "",
-      "id": "azure/o3",
-      "knowledge": "2024-05",
-      "lastUpdated": "2025-04-16",
-      "maxCtxTokens": 200000,
-      "maxOutputTokens": 100000,
-      "modalities": {
-        "input": [
-          "text",
-          "image",
-          "pdf"
-        ],
-        "output": [
-          "text"
-        ]
-      },
-      "name": "o3 (Azure)",
-      "price": {
-        "cacheRead": 0.5,
-        "cacheWrite": null,
-        "input": 2,
-        "output": 8
-      },
-      "releaseDate": "2025-04-16",
-      "tags": []
-    },
-    {
-      "description": "Smaller o-series reasoner for economical coding, math, and planning tasks",
-      "firm": "llmgateway-providers",
-      "flags": {
-        "attachment": false,
-        "audio": false,
-        "image": false,
-        "open_weights": false,
-        "reasoning": false,
-        "temperature": false,
-        "tool_call": false
-      },
-      "icon": "",
-      "id": "azure/o3-mini",
-      "knowledge": "2024-05",
-      "lastUpdated": "2025-01-29",
-      "maxCtxTokens": 200000,
-      "maxOutputTokens": 100000,
-      "modalities": {
-        "input": [
-          "text"
-        ],
-        "output": [
-          "text"
-        ]
-      },
-      "name": "o3 Mini (Azure)",
-      "price": {
-        "cacheRead": 0.55,
-        "cacheWrite": null,
-        "input": 1.1,
-        "output": 4.4
-      },
-      "releaseDate": "2024-12-20",
-      "tags": []
-    },
-    {
-      "description": "Fast o-series model for compact reasoning, coding, and tool use",
-      "firm": "llmgateway-providers",
-      "flags": {
-        "attachment": true,
-        "audio": false,
-        "image": true,
-        "open_weights": false,
-        "reasoning": true,
-        "temperature": false,
-        "tool_call": true
-      },
-      "icon": "",
-      "id": "azure/o4-mini",
-      "knowledge": "2024-05",
-      "lastUpdated": "2025-04-16",
-      "maxCtxTokens": 200000,
-      "maxOutputTokens": 100000,
-      "modalities": {
-        "input": [
-          "text",
-          "image"
-        ],
-        "output": [
-          "text"
-        ]
-      },
-      "name": "o4 Mini (Azure)",
-      "price": {
-        "cacheRead": 0.275,
-        "cacheWrite": null,
-        "input": 1.1,
-        "output": 4.4
-      },
-      "releaseDate": "2025-04-16",
       "tags": []
     },
     {
@@ -150364,6 +150335,44 @@
         "output": 10
       },
       "releaseDate": "2026-09-22",
+      "tags": []
+    },
+    {
+      "description": "Near-Astra performance for complex coding, computer use, and professional work at a lower cost.",
+      "firm": "llmgateway-providers",
+      "flags": {
+        "attachment": true,
+        "audio": false,
+        "image": true,
+        "open_weights": false,
+        "reasoning": true,
+        "temperature": false,
+        "tool_call": true
+      },
+      "icon": "",
+      "id": "openai/gpt-6.1-sol",
+      "knowledge": "2026-04-30",
+      "lastUpdated": "2026-09-29",
+      "maxCtxTokens": 1050000,
+      "maxOutputTokens": 128000,
+      "modalities": {
+        "input": [
+          "text",
+          "image",
+          "pdf"
+        ],
+        "output": [
+          "text"
+        ]
+      },
+      "name": "GPT-6.1 Sol (OpenAI)",
+      "price": {
+        "cacheRead": 0.1,
+        "cacheWrite": 2.5,
+        "input": 2,
+        "output": 10
+      },
+      "releaseDate": "2026-09-29",
       "tags": []
     },
     {
@@ -161767,6 +161776,42 @@
         "output": 10
       },
       "releaseDate": "2026-09-22",
+      "tags": []
+    },
+    {
+      "description": "Near-Astra performance for complex coding, computer use, and professional work at a lower cost.",
+      "firm": "merge-gateway",
+      "flags": {
+        "attachment": false,
+        "audio": false,
+        "image": false,
+        "open_weights": false,
+        "reasoning": true,
+        "temperature": false,
+        "tool_call": false
+      },
+      "icon": "",
+      "id": "openai/gpt-6.1-sol",
+      "knowledge": "2026-04-30",
+      "lastUpdated": "2026-09-29",
+      "maxCtxTokens": 1050000,
+      "maxOutputTokens": 128000,
+      "modalities": {
+        "input": [
+          "text"
+        ],
+        "output": [
+          "text"
+        ]
+      },
+      "name": "GPT-6.1 Sol",
+      "price": {
+        "cacheRead": 0.1,
+        "cacheWrite": 2.5,
+        "input": 2,
+        "output": 10
+      },
+      "releaseDate": "2026-09-29",
       "tags": []
     },
     {
@@ -182167,6 +182212,82 @@
       "tags": []
     },
     {
+      "description": "Near-Astra performance for complex coding, computer use, and professional work at a lower cost.",
+      "firm": "nano-gpt",
+      "flags": {
+        "attachment": true,
+        "audio": false,
+        "image": true,
+        "open_weights": false,
+        "reasoning": true,
+        "temperature": false,
+        "tool_call": true
+      },
+      "icon": "",
+      "id": "openai/gpt-6.1-sol",
+      "knowledge": "2026-04-30",
+      "lastUpdated": "2026-09-29",
+      "maxCtxTokens": 1050000,
+      "maxOutputTokens": 128000,
+      "modalities": {
+        "input": [
+          "text",
+          "image",
+          "pdf"
+        ],
+        "output": [
+          "text"
+        ]
+      },
+      "name": "GPT 6.1 Sol",
+      "price": {
+        "cacheRead": 0.1,
+        "cacheWrite": 2.5,
+        "input": 2,
+        "output": 10
+      },
+      "releaseDate": "2026-09-29",
+      "tags": []
+    },
+    {
+      "description": "GPT-6.1 Sol Pro uses the same underlying model as GPT-6.1 Sol with Pro reasoning mode enabled for higher-quality responses on complex tasks.",
+      "firm": "nano-gpt",
+      "flags": {
+        "attachment": true,
+        "audio": false,
+        "image": true,
+        "open_weights": false,
+        "reasoning": true,
+        "temperature": false,
+        "tool_call": true
+      },
+      "icon": "",
+      "id": "openai/gpt-6.1-sol-pro",
+      "knowledge": null,
+      "lastUpdated": "2026-09-29",
+      "maxCtxTokens": 1050000,
+      "maxOutputTokens": 128000,
+      "modalities": {
+        "input": [
+          "text",
+          "image",
+          "pdf"
+        ],
+        "output": [
+          "text"
+        ]
+      },
+      "name": "GPT 6.1 Sol Pro",
+      "price": {
+        "cacheRead": 0.1,
+        "cacheWrite": 2.5,
+        "input": 2,
+        "output": 10
+      },
+      "releaseDate": "2026-09-29",
+      "tags": []
+    },
+    {
       "description": "Compatibility alias that routes to GPT 6 Astra, the latest supported GPT Astra model.",
       "firm": "nano-gpt",
       "flags": {
@@ -182456,7 +182577,7 @@
       },
       "name": "GPT Sol Latest",
       "price": {
-        "cacheRead": 0.2,
+        "cacheRead": 0.1,
         "cacheWrite": 2.5,
         "input": 2,
         "output": 10
@@ -211870,6 +211991,44 @@
       "tags": []
     },
     {
+      "description": "Near-Astra performance for complex coding, computer use, and professional work at a lower cost.",
+      "firm": "openai",
+      "flags": {
+        "attachment": true,
+        "audio": false,
+        "image": true,
+        "open_weights": false,
+        "reasoning": true,
+        "temperature": false,
+        "tool_call": true
+      },
+      "icon": "lb:openai-color",
+      "id": "gpt-6.1-sol",
+      "knowledge": "2026-04-30",
+      "lastUpdated": "2026-09-29",
+      "maxCtxTokens": 1050000,
+      "maxOutputTokens": 128000,
+      "modalities": {
+        "input": [
+          "text",
+          "image",
+          "pdf"
+        ],
+        "output": [
+          "text"
+        ]
+      },
+      "name": "GPT-6.1 Sol",
+      "price": {
+        "cacheRead": 0.1,
+        "cacheWrite": 2.5,
+        "input": 2,
+        "output": 10
+      },
+      "releaseDate": "2026-09-29",
+      "tags": []
+    },
+    {
       "description": "Alias for flagship general-purpose models with safeguards for defensive cybersecurity work",
       "firm": "openai",
       "flags": {
@@ -214798,6 +214957,44 @@
         "output": 10
       },
       "releaseDate": "2026-09-22",
+      "tags": []
+    },
+    {
+      "description": "Near-Astra performance for complex coding, computer use, and professional work at a lower cost.",
+      "firm": "opencode",
+      "flags": {
+        "attachment": true,
+        "audio": false,
+        "image": true,
+        "open_weights": false,
+        "reasoning": true,
+        "temperature": false,
+        "tool_call": true
+      },
+      "icon": "lb:opencode",
+      "id": "gpt-6.1-sol",
+      "knowledge": "2026-04-30",
+      "lastUpdated": "2026-09-29",
+      "maxCtxTokens": 1050000,
+      "maxOutputTokens": 128000,
+      "modalities": {
+        "input": [
+          "text",
+          "image",
+          "pdf"
+        ],
+        "output": [
+          "text"
+        ]
+      },
+      "name": "GPT-6.1 Sol",
+      "price": {
+        "cacheRead": 0.2,
+        "cacheWrite": 2.5,
+        "input": 2,
+        "output": 10
+      },
+      "releaseDate": "2026-09-29",
       "tags": []
     },
     {
@@ -218564,7 +218761,7 @@
       },
       "name": "GPT Sol Latest",
       "price": {
-        "cacheRead": 0.2,
+        "cacheRead": 0.1,
         "cacheWrite": 2.5,
         "input": 2,
         "output": 10
@@ -218703,7 +218900,7 @@
       "knowledge": null,
       "lastUpdated": "2026-08-19",
       "maxCtxTokens": 1310720,
-      "maxOutputTokens": 131072,
+      "maxOutputTokens": 943718,
       "modalities": {
         "input": [
           "text"
@@ -218714,10 +218911,10 @@
       },
       "name": "GLM Latest",
       "price": {
-        "cacheRead": 0.102,
+        "cacheRead": 0.1955,
         "cacheWrite": null,
-        "input": 0.19,
-        "output": 2.04
+        "input": 0.1428,
+        "output": 2.992
       },
       "releaseDate": "2026-08-19",
       "tags": []
@@ -220746,10 +220943,10 @@
       },
       "name": "DeepSeek V4 Pro",
       "price": {
-        "cacheRead": 0.078025,
+        "cacheRead": 0.076328,
         "cacheWrite": null,
-        "input": 0.936294,
-        "output": 1.872588
+        "input": 0.915936,
+        "output": 1.831872
       },
       "releaseDate": "2026-04-24",
       "tags": []
@@ -220782,10 +220979,10 @@
       },
       "name": "DeepSeek V4 Pro 0813",
       "price": {
-        "cacheRead": 0.3776,
+        "cacheRead": 0.3153,
         "cacheWrite": null,
-        "input": 0.4721,
-        "output": 4.2
+        "input": 0.3942,
+        "output": 3.49
       },
       "releaseDate": "2026-08-12",
       "tags": []
@@ -221865,10 +222062,10 @@
       },
       "name": "Gemma 4 26B A4B IT",
       "price": {
-        "cacheRead": 0.05,
+        "cacheRead": 0.0425,
         "cacheWrite": null,
-        "input": 0.09,
-        "output": 0.3
+        "input": 0.0765,
+        "output": 0.255
       },
       "releaseDate": "2026-04-02",
       "tags": []
@@ -226924,6 +227121,82 @@
       "tags": []
     },
     {
+      "description": "Near-Astra performance for complex coding, computer use, and professional work at a lower cost.",
+      "firm": "openrouter",
+      "flags": {
+        "attachment": true,
+        "audio": false,
+        "image": true,
+        "open_weights": false,
+        "reasoning": true,
+        "temperature": false,
+        "tool_call": true
+      },
+      "icon": "lb:openrouter-color",
+      "id": "openai/gpt-6.1-sol",
+      "knowledge": "2026-04-30",
+      "lastUpdated": "2026-09-29",
+      "maxCtxTokens": 1050000,
+      "maxOutputTokens": 128000,
+      "modalities": {
+        "input": [
+          "text",
+          "image",
+          "pdf"
+        ],
+        "output": [
+          "text"
+        ]
+      },
+      "name": "GPT-6.1 Sol",
+      "price": {
+        "cacheRead": 0.1,
+        "cacheWrite": 2.5,
+        "input": 2,
+        "output": 10
+      },
+      "releaseDate": "2026-09-29",
+      "tags": []
+    },
+    {
+      "description": "Frontier GPT model for professional reasoning, coding, and multimodal work",
+      "firm": "openrouter",
+      "flags": {
+        "attachment": true,
+        "audio": false,
+        "image": true,
+        "open_weights": false,
+        "reasoning": true,
+        "temperature": false,
+        "tool_call": true
+      },
+      "icon": "lb:openrouter-color",
+      "id": "openai/gpt-6.1-sol-pro",
+      "knowledge": null,
+      "lastUpdated": "2026-09-29",
+      "maxCtxTokens": 1050000,
+      "maxOutputTokens": 128000,
+      "modalities": {
+        "input": [
+          "pdf",
+          "image",
+          "text"
+        ],
+        "output": [
+          "text"
+        ]
+      },
+      "name": "GPT-6.1 Sol Pro",
+      "price": {
+        "cacheRead": 0.1,
+        "cacheWrite": 2.5,
+        "input": 2,
+        "output": 10
+      },
+      "releaseDate": "2026-09-29",
+      "tags": []
+    },
+    {
       "description": "Speech generation model for controllable voice, narration, and audio delivery",
       "firm": "openrouter",
       "flags": {
@@ -231946,7 +232219,7 @@
       },
       "name": "GLM-4.6V",
       "price": {
-        "cacheRead": 0.05,
+        "cacheRead": 0.055,
         "cacheWrite": null,
         "input": 0.3,
         "output": 0.9
@@ -232162,10 +232435,10 @@
       },
       "name": "GLM-5.2",
       "price": {
-        "cacheRead": 0.1871,
+        "cacheRead": 0.2245,
         "cacheWrite": null,
-        "input": 0.2339,
-        "output": 4.4
+        "input": 0.2807,
+        "output": 3.99
       },
       "releaseDate": "2026-06-13",
       "tags": []
@@ -258765,6 +259038,82 @@
       "tags": []
     },
     {
+      "description": "Near-Astra performance for complex coding, computer use, and professional work at a lower cost.",
+      "firm": "requesty",
+      "flags": {
+        "attachment": true,
+        "audio": false,
+        "image": true,
+        "open_weights": false,
+        "reasoning": true,
+        "temperature": false,
+        "tool_call": true
+      },
+      "icon": "lb:requesty",
+      "id": "gpt-6.1-sol",
+      "knowledge": "2026-04-30",
+      "lastUpdated": "2026-09-29",
+      "maxCtxTokens": 1050000,
+      "maxOutputTokens": 128000,
+      "modalities": {
+        "input": [
+          "text",
+          "image",
+          "pdf"
+        ],
+        "output": [
+          "text"
+        ]
+      },
+      "name": "GPT-6.1 Sol",
+      "price": {
+        "cacheRead": 0.1,
+        "cacheWrite": null,
+        "input": 2,
+        "output": 10
+      },
+      "releaseDate": "2026-09-29",
+      "tags": []
+    },
+    {
+      "description": "Near-Astra performance for complex coding, computer use, and professional work at a lower cost.",
+      "firm": "requesty",
+      "flags": {
+        "attachment": true,
+        "audio": false,
+        "image": true,
+        "open_weights": false,
+        "reasoning": true,
+        "temperature": false,
+        "tool_call": true
+      },
+      "icon": "lb:requesty",
+      "id": "gpt-6.1-sol@eu",
+      "knowledge": "2026-04-30",
+      "lastUpdated": "2026-09-29",
+      "maxCtxTokens": 1050000,
+      "maxOutputTokens": 128000,
+      "modalities": {
+        "input": [
+          "text",
+          "image",
+          "pdf"
+        ],
+        "output": [
+          "text"
+        ]
+      },
+      "name": "GPT-6.1 Sol (EU)",
+      "price": {
+        "cacheRead": 0.12,
+        "cacheWrite": null,
+        "input": 2.4,
+        "output": 12
+      },
+      "releaseDate": "2026-09-29",
+      "tags": []
+    },
+    {
       "description": "Grok 4.20 Beta is xAI's newest flagship model with industry-leading speed and agentic tool calling capabilities. It combines the lowest hallucination rate on the market with strict prompt adherance, delivering consistently precise and truthful responses.",
       "firm": "requesty",
       "flags": {
@@ -283943,6 +284292,43 @@
       "tags": []
     },
     {
+      "description": "GPT model for general reasoning, writing, coding, and tool-assisted tasks",
+      "firm": "venice",
+      "flags": {
+        "attachment": true,
+        "audio": false,
+        "image": true,
+        "open_weights": false,
+        "reasoning": true,
+        "temperature": false,
+        "tool_call": true
+      },
+      "icon": "lb:veniceai",
+      "id": "openai-gpt-61-sol",
+      "knowledge": "2026-04-30",
+      "lastUpdated": "2026-09-29",
+      "maxCtxTokens": 1050000,
+      "maxOutputTokens": 128000,
+      "modalities": {
+        "input": [
+          "text",
+          "image"
+        ],
+        "output": [
+          "text"
+        ]
+      },
+      "name": "GPT-6.1 Sol",
+      "price": {
+        "cacheRead": 0.125,
+        "cacheWrite": 3.125,
+        "input": 2.5,
+        "output": 12.5
+      },
+      "releaseDate": "2026-09-29",
+      "tags": []
+    },
+    {
       "description": "Open GPT reasoning model for self-hosted agents and controllable deployments",
       "firm": "venice",
       "flags": {
@@ -295217,6 +295603,82 @@
         "output": 20
       },
       "releaseDate": "2026-09-22",
+      "tags": []
+    },
+    {
+      "description": "Near-Astra performance for complex coding, computer use, and professional work at a lower cost.",
+      "firm": "vercel",
+      "flags": {
+        "attachment": true,
+        "audio": false,
+        "image": true,
+        "open_weights": false,
+        "reasoning": true,
+        "temperature": false,
+        "tool_call": true
+      },
+      "icon": "lb:vercel-color",
+      "id": "openai/gpt-6.1-sol",
+      "knowledge": "2026-04-30",
+      "lastUpdated": "2026-09-29",
+      "maxCtxTokens": 1050000,
+      "maxOutputTokens": 128000,
+      "modalities": {
+        "input": [
+          "text",
+          "image",
+          "pdf"
+        ],
+        "output": [
+          "text"
+        ]
+      },
+      "name": "GPT-6.1 Sol",
+      "price": {
+        "cacheRead": 0.1,
+        "cacheWrite": 2.5,
+        "input": 2,
+        "output": 10
+      },
+      "releaseDate": "2026-09-29",
+      "tags": []
+    },
+    {
+      "description": "Near-Astra performance for complex coding, computer use, and professional work at a lower cost.",
+      "firm": "vercel",
+      "flags": {
+        "attachment": true,
+        "audio": false,
+        "image": true,
+        "open_weights": false,
+        "reasoning": true,
+        "temperature": false,
+        "tool_call": true
+      },
+      "icon": "lb:vercel-color",
+      "id": "openai/gpt-6.1-sol-fast",
+      "knowledge": "2026-04-30",
+      "lastUpdated": "2026-09-29",
+      "maxCtxTokens": 1050000,
+      "maxOutputTokens": 128000,
+      "modalities": {
+        "input": [
+          "text",
+          "image",
+          "pdf"
+        ],
+        "output": [
+          "text"
+        ]
+      },
+      "name": "GPT-6.1 Sol (Fast)",
+      "price": {
+        "cacheRead": 0.2,
+        "cacheWrite": 5,
+        "input": 4,
+        "output": 20
+      },
+      "releaseDate": "2026-09-29",
       "tags": []
     },
     {
