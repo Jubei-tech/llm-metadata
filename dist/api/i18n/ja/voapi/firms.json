@@ -316,7 +316,7 @@
       "doc": "https://docs.baseten.co/inference/model-apis/overview",
       "icon": "https://models.dev/logos/baseten.svg",
       "id": "baseten",
-      "modelCount": 23,
+      "modelCount": 24,
       "name": "Baseten",
       "status": 1
     },
@@ -466,7 +466,7 @@
       "doc": "https://api.cortecs.ai/v1/models",
       "icon": "https://models.dev/logos/cortecs.svg",
       "id": "cortecs",
-      "modelCount": 109,
+      "modelCount": 110,
       "name": "Cortecs",
       "status": 1
     },
@@ -1656,7 +1656,7 @@
       "doc": "https://requesty.ai/solution/llm-routing/models",
       "icon": "lb:requesty",
       "id": "requesty",
-      "modelCount": 163,
+      "modelCount": 165,
       "name": "Requesty",
       "status": 1
     },
@@ -1886,8 +1886,8 @@
       "doc": "https://temprhq.io/docs/gateway-reference.html",
       "icon": "https://models.dev/logos/tempr.svg",
       "id": "tempr",
-      "modelCount": 63,
-      "name": "Tempr",
+      "modelCount": 82,
+      "name": "Tempr Gateway",
       "status": 1
     },
     {
@@ -2076,7 +2076,7 @@
       "doc": "https://github.com/vercel/ai/tree/5eb85cc45a259553501f535b8ac79a77d0e79223/packages/gateway",
       "icon": "lb:vercel-color",
       "id": "vercel",
-      "modelCount": 391,
+      "modelCount": 394,
       "name": "Vercel AI Gateway",
       "status": 1
     },

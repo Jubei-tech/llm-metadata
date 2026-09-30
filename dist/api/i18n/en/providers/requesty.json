@@ -49,9 +49,6 @@
             "high",
             "max"
           ]
-        },
-        {
-          "type": "budget_tokens"
         }
       ],
       "release_date": "2026-06-09",
@@ -100,9 +97,6 @@
             "high",
             "max"
           ]
-        },
-        {
-          "type": "budget_tokens"
         }
       ],
       "release_date": "2026-09-01",
@@ -151,9 +145,6 @@
             "high",
             "max"
           ]
-        },
-        {
-          "type": "budget_tokens"
         }
       ],
       "release_date": "2026-09-01",
@@ -202,9 +193,6 @@
             "high",
             "max"
           ]
-        },
-        {
-          "type": "budget_tokens"
         }
       ],
       "release_date": "2026-06-09",
@@ -253,9 +241,6 @@
             "high",
             "max"
           ]
-        },
-        {
-          "type": "budget_tokens"
         }
       ],
       "release_date": "2025-10-15",
@@ -304,9 +289,6 @@
             "high",
             "max"
           ]
-        },
-        {
-          "type": "budget_tokens"
         }
       ],
       "release_date": "2025-10-15",
@@ -355,9 +337,6 @@
             "high",
             "max"
           ]
-        },
-        {
-          "type": "budget_tokens"
         }
       ],
       "release_date": "2025-08-05",
@@ -406,9 +385,6 @@
             "high",
             "max"
           ]
-        },
-        {
-          "type": "budget_tokens"
         }
       ],
       "release_date": "2025-11-24",
@@ -457,9 +433,6 @@
             "high",
             "max"
           ]
-        },
-        {
-          "type": "budget_tokens"
         }
       ],
       "release_date": "2025-11-24",
@@ -508,9 +481,6 @@
             "high",
             "max"
           ]
-        },
-        {
-          "type": "budget_tokens"
         }
       ],
       "release_date": "2026-02-05",
@@ -559,9 +529,6 @@
             "high",
             "max"
           ]
-        },
-        {
-          "type": "budget_tokens"
         }
       ],
       "release_date": "2026-02-05",
@@ -610,9 +577,6 @@
             "high",
             "max"
           ]
-        },
-        {
-          "type": "budget_tokens"
         }
       ],
       "release_date": "2026-04-16",
@@ -661,9 +625,6 @@
             "high",
             "max"
           ]
-        },
-        {
-          "type": "budget_tokens"
         }
       ],
       "release_date": "2026-04-16",
@@ -712,9 +673,6 @@
             "high",
             "max"
           ]
-        },
-        {
-          "type": "budget_tokens"
         }
       ],
       "release_date": "2026-05-28",
@@ -763,9 +721,6 @@
             "high",
             "max"
           ]
-        },
-        {
-          "type": "budget_tokens"
         }
       ],
       "release_date": "2026-05-28",
@@ -814,9 +769,6 @@
             "high",
             "max"
           ]
-        },
-        {
-          "type": "budget_tokens"
         }
       ],
       "release_date": "2026-07-24",
@@ -865,9 +817,6 @@
             "high",
             "max"
           ]
-        },
-        {
-          "type": "budget_tokens"
         }
       ],
       "release_date": "2026-09-22",
@@ -916,9 +865,6 @@
             "high",
             "max"
           ]
-        },
-        {
-          "type": "budget_tokens"
         }
       ],
       "release_date": "2026-09-22",
@@ -967,9 +913,6 @@
             "high",
             "max"
           ]
-        },
-        {
-          "type": "budget_tokens"
         }
       ],
       "release_date": "2026-07-24",
@@ -1036,9 +979,6 @@
             "high",
             "max"
           ]
-        },
-        {
-          "type": "budget_tokens"
         }
       ],
       "release_date": "2025-09-29",
@@ -1105,9 +1045,6 @@
             "high",
             "max"
           ]
-        },
-        {
-          "type": "budget_tokens"
         }
       ],
       "release_date": "2025-09-29",
@@ -1156,9 +1093,6 @@
             "high",
             "max"
           ]
-        },
-        {
-          "type": "budget_tokens"
         }
       ],
       "release_date": "2026-02-17",
@@ -1207,9 +1141,6 @@
             "high",
             "max"
           ]
-        },
-        {
-          "type": "budget_tokens"
         }
       ],
       "release_date": "2026-02-17",
@@ -1276,9 +1207,6 @@
             "high",
             "max"
           ]
-        },
-        {
-          "type": "budget_tokens"
         }
       ],
       "release_date": "2025-05-22",
@@ -1327,12 +1255,105 @@
             "high",
             "max"
           ]
-        },
-        {
-          "type": "budget_tokens"
         }
       ],
       "release_date": "2026-06-30",
+      "structured_output": true,
+      "temperature": false,
+      "tool_call": true
+    },
+    "claude-sonnet-5-5": {
+      "attachment": true,
+      "canonical_model_id": "anthropic/claude-sonnet-5-5",
+      "cost": {
+        "cache_read": 0.2,
+        "cache_write": 2.5,
+        "input": 2,
+        "output": 10
+      },
+      "description": "Fast Claude model for everyday coding, agents, and knowledge work",
+      "family": "claude-sonnet",
+      "id": "claude-sonnet-5-5",
+      "knowledge": "2026-06",
+      "last_updated": "2026-09-28",
+      "limit": {
+        "context": 1000000,
+        "output": 128000
+      },
+      "modalities": {
+        "input": [
+          "text",
+          "image",
+          "pdf"
+        ],
+        "output": [
+          "text"
+        ]
+      },
+      "name": "Claude Sonnet 5.5",
+      "open_weights": false,
+      "reasoning": true,
+      "reasoning_options": [
+        {
+          "type": "effort",
+          "values": [
+            "none",
+            "low",
+            "medium",
+            "high",
+            "max"
+          ]
+        }
+      ],
+      "release_date": "2026-09-28",
+      "structured_output": true,
+      "temperature": false,
+      "tool_call": true
+    },
+    "claude-sonnet-5-5@eu": {
+      "attachment": true,
+      "canonical_model_id": "anthropic/claude-sonnet-5-5",
+      "cost": {
+        "cache_read": 0.22,
+        "cache_write": 2.75,
+        "input": 2.2,
+        "output": 11
+      },
+      "description": "Fast Claude model for everyday coding, agents, and knowledge work",
+      "family": "claude-sonnet",
+      "id": "claude-sonnet-5-5@eu",
+      "knowledge": "2026-06",
+      "last_updated": "2026-09-28",
+      "limit": {
+        "context": 1000000,
+        "output": 128000
+      },
+      "modalities": {
+        "input": [
+          "text",
+          "image",
+          "pdf"
+        ],
+        "output": [
+          "text"
+        ]
+      },
+      "name": "Claude Sonnet 5.5 (EU)",
+      "open_weights": false,
+      "reasoning": true,
+      "reasoning_options": [
+        {
+          "type": "effort",
+          "values": [
+            "none",
+            "low",
+            "medium",
+            "high",
+            "max"
+          ]
+        }
+      ],
+      "release_date": "2026-09-28",
       "structured_output": true,
       "temperature": false,
       "tool_call": true
@@ -1378,9 +1399,6 @@
             "high",
             "max"
           ]
-        },
-        {
-          "type": "budget_tokens"
         }
       ],
       "release_date": "2026-06-30",
@@ -1426,9 +1444,6 @@
             "high",
             "max"
           ]
-        },
-        {
-          "type": "budget_tokens"
         }
       ],
       "release_date": "2026-04-24",
@@ -1474,9 +1489,6 @@
             "high",
             "max"
           ]
-        },
-        {
-          "type": "budget_tokens"
         }
       ],
       "release_date": "2026-07-31",
@@ -1522,9 +1534,6 @@
             "high",
             "max"
           ]
-        },
-        {
-          "type": "budget_tokens"
         }
       ],
       "release_date": "2026-07-31",
@@ -1570,9 +1579,6 @@
             "high",
             "max"
           ]
-        },
-        {
-          "type": "budget_tokens"
         }
       ],
       "release_date": "2026-04-24",
@@ -1617,9 +1623,6 @@
             "high",
             "max"
           ]
-        },
-        {
-          "type": "budget_tokens"
         }
       ],
       "release_date": "2026-08-12",
@@ -1664,9 +1667,6 @@
             "high",
             "max"
           ]
-        },
-        {
-          "type": "budget_tokens"
         }
       ],
       "release_date": "2026-08-12",
@@ -1712,9 +1712,6 @@
             "high",
             "max"
           ]
-        },
-        {
-          "type": "budget_tokens"
         }
       ],
       "release_date": "2026-04-24",
@@ -1761,9 +1758,6 @@
             "high",
             "max"
           ]
-        },
-        {
-          "type": "budget_tokens"
         }
       ],
       "release_date": "2026-09-10",
@@ -1810,9 +1804,6 @@
             "high",
             "max"
           ]
-        },
-        {
-          "type": "budget_tokens"
         }
       ],
       "release_date": "2026-09-10",
@@ -1934,9 +1925,6 @@
             "high",
             "max"
           ]
-        },
-        {
-          "type": "budget_tokens"
         }
       ],
       "release_date": "2026-06-15",
@@ -1987,9 +1975,6 @@
             "high",
             "max"
           ]
-        },
-        {
-          "type": "budget_tokens"
         }
       ],
       "release_date": "2025-06-17",
@@ -2040,9 +2025,6 @@
             "high",
             "max"
           ]
-        },
-        {
-          "type": "budget_tokens"
         }
       ],
       "release_date": "2025-06-17",
@@ -2111,9 +2093,6 @@
             "high",
             "max"
           ]
-        },
-        {
-          "type": "budget_tokens"
         }
       ],
       "release_date": "2025-06-17",
@@ -2162,9 +2141,6 @@
             "high",
             "max"
           ]
-        },
-        {
-          "type": "budget_tokens"
         }
       ],
       "release_date": "2026-05-28",
@@ -2213,9 +2189,6 @@
             "high",
             "max"
           ]
-        },
-        {
-          "type": "budget_tokens"
         }
       ],
       "release_date": "2026-05-28",
@@ -2266,9 +2239,6 @@
             "high",
             "max"
           ]
-        },
-        {
-          "type": "budget_tokens"
         }
       ],
       "release_date": "2026-05-07",
@@ -2319,9 +2289,6 @@
             "high",
             "max"
           ]
-        },
-        {
-          "type": "budget_tokens"
         }
       ],
       "release_date": "2026-05-07",
@@ -2390,9 +2357,6 @@
             "high",
             "max"
           ]
-        },
-        {
-          "type": "budget_tokens"
         }
       ],
       "release_date": "2026-02-19",
@@ -2443,9 +2407,6 @@
             "high",
             "max"
           ]
-        },
-        {
-          "type": "budget_tokens"
         }
       ],
       "release_date": "2026-05-19",
@@ -2495,9 +2456,6 @@
             "high",
             "max"
           ]
-        },
-        {
-          "type": "budget_tokens"
         }
       ],
       "release_date": "2026-07-21",
@@ -2547,9 +2505,6 @@
             "high",
             "max"
           ]
-        },
-        {
-          "type": "budget_tokens"
         }
       ],
       "release_date": "2026-07-21",
@@ -2600,9 +2555,6 @@
             "high",
             "max"
           ]
-        },
-        {
-          "type": "budget_tokens"
         }
       ],
       "release_date": "2026-05-19",
@@ -2652,9 +2604,6 @@
             "high",
             "max"
           ]
-        },
-        {
-          "type": "budget_tokens"
         }
       ],
       "release_date": "2026-07-21",
@@ -2704,9 +2653,6 @@
             "high",
             "max"
           ]
-        },
-        {
-          "type": "budget_tokens"
         }
       ],
       "release_date": "2026-08-13",
@@ -2756,9 +2702,6 @@
             "high",
             "max"
           ]
-        },
-        {
-          "type": "budget_tokens"
         }
       ],
       "release_date": "2026-08-13",
@@ -2807,9 +2750,6 @@
             "high",
             "max"
           ]
-        },
-        {
-          "type": "budget_tokens"
         }
       ],
       "release_date": "2026-09-02",
@@ -2858,9 +2798,6 @@
             "high",
             "max"
           ]
-        },
-        {
-          "type": "budget_tokens"
         }
       ],
       "release_date": "2026-09-02",
@@ -2906,9 +2843,6 @@
             "high",
             "max"
           ]
-        },
-        {
-          "type": "budget_tokens"
         }
       ],
       "release_date": "2026-04-02",
@@ -2953,9 +2887,6 @@
             "high",
             "max"
           ]
-        },
-        {
-          "type": "budget_tokens"
         }
       ],
       "release_date": "2026-04-02",
@@ -3000,9 +2931,6 @@
             "high",
             "max"
           ]
-        },
-        {
-          "type": "budget_tokens"
         }
       ],
       "release_date": "2026-04-07",
@@ -3047,9 +2975,6 @@
             "high",
             "max"
           ]
-        },
-        {
-          "type": "budget_tokens"
         }
       ],
       "release_date": "2026-04-07",
@@ -3094,9 +3019,6 @@
             "high",
             "max"
           ]
-        },
-        {
-          "type": "budget_tokens"
         }
       ],
       "release_date": "2026-06-13",
@@ -3140,9 +3062,6 @@
             "high",
             "max"
           ]
-        },
-        {
-          "type": "budget_tokens"
         }
       ],
       "release_date": "2026-07-13",
@@ -3186,9 +3105,6 @@
             "high",
             "max"
           ]
-        },
-        {
-          "type": "budget_tokens"
         }
       ],
       "release_date": "2026-06-13",
@@ -3233,9 +3149,6 @@
             "high",
             "max"
           ]
-        },
-        {
-          "type": "budget_tokens"
         }
       ],
       "release_date": "2026-08-14",
@@ -3283,9 +3196,6 @@
             "high",
             "max"
           ]
-        },
-        {
-          "type": "budget_tokens"
         }
       ],
       "release_date": "2026-08-26",
@@ -3333,9 +3243,6 @@
             "high",
             "max"
           ]
-        },
-        {
-          "type": "budget_tokens"
         }
       ],
       "release_date": "2026-08-26",
@@ -3380,9 +3287,6 @@
             "high",
             "max"
           ]
-        },
-        {
-          "type": "budget_tokens"
         }
       ],
       "release_date": "2026-08-14",
@@ -3568,9 +3472,6 @@
             "high",
             "max"
           ]
-        },
-        {
-          "type": "budget_tokens"
         }
       ],
       "release_date": "2025-08-07",
@@ -3617,9 +3518,6 @@
             "high",
             "max"
           ]
-        },
-        {
-          "type": "budget_tokens"
         }
       ],
       "release_date": "2025-08-07",
@@ -3667,9 +3565,6 @@
             "high",
             "max"
           ]
-        },
-        {
-          "type": "budget_tokens"
         }
       ],
       "release_date": "2025-11-13",
@@ -3718,9 +3613,6 @@
             "high",
             "max"
           ]
-        },
-        {
-          "type": "budget_tokens"
         }
       ],
       "release_date": "2026-02-05",
@@ -3769,9 +3661,6 @@
             "high",
             "max"
           ]
-        },
-        {
-          "type": "budget_tokens"
         }
       ],
       "release_date": "2026-03-05",
@@ -3819,9 +3708,6 @@
             "high",
             "max"
           ]
-        },
-        {
-          "type": "budget_tokens"
         }
       ],
       "release_date": "2026-03-17",
@@ -3869,9 +3755,6 @@
             "high",
             "max"
           ]
-        },
-        {
-          "type": "budget_tokens"
         }
       ],
       "release_date": "2026-03-17",
@@ -3919,9 +3802,6 @@
             "high",
             "max"
           ]
-        },
-        {
-          "type": "budget_tokens"
         }
       ],
       "release_date": "2026-03-05",
@@ -3986,9 +3866,6 @@
             "high",
             "max"
           ]
-        },
-        {
-          "type": "budget_tokens"
         }
       ],
       "release_date": "2026-03-05",
@@ -4037,9 +3914,6 @@
             "high",
             "max"
           ]
-        },
-        {
-          "type": "budget_tokens"
         }
       ],
       "release_date": "2026-04-23",
@@ -4087,9 +3961,6 @@
             "high",
             "max"
           ]
-        },
-        {
-          "type": "budget_tokens"
         }
       ],
       "release_date": "2026-04-23",
@@ -4154,9 +4025,6 @@
             "high",
             "max"
           ]
-        },
-        {
-          "type": "budget_tokens"
         }
       ],
       "release_date": "2026-04-23",
@@ -4221,9 +4089,6 @@
             "high",
             "max"
           ]
-        },
-        {
-          "type": "budget_tokens"
         }
       ],
       "release_date": "2026-07-09",
@@ -4272,9 +4137,6 @@
             "high",
             "max"
           ]
-        },
-        {
-          "type": "budget_tokens"
         }
       ],
       "release_date": "2026-07-09",
@@ -4342,9 +4204,6 @@
             "high",
             "max"
           ]
-        },
-        {
-          "type": "budget_tokens"
         }
       ],
       "release_date": "2026-07-09",
@@ -4393,9 +4252,6 @@
             "high",
             "max"
           ]
-        },
-        {
-          "type": "budget_tokens"
         }
       ],
       "release_date": "2026-07-09",
@@ -4460,9 +4316,6 @@
             "high",
             "max"
           ]
-        },
-        {
-          "type": "budget_tokens"
         }
       ],
       "release_date": "2026-07-09",
@@ -4511,9 +4364,6 @@
             "high",
             "max"
           ]
-        },
-        {
-          "type": "budget_tokens"
         }
       ],
       "release_date": "2026-07-09",
@@ -4561,9 +4411,6 @@
             "high",
             "max"
           ]
-        },
-        {
-          "type": "budget_tokens"
         }
       ],
       "release_date": "2025-08-07",
@@ -4628,9 +4475,6 @@
             "high",
             "max"
           ]
-        },
-        {
-          "type": "budget_tokens"
         }
       ],
       "release_date": "2026-09-04",
@@ -4695,9 +4539,6 @@
             "high",
             "max"
           ]
-        },
-        {
-          "type": "budget_tokens"
         }
       ],
       "release_date": "2026-09-22",
@@ -4762,9 +4603,6 @@
             "high",
             "max"
           ]
-        },
-        {
-          "type": "budget_tokens"
         }
       ],
       "release_date": "2026-09-22",
@@ -4829,9 +4667,6 @@
             "high",
             "max"
           ]
-        },
-        {
-          "type": "budget_tokens"
         }
       ],
       "release_date": "2026-09-22",
@@ -4896,9 +4731,6 @@
             "high",
             "max"
           ]
-        },
-        {
-          "type": "budget_tokens"
         }
       ],
       "release_date": "2026-09-22",
@@ -4957,14 +4789,12 @@
         {
           "type": "effort",
           "values": [
+            "none",
             "low",
             "medium",
             "high",
             "max"
           ]
-        },
-        {
-          "type": "budget_tokens"
         }
       ],
       "release_date": "2026-09-29",
@@ -5023,14 +4853,12 @@
         {
           "type": "effort",
           "values": [
+            "none",
             "low",
             "medium",
             "high",
             "max"
           ]
-        },
-        {
-          "type": "budget_tokens"
         }
       ],
       "release_date": "2026-09-29",
@@ -5094,9 +4922,6 @@
             "high",
             "max"
           ]
-        },
-        {
-          "type": "budget_tokens"
         }
       ],
       "release_date": "2026-03-19",
@@ -5161,9 +4986,6 @@
             "high",
             "max"
           ]
-        },
-        {
-          "type": "budget_tokens"
         }
       ],
       "release_date": "2026-04-17",
@@ -5228,9 +5050,6 @@
             "high",
             "max"
           ]
-        },
-        {
-          "type": "budget_tokens"
         }
       ],
       "release_date": "2026-07-08",
@@ -5296,9 +5115,6 @@
             "high",
             "max"
           ]
-        },
-        {
-          "type": "budget_tokens"
         }
       ],
       "release_date": "2026-08-12",
@@ -5377,9 +5193,6 @@
             "high",
             "max"
           ]
-        },
-        {
-          "type": "budget_tokens"
         }
       ],
       "release_date": "2026-07-06",
@@ -5426,9 +5239,6 @@
             "high",
             "max"
           ]
-        },
-        {
-          "type": "budget_tokens"
         }
       ],
       "release_date": "2026-07-15",
@@ -5472,9 +5282,6 @@
             "high",
             "max"
           ]
-        },
-        {
-          "type": "budget_tokens"
         }
       ],
       "release_date": "2026-07-16",
@@ -5550,9 +5357,6 @@
             "high",
             "max"
           ]
-        },
-        {
-          "type": "budget_tokens"
         }
       ],
       "release_date": "2026-04-21",
@@ -5600,9 +5404,6 @@
             "high",
             "max"
           ]
-        },
-        {
-          "type": "budget_tokens"
         }
       ],
       "release_date": "2026-04-21",
@@ -5650,9 +5451,6 @@
             "high",
             "max"
           ]
-        },
-        {
-          "type": "budget_tokens"
         }
       ],
       "release_date": "2026-06-12",
@@ -5700,9 +5498,6 @@
             "high",
             "max"
           ]
-        },
-        {
-          "type": "budget_tokens"
         }
       ],
       "release_date": "2026-06-12",
@@ -5749,9 +5544,6 @@
             "high",
             "max"
           ]
-        },
-        {
-          "type": "budget_tokens"
         }
       ],
       "release_date": "2026-07-16",
@@ -5798,9 +5590,6 @@
             "high",
             "max"
           ]
-        },
-        {
-          "type": "budget_tokens"
         }
       ],
       "release_date": "2026-07-16",
@@ -5844,9 +5633,6 @@
             "high",
             "max"
           ]
-        },
-        {
-          "type": "budget_tokens"
         }
       ],
       "release_date": "2026-04-28",
@@ -5890,9 +5676,6 @@
             "high",
             "max"
           ]
-        },
-        {
-          "type": "budget_tokens"
         }
       ],
       "release_date": "2026-04-28",
@@ -6049,9 +5832,6 @@
             "high",
             "max"
           ]
-        },
-        {
-          "type": "budget_tokens"
         }
       ],
       "release_date": "2026-08-05",
@@ -6099,9 +5879,6 @@
             "high",
             "max"
           ]
-        },
-        {
-          "type": "budget_tokens"
         }
       ],
       "release_date": "2026-04-22",
@@ -6147,9 +5924,6 @@
             "high",
             "max"
           ]
-        },
-        {
-          "type": "budget_tokens"
         }
       ],
       "release_date": "2026-04-22",
@@ -6197,9 +5971,6 @@
             "high",
             "max"
           ]
-        },
-        {
-          "type": "budget_tokens"
         }
       ],
       "release_date": "2026-09-22",
@@ -6247,9 +6018,6 @@
             "high",
             "max"
           ]
-        },
-        {
-          "type": "budget_tokens"
         }
       ],
       "release_date": "2026-09-22",
@@ -6295,9 +6063,6 @@
             "high",
             "max"
           ]
-        },
-        {
-          "type": "budget_tokens"
         }
       ],
       "release_date": "2026-03-18",
@@ -6343,9 +6108,6 @@
             "high",
             "max"
           ]
-        },
-        {
-          "type": "budget_tokens"
         }
       ],
       "release_date": "2026-03-18",
@@ -6392,9 +6154,6 @@
             "high",
             "max"
           ]
-        },
-        {
-          "type": "budget_tokens"
         }
       ],
       "release_date": "2026-06-01",
@@ -6441,9 +6200,6 @@
             "high",
             "max"
           ]
-        },
-        {
-          "type": "budget_tokens"
         }
       ],
       "release_date": "2026-06-01",
@@ -6488,9 +6244,6 @@
             "high",
             "max"
           ]
-        },
-        {
-          "type": "budget_tokens"
         }
       ],
       "release_date": "2026-04-30",
@@ -6534,9 +6287,6 @@
             "high",
             "max"
           ]
-        },
-        {
-          "type": "budget_tokens"
         }
       ],
       "release_date": "2026-04-30",
@@ -6648,9 +6398,6 @@
             "high",
             "max"
           ]
-        },
-        {
-          "type": "budget_tokens"
         }
       ],
       "release_date": "2026-03-16",
@@ -6697,9 +6444,6 @@
             "high",
             "max"
           ]
-        },
-        {
-          "type": "budget_tokens"
         }
       ],
       "release_date": "2026-03-16",
@@ -6745,9 +6489,6 @@
             "high",
             "max"
           ]
-        },
-        {
-          "type": "budget_tokens"
         }
       ],
       "release_date": "2026-08-10",
@@ -6791,9 +6532,6 @@
             "high",
             "max"
           ]
-        },
-        {
-          "type": "budget_tokens"
         }
       ],
       "release_date": "2026-05-20",
@@ -6839,9 +6577,6 @@
             "high",
             "max"
           ]
-        },
-        {
-          "type": "budget_tokens"
         }
       ],
       "release_date": "2026-04-28",
@@ -6885,9 +6620,6 @@
             "high",
             "max"
           ]
-        },
-        {
-          "type": "budget_tokens"
         }
       ],
       "release_date": "2026-05-20",
@@ -6930,9 +6662,6 @@
             "high",
             "max"
           ]
-        },
-        {
-          "type": "budget_tokens"
         }
       ],
       "release_date": "2026-03-11",
@@ -6976,9 +6705,6 @@
             "high",
             "max"
           ]
-        },
-        {
-          "type": "budget_tokens"
         }
       ],
       "release_date": "2026-06-04",
@@ -7022,9 +6748,6 @@
             "high",
             "max"
           ]
-        },
-        {
-          "type": "budget_tokens"
         }
       ],
       "release_date": "2026-06-13",
@@ -7068,9 +6791,6 @@
             "high",
             "max"
           ]
-        },
-        {
-          "type": "budget_tokens"
         }
       ],
       "release_date": "2026-06-04",
@@ -7113,9 +6833,6 @@
             "high",
             "max"
           ]
-        },
-        {
-          "type": "budget_tokens"
         }
       ],
       "release_date": "2026-08-11",
@@ -7158,9 +6875,6 @@
             "high",
             "max"
           ]
-        },
-        {
-          "type": "budget_tokens"
         }
       ],
       "release_date": "2026-08-15",
@@ -7202,9 +6916,6 @@
             "high",
             "max"
           ]
-        },
-        {
-          "type": "budget_tokens"
         }
       ],
       "release_date": "2026-03-11",
@@ -7246,9 +6957,6 @@
             "high",
             "max"
           ]
-        },
-        {
-          "type": "budget_tokens"
         }
       ],
       "release_date": "2026-06-23",
@@ -7294,9 +7002,6 @@
             "high",
             "max"
           ]
-        },
-        {
-          "type": "budget_tokens"
         }
       ],
       "release_date": "2025-04-16",
@@ -7343,9 +7048,6 @@
             "high",
             "max"
           ]
-        },
-        {
-          "type": "budget_tokens"
         }
       ],
       "release_date": "2026-02-23",
@@ -7389,9 +7091,6 @@
             "high",
             "max"
           ]
-        },
-        {
-          "type": "budget_tokens"
         }
       ],
       "release_date": "2026-03-10",
@@ -7438,9 +7137,6 @@
             "high",
             "max"
           ]
-        },
-        {
-          "type": "budget_tokens"
         }
       ],
       "release_date": "2026-02-23",
@@ -7489,9 +7185,6 @@
             "high",
             "max"
           ]
-        },
-        {
-          "type": "budget_tokens"
         }
       ],
       "release_date": "2026-04-02",
@@ -7537,9 +7230,6 @@
             "high",
             "max"
           ]
-        },
-        {
-          "type": "budget_tokens"
         }
       ],
       "release_date": "2026-05-21",
@@ -7588,9 +7278,6 @@
             "high",
             "max"
           ]
-        },
-        {
-          "type": "budget_tokens"
         }
       ],
       "release_date": "2026-06-02",
@@ -7635,9 +7322,6 @@
             "high",
             "max"
           ]
-        },
-        {
-          "type": "budget_tokens"
         }
       ],
       "release_date": "2026-08-12",
@@ -7682,9 +7366,6 @@
             "high",
             "max"
           ]
-        },
-        {
-          "type": "budget_tokens"
         }
       ],
       "release_date": "2026-08-12",
@@ -7732,9 +7413,6 @@
             "high",
             "max"
           ]
-        },
-        {
-          "type": "budget_tokens"
         }
       ],
       "release_date": "2026-08-26",
@@ -7780,9 +7458,6 @@
             "high",
             "max"
           ]
-        },
-        {
-          "type": "budget_tokens"
         }
       ],
       "release_date": "2026-08-27",
@@ -7829,9 +7504,6 @@
             "high",
             "max"
           ]
-        },
-        {
-          "type": "budget_tokens"
         }
       ],
       "release_date": "2026-08-27",
@@ -7880,9 +7552,6 @@
             "high",
             "max"
           ]
-        },
-        {
-          "type": "budget_tokens"
         }
       ],
       "release_date": "2026-08-03",
@@ -7925,9 +7594,6 @@
             "high",
             "max"
           ]
-        },
-        {
-          "type": "budget_tokens"
         }
       ],
       "release_date": "2026-05-08",
@@ -7971,9 +7637,6 @@
             "high",
             "max"
           ]
-        },
-        {
-          "type": "budget_tokens"
         }
       ],
       "release_date": "2026-05-27",
@@ -8019,9 +7682,6 @@
             "high",
             "max"
           ]
-        },
-        {
-          "type": "budget_tokens"
         }
       ],
       "release_date": "2026-02-14",
@@ -8068,9 +7728,6 @@
             "high",
             "max"
           ]
-        },
-        {
-          "type": "budget_tokens"
         }
       ],
       "release_date": "2026-02-14",
@@ -8117,9 +7774,6 @@
             "high",
             "max"
           ]
-        },
-        {
-          "type": "budget_tokens"
         }
       ],
       "release_date": "2026-02-14",
@@ -8166,9 +7820,6 @@
             "high",
             "max"
           ]
-        },
-        {
-          "type": "budget_tokens"
         }
       ],
       "release_date": "2026-05-29",

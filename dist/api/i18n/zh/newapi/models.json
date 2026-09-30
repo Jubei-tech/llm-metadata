@@ -21013,6 +21013,23 @@
       "vendor_name": "Baseten"
     },
     {
+      "description": "Fast DeepSeek model for efficient chat, coding help, and agent loops",
+      "endpoints": null,
+      "icon": "",
+      "model_name": "deepseek-ai/DeepSeek-V4.1-Flash-Fast",
+      "name_rule": 0,
+      "price_per_m_cache_read": null,
+      "price_per_m_cache_write": null,
+      "price_per_m_input": 0.6,
+      "price_per_m_output": 2.4,
+      "ratio_cache": null,
+      "ratio_completion": 4,
+      "ratio_model": 0.3,
+      "status": 1,
+      "tags": "推理,工具,文件,开源权重,多模态,1M",
+      "vendor_name": "Baseten"
+    },
+    {
       "description": "Legacy model retained for compatibility with older integrations",
       "endpoints": null,
       "icon": "",
@@ -25103,6 +25120,23 @@
       "price_per_m_input": 2.4,
       "price_per_m_output": 11.999,
       "ratio_cache": 0.1,
+      "ratio_completion": 4.999583333333334,
+      "ratio_model": 1.2,
+      "status": 1,
+      "tags": "推理,工具,文件,多模态,1.1M",
+      "vendor_name": "Cortecs"
+    },
+    {
+      "description": "Near-Astra performance for complex coding, computer use, and professional work at a lower cost.",
+      "endpoints": null,
+      "icon": "",
+      "model_name": "gpt-6.1-sol",
+      "name_rule": 0,
+      "price_per_m_cache_read": 0.12,
+      "price_per_m_cache_write": 3,
+      "price_per_m_input": 2.4,
+      "price_per_m_output": 11.999,
+      "ratio_cache": 0.05,
       "ratio_completion": 4.999583333333334,
       "ratio_model": 1.2,
       "status": 1,
@@ -29486,11 +29520,11 @@
       "name_rule": 0,
       "price_per_m_cache_read": 0.0028,
       "price_per_m_cache_write": null,
-      "price_per_m_input": 0.08,
+      "price_per_m_input": 0.14,
       "price_per_m_output": 0.28,
-      "ratio_cache": 0.034999999999999996,
-      "ratio_completion": 3.5000000000000004,
-      "ratio_model": 0.04,
+      "ratio_cache": 0.019999999999999997,
+      "ratio_completion": 2,
+      "ratio_model": 0.07,
       "status": 1,
       "tags": "推理,工具,文件,开源权重,多模态,音频,1M",
       "vendor_name": "Deep Infra"
@@ -32518,7 +32552,7 @@
       "ratio_completion": 3,
       "ratio_model": 0.22,
       "status": 1,
-      "tags": "推理,工具,开源权重,1.3M",
+      "tags": "推理,工具,开源权重,1M",
       "vendor_name": "Eden AI"
     },
     {
@@ -52876,13 +52910,13 @@
       "icon": "",
       "model_name": "~z-ai/glm-latest",
       "name_rule": 0,
-      "price_per_m_cache_read": 0.1955,
+      "price_per_m_cache_read": 0.12,
       "price_per_m_cache_write": null,
-      "price_per_m_input": 0.1428,
-      "price_per_m_output": 2.992,
-      "ratio_cache": 1.369047619047619,
-      "ratio_completion": 20.952380952380953,
-      "ratio_model": 0.0714,
+      "price_per_m_input": 0.12,
+      "price_per_m_output": 1.5,
+      "ratio_cache": 1,
+      "ratio_completion": 12.5,
+      "ratio_model": 0.06,
       "status": 1,
       "tags": "推理,工具,1M",
       "vendor_name": "Kilo Gateway"
@@ -57406,7 +57440,7 @@
       "ratio_completion": 4,
       "ratio_model": 0.065,
       "status": 1,
-      "tags": "推理,工具,开源权重,41K",
+      "tags": "推理,工具,开源权重,131.1K",
       "vendor_name": "Kilo Gateway"
     },
     {
@@ -58052,7 +58086,7 @@
       "ratio_completion": 6,
       "ratio_model": 0.2125,
       "status": 1,
-      "tags": "推理,工具,文件,开源权重,多模态,262.1K",
+      "tags": "推理,工具,文件,开源权重,多模态,1M",
       "vendor_name": "Kilo Gateway"
     },
     {
@@ -58554,13 +58588,13 @@
       "icon": "",
       "model_name": "tencent/hy3",
       "name_rule": 0,
-      "price_per_m_cache_read": 0.020625,
+      "price_per_m_cache_read": 0.033,
       "price_per_m_cache_write": null,
-      "price_per_m_input": 0.0825,
-      "price_per_m_output": 0.33,
-      "ratio_cache": 0.25,
-      "ratio_completion": 4,
-      "ratio_model": 0.04125,
+      "price_per_m_input": 0.13,
+      "price_per_m_output": 0.53,
+      "ratio_cache": 0.25384615384615383,
+      "ratio_completion": 4.076923076923077,
+      "ratio_model": 0.065,
       "status": 1,
       "tags": "推理,工具,开源权重,262.1K",
       "vendor_name": "Kilo Gateway"
@@ -58962,13 +58996,13 @@
       "icon": "",
       "model_name": "xiaomi/mimo-v2.6-flash",
       "name_rule": 0,
-      "price_per_m_cache_read": 0.0028,
+      "price_per_m_cache_read": 0.04,
       "price_per_m_cache_write": null,
-      "price_per_m_input": 0.08,
-      "price_per_m_output": 0.28,
-      "ratio_cache": 0.034999999999999996,
-      "ratio_completion": 3.5000000000000004,
-      "ratio_model": 0.04,
+      "price_per_m_input": 0.04,
+      "price_per_m_output": 1.28,
+      "ratio_cache": 1,
+      "ratio_completion": 32,
+      "ratio_model": 0.02,
       "status": 1,
       "tags": "推理,工具,文件,开源权重,多模态,音频,1M",
       "vendor_name": "Kilo Gateway"
@@ -74083,7 +74117,7 @@
       "ratio_completion": 5,
       "ratio_model": 1,
       "status": 1,
-      "tags": "推理,1.1M",
+      "tags": "推理,工具,文件,多模态,1.1M",
       "vendor_name": "Merge Gateway"
     },
     {
@@ -79056,13 +79090,13 @@
       "icon": "",
       "model_name": "deepseek/deepseek-v4-flash-vision-exp",
       "name_rule": 0,
-      "price_per_m_cache_read": 0.007,
+      "price_per_m_cache_read": 0.014,
       "price_per_m_cache_write": null,
-      "price_per_m_input": 0.22,
-      "price_per_m_output": 0.66,
+      "price_per_m_input": 0.44,
+      "price_per_m_output": 1.32,
       "ratio_cache": 0.03181818181818182,
       "ratio_completion": 3,
-      "ratio_model": 0.11,
+      "ratio_model": 0.22,
       "status": 1,
       "tags": "推理,工具,文件,开源权重,多模态,1M",
       "vendor_name": "NanoGPT"
@@ -98538,11 +98572,11 @@
       "icon": "OpenCode",
       "model_name": "gpt-6.1-sol",
       "name_rule": 0,
-      "price_per_m_cache_read": 0.2,
+      "price_per_m_cache_read": 0.1,
       "price_per_m_cache_write": 2.5,
       "price_per_m_input": 2,
       "price_per_m_output": 10,
-      "ratio_cache": 0.1,
+      "ratio_cache": 0.05,
       "ratio_completion": 5,
       "ratio_model": 1,
       "status": 1,
@@ -100144,7 +100178,7 @@
       "ratio_completion": 104.16666666666667,
       "ratio_model": 0.006,
       "status": 1,
-      "tags": "推理,工具,1.3M",
+      "tags": "推理,工具,1M",
       "vendor_name": "OpenRouter"
     },
     {
@@ -100314,7 +100348,7 @@
       "ratio_completion": 15,
       "ratio_model": 0.01,
       "status": 1,
-      "tags": "推理,工具,文件,多模态,1.3M",
+      "tags": "推理,工具,文件,多模态,1M",
       "vendor_name": "OpenRouter"
     },
     {
@@ -100323,15 +100357,15 @@
       "icon": "OpenRouter.Color",
       "model_name": "~z-ai/glm-latest",
       "name_rule": 0,
-      "price_per_m_cache_read": 0.1955,
+      "price_per_m_cache_read": 0.12,
       "price_per_m_cache_write": null,
-      "price_per_m_input": 0.1428,
-      "price_per_m_output": 2.992,
-      "ratio_cache": 1.369047619047619,
-      "ratio_completion": 20.952380952380953,
-      "ratio_model": 0.0714,
+      "price_per_m_input": 0.12,
+      "price_per_m_output": 1.5,
+      "ratio_cache": 1,
+      "ratio_completion": 12.5,
+      "ratio_model": 0.06,
       "status": 1,
-      "tags": "推理,工具,1.3M",
+      "tags": "推理,工具,1M",
       "vendor_name": "OpenRouter"
     },
     {
@@ -101207,13 +101241,13 @@
       "icon": "OpenRouter.Color",
       "model_name": "deepseek/deepseek-v4-flash",
       "name_rule": 0,
-      "price_per_m_cache_read": 0.01526,
+      "price_per_m_cache_read": 0.028,
       "price_per_m_cache_write": null,
-      "price_per_m_input": 0.0763,
-      "price_per_m_output": 0.1526,
+      "price_per_m_input": 0.14,
+      "price_per_m_output": 0.28,
       "ratio_cache": 0.19999999999999998,
       "ratio_completion": 2,
-      "ratio_model": 0.03815,
+      "ratio_model": 0.07,
       "status": 1,
       "tags": "推理,工具,开源权重,1M",
       "vendor_name": "OpenRouter"
@@ -101232,7 +101266,7 @@
       "ratio_completion": 17.77777777777778,
       "ratio_model": 0.009,
       "status": 1,
-      "tags": "推理,工具,开源权重,1.3M",
+      "tags": "推理,工具,开源权重,1M",
       "vendor_name": "OpenRouter"
     },
     {
@@ -101258,13 +101292,13 @@
       "icon": "OpenRouter.Color",
       "model_name": "deepseek/deepseek-v4-pro",
       "name_rule": 0,
-      "price_per_m_cache_read": 0.076328,
+      "price_per_m_cache_read": 0.079605,
       "price_per_m_cache_write": null,
-      "price_per_m_input": 0.915936,
-      "price_per_m_output": 1.831872,
+      "price_per_m_input": 0.95526,
+      "price_per_m_output": 1.91052,
       "ratio_cache": 0.08333333333333333,
       "ratio_completion": 2,
-      "ratio_model": 0.457968,
+      "ratio_model": 0.47763,
       "status": 1,
       "tags": "推理,工具,开源权重,1M",
       "vendor_name": "OpenRouter"
@@ -101275,13 +101309,13 @@
       "icon": "OpenRouter.Color",
       "model_name": "deepseek/deepseek-v4-pro-0813",
       "name_rule": 0,
-      "price_per_m_cache_read": 0.3153,
+      "price_per_m_cache_read": 0.044,
       "price_per_m_cache_write": null,
-      "price_per_m_input": 0.3942,
-      "price_per_m_output": 3.49,
-      "ratio_cache": 0.799847792998478,
-      "ratio_completion": 8.853373921867073,
-      "ratio_model": 0.1971,
+      "price_per_m_input": 1.32,
+      "price_per_m_output": 3.96,
+      "ratio_cache": 0.03333333333333333,
+      "ratio_completion": 3,
+      "ratio_model": 0.66,
       "status": 1,
       "tags": "推理,工具,开源权重,1M",
       "vendor_name": "OpenRouter"
@@ -102246,11 +102280,11 @@
       "name_rule": 0,
       "price_per_m_cache_read": 0.04,
       "price_per_m_cache_write": null,
-      "price_per_m_input": 0.3,
-      "price_per_m_output": 1.2,
-      "ratio_cache": 0.13333333333333333,
-      "ratio_completion": 4,
-      "ratio_model": 0.15,
+      "price_per_m_input": 0.35,
+      "price_per_m_output": 1.5,
+      "ratio_cache": 0.1142857142857143,
+      "ratio_completion": 4.285714285714286,
+      "ratio_model": 0.175,
       "status": 1,
       "tags": "推理,工具,文件,开源权重,多模态,131.1K",
       "vendor_name": "OpenRouter"
@@ -104813,11 +104847,11 @@
       "name_rule": 0,
       "price_per_m_cache_read": null,
       "price_per_m_cache_write": null,
-      "price_per_m_input": 0.12,
-      "price_per_m_output": 0.5,
+      "price_per_m_input": 0.13,
+      "price_per_m_output": 0.52,
       "ratio_cache": null,
-      "ratio_completion": 4.166666666666667,
-      "ratio_model": 0.06,
+      "ratio_completion": 4,
+      "ratio_model": 0.065,
       "status": 1,
       "tags": "推理,工具,开源权重,131.1K",
       "vendor_name": "OpenRouter"
@@ -105457,13 +105491,13 @@
       "icon": "OpenRouter.Color",
       "model_name": "qwen/qwen3.8-27b",
       "name_rule": 0,
-      "price_per_m_cache_read": 0.0199,
+      "price_per_m_cache_read": 0.085,
       "price_per_m_cache_write": null,
-      "price_per_m_input": 0.0249,
-      "price_per_m_output": 4.4,
-      "ratio_cache": 0.7991967871485944,
-      "ratio_completion": 176.70682730923699,
-      "ratio_model": 0.01245,
+      "price_per_m_input": 0.42,
+      "price_per_m_output": 3,
+      "ratio_cache": 0.2023809523809524,
+      "ratio_completion": 7.142857142857143,
+      "ratio_model": 0.21,
       "status": 1,
       "tags": "推理,工具,文件,开源权重,多模态,1M",
       "vendor_name": "OpenRouter"
@@ -105865,13 +105899,13 @@
       "icon": "OpenRouter.Color",
       "model_name": "tencent/hy3",
       "name_rule": 0,
-      "price_per_m_cache_read": 0.020625,
+      "price_per_m_cache_read": 0.033,
       "price_per_m_cache_write": null,
-      "price_per_m_input": 0.0825,
-      "price_per_m_output": 0.33,
+      "price_per_m_input": 0.132,
+      "price_per_m_output": 0.528,
       "ratio_cache": 0.25,
       "ratio_completion": 4,
-      "ratio_model": 0.04125,
+      "ratio_model": 0.066,
       "status": 1,
       "tags": "推理,工具,开源权重,262.1K",
       "vendor_name": "OpenRouter"
@@ -106494,13 +106528,13 @@
       "icon": "OpenRouter.Color",
       "model_name": "z-ai/glm-5.1",
       "name_rule": 0,
-      "price_per_m_cache_read": 0.17914,
+      "price_per_m_cache_read": 0.26,
       "price_per_m_cache_write": null,
-      "price_per_m_input": 0.9646,
-      "price_per_m_output": 3.0316,
-      "ratio_cache": 0.1857142857142857,
-      "ratio_completion": 3.142857142857143,
-      "ratio_model": 0.4823,
+      "price_per_m_input": 1.4,
+      "price_per_m_output": 4.4,
+      "ratio_cache": 0.18571428571428572,
+      "ratio_completion": 3.1428571428571432,
+      "ratio_model": 0.7,
       "status": 1,
       "tags": "推理,工具,开源权重,204.8K",
       "vendor_name": "OpenRouter"
@@ -106511,13 +106545,13 @@
       "icon": "OpenRouter.Color",
       "model_name": "z-ai/glm-5.2",
       "name_rule": 0,
-      "price_per_m_cache_read": 0.2245,
+      "price_per_m_cache_read": 0.1391,
       "price_per_m_cache_write": null,
-      "price_per_m_input": 0.2807,
+      "price_per_m_input": 0.1739,
       "price_per_m_output": 3.99,
-      "ratio_cache": 0.7997862486640541,
-      "ratio_completion": 14.214463840399002,
-      "ratio_model": 0.14035,
+      "ratio_cache": 0.7998849913743531,
+      "ratio_completion": 22.944220816561245,
+      "ratio_model": 0.08695,
       "status": 1,
       "tags": "推理,工具,开源权重,1M",
       "vendor_name": "OpenRouter"
@@ -106536,7 +106570,7 @@
       "ratio_completion": 3.1428571428571432,
       "ratio_model": 0.7,
       "status": 1,
-      "tags": "推理,工具,开源权重,1.3M",
+      "tags": "推理,工具,开源权重,1M",
       "vendor_name": "OpenRouter"
     },
     {
@@ -106553,7 +106587,7 @@
       "ratio_completion": 3.3333333333333335,
       "ratio_model": 0.075,
       "status": 1,
-      "tags": "推理,工具,文件,开源权重,多模态,1.3M",
+      "tags": "推理,工具,文件,开源权重,多模态,1M",
       "vendor_name": "OpenRouter"
     },
     {
@@ -117488,6 +117522,40 @@
       "vendor_name": "Requesty"
     },
     {
+      "description": "Fast Claude model for everyday coding, agents, and knowledge work",
+      "endpoints": null,
+      "icon": "Requesty",
+      "model_name": "claude-sonnet-5-5",
+      "name_rule": 0,
+      "price_per_m_cache_read": 0.2,
+      "price_per_m_cache_write": 2.5,
+      "price_per_m_input": 2,
+      "price_per_m_output": 10,
+      "ratio_cache": 0.1,
+      "ratio_completion": 5,
+      "ratio_model": 1,
+      "status": 1,
+      "tags": "推理,工具,文件,多模态,1M",
+      "vendor_name": "Requesty"
+    },
+    {
+      "description": "Fast Claude model for everyday coding, agents, and knowledge work",
+      "endpoints": null,
+      "icon": "Requesty",
+      "model_name": "claude-sonnet-5-5@eu",
+      "name_rule": 0,
+      "price_per_m_cache_read": 0.22,
+      "price_per_m_cache_write": 2.75,
+      "price_per_m_input": 2.2,
+      "price_per_m_output": 11,
+      "ratio_cache": 0.09999999999999999,
+      "ratio_completion": 5,
+      "ratio_model": 1.1,
+      "status": 1,
+      "tags": "推理,工具,文件,多模态,1M",
+      "vendor_name": "Requesty"
+    },
+    {
       "description": "Everyday Claude agent model for coding, planning, browsing, and general work",
       "endpoints": null,
       "icon": "Requesty",
@@ -125033,7 +125101,7 @@
       "ratio_model": 5,
       "status": 1,
       "tags": "推理,工具,文件,多模态,1M",
-      "vendor_name": "Tempr"
+      "vendor_name": "Tempr Gateway"
     },
     {
       "description": "Claude model for demanding reasoning and long-horizon agentic work",
@@ -125050,7 +125118,7 @@
       "ratio_model": 5,
       "status": 1,
       "tags": "推理,工具,文件,多模态,1M",
-      "vendor_name": "Tempr"
+      "vendor_name": "Tempr Gateway"
     },
     {
       "description": "Fast Claude lane for lightweight agents, office tasks, and responsive chat",
@@ -125067,7 +125135,7 @@
       "ratio_model": 0.5,
       "status": 1,
       "tags": "推理,工具,文件,多模态,200K",
-      "vendor_name": "Tempr"
+      "vendor_name": "Tempr Gateway"
     },
     {
       "description": "Fast Claude model for responsive assistance, classification, and lightweight agents",
@@ -125084,7 +125152,7 @@
       "ratio_model": 0.5,
       "status": 1,
       "tags": "推理,工具,文件,多模态,200K",
-      "vendor_name": "Tempr"
+      "vendor_name": "Tempr Gateway"
     },
     {
       "description": "Flagship Claude model for deep reasoning, coding, and long-horizon agents",
@@ -125101,7 +125169,7 @@
       "ratio_model": 2.5,
       "status": 1,
       "tags": "推理,工具,文件,多模态,200K",
-      "vendor_name": "Tempr"
+      "vendor_name": "Tempr Gateway"
     },
     {
       "description": "Flagship Claude model for deep reasoning, coding, and long-horizon agents",
@@ -125118,7 +125186,7 @@
       "ratio_model": 2.5,
       "status": 1,
       "tags": "推理,工具,文件,多模态,200K",
-      "vendor_name": "Tempr"
+      "vendor_name": "Tempr Gateway"
     },
     {
       "description": "High-end Claude for difficult coding, planning, and slower expert reasoning",
@@ -125135,7 +125203,7 @@
       "ratio_model": 2.5,
       "status": 1,
       "tags": "推理,工具,文件,多模态,1M",
-      "vendor_name": "Tempr"
+      "vendor_name": "Tempr Gateway"
     },
     {
       "description": "Stronger Opus tier for advanced software work and high-stakes reasoning",
@@ -125152,7 +125220,7 @@
       "ratio_model": 2.5,
       "status": 1,
       "tags": "推理,工具,文件,多模态,1M",
-      "vendor_name": "Tempr"
+      "vendor_name": "Tempr Gateway"
     },
     {
       "description": "Top Claude Opus tier for the hardest reasoning, coding, and long-horizon agents",
@@ -125169,7 +125237,7 @@
       "ratio_model": 2.5,
       "status": 1,
       "tags": "推理,工具,文件,多模态,1M",
-      "vendor_name": "Tempr"
+      "vendor_name": "Tempr Gateway"
     },
     {
       "description": "Strongest Claude Opus model for coding, agents, and professional work",
@@ -125186,7 +125254,7 @@
       "ratio_model": 2.5,
       "status": 1,
       "tags": "推理,工具,文件,多模态,1M",
-      "vendor_name": "Tempr"
+      "vendor_name": "Tempr Gateway"
     },
     {
       "description": "Balanced Claude model for coding, analysis, agent workflows, and cost control",
@@ -125203,7 +125271,7 @@
       "ratio_model": 1.5,
       "status": 1,
       "tags": "推理,工具,文件,多模态,200K",
-      "vendor_name": "Tempr"
+      "vendor_name": "Tempr Gateway"
     },
     {
       "description": "Balanced Claude model for coding, analysis, agent workflows, and cost control",
@@ -125220,7 +125288,7 @@
       "ratio_model": 1.5,
       "status": 1,
       "tags": "推理,工具,文件,多模态,200K",
-      "vendor_name": "Tempr"
+      "vendor_name": "Tempr Gateway"
     },
     {
       "description": "Claude workhorse for coding agents, careful analysis, and production cost control",
@@ -125237,7 +125305,7 @@
       "ratio_model": 1.5,
       "status": 1,
       "tags": "推理,工具,文件,多模态,1M",
-      "vendor_name": "Tempr"
+      "vendor_name": "Tempr Gateway"
     },
     {
       "description": "Everyday Claude agent model for coding, planning, browsing, and general work",
@@ -125254,7 +125322,7 @@
       "ratio_model": 1,
       "status": 1,
       "tags": "推理,工具,文件,多模态,1M",
-      "vendor_name": "Tempr"
+      "vendor_name": "Tempr Gateway"
     },
     {
       "description": "Open GPT reasoning model for self-hosted agents and controllable deployments",
@@ -125271,7 +125339,7 @@
       "ratio_model": 0.175,
       "status": 1,
       "tags": "推理,工具,开源权重,131.1K",
-      "vendor_name": "Tempr"
+      "vendor_name": "Tempr Gateway"
     },
     {
       "description": "Dense 27B vision-language model for coding, agent tasks, and image and video understanding",
@@ -125288,7 +125356,41 @@
       "ratio_model": 0.495,
       "status": 1,
       "tags": "推理,工具,文件,开源权重,多模态,131.1K",
-      "vendor_name": "Tempr"
+      "vendor_name": "Tempr Gateway"
+    },
+    {
+      "description": "DeepSeek V4.1 Flash model for reasoning and agentic coding",
+      "endpoints": null,
+      "icon": "",
+      "model_name": "deepseek/deepseek-flash",
+      "name_rule": 0,
+      "price_per_m_cache_read": 0.003,
+      "price_per_m_cache_write": null,
+      "price_per_m_input": 0.15,
+      "price_per_m_output": 0.6,
+      "ratio_cache": 0.02,
+      "ratio_completion": 4,
+      "ratio_model": 0.075,
+      "status": 1,
+      "tags": "推理,工具,文件,开源权重,多模态,1M",
+      "vendor_name": "Tempr Gateway"
+    },
+    {
+      "description": "DeepSeek V4 Pro snapshot with million-token context and support for thinking and non-thinking modes",
+      "endpoints": null,
+      "icon": "",
+      "model_name": "deepseek/deepseek-v4-pro",
+      "name_rule": 0,
+      "price_per_m_cache_read": 0.022,
+      "price_per_m_cache_write": null,
+      "price_per_m_input": 0.66,
+      "price_per_m_output": 1.98,
+      "ratio_cache": 0.03333333333333333,
+      "ratio_completion": 3,
+      "ratio_model": 0.33,
+      "status": 1,
+      "tags": "推理,工具,开源权重,1M",
+      "vendor_name": "Tempr Gateway"
     },
     {
       "description": "New Gemini flash lane bringing frontier-style multimodal reasoning to cheaper runs",
@@ -125305,7 +125407,7 @@
       "ratio_model": 0.5,
       "status": 1,
       "tags": "推理,工具,文件,多模态,音频,1M",
-      "vendor_name": "Tempr"
+      "vendor_name": "Tempr Gateway"
     },
     {
       "description": "Low-latency Gemini model for high-volume multimodal and agent workloads",
@@ -125322,7 +125424,7 @@
       "ratio_model": 0.25,
       "status": 1,
       "tags": "推理,工具,文件,多模态,音频,1M",
-      "vendor_name": "Tempr"
+      "vendor_name": "Tempr Gateway"
     },
     {
       "description": "Reasoning-first Gemini preview for agentic coding and complex problem solving",
@@ -125339,7 +125441,7 @@
       "ratio_model": 1,
       "status": 1,
       "tags": "推理,工具,文件,多模态,音频,1M",
-      "vendor_name": "Tempr"
+      "vendor_name": "Tempr Gateway"
     },
     {
       "description": "Advanced Gemini model for complex reasoning, coding, and multimodal analysis",
@@ -125356,7 +125458,7 @@
       "ratio_model": 1,
       "status": 1,
       "tags": "推理,工具,文件,多模态,音频,1M",
-      "vendor_name": "Tempr"
+      "vendor_name": "Tempr Gateway"
     },
     {
       "description": "Fast Gemini model balancing multimodal reasoning, tool use, and cost",
@@ -125373,7 +125475,7 @@
       "ratio_model": 0.75,
       "status": 1,
       "tags": "推理,工具,文件,多模态,音频,1M",
-      "vendor_name": "Tempr"
+      "vendor_name": "Tempr Gateway"
     },
     {
       "description": "Fast Gemini model balancing multimodal reasoning, tool use, and cost",
@@ -125390,7 +125492,7 @@
       "ratio_model": 0.15,
       "status": 1,
       "tags": "推理,工具,文件,多模态,音频,1M",
-      "vendor_name": "Tempr"
+      "vendor_name": "Tempr Gateway"
     },
     {
       "description": "Fast Gemini model balancing multimodal reasoning, tool use, and cost",
@@ -125407,7 +125509,7 @@
       "ratio_model": 0.375,
       "status": 1,
       "tags": "推理,工具,文件,多模态,音频,1M",
-      "vendor_name": "Tempr"
+      "vendor_name": "Tempr Gateway"
     },
     {
       "description": "High-efficiency Gemini model for agentic workflows, coding, and multimodal reasoning",
@@ -125424,7 +125526,7 @@
       "ratio_model": 0.375,
       "status": 1,
       "tags": "推理,工具,文件,多模态,音频,1M",
-      "vendor_name": "Tempr"
+      "vendor_name": "Tempr Gateway"
     },
     {
       "description": "Google's most intelligent Flash model, engineered for long-horizon software engineering, autonomous agents, and complex enterprise workflows",
@@ -125441,7 +125543,7 @@
       "ratio_model": 0.375,
       "status": 1,
       "tags": "推理,工具,文件,多模态,音频,1M",
-      "vendor_name": "Tempr"
+      "vendor_name": "Tempr Gateway"
     },
     {
       "description": "Embedding model for semantic search, retrieval, clustering, and ranking pipelines",
@@ -125458,7 +125560,7 @@
       "ratio_model": 0.075,
       "status": 1,
       "tags": "2K",
-      "vendor_name": "Tempr"
+      "vendor_name": "Tempr Gateway"
     },
     {
       "description": "Multimodal embedding model mapping text, images, video, audio, and PDFs into a unified embedding space",
@@ -125475,7 +125577,7 @@
       "ratio_model": 0.1,
       "status": 1,
       "tags": "8.2K",
-      "vendor_name": "Tempr"
+      "vendor_name": "Tempr Gateway"
     },
     {
       "description": "High-efficiency Gemini model for agentic workflows, coding, and multimodal reasoning",
@@ -125492,7 +125594,7 @@
       "ratio_model": 0.375,
       "status": 1,
       "tags": "推理,工具,文件,多模态,音频,1M",
-      "vendor_name": "Tempr"
+      "vendor_name": "Tempr Gateway"
     },
     {
       "description": "Fast Gemini model balancing multimodal reasoning, tool use, and cost",
@@ -125509,7 +125611,7 @@
       "ratio_model": 0.15,
       "status": 1,
       "tags": "推理,工具,文件,多模态,音频,1M",
-      "vendor_name": "Tempr"
+      "vendor_name": "Tempr Gateway"
     },
     {
       "description": "Open Gemma instruction model for efficient chat and self-hosted deployments",
@@ -125526,7 +125628,7 @@
       "ratio_model": null,
       "status": 1,
       "tags": "推理,工具,文件,开源权重,多模态,262.1K",
-      "vendor_name": "Tempr"
+      "vendor_name": "Tempr Gateway"
     },
     {
       "description": "Largest Gemma 4 instruction model for open, self-hosted chat and reasoning",
@@ -125543,7 +125645,7 @@
       "ratio_model": null,
       "status": 1,
       "tags": "推理,工具,文件,开源权重,多模态,262.1K",
-      "vendor_name": "Tempr"
+      "vendor_name": "Tempr Gateway"
     },
     {
       "description": "ALLaM-2-7b instruction tuned model by SDAIA",
@@ -125560,7 +125662,7 @@
       "ratio_model": null,
       "status": 1,
       "tags": "开源权重,4.1K",
-      "vendor_name": "Tempr"
+      "vendor_name": "Tempr Gateway"
     },
     {
       "description": "Open GPT reasoning model for self-hosted agents and controllable deployments",
@@ -125577,7 +125679,7 @@
       "ratio_model": 0.075,
       "status": 1,
       "tags": "推理,工具,开源权重,131.1K",
-      "vendor_name": "Tempr"
+      "vendor_name": "Tempr Gateway"
     },
     {
       "description": "Open GPT reasoning model for self-hosted agents and controllable deployments",
@@ -125594,7 +125696,7 @@
       "ratio_model": 0.0375,
       "status": 1,
       "tags": "推理,工具,开源权重,131.1K",
-      "vendor_name": "Tempr"
+      "vendor_name": "Tempr Gateway"
     },
     {
       "description": "Dense 27B vision-language model for coding, agent tasks, and image and video understanding",
@@ -125611,7 +125713,58 @@
       "ratio_model": 0.4,
       "status": 1,
       "tags": "推理,工具,文件,开源权重,多模态,131K",
-      "vendor_name": "Tempr"
+      "vendor_name": "Tempr Gateway"
+    },
+    {
+      "description": "Open MiniMax flagship for coding agents, office automation, and complex environments",
+      "endpoints": null,
+      "icon": "",
+      "model_name": "minimax/MiniMax-M2.7",
+      "name_rule": 0,
+      "price_per_m_cache_read": 0.06,
+      "price_per_m_cache_write": 0.375,
+      "price_per_m_input": 0.3,
+      "price_per_m_output": 1.2,
+      "ratio_cache": 0.2,
+      "ratio_completion": 4,
+      "ratio_model": 0.15,
+      "status": 1,
+      "tags": "推理,工具,开源权重,204.8K",
+      "vendor_name": "Tempr Gateway"
+    },
+    {
+      "description": "Low-latency M2.7 variant for interactive coding plans and agent loops",
+      "endpoints": null,
+      "icon": "",
+      "model_name": "minimax/MiniMax-M2.7-highspeed",
+      "name_rule": 0,
+      "price_per_m_cache_read": 0.06,
+      "price_per_m_cache_write": 0.375,
+      "price_per_m_input": 0.6,
+      "price_per_m_output": 2.4,
+      "ratio_cache": 0.1,
+      "ratio_completion": 4,
+      "ratio_model": 0.3,
+      "status": 1,
+      "tags": "推理,工具,开源权重,204.8K",
+      "vendor_name": "Tempr Gateway"
+    },
+    {
+      "description": "MiniMax multimodal model for long-context coding, perception, and agent planning",
+      "endpoints": null,
+      "icon": "",
+      "model_name": "minimax/MiniMax-M3",
+      "name_rule": 0,
+      "price_per_m_cache_read": 0.06,
+      "price_per_m_cache_write": null,
+      "price_per_m_input": 0.3,
+      "price_per_m_output": 1.2,
+      "ratio_cache": 0.2,
+      "ratio_completion": 4,
+      "ratio_model": 0.15,
+      "status": 1,
+      "tags": "推理,工具,文件,开源权重,多模态,1M",
+      "vendor_name": "Tempr Gateway"
     },
     {
       "description": "Embedding model for semantic search, retrieval, clustering, and ranking pipelines",
@@ -125628,7 +125781,7 @@
       "ratio_model": 0.05,
       "status": 1,
       "tags": "8K",
-      "vendor_name": "Tempr"
+      "vendor_name": "Tempr Gateway"
     },
     {
       "description": "Mistral's largest general model for enterprise agents, coding, and multilingual reasoning",
@@ -125645,7 +125798,7 @@
       "ratio_model": 0.25,
       "status": 1,
       "tags": "工具,文件,开源权重,多模态,262.1K",
-      "vendor_name": "Tempr"
+      "vendor_name": "Tempr Gateway"
     },
     {
       "description": "Flagship Mistral model for advanced reasoning, coding, and multilingual work",
@@ -125662,7 +125815,7 @@
       "ratio_model": 0.25,
       "status": 1,
       "tags": "工具,文件,开源权重,多模态,262.1K",
-      "vendor_name": "Tempr"
+      "vendor_name": "Tempr Gateway"
     },
     {
       "description": "Balanced Mistral model for enterprise assistants, multilingual work, and tools",
@@ -125679,7 +125832,7 @@
       "ratio_model": 0.75,
       "status": 1,
       "tags": "推理,工具,文件,开源权重,多模态,262.1K",
-      "vendor_name": "Tempr"
+      "vendor_name": "Tempr Gateway"
     },
     {
       "description": "Balanced Mistral model for enterprise assistants, multilingual work, and tools",
@@ -125696,7 +125849,7 @@
       "ratio_model": 0.75,
       "status": 1,
       "tags": "推理,工具,文件,开源权重,多模态,262.1K",
-      "vendor_name": "Tempr"
+      "vendor_name": "Tempr Gateway"
     },
     {
       "description": "Fast Mistral production model for chat, extraction, and cost-sensitive agents",
@@ -125713,7 +125866,7 @@
       "ratio_model": 0.075,
       "status": 1,
       "tags": "推理,工具,文件,开源权重,多模态,256K",
-      "vendor_name": "Tempr"
+      "vendor_name": "Tempr Gateway"
     },
     {
       "description": "Efficient Mistral model for fast chat, extraction, and production assistants",
@@ -125730,7 +125883,7 @@
       "ratio_model": 0.075,
       "status": 1,
       "tags": "推理,工具,文件,开源权重,多模态,256K",
-      "vendor_name": "Tempr"
+      "vendor_name": "Tempr Gateway"
     },
     {
       "description": "Instruct model with native audio input for speech understanding and tool use",
@@ -125747,7 +125900,7 @@
       "ratio_model": 0.05,
       "status": 1,
       "tags": "工具,文件,开源权重,音频,32K",
-      "vendor_name": "Tempr"
+      "vendor_name": "Tempr Gateway"
     },
     {
       "description": "Open flagship GLM for long-horizon coding agents and million-token context work",
@@ -125764,7 +125917,7 @@
       "ratio_model": 0.7,
       "status": 1,
       "tags": "推理,工具,开源权重,1M",
-      "vendor_name": "Tempr"
+      "vendor_name": "Tempr Gateway"
     },
     {
       "description": "Flagship GLM model for long-horizon coding, agents, and complex project delivery",
@@ -125781,7 +125934,245 @@
       "ratio_model": 0.7,
       "status": 1,
       "tags": "推理,工具,开源权重,1M",
-      "vendor_name": "Tempr"
+      "vendor_name": "Tempr Gateway"
+    },
+    {
+      "description": "Multimodal Kimi workhorse for agent loops, coding tasks, and visual context",
+      "endpoints": null,
+      "icon": "",
+      "model_name": "moonshot/kimi-k2.6",
+      "name_rule": 0,
+      "price_per_m_cache_read": 0.16,
+      "price_per_m_cache_write": null,
+      "price_per_m_input": 0.95,
+      "price_per_m_output": 4,
+      "ratio_cache": 0.16842105263157897,
+      "ratio_completion": 4.2105263157894735,
+      "ratio_model": 0.475,
+      "status": 1,
+      "tags": "推理,工具,文件,开源权重,多模态,262.1K",
+      "vendor_name": "Tempr Gateway"
+    },
+    {
+      "description": "Coding-focused Kimi model, stronger on long-horizon repo work with less overthinking",
+      "endpoints": null,
+      "icon": "",
+      "model_name": "moonshot/kimi-k2.7-code",
+      "name_rule": 0,
+      "price_per_m_cache_read": 0.19,
+      "price_per_m_cache_write": null,
+      "price_per_m_input": 0.95,
+      "price_per_m_output": 4,
+      "ratio_cache": 0.2,
+      "ratio_completion": 4.2105263157894735,
+      "ratio_model": 0.475,
+      "status": 1,
+      "tags": "推理,工具,文件,开源权重,多模态,262.1K",
+      "vendor_name": "Tempr Gateway"
+    },
+    {
+      "description": "Lower-latency Kimi Code variant for interactive edits and coding-agent loops",
+      "endpoints": null,
+      "icon": "",
+      "model_name": "moonshot/kimi-k2.7-code-highspeed",
+      "name_rule": 0,
+      "price_per_m_cache_read": 0.38,
+      "price_per_m_cache_write": null,
+      "price_per_m_input": 1.9,
+      "price_per_m_output": 8,
+      "ratio_cache": 0.2,
+      "ratio_completion": 4.2105263157894735,
+      "ratio_model": 0.95,
+      "status": 1,
+      "tags": "推理,工具,文件,开源权重,多模态,262.1K",
+      "vendor_name": "Tempr Gateway"
+    },
+    {
+      "description": "Multimodal Kimi model with 1M context and toggleable max-effort thinking for long-horizon agent work",
+      "endpoints": null,
+      "icon": "",
+      "model_name": "moonshot/kimi-k3",
+      "name_rule": 0,
+      "price_per_m_cache_read": 0.3,
+      "price_per_m_cache_write": null,
+      "price_per_m_input": 3,
+      "price_per_m_output": 15,
+      "ratio_cache": 0.09999999999999999,
+      "ratio_completion": 5,
+      "ratio_model": 1.5,
+      "status": 1,
+      "tags": "推理,工具,文件,开源权重,多模态,1M",
+      "vendor_name": "Tempr Gateway"
+    },
+    {
+      "description": "Grok model for agentic tool use, reasoning, coding, and live assistance",
+      "endpoints": null,
+      "icon": "",
+      "model_name": "xai/grok-4.20-0309-non-reasoning",
+      "name_rule": 0,
+      "price_per_m_cache_read": 0.2,
+      "price_per_m_cache_write": null,
+      "price_per_m_input": 1.25,
+      "price_per_m_output": 2.5,
+      "ratio_cache": 0.16,
+      "ratio_completion": 2,
+      "ratio_model": 0.625,
+      "status": 1,
+      "tags": "工具,文件,多模态,1M",
+      "vendor_name": "Tempr Gateway"
+    },
+    {
+      "description": "Reasoning Grok for document-heavy analysis and long-horizon tool use",
+      "endpoints": null,
+      "icon": "",
+      "model_name": "xai/grok-4.20-0309-reasoning",
+      "name_rule": 0,
+      "price_per_m_cache_read": 0.2,
+      "price_per_m_cache_write": null,
+      "price_per_m_input": 1.25,
+      "price_per_m_output": 2.5,
+      "ratio_cache": 0.16,
+      "ratio_completion": 2,
+      "ratio_model": 0.625,
+      "status": 1,
+      "tags": "推理,工具,文件,多模态,1M",
+      "vendor_name": "Tempr Gateway"
+    },
+    {
+      "description": "xAI's default Grok for chat, coding, agentic tools, and lower hallucination risk",
+      "endpoints": null,
+      "icon": "",
+      "model_name": "xai/grok-4.3",
+      "name_rule": 0,
+      "price_per_m_cache_read": 0.2,
+      "price_per_m_cache_write": null,
+      "price_per_m_input": 1.25,
+      "price_per_m_output": 2.5,
+      "ratio_cache": 0.16,
+      "ratio_completion": 2,
+      "ratio_model": 0.625,
+      "status": 1,
+      "tags": "推理,工具,文件,多模态,1M",
+      "vendor_name": "Tempr Gateway"
+    },
+    {
+      "description": "xAI's Grok model for chat, coding, agentic tools, and lower hallucination risk",
+      "endpoints": null,
+      "icon": "",
+      "model_name": "xai/grok-4.5",
+      "name_rule": 0,
+      "price_per_m_cache_read": 0.3,
+      "price_per_m_cache_write": null,
+      "price_per_m_input": 2,
+      "price_per_m_output": 6,
+      "ratio_cache": 0.15,
+      "ratio_completion": 3,
+      "ratio_model": 1,
+      "status": 1,
+      "tags": "推理,工具,文件,多模态,500K",
+      "vendor_name": "Tempr Gateway"
+    },
+    {
+      "description": "xAI's frontier model for long-running agents, coding, knowledge work, and visual projects",
+      "endpoints": null,
+      "icon": "",
+      "model_name": "xai/grok-4.6",
+      "name_rule": 0,
+      "price_per_m_cache_read": 0.5,
+      "price_per_m_cache_write": null,
+      "price_per_m_input": 2,
+      "price_per_m_output": 6,
+      "ratio_cache": 0.25,
+      "ratio_completion": 3,
+      "ratio_model": 1,
+      "status": 1,
+      "tags": "推理,工具,文件,多模态,500K",
+      "vendor_name": "Tempr Gateway"
+    },
+    {
+      "description": "xAI's frontier model for long-running agents, coding, knowledge work, and visual projects",
+      "endpoints": null,
+      "icon": "",
+      "model_name": "xai/grok-4.7",
+      "name_rule": 0,
+      "price_per_m_cache_read": 0.5,
+      "price_per_m_cache_write": null,
+      "price_per_m_input": 2,
+      "price_per_m_output": 6,
+      "ratio_cache": 0.25,
+      "ratio_completion": 3,
+      "ratio_model": 1,
+      "status": 1,
+      "tags": "推理,工具,文件,多模态,500K",
+      "vendor_name": "Tempr Gateway"
+    },
+    {
+      "description": "Fast Grok coding model tuned for agentic engineering and iterative edits",
+      "endpoints": null,
+      "icon": "",
+      "model_name": "xai/grok-build-0.1",
+      "name_rule": 0,
+      "price_per_m_cache_read": 0.2,
+      "price_per_m_cache_write": null,
+      "price_per_m_input": 1,
+      "price_per_m_output": 2,
+      "ratio_cache": 0.2,
+      "ratio_completion": 2,
+      "ratio_model": 0.5,
+      "status": 1,
+      "tags": "推理,工具,文件,多模态,256K",
+      "vendor_name": "Tempr Gateway"
+    },
+    {
+      "description": "MiMo Flash model for multimodal coding agents and long-context automation",
+      "endpoints": null,
+      "icon": "",
+      "model_name": "xiaomi-mimo/mimo-v2.6-flash",
+      "name_rule": 0,
+      "price_per_m_cache_read": 0.0028,
+      "price_per_m_cache_write": null,
+      "price_per_m_input": 0.14,
+      "price_per_m_output": 0.28,
+      "ratio_cache": 0.019999999999999997,
+      "ratio_completion": 2,
+      "ratio_model": 0.07,
+      "status": 1,
+      "tags": "推理,工具,文件,开源权重,多模态,音频,1M",
+      "vendor_name": "Tempr Gateway"
+    },
+    {
+      "description": "Stronger MiMo Pro tier for multimodal reasoning and coding-agent execution",
+      "endpoints": null,
+      "icon": "",
+      "model_name": "xiaomi-mimo/mimo-v2.6-pro",
+      "name_rule": 0,
+      "price_per_m_cache_read": 0.0036,
+      "price_per_m_cache_write": null,
+      "price_per_m_input": 0.435,
+      "price_per_m_output": 0.87,
+      "ratio_cache": 0.008275862068965517,
+      "ratio_completion": 2,
+      "ratio_model": 0.2175,
+      "status": 1,
+      "tags": "推理,工具,文件,开源权重,多模态,音频,1M",
+      "vendor_name": "Tempr Gateway"
+    },
+    {
+      "description": "MiMo pro model for strong multimodal reasoning and agent execution",
+      "endpoints": null,
+      "icon": "",
+      "model_name": "xiaomi-mimo/mimo-v2.6-pro-ultraspeed",
+      "name_rule": 0,
+      "price_per_m_cache_read": 0.036,
+      "price_per_m_cache_write": null,
+      "price_per_m_input": 4.35,
+      "price_per_m_output": 8.7,
+      "ratio_cache": 0.008275862068965517,
+      "ratio_completion": 2,
+      "ratio_model": 2.175,
+      "status": 1,
+      "tags": "推理,工具,文件,开源权重,多模态,音频,1M",
+      "vendor_name": "Tempr Gateway"
     },
     {
       "description": "Hybrid-reasoning GLM release that made the 4.5 line broadly useful",
@@ -125798,7 +126189,7 @@
       "ratio_model": 0.3,
       "status": 1,
       "tags": "推理,工具,开源权重,131.1K",
-      "vendor_name": "Tempr"
+      "vendor_name": "Tempr Gateway"
     },
     {
       "description": "Lighter GLM-4.5 variant for fast coding assistance and cheaper agents",
@@ -125815,7 +126206,7 @@
       "ratio_model": 0.1,
       "status": 1,
       "tags": "推理,工具,开源权重,131.1K",
-      "vendor_name": "Tempr"
+      "vendor_name": "Tempr Gateway"
     },
     {
       "description": "Efficient GLM model for fast reasoning, coding, and agent workflows",
@@ -125832,7 +126223,7 @@
       "ratio_model": null,
       "status": 1,
       "tags": "推理,工具,131.1K",
-      "vendor_name": "Tempr"
+      "vendor_name": "Tempr Gateway"
     },
     {
       "description": "GLM vision model for visual reasoning, documents, and multimodal agents",
@@ -125849,7 +126240,7 @@
       "ratio_model": 0.3,
       "status": 1,
       "tags": "推理,工具,文件,开源权重,多模态,64K",
-      "vendor_name": "Tempr"
+      "vendor_name": "Tempr Gateway"
     },
     {
       "description": "Late GLM-4 workhorse for coding agents, reasoning, and structured tasks",
@@ -125866,7 +126257,7 @@
       "ratio_model": 0.3,
       "status": 1,
       "tags": "推理,工具,开源权重,204.8K",
-      "vendor_name": "Tempr"
+      "vendor_name": "Tempr Gateway"
     },
     {
       "description": "GLM vision model for visual reasoning, documents, and multimodal agents",
@@ -125883,7 +126274,7 @@
       "ratio_model": 0.15,
       "status": 1,
       "tags": "推理,工具,文件,开源权重,多模态,128K",
-      "vendor_name": "Tempr"
+      "vendor_name": "Tempr Gateway"
     },
     {
       "description": "Lightweight GLM vision model for visual reasoning, documents, and multimodal agents",
@@ -125900,7 +126291,7 @@
       "ratio_model": null,
       "status": 1,
       "tags": "推理,工具,文件,开源权重,多模态,128K",
-      "vendor_name": "Tempr"
+      "vendor_name": "Tempr Gateway"
     },
     {
       "description": "Mature GLM model for dependable coding, reasoning, and structured agent tasks",
@@ -125917,7 +126308,7 @@
       "ratio_model": 0.3,
       "status": 1,
       "tags": "推理,工具,开源权重,204.8K",
-      "vendor_name": "Tempr"
+      "vendor_name": "Tempr Gateway"
     },
     {
       "description": "Budget GLM lane for fast coding help, routing, and everyday automation",
@@ -125934,7 +126325,7 @@
       "ratio_model": null,
       "status": 1,
       "tags": "推理,工具,开源权重,200K",
-      "vendor_name": "Tempr"
+      "vendor_name": "Tempr Gateway"
     },
     {
       "description": "Efficient GLM model for fast reasoning, coding, and agent workflows",
@@ -125951,7 +126342,7 @@
       "ratio_model": 0.035,
       "status": 1,
       "tags": "推理,工具,开源权重,200K",
-      "vendor_name": "Tempr"
+      "vendor_name": "Tempr Gateway"
     },
     {
       "description": "General GLM flagship for coding, analysis, and tool-heavy engineering workflows",
@@ -125968,7 +126359,7 @@
       "ratio_model": 0.5,
       "status": 1,
       "tags": "推理,工具,开源权重,204.8K",
-      "vendor_name": "Tempr"
+      "vendor_name": "Tempr Gateway"
     },
     {
       "description": "Faster GLM-5 lane for coding agents that need lower latency",
@@ -125985,7 +126376,7 @@
       "ratio_model": 0.6,
       "status": 1,
       "tags": "推理,工具,200K",
-      "vendor_name": "Tempr"
+      "vendor_name": "Tempr Gateway"
     },
     {
       "description": "Strong GLM coding model for agentic engineering, terminals, and repository generation",
@@ -126002,7 +126393,7 @@
       "ratio_model": 0.7,
       "status": 1,
       "tags": "推理,工具,开源权重,200K",
-      "vendor_name": "Tempr"
+      "vendor_name": "Tempr Gateway"
     },
     {
       "description": "Open flagship GLM for long-horizon coding agents and million-token context work",
@@ -126019,7 +126410,7 @@
       "ratio_model": 0.7,
       "status": 1,
       "tags": "推理,工具,开源权重,1M",
-      "vendor_name": "Tempr"
+      "vendor_name": "Tempr Gateway"
     },
     {
       "description": "Flagship GLM model for long-horizon coding, agents, and complex project delivery",
@@ -126036,7 +126427,7 @@
       "ratio_model": 0.7,
       "status": 1,
       "tags": "推理,工具,开源权重,1M",
-      "vendor_name": "Tempr"
+      "vendor_name": "Tempr Gateway"
     },
     {
       "description": "Native multimodal GLM model for efficient coding and long-horizon agent tasks",
@@ -126053,7 +126444,7 @@
       "ratio_model": 0.075,
       "status": 1,
       "tags": "推理,工具,文件,开源权重,多模态,1M",
-      "vendor_name": "Tempr"
+      "vendor_name": "Tempr Gateway"
     },
     {
       "description": "High-speed GLM-5.3-Flash serving option for coding and agent workflows",
@@ -126070,7 +126461,7 @@
       "ratio_model": 0.185,
       "status": 1,
       "tags": "推理,工具,文件,开源权重,多模态,1M",
-      "vendor_name": "Tempr"
+      "vendor_name": "Tempr Gateway"
     },
     {
       "description": "Fast GLM vision model for screenshots, documents, and multimodal agent tasks",
@@ -126087,7 +126478,7 @@
       "ratio_model": 0.6,
       "status": 1,
       "tags": "推理,工具,文件,多模态,200K",
-      "vendor_name": "Tempr"
+      "vendor_name": "Tempr Gateway"
     },
     {
       "description": "Flagship GLM model for hybrid reasoning, coding, and agentic engineering",
@@ -133556,6 +133947,40 @@
       "description": "Efficient model for low-latency assistance, extraction, and routine automation",
       "endpoints": null,
       "icon": "Vercel.Color",
+      "model_name": "inclusionai/ling-3.1-flash",
+      "name_rule": 0,
+      "price_per_m_cache_read": null,
+      "price_per_m_cache_write": null,
+      "price_per_m_input": null,
+      "price_per_m_output": null,
+      "ratio_cache": null,
+      "ratio_completion": null,
+      "ratio_model": null,
+      "status": 1,
+      "tags": "推理,工具,262.1K",
+      "vendor_name": "Vercel AI Gateway"
+    },
+    {
+      "description": "Efficient model for low-latency assistance, extraction, and routine automation",
+      "endpoints": null,
+      "icon": "Vercel.Color",
+      "model_name": "inclusionai/ling-3.1-flash-free",
+      "name_rule": 0,
+      "price_per_m_cache_read": null,
+      "price_per_m_cache_write": null,
+      "price_per_m_input": null,
+      "price_per_m_output": null,
+      "ratio_cache": null,
+      "ratio_completion": null,
+      "ratio_model": null,
+      "status": 1,
+      "tags": "推理,工具,262.1K",
+      "vendor_name": "Vercel AI Gateway"
+    },
+    {
+      "description": "Efficient model for low-latency assistance, extraction, and routine automation",
+      "endpoints": null,
+      "icon": "Vercel.Color",
       "model_name": "inference-net/schematron-v2-small",
       "name_rule": 0,
       "price_per_m_cache_read": 0.05,
@@ -133737,6 +134162,23 @@
       "ratio_model": null,
       "status": 1,
       "tags": "",
+      "vendor_name": "Vercel AI Gateway"
+    },
+    {
+      "description": "General-purpose chat model for instruction following, writing, and analysis",
+      "endpoints": null,
+      "icon": "Vercel.Color",
+      "model_name": "liquid/d1",
+      "name_rule": 0,
+      "price_per_m_cache_read": null,
+      "price_per_m_cache_write": null,
+      "price_per_m_input": null,
+      "price_per_m_output": null,
+      "ratio_cache": null,
+      "ratio_completion": null,
+      "ratio_model": null,
+      "status": 1,
+      "tags": "32K",
       "vendor_name": "Vercel AI Gateway"
     },
     {
