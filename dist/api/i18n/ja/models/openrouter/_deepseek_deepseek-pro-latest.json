@@ -1,8 +1,8 @@
 {
   "attachment": false,
   "cost": {
-    "cache_read": 0.15,
-    "input": 0.15,
+    "cache_read": 0.134,
+    "input": 0.134,
     "output": 3.5
   },
   "description": "Flagship DeepSeek model for coding, reasoning, and agentic work",
