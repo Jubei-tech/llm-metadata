@@ -2115,9 +2115,9 @@
       "attachment": false,
       "canonical_model_id": "deepseek/deepseek-v4-flash",
       "cost": {
-        "cache_read": 0.015708,
-        "input": 0.07854,
-        "output": 0.15708
+        "cache_read": 0.0084,
+        "input": 0.042,
+        "output": 0.084
       },
       "description": "Fast DeepSeek V4 lane for economical reasoning, coding, and long-context work",
       "family": "deepseek-flash",
@@ -2163,8 +2163,8 @@
       "attachment": false,
       "canonical_model_id": "deepseek/deepseek-v4-flash-0731",
       "cost": {
-        "cache_read": 0.015,
-        "input": 0.015,
+        "cache_read": 0.0108,
+        "input": 0.0108,
         "output": 1.28
       },
       "description": "Official DeepSeek V4 Flash release with enhanced agentic capabilities and integrated DSpark speculative decoding",
@@ -2255,9 +2255,9 @@
       "attachment": false,
       "canonical_model_id": "deepseek/deepseek-v4-pro",
       "cost": {
-        "cache_read": 0.06525,
-        "input": 0.783,
-        "output": 1.566
+        "cache_read": 0.0174,
+        "input": 0.2088,
+        "output": 0.4176
       },
       "description": "Open MoE flagship with million-token context for coding and long agent runs",
       "family": "deepseek-thinking",
@@ -2303,9 +2303,9 @@
       "attachment": false,
       "canonical_model_id": "deepseek/deepseek-v4-pro-0813",
       "cost": {
-        "cache_read": 0.044,
-        "input": 1.32,
-        "output": 3.96
+        "cache_read": 0.022,
+        "input": 0.66,
+        "output": 1.98
       },
       "description": "DeepSeek V4 Pro snapshot with million-token context and support for thinking and non-thinking modes",
       "family": "deepseek-thinking",
@@ -2348,9 +2348,9 @@
       "attachment": true,
       "canonical_model_id": "deepseek/deepseek-v4.1-flash",
       "cost": {
-        "cache_read": 0.0157,
-        "input": 0.0157,
-        "output": 0.6
+        "cache_read": 0.01,
+        "input": 0.03,
+        "output": 0.5
       },
       "description": "Fast DeepSeek model for efficient chat, coding help, and agent loops",
       "family": "deepseek-flash",
@@ -3610,9 +3610,9 @@
       "attachment": true,
       "canonical_model_id": "google/gemma-4-26b-a4b-it",
       "cost": {
-        "cache_read": 0.0425,
-        "input": 0.0765,
-        "output": 0.255
+        "cache_read": 0.05,
+        "input": 0.09,
+        "output": 0.3
       },
       "description": "Open Gemma instruction model for efficient chat and self-hosted deployments",
       "family": "gemma",
@@ -6010,9 +6010,9 @@
       "attachment": true,
       "canonical_model_id": "moonshotai/kimi-k2.6",
       "cost": {
-        "cache_read": 0.15,
-        "input": 0.65,
-        "output": 3.41
+        "cache_read": 0.07312,
+        "input": 0.43415,
+        "output": 1.828
       },
       "description": "Multimodal Kimi workhorse for agent loops, coding tasks, and visual context",
       "family": "kimi-k2",
@@ -6087,8 +6087,8 @@
       "attachment": true,
       "canonical_model_id": "moonshotai/kimi-k3",
       "cost": {
-        "cache_read": 0.27,
-        "input": 0.28,
+        "cache_read": 0.7159,
+        "input": 0.7159,
         "output": 10
       },
       "description": "Kimi multimodal agent model for visual understanding, coding, and planning",
@@ -10750,8 +10750,8 @@
       "attachment": false,
       "canonical_model_id": "alibaba/qwen3-30b-a3b",
       "cost": {
-        "input": 0.13,
-        "output": 0.52
+        "input": 0.12,
+        "output": 0.5
       },
       "description": "Qwen instruction model for multilingual chat, reasoning, and tool use",
       "family": "qwen",
@@ -10759,7 +10759,7 @@
       "last_updated": "2025-04-28",
       "limit": {
         "context": 131072,
-        "output": 8192
+        "output": 16384
       },
       "modalities": {
         "input": [
@@ -14889,8 +14889,8 @@
       "canonical_model_id": "zhipuai/glm-5.2",
       "cost": {
         "cache_read": 0.26,
-        "input": 0.3249,
-        "output": 3.99
+        "input": 1.1,
+        "output": 4.4
       },
       "description": "Open flagship GLM for long-horizon coding agents and million-token context work",
       "family": "glm",
@@ -14935,9 +14935,9 @@
       "attachment": false,
       "canonical_model_id": "zhipuai/glm-5.3",
       "cost": {
-        "cache_read": 0.2217,
+        "cache_read": 0.1775,
         "input": 0.2219,
-        "output": 6.34
+        "output": 3.39
       },
       "description": "Flagship GLM model for hybrid reasoning, coding, and agentic engineering",
       "family": "glm",
@@ -15321,8 +15321,8 @@
     "~deepseek/deepseek-flash-latest": {
       "attachment": true,
       "cost": {
-        "cache_read": 0.0157,
-        "input": 0.0157,
+        "cache_read": 0.0243,
+        "input": 0.0243,
         "output": 0.6
       },
       "description": "Fast DeepSeek model for efficient chat, coding help, and agent loops",
@@ -15366,8 +15366,8 @@
     "~deepseek/deepseek-pro-latest": {
       "attachment": false,
       "cost": {
-        "cache_read": 0.15,
-        "input": 0.15,
+        "cache_read": 0.2064,
+        "input": 0.2064,
         "output": 3.5
       },
       "description": "Flagship DeepSeek model for coding, reasoning, and agentic work",
@@ -15410,9 +15410,9 @@
     "~deepseek/deepseek-v4-flash-latest": {
       "attachment": false,
       "cost": {
-        "cache_read": 0.001386,
-        "input": 0.007326,
-        "output": 0.13068
+        "cache_read": 0.0108,
+        "input": 0.0108,
+        "output": 1.28
       },
       "description": "Fast DeepSeek model for efficient chat, coding help, and agent loops",
       "family": "deepseek",
@@ -15566,8 +15566,8 @@
     "~moonshotai/kimi-latest": {
       "attachment": true,
       "cost": {
-        "cache_read": 0.27,
-        "input": 0.28,
+        "cache_read": 0.7159,
+        "input": 0.7159,
         "output": 10
       },
       "description": "Kimi multimodal agent model for visual understanding, coding, and planning",
@@ -15981,7 +15981,7 @@
       "cost": {
         "cache_read": 0.01,
         "input": 0.02,
-        "output": 0.2475
+        "output": 0.3
       },
       "description": "GLM vision model for visual reasoning, documents, and multimodal agents",
       "family": "glm-flash",
@@ -16022,9 +16022,9 @@
     "~z-ai/glm-latest": {
       "attachment": false,
       "cost": {
-        "cache_read": 0.19,
-        "input": 0.19,
-        "output": 4
+        "cache_read": 0.176,
+        "input": 0.06,
+        "output": 2.694
       },
       "description": "Flagship GLM model for hybrid reasoning, coding, and agentic engineering",
       "family": "glm",
@@ -16032,7 +16032,7 @@
       "last_updated": "2026-08-19",
       "limit": {
         "context": 1048576,
-        "output": 131072
+        "output": 943718
       },
       "modalities": {
         "input": [
