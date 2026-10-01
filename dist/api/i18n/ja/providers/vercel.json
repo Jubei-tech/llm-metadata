@@ -5198,7 +5198,6 @@
     "google/gemini-3.8-flash-lite-tts": {
       "attachment": false,
       "cost": {
-        "cache_read": 0.125,
         "input": 0.5,
         "output": 6
       },
@@ -5227,7 +5226,6 @@
     "google/gemini-3.8-flash-tts": {
       "attachment": false,
       "cost": {
-        "cache_read": 0.125,
         "input": 0.5,
         "output": 9
       },
@@ -6317,34 +6315,6 @@
       "reasoning": false,
       "release_date": "2026-02-05",
       "temperature": true,
-      "tool_call": false
-    },
-    "liquid/d1": {
-      "attachment": false,
-      "cost": {
-        "input": 0.04,
-        "output": 0
-      },
-      "description": "General-purpose chat model for instruction following, writing, and analysis",
-      "family": "liquid",
-      "id": "liquid/d1",
-      "last_updated": "2026-09-29",
-      "limit": {
-        "context": 65536,
-        "output": 0
-      },
-      "modalities": {
-        "input": [
-          "text"
-        ],
-        "output": [
-          "text"
-        ]
-      },
-      "name": "Liquid d1",
-      "open_weights": false,
-      "reasoning": false,
-      "release_date": "2026-09-29",
       "tool_call": false
     },
     "meituan/longcat-2.5-preview": {

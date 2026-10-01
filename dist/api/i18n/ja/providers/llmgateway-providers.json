@@ -6281,7 +6281,7 @@
       "id": "consensusprotocol/Qwen3.8-27B",
       "last_updated": "2026-09-02",
       "limit": {
-        "context": 32768,
+        "context": 262000,
         "output": 32768
       },
       "modalities": {
@@ -6507,7 +6507,7 @@
       "id": "consensusprotocol/gpt-oss-20b",
       "last_updated": "2025-08-05",
       "limit": {
-        "context": 65536,
+        "context": 128000,
         "output": 32768
       },
       "modalities": {

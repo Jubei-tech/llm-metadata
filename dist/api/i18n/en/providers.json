@@ -347,7 +347,7 @@
       "iconURL": "https://models.dev/logos/cloudflare-workers-ai.svg",
       "id": "cloudflare-workers-ai",
       "lobeIcon": "Cloudflare.Color",
-      "modelCount": 29,
+      "modelCount": 27,
       "name": "Cloudflare Workers AI"
     },
     {
@@ -782,7 +782,7 @@
       "doc": "https://kilo.ai",
       "iconURL": "https://models.dev/logos/kilo.svg",
       "id": "kilo",
-      "modelCount": 395,
+      "modelCount": 396,
       "name": "Kilo Gateway"
     },
     {
@@ -1139,7 +1139,7 @@
       "doc": "https://docs.api.nvidia.com/nim/",
       "iconURL": "https://models.dev/logos/nvidia.svg",
       "id": "nvidia",
-      "modelCount": 103,
+      "modelCount": 106,
       "name": "Nvidia"
     },
     {
@@ -1180,7 +1180,7 @@
       "iconURL": "https://models.dev/logos/opencode.svg",
       "id": "opencode",
       "lobeIcon": "OpenCode",
-      "modelCount": 114,
+      "modelCount": 115,
       "name": "OpenCode Zen"
     },
     {
@@ -1661,7 +1661,7 @@
       "iconURL": "https://models.dev/logos/venice.svg",
       "id": "venice",
       "lobeIcon": "VeniceAI",
-      "modelCount": 115,
+      "modelCount": 116,
       "name": "Venice AI"
     },
     {
@@ -1669,7 +1669,7 @@
       "iconURL": "https://models.dev/logos/vercel.svg",
       "id": "vercel",
       "lobeIcon": "Vercel.Color",
-      "modelCount": 402,
+      "modelCount": 401,
       "name": "Vercel AI Gateway"
     },
     {

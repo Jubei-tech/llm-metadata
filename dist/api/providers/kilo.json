@@ -1133,6 +1133,44 @@
       "temperature": true,
       "tool_call": true
     },
+    "apodex/apodex-1.1-mini:free": {
+      "attachment": false,
+      "cost": {
+        "input": 0,
+        "output": 0
+      },
+      "description": "Apodex 1.1 Mini is a reasoning-first model from Apodex, built for complex, long-horizon research and forecasting tasks. It works directly with files, data, code, and tools to produce verifiable results,...",
+      "id": "apodex/apodex-1.1-mini:free",
+      "last_updated": "2026-10-01",
+      "limit": {
+        "context": 262144,
+        "output": 235929
+      },
+      "modalities": {
+        "input": [
+          "text"
+        ],
+        "output": [
+          "text"
+        ]
+      },
+      "name": "Apodex: Apodex 1.1 Mini (free)",
+      "open_weights": false,
+      "reasoning": true,
+      "reasoning_options": [
+        {
+          "type": "effort",
+          "values": [
+            "none",
+            "high"
+          ]
+        }
+      ],
+      "release_date": "2026-10-01",
+      "structured_output": true,
+      "temperature": true,
+      "tool_call": true
+    },
     "arcee-ai/trinity-large-thinking": {
       "attachment": false,
       "canonical_model_id": "arcee-ai/trinity-large-thinking",
@@ -6090,8 +6128,8 @@
       "attachment": true,
       "canonical_model_id": "moonshotai/kimi-k3",
       "cost": {
-        "cache_read": 0.6635,
-        "input": 0.6635,
+        "cache_read": 0.415,
+        "input": 0.415,
         "output": 10
       },
       "description": "Kimi K3 is a 2.8T parameter open-weight multimodal reasoning model from Moonshot AI. It is suited for complex coding, knowledge work, and long-horizon agentic workflows, and is particularly strong at...",
@@ -15160,8 +15198,8 @@
     "~deepseek/deepseek-flash-latest": {
       "attachment": true,
       "cost": {
-        "cache_read": 0.0255,
-        "input": 0.0255,
+        "cache_read": 0.0264,
+        "input": 0.0264,
         "output": 0.6
       },
       "description": "This model always redirects to the latest model in the DeepSeek Flash family.",
@@ -15203,9 +15241,9 @@
     "~deepseek/deepseek-pro-latest": {
       "attachment": false,
       "cost": {
-        "cache_read": 0.1536,
-        "input": 0.1536,
-        "output": 3.5
+        "cache_read": 0.004872,
+        "input": 0.15312,
+        "output": 0.45936
       },
       "description": "This model always redirects to the latest model in the DeepSeek Pro family.",
       "family": "deepseek",
@@ -15381,8 +15419,8 @@
     "~moonshotai/kimi-latest": {
       "attachment": true,
       "cost": {
-        "cache_read": 0.6635,
-        "input": 0.6635,
+        "cache_read": 0.415,
+        "input": 0.415,
         "output": 10
       },
       "description": "Kimi multimodal agent model for visual understanding, coding, and planning",
@@ -15743,17 +15781,17 @@
     "~z-ai/glm-latest": {
       "attachment": false,
       "cost": {
-        "cache_read": 0.067,
-        "input": 0.12,
-        "output": 1.14
+        "cache_read": 0.176,
+        "input": 0.106,
+        "output": 2.653
       },
       "description": "This model always redirects to the latest GLM model from Z.ai.",
       "family": "glm",
       "id": "~z-ai/glm-latest",
       "last_updated": "2026-08-19",
       "limit": {
-        "context": 262144,
-        "output": 235929
+        "context": 1048576,
+        "output": 943718
       },
       "modalities": {
         "input": [

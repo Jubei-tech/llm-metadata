@@ -42,8 +42,6 @@
     "model_price": {},
     "model_ratio": {
       "@cf/aisingapore/gemma-sea-lion-v4-27b-it": 0.1755,
-      "@cf/cloudflare/clef": 0.12,
-      "@cf/cloudflare/clef-flash": 0.045,
       "@cf/deepseek-ai/deepseek-r1-distill-qwen-32b": 0.2485,
       "@cf/deepseek-ai/deepseek-v4-flash-0731": 0.22,
       "@cf/deepseek-ai/deepseek-v4-pro-0813": 0.66,
