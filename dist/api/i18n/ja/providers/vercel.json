@@ -6828,6 +6828,174 @@
       "release_date": "2026-09-02",
       "tool_call": true
     },
+    "microsoft/mai-transcribe-1.5": {
+      "attachment": false,
+      "description": "Speech transcription model for accurate audio-to-text and captioning workflows",
+      "family": "mai",
+      "id": "microsoft/mai-transcribe-1.5",
+      "last_updated": "2026-06-01",
+      "limit": {
+        "context": 0,
+        "output": 0
+      },
+      "modalities": {
+        "input": [
+          "audio"
+        ],
+        "output": [
+          "text"
+        ]
+      },
+      "name": "MAI-Transcribe-1.5",
+      "open_weights": false,
+      "reasoning": false,
+      "release_date": "2026-06-01",
+      "tool_call": false
+    },
+    "microsoft/mai-transcribe-2": {
+      "attachment": false,
+      "description": "Speech transcription model for accurate audio-to-text and captioning workflows",
+      "family": "mai",
+      "id": "microsoft/mai-transcribe-2",
+      "last_updated": "2026-09-03",
+      "limit": {
+        "context": 0,
+        "output": 0
+      },
+      "modalities": {
+        "input": [
+          "audio"
+        ],
+        "output": [
+          "text"
+        ]
+      },
+      "name": "MAI-Transcribe 2",
+      "open_weights": false,
+      "reasoning": false,
+      "release_date": "2026-09-03",
+      "tool_call": false
+    },
+    "microsoft/mai-transcribe-2-streaming": {
+      "attachment": false,
+      "description": "Speech transcription model for accurate audio-to-text and captioning workflows",
+      "family": "mai",
+      "id": "microsoft/mai-transcribe-2-streaming",
+      "last_updated": "2026-10-01",
+      "limit": {
+        "context": 0,
+        "output": 0
+      },
+      "modalities": {
+        "input": [
+          "audio"
+        ],
+        "output": [
+          "text"
+        ]
+      },
+      "name": "MAI-Transcribe-2-Streaming",
+      "open_weights": false,
+      "reasoning": false,
+      "release_date": "2026-10-01",
+      "tool_call": false
+    },
+    "microsoft/mai-voice-2": {
+      "attachment": false,
+      "description": "Speech generation model for controllable voice, narration, and audio delivery",
+      "family": "mai",
+      "id": "microsoft/mai-voice-2",
+      "last_updated": "2026-06-02",
+      "limit": {
+        "context": 0,
+        "output": 0
+      },
+      "modalities": {
+        "input": [
+          "text"
+        ],
+        "output": [
+          "audio"
+        ]
+      },
+      "name": "MAI-Voice-2",
+      "open_weights": false,
+      "reasoning": false,
+      "release_date": "2026-06-02",
+      "tool_call": false
+    },
+    "microsoft/mai-voice-2-flash": {
+      "attachment": false,
+      "description": "Speech generation model for controllable voice, narration, and audio delivery",
+      "family": "mai",
+      "id": "microsoft/mai-voice-2-flash",
+      "last_updated": "2026-07-23",
+      "limit": {
+        "context": 0,
+        "output": 0
+      },
+      "modalities": {
+        "input": [
+          "text"
+        ],
+        "output": [
+          "audio"
+        ]
+      },
+      "name": "MAI-Voice-2-Flash",
+      "open_weights": false,
+      "reasoning": false,
+      "release_date": "2026-07-23",
+      "tool_call": false
+    },
+    "microsoft/mai-voice-2.1": {
+      "attachment": false,
+      "description": "Speech generation model for controllable voice, narration, and audio delivery",
+      "family": "mai",
+      "id": "microsoft/mai-voice-2.1",
+      "last_updated": "2026-10-01",
+      "limit": {
+        "context": 0,
+        "output": 0
+      },
+      "modalities": {
+        "input": [
+          "text"
+        ],
+        "output": [
+          "audio"
+        ]
+      },
+      "name": "MAI-Voice-2.1",
+      "open_weights": false,
+      "reasoning": false,
+      "release_date": "2026-10-01",
+      "tool_call": false
+    },
+    "microsoft/mai-voice-2.1-flash": {
+      "attachment": false,
+      "description": "Speech generation model for controllable voice, narration, and audio delivery",
+      "family": "mai",
+      "id": "microsoft/mai-voice-2.1-flash",
+      "last_updated": "2026-10-01",
+      "limit": {
+        "context": 0,
+        "output": 0
+      },
+      "modalities": {
+        "input": [
+          "text"
+        ],
+        "output": [
+          "audio"
+        ]
+      },
+      "name": "MAI-Voice-2.1-Flash",
+      "open_weights": false,
+      "reasoning": false,
+      "release_date": "2026-10-01",
+      "tool_call": false
+    },
     "minimax/minimax-h3": {
       "attachment": true,
       "description": "Video model for prompt-guided generation, editing, and motion workflows",
@@ -14529,9 +14697,9 @@
       "attachment": true,
       "canonical_model_id": "xiaomi/mimo-v2.6-flash",
       "cost": {
-        "cache_read": 0.0028,
-        "input": 0.14,
-        "output": 0.28
+        "cache_read": 0.04,
+        "input": 0.04,
+        "output": 1.28
       },
       "description": "MiMo Flash model for multimodal coding agents and long-context automation",
       "family": "mimo",

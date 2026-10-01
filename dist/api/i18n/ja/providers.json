@@ -347,7 +347,7 @@
       "iconURL": "https://models.dev/logos/cloudflare-workers-ai.svg",
       "id": "cloudflare-workers-ai",
       "lobeIcon": "Cloudflare.Color",
-      "modelCount": 27,
+      "modelCount": 29,
       "name": "Cloudflare Workers AI"
     },
     {
@@ -482,7 +482,7 @@
       "doc": "https://docs.edenai.co",
       "iconURL": "https://models.dev/logos/edenai.svg",
       "id": "edenai",
-      "modelCount": 286,
+      "modelCount": 289,
       "name": "Eden AI"
     },
     {
@@ -782,7 +782,7 @@
       "doc": "https://kilo.ai",
       "iconURL": "https://models.dev/logos/kilo.svg",
       "id": "kilo",
-      "modelCount": 394,
+      "modelCount": 395,
       "name": "Kilo Gateway"
     },
     {
@@ -855,7 +855,7 @@
       "doc": "https://llmgateway.io/docs",
       "iconURL": "https://models.dev/logos/llmgateway-providers.svg",
       "id": "llmgateway-providers",
-      "modelCount": 429,
+      "modelCount": 430,
       "name": "LLM Gateway"
     },
     {
@@ -1205,7 +1205,7 @@
       "iconURL": "https://models.dev/logos/openrouter.svg",
       "id": "openrouter",
       "lobeIcon": "OpenRouter.Color",
-      "modelCount": 387,
+      "modelCount": 389,
       "name": "OpenRouter"
     },
     {
@@ -1669,7 +1669,7 @@
       "iconURL": "https://models.dev/logos/vercel.svg",
       "id": "vercel",
       "lobeIcon": "Vercel.Color",
-      "modelCount": 395,
+      "modelCount": 402,
       "name": "Vercel AI Gateway"
     },
     {

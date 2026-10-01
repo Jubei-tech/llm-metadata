@@ -51416,6 +51416,80 @@
       "tags": []
     },
     {
+      "description": "Multimodal model for analyzing text, images, documents, and rich media",
+      "firm": "cloudflare-workers-ai",
+      "flags": {
+        "attachment": true,
+        "audio": false,
+        "image": true,
+        "open_weights": true,
+        "reasoning": false,
+        "temperature": true,
+        "tool_call": false
+      },
+      "icon": "lb:cloudflare-color",
+      "id": "@cf/cloudflare/clef",
+      "knowledge": null,
+      "lastUpdated": "2026-09-29",
+      "maxCtxTokens": 65536,
+      "maxOutputTokens": 65536,
+      "modalities": {
+        "input": [
+          "text",
+          "image"
+        ],
+        "output": [
+          "text"
+        ]
+      },
+      "name": "Clef",
+      "price": {
+        "cacheRead": null,
+        "cacheWrite": null,
+        "input": 0.24,
+        "output": null
+      },
+      "releaseDate": "2026-09-29",
+      "tags": []
+    },
+    {
+      "description": "Efficient model for low-latency assistance, extraction, and routine automation",
+      "firm": "cloudflare-workers-ai",
+      "flags": {
+        "attachment": true,
+        "audio": false,
+        "image": true,
+        "open_weights": true,
+        "reasoning": false,
+        "temperature": true,
+        "tool_call": false
+      },
+      "icon": "lb:cloudflare-color",
+      "id": "@cf/cloudflare/clef-flash",
+      "knowledge": null,
+      "lastUpdated": "2026-09-29",
+      "maxCtxTokens": 65536,
+      "maxOutputTokens": 65536,
+      "modalities": {
+        "input": [
+          "text",
+          "image"
+        ],
+        "output": [
+          "text"
+        ]
+      },
+      "name": "Clef Flash",
+      "price": {
+        "cacheRead": null,
+        "cacheWrite": null,
+        "input": 0.09,
+        "output": null
+      },
+      "releaseDate": "2026-09-29",
+      "tags": []
+    },
+    {
       "description": "Classic open reasoning model for transparent math, coding, and deliberate problem solving",
       "firm": "cloudflare-workers-ai",
       "flags": {
@@ -72239,7 +72313,7 @@
       "id": "deepinfra/meta-llama/Llama-3.3-70B-Instruct",
       "knowledge": "2023-12",
       "lastUpdated": "2024-12-06",
-      "maxCtxTokens": 65536,
+      "maxCtxTokens": 131072,
       "maxOutputTokens": 4096,
       "modalities": {
         "input": [
@@ -74092,8 +74166,8 @@
       "price": {
         "cacheRead": null,
         "cacheWrite": null,
-        "input": 0.34065,
-        "output": 0.4542
+        "input": 0.33894,
+        "output": 0.45192
       },
       "releaseDate": "2025-12-02",
       "tags": []
@@ -74128,8 +74202,8 @@
       "price": {
         "cacheRead": null,
         "cacheWrite": null,
-        "input": 0.738075,
-        "output": 0.738075
+        "input": 0.73437,
+        "output": 0.73437
       },
       "releaseDate": "2024-12-06",
       "tags": []
@@ -74164,8 +74238,8 @@
       "price": {
         "cacheRead": null,
         "cacheWrite": null,
-        "input": 0.170325,
-        "output": 0.738075
+        "input": 0.16947,
+        "output": 0.73437
       },
       "releaseDate": "2025-08-05",
       "tags": []
@@ -77916,10 +77990,10 @@
       },
       "name": "DeepSeek V4 Flash 0731 (Scaleway)",
       "price": {
-        "cacheRead": 0.09084,
+        "cacheRead": 0.090384,
         "cacheWrite": null,
-        "input": 0.4542,
-        "output": 0.9084
+        "input": 0.45192,
+        "output": 0.90384
       },
       "releaseDate": "2026-07-31",
       "tags": []
@@ -77991,8 +78065,8 @@
       "price": {
         "cacheRead": null,
         "cacheWrite": null,
-        "input": 0.170325,
-        "output": 0.6813
+        "input": 0.16947,
+        "output": 0.67788
       },
       "releaseDate": "2025-08-05",
       "tags": []
@@ -78027,10 +78101,118 @@
       "price": {
         "cacheRead": null,
         "cacheWrite": null,
-        "input": 1.02195,
-        "output": 1.02195
+        "input": 1.01682,
+        "output": 1.01682
       },
       "releaseDate": "2024-12-06",
+      "tags": []
+    },
+    {
+      "description": "DeepSeek V4 Pro snapshot with million-token context and support for thinking and non-thinking modes",
+      "firm": "edenai",
+      "flags": {
+        "attachment": false,
+        "audio": false,
+        "image": false,
+        "open_weights": true,
+        "reasoning": true,
+        "temperature": true,
+        "tool_call": false
+      },
+      "icon": "",
+      "id": "tencent/deepseek-v4-pro-0813",
+      "knowledge": null,
+      "lastUpdated": "2026-08-22",
+      "maxCtxTokens": 1000000,
+      "maxOutputTokens": 384000,
+      "modalities": {
+        "input": [
+          "text"
+        ],
+        "output": [
+          "text"
+        ]
+      },
+      "name": "DeepSeek V4 Pro 0813 (Tencent)",
+      "price": {
+        "cacheRead": 0.022,
+        "cacheWrite": null,
+        "input": 0.66,
+        "output": 1.98
+      },
+      "releaseDate": "2026-08-12",
+      "tags": []
+    },
+    {
+      "description": "Tencent Hy reasoning model for coding, instruction following, and agent tasks",
+      "firm": "edenai",
+      "flags": {
+        "attachment": false,
+        "audio": false,
+        "image": false,
+        "open_weights": true,
+        "reasoning": true,
+        "temperature": true,
+        "tool_call": false
+      },
+      "icon": "",
+      "id": "tencent/hy3",
+      "knowledge": null,
+      "lastUpdated": "2026-07-06",
+      "maxCtxTokens": 256000,
+      "maxOutputTokens": 128000,
+      "modalities": {
+        "input": [
+          "text"
+        ],
+        "output": [
+          "text"
+        ]
+      },
+      "name": "Hy3 (Tencent)",
+      "price": {
+        "cacheRead": 0.033,
+        "cacheWrite": null,
+        "input": 0.132,
+        "output": 0.528
+      },
+      "releaseDate": "2026-07-06",
+      "tags": []
+    },
+    {
+      "description": "A next-generation productivity model with significantly enhanced Agent and complex task execution capabilities.",
+      "firm": "edenai",
+      "flags": {
+        "attachment": false,
+        "audio": false,
+        "image": false,
+        "open_weights": true,
+        "reasoning": true,
+        "temperature": true,
+        "tool_call": false
+      },
+      "icon": "",
+      "id": "tencent/hy4-preview",
+      "knowledge": null,
+      "lastUpdated": "2026-08-28",
+      "maxCtxTokens": 1000000,
+      "maxOutputTokens": 64000,
+      "modalities": {
+        "input": [
+          "text"
+        ],
+        "output": [
+          "text"
+        ]
+      },
+      "name": "Hy4 preview (Tencent)",
+      "price": {
+        "cacheRead": 0.042,
+        "cacheWrite": null,
+        "input": 0.834,
+        "output": 2.501
+      },
+      "releaseDate": "2026-08-28",
       "tags": []
     },
     {
@@ -115345,9 +115527,9 @@
       },
       "name": "DeepSeek: DeepSeek Flash Latest",
       "price": {
-        "cacheRead": 0.0243,
+        "cacheRead": 0.0255,
         "cacheWrite": null,
-        "input": 0.0243,
+        "input": 0.0255,
         "output": 0.6
       },
       "releaseDate": "2026-09-14",
@@ -115381,9 +115563,9 @@
       },
       "name": "DeepSeek: DeepSeek Pro Latest",
       "price": {
-        "cacheRead": 0.2064,
+        "cacheRead": 0.1536,
         "cacheWrite": null,
-        "input": 0.2064,
+        "input": 0.1536,
         "output": 3.5
       },
       "releaseDate": "2026-09-14",
@@ -115535,9 +115717,9 @@
       },
       "name": "MoonshotAI: Kimi Latest",
       "price": {
-        "cacheRead": 0.7159,
+        "cacheRead": 0.6635,
         "cacheWrite": null,
-        "input": 0.7159,
+        "input": 0.6635,
         "output": 10
       },
       "releaseDate": "2026-04-27",
@@ -115825,8 +116007,8 @@
       "id": "~z-ai/glm-latest",
       "knowledge": null,
       "lastUpdated": "2026-08-19",
-      "maxCtxTokens": 1048576,
-      "maxOutputTokens": 943718,
+      "maxCtxTokens": 262144,
+      "maxOutputTokens": 235929,
       "modalities": {
         "input": [
           "text"
@@ -115837,10 +116019,10 @@
       },
       "name": "Z.ai: GLM Latest",
       "price": {
-        "cacheRead": 0.176,
+        "cacheRead": 0.067,
         "cacheWrite": null,
-        "input": 0.06,
-        "output": 2.694
+        "input": 0.12,
+        "output": 1.14
       },
       "releaseDate": "2026-08-19",
       "tags": []
@@ -117748,8 +117930,8 @@
       "id": "deepseek/deepseek-v4-flash",
       "knowledge": "2025-05",
       "lastUpdated": "2026-04-24",
-      "maxCtxTokens": 1024000,
-      "maxOutputTokens": 384000,
+      "maxCtxTokens": 1048576,
+      "maxOutputTokens": 131072,
       "modalities": {
         "input": [
           "text"
@@ -121685,9 +121867,9 @@
       },
       "name": "Kimi K3",
       "price": {
-        "cacheRead": 0.7159,
+        "cacheRead": 0.6635,
         "cacheWrite": null,
-        "input": 0.7159,
+        "input": 0.6635,
         "output": 10
       },
       "releaseDate": "2026-07-16",
@@ -128273,10 +128455,10 @@
       },
       "name": "Hy3",
       "price": {
-        "cacheRead": 0.033,
+        "cacheRead": 0.020625,
         "cacheWrite": null,
-        "input": 0.13,
-        "output": 0.53
+        "input": 0.0825,
+        "output": 0.33
       },
       "releaseDate": "2026-07-06",
       "tags": []
@@ -128345,10 +128527,10 @@
       },
       "name": "Hy4 preview",
       "price": {
-        "cacheRead": 0.042,
+        "cacheRead": 0.0378,
         "cacheWrite": null,
-        "input": 0.834,
-        "output": 2.501
+        "input": 0.7506,
+        "output": 2.2509
       },
       "releaseDate": "2026-08-28",
       "tags": []
@@ -128610,6 +128792,43 @@
         "output": 7.5
       },
       "releaseDate": "2026-09-17",
+      "tags": []
+    },
+    {
+      "description": "Pareto is a multimodal composite model built for research, coding, and agentic workflows, while delivering frontier-level performance across a broad range of general-purpose tasks. This is a preview of the...",
+      "firm": "kilo",
+      "flags": {
+        "attachment": true,
+        "audio": false,
+        "image": true,
+        "open_weights": false,
+        "reasoning": false,
+        "temperature": true,
+        "tool_call": true
+      },
+      "icon": "",
+      "id": "unbiased/pareto-26.10-preview",
+      "knowledge": null,
+      "lastUpdated": "2026-10-01",
+      "maxCtxTokens": 1048576,
+      "maxOutputTokens": 131072,
+      "modalities": {
+        "input": [
+          "text",
+          "image"
+        ],
+        "output": [
+          "text"
+        ]
+      },
+      "name": "Pareto 26.10 Preview",
+      "price": {
+        "cacheRead": 0.03,
+        "cacheWrite": null,
+        "input": 0.8,
+        "output": 3.2
+      },
+      "releaseDate": "2026-10-01",
       "tags": []
     },
     {
@@ -129425,7 +129644,7 @@
       },
       "name": "GLM-4.6V",
       "price": {
-        "cacheRead": 0.055,
+        "cacheRead": 0.05,
         "cacheWrite": null,
         "input": 0.3,
         "output": 0.9
@@ -137329,7 +137548,7 @@
       "id": "qwen3-coder-flash",
       "knowledge": "2025-04",
       "lastUpdated": "2025-07-28",
-      "maxCtxTokens": 1000000,
+      "maxCtxTokens": 997952,
       "maxOutputTokens": 65536,
       "modalities": {
         "input": [
@@ -137924,7 +138143,7 @@
       "id": "qwen3.6-flash",
       "knowledge": null,
       "lastUpdated": "2026-04-27",
-      "maxCtxTokens": 1000000,
+      "maxCtxTokens": 983616,
       "maxOutputTokens": 65536,
       "modalities": {
         "input": [
@@ -137998,7 +138217,7 @@
       "id": "qwen3.6-plus",
       "knowledge": "2025-04",
       "lastUpdated": "2026-04-02",
-      "maxCtxTokens": 1000000,
+      "maxCtxTokens": 983616,
       "maxOutputTokens": 65536,
       "modalities": {
         "input": [
@@ -138036,7 +138255,7 @@
       "id": "qwen3.7-flash",
       "knowledge": null,
       "lastUpdated": "2026-07-27",
-      "maxCtxTokens": 1000000,
+      "maxCtxTokens": 983616,
       "maxOutputTokens": 1000000,
       "modalities": {
         "input": [
@@ -138109,7 +138328,7 @@
       "id": "qwen3.7-plus",
       "knowledge": "2025-04",
       "lastUpdated": "2026-06-02",
-      "maxCtxTokens": 1000000,
+      "maxCtxTokens": 983616,
       "maxOutputTokens": 64000,
       "modalities": {
         "input": [
@@ -139216,7 +139435,7 @@
       "id": "alibaba/qwen3-coder-flash",
       "knowledge": "2025-04",
       "lastUpdated": "2025-07-28",
-      "maxCtxTokens": 1000000,
+      "maxCtxTokens": 997952,
       "maxOutputTokens": 65536,
       "modalities": {
         "input": [
@@ -139554,7 +139773,7 @@
       "id": "alibaba/qwen3.6-flash",
       "knowledge": null,
       "lastUpdated": "2026-04-27",
-      "maxCtxTokens": 1000000,
+      "maxCtxTokens": 983616,
       "maxOutputTokens": 65536,
       "modalities": {
         "input": [
@@ -139628,7 +139847,7 @@
       "id": "alibaba/qwen3.6-plus",
       "knowledge": "2025-04",
       "lastUpdated": "2026-04-02",
-      "maxCtxTokens": 1000000,
+      "maxCtxTokens": 983616,
       "maxOutputTokens": 65536,
       "modalities": {
         "input": [
@@ -139666,7 +139885,7 @@
       "id": "alibaba/qwen3.7-flash",
       "knowledge": null,
       "lastUpdated": "2026-07-15",
-      "maxCtxTokens": 1000000,
+      "maxCtxTokens": 983616,
       "maxOutputTokens": 65536,
       "modalities": {
         "input": [
@@ -139704,7 +139923,7 @@
       "id": "alibaba/qwen3.7-max",
       "knowledge": null,
       "lastUpdated": "2026-05-21",
-      "maxCtxTokens": 1000000,
+      "maxCtxTokens": 983616,
       "maxOutputTokens": 65536,
       "modalities": {
         "input": [
@@ -139740,7 +139959,7 @@
       "id": "alibaba/qwen3.7-plus",
       "knowledge": "2025-04",
       "lastUpdated": "2026-06-02",
-      "maxCtxTokens": 1000000,
+      "maxCtxTokens": 983616,
       "maxOutputTokens": 65536,
       "modalities": {
         "input": [
@@ -139778,7 +139997,7 @@
       "id": "alibaba/qwen3.8-flash",
       "knowledge": null,
       "lastUpdated": "2026-08-26",
-      "maxCtxTokens": 1000000,
+      "maxCtxTokens": 983616,
       "maxOutputTokens": 131072,
       "modalities": {
         "input": [
@@ -139816,7 +140035,7 @@
       "id": "alibaba/qwen3.8-max",
       "knowledge": null,
       "lastUpdated": "2026-08-03",
-      "maxCtxTokens": 1000000,
+      "maxCtxTokens": 983616,
       "maxOutputTokens": 131072,
       "modalities": {
         "input": [
@@ -143790,6 +144009,42 @@
         "output": 1.2
       },
       "releaseDate": "2025-07-21",
+      "tags": []
+    },
+    {
+      "description": "Fast DeepSeek V4 lane for economical reasoning, coding, and long-context work",
+      "firm": "llmgateway-providers",
+      "flags": {
+        "attachment": false,
+        "audio": false,
+        "image": false,
+        "open_weights": true,
+        "reasoning": true,
+        "temperature": true,
+        "tool_call": true
+      },
+      "icon": "",
+      "id": "consensusprotocol/deepseek-v4-flash",
+      "knowledge": "2025-05",
+      "lastUpdated": "2026-04-24",
+      "maxCtxTokens": 524288,
+      "maxOutputTokens": 384000,
+      "modalities": {
+        "input": [
+          "text"
+        ],
+        "output": [
+          "text"
+        ]
+      },
+      "name": "DeepSeek V4 Flash (Consensus Protocol)",
+      "price": {
+        "cacheRead": 0.005,
+        "cacheWrite": null,
+        "input": 0.1,
+        "output": 0.2
+      },
+      "releaseDate": "2026-04-24",
       "tags": []
     },
     {
@@ -188125,43 +188380,6 @@
       "tags": []
     },
     {
-      "description": "HauhauCS's Aggressive finetune of Qwen3.8 27B reduces refusal behavior for creative writing, coding, and image analysis. It supports reasoning, tool calling, and structured output with a 262K-token context. Runs inside a TEE (Trusted Execution Environment), with provider attestation support.",
-      "firm": "nano-gpt",
-      "flags": {
-        "attachment": true,
-        "audio": false,
-        "image": true,
-        "open_weights": true,
-        "reasoning": true,
-        "temperature": false,
-        "tool_call": true
-      },
-      "icon": "",
-      "id": "TEE/qwen3.8-27b-uncensored",
-      "knowledge": null,
-      "lastUpdated": "2026-09-25",
-      "maxCtxTokens": 262144,
-      "maxOutputTokens": 262144,
-      "modalities": {
-        "input": [
-          "text",
-          "image"
-        ],
-        "output": [
-          "text"
-        ]
-      },
-      "name": "Qwen3.8 27B Uncensored TEE",
-      "price": {
-        "cacheRead": null,
-        "cacheWrite": null,
-        "input": 0.3,
-        "output": 1.5
-      },
-      "releaseDate": "2026-09-25",
-      "tags": []
-    },
-    {
       "description": "Tencent Hy reasoning model for coding, instruction following, and agent tasks",
       "firm": "nano-gpt",
       "flags": {
@@ -188927,6 +189145,43 @@
         "output": 7.5
       },
       "releaseDate": "2026-09-17",
+      "tags": []
+    },
+    {
+      "description": "Pareto 26.10 Preview is Unbiased AI's multimodal composite model for research, coding, and agentic workflows. It accepts text and images, supports tool calling, and provides a 1M-token context window with up to 131K output tokens.",
+      "firm": "nano-gpt",
+      "flags": {
+        "attachment": true,
+        "audio": false,
+        "image": true,
+        "open_weights": false,
+        "reasoning": false,
+        "temperature": false,
+        "tool_call": true
+      },
+      "icon": "",
+      "id": "unbiased/pareto-26.10-preview",
+      "knowledge": null,
+      "lastUpdated": "2026-10-01",
+      "maxCtxTokens": 1048576,
+      "maxOutputTokens": 131072,
+      "modalities": {
+        "input": [
+          "text",
+          "image"
+        ],
+        "output": [
+          "text"
+        ]
+      },
+      "name": "Pareto 26.10 Preview",
+      "price": {
+        "cacheRead": 0.03,
+        "cacheWrite": null,
+        "input": 0.8,
+        "output": 3.2
+      },
+      "releaseDate": "2026-10-01",
       "tags": []
     },
     {
@@ -218763,9 +219018,9 @@
       },
       "name": "DeepSeek Flash Latest",
       "price": {
-        "cacheRead": 0.0243,
+        "cacheRead": 0.0255,
         "cacheWrite": null,
-        "input": 0.0243,
+        "input": 0.0255,
         "output": 0.6
       },
       "releaseDate": "2026-09-14",
@@ -218799,9 +219054,9 @@
       },
       "name": "DeepSeek Pro Latest",
       "price": {
-        "cacheRead": 0.2064,
+        "cacheRead": 0.1536,
         "cacheWrite": null,
-        "input": 0.2064,
+        "input": 0.1536,
         "output": 3.5
       },
       "releaseDate": "2026-09-14",
@@ -218953,9 +219208,9 @@
       },
       "name": "Kimi Latest",
       "price": {
-        "cacheRead": 0.7159,
+        "cacheRead": 0.6635,
         "cacheWrite": null,
-        "input": 0.7159,
+        "input": 0.6635,
         "output": 10
       },
       "releaseDate": "2026-04-27",
@@ -219244,7 +219499,7 @@
       "knowledge": null,
       "lastUpdated": "2026-08-19",
       "maxCtxTokens": 1048576,
-      "maxOutputTokens": 943718,
+      "maxOutputTokens": 235929,
       "modalities": {
         "input": [
           "text"
@@ -219255,10 +219510,10 @@
       },
       "name": "GLM Latest",
       "price": {
-        "cacheRead": 0.176,
+        "cacheRead": 0.067,
         "cacheWrite": null,
-        "input": 0.06,
-        "output": 2.694
+        "input": 0.12,
+        "output": 1.14
       },
       "releaseDate": "2026-08-19",
       "tags": []
@@ -220272,6 +220527,42 @@
       "tags": []
     },
     {
+      "description": "Efficient model for low-latency assistance, extraction, and routine automation",
+      "firm": "openrouter",
+      "flags": {
+        "attachment": false,
+        "audio": false,
+        "image": false,
+        "open_weights": false,
+        "reasoning": true,
+        "temperature": true,
+        "tool_call": true
+      },
+      "icon": "lb:openrouter-color",
+      "id": "apodex/apodex-1.1-mini:free",
+      "knowledge": null,
+      "lastUpdated": "2026-10-01",
+      "maxCtxTokens": 262144,
+      "maxOutputTokens": 235929,
+      "modalities": {
+        "input": [
+          "text"
+        ],
+        "output": [
+          "text"
+        ]
+      },
+      "name": "Apodex 1.1 Mini (free)",
+      "price": {
+        "cacheRead": null,
+        "cacheWrite": null,
+        "input": null,
+        "output": null
+      },
+      "releaseDate": "2026-10-01",
+      "tags": []
+    },
+    {
       "description": "Reasoning-optimized 398B MoE agent model with extended thinking for long-horizon and multi-turn tool use",
       "firm": "openrouter",
       "flags": {
@@ -221167,7 +221458,7 @@
       "knowledge": "2025-05",
       "lastUpdated": "2026-04-24",
       "maxCtxTokens": 1048576,
-      "maxOutputTokens": 384000,
+      "maxOutputTokens": 131072,
       "modalities": {
         "input": [
           "text"
@@ -221178,10 +221469,10 @@
       },
       "name": "DeepSeek V4 Flash",
       "price": {
-        "cacheRead": 0.0084,
+        "cacheRead": 0.008372,
         "cacheWrite": null,
-        "input": 0.042,
-        "output": 0.084
+        "input": 0.04186,
+        "output": 0.08372
       },
       "releaseDate": "2026-04-24",
       "tags": []
@@ -224987,9 +225278,9 @@
       },
       "name": "Kimi K3",
       "price": {
-        "cacheRead": 0.7159,
+        "cacheRead": 0.6635,
         "cacheWrite": null,
-        "input": 0.7159,
+        "input": 0.6635,
         "output": 10
       },
       "releaseDate": "2026-07-16",
@@ -231373,10 +231664,10 @@
       },
       "name": "Hy3",
       "price": {
-        "cacheRead": 0.033,
+        "cacheRead": 0.020625,
         "cacheWrite": null,
-        "input": 0.132,
-        "output": 0.528
+        "input": 0.0825,
+        "output": 0.33
       },
       "releaseDate": "2026-07-06",
       "tags": []
@@ -231445,10 +231736,10 @@
       },
       "name": "Hy4 preview",
       "price": {
-        "cacheRead": 0.042,
+        "cacheRead": 0.0378,
         "cacheWrite": null,
-        "input": 0.834,
-        "output": 2.501
+        "input": 0.7506,
+        "output": 2.2509
       },
       "releaseDate": "2026-08-28",
       "tags": []
@@ -231748,6 +232039,43 @@
         "output": 7.5
       },
       "releaseDate": "2026-09-17",
+      "tags": []
+    },
+    {
+      "description": "Preview model for early access evaluation, prototyping, and compatibility testing",
+      "firm": "openrouter",
+      "flags": {
+        "attachment": true,
+        "audio": false,
+        "image": true,
+        "open_weights": false,
+        "reasoning": false,
+        "temperature": true,
+        "tool_call": true
+      },
+      "icon": "lb:openrouter-color",
+      "id": "unbiased/pareto-26.10-preview",
+      "knowledge": null,
+      "lastUpdated": "2026-10-01",
+      "maxCtxTokens": 1048576,
+      "maxOutputTokens": 131072,
+      "modalities": {
+        "input": [
+          "text",
+          "image"
+        ],
+        "output": [
+          "text"
+        ]
+      },
+      "name": "Pareto 26.10 Preview",
+      "price": {
+        "cacheRead": 0.03,
+        "cacheWrite": null,
+        "input": 0.8,
+        "output": 3.2
+      },
+      "releaseDate": "2026-10-01",
       "tags": []
     },
     {
@@ -232563,7 +232891,7 @@
       },
       "name": "GLM-4.6V",
       "price": {
-        "cacheRead": 0.055,
+        "cacheRead": 0.05,
         "cacheWrite": null,
         "input": 0.3,
         "output": 0.9
@@ -232781,8 +233109,8 @@
       "price": {
         "cacheRead": 0.26,
         "cacheWrite": null,
-        "input": 1.1,
-        "output": 4.4
+        "input": 0.41,
+        "output": 3.99
       },
       "releaseDate": "2026-06-13",
       "tags": []
@@ -293537,6 +293865,258 @@
       "tags": []
     },
     {
+      "description": "Speech transcription model for accurate audio-to-text and captioning workflows",
+      "firm": "vercel",
+      "flags": {
+        "attachment": false,
+        "audio": true,
+        "image": false,
+        "open_weights": false,
+        "reasoning": false,
+        "temperature": false,
+        "tool_call": false
+      },
+      "icon": "lb:vercel-color",
+      "id": "microsoft/mai-transcribe-1.5",
+      "knowledge": null,
+      "lastUpdated": "2026-06-01",
+      "maxCtxTokens": 0,
+      "maxOutputTokens": 0,
+      "modalities": {
+        "input": [
+          "audio"
+        ],
+        "output": [
+          "text"
+        ]
+      },
+      "name": "MAI-Transcribe-1.5",
+      "price": {
+        "cacheRead": null,
+        "cacheWrite": null,
+        "input": null,
+        "output": null
+      },
+      "releaseDate": "2026-06-01",
+      "tags": []
+    },
+    {
+      "description": "Speech transcription model for accurate audio-to-text and captioning workflows",
+      "firm": "vercel",
+      "flags": {
+        "attachment": false,
+        "audio": true,
+        "image": false,
+        "open_weights": false,
+        "reasoning": false,
+        "temperature": false,
+        "tool_call": false
+      },
+      "icon": "lb:vercel-color",
+      "id": "microsoft/mai-transcribe-2",
+      "knowledge": null,
+      "lastUpdated": "2026-09-03",
+      "maxCtxTokens": 0,
+      "maxOutputTokens": 0,
+      "modalities": {
+        "input": [
+          "audio"
+        ],
+        "output": [
+          "text"
+        ]
+      },
+      "name": "MAI-Transcribe 2",
+      "price": {
+        "cacheRead": null,
+        "cacheWrite": null,
+        "input": null,
+        "output": null
+      },
+      "releaseDate": "2026-09-03",
+      "tags": []
+    },
+    {
+      "description": "Speech transcription model for accurate audio-to-text and captioning workflows",
+      "firm": "vercel",
+      "flags": {
+        "attachment": false,
+        "audio": true,
+        "image": false,
+        "open_weights": false,
+        "reasoning": false,
+        "temperature": false,
+        "tool_call": false
+      },
+      "icon": "lb:vercel-color",
+      "id": "microsoft/mai-transcribe-2-streaming",
+      "knowledge": null,
+      "lastUpdated": "2026-10-01",
+      "maxCtxTokens": 0,
+      "maxOutputTokens": 0,
+      "modalities": {
+        "input": [
+          "audio"
+        ],
+        "output": [
+          "text"
+        ]
+      },
+      "name": "MAI-Transcribe-2-Streaming",
+      "price": {
+        "cacheRead": null,
+        "cacheWrite": null,
+        "input": null,
+        "output": null
+      },
+      "releaseDate": "2026-10-01",
+      "tags": []
+    },
+    {
+      "description": "Speech generation model for controllable voice, narration, and audio delivery",
+      "firm": "vercel",
+      "flags": {
+        "attachment": false,
+        "audio": true,
+        "image": false,
+        "open_weights": false,
+        "reasoning": false,
+        "temperature": false,
+        "tool_call": false
+      },
+      "icon": "lb:vercel-color",
+      "id": "microsoft/mai-voice-2",
+      "knowledge": null,
+      "lastUpdated": "2026-06-02",
+      "maxCtxTokens": 0,
+      "maxOutputTokens": 0,
+      "modalities": {
+        "input": [
+          "text"
+        ],
+        "output": [
+          "audio"
+        ]
+      },
+      "name": "MAI-Voice-2",
+      "price": {
+        "cacheRead": null,
+        "cacheWrite": null,
+        "input": null,
+        "output": null
+      },
+      "releaseDate": "2026-06-02",
+      "tags": []
+    },
+    {
+      "description": "Speech generation model for controllable voice, narration, and audio delivery",
+      "firm": "vercel",
+      "flags": {
+        "attachment": false,
+        "audio": true,
+        "image": false,
+        "open_weights": false,
+        "reasoning": false,
+        "temperature": false,
+        "tool_call": false
+      },
+      "icon": "lb:vercel-color",
+      "id": "microsoft/mai-voice-2-flash",
+      "knowledge": null,
+      "lastUpdated": "2026-07-23",
+      "maxCtxTokens": 0,
+      "maxOutputTokens": 0,
+      "modalities": {
+        "input": [
+          "text"
+        ],
+        "output": [
+          "audio"
+        ]
+      },
+      "name": "MAI-Voice-2-Flash",
+      "price": {
+        "cacheRead": null,
+        "cacheWrite": null,
+        "input": null,
+        "output": null
+      },
+      "releaseDate": "2026-07-23",
+      "tags": []
+    },
+    {
+      "description": "Speech generation model for controllable voice, narration, and audio delivery",
+      "firm": "vercel",
+      "flags": {
+        "attachment": false,
+        "audio": true,
+        "image": false,
+        "open_weights": false,
+        "reasoning": false,
+        "temperature": false,
+        "tool_call": false
+      },
+      "icon": "lb:vercel-color",
+      "id": "microsoft/mai-voice-2.1",
+      "knowledge": null,
+      "lastUpdated": "2026-10-01",
+      "maxCtxTokens": 0,
+      "maxOutputTokens": 0,
+      "modalities": {
+        "input": [
+          "text"
+        ],
+        "output": [
+          "audio"
+        ]
+      },
+      "name": "MAI-Voice-2.1",
+      "price": {
+        "cacheRead": null,
+        "cacheWrite": null,
+        "input": null,
+        "output": null
+      },
+      "releaseDate": "2026-10-01",
+      "tags": []
+    },
+    {
+      "description": "Speech generation model for controllable voice, narration, and audio delivery",
+      "firm": "vercel",
+      "flags": {
+        "attachment": false,
+        "audio": true,
+        "image": false,
+        "open_weights": false,
+        "reasoning": false,
+        "temperature": false,
+        "tool_call": false
+      },
+      "icon": "lb:vercel-color",
+      "id": "microsoft/mai-voice-2.1-flash",
+      "knowledge": null,
+      "lastUpdated": "2026-10-01",
+      "maxCtxTokens": 0,
+      "maxOutputTokens": 0,
+      "modalities": {
+        "input": [
+          "text"
+        ],
+        "output": [
+          "audio"
+        ]
+      },
+      "name": "MAI-Voice-2.1-Flash",
+      "price": {
+        "cacheRead": null,
+        "cacheWrite": null,
+        "input": null,
+        "output": null
+      },
+      "releaseDate": "2026-10-01",
+      "tags": []
+    },
+    {
       "description": "Video model for prompt-guided generation, editing, and motion workflows",
       "firm": "vercel",
       "flags": {
@@ -300590,10 +301170,10 @@
       },
       "name": "MiMo V2.6 Flash",
       "price": {
-        "cacheRead": 0.0028,
+        "cacheRead": 0.04,
         "cacheWrite": null,
-        "input": 0.14,
-        "output": 0.28
+        "input": 0.04,
+        "output": 1.28
       },
       "releaseDate": "2026-09-22",
       "tags": []
