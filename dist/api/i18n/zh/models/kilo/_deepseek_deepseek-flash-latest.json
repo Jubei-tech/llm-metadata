@@ -2,7 +2,7 @@
   "attachment": true,
   "cost": {
     "cache_read": 0.00291,
-    "input": 0.0198,
+    "input": 0.015543,
     "output": 0.396
   },
   "description": "This model always redirects to the latest model in the DeepSeek Flash family.",
