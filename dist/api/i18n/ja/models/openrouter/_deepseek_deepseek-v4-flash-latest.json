@@ -1,9 +1,9 @@
 {
   "attachment": false,
   "cost": {
-    "cache_read": 0.0115,
-    "input": 0.0115,
-    "output": 1.28
+    "cache_read": 0.00105,
+    "input": 0.003825,
+    "output": 1.043574
   },
   "description": "Fast DeepSeek model for efficient chat, coding help, and agent loops",
   "family": "deepseek",
