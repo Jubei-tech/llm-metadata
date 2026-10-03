@@ -1,9 +1,9 @@
 {
   "attachment": false,
   "cost": {
-    "cache_read": 0.00105,
-    "input": 0.003825,
-    "output": 1.043574
+    "cache_read": 0.0188,
+    "input": 0.0188,
+    "output": 1.28
   },
   "description": "This model always redirects to the latest model in the DeepSeek V4 Flash family.",
   "family": "deepseek",
