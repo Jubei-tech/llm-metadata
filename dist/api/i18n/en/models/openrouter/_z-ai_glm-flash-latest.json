@@ -1,8 +1,8 @@
 {
   "attachment": true,
   "cost": {
-    "cache_read": 0.0234,
-    "input": 0.026,
+    "cache_read": 0.0352,
+    "input": 0.0352,
     "output": 0.5
   },
   "description": "GLM vision model for visual reasoning, documents, and multimodal agents",
