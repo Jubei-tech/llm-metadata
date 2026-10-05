@@ -1810,16 +1810,17 @@
     "deepseek/deepseek-chat-v3-0324": {
       "attachment": false,
       "cost": {
-        "input": 0.25,
-        "output": 1
+        "cache_read": 0.11,
+        "input": 0.29,
+        "output": 1.14
       },
       "description": "DeepSeek chat model for instruction following, coding, and analysis",
       "family": "deepseek",
       "id": "deepseek/deepseek-chat-v3-0324",
       "last_updated": "2025-03-24",
       "limit": {
-        "context": 163840,
-        "output": 147456
+        "context": 128000,
+        "output": 115200
       },
       "modalities": {
         "input": [
@@ -14852,7 +14853,7 @@
       "last_updated": "2026-08-14",
       "limit": {
         "context": 1048576,
-        "output": 131072
+        "output": 943718
       },
       "modalities": {
         "input": [
@@ -15458,7 +15459,7 @@
       "attachment": true,
       "cost": {
         "cache_read": 0.45,
-        "input": 0.54,
+        "input": 0.66,
         "output": 13
       },
       "description": "Kimi multimodal agent model for visual understanding, coding, and planning",
@@ -15776,8 +15777,8 @@
     "~z-ai/glm-flash-latest": {
       "attachment": true,
       "cost": {
-        "cache_read": 0.0238,
-        "input": 0.036,
+        "cache_read": 0.0232,
+        "input": 0.0352,
         "output": 0.5
       },
       "description": "This model always redirects to the latest model in the GLM Flash family.",
@@ -15819,9 +15820,9 @@
     "~z-ai/glm-latest": {
       "attachment": false,
       "cost": {
-        "cache_read": 0.06,
-        "input": 0.06,
-        "output": 4.4
+        "cache_read": 0.03,
+        "input": 0.03,
+        "output": 12
       },
       "description": "This model always redirects to the latest GLM model from Z.ai.",
       "family": "glm",
