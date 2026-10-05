@@ -39062,6 +39062,17 @@
         "reasoning": true,
         "tool_call": true
       },
+      "id": "deepseek-ai/DeepSeek-V4.1-Flash",
+      "name": "luminal/DeepSeek-V4.1-Flash",
+      "providerId": "llmgateway",
+      "updated": "2026-10-04"
+    },
+    {
+      "flags": {
+        "attachment": true,
+        "reasoning": true,
+        "tool_call": true
+      },
       "id": "deepseek-v3.2",
       "name": "DeepSeek V3.2",
       "providerId": "llmgateway",
@@ -43598,6 +43609,17 @@
       "name": "Llama 3.2 11B Instruct (Inference.net)",
       "providerId": "llmgateway-providers",
       "updated": "2024-09-25"
+    },
+    {
+      "flags": {
+        "attachment": true,
+        "reasoning": true,
+        "tool_call": true
+      },
+      "id": "luminal/deepseek-ai/DeepSeek-V4.1-Flash",
+      "name": "luminal/DeepSeek-V4.1-Flash (luminal)",
+      "providerId": "llmgateway-providers",
+      "updated": "2026-10-04"
     },
     {
       "flags": {
@@ -81133,14 +81155,14 @@
     },
     {
       "flags": {
-        "attachment": false,
+        "attachment": true,
         "reasoning": true,
         "tool_call": true
       },
-      "id": "subconscious/glm-5.2",
-      "name": "GLM-5.2",
+      "id": "subconscious/deepseek-v4.1-flash-marathon",
+      "name": "DeepSeek V4.1 Flash Marathon",
       "providerId": "subconscious",
-      "updated": "2026-06-13"
+      "updated": "2026-09-10"
     },
     {
       "flags": {
@@ -81148,10 +81170,10 @@
         "reasoning": true,
         "tool_call": true
       },
-      "id": "subconscious/tim-qwen3.6-27b",
-      "name": "TIM-Qwen3.6 27B",
+      "id": "subconscious/glm-5.3-marathon",
+      "name": "GLM-5.3 Marathon",
       "providerId": "subconscious",
-      "updated": "2026-05-11"
+      "updated": "2026-08-14"
     },
     {
       "flags": {
@@ -94561,7 +94583,7 @@
       "doc": "https://llmgateway.io/docs",
       "iconURL": "https://models.dev/logos/llmgateway.svg",
       "id": "llmgateway",
-      "modelCount": 214,
+      "modelCount": 215,
       "name": "DevPass (LLM Gateway)"
     },
     {
@@ -94569,7 +94591,7 @@
       "doc": "https://llmgateway.io/docs",
       "iconURL": "https://models.dev/logos/llmgateway-providers.svg",
       "id": "llmgateway-providers",
-      "modelCount": 438,
+      "modelCount": 439,
       "name": "LLM Gateway"
     },
     {
