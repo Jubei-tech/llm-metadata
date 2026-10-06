@@ -2166,7 +2166,7 @@
       "doc": "https://docs.wandb.ai/inference",
       "icon": "lb:weightsbiases",
       "id": "wandb",
-      "modelCount": 29,
+      "modelCount": 20,
       "name": "CoreWeave",
       "status": 1
     },
