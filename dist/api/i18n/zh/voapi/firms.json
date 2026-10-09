@@ -606,7 +606,7 @@
       "doc": "https://docs.edenai.co",
       "icon": "https://models.dev/logos/edenai.svg",
       "id": "edenai",
-      "modelCount": 296,
+      "modelCount": 298,
       "name": "Eden AI",
       "status": 1
     },
@@ -756,7 +756,7 @@
       "doc": "https://cloud.google.com/vertex-ai/generative-ai/docs/models",
       "icon": "lb:vertexai-color",
       "id": "google-vertex",
-      "modelCount": 55,
+      "modelCount": 57,
       "name": "Vertex",
       "status": 1
     },
@@ -1396,7 +1396,7 @@
       "doc": "https://portal.neuralwatt.com/docs",
       "icon": "https://models.dev/logos/neuralwatt.svg",
       "id": "neuralwatt",
-      "modelCount": 29,
+      "modelCount": 31,
       "name": "Neuralwatt",
       "status": 1
     },
@@ -2053,10 +2053,10 @@
     {
       "api": "",
       "description": "",
-      "doc": "https://sdk.vercel.ai/providers/ai-sdk-providers/vercel",
+      "doc": "",
       "icon": "lb:vercel-color",
       "id": "v0",
-      "modelCount": 3,
+      "modelCount": 0,
       "name": "v0",
       "status": 1
     },

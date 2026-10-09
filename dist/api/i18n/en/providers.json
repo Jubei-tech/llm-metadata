@@ -482,7 +482,7 @@
       "doc": "https://docs.edenai.co",
       "iconURL": "https://models.dev/logos/edenai.svg",
       "id": "edenai",
-      "modelCount": 296,
+      "modelCount": 298,
       "name": "Eden AI"
     },
     {
@@ -603,7 +603,7 @@
       "iconURL": "https://models.dev/logos/google-vertex.svg",
       "id": "google-vertex",
       "lobeIcon": "VertexAI.Color",
-      "modelCount": 55,
+      "modelCount": 57,
       "name": "Vertex"
     },
     {
@@ -1123,7 +1123,7 @@
       "doc": "https://portal.neuralwatt.com/docs",
       "iconURL": "https://models.dev/logos/neuralwatt.svg",
       "id": "neuralwatt",
-      "modelCount": 29,
+      "modelCount": 31,
       "name": "Neuralwatt"
     },
     {
@@ -1649,11 +1649,9 @@
       "name": "Upstage"
     },
     {
-      "doc": "https://sdk.vercel.ai/providers/ai-sdk-providers/vercel",
-      "iconURL": "https://models.dev/logos/v0.svg",
       "id": "v0",
       "lobeIcon": "Vercel.Color",
-      "modelCount": 3,
+      "modelCount": 0,
       "name": "v0"
     },
     {
