@@ -117752,10 +117752,10 @@
       },
       "name": "DeepSeek: DeepSeek V4 Flash Latest",
       "price": {
-        "cacheRead": 0.0168,
+        "cacheRead": 0.009,
         "cacheWrite": null,
-        "input": 0.0168,
-        "output": 1.28
+        "input": 0.01,
+        "output": 1.27
       },
       "releaseDate": "2026-08-01",
       "tags": []
@@ -117870,10 +117870,10 @@
       },
       "name": "MoonshotAI: Kimi Latest",
       "price": {
-        "cacheRead": 0.3,
+        "cacheRead": 0.29,
         "cacheWrite": null,
-        "input": 0.31,
-        "output": 14.89
+        "input": 0.3,
+        "output": 14.9
       },
       "releaseDate": "2026-04-27",
       "tags": []
@@ -118136,9 +118136,9 @@
       },
       "name": "Z.ai: GLM Flash Latest",
       "price": {
-        "cacheRead": 0.0125,
+        "cacheRead": 0.012,
         "cacheWrite": null,
-        "input": 0.04,
+        "input": 0.03,
         "output": 0.5
       },
       "releaseDate": "2026-08-27",
@@ -124022,9 +124022,9 @@
       },
       "name": "Kimi K2.6",
       "price": {
-        "cacheRead": 0.1087,
+        "cacheRead": 0.1077,
         "cacheWrite": null,
-        "input": 0.4375,
+        "input": 0.4344,
         "output": 2.45
       },
       "releaseDate": "2026-04-21",
@@ -128898,7 +128898,7 @@
       "knowledge": null,
       "lastUpdated": "2026-04-17",
       "maxCtxTokens": 262144,
-      "maxOutputTokens": 235929,
+      "maxOutputTokens": 65536,
       "modalities": {
         "input": [
           "text",
@@ -128911,10 +128911,10 @@
       },
       "name": "Qwen3.6 35B-A3B",
       "price": {
-        "cacheRead": 0.05,
+        "cacheRead": 0.1,
         "cacheWrite": null,
-        "input": 0.15,
-        "output": 1
+        "input": 0.1,
+        "output": 0.95
       },
       "releaseDate": "2026-04-17",
       "tags": []
@@ -130284,10 +130284,10 @@
       },
       "name": "Hy3",
       "price": {
-        "cacheRead": 0.033,
+        "cacheRead": 0.020625,
         "cacheWrite": null,
-        "input": 0.132,
-        "output": 0.528
+        "input": 0.0825,
+        "output": 0.33
       },
       "releaseDate": "2026-07-06",
       "tags": []
@@ -130356,10 +130356,10 @@
       },
       "name": "Hy4 preview",
       "price": {
-        "cacheRead": 0.042,
+        "cacheRead": 0.0378,
         "cacheWrite": null,
-        "input": 0.834,
-        "output": 2.501
+        "input": 0.7506,
+        "output": 2.2509
       },
       "releaseDate": "2026-08-28",
       "tags": []
@@ -133479,7 +133479,7 @@
       },
       "name": "Claude Sonnet 5.5",
       "price": {
-        "cacheRead": 0.2,
+        "cacheRead": 0.1,
         "cacheWrite": 2.5,
         "input": 2,
         "output": 10
@@ -142302,7 +142302,7 @@
       },
       "name": "Claude Sonnet 5.5 (Anthropic)",
       "price": {
-        "cacheRead": 0.2,
+        "cacheRead": 0.1,
         "cacheWrite": 2.5,
         "input": 2,
         "output": 10
@@ -142984,7 +142984,7 @@
       },
       "name": "Claude Sonnet 5.5 (AWS Bedrock)",
       "price": {
-        "cacheRead": 0.2,
+        "cacheRead": 0.1,
         "cacheWrite": 2.5,
         "input": 2,
         "output": 10
@@ -143847,7 +143847,7 @@
       },
       "name": "Claude Sonnet 5.5 (Azure Anthropic)",
       "price": {
-        "cacheRead": 0.2,
+        "cacheRead": 0.1,
         "cacheWrite": 2.5,
         "input": 2,
         "output": 10
@@ -222518,9 +222518,9 @@
       },
       "name": "DeepSeek V4 Flash Latest",
       "price": {
-        "cacheRead": 0.0168,
+        "cacheRead": 0.018,
         "cacheWrite": null,
-        "input": 0.0168,
+        "input": 0.018,
         "output": 1.28
       },
       "releaseDate": "2026-08-01",
@@ -224934,9 +224934,9 @@
       },
       "name": "DeepSeek V4 Flash 0731",
       "price": {
-        "cacheRead": 0.0168,
+        "cacheRead": 0.018,
         "cacheWrite": null,
-        "input": 0.0168,
+        "input": 0.018,
         "output": 1.28
       },
       "releaseDate": "2026-07-31",
@@ -228707,9 +228707,9 @@
       },
       "name": "Kimi K2.6",
       "price": {
-        "cacheRead": 0.1087,
+        "cacheRead": 0.1077,
         "cacheWrite": null,
-        "input": 0.4375,
+        "input": 0.4344,
         "output": 2.45
       },
       "releaseDate": "2026-04-21",
@@ -234731,10 +234731,10 @@
       },
       "name": "Hy3",
       "price": {
-        "cacheRead": 0.033,
+        "cacheRead": 0.020625,
         "cacheWrite": null,
-        "input": 0.132,
-        "output": 0.528
+        "input": 0.0825,
+        "output": 0.33
       },
       "releaseDate": "2026-07-06",
       "tags": []
@@ -234803,10 +234803,10 @@
       },
       "name": "Hy4 preview",
       "price": {
-        "cacheRead": 0.042,
+        "cacheRead": 0.0378,
         "cacheWrite": null,
-        "input": 0.834,
-        "output": 2.501
+        "input": 0.7506,
+        "output": 2.2509
       },
       "releaseDate": "2026-08-28",
       "tags": []

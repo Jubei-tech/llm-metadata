@@ -2222,8 +2222,8 @@
       "attachment": false,
       "canonical_model_id": "deepseek/deepseek-v4-flash-0731",
       "cost": {
-        "cache_read": 0.0168,
-        "input": 0.0168,
+        "cache_read": 0.018,
+        "input": 0.018,
         "output": 1.28
       },
       "description": "Official DeepSeek V4 Flash release with enhanced agentic capabilities and integrated DSpark speculative decoding",
@@ -6163,8 +6163,8 @@
       "attachment": true,
       "canonical_model_id": "moonshotai/kimi-k2.6",
       "cost": {
-        "cache_read": 0.1087,
-        "input": 0.4375,
+        "cache_read": 0.1077,
+        "input": 0.4344,
         "output": 2.45
       },
       "description": "Multimodal Kimi workhorse for agent loops, coding tasks, and visual context",
@@ -12892,9 +12892,9 @@
       "attachment": false,
       "canonical_model_id": "tencent/hy3",
       "cost": {
-        "cache_read": 0.033,
-        "input": 0.132,
-        "output": 0.528
+        "cache_read": 0.020625,
+        "input": 0.0825,
+        "output": 0.33
       },
       "description": "Tencent Hy reasoning model for coding, instruction following, and agent tasks",
       "family": "Hy",
@@ -12977,9 +12977,9 @@
       "attachment": false,
       "canonical_model_id": "tencent/hy4-preview",
       "cost": {
-        "cache_read": 0.042,
-        "input": 0.834,
-        "output": 2.501
+        "cache_read": 0.0378,
+        "input": 0.7506,
+        "output": 2.2509
       },
       "description": "Tencent Hy reasoning model for coding, instruction following, and agent tasks",
       "family": "Hy",
@@ -15108,8 +15108,8 @@
     "~deepseek/deepseek-v4-flash-latest": {
       "attachment": false,
       "cost": {
-        "cache_read": 0.0168,
-        "input": 0.0168,
+        "cache_read": 0.018,
+        "input": 0.018,
         "output": 1.28
       },
       "description": "Fast DeepSeek model for efficient chat, coding help, and agent loops",
