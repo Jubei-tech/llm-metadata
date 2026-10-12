@@ -6226,9 +6226,9 @@
     "deepseek/deepseek-latest": {
       "attachment": false,
       "cost": {
-        "cache_read": 0.088,
-        "input": 0.37,
-        "output": 2.93
+        "cache_read": 0.04,
+        "input": 1.1,
+        "output": 2.5
       },
       "description": "DeepSeek chat model for instruction following, coding, and analysis",
       "family": "deepseek",
@@ -6384,7 +6384,7 @@
       "attachment": false,
       "canonical_model_id": "deepseek/deepseek-v4-flash-0423",
       "cost": {
-        "cache_read": 0.03,
+        "cache_read": 0.028,
         "input": 0.14,
         "output": 0.28
       },
@@ -6429,7 +6429,7 @@
       "attachment": false,
       "canonical_model_id": "deepseek/deepseek-v4-flash-0423",
       "cost": {
-        "cache_read": 0.03,
+        "cache_read": 0.028,
         "input": 0.14,
         "output": 0.28
       },
@@ -6739,9 +6739,9 @@
       "attachment": false,
       "canonical_model_id": "deepseek/deepseek-v4-pro-0813",
       "cost": {
-        "cache_read": 0.088,
-        "input": 0.37,
-        "output": 2.93
+        "cache_read": 0.04,
+        "input": 1.1,
+        "output": 2.5
       },
       "description": "DeepSeek V4 Pro snapshot with million-token context and support for thinking and non-thinking modes",
       "family": "deepseek-thinking",
@@ -6783,9 +6783,9 @@
       "attachment": false,
       "canonical_model_id": "deepseek/deepseek-v4-pro-0813",
       "cost": {
-        "cache_read": 0.088,
-        "input": 0.37,
-        "output": 2.93
+        "cache_read": 0.04,
+        "input": 1.1,
+        "output": 2.5
       },
       "description": "DeepSeek V4 Pro snapshot with million-token context and support for thinking and non-thinking modes",
       "family": "deepseek-thinking",
