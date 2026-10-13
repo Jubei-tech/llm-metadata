@@ -20281,43 +20281,6 @@
       "tags": []
     },
     {
-      "description": "Codex GPT for repository edits, code review, and practical software agents",
-      "firm": "aimlapi",
-      "flags": {
-        "attachment": true,
-        "audio": false,
-        "image": true,
-        "open_weights": false,
-        "reasoning": true,
-        "temperature": false,
-        "tool_call": true
-      },
-      "icon": "",
-      "id": "openai/gpt-5.1-codex",
-      "knowledge": "2024-09-30",
-      "lastUpdated": "2025-11-13",
-      "maxCtxTokens": 400000,
-      "maxOutputTokens": 128000,
-      "modalities": {
-        "input": [
-          "text",
-          "image"
-        ],
-        "output": [
-          "text"
-        ]
-      },
-      "name": "GPT-5.1 Codex",
-      "price": {
-        "cacheRead": 0.34385,
-        "cacheWrite": null,
-        "input": 3.4385,
-        "output": 27.508
-      },
-      "releaseDate": "2025-11-13",
-      "tags": []
-    },
-    {
       "description": "Coding-optimized GPT model for repository edits, reviews, and agentic software work",
       "firm": "aimlapi",
       "flags": {
@@ -20352,81 +20315,6 @@
         "output": 27.508
       },
       "releaseDate": "2025-11-13",
-      "tags": []
-    },
-    {
-      "description": "Coding-optimized GPT model for repository edits, reviews, and agentic software work",
-      "firm": "aimlapi",
-      "flags": {
-        "attachment": true,
-        "audio": false,
-        "image": true,
-        "open_weights": false,
-        "reasoning": true,
-        "temperature": false,
-        "tool_call": true
-      },
-      "icon": "",
-      "id": "openai/gpt-5.1-codex-mini",
-      "knowledge": "2024-09-30",
-      "lastUpdated": "2025-11-13",
-      "maxCtxTokens": 400000,
-      "maxOutputTokens": 128000,
-      "modalities": {
-        "input": [
-          "text",
-          "image"
-        ],
-        "output": [
-          "text"
-        ]
-      },
-      "name": "GPT-5.1 Codex Mini",
-      "price": {
-        "cacheRead": 0.041262,
-        "cacheWrite": null,
-        "input": 0.34385,
-        "output": 2.7508
-      },
-      "releaseDate": "2025-11-13",
-      "tags": []
-    },
-    {
-      "description": "Code-specialist GPT for repository edits, reviews, and long-running software agents",
-      "firm": "aimlapi",
-      "flags": {
-        "attachment": true,
-        "audio": false,
-        "image": true,
-        "open_weights": false,
-        "reasoning": true,
-        "temperature": false,
-        "tool_call": true
-      },
-      "icon": "",
-      "id": "openai/gpt-5.2-codex",
-      "knowledge": "2025-08-31",
-      "lastUpdated": "2025-12-11",
-      "maxCtxTokens": 400000,
-      "maxOutputTokens": 128000,
-      "modalities": {
-        "input": [
-          "text",
-          "image",
-          "pdf"
-        ],
-        "output": [
-          "text"
-        ]
-      },
-      "name": "GPT-5.2 Codex",
-      "price": {
-        "cacheRead": 0.48139,
-        "cacheWrite": null,
-        "input": 4.8139,
-        "output": 38.5112
-      },
-      "releaseDate": "2025-12-11",
       "tags": []
     },
     {
@@ -84981,6 +84869,44 @@
       "tags": []
     },
     {
+      "description": "Mistral model for multilingual chat, reasoning, and tool-assisted workflows",
+      "firm": "edenai",
+      "flags": {
+        "attachment": true,
+        "audio": false,
+        "image": true,
+        "open_weights": false,
+        "reasoning": true,
+        "temperature": true,
+        "tool_call": true
+      },
+      "icon": "",
+      "id": "mistral/mistral-medium-3-5",
+      "knowledge": null,
+      "lastUpdated": "2026-04-30",
+      "maxCtxTokens": 262144,
+      "maxOutputTokens": 209715,
+      "modalities": {
+        "input": [
+          "text",
+          "image",
+          "pdf"
+        ],
+        "output": [
+          "text"
+        ]
+      },
+      "name": "Mistral Medium 3.5",
+      "price": {
+        "cacheRead": 0.15,
+        "cacheWrite": null,
+        "input": 1.5,
+        "output": 7.5
+      },
+      "releaseDate": "2026-04-30",
+      "tags": []
+    },
+    {
       "description": "Balanced Mistral model for enterprise assistants, multilingual work, and tools",
       "firm": "edenai",
       "flags": {
@@ -126196,8 +126122,8 @@
       "price": {
         "cacheRead": 0.0054,
         "cacheWrite": null,
-        "input": 0.045,
-        "output": 0.891
+        "input": 0.0441,
+        "output": 0.765
       },
       "releaseDate": "2026-09-14",
       "tags": []
@@ -126219,7 +126145,7 @@
       "knowledge": null,
       "lastUpdated": "2026-09-14",
       "maxCtxTokens": 1048576,
-      "maxOutputTokens": 943718,
+      "maxOutputTokens": 393216,
       "modalities": {
         "input": [
           "text"
@@ -126230,10 +126156,10 @@
       },
       "name": "DeepSeek: DeepSeek Pro Latest",
       "price": {
-        "cacheRead": 0.2,
+        "cacheRead": 0.008232,
         "cacheWrite": null,
-        "input": 0.25,
-        "output": 5
+        "input": 0.25872,
+        "output": 0.77616
       },
       "releaseDate": "2026-09-14",
       "tags": []
@@ -126387,7 +126313,7 @@
         "cacheRead": 0.55,
         "cacheWrite": null,
         "input": 0.73,
-        "output": 15
+        "output": 10
       },
       "releaseDate": "2026-04-27",
       "tags": []
@@ -128610,9 +128536,9 @@
       },
       "name": "DeepSeek V4 Flash",
       "price": {
-        "cacheRead": 0.03,
+        "cacheRead": 0.05,
         "cacheWrite": null,
-        "input": 0.03,
+        "input": 0.05,
         "output": 1.28
       },
       "releaseDate": "2026-04-24",
@@ -129808,10 +129734,10 @@
       },
       "name": "Gemma 3 27B IT",
       "price": {
-        "cacheRead": null,
+        "cacheRead": 0.04,
         "cacheWrite": null,
-        "input": 0.08,
-        "output": 0.16
+        "input": 0.07,
+        "output": 0.275
       },
       "releaseDate": "2025-03-12",
       "tags": []
@@ -138293,6 +138219,82 @@
       "tags": []
     },
     {
+      "description": "Extract is a description-driven entity extraction model from ScaleDown. Instead of a fixed set of entity types, callers describe the fields they want in plain English through `provider.options.scaledown.entities`, and the...",
+      "firm": "kilo",
+      "flags": {
+        "attachment": true,
+        "audio": false,
+        "image": true,
+        "open_weights": false,
+        "reasoning": false,
+        "temperature": false,
+        "tool_call": false
+      },
+      "icon": "",
+      "id": "scaledown/extract",
+      "knowledge": null,
+      "lastUpdated": "2026-10-13",
+      "maxCtxTokens": 1000000,
+      "maxOutputTokens": 900000,
+      "modalities": {
+        "input": [
+          "text",
+          "image",
+          "pdf"
+        ],
+        "output": [
+          "text"
+        ]
+      },
+      "name": "ScaleDown: Extract",
+      "price": {
+        "cacheRead": null,
+        "cacheWrite": null,
+        "input": 0.05,
+        "output": null
+      },
+      "releaseDate": "2026-10-13",
+      "tags": []
+    },
+    {
+      "description": "Summarize is an abstractive summarization model from ScaleDown. It condenses long text and documents into a fluent, faithful rewrite rather than lifting sentences from the source, and is suited for...",
+      "firm": "kilo",
+      "flags": {
+        "attachment": true,
+        "audio": false,
+        "image": true,
+        "open_weights": false,
+        "reasoning": false,
+        "temperature": false,
+        "tool_call": false
+      },
+      "icon": "",
+      "id": "scaledown/summarize",
+      "knowledge": null,
+      "lastUpdated": "2026-10-13",
+      "maxCtxTokens": 1000000,
+      "maxOutputTokens": 4000,
+      "modalities": {
+        "input": [
+          "text",
+          "image",
+          "pdf"
+        ],
+        "output": [
+          "text"
+        ]
+      },
+      "name": "ScaleDown: Summarize",
+      "price": {
+        "cacheRead": null,
+        "cacheWrite": null,
+        "input": 0.05,
+        "output": null
+      },
+      "releaseDate": "2026-10-13",
+      "tags": []
+    },
+    {
       "description": "Flagship Claude model for deep reasoning, coding, and long-horizon agents",
       "firm": "kilo",
       "flags": {
@@ -138838,10 +138840,10 @@
       },
       "name": "Hy3",
       "price": {
-        "cacheRead": 0.020625,
+        "cacheRead": 0.033,
         "cacheWrite": null,
-        "input": 0.0825,
-        "output": 0.33
+        "input": 0.132,
+        "output": 0.528
       },
       "releaseDate": "2026-07-06",
       "tags": []
@@ -138910,10 +138912,10 @@
       },
       "name": "Hy4 preview",
       "price": {
-        "cacheRead": 0.0378,
+        "cacheRead": 0.041,
         "cacheWrite": null,
-        "input": 0.7506,
-        "output": 2.2509
+        "input": 0.83,
+        "output": 2.501
       },
       "releaseDate": "2026-08-28",
       "tags": []
@@ -155945,42 +155947,6 @@
         "cacheWrite": null,
         "input": 0.22,
         "output": 0.66
-      },
-      "releaseDate": "2026-04-24",
-      "tags": []
-    },
-    {
-      "description": "Open MoE flagship with million-token context for coding and long agent runs",
-      "firm": "llmgateway-providers",
-      "flags": {
-        "attachment": false,
-        "audio": false,
-        "image": false,
-        "open_weights": true,
-        "reasoning": true,
-        "temperature": true,
-        "tool_call": true
-      },
-      "icon": "",
-      "id": "fireworks/deepseek-v4-pro",
-      "knowledge": "2025-05",
-      "lastUpdated": "2026-04-24",
-      "maxCtxTokens": 1048576,
-      "maxOutputTokens": 393216,
-      "modalities": {
-        "input": [
-          "text"
-        ],
-        "output": [
-          "text"
-        ]
-      },
-      "name": "DeepSeek V4 Pro (Fireworks AI)",
-      "price": {
-        "cacheRead": 0.044,
-        "cacheWrite": null,
-        "input": 1.32,
-        "output": 3.96
       },
       "releaseDate": "2026-04-24",
       "tags": []
@@ -184136,6 +184102,42 @@
       "tags": []
     },
     {
+      "description": "Ateron's second Dark Thoughts merge combines Dark Scarlett V2, MeroMero V2, and Scotoma 2 for creative dialogue and extended character roleplay. This text-only Gemma 4 31B deployment supports a 65,536-token context window and up to 8,192 output tokens.",
+      "firm": "nano-gpt",
+      "flags": {
+        "attachment": false,
+        "audio": false,
+        "image": false,
+        "open_weights": true,
+        "reasoning": false,
+        "temperature": false,
+        "tool_call": false
+      },
+      "icon": "",
+      "id": "ateron/gemma-4-dark-thoughts-v2-31b",
+      "knowledge": null,
+      "lastUpdated": "2026-10-13",
+      "maxCtxTokens": 65536,
+      "maxOutputTokens": 8192,
+      "modalities": {
+        "input": [
+          "text"
+        ],
+        "output": [
+          "text"
+        ]
+      },
+      "name": "Gemma 4 Dark Thoughts V2 31B",
+      "price": {
+        "cacheRead": 0.05,
+        "cacheWrite": null,
+        "input": 0.1,
+        "output": 0.45
+      },
+      "releaseDate": "2026-10-13",
+      "tags": []
+    },
+    {
       "description": "Automatic model router for matching prompts to suitable backends and budgets",
       "firm": "nano-gpt",
       "flags": {
@@ -185325,10 +185327,10 @@
       },
       "name": "DeepSeek Latest",
       "price": {
-        "cacheRead": 0.1,
+        "cacheRead": 0.04,
         "cacheWrite": null,
-        "input": 0.48,
-        "output": 1.98
+        "input": 1.1,
+        "output": 2.5
       },
       "releaseDate": "2026-05-03",
       "tags": []
@@ -185652,12 +185654,49 @@
       },
       "name": "DeepSeek V4 Flash Vision Exp",
       "price": {
-        "cacheRead": 0.014,
+        "cacheRead": 0.007,
         "cacheWrite": null,
-        "input": 0.44,
-        "output": 1.32
+        "input": 0.22,
+        "output": 0.66
       },
       "releaseDate": "2026-08-21",
+      "tags": []
+    },
+    {
+      "description": "A cybersecurity-focused variant of DeepSeek V4 Flash Vision Exp, with image understanding, tool calling, optional reasoning, and a 1,048,576-token context window.",
+      "firm": "nano-gpt",
+      "flags": {
+        "attachment": true,
+        "audio": false,
+        "image": true,
+        "open_weights": true,
+        "reasoning": true,
+        "temperature": false,
+        "tool_call": true
+      },
+      "icon": "",
+      "id": "deepseek/deepseek-v4-flash-vision-exp-cybersecurity",
+      "knowledge": null,
+      "lastUpdated": "2026-10-13",
+      "maxCtxTokens": 1048576,
+      "maxOutputTokens": 32768,
+      "modalities": {
+        "input": [
+          "text",
+          "image"
+        ],
+        "output": [
+          "text"
+        ]
+      },
+      "name": "DeepSeek V4 Flash Vision Exp Cybersecurity",
+      "price": {
+        "cacheRead": 0.075,
+        "cacheWrite": null,
+        "input": 0.15,
+        "output": 0.6
+      },
+      "releaseDate": "2026-10-13",
       "tags": []
     },
     {
@@ -185760,10 +185799,10 @@
       },
       "name": "DeepSeek V4 Pro 0813",
       "price": {
-        "cacheRead": 0.1,
+        "cacheRead": 0.04,
         "cacheWrite": null,
-        "input": 0.48,
-        "output": 1.98
+        "input": 1.1,
+        "output": 2.5
       },
       "releaseDate": "2026-08-12",
       "tags": []
@@ -185796,10 +185835,10 @@
       },
       "name": "DeepSeek V4 Pro 0813 Thinking",
       "price": {
-        "cacheRead": 0.1,
+        "cacheRead": 0.04,
         "cacheWrite": null,
-        "input": 0.48,
-        "output": 1.98
+        "input": 1.1,
+        "output": 2.5
       },
       "releaseDate": "2026-08-12",
       "tags": []
@@ -193348,6 +193387,42 @@
       "tags": []
     },
     {
+      "description": "nbeerbower's Gemma 4 31B finetune for literary fiction, character interiority, and controlled narrative pacing. Its text decoder was trained with ORPO on 14,816 Athanorlite-DPO preference pairs. This text-only deployment supports a 65,536-token context window and up to 8,192 output tokens.",
+      "firm": "nano-gpt",
+      "flags": {
+        "attachment": false,
+        "audio": false,
+        "image": false,
+        "open_weights": true,
+        "reasoning": false,
+        "temperature": false,
+        "tool_call": false
+      },
+      "icon": "",
+      "id": "nbeerbower/gemma4-gutenberg-31b",
+      "knowledge": null,
+      "lastUpdated": "2026-10-13",
+      "maxCtxTokens": 65536,
+      "maxOutputTokens": 8192,
+      "modalities": {
+        "input": [
+          "text"
+        ],
+        "output": [
+          "text"
+        ]
+      },
+      "name": "Gemma 4 Gutenberg 31B",
+      "price": {
+        "cacheRead": 0.05,
+        "cacheWrite": null,
+        "input": 0.1,
+        "output": 0.45
+      },
+      "releaseDate": "2026-10-13",
+      "tags": []
+    },
+    {
       "description": "Open Llama instruction model for multilingual chat, reasoning, and coding",
       "firm": "nano-gpt",
       "flags": {
@@ -193381,6 +193456,78 @@
         "output": 1.5
       },
       "releaseDate": "2024-01-01",
+      "tags": []
+    },
+    {
+      "description": "Nimbz's second Giftige-Blume merge focuses on character roleplay, creative prose, and stricter prompt adherence. It combines storymaxxed, Equinox, Mero-Artemis, Musica, Ortenzya, Gemopus, and Sprinkle. This text-only Gemma 4 31B deployment supports a 65,536-token context window and up to 8,192 output tokens.",
+      "firm": "nano-gpt",
+      "flags": {
+        "attachment": false,
+        "audio": false,
+        "image": false,
+        "open_weights": true,
+        "reasoning": false,
+        "temperature": false,
+        "tool_call": false
+      },
+      "icon": "",
+      "id": "nimbz/gemma-4-giftige-blume-31b-v2",
+      "knowledge": null,
+      "lastUpdated": "2026-10-13",
+      "maxCtxTokens": 65536,
+      "maxOutputTokens": 8192,
+      "modalities": {
+        "input": [
+          "text"
+        ],
+        "output": [
+          "text"
+        ]
+      },
+      "name": "Gemma 4 Giftige-Blume V2 31B",
+      "price": {
+        "cacheRead": 0.05,
+        "cacheWrite": null,
+        "input": 0.1,
+        "output": 0.45
+      },
+      "releaseDate": "2026-10-13",
+      "tags": []
+    },
+    {
+      "description": "Nimbz's Gemma 4 31B merge for character roleplay, expressive prose, and creative dialogue. It combines Scotoma 2, Giftige-Blume v1, and MeroMero v2. This text-only deployment supports a 65,536-token context window and up to 8,192 output tokens.",
+      "firm": "nano-gpt",
+      "flags": {
+        "attachment": false,
+        "audio": false,
+        "image": false,
+        "open_weights": true,
+        "reasoning": false,
+        "temperature": false,
+        "tool_call": false
+      },
+      "icon": "",
+      "id": "nimbz/schattenblume-31b",
+      "knowledge": null,
+      "lastUpdated": "2026-10-13",
+      "maxCtxTokens": 65536,
+      "maxOutputTokens": 8192,
+      "modalities": {
+        "input": [
+          "text"
+        ],
+        "output": [
+          "text"
+        ]
+      },
+      "name": "Schattenblume 31B",
+      "price": {
+        "cacheRead": 0.05,
+        "cacheWrite": null,
+        "input": 0.1,
+        "output": 0.45
+      },
+      "releaseDate": "2026-10-13",
       "tags": []
     },
     {
@@ -201411,7 +201558,7 @@
       "id": "TheDrummer/Cydonia-24B-v4.3",
       "knowledge": null,
       "lastUpdated": "2025-12-25",
-      "maxCtxTokens": 32768,
+      "maxCtxTokens": 131072,
       "maxOutputTokens": 32768,
       "modalities": {
         "input": [
@@ -201520,7 +201667,7 @@
       "knowledge": null,
       "lastUpdated": "2026-10-12",
       "maxCtxTokens": 16384,
-      "maxOutputTokens": 8192,
+      "maxOutputTokens": 4096,
       "modalities": {
         "input": [
           "text"
@@ -206557,9 +206704,9 @@
       },
       "name": "GLM-5.3-Flash",
       "price": {
-        "cacheRead": 0.035,
+        "cacheRead": 0.012,
         "cacheWrite": null,
-        "input": 0.15,
+        "input": 0.08,
         "output": 0.5
       },
       "releaseDate": "2026-08-26",
@@ -226460,6 +226607,42 @@
       "tags": []
     },
     {
+      "description": "A text-only reasoning model for coding and agentic workflows, with tool calling and structured JSON outputs.",
+      "firm": "opencode",
+      "flags": {
+        "attachment": false,
+        "audio": false,
+        "image": false,
+        "open_weights": false,
+        "reasoning": true,
+        "temperature": true,
+        "tool_call": true
+      },
+      "icon": "lb:opencode",
+      "id": "cat-jam-free",
+      "knowledge": null,
+      "lastUpdated": "2026-10-12",
+      "maxCtxTokens": 262144,
+      "maxOutputTokens": 131072,
+      "modalities": {
+        "input": [
+          "text"
+        ],
+        "output": [
+          "text"
+        ]
+      },
+      "name": "Cat Jam Free",
+      "price": {
+        "cacheRead": null,
+        "cacheWrite": null,
+        "input": null,
+        "output": null
+      },
+      "releaseDate": "2026-10-12",
+      "tags": []
+    },
+    {
       "description": "Legacy model retained for compatibility with older integrations",
       "firm": "opencode",
       "flags": {
@@ -232559,8 +232742,8 @@
       "price": {
         "cacheRead": 0.0054,
         "cacheWrite": null,
-        "input": 0.045,
-        "output": 0.891
+        "input": 0.0441,
+        "output": 0.765
       },
       "releaseDate": "2026-09-14",
       "tags": []
@@ -232582,7 +232765,7 @@
       "knowledge": null,
       "lastUpdated": "2026-09-14",
       "maxCtxTokens": 1048576,
-      "maxOutputTokens": 943718,
+      "maxOutputTokens": 393216,
       "modalities": {
         "input": [
           "text"
@@ -232593,10 +232776,10 @@
       },
       "name": "DeepSeek Pro Latest",
       "price": {
-        "cacheRead": 0.2,
+        "cacheRead": 0.008232,
         "cacheWrite": null,
-        "input": 0.25,
-        "output": 5
+        "input": 0.25872,
+        "output": 0.77616
       },
       "releaseDate": "2026-09-14",
       "tags": []
@@ -232750,7 +232933,7 @@
         "cacheRead": 0.55,
         "cacheWrite": null,
         "input": 0.73,
-        "output": 15
+        "output": 10
       },
       "releaseDate": "2026-04-27",
       "tags": []
@@ -235009,9 +235192,9 @@
       },
       "name": "DeepSeek V4 Flash",
       "price": {
-        "cacheRead": 0.03,
+        "cacheRead": 0.05,
         "cacheWrite": null,
-        "input": 0.03,
+        "input": 0.05,
         "output": 1.28
       },
       "releaseDate": "2026-04-24",
@@ -235154,10 +235337,10 @@
       },
       "name": "DeepSeek V4 Pro 0813",
       "price": {
-        "cacheRead": 0.044,
+        "cacheRead": 0.022,
         "cacheWrite": null,
-        "input": 1.32,
-        "output": 3.96
+        "input": 0.66,
+        "output": 1.98
       },
       "releaseDate": "2026-08-12",
       "tags": []
@@ -235191,10 +235374,10 @@
       },
       "name": "DeepSeek V4.1 Flash",
       "price": {
-        "cacheRead": 0.006,
+        "cacheRead": 0.003,
         "cacheWrite": null,
-        "input": 0.3,
-        "output": 1.2
+        "input": 0.15,
+        "output": 0.6
       },
       "releaseDate": "2026-09-10",
       "tags": []
@@ -236275,10 +236458,10 @@
       },
       "name": "Gemma 4 26B A4B IT",
       "price": {
-        "cacheRead": 0.0425,
+        "cacheRead": 0.05,
         "cacheWrite": null,
-        "input": 0.0765,
-        "output": 0.255
+        "input": 0.09,
+        "output": 0.3
       },
       "releaseDate": "2026-04-02",
       "tags": []
@@ -238936,7 +239119,7 @@
         "cacheRead": 0.55,
         "cacheWrite": null,
         "input": 0.73,
-        "output": 15
+        "output": 10
       },
       "releaseDate": "2026-07-16",
       "tags": []
@@ -244596,6 +244779,82 @@
         "output": 0.75
       },
       "releaseDate": "2024-12-18",
+      "tags": []
+    },
+    {
+      "description": "Multimodal model for analyzing text, images, documents, and rich media",
+      "firm": "openrouter",
+      "flags": {
+        "attachment": true,
+        "audio": false,
+        "image": true,
+        "open_weights": false,
+        "reasoning": false,
+        "temperature": false,
+        "tool_call": false
+      },
+      "icon": "lb:openrouter-color",
+      "id": "scaledown/extract",
+      "knowledge": null,
+      "lastUpdated": "2026-10-13",
+      "maxCtxTokens": 1000000,
+      "maxOutputTokens": 900000,
+      "modalities": {
+        "input": [
+          "text",
+          "image",
+          "pdf"
+        ],
+        "output": [
+          "text"
+        ]
+      },
+      "name": "Extract",
+      "price": {
+        "cacheRead": null,
+        "cacheWrite": null,
+        "input": 0.04,
+        "output": null
+      },
+      "releaseDate": "2026-10-13",
+      "tags": []
+    },
+    {
+      "description": "Multimodal model for analyzing text, images, documents, and rich media",
+      "firm": "openrouter",
+      "flags": {
+        "attachment": true,
+        "audio": false,
+        "image": true,
+        "open_weights": false,
+        "reasoning": false,
+        "temperature": false,
+        "tool_call": false
+      },
+      "icon": "lb:openrouter-color",
+      "id": "scaledown/summarize",
+      "knowledge": null,
+      "lastUpdated": "2026-10-13",
+      "maxCtxTokens": 1000000,
+      "maxOutputTokens": 4000,
+      "modalities": {
+        "input": [
+          "text",
+          "image",
+          "pdf"
+        ],
+        "output": [
+          "text"
+        ]
+      },
+      "name": "Summarize",
+      "price": {
+        "cacheRead": null,
+        "cacheWrite": null,
+        "input": 0.04,
+        "output": null
+      },
+      "releaseDate": "2026-10-13",
       "tags": []
     },
     {

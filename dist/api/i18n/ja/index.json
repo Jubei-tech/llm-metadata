@@ -5979,43 +5979,10 @@
         "reasoning": true,
         "tool_call": true
       },
-      "id": "openai/gpt-5.1-codex",
-      "name": "GPT-5.1 Codex",
-      "providerId": "aimlapi",
-      "updated": "2025-11-13"
-    },
-    {
-      "flags": {
-        "attachment": true,
-        "reasoning": true,
-        "tool_call": true
-      },
       "id": "openai/gpt-5.1-codex-max",
       "name": "GPT-5.1-Codex-Max",
       "providerId": "aimlapi",
       "updated": "2025-11-13"
-    },
-    {
-      "flags": {
-        "attachment": true,
-        "reasoning": true,
-        "tool_call": true
-      },
-      "id": "openai/gpt-5.1-codex-mini",
-      "name": "GPT-5.1 Codex Mini",
-      "providerId": "aimlapi",
-      "updated": "2025-11-13"
-    },
-    {
-      "flags": {
-        "attachment": true,
-        "reasoning": true,
-        "tool_call": true
-      },
-      "id": "openai/gpt-5.2-codex",
-      "name": "GPT-5.2 Codex",
-      "providerId": "aimlapi",
-      "updated": "2025-12-11"
     },
     {
       "flags": {
@@ -25081,6 +25048,17 @@
         "reasoning": true,
         "tool_call": true
       },
+      "id": "mistral/mistral-medium-3-5",
+      "name": "Mistral Medium 3.5",
+      "providerId": "edenai",
+      "updated": "2026-04-30"
+    },
+    {
+      "flags": {
+        "attachment": true,
+        "reasoning": true,
+        "tool_call": true
+      },
       "id": "mistral/mistral-medium-latest",
       "name": "Mistral Medium (latest)",
       "providerId": "edenai",
@@ -40830,6 +40808,28 @@
     {
       "flags": {
         "attachment": true,
+        "reasoning": false,
+        "tool_call": false
+      },
+      "id": "scaledown/extract",
+      "name": "ScaleDown: Extract",
+      "providerId": "kilo",
+      "updated": "2026-10-13"
+    },
+    {
+      "flags": {
+        "attachment": true,
+        "reasoning": false,
+        "tool_call": false
+      },
+      "id": "scaledown/summarize",
+      "name": "ScaleDown: Summarize",
+      "providerId": "kilo",
+      "updated": "2026-10-13"
+    },
+    {
+      "flags": {
+        "attachment": true,
         "reasoning": true,
         "tool_call": true
       },
@@ -46049,17 +46049,6 @@
       },
       "id": "fireworks/deepseek-v4-flash",
       "name": "DeepSeek V4 Flash (Fireworks AI)",
-      "providerId": "llmgateway-providers",
-      "updated": "2026-04-24"
-    },
-    {
-      "flags": {
-        "attachment": false,
-        "reasoning": true,
-        "tool_call": true
-      },
-      "id": "fireworks/deepseek-v4-pro",
-      "name": "DeepSeek V4 Pro (Fireworks AI)",
       "providerId": "llmgateway-providers",
       "updated": "2026-04-24"
     },
@@ -54427,6 +54416,17 @@
       "flags": {
         "attachment": false,
         "reasoning": false,
+        "tool_call": false
+      },
+      "id": "ateron/gemma-4-dark-thoughts-v2-31b",
+      "name": "Gemma 4 Dark Thoughts V2 31B",
+      "providerId": "nano-gpt",
+      "updated": "2026-10-13"
+    },
+    {
+      "flags": {
+        "attachment": false,
+        "reasoning": false,
         "tool_call": true
       },
       "id": "auto-model",
@@ -54884,6 +54884,17 @@
       "name": "DeepSeek V4 Flash Vision Exp",
       "providerId": "nano-gpt",
       "updated": "2026-09-01"
+    },
+    {
+      "flags": {
+        "attachment": true,
+        "reasoning": true,
+        "tool_call": true
+      },
+      "id": "deepseek/deepseek-v4-flash-vision-exp-cybersecurity",
+      "name": "DeepSeek V4 Flash Vision Exp Cybersecurity",
+      "providerId": "nano-gpt",
+      "updated": "2026-10-13"
     },
     {
       "flags": {
@@ -57179,10 +57190,43 @@
         "reasoning": false,
         "tool_call": false
       },
+      "id": "nbeerbower/gemma4-gutenberg-31b",
+      "name": "Gemma 4 Gutenberg 31B",
+      "providerId": "nano-gpt",
+      "updated": "2026-10-13"
+    },
+    {
+      "flags": {
+        "attachment": false,
+        "reasoning": false,
+        "tool_call": false
+      },
       "id": "NeverSleep/Lumimaid-v0.2-70B",
       "name": "Lumimaid v0.2",
       "providerId": "nano-gpt",
       "updated": "2024-07-01"
+    },
+    {
+      "flags": {
+        "attachment": false,
+        "reasoning": false,
+        "tool_call": false
+      },
+      "id": "nimbz/gemma-4-giftige-blume-31b-v2",
+      "name": "Gemma 4 Giftige-Blume V2 31B",
+      "providerId": "nano-gpt",
+      "updated": "2026-10-13"
+    },
+    {
+      "flags": {
+        "attachment": false,
+        "reasoning": false,
+        "tool_call": false
+      },
+      "id": "nimbz/schattenblume-31b",
+      "name": "Schattenblume 31B",
+      "providerId": "nano-gpt",
+      "updated": "2026-10-13"
     },
     {
       "flags": {
@@ -67020,6 +67064,17 @@
     },
     {
       "flags": {
+        "attachment": false,
+        "reasoning": true,
+        "tool_call": true
+      },
+      "id": "cat-jam-free",
+      "name": "Cat Jam Free",
+      "providerId": "opencode",
+      "updated": "2026-10-12"
+    },
+    {
+      "flags": {
         "attachment": true,
         "reasoning": false,
         "tool_call": true
@@ -72363,6 +72418,28 @@
       "name": "Llama 3.3 Euryale 70B",
       "providerId": "openrouter",
       "updated": "2024-12-18"
+    },
+    {
+      "flags": {
+        "attachment": true,
+        "reasoning": false,
+        "tool_call": false
+      },
+      "id": "scaledown/extract",
+      "name": "Extract",
+      "providerId": "openrouter",
+      "updated": "2026-10-13"
+    },
+    {
+      "flags": {
+        "attachment": true,
+        "reasoning": false,
+        "tool_call": false
+      },
+      "id": "scaledown/summarize",
+      "name": "Summarize",
+      "providerId": "openrouter",
+      "updated": "2026-10-13"
     },
     {
       "flags": {
@@ -98036,7 +98113,7 @@
       "doc": "https://docs.aimlapi.com",
       "iconURL": "https://models.dev/logos/aimlapi.svg",
       "id": "aimlapi",
-      "modelCount": 184,
+      "modelCount": 181,
       "name": "AI/ML API"
     },
     {
@@ -98442,7 +98519,7 @@
       "doc": "https://docs.edenai.co",
       "iconURL": "https://models.dev/logos/edenai.svg",
       "id": "edenai",
-      "modelCount": 319,
+      "modelCount": 320,
       "name": "Eden AI"
     },
     {
@@ -98750,7 +98827,7 @@
       "doc": "https://kilo.ai",
       "iconURL": "https://models.dev/logos/kilo.svg",
       "id": "kilo",
-      "modelCount": 387,
+      "modelCount": 389,
       "name": "Kilo Gateway"
     },
     {
@@ -98823,7 +98900,7 @@
       "doc": "https://llmgateway.io/docs",
       "iconURL": "https://models.dev/logos/llmgateway-providers.svg",
       "id": "llmgateway-providers",
-      "modelCount": 446,
+      "modelCount": 445,
       "name": "LLM Gateway"
     },
     {
@@ -99051,7 +99128,7 @@
       "doc": "https://docs.nano-gpt.com",
       "iconURL": "https://models.dev/logos/nano-gpt.svg",
       "id": "nano-gpt",
-      "modelCount": 611,
+      "modelCount": 616,
       "name": "NanoGPT"
     },
     {
@@ -99156,7 +99233,7 @@
       "iconURL": "https://models.dev/logos/opencode.svg",
       "id": "opencode",
       "lobeIcon": "OpenCode",
-      "modelCount": 120,
+      "modelCount": 121,
       "name": "OpenCode"
     },
     {
@@ -99181,7 +99258,7 @@
       "iconURL": "https://models.dev/logos/openrouter.svg",
       "id": "openrouter",
       "lobeIcon": "OpenRouter.Color",
-      "modelCount": 380,
+      "modelCount": 382,
       "name": "OpenRouter"
     },
     {
