@@ -4217,6 +4217,7 @@
         }
       ],
       "release_date": "2026-08-27",
+      "status": "deprecated",
       "structured_output": false,
       "temperature": true,
       "tool_call": true
@@ -4328,6 +4329,7 @@
         }
       ],
       "release_date": "2026-09-29",
+      "status": "deprecated",
       "structured_output": false,
       "temperature": true,
       "tool_call": true
