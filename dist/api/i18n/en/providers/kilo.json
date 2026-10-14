@@ -2287,7 +2287,7 @@
       "last_updated": "2026-09-10",
       "limit": {
         "context": 1048576,
-        "output": 393216
+        "output": 943718
       },
       "modalities": {
         "input": [
@@ -9295,7 +9295,7 @@
       "last_updated": "2025-08-05",
       "limit": {
         "context": 131072,
-        "output": 65536
+        "output": 117964
       },
       "modalities": {
         "input": [
@@ -15031,7 +15031,7 @@
       "attachment": true,
       "cost": {
         "cache_read": 0.0054,
-        "input": 0.0396,
+        "input": 0.02016,
         "output": 0.891
       },
       "description": "This model always redirects to the latest model in the DeepSeek Flash family.",
@@ -15252,8 +15252,8 @@
       "attachment": true,
       "cost": {
         "cache_read": 0.3,
-        "input": 0.72,
-        "output": 24
+        "input": 0.496,
+        "output": 14
       },
       "description": "Kimi multimodal agent model for visual understanding, coding, and planning",
       "family": "kimi",
@@ -15644,8 +15644,8 @@
     "~z-ai/glm-latest": {
       "attachment": false,
       "cost": {
-        "cache_read": 0.0586,
-        "input": 0.063,
+        "cache_read": 0.0536,
+        "input": 0.0576,
         "output": 4.4
       },
       "description": "This model always redirects to the latest GLM model from Z.ai.",
