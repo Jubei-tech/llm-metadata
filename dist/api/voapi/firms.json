@@ -56,7 +56,7 @@
       "doc": "https://agnes-ai.com/doc",
       "icon": "https://models.dev/logos/agnes.svg",
       "id": "agnes",
-      "modelCount": 3,
+      "modelCount": 4,
       "name": "Agnes AI",
       "status": 1
     },
@@ -126,7 +126,7 @@
       "doc": "https://docs.aixy-gateway.com/integrations/overview",
       "icon": "https://models.dev/logos/aixy.svg",
       "id": "aixy",
-      "modelCount": 7,
+      "modelCount": 11,
       "name": "Aixy",
       "status": 1
     },
@@ -486,7 +486,7 @@
       "doc": "https://api.cortecs.ai/v1/models",
       "icon": "https://models.dev/logos/cortecs.svg",
       "id": "cortecs",
-      "modelCount": 106,
+      "modelCount": 107,
       "name": "Cortecs",
       "status": 1
     },
@@ -626,7 +626,7 @@
       "doc": "https://docs.edenai.co",
       "icon": "https://models.dev/logos/edenai.svg",
       "id": "edenai",
-      "modelCount": 327,
+      "modelCount": 329,
       "name": "Eden AI",
       "status": 1
     },
@@ -1096,7 +1096,7 @@
       "doc": "https://llmgateway.io/docs",
       "icon": "https://models.dev/logos/llmgateway-providers.svg",
       "id": "llmgateway-providers",
-      "modelCount": 438,
+      "modelCount": 439,
       "name": "LLM Gateway",
       "status": 1
     },
@@ -1146,7 +1146,7 @@
       "doc": "https://lowrouter.ai/docs/models/available",
       "icon": "https://models.dev/logos/lowrouter.svg",
       "id": "lowrouter",
-      "modelCount": 12,
+      "modelCount": 31,
       "name": "LowRouter",
       "status": 1
     },
@@ -1476,7 +1476,7 @@
       "doc": "https://ofox.ai/docs",
       "icon": "https://models.dev/logos/ofox.svg",
       "id": "ofox",
-      "modelCount": 152,
+      "modelCount": 153,
       "name": "Ofox",
       "status": 1
     },
@@ -1506,7 +1506,7 @@
       "doc": "https://opencode.ai/v2/docs/console/models/",
       "icon": "lb:opencode",
       "id": "opencode",
-      "modelCount": 122,
+      "modelCount": 123,
       "name": "OpenCode",
       "status": 1
     },
@@ -1626,7 +1626,7 @@
       "doc": "https://creator.poe.com/docs/external-applications/openai-compatible-api",
       "icon": "https://models.dev/logos/poe.svg",
       "id": "poe",
-      "modelCount": 137,
+      "modelCount": 142,
       "name": "Poe",
       "status": 1
     },
@@ -1646,7 +1646,7 @@
       "doc": "https://docs.primeintellect.ai/inference/overview",
       "icon": "https://models.dev/logos/prime.svg",
       "id": "prime",
-      "modelCount": 64,
+      "modelCount": 65,
       "name": "Prime Inference",
       "status": 1
     },
@@ -1786,7 +1786,7 @@
       "doc": "https://www.scaleway.com/en/docs/generative-apis/",
       "icon": "https://models.dev/logos/scaleway.svg",
       "id": "scaleway",
-      "modelCount": 16,
+      "modelCount": 17,
       "name": "Scaleway",
       "status": 1
     },
@@ -1816,7 +1816,7 @@
       "doc": "https://platform.sensenova.cn/docs",
       "icon": "https://models.dev/logos/sensenova.svg",
       "id": "sensenova",
-      "modelCount": 5,
+      "modelCount": 6,
       "name": "SenseNova (China)",
       "status": 1
     },
