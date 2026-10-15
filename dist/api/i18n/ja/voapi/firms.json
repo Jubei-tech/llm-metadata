@@ -371,6 +371,16 @@
       "status": 1
     },
     {
+      "api": "https://api.inference.boundless.network/v1",
+      "description": "",
+      "doc": "https://inference.boundless.network/models",
+      "icon": "https://models.dev/logos/boundless.svg",
+      "id": "boundless",
+      "modelCount": 20,
+      "name": "Boundless",
+      "status": 1
+    },
+    {
       "api": "",
       "description": "",
       "doc": "https://inference-docs.cerebras.ai/models/overview",
@@ -1076,7 +1086,7 @@
       "doc": "https://llmgateway.io/docs",
       "icon": "https://models.dev/logos/llmgateway.svg",
       "id": "llmgateway",
-      "modelCount": 216,
+      "modelCount": 215,
       "name": "DevPass (LLM Gateway)",
       "status": 1
     },
@@ -1086,7 +1096,7 @@
       "doc": "https://llmgateway.io/docs",
       "icon": "https://models.dev/logos/llmgateway-providers.svg",
       "id": "llmgateway-providers",
-      "modelCount": 439,
+      "modelCount": 438,
       "name": "LLM Gateway",
       "status": 1
     },
@@ -2116,7 +2126,7 @@
       "doc": "https://docs.venice.ai",
       "icon": "lb:veniceai",
       "id": "venice",
-      "modelCount": 118,
+      "modelCount": 119,
       "name": "Venice AI",
       "status": 1
     },

@@ -294,6 +294,14 @@
       "name": "Bothub"
     },
     {
+      "api": "https://api.inference.boundless.network/v1",
+      "doc": "https://inference.boundless.network/models",
+      "iconURL": "https://models.dev/logos/boundless.svg",
+      "id": "boundless",
+      "modelCount": 20,
+      "name": "Boundless"
+    },
+    {
       "doc": "https://inference-docs.cerebras.ai/models/overview",
       "iconURL": "https://models.dev/logos/cerebras.svg",
       "id": "cerebras",
@@ -863,7 +871,7 @@
       "doc": "https://llmgateway.io/docs",
       "iconURL": "https://models.dev/logos/llmgateway.svg",
       "id": "llmgateway",
-      "modelCount": 216,
+      "modelCount": 215,
       "name": "DevPass (LLM Gateway)"
     },
     {
@@ -871,7 +879,7 @@
       "doc": "https://llmgateway.io/docs",
       "iconURL": "https://models.dev/logos/llmgateway-providers.svg",
       "id": "llmgateway-providers",
-      "modelCount": 439,
+      "modelCount": 438,
       "name": "LLM Gateway"
     },
     {
@@ -1699,7 +1707,7 @@
       "iconURL": "https://models.dev/logos/venice.svg",
       "id": "venice",
       "lobeIcon": "VeniceAI",
-      "modelCount": 118,
+      "modelCount": 119,
       "name": "Venice AI"
     },
     {
