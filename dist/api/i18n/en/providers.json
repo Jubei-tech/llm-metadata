@@ -258,7 +258,7 @@
       "doc": "https://docs.baseten.co/inference/model-apis/overview",
       "iconURL": "https://models.dev/logos/baseten.svg",
       "id": "baseten",
-      "modelCount": 24,
+      "modelCount": 25,
       "name": "Baseten"
     },
     {
@@ -442,7 +442,7 @@
       "iconURL": "https://models.dev/logos/deepinfra.svg",
       "id": "deepinfra",
       "lobeIcon": "DeepInfra",
-      "modelCount": 75,
+      "modelCount": 76,
       "name": "Deep Infra"
     },
     {
@@ -506,7 +506,7 @@
       "doc": "https://docs.edenai.co",
       "iconURL": "https://models.dev/logos/edenai.svg",
       "id": "edenai",
-      "modelCount": 332,
+      "modelCount": 334,
       "name": "Eden AI"
     },
     {
@@ -1332,7 +1332,7 @@
       "doc": "https://docs.primeintellect.ai/inference/overview",
       "iconURL": "https://models.dev/logos/prime.svg",
       "id": "prime",
-      "modelCount": 66,
+      "modelCount": 67,
       "name": "Prime Inference"
     },
     {
@@ -1731,7 +1731,7 @@
       "iconURL": "https://models.dev/logos/vercel.svg",
       "id": "vercel",
       "lobeIcon": "Vercel.Color",
-      "modelCount": 413,
+      "modelCount": 414,
       "name": "Vercel AI Gateway"
     },
     {
