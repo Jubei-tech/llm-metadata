@@ -9120,6 +9120,17 @@
     },
     {
       "flags": {
+        "attachment": true,
+        "reasoning": true,
+        "tool_call": true
+      },
+      "id": "deepseek-v4.1-flash-1017",
+      "name": "DeepSeek V4.1 Flash 1017",
+      "providerId": "alibaba-token-plan-cn",
+      "updated": "2026-10-17"
+    },
+    {
+      "flags": {
         "attachment": false,
         "reasoning": true,
         "tool_call": true
@@ -19281,39 +19292,6 @@
     },
     {
       "flags": {
-        "attachment": true,
-        "reasoning": true,
-        "tool_call": true
-      },
-      "id": "deepseek-v4.1-flash-fast-fp4",
-      "name": "DeepSeek V4.1 Flash FP4",
-      "providerId": "coralbricks",
-      "updated": "2026-09-10"
-    },
-    {
-      "flags": {
-        "attachment": false,
-        "reasoning": true,
-        "tool_call": true
-      },
-      "id": "glm-5.3-fast",
-      "name": "GLM-5.3",
-      "providerId": "coralbricks",
-      "updated": "2026-08-14"
-    },
-    {
-      "flags": {
-        "attachment": false,
-        "reasoning": true,
-        "tool_call": true
-      },
-      "id": "glm-5.3-fp4",
-      "name": "GLM 5.3 FP4",
-      "providerId": "coralbricks",
-      "updated": "2026-08-14"
-    },
-    {
-      "flags": {
         "attachment": false,
         "reasoning": true,
         "tool_call": true
@@ -27057,6 +27035,17 @@
     },
     {
       "flags": {
+        "attachment": true,
+        "reasoning": true,
+        "tool_call": true
+      },
+      "id": "qwen/deepseek-v4.1-flash-1017",
+      "name": "DeepSeek V4.1 Flash 1017 (Alibaba)",
+      "providerId": "edenai",
+      "updated": "2026-10-17"
+    },
+    {
+      "flags": {
         "attachment": false,
         "reasoning": false,
         "tool_call": false
@@ -27373,6 +27362,17 @@
       "name": "DeepSeek V4.1 Flash (Together AI)",
       "providerId": "edenai",
       "updated": "2026-09-10"
+    },
+    {
+      "flags": {
+        "attachment": true,
+        "reasoning": true,
+        "tool_call": true
+      },
+      "id": "together_ai/deepseek-ai/DeepSeek-V4.1-Flash-1017",
+      "name": "DeepSeek V4.1 Flash 1017 (Together AI)",
+      "providerId": "edenai",
+      "updated": "2026-10-17"
     },
     {
       "flags": {
@@ -42336,17 +42336,6 @@
     },
     {
       "flags": {
-        "attachment": false,
-        "reasoning": false,
-        "tool_call": false
-      },
-      "id": "sao10k/l3.3-euryale-70b",
-      "name": "Sao10K: Llama 3.3 Euryale 70B",
-      "providerId": "kilo",
-      "updated": "2024-12-18"
-    },
-    {
-      "flags": {
         "attachment": true,
         "reasoning": false,
         "tool_call": false
@@ -53919,6 +53908,17 @@
     },
     {
       "flags": {
+        "attachment": true,
+        "reasoning": true,
+        "tool_call": true
+      },
+      "id": "MiniMax-M3.1-Flash",
+      "name": "MiniMax-M3.1-Flash",
+      "providerId": "minimax",
+      "updated": "2026-10-19"
+    },
+    {
+      "flags": {
         "attachment": false,
         "reasoning": true,
         "tool_call": true
@@ -53996,6 +53996,17 @@
     },
     {
       "flags": {
+        "attachment": true,
+        "reasoning": true,
+        "tool_call": true
+      },
+      "id": "MiniMax-M3.1-Flash",
+      "name": "MiniMax-M3.1-Flash",
+      "providerId": "minimax-cn",
+      "updated": "2026-10-19"
+    },
+    {
+      "flags": {
         "attachment": false,
         "reasoning": true,
         "tool_call": true
@@ -54070,6 +54081,17 @@
       "name": "MiniMax-M3",
       "providerId": "minimax-cn-coding-plan",
       "updated": "2026-06-25"
+    },
+    {
+      "flags": {
+        "attachment": true,
+        "reasoning": true,
+        "tool_call": true
+      },
+      "id": "MiniMax-M3.1-Flash",
+      "name": "MiniMax-M3.1-Flash",
+      "providerId": "minimax-cn-coding-plan",
+      "updated": "2026-10-19"
     },
     {
       "flags": {
@@ -54158,6 +54180,17 @@
       "name": "MiniMax-M3",
       "providerId": "minimax-coding-plan",
       "updated": "2026-06-25"
+    },
+    {
+      "flags": {
+        "attachment": true,
+        "reasoning": true,
+        "tool_call": true
+      },
+      "id": "MiniMax-M3.1-Flash",
+      "name": "MiniMax-M3.1-Flash",
+      "providerId": "minimax-coding-plan",
+      "updated": "2026-10-19"
     },
     {
       "flags": {
@@ -64271,6 +64304,17 @@
     {
       "flags": {
         "attachment": true,
+        "reasoning": true,
+        "tool_call": true
+      },
+      "id": "deepseek/deepseek-v4.1-flash-1017",
+      "name": "DeepSeek V4.1 Flash 1017",
+      "providerId": "novita-ai",
+      "updated": "2026-10-17"
+    },
+    {
+      "flags": {
+        "attachment": true,
         "reasoning": false,
         "tool_call": true
       },
@@ -66841,6 +66885,17 @@
       "name": "DeepSeek V4.1 Flash",
       "providerId": "ofox",
       "updated": "2026-09-10"
+    },
+    {
+      "flags": {
+        "attachment": true,
+        "reasoning": true,
+        "tool_call": true
+      },
+      "id": "deepseek/deepseek-v4.1-flash-1017",
+      "name": "DeepSeek V4.1 Flash 1017",
+      "providerId": "ofox",
+      "updated": "2026-10-17"
     },
     {
       "flags": {
@@ -74354,17 +74409,6 @@
       "name": "Llama 3.1 Euryale 70B v2.2",
       "providerId": "openrouter",
       "updated": "2024-08-28"
-    },
-    {
-      "flags": {
-        "attachment": false,
-        "reasoning": false,
-        "tool_call": false
-      },
-      "id": "sao10k/l3.3-euryale-70b",
-      "name": "Llama 3.3 Euryale 70B",
-      "providerId": "openrouter",
-      "updated": "2024-12-18"
     },
     {
       "flags": {
@@ -101189,7 +101233,7 @@
       "doc": "https://www.alibabacloud.com/help/zh/model-studio/token-plan-overview",
       "iconURL": "https://models.dev/logos/alibaba-token-plan-cn.svg",
       "id": "alibaba-token-plan-cn",
-      "modelCount": 28,
+      "modelCount": 29,
       "name": "Alibaba Token Plan (China)"
     },
     {
@@ -101418,7 +101462,7 @@
       "doc": "https://www.coralbricks.ai/docs",
       "iconURL": "https://models.dev/logos/coralbricks.svg",
       "id": "coralbricks",
-      "modelCount": 4,
+      "modelCount": 1,
       "name": "CoralBricks"
     },
     {
@@ -101538,7 +101582,7 @@
       "doc": "https://docs.edenai.co",
       "iconURL": "https://models.dev/logos/edenai.svg",
       "id": "edenai",
-      "modelCount": 334,
+      "modelCount": 336,
       "name": "Eden AI"
     },
     {
@@ -101846,7 +101890,7 @@
       "doc": "https://kilo.ai",
       "iconURL": "https://models.dev/logos/kilo.svg",
       "id": "kilo",
-      "modelCount": 398,
+      "modelCount": 397,
       "name": "Kilo Gateway"
     },
     {
@@ -102023,7 +102067,7 @@
       "iconURL": "https://filecdn.minimax.chat/public/4a16f8c5-338f-4815-933a-9947de4dfe6f.png",
       "id": "minimax",
       "lobeIcon": "Minimax.Color",
-      "modelCount": 7,
+      "modelCount": 8,
       "name": "MiniMax (minimax.io)"
     },
     {
@@ -102031,7 +102075,7 @@
       "doc": "https://platform.minimaxi.com/docs/guides/quickstart",
       "iconURL": "https://models.dev/logos/minimax-cn.svg",
       "id": "minimax-cn",
-      "modelCount": 7,
+      "modelCount": 8,
       "name": "MiniMax (minimax.cn)"
     },
     {
@@ -102039,7 +102083,7 @@
       "doc": "https://platform.minimaxi.com/docs/token-plan/intro",
       "iconURL": "https://models.dev/logos/minimax-cn-coding-plan.svg",
       "id": "minimax-cn-coding-plan",
-      "modelCount": 8,
+      "modelCount": 9,
       "name": "MiniMax Token Plan (minimax.cn)"
     },
     {
@@ -102047,7 +102091,7 @@
       "doc": "https://platform.minimax.io/docs/token-plan/intro",
       "iconURL": "https://models.dev/logos/minimax-coding-plan.svg",
       "id": "minimax-coding-plan",
-      "modelCount": 8,
+      "modelCount": 9,
       "name": "MiniMax Token Plan (minimax.io)"
     },
     {
@@ -102203,7 +102247,7 @@
       "doc": "https://novita.ai/docs/guides/introduction",
       "iconURL": "https://models.dev/logos/novita-ai.svg",
       "id": "novita-ai",
-      "modelCount": 85,
+      "modelCount": 86,
       "name": "Novita AI"
     },
     {
@@ -102227,7 +102271,7 @@
       "doc": "https://ofox.ai/docs",
       "iconURL": "https://models.dev/logos/ofox.svg",
       "id": "ofox",
-      "modelCount": 153,
+      "modelCount": 154,
       "name": "Ofox"
     },
     {
@@ -102277,7 +102321,7 @@
       "iconURL": "https://models.dev/logos/openrouter.svg",
       "id": "openrouter",
       "lobeIcon": "OpenRouter.Color",
-      "modelCount": 390,
+      "modelCount": 389,
       "name": "OpenRouter"
     },
     {
