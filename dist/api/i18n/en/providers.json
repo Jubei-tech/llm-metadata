@@ -149,7 +149,7 @@
       "doc": "https://www.alibabacloud.com/help/en/model-studio/token-plan-overview",
       "iconURL": "https://models.dev/logos/alibaba-token-plan.svg",
       "id": "alibaba-token-plan",
-      "modelCount": 28,
+      "modelCount": 29,
       "name": "Alibaba Token Plan"
     },
     {
@@ -398,14 +398,6 @@
       "name": "Cortecs"
     },
     {
-      "api": "https://crof.ai/v1",
-      "doc": "https://crof.ai/docs",
-      "iconURL": "https://models.dev/logos/crof.svg",
-      "id": "crof",
-      "modelCount": 24,
-      "name": "CrofAI"
-    },
-    {
       "api": "https://api.crossmodel.ai/v1",
       "doc": "https://www.crossmodel.ai/docs",
       "iconURL": "https://models.dev/logos/crossmodel.svg",
@@ -506,7 +498,7 @@
       "doc": "https://docs.edenai.co",
       "iconURL": "https://models.dev/logos/edenai.svg",
       "id": "edenai",
-      "modelCount": 339,
+      "modelCount": 343,
       "name": "Eden AI"
     },
     {
@@ -514,7 +506,7 @@
       "doc": "https://docs.empiriolabs.ai",
       "iconURL": "https://models.dev/logos/empiriolabs.svg",
       "id": "empiriolabs",
-      "modelCount": 65,
+      "modelCount": 63,
       "name": "EmpirioLabs AI"
     },
     {
@@ -717,7 +709,7 @@
       "iconURL": "https://models.dev/logos/inception.svg",
       "id": "inception",
       "lobeIcon": "Inception",
-      "modelCount": 3,
+      "modelCount": 4,
       "name": "Inception"
     },
     {
@@ -1023,7 +1015,7 @@
       "iconURL": "https://models.dev/logos/mistral.svg",
       "id": "mistral",
       "lobeIcon": "Mistral.Color",
-      "modelCount": 42,
+      "modelCount": 39,
       "name": "Mistral"
     },
     {
@@ -1115,7 +1107,7 @@
       "doc": "https://docs.nano-gpt.com",
       "iconURL": "https://models.dev/logos/nano-gpt.svg",
       "id": "nano-gpt",
-      "modelCount": 621,
+      "modelCount": 617,
       "name": "NanoGPT"
     },
     {
@@ -1897,7 +1889,7 @@
     },
     {
       "api": "https://open.bigmodel.cn/api/paas/v4",
-      "doc": "https://docs.z.ai/guides/overview/pricing",
+      "doc": "https://docs.bigmodel.cn/cn/guide/start/pricing",
       "iconURL": "https://models.dev/logos/zhipuai.svg",
       "id": "zhipuai",
       "lobeIcon": "Zhipu.Color",
