@@ -1076,7 +1076,7 @@
       "id": "kimi-k2.5",
       "name": "Kimi K2.5",
       "providerId": "302ai",
-      "updated": "2026-01"
+      "updated": "2026-01-27"
     },
     {
       "flags": {
@@ -1087,7 +1087,7 @@
       "id": "kimi-k2.6",
       "name": "Kimi K2.6",
       "providerId": "302ai",
-      "updated": "2026-04-21"
+      "updated": "2026-04-20"
     },
     {
       "flags": {
@@ -2264,7 +2264,7 @@
       "id": "moonshotai/Kimi-K2.6",
       "name": "Kimi K2.6",
       "providerId": "abacus",
-      "updated": "2026-04-21"
+      "updated": "2026-04-20"
     },
     {
       "flags": {
@@ -6716,6 +6716,28 @@
         "reasoning": true,
         "tool_call": true
       },
+      "id": "gemini/gemini-3.8-flash",
+      "name": "Gemini 3.8 Flash",
+      "providerId": "aixy",
+      "updated": "2026-09-02"
+    },
+    {
+      "flags": {
+        "attachment": true,
+        "reasoning": true,
+        "tool_call": true
+      },
+      "id": "gemini/gemini-4-argon",
+      "name": "Gemini 4 Argon",
+      "providerId": "aixy",
+      "updated": "2026-10-13"
+    },
+    {
+      "flags": {
+        "attachment": true,
+        "reasoning": true,
+        "tool_call": true
+      },
       "id": "openai/gpt-5.6-luna",
       "name": "GPT-5.6 Luna",
       "providerId": "aixy",
@@ -8896,7 +8918,7 @@
       "id": "kimi-k2.5",
       "name": "Kimi K2.5",
       "providerId": "alibaba-token-plan",
-      "updated": "2026-01"
+      "updated": "2026-01-27"
     },
     {
       "flags": {
@@ -8907,7 +8929,7 @@
       "id": "kimi-k2.6",
       "name": "Kimi K2.6",
       "providerId": "alibaba-token-plan",
-      "updated": "2026-04-21"
+      "updated": "2026-04-20"
     },
     {
       "flags": {
@@ -9215,7 +9237,7 @@
       "id": "kimi-k2.5",
       "name": "Kimi K2.5",
       "providerId": "alibaba-token-plan-cn",
-      "updated": "2026-01"
+      "updated": "2026-01-27"
     },
     {
       "flags": {
@@ -9226,7 +9248,7 @@
       "id": "kimi-k2.6",
       "name": "Kimi K2.6",
       "providerId": "alibaba-token-plan-cn",
-      "updated": "2026-04-21"
+      "updated": "2026-04-20"
     },
     {
       "flags": {
@@ -12974,7 +12996,7 @@
       "id": "moonshotai/kimi-k2.6",
       "name": "Kimi K2.6",
       "providerId": "ambient",
-      "updated": "2026-04-21"
+      "updated": "2026-04-20"
     },
     {
       "flags": {
@@ -13418,7 +13440,7 @@
     },
     {
       "flags": {
-        "attachment": true,
+        "attachment": false,
         "reasoning": false,
         "tool_call": true
       },
@@ -13429,7 +13451,7 @@
     },
     {
       "flags": {
-        "attachment": true,
+        "attachment": false,
         "reasoning": true,
         "tool_call": true
       },
@@ -13931,7 +13953,7 @@
       "id": "kimi-k2.5",
       "name": "Kimi K2.5",
       "providerId": "auriko",
-      "updated": "2026-01"
+      "updated": "2026-01-27"
     },
     {
       "flags": {
@@ -13942,7 +13964,7 @@
       "id": "kimi-k2.6",
       "name": "Kimi K2.6",
       "providerId": "auriko",
-      "updated": "2026-04-21"
+      "updated": "2026-04-20"
     },
     {
       "flags": {
@@ -14408,7 +14430,7 @@
     },
     {
       "flags": {
-        "attachment": false,
+        "attachment": true,
         "reasoning": true,
         "tool_call": true
       },
@@ -14463,7 +14485,7 @@
     },
     {
       "flags": {
-        "attachment": false,
+        "attachment": true,
         "reasoning": true,
         "tool_call": true
       },
@@ -14485,7 +14507,7 @@
     },
     {
       "flags": {
-        "attachment": false,
+        "attachment": true,
         "reasoning": true,
         "tool_call": true
       },
@@ -14507,7 +14529,7 @@
     },
     {
       "flags": {
-        "attachment": false,
+        "attachment": true,
         "reasoning": true,
         "tool_call": true
       },
@@ -14518,7 +14540,7 @@
     },
     {
       "flags": {
-        "attachment": false,
+        "attachment": true,
         "reasoning": true,
         "tool_call": true
       },
@@ -14793,25 +14815,25 @@
     },
     {
       "flags": {
-        "attachment": false,
+        "attachment": true,
         "reasoning": true,
         "tool_call": true
       },
       "id": "kimi-k2.5",
       "name": "Kimi K2.5",
       "providerId": "azure",
-      "updated": "2026-02-06"
+      "updated": "2026-01-27"
     },
     {
       "flags": {
-        "attachment": false,
+        "attachment": true,
         "reasoning": true,
         "tool_call": true
       },
       "id": "kimi-k2.6",
       "name": "Kimi K2.6",
       "providerId": "azure",
-      "updated": "2026-04-22"
+      "updated": "2026-04-20"
     },
     {
       "flags": {
@@ -14903,7 +14925,7 @@
     },
     {
       "flags": {
-        "attachment": false,
+        "attachment": true,
         "reasoning": true,
         "tool_call": true
       },
@@ -15322,6 +15344,39 @@
     {
       "flags": {
         "attachment": false,
+        "reasoning": true,
+        "tool_call": false
+      },
+      "id": "deepseek-v4-flash",
+      "name": "DeepSeek-V4-Flash",
+      "providerId": "azure-cognitive-services",
+      "updated": "2026-04-24"
+    },
+    {
+      "flags": {
+        "attachment": false,
+        "reasoning": true,
+        "tool_call": false
+      },
+      "id": "deepseek-v4-pro",
+      "name": "DeepSeek-V4-Pro",
+      "providerId": "azure-cognitive-services",
+      "updated": "2026-04-24"
+    },
+    {
+      "flags": {
+        "attachment": true,
+        "reasoning": true,
+        "tool_call": true
+      },
+      "id": "deepseek-v4.1-flash",
+      "name": "DeepSeek-V4.1-Flash",
+      "providerId": "azure-cognitive-services",
+      "updated": "2026-09-10"
+    },
+    {
+      "flags": {
+        "attachment": false,
         "reasoning": false,
         "tool_call": false
       },
@@ -15442,7 +15497,7 @@
     },
     {
       "flags": {
-        "attachment": false,
+        "attachment": true,
         "reasoning": true,
         "tool_call": true
       },
@@ -15497,7 +15552,7 @@
     },
     {
       "flags": {
-        "attachment": false,
+        "attachment": true,
         "reasoning": true,
         "tool_call": true
       },
@@ -15519,7 +15574,7 @@
     },
     {
       "flags": {
-        "attachment": false,
+        "attachment": true,
         "reasoning": true,
         "tool_call": true
       },
@@ -15541,7 +15596,7 @@
     },
     {
       "flags": {
-        "attachment": false,
+        "attachment": true,
         "reasoning": true,
         "tool_call": true
       },
@@ -15552,7 +15607,7 @@
     },
     {
       "flags": {
-        "attachment": false,
+        "attachment": true,
         "reasoning": true,
         "tool_call": true
       },
@@ -15762,13 +15817,35 @@
     {
       "flags": {
         "attachment": true,
+        "reasoning": false,
+        "tool_call": true
+      },
+      "id": "grok-4-1-fast-non-reasoning",
+      "name": "Grok 4.1 Fast (Non-Reasoning)",
+      "providerId": "azure-cognitive-services",
+      "updated": "2025-06-27"
+    },
+    {
+      "flags": {
+        "attachment": true,
         "reasoning": true,
         "tool_call": true
       },
-      "id": "kimi-k2.5",
-      "name": "Kimi K2.5",
+      "id": "grok-4-1-fast-reasoning",
+      "name": "Grok 4.1 Fast (Reasoning)",
       "providerId": "azure-cognitive-services",
-      "updated": "2026-01"
+      "updated": "2025-06-27"
+    },
+    {
+      "flags": {
+        "attachment": false,
+        "reasoning": false,
+        "tool_call": true
+      },
+      "id": "grok-4-20-non-reasoning",
+      "name": "Grok 4.20 (Non-Reasoning)",
+      "providerId": "azure-cognitive-services",
+      "updated": "2026-04-08"
     },
     {
       "flags": {
@@ -15776,10 +15853,65 @@
         "reasoning": true,
         "tool_call": true
       },
+      "id": "grok-4-20-reasoning",
+      "name": "Grok 4.20 (Reasoning)",
+      "providerId": "azure-cognitive-services",
+      "updated": "2026-04-08"
+    },
+    {
+      "flags": {
+        "attachment": true,
+        "reasoning": true,
+        "tool_call": true
+      },
+      "id": "grok-4.6",
+      "name": "Grok 4.6",
+      "providerId": "azure-cognitive-services",
+      "updated": "2026-08-12"
+    },
+    {
+      "flags": {
+        "attachment": true,
+        "reasoning": true,
+        "tool_call": true
+      },
+      "id": "grok-4.7",
+      "name": "Grok 4.7",
+      "providerId": "azure-cognitive-services",
+      "updated": "2026-09-21"
+    },
+    {
+      "flags": {
+        "attachment": true,
+        "reasoning": true,
+        "tool_call": true
+      },
+      "id": "kimi-k2.5",
+      "name": "Kimi K2.5",
+      "providerId": "azure-cognitive-services",
+      "updated": "2026-01-27"
+    },
+    {
+      "flags": {
+        "attachment": true,
+        "reasoning": true,
+        "tool_call": true
+      },
       "id": "kimi-k2.6",
       "name": "Kimi K2.6",
       "providerId": "azure-cognitive-services",
-      "updated": "2026-04-21"
+      "updated": "2026-04-20"
+    },
+    {
+      "flags": {
+        "attachment": true,
+        "reasoning": true,
+        "tool_call": true
+      },
+      "id": "kimi-k2.7-code",
+      "name": "Kimi K2.7 Code",
+      "providerId": "azure-cognitive-services",
+      "updated": "2026-06-12"
     },
     {
       "flags": {
@@ -15860,7 +15992,7 @@
     },
     {
       "flags": {
-        "attachment": false,
+        "attachment": true,
         "reasoning": true,
         "tool_call": true
       },
@@ -16824,7 +16956,7 @@
       "id": "moonshotai/Kimi-K2.6-TEE",
       "name": "Kimi K2.6 TEE",
       "providerId": "chutes",
-      "updated": "2026-04-21"
+      "updated": "2026-04-20"
     },
     {
       "flags": {
@@ -17011,7 +17143,7 @@
       "id": "moonshotai/chat-completion/models/Kimi-K2_6",
       "name": "Kimi K2.6",
       "providerId": "clarifai",
-      "updated": "2026-04-21"
+      "updated": "2026-04-20"
     },
     {
       "flags": {
@@ -17165,7 +17297,7 @@
       "id": "cline-pass/kimi-k2.6",
       "name": "Kimi K2.6",
       "providerId": "cline-pass",
-      "updated": "2026-04-21"
+      "updated": "2026-04-20"
     },
     {
       "flags": {
@@ -18188,7 +18320,7 @@
       "id": "@cf/moonshotai/kimi-k2.6",
       "name": "Kimi K2.6",
       "providerId": "cloudflare-workers-ai",
-      "updated": "2026-04-21"
+      "updated": "2026-04-20"
     },
     {
       "flags": {
@@ -19959,7 +20091,7 @@
       "id": "kimi-k2.6",
       "name": "Kimi K2.6",
       "providerId": "cortecs",
-      "updated": "2026-04-21"
+      "updated": "2026-04-20"
     },
     {
       "flags": {
@@ -20641,7 +20773,7 @@
       "id": "kimi-k2.6",
       "name": "Kimi K2.6",
       "providerId": "crof",
-      "updated": "2026-04-21"
+      "updated": "2026-04-20"
     },
     {
       "flags": {
@@ -21048,7 +21180,7 @@
       "id": "moonshot/kimi-k2.6",
       "name": "Kimi K2.6",
       "providerId": "crossmodel",
-      "updated": "2026-04-21"
+      "updated": "2026-04-20"
     },
     {
       "flags": {
@@ -21543,7 +21675,7 @@
       "id": "moonshotai/Kimi-K2.6",
       "name": "Kimi K2.6",
       "providerId": "crusoe",
-      "updated": "2026-04-21"
+      "updated": "2026-04-20"
     },
     {
       "flags": {
@@ -21719,7 +21851,7 @@
       "id": "kimi-k2.5",
       "name": "Kimi K2.5",
       "providerId": "daoxe",
-      "updated": "2026-01"
+      "updated": "2026-01-27"
     },
     {
       "flags": {
@@ -24259,7 +24391,7 @@
       "id": "Kimi-K2.6",
       "name": "Kimi K2.6",
       "providerId": "ebcloud",
-      "updated": "2026-04-21"
+      "updated": "2026-04-20"
     },
     {
       "flags": {
@@ -24490,7 +24622,7 @@
       "id": "amazon/moonshotai.kimi-k2.5",
       "name": "Kimi K2.5 (Amazon Bedrock)",
       "providerId": "edenai",
-      "updated": "2026-01"
+      "updated": "2026-01-27"
     },
     {
       "flags": {
@@ -25293,7 +25425,7 @@
       "id": "deepinfra/moonshotai/Kimi-K2.5",
       "name": "Kimi K2.5 (Deep Infra)",
       "providerId": "edenai",
-      "updated": "2026-01"
+      "updated": "2026-01-27"
     },
     {
       "flags": {
@@ -25957,6 +26089,17 @@
     },
     {
       "flags": {
+        "attachment": true,
+        "reasoning": true,
+        "tool_call": true
+      },
+      "id": "google/gemini-robotics-er-2-preview",
+      "name": "Gemini Robotics-ER 2 Preview",
+      "providerId": "edenai",
+      "updated": "2026-07-30"
+    },
+    {
+      "flags": {
         "attachment": false,
         "reasoning": true,
         "tool_call": true
@@ -26393,7 +26536,7 @@
       "id": "moonshot/kimi-k2.6",
       "name": "Kimi K2.6",
       "providerId": "edenai",
-      "updated": "2026-04-21"
+      "updated": "2026-04-20"
     },
     {
       "flags": {
@@ -26680,6 +26823,17 @@
       "name": "GPT-5 Pro",
       "providerId": "edenai",
       "updated": "2025-10-06"
+    },
+    {
+      "flags": {
+        "attachment": true,
+        "reasoning": false,
+        "tool_call": true
+      },
+      "id": "openai/gpt-5-search-api",
+      "name": "GPT-5 Search API",
+      "providerId": "edenai",
+      "updated": "2025-10-14"
     },
     {
       "flags": {
@@ -27361,7 +27515,7 @@
       "id": "tensorx/moonshotai/kimi-k2.5",
       "name": "Kimi K2.5 (TensorX)",
       "providerId": "edenai",
-      "updated": "2026-01"
+      "updated": "2026-01-27"
     },
     {
       "flags": {
@@ -28868,7 +29022,7 @@
       "id": "moonshotai/Kimi-K2.6",
       "name": "Kimi K2.6",
       "providerId": "evroc",
-      "updated": "2026-04-21"
+      "updated": "2026-04-20"
     },
     {
       "flags": {
@@ -29253,7 +29407,7 @@
       "id": "moonshotai/kimi-k2.6",
       "name": "Kimi K2.6",
       "providerId": "fastrouter",
-      "updated": "2026-04-21"
+      "updated": "2026-04-20"
     },
     {
       "flags": {
@@ -31057,7 +31211,7 @@
       "id": "moonshotai/Kimi-K2.6",
       "name": "Kimi K2.6",
       "providerId": "gmicloud",
-      "updated": "2026-04-21"
+      "updated": "2026-04-20"
     },
     {
       "flags": {
@@ -32740,7 +32894,7 @@
       "id": "kimi-k2.6",
       "name": "Kimi K2.6",
       "providerId": "greenpt",
-      "updated": "2026-04-21"
+      "updated": "2026-04-20"
     },
     {
       "flags": {
@@ -32751,7 +32905,7 @@
       "id": "kimi-k2.6-fast",
       "name": "Kimi K2.6 Fast",
       "providerId": "greenpt",
-      "updated": "2026-04-21"
+      "updated": "2026-04-20"
     },
     {
       "flags": {
@@ -34126,7 +34280,7 @@
       "id": "moonshotai/kimi-k2.5",
       "name": "Kimi K2.5",
       "providerId": "hpc-ai",
-      "updated": "2026-01"
+      "updated": "2026-01-27"
     },
     {
       "flags": {
@@ -36370,7 +36524,7 @@
       "id": "moonshotai/Kimi-K2.6",
       "name": "Kimi K2.6",
       "providerId": "inceptron",
-      "updated": "2026-04-21"
+      "updated": "2026-04-20"
     },
     {
       "flags": {
@@ -37195,7 +37349,7 @@
       "id": "Kimi-K2.5",
       "name": "Kimi K2.5",
       "providerId": "jalapeno",
-      "updated": "2026-01"
+      "updated": "2026-01-27"
     },
     {
       "flags": {
@@ -38427,7 +38581,7 @@
       "id": "kimi-k2-6",
       "name": "Kimi K2.6",
       "providerId": "kenari",
-      "updated": "2026-04-21"
+      "updated": "2026-04-20"
     },
     {
       "flags": {
@@ -38438,7 +38592,7 @@
       "id": "kimi-k2-6:free",
       "name": "Kimi K2.6 (Free)",
       "providerId": "kenari",
-      "updated": "2026-04-21"
+      "updated": "2026-04-20"
     },
     {
       "flags": {
@@ -40671,7 +40825,7 @@
       "id": "moonshotai/kimi-k2.5",
       "name": "Kimi K2.5",
       "providerId": "kilo",
-      "updated": "2026-01"
+      "updated": "2026-01-27"
     },
     {
       "flags": {
@@ -40682,7 +40836,7 @@
       "id": "moonshotai/kimi-k2.6",
       "name": "Kimi K2.6",
       "providerId": "kilo",
-      "updated": "2026-04-21"
+      "updated": "2026-04-20"
     },
     {
       "flags": {
@@ -41483,9 +41637,9 @@
         "tool_call": true
       },
       "id": "openai/gpt-audio",
-      "name": "OpenAI: GPT Audio",
+      "name": "GPT-Audio",
       "providerId": "kilo",
-      "updated": "2026-01-19"
+      "updated": "2025-08-28"
     },
     {
       "flags": {
@@ -41494,9 +41648,9 @@
         "tool_call": true
       },
       "id": "openai/gpt-audio-mini",
-      "name": "OpenAI: GPT Audio Mini",
+      "name": "GPT-Audio Mini",
       "providerId": "kilo",
-      "updated": "2026-01-19"
+      "updated": "2025-10-06"
     },
     {
       "flags": {
@@ -43234,7 +43388,7 @@
       "id": "moonshotai/kimi-k2.6",
       "name": "Kimi K2.6",
       "providerId": "lilac",
-      "updated": "2026-04-21"
+      "updated": "2026-04-20"
     },
     {
       "flags": {
@@ -44393,6 +44547,17 @@
     },
     {
       "flags": {
+        "attachment": true,
+        "reasoning": false,
+        "tool_call": false
+      },
+      "id": "gpt-live-transcribe",
+      "name": "GPT-Live-Transcribe",
+      "providerId": "llmgateway",
+      "updated": "2026-07-28"
+    },
+    {
+      "flags": {
         "attachment": false,
         "reasoning": true,
         "tool_call": true
@@ -44412,6 +44577,17 @@
       "name": "GPT OSS 20B",
       "providerId": "llmgateway",
       "updated": "2025-08-05"
+    },
+    {
+      "flags": {
+        "attachment": true,
+        "reasoning": false,
+        "tool_call": false
+      },
+      "id": "gpt-transcribe",
+      "name": "GPT-Transcribe",
+      "providerId": "llmgateway",
+      "updated": "2026-07-28"
     },
     {
       "flags": {
@@ -44631,7 +44807,7 @@
       "id": "kimi-k2.5",
       "name": "Kimi K2.5",
       "providerId": "llmgateway",
-      "updated": "2026-01"
+      "updated": "2026-01-27"
     },
     {
       "flags": {
@@ -44642,7 +44818,7 @@
       "id": "kimi-k2.6",
       "name": "Kimi K2.6",
       "providerId": "llmgateway",
-      "updated": "2026-04-21"
+      "updated": "2026-04-20"
     },
     {
       "flags": {
@@ -45764,7 +45940,7 @@
       "id": "alibaba/kimi-k2.5",
       "name": "Kimi K2.5 (Alibaba Cloud)",
       "providerId": "llmgateway-providers",
-      "updated": "2026-01"
+      "updated": "2026-01-27"
     },
     {
       "flags": {
@@ -46941,7 +47117,7 @@
       "id": "baidu/kimi-k2.6",
       "name": "Kimi K2.6 (Baidu)",
       "providerId": "llmgateway-providers",
-      "updated": "2026-04-21"
+      "updated": "2026-04-20"
     },
     {
       "flags": {
@@ -47139,7 +47315,7 @@
       "id": "canopywave/kimi-k2.6",
       "name": "Kimi K2.6 (CanopyWave)",
       "providerId": "llmgateway-providers",
-      "updated": "2026-04-21"
+      "updated": "2026-04-20"
     },
     {
       "flags": {
@@ -47612,7 +47788,7 @@
       "id": "embercloud/kimi-k2.5",
       "name": "Kimi K2.5 (EmberCloud)",
       "providerId": "llmgateway-providers",
-      "updated": "2026-01"
+      "updated": "2026-01-27"
     },
     {
       "flags": {
@@ -48305,7 +48481,7 @@
       "id": "moonshot/kimi-k2.5",
       "name": "Kimi K2.5 (Moonshot AI)",
       "providerId": "llmgateway-providers",
-      "updated": "2026-01"
+      "updated": "2026-01-27"
     },
     {
       "flags": {
@@ -48316,7 +48492,7 @@
       "id": "moonshot/kimi-k2.6",
       "name": "Kimi K2.6 (Moonshot AI)",
       "providerId": "llmgateway-providers",
-      "updated": "2026-04-21"
+      "updated": "2026-04-20"
     },
     {
       "flags": {
@@ -48558,7 +48734,7 @@
       "id": "novita/kimi-k2.6",
       "name": "Kimi K2.6 (NovitaAI)",
       "providerId": "llmgateway-providers",
-      "updated": "2026-04-21"
+      "updated": "2026-04-20"
     },
     {
       "flags": {
@@ -49266,6 +49442,28 @@
     },
     {
       "flags": {
+        "attachment": false,
+        "reasoning": false,
+        "tool_call": false
+      },
+      "id": "openai/gpt-live-transcribe",
+      "name": "GPT Live Transcribe (OpenAI)",
+      "providerId": "llmgateway-providers",
+      "updated": "2026-07-28"
+    },
+    {
+      "flags": {
+        "attachment": false,
+        "reasoning": false,
+        "tool_call": false
+      },
+      "id": "openai/gpt-transcribe",
+      "name": "GPT Transcribe (OpenAI)",
+      "providerId": "llmgateway-providers",
+      "updated": "2026-07-28"
+    },
+    {
+      "flags": {
         "attachment": true,
         "reasoning": true,
         "tool_call": false
@@ -49482,7 +49680,7 @@
       "id": "runware/kimi-k2.6",
       "name": "Kimi K2.6 (Runware)",
       "providerId": "llmgateway-providers",
-      "updated": "2026-04-21"
+      "updated": "2026-04-20"
     },
     {
       "flags": {
@@ -49779,7 +49977,7 @@
       "id": "tencent/kimi-k2.6",
       "name": "Kimi K2.6 (Tencent Cloud)",
       "providerId": "llmgateway-providers",
-      "updated": "2026-04-21"
+      "updated": "2026-04-20"
     },
     {
       "flags": {
@@ -51532,6 +51730,17 @@
     },
     {
       "flags": {
+        "attachment": true,
+        "reasoning": true,
+        "tool_call": true
+      },
+      "id": "deepseek-v4.1-flash-1017",
+      "name": "DeepSeek V4.1 Flash 1017",
+      "providerId": "melious",
+      "updated": "2026-10-17"
+    },
+    {
+      "flags": {
         "attachment": false,
         "reasoning": true,
         "tool_call": true
@@ -51583,7 +51792,7 @@
       "id": "kimi-k2.5",
       "name": "Kimi K2.5",
       "providerId": "melious",
-      "updated": "2026-01"
+      "updated": "2026-01-27"
     },
     {
       "flags": {
@@ -51594,7 +51803,7 @@
       "id": "kimi-k2.6",
       "name": "Kimi K2.6",
       "providerId": "melious",
-      "updated": "2026-04-21"
+      "updated": "2026-04-20"
     },
     {
       "flags": {
@@ -52683,7 +52892,7 @@
       "id": "moonshot/kimi-k2.5",
       "name": "Kimi K2.5",
       "providerId": "merge-gateway",
-      "updated": "2026-01"
+      "updated": "2026-01-27"
     },
     {
       "flags": {
@@ -52694,7 +52903,7 @@
       "id": "moonshot/kimi-k2.6",
       "name": "Kimi K2.6",
       "providerId": "merge-gateway",
-      "updated": "2026-04-21"
+      "updated": "2026-04-20"
     },
     {
       "flags": {
@@ -52941,6 +53150,17 @@
     {
       "flags": {
         "attachment": true,
+        "reasoning": false,
+        "tool_call": true
+      },
+      "id": "openai/gpt-5-search-api",
+      "name": "GPT-5 Search API",
+      "providerId": "merge-gateway",
+      "updated": "2025-10-14"
+    },
+    {
+      "flags": {
+        "attachment": true,
         "reasoning": true,
         "tool_call": true
       },
@@ -53116,6 +53336,39 @@
     },
     {
       "flags": {
+        "attachment": true,
+        "reasoning": false,
+        "tool_call": true
+      },
+      "id": "openai/gpt-audio",
+      "name": "GPT Audio",
+      "providerId": "merge-gateway",
+      "updated": "2025-08-28"
+    },
+    {
+      "flags": {
+        "attachment": true,
+        "reasoning": false,
+        "tool_call": true
+      },
+      "id": "openai/gpt-audio-mini",
+      "name": "GPT Audio Mini",
+      "providerId": "merge-gateway",
+      "updated": "2025-10-06"
+    },
+    {
+      "flags": {
+        "attachment": true,
+        "reasoning": false,
+        "tool_call": false
+      },
+      "id": "openai/gpt-live-1",
+      "name": "GPT-Live 1",
+      "providerId": "merge-gateway",
+      "updated": "2026-09-10"
+    },
+    {
+      "flags": {
         "attachment": false,
         "reasoning": true,
         "tool_call": false
@@ -53201,6 +53454,17 @@
       "name": "o4 Mini",
       "providerId": "merge-gateway",
       "updated": "2025-04-16"
+    },
+    {
+      "flags": {
+        "attachment": true,
+        "reasoning": false,
+        "tool_call": false
+      },
+      "id": "openai/whisper-1",
+      "name": "Whisper",
+      "providerId": "merge-gateway",
+      "updated": "2023-03-01"
     },
     {
       "flags": {
@@ -54905,7 +55169,7 @@
       "id": "Kimi-K2.6",
       "name": "Kimi K2.6",
       "providerId": "moark",
-      "updated": "2026-04-21"
+      "updated": "2026-04-20"
     },
     {
       "flags": {
@@ -55345,7 +55609,7 @@
       "id": "kimi-k2.6",
       "name": "Kimi K2.6",
       "providerId": "moonshotai",
-      "updated": "2026-04-21"
+      "updated": "2026-04-20"
     },
     {
       "flags": {
@@ -55389,7 +55653,7 @@
       "id": "kimi-k2.6",
       "name": "Kimi K2.6",
       "providerId": "moonshotai-cn",
-      "updated": "2026-04-21"
+      "updated": "2026-04-20"
     },
     {
       "flags": {
@@ -58876,7 +59140,7 @@
       "id": "moonshotai/kimi-k2.5",
       "name": "Kimi K2.5",
       "providerId": "nano-gpt",
-      "updated": "2026-01"
+      "updated": "2026-01-27"
     },
     {
       "flags": {
@@ -58887,7 +59151,7 @@
       "id": "moonshotai/kimi-k2.5:thinking",
       "name": "Kimi K2.5 Thinking",
       "providerId": "nano-gpt",
-      "updated": "2026-01"
+      "updated": "2026-01-27"
     },
     {
       "flags": {
@@ -58898,7 +59162,7 @@
       "id": "moonshotai/kimi-k2.6",
       "name": "Kimi K2.6",
       "providerId": "nano-gpt",
-      "updated": "2026-04-21"
+      "updated": "2026-04-20"
     },
     {
       "flags": {
@@ -58909,7 +59173,7 @@
       "id": "moonshotai/kimi-k2.6:thinking",
       "name": "Kimi K2.6 Thinking",
       "providerId": "nano-gpt",
-      "updated": "2026-04-21"
+      "updated": "2026-04-20"
     },
     {
       "flags": {
@@ -61241,7 +61505,7 @@
       "id": "TEE/kimi-k2.6",
       "name": "Kimi K2.6 TEE",
       "providerId": "nano-gpt",
-      "updated": "2026-04-21"
+      "updated": "2026-04-20"
     },
     {
       "flags": {
@@ -62627,7 +62891,7 @@
       "id": "moonshotai/kimi-k2.6",
       "name": "Kimi K2.6",
       "providerId": "nearai",
-      "updated": "2026-04-21"
+      "updated": "2026-04-20"
     },
     {
       "flags": {
@@ -64761,7 +65025,7 @@
       "id": "moonshotai/kimi-k2.5",
       "name": "Kimi K2.5",
       "providerId": "novita-ai",
-      "updated": "2026-01"
+      "updated": "2026-01-27"
     },
     {
       "flags": {
@@ -64772,7 +65036,7 @@
       "id": "moonshotai/kimi-k2.6",
       "name": "Kimi K2.6",
       "providerId": "novita-ai",
-      "updated": "2026-04-21"
+      "updated": "2026-04-20"
     },
     {
       "flags": {
@@ -67291,7 +67555,7 @@
       "id": "moonshotai/kimi-k2.5",
       "name": "Kimi K2.5",
       "providerId": "ofox",
-      "updated": "2026-01"
+      "updated": "2026-01-27"
     },
     {
       "flags": {
@@ -67302,7 +67566,7 @@
       "id": "moonshotai/kimi-k2.6",
       "name": "Kimi K2.6",
       "providerId": "ofox",
-      "updated": "2026-04-21"
+      "updated": "2026-04-20"
     },
     {
       "flags": {
@@ -68740,32 +69004,10 @@
         "reasoning": true,
         "tool_call": true
       },
-      "id": "gpt-5.2-chat-latest",
-      "name": "GPT-5.2 Chat",
-      "providerId": "openai",
-      "updated": "2025-12-11"
-    },
-    {
-      "flags": {
-        "attachment": true,
-        "reasoning": true,
-        "tool_call": true
-      },
       "id": "gpt-5.2-pro",
       "name": "GPT-5.2 Pro",
       "providerId": "openai",
       "updated": "2025-12-11"
-    },
-    {
-      "flags": {
-        "attachment": true,
-        "reasoning": false,
-        "tool_call": true
-      },
-      "id": "gpt-5.3-chat-latest",
-      "name": "GPT-5.3 Chat (latest)",
-      "providerId": "openai",
-      "updated": "2026-03-03"
     },
     {
       "flags": {
@@ -72868,7 +73110,7 @@
       "id": "moonshotai/kimi-k2.5",
       "name": "Kimi K2.5",
       "providerId": "openrouter",
-      "updated": "2026-01"
+      "updated": "2026-01-27"
     },
     {
       "flags": {
@@ -72879,7 +73121,7 @@
       "id": "moonshotai/kimi-k2.6",
       "name": "Kimi K2.6",
       "providerId": "openrouter",
-      "updated": "2026-04-21"
+      "updated": "2026-04-20"
     },
     {
       "flags": {
@@ -73680,9 +73922,9 @@
         "tool_call": true
       },
       "id": "openai/gpt-audio",
-      "name": "GPT Audio",
+      "name": "GPT-Audio",
       "providerId": "openrouter",
-      "updated": "2026-01-19"
+      "updated": "2025-08-28"
     },
     {
       "flags": {
@@ -73691,9 +73933,9 @@
         "tool_call": true
       },
       "id": "openai/gpt-audio-mini",
-      "name": "GPT Audio Mini",
+      "name": "GPT-Audio Mini",
       "providerId": "openrouter",
-      "updated": "2026-01-19"
+      "updated": "2025-10-06"
     },
     {
       "flags": {
@@ -75941,7 +76183,7 @@
     },
     {
       "flags": {
-        "attachment": true,
+        "attachment": false,
         "reasoning": false,
         "tool_call": true
       },
@@ -75952,7 +76194,7 @@
     },
     {
       "flags": {
-        "attachment": true,
+        "attachment": false,
         "reasoning": true,
         "tool_call": true
       },
@@ -76245,7 +76487,7 @@
       "id": "kimi/kimi-k2.5",
       "name": "Kimi K2.5",
       "providerId": "orcarouter",
-      "updated": "2026-01"
+      "updated": "2026-01-27"
     },
     {
       "flags": {
@@ -76256,7 +76498,7 @@
       "id": "kimi/kimi-k2.6",
       "name": "Kimi K2.6",
       "providerId": "orcarouter",
-      "updated": "2026-04-21"
+      "updated": "2026-04-20"
     },
     {
       "flags": {
@@ -78522,7 +78764,7 @@
       "id": "moonshotai/Kimi-K2.6",
       "name": "Kimi K2.6",
       "providerId": "pioneer",
-      "updated": "2026-04-21"
+      "updated": "2026-04-20"
     },
     {
       "flags": {
@@ -81316,7 +81558,7 @@
       "id": "kimi-k2.6",
       "name": "Kimi K2.6",
       "providerId": "privatemode-ai",
-      "updated": "2026-04-21"
+      "updated": "2026-04-20"
     },
     {
       "flags": {
@@ -81327,7 +81569,7 @@
       "id": "kimi-latest",
       "name": "Kimi (latest)",
       "providerId": "privatemode-ai",
-      "updated": "2026-04-21"
+      "updated": "2026-04-20"
     },
     {
       "flags": {
@@ -84033,7 +84275,7 @@
       "id": "kimi-k2.5@eu",
       "name": "Kimi K2.5 (EU)",
       "providerId": "requesty",
-      "updated": "2026-01"
+      "updated": "2026-01-27"
     },
     {
       "flags": {
@@ -84044,7 +84286,7 @@
       "id": "kimi-k2.6",
       "name": "Kimi K2.6",
       "providerId": "requesty",
-      "updated": "2026-04-21"
+      "updated": "2026-04-20"
     },
     {
       "flags": {
@@ -84055,7 +84297,7 @@
       "id": "kimi-k2.6@eu",
       "name": "Kimi K2.6 (EU)",
       "providerId": "requesty",
-      "updated": "2026-04-21"
+      "updated": "2026-04-20"
     },
     {
       "flags": {
@@ -84858,7 +85100,7 @@
       "id": "kimi-k2.6",
       "name": "Kimi K2.6",
       "providerId": "routing-run",
-      "updated": "2026-04-21"
+      "updated": "2026-04-20"
     },
     {
       "flags": {
@@ -84869,7 +85111,7 @@
       "id": "kimi-k2.6-nitro",
       "name": "Kimi K2.6 Nitro",
       "providerId": "routing-run",
-      "updated": "2026-04-21"
+      "updated": "2026-04-20"
     },
     {
       "flags": {
@@ -84978,6 +85220,17 @@
       },
       "id": "Qwen/Qwen3.8-27B",
       "name": "Qwen3.8 27B",
+      "providerId": "runinfra",
+      "updated": "2026-08-14"
+    },
+    {
+      "flags": {
+        "attachment": false,
+        "reasoning": true,
+        "tool_call": true
+      },
+      "id": "zai-org/GLM-5.3",
+      "name": "GLM-5.3",
       "providerId": "runinfra",
       "updated": "2026-08-14"
     },
@@ -86057,7 +86310,7 @@
       "id": "Kimi-K2.5",
       "name": "Kimi K2.5",
       "providerId": "scnet-token-plan",
-      "updated": "2026-01"
+      "updated": "2026-01-27"
     },
     {
       "flags": {
@@ -86068,7 +86321,7 @@
       "id": "Kimi-K2.6",
       "name": "Kimi K2.6",
       "providerId": "scnet-token-plan",
-      "updated": "2026-04-21"
+      "updated": "2026-04-20"
     },
     {
       "flags": {
@@ -89269,7 +89522,7 @@
       "id": "moonshot/kimi-k2.6",
       "name": "Kimi K2.6",
       "providerId": "tempr",
-      "updated": "2026-04-21"
+      "updated": "2026-04-20"
     },
     {
       "flags": {
@@ -89852,7 +90105,7 @@
       "id": "moonshotai/kimi-k2.5",
       "name": "Kimi K2.5",
       "providerId": "tensorx",
-      "updated": "2026-01"
+      "updated": "2026-01-27"
     },
     {
       "flags": {
@@ -89863,7 +90116,7 @@
       "id": "moonshotai/kimi-k2.6",
       "name": "Kimi K2.6",
       "providerId": "tensorx",
-      "updated": "2026-04-21"
+      "updated": "2026-04-20"
     },
     {
       "flags": {
@@ -90732,7 +90985,7 @@
       "id": "moonshotai/kimi-k2.6",
       "name": "Kimi K2.6",
       "providerId": "tokengo",
-      "updated": "2026-04-21"
+      "updated": "2026-04-20"
     },
     {
       "flags": {
@@ -91260,7 +91513,7 @@
       "id": "kimi-k2.6",
       "name": "Kimi K2.6",
       "providerId": "unorouter",
-      "updated": "2026-04-21"
+      "updated": "2026-04-20"
     },
     {
       "flags": {
@@ -92126,6 +92379,17 @@
         "reasoning": true,
         "tool_call": true
       },
+      "id": "mercury-3",
+      "name": "Mercury 3",
+      "providerId": "venice",
+      "updated": "2026-10-20"
+    },
+    {
+      "flags": {
+        "attachment": false,
+        "reasoning": true,
+        "tool_call": true
+      },
       "id": "minimax-m25",
       "name": "MiniMax M2.5",
       "providerId": "venice",
@@ -92788,17 +93052,6 @@
       },
       "id": "zai-org-glm-4.7",
       "name": "GLM 4.7",
-      "providerId": "venice",
-      "updated": "2026-06-11"
-    },
-    {
-      "flags": {
-        "attachment": false,
-        "reasoning": true,
-        "tool_call": true
-      },
-      "id": "zai-org-glm-4.7-flash",
-      "name": "GLM 4.7 Flash",
       "providerId": "venice",
       "updated": "2026-06-11"
     },
@@ -94318,7 +94571,7 @@
       "id": "google/gemini-3.8-flash-lite-tts",
       "name": "Gemini 3.8 Flash-Lite TTS",
       "providerId": "vercel",
-      "updated": "2026-09-23"
+      "updated": "2026-09-22"
     },
     {
       "flags": {
@@ -94329,7 +94582,7 @@
       "id": "google/gemini-3.8-flash-tts",
       "name": "Gemini 3.8 Flash TTS",
       "providerId": "vercel",
-      "updated": "2026-09-23"
+      "updated": "2026-09-22"
     },
     {
       "flags": {
@@ -95275,7 +95528,7 @@
       "id": "moonshotai/kimi-k2.5",
       "name": "Kimi K2.5",
       "providerId": "vercel",
-      "updated": "2026-01"
+      "updated": "2026-01-27"
     },
     {
       "flags": {
@@ -95286,7 +95539,7 @@
       "id": "moonshotai/kimi-k2.6",
       "name": "Kimi K2.6",
       "providerId": "vercel",
-      "updated": "2026-04-21"
+      "updated": "2026-04-20"
     },
     {
       "flags": {
@@ -95583,7 +95836,7 @@
       "id": "openai/gpt-4o-mini-transcribe",
       "name": "GPT-4o mini Transcribe",
       "providerId": "vercel",
-      "updated": "2024-03-13"
+      "updated": "2025-03-20"
     },
     {
       "flags": {
@@ -95594,7 +95847,7 @@
       "id": "openai/gpt-4o-transcribe",
       "name": "GPT-4o Transcribe",
       "providerId": "vercel",
-      "updated": "2024-03-13"
+      "updated": "2025-03-20"
     },
     {
       "flags": {
@@ -96210,7 +96463,7 @@
       "id": "openai/gpt-realtime-mini",
       "name": "GPT-Realtime mini",
       "providerId": "vercel",
-      "updated": "2025-10-10"
+      "updated": "2025-10-06"
     },
     {
       "flags": {
@@ -96364,7 +96617,7 @@
       "id": "openai/whisper-1",
       "name": "Whisper",
       "providerId": "vercel",
-      "updated": "2022-09-21"
+      "updated": "2023-03-01"
     },
     {
       "flags": {
@@ -98333,7 +98586,7 @@
       "id": "Kimi-K2.6",
       "name": "Kimi K2.6",
       "providerId": "wafer.ai",
-      "updated": "2026-04-21"
+      "updated": "2026-04-20"
     },
     {
       "flags": {
@@ -100797,7 +101050,7 @@
       "id": "x-ai/grok-voice-stt-1.0",
       "name": "Grok Voice STT 1.0",
       "providerId": "zenmux",
-      "updated": "2026-08-04"
+      "updated": "2026-09-17"
     },
     {
       "flags": {
@@ -100808,7 +101061,7 @@
       "id": "x-ai/grok-voice-tts-1.0",
       "name": "Grok Voice TTS 1.0",
       "providerId": "zenmux",
-      "updated": "2026-07-31"
+      "updated": "2026-03-16"
     },
     {
       "flags": {
@@ -101407,7 +101660,7 @@
       "doc": "https://docs.aixy-gateway.com/integrations/overview",
       "iconURL": "https://models.dev/logos/aixy.svg",
       "id": "aixy",
-      "modelCount": 11,
+      "modelCount": 13,
       "name": "Aixy"
     },
     {
@@ -101549,7 +101802,7 @@
       "doc": "https://learn.microsoft.com/en-us/azure/ai-services/openai/concepts/models",
       "iconURL": "https://models.dev/logos/azure-cognitive-services.svg",
       "id": "azure-cognitive-services",
-      "modelCount": 87,
+      "modelCount": 97,
       "name": "Azure Cognitive Services"
     },
     {
@@ -101813,7 +102066,7 @@
       "doc": "https://docs.edenai.co",
       "iconURL": "https://models.dev/logos/edenai.svg",
       "id": "edenai",
-      "modelCount": 337,
+      "modelCount": 339,
       "name": "Eden AI"
     },
     {
@@ -102186,7 +102439,7 @@
       "doc": "https://llmgateway.io/docs",
       "iconURL": "https://models.dev/logos/llmgateway.svg",
       "id": "llmgateway",
-      "modelCount": 214,
+      "modelCount": 216,
       "name": "DevPass (LLM Gateway)"
     },
     {
@@ -102194,7 +102447,7 @@
       "doc": "https://llmgateway.io/docs",
       "iconURL": "https://models.dev/logos/llmgateway-providers.svg",
       "id": "llmgateway-providers",
-      "modelCount": 436,
+      "modelCount": 438,
       "name": "LLM Gateway"
     },
     {
@@ -102267,7 +102520,7 @@
       "doc": "https://melious.ai/docs/reference/models",
       "iconURL": "https://models.dev/logos/melious.svg",
       "id": "melious",
-      "modelCount": 12,
+      "modelCount": 13,
       "name": "Melious"
     },
     {
@@ -102275,7 +102528,7 @@
       "doc": "https://docs.merge.dev/merge-gateway",
       "iconURL": "https://models.dev/logos/merge-gateway.svg",
       "id": "merge-gateway",
-      "modelCount": 206,
+      "modelCount": 211,
       "name": "Merge Gateway"
     },
     {
@@ -102518,7 +102771,7 @@
       "iconURL": "https://models.dev/logos/openai.svg",
       "id": "openai",
       "lobeIcon": "OpenAI.Color",
-      "modelCount": 55,
+      "modelCount": 53,
       "name": "OpenAI"
     },
     {
@@ -102711,7 +102964,7 @@
       "doc": "https://runinfra.ai/docs",
       "iconURL": "https://models.dev/logos/runinfra.svg",
       "id": "runinfra",
-      "modelCount": 7,
+      "modelCount": 8,
       "name": "RunInfra"
     },
     {
