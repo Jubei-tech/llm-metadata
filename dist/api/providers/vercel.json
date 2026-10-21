@@ -6969,10 +6969,11 @@
     },
     "meta/muse-image-1.0": {
       "attachment": true,
-      "description": "Image model for prompt-driven generation, editing, and visual design workflows",
+      "canonical_model_id": "meta/muse-image-1.0",
+      "description": "Agentic image generation and editing model that plans, searches and refines before rendering",
       "family": "muse",
       "id": "meta/muse-image-1.0",
-      "last_updated": "2026-08-26",
+      "last_updated": "2026-07-07",
       "limit": {
         "context": 0,
         "output": 0
@@ -6992,7 +6993,7 @@
         "api": "https://ai-gateway.vercel.sh/v4/ai"
       },
       "reasoning": false,
-      "release_date": "2026-08-26",
+      "release_date": "2026-07-07",
       "temperature": false,
       "tool_call": false,
       "type": "image"
@@ -12105,12 +12106,13 @@
     },
     "openai/gpt-image-1-mini": {
       "attachment": false,
+      "canonical_model_id": "openai/gpt-image-1-mini",
       "cost": {
         "cache_read": 0.2,
         "input": 2,
         "output": 8
       },
-      "description": "Image model for prompt-driven generation, editing, and visual design workflows",
+      "description": "Cost-efficient GPT Image 1 variant for image generation and editing",
       "family": "gpt-image",
       "id": "openai/gpt-image-1-mini",
       "last_updated": "2025-10-06",
@@ -14892,7 +14894,8 @@
     },
     "spacexai/grok-imagine-video": {
       "attachment": true,
-      "description": "Video model for prompt-guided generation, editing, and motion workflows",
+      "canonical_model_id": "xai/grok-imagine-video",
+      "description": "Video model for text-to-video, image-to-video, video editing and extension with native synchronized audio",
       "family": "grok",
       "id": "spacexai/grok-imagine-video",
       "last_updated": "2026-01-28",

@@ -66571,7 +66571,7 @@
         "audio": false,
         "image": false,
         "open_weights": true,
-        "reasoning": true,
+        "reasoning": false,
         "temperature": false,
         "tool_call": true
       },
@@ -69405,15 +69405,15 @@
         "attachment": false,
         "audio": false,
         "image": false,
-        "open_weights": false,
+        "open_weights": true,
         "reasoning": false,
         "temperature": false,
         "tool_call": true
       },
       "icon": "",
       "id": "mistral-nemo-instruct-2407",
-      "knowledge": null,
-      "lastUpdated": "2024-08-07",
+      "knowledge": "2024-07",
+      "lastUpdated": "2024-07-18",
       "maxCtxTokens": 128000,
       "maxOutputTokens": 128000,
       "modalities": {
@@ -69431,7 +69431,7 @@
         "input": 0.145,
         "output": 0.145
       },
-      "releaseDate": "2024-08-07",
+      "releaseDate": "2024-07-18",
       "tags": []
     },
     {
@@ -69441,15 +69441,15 @@
         "attachment": true,
         "audio": false,
         "image": true,
-        "open_weights": false,
+        "open_weights": true,
         "reasoning": false,
         "temperature": false,
         "tool_call": true
       },
       "icon": "",
       "id": "mistral-small-2503",
-      "knowledge": null,
-      "lastUpdated": "2025-03-20",
+      "knowledge": "2024-06",
+      "lastUpdated": "2025-03-17",
       "maxCtxTokens": 128000,
       "maxOutputTokens": 128000,
       "modalities": {
@@ -69468,7 +69468,7 @@
         "input": 0.111,
         "output": 0.334
       },
-      "releaseDate": "2025-03-20",
+      "releaseDate": "2025-03-17",
       "tags": []
     },
     {
@@ -69515,21 +69515,21 @@
         "attachment": true,
         "audio": false,
         "image": true,
-        "open_weights": false,
+        "open_weights": true,
         "reasoning": false,
         "temperature": false,
         "tool_call": true
       },
       "icon": "",
       "id": "mistral-small-3.2-24b-instruct-2506",
-      "knowledge": null,
-      "lastUpdated": "2025-05-26",
+      "knowledge": "2023-10-31",
+      "lastUpdated": "2025-06-20",
       "maxCtxTokens": 131000,
       "maxOutputTokens": 131000,
       "modalities": {
         "input": [
-          "text",
-          "image"
+          "image",
+          "text"
         ],
         "output": [
           "text"
@@ -69542,7 +69542,7 @@
         "input": 0.1,
         "output": 0.312
       },
-      "releaseDate": "2025-05-26",
+      "releaseDate": "2025-06-20",
       "tags": []
     },
     {
@@ -69589,7 +69589,7 @@
         "attachment": true,
         "audio": false,
         "image": true,
-        "open_weights": false,
+        "open_weights": true,
         "reasoning": true,
         "temperature": false,
         "tool_call": true
@@ -69597,7 +69597,7 @@
       "icon": "",
       "id": "nemotron-nano-v2-12b",
       "knowledge": null,
-      "lastUpdated": "2025-10-31",
+      "lastUpdated": "2025-10-28",
       "maxCtxTokens": 128000,
       "maxOutputTokens": 128000,
       "modalities": {
@@ -69616,7 +69616,7 @@
         "input": 0.24,
         "output": 0.707
       },
-      "releaseDate": "2025-10-31",
+      "releaseDate": "2025-10-28",
       "tags": []
     },
     {
@@ -69665,7 +69665,7 @@
         "audio": false,
         "image": true,
         "open_weights": false,
-        "reasoning": true,
+        "reasoning": false,
         "temperature": false,
         "tool_call": true
       },
@@ -69703,7 +69703,7 @@
         "audio": false,
         "image": true,
         "open_weights": false,
-        "reasoning": true,
+        "reasoning": false,
         "temperature": false,
         "tool_call": true
       },
@@ -69740,7 +69740,7 @@
         "audio": false,
         "image": true,
         "open_weights": false,
-        "reasoning": true,
+        "reasoning": false,
         "temperature": true,
         "tool_call": true
       },
@@ -69777,15 +69777,15 @@
         "attachment": false,
         "audio": false,
         "image": false,
-        "open_weights": false,
+        "open_weights": true,
         "reasoning": true,
         "temperature": false,
         "tool_call": true
       },
       "icon": "",
       "id": "nvidia-nemotron-3-nano-30b-a3b",
-      "knowledge": null,
-      "lastUpdated": "2026-01-12",
+      "knowledge": "2025-06-25",
+      "lastUpdated": "2025-12-15",
       "maxCtxTokens": 256000,
       "maxOutputTokens": 256000,
       "modalities": {
@@ -69803,7 +69803,7 @@
         "input": 0.06,
         "output": 0.24
       },
-      "releaseDate": "2026-01-12",
+      "releaseDate": "2025-12-15",
       "tags": []
     },
     {
@@ -69813,15 +69813,15 @@
         "attachment": true,
         "audio": false,
         "image": true,
-        "open_weights": false,
-        "reasoning": true,
+        "open_weights": true,
+        "reasoning": false,
         "temperature": false,
         "tool_call": true
       },
       "icon": "",
       "id": "pixtral-12b-2409",
-      "knowledge": null,
-      "lastUpdated": "2024-11-09",
+      "knowledge": "2024-09",
+      "lastUpdated": "2024-09-11",
       "maxCtxTokens": 128000,
       "maxOutputTokens": 4096,
       "modalities": {
@@ -69840,7 +69840,7 @@
         "input": 0.223,
         "output": 0.223
       },
-      "releaseDate": "2024-11-09",
+      "releaseDate": "2024-09-11",
       "tags": []
     },
     {
@@ -69888,15 +69888,15 @@
         "attachment": true,
         "audio": false,
         "image": true,
-        "open_weights": false,
-        "reasoning": true,
+        "open_weights": true,
+        "reasoning": false,
         "temperature": false,
         "tool_call": false
       },
       "icon": "",
       "id": "qwen2.5-vl-72b-instruct",
-      "knowledge": null,
-      "lastUpdated": "2025-01-27",
+      "knowledge": "2024-04",
+      "lastUpdated": "2025-01-26",
       "maxCtxTokens": 32000,
       "maxOutputTokens": 32000,
       "modalities": {
@@ -69915,7 +69915,7 @@
         "input": 1.014,
         "output": 1.014
       },
-      "releaseDate": "2025-01-27",
+      "releaseDate": "2025-01-26",
       "tags": []
     },
     {
@@ -70105,15 +70105,15 @@
         "attachment": true,
         "audio": false,
         "image": true,
-        "open_weights": false,
-        "reasoning": true,
+        "open_weights": true,
+        "reasoning": false,
         "temperature": false,
         "tool_call": true
       },
       "icon": "",
       "id": "qwen3-vl-235b-a22b",
-      "knowledge": null,
-      "lastUpdated": "2026-01-13",
+      "knowledge": "2025-03-31",
+      "lastUpdated": "2025-09-23",
       "maxCtxTokens": 256000,
       "maxOutputTokens": 256000,
       "modalities": {
@@ -70132,7 +70132,7 @@
         "input": 0.617,
         "output": 3.119
       },
-      "releaseDate": "2026-01-13",
+      "releaseDate": "2025-09-23",
       "tags": []
     },
     {
@@ -70471,7 +70471,7 @@
         "attachment": true,
         "audio": true,
         "image": false,
-        "open_weights": false,
+        "open_weights": true,
         "reasoning": false,
         "temperature": false,
         "tool_call": true
@@ -70479,7 +70479,7 @@
       "icon": "",
       "id": "voxtral-small-2507",
       "knowledge": null,
-      "lastUpdated": "2026-02-02",
+      "lastUpdated": "2025-07-15",
       "maxCtxTokens": 32000,
       "maxOutputTokens": 32000,
       "modalities": {
@@ -70498,7 +70498,7 @@
         "input": 0.123,
         "output": 0.368
       },
-      "releaseDate": "2026-02-02",
+      "releaseDate": "2025-07-15",
       "tags": []
     },
     {
@@ -119291,7 +119291,7 @@
       "id": "deepseek-v4.1-flash",
       "knowledge": "2025-05",
       "lastUpdated": "2026-09-10",
-      "maxCtxTokens": 1000000,
+      "maxCtxTokens": 1048576,
       "maxOutputTokens": 262144,
       "modalities": {
         "input": [
@@ -131651,9 +131651,9 @@
       },
       "name": "DeepSeek: DeepSeek Pro Latest",
       "price": {
-        "cacheRead": 0.13,
+        "cacheRead": 0.23,
         "cacheWrite": null,
-        "input": 0.1307,
+        "input": 0.225,
         "output": 8
       },
       "releaseDate": "2026-09-14",
@@ -131687,10 +131687,10 @@
       },
       "name": "DeepSeek: DeepSeek V4 Flash Latest",
       "price": {
-        "cacheRead": 0.003304,
+        "cacheRead": 0.00336,
         "cacheWrite": null,
-        "input": 0.01208,
-        "output": 0.12
+        "input": 0.0168,
+        "output": 0.10728
       },
       "releaseDate": "2026-08-01",
       "tags": []
@@ -131808,7 +131808,7 @@
         "cacheRead": 0.228,
         "cacheWrite": null,
         "input": 0.238,
-        "output": 24
+        "output": 16
       },
       "releaseDate": "2026-04-27",
       "tags": []
@@ -142581,7 +142581,7 @@
       "knowledge": "2025-04",
       "lastUpdated": "2025-09",
       "maxCtxTokens": 262144,
-      "maxOutputTokens": 235929,
+      "maxOutputTokens": 16384,
       "modalities": {
         "input": [
           "text"
@@ -142592,9 +142592,9 @@
       },
       "name": "Qwen3-Next 80B-A3B Instruct",
       "price": {
-        "cacheRead": 0.07,
+        "cacheRead": null,
         "cacheWrite": null,
-        "input": 0.1,
+        "input": 0.09,
         "output": 1.1
       },
       "releaseDate": "2025-09",
@@ -142952,8 +142952,8 @@
       "id": "qwen/qwen3.5-9b",
       "knowledge": null,
       "lastUpdated": "2026-02-23",
-      "maxCtxTokens": 256000,
-      "maxOutputTokens": 32768,
+      "maxCtxTokens": 262144,
+      "maxOutputTokens": 65536,
       "modalities": {
         "input": [
           "text",
@@ -142966,10 +142966,10 @@
       },
       "name": "Qwen3.5 9B",
       "price": {
-        "cacheRead": null,
+        "cacheRead": 0.04,
         "cacheWrite": null,
-        "input": 0.1,
-        "output": 0.15
+        "input": 0.08,
+        "output": 0.13
       },
       "releaseDate": "2026-02-23",
       "tags": []
@@ -143367,8 +143367,8 @@
       "id": "qwen/qwen3.8-2.4t-a95b",
       "knowledge": null,
       "lastUpdated": "2026-08-12",
-      "maxCtxTokens": 1000000,
-      "maxOutputTokens": 131072,
+      "maxCtxTokens": 1010000,
+      "maxOutputTokens": 909000,
       "modalities": {
         "input": [
           "text"
@@ -144604,10 +144604,10 @@
       },
       "name": "Hy3",
       "price": {
-        "cacheRead": 0.020625,
+        "cacheRead": 0.033,
         "cacheWrite": null,
-        "input": 0.0825,
-        "output": 0.33
+        "input": 0.132,
+        "output": 0.528
       },
       "releaseDate": "2026-07-06",
       "tags": []
@@ -144676,10 +144676,10 @@
       },
       "name": "Hy4 preview",
       "price": {
-        "cacheRead": 0.0378,
+        "cacheRead": 0.042,
         "cacheWrite": null,
-        "input": 0.7506,
-        "output": 2.2509
+        "input": 0.834,
+        "output": 2.501
       },
       "releaseDate": "2026-08-28",
       "tags": []
@@ -145496,8 +145496,8 @@
       "price": {
         "cacheRead": 0.003,
         "cacheWrite": null,
-        "input": 0.05,
-        "output": 0.12
+        "input": 0.07,
+        "output": 0.18
       },
       "releaseDate": "2026-09-22",
       "tags": []
@@ -145959,8 +145959,8 @@
       "id": "z-ai/glm-5.1",
       "knowledge": null,
       "lastUpdated": "2026-04-07",
-      "maxCtxTokens": 200000,
-      "maxOutputTokens": 128000,
+      "maxCtxTokens": 202752,
+      "maxOutputTokens": 131072,
       "modalities": {
         "input": [
           "text"
@@ -151530,42 +151530,6 @@
       "tags": []
     },
     {
-      "description": "Thinking Kimi model for slower research passes, planning, and hard technical questions",
-      "firm": "llmgateway",
-      "flags": {
-        "attachment": false,
-        "audio": false,
-        "image": false,
-        "open_weights": true,
-        "reasoning": true,
-        "temperature": true,
-        "tool_call": true
-      },
-      "icon": "",
-      "id": "kimi-k2-thinking",
-      "knowledge": "2024-08",
-      "lastUpdated": "2025-11-06",
-      "maxCtxTokens": 262144,
-      "maxOutputTokens": 262144,
-      "modalities": {
-        "input": [
-          "text"
-        ],
-        "output": [
-          "text"
-        ]
-      },
-      "name": "Kimi K2 Thinking",
-      "price": {
-        "cacheRead": 0.06,
-        "cacheWrite": null,
-        "input": 0.6,
-        "output": 2.5
-      },
-      "releaseDate": "2025-11-06",
-      "tags": []
-    },
-    {
       "description": "Earlier Kimi frontier model for long-context agents, coding, and multimodal work",
       "firm": "llmgateway",
       "flags": {
@@ -153925,43 +153889,7 @@
         "cacheRead": null,
         "cacheWrite": null,
         "input": 0.15,
-        "output": 1.2
-      },
-      "releaseDate": "2025-09",
-      "tags": []
-    },
-    {
-      "description": "Efficient Qwen thinking model for local reasoning, math, and coding agents",
-      "firm": "llmgateway",
-      "flags": {
-        "attachment": false,
-        "audio": false,
-        "image": false,
-        "open_weights": true,
-        "reasoning": true,
-        "temperature": true,
-        "tool_call": true
-      },
-      "icon": "",
-      "id": "qwen3-next-80b-a3b-thinking",
-      "knowledge": "2025-04",
-      "lastUpdated": "2025-09",
-      "maxCtxTokens": 131072,
-      "maxOutputTokens": 32768,
-      "modalities": {
-        "input": [
-          "text"
-        ],
-        "output": [
-          "text"
-        ]
-      },
-      "name": "Qwen3-Next 80B-A3B (Thinking)",
-      "price": {
-        "cacheRead": null,
-        "cacheWrite": null,
-        "input": 0.15,
-        "output": 1.2
+        "output": 1.5
       },
       "releaseDate": "2025-09",
       "tags": []
@@ -169883,114 +169811,6 @@
       "tags": []
     },
     {
-      "description": "Hybrid-reasoning DeepSeek model with thinking and non-thinking modes, sparse attention, and tool-use",
-      "firm": "llmgateway-providers",
-      "flags": {
-        "attachment": false,
-        "audio": false,
-        "image": false,
-        "open_weights": true,
-        "reasoning": false,
-        "temperature": true,
-        "tool_call": true
-      },
-      "icon": "",
-      "id": "vertex-openai/deepseek-v3.2",
-      "knowledge": "2024-07",
-      "lastUpdated": "2025-12-01",
-      "maxCtxTokens": 163840,
-      "maxOutputTokens": 65536,
-      "modalities": {
-        "input": [
-          "text"
-        ],
-        "output": [
-          "text"
-        ]
-      },
-      "name": "DeepSeek V3.2 (Vertex AI (OpenAI-compatible))",
-      "price": {
-        "cacheRead": 0.056,
-        "cacheWrite": null,
-        "input": 0.56,
-        "output": 1.68
-      },
-      "releaseDate": "2025-12-01",
-      "tags": []
-    },
-    {
-      "description": "Mature GLM model for dependable coding, reasoning, and structured agent tasks",
-      "firm": "llmgateway-providers",
-      "flags": {
-        "attachment": false,
-        "audio": false,
-        "image": false,
-        "open_weights": true,
-        "reasoning": true,
-        "temperature": true,
-        "tool_call": true
-      },
-      "icon": "",
-      "id": "vertex-openai/glm-4.7",
-      "knowledge": "2025-04",
-      "lastUpdated": "2025-12-22",
-      "maxCtxTokens": 202752,
-      "maxOutputTokens": 128000,
-      "modalities": {
-        "input": [
-          "text"
-        ],
-        "output": [
-          "text"
-        ]
-      },
-      "name": "GLM-4.7 (Vertex AI (OpenAI-compatible))",
-      "price": {
-        "cacheRead": null,
-        "cacheWrite": null,
-        "input": 0.6,
-        "output": 2.2
-      },
-      "releaseDate": "2025-12-22",
-      "tags": []
-    },
-    {
-      "description": "General GLM flagship for coding, analysis, and tool-heavy engineering workflows",
-      "firm": "llmgateway-providers",
-      "flags": {
-        "attachment": false,
-        "audio": false,
-        "image": false,
-        "open_weights": true,
-        "reasoning": true,
-        "temperature": true,
-        "tool_call": true
-      },
-      "icon": "",
-      "id": "vertex-openai/glm-5",
-      "knowledge": null,
-      "lastUpdated": "2026-02-12",
-      "maxCtxTokens": 202752,
-      "maxOutputTokens": 32768,
-      "modalities": {
-        "input": [
-          "text"
-        ],
-        "output": [
-          "text"
-        ]
-      },
-      "name": "GLM-5 (Vertex AI (OpenAI-compatible))",
-      "price": {
-        "cacheRead": 0.1,
-        "cacheWrite": null,
-        "input": 1,
-        "output": 3.2
-      },
-      "releaseDate": "2026-02-12",
-      "tags": []
-    },
-    {
       "description": "O-series reasoning model for hard analysis, math, coding, and planning",
       "firm": "llmgateway-providers",
       "flags": {
@@ -170136,186 +169956,6 @@
         "output": 6
       },
       "releaseDate": "2026-09-21",
-      "tags": []
-    },
-    {
-      "description": "Thinking Kimi model for slower research passes, planning, and hard technical questions",
-      "firm": "llmgateway-providers",
-      "flags": {
-        "attachment": false,
-        "audio": false,
-        "image": false,
-        "open_weights": true,
-        "reasoning": true,
-        "temperature": true,
-        "tool_call": true
-      },
-      "icon": "",
-      "id": "vertex-openai/kimi-k2-thinking",
-      "knowledge": "2024-08",
-      "lastUpdated": "2025-11-06",
-      "maxCtxTokens": 262144,
-      "maxOutputTokens": 32768,
-      "modalities": {
-        "input": [
-          "text"
-        ],
-        "output": [
-          "text"
-        ]
-      },
-      "name": "Kimi K2 Thinking (Vertex AI (OpenAI-compatible))",
-      "price": {
-        "cacheRead": 0.06,
-        "cacheWrite": null,
-        "input": 0.6,
-        "output": 2.5
-      },
-      "releaseDate": "2025-11-06",
-      "tags": []
-    },
-    {
-      "description": "Updated large open Qwen3 MoE instruct model for multilingual chat, coding, and tool use",
-      "firm": "llmgateway-providers",
-      "flags": {
-        "attachment": false,
-        "audio": false,
-        "image": false,
-        "open_weights": true,
-        "reasoning": false,
-        "temperature": true,
-        "tool_call": true
-      },
-      "icon": "",
-      "id": "vertex-openai/qwen3-235b-a22b-instruct-2507",
-      "knowledge": null,
-      "lastUpdated": "2025-07-21",
-      "maxCtxTokens": 262144,
-      "maxOutputTokens": 32768,
-      "modalities": {
-        "input": [
-          "text"
-        ],
-        "output": [
-          "text"
-        ]
-      },
-      "name": "Qwen3 235B A22B Instruct 2507 (Vertex AI (OpenAI-compatible))",
-      "price": {
-        "cacheRead": null,
-        "cacheWrite": null,
-        "input": 0.22,
-        "output": 0.88
-      },
-      "releaseDate": "2025-07-21",
-      "tags": []
-    },
-    {
-      "description": "Open Qwen coding heavyweight for repository reasoning and agentic engineering",
-      "firm": "llmgateway-providers",
-      "flags": {
-        "attachment": false,
-        "audio": false,
-        "image": false,
-        "open_weights": true,
-        "reasoning": false,
-        "temperature": true,
-        "tool_call": true
-      },
-      "icon": "",
-      "id": "vertex-openai/qwen3-coder-480b-a35b-instruct",
-      "knowledge": "2025-04",
-      "lastUpdated": "2025-07-22",
-      "maxCtxTokens": 262144,
-      "maxOutputTokens": 65536,
-      "modalities": {
-        "input": [
-          "text"
-        ],
-        "output": [
-          "text"
-        ]
-      },
-      "name": "Qwen3 Coder 480B A35B Instruct (Vertex AI (OpenAI-compatible))",
-      "price": {
-        "cacheRead": 0.022,
-        "cacheWrite": null,
-        "input": 0.22,
-        "output": 1.8
-      },
-      "releaseDate": "2025-07-22",
-      "tags": []
-    },
-    {
-      "description": "Qwen instruction model for multilingual chat, reasoning, and tool use",
-      "firm": "llmgateway-providers",
-      "flags": {
-        "attachment": false,
-        "audio": false,
-        "image": false,
-        "open_weights": true,
-        "reasoning": false,
-        "temperature": true,
-        "tool_call": true
-      },
-      "icon": "",
-      "id": "vertex-openai/qwen3-next-80b-a3b-instruct",
-      "knowledge": "2025-04",
-      "lastUpdated": "2025-09",
-      "maxCtxTokens": 131072,
-      "maxOutputTokens": 32768,
-      "modalities": {
-        "input": [
-          "text"
-        ],
-        "output": [
-          "text"
-        ]
-      },
-      "name": "Qwen3 Next 80B A3B Instruct (Vertex AI (OpenAI-compatible))",
-      "price": {
-        "cacheRead": null,
-        "cacheWrite": null,
-        "input": 0.15,
-        "output": 1.2
-      },
-      "releaseDate": "2025-09",
-      "tags": []
-    },
-    {
-      "description": "Efficient Qwen thinking model for local reasoning, math, and coding agents",
-      "firm": "llmgateway-providers",
-      "flags": {
-        "attachment": false,
-        "audio": false,
-        "image": false,
-        "open_weights": true,
-        "reasoning": true,
-        "temperature": true,
-        "tool_call": true
-      },
-      "icon": "",
-      "id": "vertex-openai/qwen3-next-80b-a3b-thinking",
-      "knowledge": "2025-04",
-      "lastUpdated": "2025-09",
-      "maxCtxTokens": 131072,
-      "maxOutputTokens": 32768,
-      "modalities": {
-        "input": [
-          "text"
-        ],
-        "output": [
-          "text"
-        ]
-      },
-      "name": "Qwen3 Next 80B A3B Thinking (Vertex AI (OpenAI-compatible))",
-      "price": {
-        "cacheRead": null,
-        "cacheWrite": null,
-        "input": 0.15,
-        "output": 1.2
-      },
-      "releaseDate": "2025-09",
       "tags": []
     },
     {
@@ -190644,13 +190284,13 @@
         "image": true,
         "open_weights": false,
         "reasoning": true,
-        "temperature": false,
+        "temperature": true,
         "tool_call": true
       },
       "icon": "",
       "id": "bytedance-seed/seed-2-1-turbo",
       "knowledge": null,
-      "lastUpdated": "2026-08-12",
+      "lastUpdated": "2026-06-23",
       "maxCtxTokens": 262144,
       "maxOutputTokens": 235929,
       "modalities": {
@@ -190670,7 +190310,7 @@
         "input": 0.5,
         "output": 2.5
       },
-      "releaseDate": "2026-08-12",
+      "releaseDate": "2026-06-23",
       "tags": []
     },
     {
@@ -190758,7 +190398,7 @@
         "image": false,
         "open_weights": false,
         "reasoning": false,
-        "temperature": false,
+        "temperature": true,
         "tool_call": false
       },
       "icon": "",
@@ -190794,7 +190434,7 @@
         "image": false,
         "open_weights": false,
         "reasoning": false,
-        "temperature": false,
+        "temperature": true,
         "tool_call": false
       },
       "icon": "",
@@ -190830,13 +190470,13 @@
         "image": true,
         "open_weights": false,
         "reasoning": true,
-        "temperature": false,
+        "temperature": true,
         "tool_call": false
       },
       "icon": "",
       "id": "bytedance/doubao-seed-character",
       "knowledge": null,
-      "lastUpdated": "2026-07-18",
+      "lastUpdated": "2026-06-23",
       "maxCtxTokens": 128000,
       "maxOutputTokens": 32768,
       "modalities": {
@@ -190855,7 +190495,7 @@
         "input": 0.15,
         "output": 0.37
       },
-      "releaseDate": "2026-07-18",
+      "releaseDate": "2026-06-23",
       "tags": []
     },
     {
@@ -191119,7 +190759,7 @@
         "image": false,
         "open_weights": true,
         "reasoning": true,
-        "temperature": false,
+        "temperature": true,
         "tool_call": true
       },
       "icon": "",
@@ -191155,13 +190795,13 @@
         "image": false,
         "open_weights": true,
         "reasoning": false,
-        "temperature": false,
+        "temperature": true,
         "tool_call": true
       },
       "icon": "",
       "id": "deepseek-ai/DeepSeek-V3.1",
       "knowledge": null,
-      "lastUpdated": "2025-07-26",
+      "lastUpdated": "2025-08-21",
       "maxCtxTokens": 128000,
       "maxOutputTokens": 65536,
       "modalities": {
@@ -191180,7 +190820,7 @@
         "input": 0.2,
         "output": 0.7
       },
-      "releaseDate": "2025-07-26",
+      "releaseDate": "2025-08-21",
       "tags": []
     },
     {
@@ -191264,7 +190904,7 @@
         "image": false,
         "open_weights": true,
         "reasoning": false,
-        "temperature": false,
+        "temperature": true,
         "tool_call": true
       },
       "icon": "",
@@ -191288,7 +190928,7 @@
         "input": 0.2,
         "output": 0.7
       },
-      "releaseDate": "2024-01-01",
+      "releaseDate": "2025-08-21",
       "tags": []
     },
     {
@@ -191501,10 +191141,10 @@
       },
       "name": "DeepSeek Latest",
       "price": {
-        "cacheRead": 0.00462,
+        "cacheRead": 0.022,
         "cacheWrite": null,
-        "input": 0.1452,
-        "output": 0.4356
+        "input": 0.66,
+        "output": 1.98
       },
       "releaseDate": "2026-05-03",
       "tags": []
@@ -191937,10 +191577,10 @@
       },
       "name": "DeepSeek V4 Pro 0813",
       "price": {
-        "cacheRead": 0.00462,
+        "cacheRead": 0.022,
         "cacheWrite": null,
-        "input": 0.1452,
-        "output": 0.4356
+        "input": 0.66,
+        "output": 1.98
       },
       "releaseDate": "2026-08-13",
       "tags": []
@@ -191973,10 +191613,10 @@
       },
       "name": "DeepSeek V4 Pro 0813 Thinking",
       "price": {
-        "cacheRead": 0.00462,
+        "cacheRead": 0.022,
         "cacheWrite": null,
-        "input": 0.1452,
-        "output": 0.4356
+        "input": 0.66,
+        "output": 1.98
       },
       "releaseDate": "2026-08-13",
       "tags": []
@@ -192046,10 +191686,10 @@
       },
       "name": "DeepSeek V4.1 Flash",
       "price": {
-        "cacheRead": 0.000708,
+        "cacheRead": 0.0042,
         "cacheWrite": null,
-        "input": 0.0354,
-        "output": 0.1416
+        "input": 0.14,
+        "output": 0.42
       },
       "releaseDate": "2026-09-10",
       "tags": []
@@ -192157,10 +191797,10 @@
       },
       "name": "DeepSeek V4.1 Flash Thinking",
       "price": {
-        "cacheRead": 0.000708,
+        "cacheRead": 0.0042,
         "cacheWrite": null,
-        "input": 0.0354,
-        "output": 0.1416
+        "input": 0.14,
+        "output": 0.42
       },
       "releaseDate": "2026-09-10",
       "tags": []
@@ -192355,7 +191995,7 @@
         "image": false,
         "open_weights": false,
         "reasoning": false,
-        "temperature": false,
+        "temperature": true,
         "tool_call": false
       },
       "icon": "",
@@ -192391,7 +192031,7 @@
         "image": false,
         "open_weights": false,
         "reasoning": false,
-        "temperature": false,
+        "temperature": true,
         "tool_call": false
       },
       "icon": "",
@@ -193697,12 +193337,12 @@
         "image": true,
         "open_weights": false,
         "reasoning": true,
-        "temperature": false,
+        "temperature": true,
         "tool_call": false
       },
       "icon": "",
       "id": "gemini-2.5-pro-preview-06-05",
-      "knowledge": null,
+      "knowledge": "2025-01-31",
       "lastUpdated": "2025-06-05",
       "maxCtxTokens": 1048576,
       "maxOutputTokens": 65536,
@@ -195100,13 +194740,13 @@
         "image": false,
         "open_weights": true,
         "reasoning": true,
-        "temperature": false,
+        "temperature": true,
         "tool_call": false
       },
       "icon": "",
       "id": "google/diffusiongemma",
-      "knowledge": null,
-      "lastUpdated": "2026-09-19",
+      "knowledge": "2025-01",
+      "lastUpdated": "2026-07-15",
       "maxCtxTokens": 262144,
       "maxOutputTokens": 32768,
       "modalities": {
@@ -195124,7 +194764,7 @@
         "input": 0.05,
         "output": 0.15
       },
-      "releaseDate": "2026-09-19",
+      "releaseDate": "2026-06-09",
       "tags": []
     },
     {
@@ -195332,13 +194972,13 @@
         "image": true,
         "open_weights": false,
         "reasoning": true,
-        "temperature": false,
+        "temperature": true,
         "tool_call": true
       },
       "icon": "",
       "id": "google/gemini-3.1-pro-preview-high",
-      "knowledge": null,
-      "lastUpdated": "2026-02-21",
+      "knowledge": "2025-01",
+      "lastUpdated": "2026-02-19",
       "maxCtxTokens": 1048576,
       "maxOutputTokens": 65536,
       "modalities": {
@@ -195359,7 +194999,7 @@
         "input": 2,
         "output": 12
       },
-      "releaseDate": "2026-02-21",
+      "releaseDate": "2026-02-19",
       "tags": []
     },
     {
@@ -195371,13 +195011,13 @@
         "image": true,
         "open_weights": false,
         "reasoning": true,
-        "temperature": false,
+        "temperature": true,
         "tool_call": true
       },
       "icon": "",
       "id": "google/gemini-3.1-pro-preview-low",
-      "knowledge": null,
-      "lastUpdated": "2026-02-21",
+      "knowledge": "2025-01",
+      "lastUpdated": "2026-02-19",
       "maxCtxTokens": 1048576,
       "maxOutputTokens": 65536,
       "modalities": {
@@ -195397,7 +195037,7 @@
         "input": 2,
         "output": 12
       },
-      "releaseDate": "2026-02-21",
+      "releaseDate": "2026-02-19",
       "tags": []
     },
     {
@@ -196466,13 +196106,13 @@
         "image": false,
         "open_weights": true,
         "reasoning": true,
-        "temperature": false,
+        "temperature": true,
         "tool_call": true
       },
       "icon": "",
       "id": "ibm-granite/granite-4.2-8b",
       "knowledge": null,
-      "lastUpdated": "2026-08-31",
+      "lastUpdated": "2026-08-25",
       "maxCtxTokens": 131072,
       "maxOutputTokens": 117964,
       "modalities": {
@@ -196490,7 +196130,7 @@
         "input": 0.1,
         "output": 0.15
       },
-      "releaseDate": "2026-08-31",
+      "releaseDate": "2026-08-25",
       "tags": []
     },
     {
@@ -196828,13 +196468,13 @@
         "image": false,
         "open_weights": true,
         "reasoning": false,
-        "temperature": false,
+        "temperature": true,
         "tool_call": false
       },
       "icon": "",
       "id": "kimi-k2-instruct-fast",
       "knowledge": null,
-      "lastUpdated": "2025-07-15",
+      "lastUpdated": "2025-07-11",
       "maxCtxTokens": 131072,
       "maxOutputTokens": 16384,
       "modalities": {
@@ -196853,7 +196493,7 @@
         "input": 0.4,
         "output": 1.8
       },
-      "releaseDate": "2025-12-15",
+      "releaseDate": "2025-07-11",
       "tags": []
     },
     {
@@ -197516,13 +197156,13 @@
         "image": true,
         "open_weights": true,
         "reasoning": false,
-        "temperature": false,
+        "temperature": true,
         "tool_call": true
       },
       "icon": "",
       "id": "meta-llama/llama-4-maverick",
-      "knowledge": null,
-      "lastUpdated": "2025-09-05",
+      "knowledge": "2024-08",
+      "lastUpdated": "2025-04-05",
       "maxCtxTokens": 1048576,
       "maxOutputTokens": 65536,
       "modalities": {
@@ -197541,7 +197181,7 @@
         "input": 0.1875,
         "output": 0.6525
       },
-      "releaseDate": "2025-09-05",
+      "releaseDate": "2025-04-05",
       "tags": []
     },
     {
@@ -197553,13 +197193,13 @@
         "image": true,
         "open_weights": true,
         "reasoning": false,
-        "temperature": false,
+        "temperature": true,
         "tool_call": true
       },
       "icon": "",
       "id": "meta-llama/llama-4-scout",
-      "knowledge": null,
-      "lastUpdated": "2025-09-05",
+      "knowledge": "2024-08",
+      "lastUpdated": "2025-04-05",
       "maxCtxTokens": 328000,
       "maxOutputTokens": 65536,
       "modalities": {
@@ -197578,7 +197218,7 @@
         "input": 0.085,
         "output": 0.46
       },
-      "releaseDate": "2025-09-05",
+      "releaseDate": "2025-04-05",
       "tags": []
     },
     {
@@ -198336,15 +197976,15 @@
         "attachment": false,
         "audio": false,
         "image": false,
-        "open_weights": false,
+        "open_weights": true,
         "reasoning": false,
-        "temperature": false,
+        "temperature": true,
         "tool_call": false
       },
       "icon": "",
       "id": "MiniMaxAI/MiniMax-M1-80k",
       "knowledge": null,
-      "lastUpdated": "2025-06-16",
+      "lastUpdated": "2025-06-17",
       "maxCtxTokens": 1000000,
       "maxOutputTokens": 131072,
       "modalities": {
@@ -198362,7 +198002,7 @@
         "input": 0.6052,
         "output": 2.4225
       },
-      "releaseDate": "2025-01-08",
+      "releaseDate": "2025-06-17",
       "tags": []
     },
     {
@@ -198482,12 +198122,12 @@
         "image": false,
         "open_weights": true,
         "reasoning": false,
-        "temperature": false,
+        "temperature": true,
         "tool_call": false
       },
       "icon": "",
       "id": "mistralai/devstral-2-123b-instruct-2512",
-      "knowledge": null,
+      "knowledge": "2025-12",
       "lastUpdated": "2025-12-09",
       "maxCtxTokens": 262144,
       "maxOutputTokens": 65536,
@@ -198590,7 +198230,7 @@
         "image": true,
         "open_weights": true,
         "reasoning": false,
-        "temperature": false,
+        "temperature": true,
         "tool_call": false
       },
       "icon": "",
@@ -198919,13 +198559,13 @@
         "image": false,
         "open_weights": true,
         "reasoning": false,
-        "temperature": false,
+        "temperature": true,
         "tool_call": false
       },
       "icon": "",
       "id": "mistralai/mistral-nemo-instruct-2407",
-      "knowledge": null,
-      "lastUpdated": "2024-01-01",
+      "knowledge": "2024-07",
+      "lastUpdated": "2024-07-18",
       "maxCtxTokens": 16384,
       "maxOutputTokens": 8192,
       "modalities": {
@@ -198943,7 +198583,7 @@
         "input": 0.1003,
         "output": 0.1207
       },
-      "releaseDate": "2024-01-01",
+      "releaseDate": "2024-07-18",
       "tags": []
     },
     {
@@ -199100,12 +198740,12 @@
         "image": true,
         "open_weights": true,
         "reasoning": true,
-        "temperature": false,
+        "temperature": true,
         "tool_call": true
       },
       "icon": "",
       "id": "mistralai/mistral-small-4-119b-2603",
-      "knowledge": null,
+      "knowledge": "2025-06",
       "lastUpdated": "2026-03-16",
       "maxCtxTokens": 262144,
       "maxOutputTokens": 16384,
@@ -199137,13 +198777,13 @@
         "image": true,
         "open_weights": true,
         "reasoning": true,
-        "temperature": false,
+        "temperature": true,
         "tool_call": true
       },
       "icon": "",
       "id": "mistralai/mistral-small-4-119b-2603:thinking",
-      "knowledge": null,
-      "lastUpdated": "2026-03-17",
+      "knowledge": "2025-06",
+      "lastUpdated": "2026-03-16",
       "maxCtxTokens": 262144,
       "maxOutputTokens": 16384,
       "modalities": {
@@ -199162,7 +198802,7 @@
         "input": 0.4,
         "output": 1.4
       },
-      "releaseDate": "2026-03-17",
+      "releaseDate": "2026-03-16",
       "tags": []
     },
     {
@@ -199174,13 +198814,13 @@
         "image": false,
         "open_weights": true,
         "reasoning": false,
-        "temperature": false,
+        "temperature": true,
         "tool_call": false
       },
       "icon": "",
       "id": "mistralai/mixtral-8x22b-instruct-v0.1",
-      "knowledge": null,
-      "lastUpdated": "2025-12-11",
+      "knowledge": "2024-01-31",
+      "lastUpdated": "2024-04-17",
       "maxCtxTokens": 65536,
       "maxOutputTokens": 52428,
       "modalities": {
@@ -199198,7 +198838,7 @@
         "input": 2,
         "output": 6
       },
-      "releaseDate": "2025-12-11",
+      "releaseDate": "2024-04-17",
       "tags": []
     },
     {
@@ -199356,7 +198996,7 @@
         "image": false,
         "open_weights": true,
         "reasoning": false,
-        "temperature": false,
+        "temperature": true,
         "tool_call": true
       },
       "icon": "",
@@ -199380,7 +199020,7 @@
         "input": 0.4,
         "output": 1.8
       },
-      "releaseDate": "2024-01-01",
+      "releaseDate": "2025-07-11",
       "tags": []
     },
     {
@@ -199392,13 +199032,13 @@
         "image": false,
         "open_weights": true,
         "reasoning": false,
-        "temperature": false,
+        "temperature": true,
         "tool_call": true
       },
       "icon": "",
       "id": "moonshotai/Kimi-K2-Instruct-0905",
       "knowledge": null,
-      "lastUpdated": "2025-09-25",
+      "lastUpdated": "2025-09-05",
       "maxCtxTokens": 262144,
       "maxOutputTokens": 100352,
       "modalities": {
@@ -199416,7 +199056,7 @@
         "input": 0.4,
         "output": 1.8
       },
-      "releaseDate": "2025-09-25",
+      "releaseDate": "2025-09-05",
       "tags": []
     },
     {
@@ -199558,10 +199198,10 @@
       },
       "name": "Kimi K2.6",
       "price": {
-        "cacheRead": 0.0712,
+        "cacheRead": 0.045,
         "cacheWrite": null,
-        "input": 0.42275,
-        "output": 1.78
+        "input": 0.45,
+        "output": 1.95
       },
       "releaseDate": "2026-04-20",
       "tags": []
@@ -199595,10 +199235,10 @@
       },
       "name": "Kimi K2.6 Thinking",
       "price": {
-        "cacheRead": 0.0712,
+        "cacheRead": 0.045,
         "cacheWrite": null,
-        "input": 0.42275,
-        "output": 1.78
+        "input": 0.45,
+        "output": 1.95
       },
       "releaseDate": "2026-04-20",
       "tags": []
@@ -200200,7 +199840,7 @@
       "icon": "",
       "id": "nvidia/Llama-3.3-Nemotron-Super-49B-v1",
       "knowledge": null,
-      "lastUpdated": "2025-08-08",
+      "lastUpdated": "2025-03-18",
       "maxCtxTokens": 128000,
       "maxOutputTokens": 16384,
       "modalities": {
@@ -200218,7 +199858,7 @@
         "input": 0.15,
         "output": 0.15
       },
-      "releaseDate": "2025-08-08",
+      "releaseDate": "2025-03-18",
       "tags": []
     },
     {
@@ -200272,7 +199912,7 @@
       "icon": "",
       "id": "nvidia/nemotron-3-super-120b-a12b",
       "knowledge": "2025-06",
-      "lastUpdated": "2026-03-01",
+      "lastUpdated": "2026-03-11",
       "maxCtxTokens": 262144,
       "maxOutputTokens": 16384,
       "modalities": {
@@ -200290,7 +199930,7 @@
         "input": 0.05,
         "output": 0.25
       },
-      "releaseDate": "2026-03-01",
+      "releaseDate": "2026-03-11",
       "tags": []
     },
     {
@@ -200308,7 +199948,7 @@
       "icon": "",
       "id": "nvidia/nemotron-3-super-120b-a12b:thinking",
       "knowledge": "2025-06",
-      "lastUpdated": "2026-03-01",
+      "lastUpdated": "2026-03-11",
       "maxCtxTokens": 262144,
       "maxOutputTokens": 16384,
       "modalities": {
@@ -200326,7 +199966,7 @@
         "input": 0.05,
         "output": 0.25
       },
-      "releaseDate": "2026-03-01",
+      "releaseDate": "2026-03-11",
       "tags": []
     },
     {
@@ -200518,7 +200158,7 @@
         "image": true,
         "open_weights": true,
         "reasoning": true,
-        "temperature": false,
+        "temperature": true,
         "tool_call": true
       },
       "icon": "",
@@ -201077,12 +200717,12 @@
         "image": false,
         "open_weights": false,
         "reasoning": true,
-        "temperature": false,
+        "temperature": true,
         "tool_call": true
       },
       "icon": "",
       "id": "openai/gpt-5.1-2025-11-13",
-      "knowledge": null,
+      "knowledge": "2024-09-30",
       "lastUpdated": "2025-11-13",
       "maxCtxTokens": 400000,
       "maxOutputTokens": 128000,
@@ -201101,7 +200741,7 @@
         "input": 1.25,
         "output": 10
       },
-      "releaseDate": "2024-01-01",
+      "releaseDate": "2025-11-13",
       "tags": []
     },
     {
@@ -202510,8 +202150,8 @@
       },
       "icon": "",
       "id": "openai/o3-mini-high",
-      "knowledge": null,
-      "lastUpdated": "2025-01-31",
+      "knowledge": "2024-05",
+      "lastUpdated": "2025-01-29",
       "maxCtxTokens": 200000,
       "maxOutputTokens": 100000,
       "modalities": {
@@ -202529,7 +202169,7 @@
         "input": 1.1,
         "output": 4.4
       },
-      "releaseDate": "2024-01-01",
+      "releaseDate": "2024-12-20",
       "tags": []
     },
     {
@@ -202546,8 +202186,8 @@
       },
       "icon": "",
       "id": "openai/o3-mini-low",
-      "knowledge": null,
-      "lastUpdated": "2025-01-31",
+      "knowledge": "2024-05",
+      "lastUpdated": "2025-01-29",
       "maxCtxTokens": 200000,
       "maxOutputTokens": 100000,
       "modalities": {
@@ -202565,7 +202205,7 @@
         "input": 1.1,
         "output": 4.4
       },
-      "releaseDate": "2026-01-31",
+      "releaseDate": "2024-12-20",
       "tags": []
     },
     {
@@ -202582,7 +202222,7 @@
       },
       "icon": "",
       "id": "openai/o3-pro-2025-06-10",
-      "knowledge": null,
+      "knowledge": "2024-05",
       "lastUpdated": "2025-06-10",
       "maxCtxTokens": 200000,
       "maxOutputTokens": 100000,
@@ -202601,7 +202241,7 @@
         "input": 22,
         "output": 88
       },
-      "releaseDate": "2024-01-01",
+      "releaseDate": "2025-06-10",
       "tags": []
     },
     {
@@ -202654,7 +202294,7 @@
       },
       "icon": "",
       "id": "openai/o4-mini-high",
-      "knowledge": null,
+      "knowledge": "2024-05",
       "lastUpdated": "2025-04-16",
       "maxCtxTokens": 200000,
       "maxOutputTokens": 100000,
@@ -202673,7 +202313,7 @@
         "input": 1.1,
         "output": 4.4
       },
-      "releaseDate": "2025-12-04",
+      "releaseDate": "2025-04-16",
       "tags": []
     },
     {
@@ -202872,13 +202512,13 @@
         "image": false,
         "open_weights": true,
         "reasoning": false,
-        "temperature": false,
+        "temperature": true,
         "tool_call": false
       },
       "icon": "",
       "id": "phi-4-mini-instruct",
-      "knowledge": null,
-      "lastUpdated": "2025-07-26",
+      "knowledge": "2024-06",
+      "lastUpdated": "2025-02-26",
       "maxCtxTokens": 128000,
       "maxOutputTokens": 16384,
       "modalities": {
@@ -202896,7 +202536,7 @@
         "input": 0.17,
         "output": 0.68
       },
-      "releaseDate": "2025-07-26",
+      "releaseDate": "2025-02-26",
       "tags": []
     },
     {
@@ -203597,13 +203237,13 @@
         "image": false,
         "open_weights": true,
         "reasoning": false,
-        "temperature": false,
+        "temperature": true,
         "tool_call": true
       },
       "icon": "",
       "id": "qwen/qwen3-coder",
-      "knowledge": null,
-      "lastUpdated": "2026-03-17",
+      "knowledge": "2025-04",
+      "lastUpdated": "2025-07-22",
       "maxCtxTokens": 262000,
       "maxOutputTokens": 65536,
       "modalities": {
@@ -203621,7 +203261,7 @@
         "input": 0.13,
         "output": 0.5
       },
-      "releaseDate": "2026-03-17",
+      "releaseDate": "2025-07-22",
       "tags": []
     },
     {
@@ -205912,15 +205552,15 @@
         "attachment": true,
         "audio": false,
         "image": true,
-        "open_weights": false,
+        "open_weights": true,
         "reasoning": false,
-        "temperature": false,
+        "temperature": true,
         "tool_call": false
       },
       "icon": "",
       "id": "qwen3-vl-235b-a22b-instruct-original",
-      "knowledge": null,
-      "lastUpdated": "2025-09-25",
+      "knowledge": "2025-03-31",
+      "lastUpdated": "2025-09-23",
       "maxCtxTokens": 32768,
       "maxOutputTokens": 32768,
       "modalities": {
@@ -205939,7 +205579,7 @@
         "input": 0.3,
         "output": 1.9
       },
-      "releaseDate": "2025-09-25",
+      "releaseDate": "2025-09-23",
       "tags": []
     },
     {
@@ -206061,12 +205701,12 @@
         "image": false,
         "open_weights": true,
         "reasoning": true,
-        "temperature": false,
+        "temperature": true,
         "tool_call": true
       },
       "icon": "",
       "id": "reflection/beam-1.0",
-      "knowledge": null,
+      "knowledge": "2026-06-30",
       "lastUpdated": "2026-10-16",
       "maxCtxTokens": 1048576,
       "maxOutputTokens": 131072,
@@ -206085,7 +205725,7 @@
         "input": 0.5,
         "output": 1.5
       },
-      "releaseDate": "2026-10-16",
+      "releaseDate": "2026-10-05",
       "tags": []
     },
     {
@@ -206095,15 +205735,15 @@
         "attachment": true,
         "audio": false,
         "image": true,
-        "open_weights": false,
+        "open_weights": true,
         "reasoning": false,
-        "temperature": false,
+        "temperature": true,
         "tool_call": true
       },
       "icon": "",
       "id": "reka/reka-edge-2603",
       "knowledge": null,
-      "lastUpdated": "2026-10-15",
+      "lastUpdated": "2026-03-11",
       "maxCtxTokens": 16384,
       "maxOutputTokens": 16384,
       "modalities": {
@@ -206122,7 +205762,7 @@
         "input": 0.105,
         "output": 0.105
       },
-      "releaseDate": "2026-10-15",
+      "releaseDate": "2026-03-11",
       "tags": []
     },
     {
@@ -206134,13 +205774,13 @@
         "image": false,
         "open_weights": true,
         "reasoning": true,
-        "temperature": false,
+        "temperature": true,
         "tool_call": false
       },
       "icon": "",
       "id": "reka/reka-flash-3",
-      "knowledge": null,
-      "lastUpdated": "2026-10-15",
+      "knowledge": "2025-01-31",
+      "lastUpdated": "2025-03-10",
       "maxCtxTokens": 65536,
       "maxOutputTokens": 65536,
       "modalities": {
@@ -206158,7 +205798,7 @@
         "input": 0.105,
         "output": 0.21
       },
-      "releaseDate": "2026-10-15",
+      "releaseDate": "2025-03-10",
       "tags": []
     },
     {
@@ -206354,13 +205994,13 @@
         "image": false,
         "open_weights": true,
         "reasoning": false,
-        "temperature": false,
+        "temperature": true,
         "tool_call": false
       },
       "icon": "",
       "id": "Sao10K/L3.1-70B-Euryale-v2.2",
-      "knowledge": null,
-      "lastUpdated": "2024-07-23",
+      "knowledge": "2023-12-31",
+      "lastUpdated": "2024-08-28",
       "maxCtxTokens": 20480,
       "maxOutputTokens": 16384,
       "modalities": {
@@ -206378,7 +206018,7 @@
         "input": 0.306,
         "output": 0.357
       },
-      "releaseDate": "2024-01-01",
+      "releaseDate": "2024-08-28",
       "tags": []
     },
     {
@@ -206426,13 +206066,13 @@
         "image": false,
         "open_weights": true,
         "reasoning": false,
-        "temperature": false,
+        "temperature": true,
         "tool_call": false
       },
       "icon": "",
       "id": "Sao10K/L3.3-70B-Euryale-v2.3",
-      "knowledge": null,
-      "lastUpdated": "2024-12-06",
+      "knowledge": "2023-12-31",
+      "lastUpdated": "2024-12-18",
       "maxCtxTokens": 20480,
       "maxOutputTokens": 16384,
       "modalities": {
@@ -206450,7 +206090,7 @@
         "input": 0.493,
         "output": 0.493
       },
-      "releaseDate": "2024-01-01",
+      "releaseDate": "2024-12-18",
       "tags": []
     },
     {
@@ -207079,13 +206719,13 @@
         "image": true,
         "open_weights": true,
         "reasoning": false,
-        "temperature": false,
+        "temperature": true,
         "tool_call": true
       },
       "icon": "",
       "id": "TEE/gemma4-31b",
       "knowledge": null,
-      "lastUpdated": "2026-04-04",
+      "lastUpdated": "2026-04-02",
       "maxCtxTokens": 262144,
       "maxOutputTokens": 131072,
       "modalities": {
@@ -207104,7 +206744,7 @@
         "input": 0.4,
         "output": 1
       },
-      "releaseDate": "2026-04-04",
+      "releaseDate": "2026-04-02",
       "tags": []
     },
     {
@@ -207116,13 +206756,13 @@
         "image": true,
         "open_weights": true,
         "reasoning": true,
-        "temperature": false,
+        "temperature": true,
         "tool_call": true
       },
       "icon": "",
       "id": "TEE/gemma4-31b:thinking",
       "knowledge": null,
-      "lastUpdated": "2026-05-02",
+      "lastUpdated": "2026-04-02",
       "maxCtxTokens": 262144,
       "maxOutputTokens": 131072,
       "modalities": {
@@ -207141,7 +206781,7 @@
         "input": 0.4,
         "output": 1
       },
-      "releaseDate": "2026-05-02",
+      "releaseDate": "2026-04-02",
       "tags": []
     },
     {
@@ -207517,13 +207157,13 @@
         "image": false,
         "open_weights": true,
         "reasoning": false,
-        "temperature": false,
+        "temperature": true,
         "tool_call": false
       },
       "icon": "",
       "id": "TEE/llama3-3-70b",
-      "knowledge": null,
-      "lastUpdated": "2025-07-03",
+      "knowledge": "2023-12",
+      "lastUpdated": "2024-12-06",
       "maxCtxTokens": 128000,
       "maxOutputTokens": 16384,
       "modalities": {
@@ -207541,7 +207181,7 @@
         "input": 1.75,
         "output": 2.75
       },
-      "releaseDate": "2025-07-03",
+      "releaseDate": "2024-12-06",
       "tags": []
     },
     {
@@ -207626,13 +207266,13 @@
         "image": true,
         "open_weights": true,
         "reasoning": false,
-        "temperature": false,
+        "temperature": true,
         "tool_call": false
       },
       "icon": "",
       "id": "TEE/qwen2.5-vl-72b-instruct",
-      "knowledge": null,
-      "lastUpdated": "2025-02-01",
+      "knowledge": "2024-04",
+      "lastUpdated": "2025-01-26",
       "maxCtxTokens": 65536,
       "maxOutputTokens": 8192,
       "modalities": {
@@ -207651,7 +207291,7 @@
         "input": 0.7,
         "output": 0.7
       },
-      "releaseDate": "2024-01-01",
+      "releaseDate": "2025-01-26",
       "tags": []
     },
     {
@@ -207903,10 +207543,10 @@
       },
       "name": "Tencent Hy4 Preview",
       "price": {
-        "cacheRead": 0.0378,
+        "cacheRead": 0.042,
         "cacheWrite": null,
-        "input": 0.7506,
-        "output": 2.2509
+        "input": 0.834,
+        "output": 2.501
       },
       "releaseDate": "2026-08-28",
       "tags": []
@@ -208762,13 +208402,13 @@
         "image": false,
         "open_weights": true,
         "reasoning": false,
-        "temperature": false,
+        "temperature": true,
         "tool_call": false
       },
       "icon": "",
       "id": "unsloth/gemma-3-12b-it",
-      "knowledge": null,
-      "lastUpdated": "2025-03-10",
+      "knowledge": "2024-08",
+      "lastUpdated": "2025-03-12",
       "maxCtxTokens": 131072,
       "maxOutputTokens": 16384,
       "modalities": {
@@ -208787,7 +208427,7 @@
         "input": 0.272,
         "output": 0.272
       },
-      "releaseDate": "2024-01-01",
+      "releaseDate": "2025-03-12",
       "tags": []
     },
     {
@@ -208799,13 +208439,13 @@
         "image": false,
         "open_weights": true,
         "reasoning": false,
-        "temperature": false,
+        "temperature": true,
         "tool_call": false
       },
       "icon": "",
       "id": "unsloth/gemma-3-27b-it",
-      "knowledge": null,
-      "lastUpdated": "2025-03-10",
+      "knowledge": "2024-08",
+      "lastUpdated": "2025-03-12",
       "maxCtxTokens": 128000,
       "maxOutputTokens": 96000,
       "modalities": {
@@ -208824,7 +208464,7 @@
         "input": 0.2992,
         "output": 0.2992
       },
-      "releaseDate": "2024-01-01",
+      "releaseDate": "2025-03-12",
       "tags": []
     },
     {
@@ -208836,13 +208476,13 @@
         "image": false,
         "open_weights": true,
         "reasoning": false,
-        "temperature": false,
+        "temperature": true,
         "tool_call": false
       },
       "icon": "",
       "id": "unsloth/gemma-3-4b-it",
-      "knowledge": null,
-      "lastUpdated": "2025-03-10",
+      "knowledge": "2024-08",
+      "lastUpdated": "2025-03-12",
       "maxCtxTokens": 128000,
       "maxOutputTokens": 8192,
       "modalities": {
@@ -208861,7 +208501,7 @@
         "input": 0.2006,
         "output": 0.2006
       },
-      "releaseDate": "2024-01-01",
+      "releaseDate": "2025-03-12",
       "tags": []
     },
     {
@@ -208945,13 +208585,13 @@
         "image": false,
         "open_weights": false,
         "reasoning": false,
-        "temperature": false,
+        "temperature": true,
         "tool_call": false
       },
       "icon": "",
       "id": "upstage/solar-pro-3",
-      "knowledge": null,
-      "lastUpdated": "2026-03-03",
+      "knowledge": "2025-07",
+      "lastUpdated": "2026-03-23",
       "maxCtxTokens": 131072,
       "maxOutputTokens": 117964,
       "modalities": {
@@ -208969,7 +208609,7 @@
         "input": 0.15,
         "output": 0.6
       },
-      "releaseDate": "2026-03-03",
+      "releaseDate": "2026-01-26",
       "tags": []
     },
     {
@@ -210053,13 +209693,13 @@
         "image": false,
         "open_weights": true,
         "reasoning": true,
-        "temperature": false,
+        "temperature": true,
         "tool_call": true
       },
       "icon": "",
       "id": "z-ai/glm-4.6-original",
-      "knowledge": null,
-      "lastUpdated": "2025-12-11",
+      "knowledge": "2025-04",
+      "lastUpdated": "2025-09-30",
       "maxCtxTokens": 256000,
       "maxOutputTokens": 65535,
       "modalities": {
@@ -210077,7 +209717,7 @@
         "input": 0.5,
         "output": 2
       },
-      "releaseDate": "2025-12-11",
+      "releaseDate": "2025-09-30",
       "tags": []
     },
     {
@@ -210235,12 +209875,12 @@
         "image": true,
         "open_weights": true,
         "reasoning": false,
-        "temperature": false,
+        "temperature": true,
         "tool_call": false
       },
       "icon": "",
       "id": "z-ai/glm-4.6v-original",
-      "knowledge": null,
+      "knowledge": "2025-04",
       "lastUpdated": "2025-12-08",
       "maxCtxTokens": 128000,
       "maxOutputTokens": 24000,
@@ -210380,12 +210020,12 @@
         "image": false,
         "open_weights": true,
         "reasoning": true,
-        "temperature": false,
+        "temperature": true,
         "tool_call": true
       },
       "icon": "",
       "id": "z-ai/glm-4.7-original",
-      "knowledge": null,
+      "knowledge": "2025-04",
       "lastUpdated": "2025-12-22",
       "maxCtxTokens": 200000,
       "maxOutputTokens": 65535,
@@ -210416,12 +210056,12 @@
         "image": false,
         "open_weights": true,
         "reasoning": true,
-        "temperature": false,
+        "temperature": true,
         "tool_call": true
       },
       "icon": "",
       "id": "z-ai/glm-4.7-original:thinking",
-      "knowledge": null,
+      "knowledge": "2025-04",
       "lastUpdated": "2025-12-22",
       "maxCtxTokens": 200000,
       "maxOutputTokens": 65535,
@@ -210524,13 +210164,13 @@
         "image": false,
         "open_weights": true,
         "reasoning": true,
-        "temperature": false,
+        "temperature": true,
         "tool_call": true
       },
       "icon": "",
       "id": "z-ai/glm-5-original",
       "knowledge": null,
-      "lastUpdated": "2026-02-11",
+      "lastUpdated": "2026-02-12",
       "maxCtxTokens": 200000,
       "maxOutputTokens": 128000,
       "modalities": {
@@ -210548,7 +210188,7 @@
         "input": 0.6,
         "output": 1.9
       },
-      "releaseDate": "2026-02-11",
+      "releaseDate": "2026-02-12",
       "tags": []
     },
     {
@@ -210560,13 +210200,13 @@
         "image": false,
         "open_weights": true,
         "reasoning": true,
-        "temperature": false,
+        "temperature": true,
         "tool_call": true
       },
       "icon": "",
       "id": "z-ai/glm-5-original:thinking",
       "knowledge": null,
-      "lastUpdated": "2026-02-11",
+      "lastUpdated": "2026-02-12",
       "maxCtxTokens": 200000,
       "maxOutputTokens": 128000,
       "modalities": {
@@ -210584,7 +210224,7 @@
         "input": 0.6,
         "output": 1.9
       },
-      "releaseDate": "2026-02-11",
+      "releaseDate": "2026-02-12",
       "tags": []
     },
     {
@@ -218290,7 +217930,7 @@
         "open_weights": true,
         "reasoning": false,
         "temperature": true,
-        "tool_call": true
+        "tool_call": false
       },
       "icon": "",
       "id": "google/gemma-3-12b-it",
@@ -218327,7 +217967,7 @@
         "open_weights": true,
         "reasoning": false,
         "temperature": true,
-        "tool_call": true
+        "tool_call": false
       },
       "icon": "",
       "id": "google/gemma-3-27b-it",
@@ -218656,7 +218296,7 @@
         "open_weights": true,
         "reasoning": false,
         "temperature": true,
-        "tool_call": true
+        "tool_call": false
       },
       "icon": "",
       "id": "meta-llama/llama-3.1-8b-instruct",
@@ -218692,7 +218332,7 @@
         "open_weights": true,
         "reasoning": false,
         "temperature": true,
-        "tool_call": true
+        "tool_call": false
       },
       "icon": "",
       "id": "meta-llama/llama-3.2-1b-instruct",
@@ -218764,7 +218404,7 @@
         "open_weights": true,
         "reasoning": false,
         "temperature": true,
-        "tool_call": true
+        "tool_call": false
       },
       "icon": "",
       "id": "meta-llama/llama-4-maverick-17b-128e-instruct-fp8",
@@ -218801,7 +218441,7 @@
         "open_weights": true,
         "reasoning": false,
         "temperature": true,
-        "tool_call": true
+        "tool_call": false
       },
       "icon": "",
       "id": "meta-llama/llama-4-scout-17b-16e-instruct",
@@ -219388,7 +219028,7 @@
         "open_weights": true,
         "reasoning": false,
         "temperature": true,
-        "tool_call": true
+        "tool_call": false
       },
       "icon": "",
       "id": "nousresearch/hermes-2-pro-llama-3-8b",
@@ -230808,7 +230448,7 @@
       "icon": "",
       "id": "z-ai/glm-5.3-flashx",
       "knowledge": null,
-      "lastUpdated": "2026-09-18",
+      "lastUpdated": "2026-08-26",
       "maxCtxTokens": 1000000,
       "maxOutputTokens": 131072,
       "modalities": {
@@ -230829,7 +230469,7 @@
         "input": 0.15,
         "output": 0.5
       },
-      "releaseDate": "2026-09-18",
+      "releaseDate": "2026-08-26",
       "tags": []
     },
     {
@@ -238111,6 +237751,46 @@
       "tags": []
     },
     {
+      "description": "Muse Wonder is a frontier multimodal reasoning model from Meta for personal and professional agents, long-horizon coding, and computer use. It combines Active Memory, which carries relevant context across conversations, with Active Focus, which keeps it working through blockers toward a goal.",
+      "firm": "opencode",
+      "flags": {
+        "attachment": true,
+        "audio": true,
+        "image": true,
+        "open_weights": false,
+        "reasoning": true,
+        "temperature": true,
+        "tool_call": true
+      },
+      "icon": "lb:opencode",
+      "id": "muse-wonder-1.0",
+      "knowledge": null,
+      "lastUpdated": "2026-10-12",
+      "maxCtxTokens": 1048576,
+      "maxOutputTokens": 131072,
+      "modalities": {
+        "input": [
+          "text",
+          "image",
+          "video",
+          "pdf",
+          "audio"
+        ],
+        "output": [
+          "text"
+        ]
+      },
+      "name": "Muse Wonder",
+      "price": {
+        "cacheRead": 0.2,
+        "cacheWrite": null,
+        "input": 4,
+        "output": 20
+      },
+      "releaseDate": "2026-10-12",
+      "tags": []
+    },
+    {
       "description": "Nemotron middle tier for collaborative agents and high-volume reasoning workloads",
       "firm": "opencode",
       "flags": {
@@ -240270,9 +239950,9 @@
       },
       "name": "DeepSeek Pro Latest",
       "price": {
-        "cacheRead": 0.13,
+        "cacheRead": 0.23,
         "cacheWrite": null,
-        "input": 0.1307,
+        "input": 0.225,
         "output": 8
       },
       "releaseDate": "2026-09-14",
@@ -240306,10 +239986,10 @@
       },
       "name": "DeepSeek V4 Flash Latest",
       "price": {
-        "cacheRead": 0.003304,
+        "cacheRead": 0.00336,
         "cacheWrite": null,
-        "input": 0.01208,
-        "output": 0.12
+        "input": 0.0168,
+        "output": 0.10728
       },
       "releaseDate": "2026-08-01",
       "tags": []
@@ -240427,7 +240107,7 @@
         "cacheRead": 0.228,
         "cacheWrite": null,
         "input": 0.238,
-        "output": 24
+        "output": 16
       },
       "releaseDate": "2026-04-27",
       "tags": []
@@ -242649,10 +242329,10 @@
       },
       "name": "DeepSeek V4 Flash 0731",
       "price": {
-        "cacheRead": 0.00413,
+        "cacheRead": 0.014,
         "cacheWrite": null,
-        "input": 0.1298,
-        "output": 0.3894
+        "input": 0.44,
+        "output": 1.32
       },
       "releaseDate": "2026-07-31",
       "tags": []
@@ -242722,10 +242402,10 @@
       },
       "name": "DeepSeek V4 Pro",
       "price": {
-        "cacheRead": 0.030276,
+        "cacheRead": 0.079605,
         "cacheWrite": null,
-        "input": 0.363312,
-        "output": 0.726624
+        "input": 0.95526,
+        "output": 1.91052
       },
       "releaseDate": "2026-04-24",
       "tags": []
@@ -242795,9 +242475,9 @@
       },
       "name": "DeepSeek V4.1 Flash",
       "price": {
-        "cacheRead": 0.000566,
+        "cacheRead": 0.0016,
         "cacheWrite": null,
-        "input": 0.02832,
+        "input": 0.056,
         "output": 0.12
       },
       "releaseDate": "2026-09-10",
@@ -242832,10 +242512,10 @@
       },
       "name": "DeepSeek V4.1 Flash 1017",
       "price": {
-        "cacheRead": 0.003,
+        "cacheRead": 0.006,
         "cacheWrite": null,
-        "input": 0.15,
-        "output": 0.6
+        "input": 0.3,
+        "output": 1.2
       },
       "releaseDate": "2026-10-17",
       "tags": []
@@ -247133,10 +246813,10 @@
       },
       "name": "Nemotron 3 Super 120B A12B",
       "price": {
-        "cacheRead": null,
+        "cacheRead": 0.15,
         "cacheWrite": null,
-        "input": 0.08,
-        "output": 0.45
+        "input": 0.3,
+        "output": 2.4
       },
       "releaseDate": "2026-03-11",
       "tags": []
@@ -251107,7 +250787,7 @@
       "knowledge": "2025-04",
       "lastUpdated": "2025-09",
       "maxCtxTokens": 262144,
-      "maxOutputTokens": 235929,
+      "maxOutputTokens": 16384,
       "modalities": {
         "input": [
           "text"
@@ -251118,9 +250798,9 @@
       },
       "name": "Qwen3-Next 80B-A3B Instruct",
       "price": {
-        "cacheRead": 0.07,
+        "cacheRead": null,
         "cacheWrite": null,
-        "input": 0.1,
+        "input": 0.09,
         "output": 1.1
       },
       "releaseDate": "2025-09",
@@ -251479,7 +251159,7 @@
       "knowledge": null,
       "lastUpdated": "2026-02-23",
       "maxCtxTokens": 262144,
-      "maxOutputTokens": 32768,
+      "maxOutputTokens": 65536,
       "modalities": {
         "input": [
           "text",
@@ -251492,10 +251172,10 @@
       },
       "name": "Qwen3.5 9B",
       "price": {
-        "cacheRead": null,
+        "cacheRead": 0.04,
         "cacheWrite": null,
-        "input": 0.1,
-        "output": 0.15
+        "input": 0.08,
+        "output": 0.13
       },
       "releaseDate": "2026-02-23",
       "tags": []
@@ -251894,7 +251574,7 @@
       "knowledge": null,
       "lastUpdated": "2026-08-12",
       "maxCtxTokens": 1048576,
-      "maxOutputTokens": 131072,
+      "maxOutputTokens": 909000,
       "modalities": {
         "input": [
           "text"
@@ -252869,10 +252549,10 @@
       },
       "name": "Hy3",
       "price": {
-        "cacheRead": 0.020625,
+        "cacheRead": 0.033,
         "cacheWrite": null,
-        "input": 0.0825,
-        "output": 0.33
+        "input": 0.132,
+        "output": 0.528
       },
       "releaseDate": "2026-07-06",
       "tags": []
@@ -252941,10 +252621,10 @@
       },
       "name": "Hy4 preview",
       "price": {
-        "cacheRead": 0.0378,
+        "cacheRead": 0.042,
         "cacheWrite": null,
-        "input": 0.7506,
-        "output": 2.2509
+        "input": 0.834,
+        "output": 2.501
       },
       "releaseDate": "2026-08-28",
       "tags": []
@@ -254301,7 +253981,7 @@
       "knowledge": null,
       "lastUpdated": "2026-04-07",
       "maxCtxTokens": 204800,
-      "maxOutputTokens": 128000,
+      "maxOutputTokens": 131072,
       "modalities": {
         "input": [
           "text"
@@ -254312,10 +253992,10 @@
       },
       "name": "GLM-5.1",
       "price": {
-        "cacheRead": 0.1794,
+        "cacheRead": 0.26,
         "cacheWrite": null,
-        "input": 0.966,
-        "output": 3.036
+        "input": 1.4,
+        "output": 4.4
       },
       "releaseDate": "2026-04-07",
       "tags": []
@@ -313325,43 +313005,6 @@
       "tags": []
     },
     {
-      "description": "Qwen instruction model for multilingual chat, reasoning, and tool use",
-      "firm": "venice",
-      "flags": {
-        "attachment": true,
-        "audio": false,
-        "image": true,
-        "open_weights": true,
-        "reasoning": true,
-        "temperature": true,
-        "tool_call": true
-      },
-      "icon": "lb:veniceai",
-      "id": "qwen3-5-9b",
-      "knowledge": null,
-      "lastUpdated": "2026-06-11",
-      "maxCtxTokens": 256000,
-      "maxOutputTokens": 32768,
-      "modalities": {
-        "input": [
-          "text",
-          "image"
-        ],
-        "output": [
-          "text"
-        ]
-      },
-      "name": "Qwen 3.5 9B",
-      "price": {
-        "cacheRead": null,
-        "cacheWrite": null,
-        "input": 0.1,
-        "output": 0.15
-      },
-      "releaseDate": "2026-03-05",
-      "tags": []
-    },
-    {
       "description": "Qwen vision-language model for visual reasoning, documents, and agent tasks",
       "firm": "venice",
       "flags": {
@@ -320763,7 +320406,7 @@
       "tags": []
     },
     {
-      "description": "Image model for prompt-driven generation, editing, and visual design workflows",
+      "description": "Agentic image generation and editing model that plans, searches and refines before rendering",
       "firm": "vercel",
       "flags": {
         "attachment": true,
@@ -320777,7 +320420,7 @@
       "icon": "lb:vercel-color",
       "id": "meta/muse-image-1.0",
       "knowledge": null,
-      "lastUpdated": "2026-08-26",
+      "lastUpdated": "2026-07-07",
       "maxCtxTokens": 0,
       "maxOutputTokens": 0,
       "modalities": {
@@ -320796,7 +320439,7 @@
         "input": null,
         "output": null
       },
-      "releaseDate": "2026-08-26",
+      "releaseDate": "2026-07-07",
       "tags": []
     },
     {
@@ -325041,7 +324684,7 @@
       "tags": []
     },
     {
-      "description": "Image model for prompt-driven generation, editing, and visual design workflows",
+      "description": "Cost-efficient GPT Image 1 variant for image generation and editing",
       "firm": "vercel",
       "flags": {
         "attachment": false,
@@ -327543,7 +327186,7 @@
       "tags": []
     },
     {
-      "description": "Video model for prompt-guided generation, editing, and motion workflows",
+      "description": "Video model for text-to-video, image-to-video, video editing and extension with native synchronized audio",
       "firm": "vercel",
       "flags": {
         "attachment": true,

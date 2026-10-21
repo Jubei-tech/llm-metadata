@@ -19568,7 +19568,7 @@
     {
       "flags": {
         "attachment": false,
-        "reasoning": true,
+        "reasoning": false,
         "tool_call": true
       },
       "id": "apertus-70b",
@@ -20410,7 +20410,7 @@
       "id": "mistral-nemo-instruct-2407",
       "name": "mistral-nemo-instruct-2407",
       "providerId": "cortecs",
-      "updated": "2024-08-07"
+      "updated": "2024-07-18"
     },
     {
       "flags": {
@@ -20421,7 +20421,7 @@
       "id": "mistral-small-2503",
       "name": "mistral-small-2503",
       "providerId": "cortecs",
-      "updated": "2025-03-20"
+      "updated": "2025-03-17"
     },
     {
       "flags": {
@@ -20443,7 +20443,7 @@
       "id": "mistral-small-3.2-24b-instruct-2506",
       "name": "mistral-small-3.2-24b-instruct-2506",
       "providerId": "cortecs",
-      "updated": "2025-05-26"
+      "updated": "2025-06-20"
     },
     {
       "flags": {
@@ -20465,7 +20465,7 @@
       "id": "nemotron-nano-v2-12b",
       "name": "nemotron-nano-v2-12b",
       "providerId": "cortecs",
-      "updated": "2025-10-31"
+      "updated": "2025-10-28"
     },
     {
       "flags": {
@@ -20481,7 +20481,7 @@
     {
       "flags": {
         "attachment": true,
-        "reasoning": true,
+        "reasoning": false,
         "tool_call": true
       },
       "id": "nova-lite-v1",
@@ -20492,7 +20492,7 @@
     {
       "flags": {
         "attachment": true,
-        "reasoning": true,
+        "reasoning": false,
         "tool_call": true
       },
       "id": "nova-micro-v1",
@@ -20503,7 +20503,7 @@
     {
       "flags": {
         "attachment": true,
-        "reasoning": true,
+        "reasoning": false,
         "tool_call": true
       },
       "id": "nova-pro-v1",
@@ -20520,18 +20520,18 @@
       "id": "nvidia-nemotron-3-nano-30b-a3b",
       "name": "nvidia-nemotron-3-nano-30b-a3b",
       "providerId": "cortecs",
-      "updated": "2026-01-12"
+      "updated": "2025-12-15"
     },
     {
       "flags": {
         "attachment": true,
-        "reasoning": true,
+        "reasoning": false,
         "tool_call": true
       },
       "id": "pixtral-12b-2409",
       "name": "pixtral-12b-2409",
       "providerId": "cortecs",
-      "updated": "2024-11-09"
+      "updated": "2024-09-11"
     },
     {
       "flags": {
@@ -20547,13 +20547,13 @@
     {
       "flags": {
         "attachment": true,
-        "reasoning": true,
+        "reasoning": false,
         "tool_call": false
       },
       "id": "qwen2.5-vl-72b-instruct",
       "name": "qwen2.5-vl-72b-instruct",
       "providerId": "cortecs",
-      "updated": "2025-01-27"
+      "updated": "2025-01-26"
     },
     {
       "flags": {
@@ -20613,13 +20613,13 @@
     {
       "flags": {
         "attachment": true,
-        "reasoning": true,
+        "reasoning": false,
         "tool_call": true
       },
       "id": "qwen3-vl-235b-a22b",
       "name": "qwen3-vl-235b-a22b",
       "providerId": "cortecs",
-      "updated": "2026-01-13"
+      "updated": "2025-09-23"
     },
     {
       "flags": {
@@ -20729,7 +20729,7 @@
       "id": "voxtral-small-2507",
       "name": "voxtral-small-2507",
       "providerId": "cortecs",
-      "updated": "2026-02-02"
+      "updated": "2025-07-15"
     },
     {
       "flags": {
@@ -44701,17 +44701,6 @@
     },
     {
       "flags": {
-        "attachment": false,
-        "reasoning": true,
-        "tool_call": true
-      },
-      "id": "kimi-k2-thinking",
-      "name": "Kimi K2 Thinking",
-      "providerId": "llmgateway",
-      "updated": "2025-11-06"
-    },
-    {
-      "flags": {
         "attachment": true,
         "reasoning": true,
         "tool_call": true
@@ -45411,17 +45400,6 @@
       },
       "id": "qwen3-next-80b-a3b-instruct",
       "name": "Qwen3-Next 80B-A3B Instruct",
-      "providerId": "llmgateway",
-      "updated": "2025-09"
-    },
-    {
-      "flags": {
-        "attachment": false,
-        "reasoning": true,
-        "tool_call": true
-      },
-      "id": "qwen3-next-80b-a3b-thinking",
-      "name": "Qwen3-Next 80B-A3B (Thinking)",
       "providerId": "llmgateway",
       "updated": "2025-09"
     },
@@ -50135,39 +50113,6 @@
     },
     {
       "flags": {
-        "attachment": false,
-        "reasoning": false,
-        "tool_call": true
-      },
-      "id": "vertex-openai/deepseek-v3.2",
-      "name": "DeepSeek V3.2 (Vertex AI (OpenAI-compatible))",
-      "providerId": "llmgateway-providers",
-      "updated": "2025-12-01"
-    },
-    {
-      "flags": {
-        "attachment": false,
-        "reasoning": true,
-        "tool_call": true
-      },
-      "id": "vertex-openai/glm-4.7",
-      "name": "GLM-4.7 (Vertex AI (OpenAI-compatible))",
-      "providerId": "llmgateway-providers",
-      "updated": "2025-12-22"
-    },
-    {
-      "flags": {
-        "attachment": false,
-        "reasoning": true,
-        "tool_call": true
-      },
-      "id": "vertex-openai/glm-5",
-      "name": "GLM-5 (Vertex AI (OpenAI-compatible))",
-      "providerId": "llmgateway-providers",
-      "updated": "2026-02-12"
-    },
-    {
-      "flags": {
         "attachment": true,
         "reasoning": false,
         "tool_call": true
@@ -50209,61 +50154,6 @@
       "name": "Grok 4.7 (Vertex AI (OpenAI-compatible))",
       "providerId": "llmgateway-providers",
       "updated": "2026-09-21"
-    },
-    {
-      "flags": {
-        "attachment": false,
-        "reasoning": true,
-        "tool_call": true
-      },
-      "id": "vertex-openai/kimi-k2-thinking",
-      "name": "Kimi K2 Thinking (Vertex AI (OpenAI-compatible))",
-      "providerId": "llmgateway-providers",
-      "updated": "2025-11-06"
-    },
-    {
-      "flags": {
-        "attachment": false,
-        "reasoning": false,
-        "tool_call": true
-      },
-      "id": "vertex-openai/qwen3-235b-a22b-instruct-2507",
-      "name": "Qwen3 235B A22B Instruct 2507 (Vertex AI (OpenAI-compatible))",
-      "providerId": "llmgateway-providers",
-      "updated": "2025-07-21"
-    },
-    {
-      "flags": {
-        "attachment": false,
-        "reasoning": false,
-        "tool_call": true
-      },
-      "id": "vertex-openai/qwen3-coder-480b-a35b-instruct",
-      "name": "Qwen3 Coder 480B A35B Instruct (Vertex AI (OpenAI-compatible))",
-      "providerId": "llmgateway-providers",
-      "updated": "2025-07-22"
-    },
-    {
-      "flags": {
-        "attachment": false,
-        "reasoning": false,
-        "tool_call": true
-      },
-      "id": "vertex-openai/qwen3-next-80b-a3b-instruct",
-      "name": "Qwen3 Next 80B A3B Instruct (Vertex AI (OpenAI-compatible))",
-      "providerId": "llmgateway-providers",
-      "updated": "2025-09"
-    },
-    {
-      "flags": {
-        "attachment": false,
-        "reasoning": true,
-        "tool_call": true
-      },
-      "id": "vertex-openai/qwen3-next-80b-a3b-thinking",
-      "name": "Qwen3 Next 80B A3B Thinking (Vertex AI (OpenAI-compatible))",
-      "providerId": "llmgateway-providers",
-      "updated": "2025-09"
     },
     {
       "flags": {
@@ -56313,7 +56203,7 @@
       "id": "bytedance-seed/seed-2-1-turbo",
       "name": "ByteDance Seed 2.1 Turbo",
       "providerId": "nano-gpt",
-      "updated": "2026-08-12"
+      "updated": "2026-06-23"
     },
     {
       "flags": {
@@ -56368,7 +56258,7 @@
       "id": "bytedance/doubao-seed-character",
       "name": "Doubao Seed Character",
       "providerId": "nano-gpt",
-      "updated": "2026-07-18"
+      "updated": "2026-06-23"
     },
     {
       "flags": {
@@ -56467,7 +56357,7 @@
       "id": "deepseek-ai/DeepSeek-V3.1",
       "name": "DeepSeek V3.1",
       "providerId": "nano-gpt",
-      "updated": "2025-07-26"
+      "updated": "2025-08-21"
     },
     {
       "flags": {
@@ -57644,7 +57534,7 @@
       "id": "google/diffusiongemma",
       "name": "DiffusionGemma",
       "providerId": "nano-gpt",
-      "updated": "2026-09-19"
+      "updated": "2026-07-15"
     },
     {
       "flags": {
@@ -57710,7 +57600,7 @@
       "id": "google/gemini-3.1-pro-preview-high",
       "name": "Gemini 3.1 Pro (Preview High)",
       "providerId": "nano-gpt",
-      "updated": "2026-02-21"
+      "updated": "2026-02-19"
     },
     {
       "flags": {
@@ -57721,7 +57611,7 @@
       "id": "google/gemini-3.1-pro-preview-low",
       "name": "Gemini 3.1 Pro (Preview Low)",
       "providerId": "nano-gpt",
-      "updated": "2026-02-21"
+      "updated": "2026-02-19"
     },
     {
       "flags": {
@@ -58040,7 +57930,7 @@
       "id": "ibm-granite/granite-4.2-8b",
       "name": "Granite 4.2 8B",
       "providerId": "nano-gpt",
-      "updated": "2026-08-31"
+      "updated": "2026-08-25"
     },
     {
       "flags": {
@@ -58150,7 +58040,7 @@
       "id": "kimi-k2-instruct-fast",
       "name": "Kimi K2 0711 Fast",
       "providerId": "nano-gpt",
-      "updated": "2025-07-15"
+      "updated": "2025-07-11"
     },
     {
       "flags": {
@@ -58359,7 +58249,7 @@
       "id": "meta-llama/llama-4-maverick",
       "name": "Llama 4 Maverick",
       "providerId": "nano-gpt",
-      "updated": "2025-09-05"
+      "updated": "2025-04-05"
     },
     {
       "flags": {
@@ -58370,7 +58260,7 @@
       "id": "meta-llama/llama-4-scout",
       "name": "Llama 4 Scout",
       "providerId": "nano-gpt",
-      "updated": "2025-09-05"
+      "updated": "2025-04-05"
     },
     {
       "flags": {
@@ -58601,7 +58491,7 @@
       "id": "MiniMaxAI/MiniMax-M1-80k",
       "name": "MiniMax M1 80K",
       "providerId": "nano-gpt",
-      "updated": "2025-06-16"
+      "updated": "2025-06-17"
     },
     {
       "flags": {
@@ -58777,7 +58667,7 @@
       "id": "mistralai/mistral-nemo-instruct-2407",
       "name": "Mistral Nemo",
       "providerId": "nano-gpt",
-      "updated": "2024-01-01"
+      "updated": "2024-07-18"
     },
     {
       "flags": {
@@ -58843,7 +58733,7 @@
       "id": "mistralai/mistral-small-4-119b-2603:thinking",
       "name": "Mistral Small 4 119B Thinking",
       "providerId": "nano-gpt",
-      "updated": "2026-03-17"
+      "updated": "2026-03-16"
     },
     {
       "flags": {
@@ -58854,7 +58744,7 @@
       "id": "mistralai/mixtral-8x22b-instruct-v0.1",
       "name": "Mixtral 8x22B",
       "providerId": "nano-gpt",
-      "updated": "2025-12-11"
+      "updated": "2024-04-17"
     },
     {
       "flags": {
@@ -58920,7 +58810,7 @@
       "id": "moonshotai/Kimi-K2-Instruct-0905",
       "name": "Kimi K2 0905",
       "providerId": "nano-gpt",
-      "updated": "2025-09-25"
+      "updated": "2025-09-05"
     },
     {
       "flags": {
@@ -59162,7 +59052,7 @@
       "id": "nvidia/Llama-3.3-Nemotron-Super-49B-v1",
       "name": "Nvidia Nemotron Super 49B",
       "providerId": "nano-gpt",
-      "updated": "2025-08-08"
+      "updated": "2025-03-18"
     },
     {
       "flags": {
@@ -59184,7 +59074,7 @@
       "id": "nvidia/nemotron-3-super-120b-a12b",
       "name": "Nvidia Nemotron 3 Super 120B",
       "providerId": "nano-gpt",
-      "updated": "2026-03-01"
+      "updated": "2026-03-11"
     },
     {
       "flags": {
@@ -59195,7 +59085,7 @@
       "id": "nvidia/nemotron-3-super-120b-a12b:thinking",
       "name": "Nvidia Nemotron 3 Super 120B Thinking",
       "providerId": "nano-gpt",
-      "updated": "2026-03-01"
+      "updated": "2026-03-11"
     },
     {
       "flags": {
@@ -59844,7 +59734,7 @@
       "id": "openai/o3-mini-high",
       "name": "OpenAI o3-mini (High)",
       "providerId": "nano-gpt",
-      "updated": "2025-01-31"
+      "updated": "2025-01-29"
     },
     {
       "flags": {
@@ -59855,7 +59745,7 @@
       "id": "openai/o3-mini-low",
       "name": "OpenAI o3-mini (Low)",
       "providerId": "nano-gpt",
-      "updated": "2025-01-31"
+      "updated": "2025-01-29"
     },
     {
       "flags": {
@@ -59954,7 +59844,7 @@
       "id": "phi-4-mini-instruct",
       "name": "Phi 4 Mini",
       "providerId": "nano-gpt",
-      "updated": "2025-07-26"
+      "updated": "2025-02-26"
     },
     {
       "flags": {
@@ -60174,7 +60064,7 @@
       "id": "qwen/qwen3-coder",
       "name": "Qwen 3 Coder 480B",
       "providerId": "nano-gpt",
-      "updated": "2026-03-17"
+      "updated": "2025-07-22"
     },
     {
       "flags": {
@@ -60856,7 +60746,7 @@
       "id": "qwen3-vl-235b-a22b-instruct-original",
       "name": "Qwen3 VL 235B A22B Instruct Original",
       "providerId": "nano-gpt",
-      "updated": "2025-09-25"
+      "updated": "2025-09-23"
     },
     {
       "flags": {
@@ -60911,7 +60801,7 @@
       "id": "reka/reka-edge-2603",
       "name": "Reka Edge 2603",
       "providerId": "nano-gpt",
-      "updated": "2026-10-15"
+      "updated": "2026-03-11"
     },
     {
       "flags": {
@@ -60922,7 +60812,7 @@
       "id": "reka/reka-flash-3",
       "name": "Reka Flash 3",
       "providerId": "nano-gpt",
-      "updated": "2026-10-15"
+      "updated": "2025-03-10"
     },
     {
       "flags": {
@@ -60988,7 +60878,7 @@
       "id": "Sao10K/L3.1-70B-Euryale-v2.2",
       "name": "Llama 3.1 70B Euryale",
       "providerId": "nano-gpt",
-      "updated": "2024-07-23"
+      "updated": "2024-08-28"
     },
     {
       "flags": {
@@ -61010,7 +60900,7 @@
       "id": "Sao10K/L3.3-70B-Euryale-v2.3",
       "name": "Llama 3.3 70B Euryale",
       "providerId": "nano-gpt",
-      "updated": "2024-12-06"
+      "updated": "2024-12-18"
     },
     {
       "flags": {
@@ -61208,7 +61098,7 @@
       "id": "TEE/gemma4-31b",
       "name": "Gemma 4 31B",
       "providerId": "nano-gpt",
-      "updated": "2026-04-04"
+      "updated": "2026-04-02"
     },
     {
       "flags": {
@@ -61219,7 +61109,7 @@
       "id": "TEE/gemma4-31b:thinking",
       "name": "Gemma 4 31B Thinking TEE",
       "providerId": "nano-gpt",
-      "updated": "2026-05-02"
+      "updated": "2026-04-02"
     },
     {
       "flags": {
@@ -61340,7 +61230,7 @@
       "id": "TEE/llama3-3-70b",
       "name": "Llama 3.3 70B",
       "providerId": "nano-gpt",
-      "updated": "2025-07-03"
+      "updated": "2024-12-06"
     },
     {
       "flags": {
@@ -61373,7 +61263,7 @@
       "id": "TEE/qwen2.5-vl-72b-instruct",
       "name": "Qwen2.5 VL 72B TEE",
       "providerId": "nano-gpt",
-      "updated": "2025-02-01"
+      "updated": "2025-01-26"
     },
     {
       "flags": {
@@ -61714,7 +61604,7 @@
       "id": "unsloth/gemma-3-12b-it",
       "name": "Gemma 3 12B IT",
       "providerId": "nano-gpt",
-      "updated": "2025-03-10"
+      "updated": "2025-03-12"
     },
     {
       "flags": {
@@ -61725,7 +61615,7 @@
       "id": "unsloth/gemma-3-27b-it",
       "name": "Gemma 3 27B IT",
       "providerId": "nano-gpt",
-      "updated": "2025-03-10"
+      "updated": "2025-03-12"
     },
     {
       "flags": {
@@ -61736,7 +61626,7 @@
       "id": "unsloth/gemma-3-4b-it",
       "name": "Gemma 3 4B IT",
       "providerId": "nano-gpt",
-      "updated": "2025-03-10"
+      "updated": "2025-03-12"
     },
     {
       "flags": {
@@ -61769,7 +61659,7 @@
       "id": "upstage/solar-pro-3",
       "name": "Solar Pro 3",
       "providerId": "nano-gpt",
-      "updated": "2026-03-03"
+      "updated": "2026-03-23"
     },
     {
       "flags": {
@@ -62099,7 +61989,7 @@
       "id": "z-ai/glm-4.6-original",
       "name": "GLM 4.6 Original",
       "providerId": "nano-gpt",
-      "updated": "2025-12-11"
+      "updated": "2025-09-30"
     },
     {
       "flags": {
@@ -62242,7 +62132,7 @@
       "id": "z-ai/glm-5-original",
       "name": "GLM 5 Original",
       "providerId": "nano-gpt",
-      "updated": "2026-02-11"
+      "updated": "2026-02-12"
     },
     {
       "flags": {
@@ -62253,7 +62143,7 @@
       "id": "z-ai/glm-5-original:thinking",
       "name": "GLM 5 Original Thinking",
       "providerId": "nano-gpt",
-      "updated": "2026-02-11"
+      "updated": "2026-02-12"
     },
     {
       "flags": {
@@ -64536,7 +64426,7 @@
       "flags": {
         "attachment": true,
         "reasoning": false,
-        "tool_call": true
+        "tool_call": false
       },
       "id": "google/gemma-3-12b-it",
       "name": "Gemma 3 12B IT",
@@ -64547,7 +64437,7 @@
       "flags": {
         "attachment": true,
         "reasoning": false,
-        "tool_call": true
+        "tool_call": false
       },
       "id": "google/gemma-3-27b-it",
       "name": "Gemma 3 27B IT",
@@ -64646,7 +64536,7 @@
       "flags": {
         "attachment": false,
         "reasoning": false,
-        "tool_call": true
+        "tool_call": false
       },
       "id": "meta-llama/llama-3.1-8b-instruct",
       "name": "Llama-3.1-8B-Instruct",
@@ -64657,7 +64547,7 @@
       "flags": {
         "attachment": false,
         "reasoning": false,
-        "tool_call": true
+        "tool_call": false
       },
       "id": "meta-llama/llama-3.2-1b-instruct",
       "name": "Llama 3.2 1B Instruct",
@@ -64679,7 +64569,7 @@
       "flags": {
         "attachment": true,
         "reasoning": false,
-        "tool_call": true
+        "tool_call": false
       },
       "id": "meta-llama/llama-4-maverick-17b-128e-instruct-fp8",
       "name": "Llama 4 Maverick 17B Instruct",
@@ -64690,7 +64580,7 @@
       "flags": {
         "attachment": true,
         "reasoning": false,
-        "tool_call": true
+        "tool_call": false
       },
       "id": "meta-llama/llama-4-scout-17b-16e-instruct",
       "name": "Llama 4 Scout 17B Instruct",
@@ -64866,7 +64756,7 @@
       "flags": {
         "attachment": false,
         "reasoning": false,
-        "tool_call": true
+        "tool_call": false
       },
       "id": "nousresearch/hermes-2-pro-llama-3-8b",
       "name": "Hermes 2 Pro Llama 3 8B",
@@ -68259,7 +68149,7 @@
       "id": "z-ai/glm-5.3-flashx",
       "name": "GLM-5.3-FlashX",
       "providerId": "ofox",
-      "updated": "2026-09-18"
+      "updated": "2026-08-26"
     },
     {
       "flags": {
@@ -70405,6 +70295,17 @@
       "name": "Muse Spark 1.3 Free",
       "providerId": "opencode",
       "updated": "2026-09-02"
+    },
+    {
+      "flags": {
+        "attachment": true,
+        "reasoning": true,
+        "tool_call": true
+      },
+      "id": "muse-wonder-1.0",
+      "name": "Muse Wonder",
+      "providerId": "opencode",
+      "updated": "2026-10-12"
     },
     {
       "flags": {
@@ -92676,17 +92577,6 @@
         "reasoning": true,
         "tool_call": true
       },
-      "id": "qwen3-5-9b",
-      "name": "Qwen 3.5 9B",
-      "providerId": "venice",
-      "updated": "2026-06-11"
-    },
-    {
-      "flags": {
-        "attachment": true,
-        "reasoning": true,
-        "tool_call": true
-      },
       "id": "qwen3-6-27b",
       "name": "Qwen 3.6 27B",
       "providerId": "venice",
@@ -94890,7 +94780,7 @@
       "id": "meta/muse-image-1.0",
       "name": "Muse Image 1.0",
       "providerId": "vercel",
-      "updated": "2026-08-26"
+      "updated": "2026-07-07"
     },
     {
       "flags": {
@@ -102296,7 +102186,7 @@
       "doc": "https://llmgateway.io/docs",
       "iconURL": "https://models.dev/logos/llmgateway.svg",
       "id": "llmgateway",
-      "modelCount": 214,
+      "modelCount": 212,
       "name": "DevPass (LLM Gateway)"
     },
     {
@@ -102304,7 +102194,7 @@
       "doc": "https://llmgateway.io/docs",
       "iconURL": "https://models.dev/logos/llmgateway-providers.svg",
       "id": "llmgateway-providers",
-      "modelCount": 436,
+      "modelCount": 428,
       "name": "LLM Gateway"
     },
     {
@@ -102637,7 +102527,7 @@
       "iconURL": "https://models.dev/logos/opencode.svg",
       "id": "opencode",
       "lobeIcon": "OpenCode",
-      "modelCount": 128,
+      "modelCount": 129,
       "name": "OpenCode"
     },
     {
@@ -103140,7 +103030,7 @@
       "iconURL": "https://models.dev/logos/venice.svg",
       "id": "venice",
       "lobeIcon": "VeniceAI",
-      "modelCount": 125,
+      "modelCount": 124,
       "name": "Venice AI"
     },
     {

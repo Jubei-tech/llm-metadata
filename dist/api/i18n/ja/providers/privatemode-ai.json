@@ -2,8 +2,7 @@
   "api": "http://localhost:8080/v1",
   "doc": "https://docs.privatemode.ai/api/overview",
   "env": [
-    "PRIVATEMODE_API_KEY",
-    "PRIVATEMODE_ENDPOINT"
+    "PRIVATEMODE_API_KEY"
   ],
   "iconURL": "https://models.dev/logos/privatemode-ai.svg",
   "id": "privatemode-ai",
