@@ -1619,6 +1619,7 @@
       "description": "Largest Gemma 4 instruction model for open, self-hosted chat and reasoning",
       "family": "gemma",
       "id": "google/gemma-4-31b-it",
+      "knowledge": "2025-01",
       "last_updated": "2026-04-02",
       "limit": {
         "context": 262144,
@@ -3767,6 +3768,7 @@
       "description": "Open GPT reasoning model for self-hosted agents and controllable deployments",
       "family": "gpt-oss",
       "id": "openai/gpt-oss-120b",
+      "knowledge": "2024-06",
       "last_updated": "2025-08-05",
       "limit": {
         "context": 131072,

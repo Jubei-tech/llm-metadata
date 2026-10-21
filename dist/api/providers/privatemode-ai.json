@@ -224,6 +224,7 @@
       "description": "Open GPT reasoning model for self-hosted agents and controllable deployments",
       "family": "gpt-oss",
       "id": "gpt-oss-120b",
+      "knowledge": "2024-06",
       "last_updated": "2025-08-05",
       "limit": {
         "context": 128000,
@@ -406,7 +407,7 @@
       "description": "Open Whisper checkpoint for robust multilingual transcription and captioning",
       "family": "whisper",
       "id": "whisper-large-v3",
-      "last_updated": "2024-10-01",
+      "last_updated": "2023-11-06",
       "limit": {
         "context": 448,
         "output": 4096
@@ -422,7 +423,7 @@
       "name": "Whisper large-v3",
       "open_weights": true,
       "reasoning": false,
-      "release_date": "2024-10-01",
+      "release_date": "2023-11-06",
       "temperature": true,
       "tool_call": false,
       "type": "transcription"

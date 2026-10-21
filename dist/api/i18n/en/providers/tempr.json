@@ -259,7 +259,7 @@
       "family": "claude-opus",
       "id": "anthropic/claude-opus-4-5-20251101",
       "knowledge": "2025-05",
-      "last_updated": "2025-11-01",
+      "last_updated": "2025-11-24",
       "limit": {
         "context": 200000,
         "output": 64000
@@ -294,7 +294,7 @@
           "type": "budget_tokens"
         }
       ],
-      "release_date": "2025-11-01",
+      "release_date": "2025-11-24",
       "structured_output": true,
       "temperature": true,
       "tool_call": true
@@ -708,6 +708,7 @@
       "description": "Open GPT reasoning model for self-hosted agents and controllable deployments",
       "family": "gpt-oss",
       "id": "cerebras/gpt-oss-120b",
+      "knowledge": "2024-06",
       "last_updated": "2026-06-10",
       "limit": {
         "context": 131072,
@@ -1540,6 +1541,7 @@
       "description": "Largest Gemma 4 instruction model for open, self-hosted chat and reasoning",
       "family": "gemma",
       "id": "google/gemma-4-31b-it",
+      "knowledge": "2025-01",
       "last_updated": "2026-04-02",
       "limit": {
         "context": 262144,
@@ -1607,6 +1609,7 @@
       "description": "Open GPT reasoning model for self-hosted agents and controllable deployments",
       "family": "gpt-oss",
       "id": "groq/openai/gpt-oss-120b",
+      "knowledge": "2024-06",
       "last_updated": "2025-10-21",
       "limit": {
         "context": 131072,
@@ -1649,6 +1652,7 @@
       "description": "Open GPT reasoning model for self-hosted agents and controllable deployments",
       "family": "gpt-oss",
       "id": "groq/openai/gpt-oss-20b",
+      "knowledge": "2024-06",
       "last_updated": "2025-09-25",
       "limit": {
         "context": 131072,
