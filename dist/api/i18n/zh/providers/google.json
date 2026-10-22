@@ -241,8 +241,7 @@
       },
       "name": "Nano Banana",
       "open_weights": false,
-      "reasoning": true,
-      "reasoning_options": [],
+      "reasoning": false,
       "release_date": "2025-08-26",
       "temperature": true,
       "tool_call": false,
@@ -1076,7 +1075,7 @@
       "tool_call": true
     },
     "gemini-3.5-live-translate-preview": {
-      "attachment": false,
+      "attachment": true,
       "canonical_model_id": "google/gemini-3.5-live-translate-preview",
       "cost": {
         "input": 3.5,
