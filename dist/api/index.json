@@ -20371,6 +20371,17 @@
     {
       "flags": {
         "attachment": false,
+        "reasoning": true,
+        "tool_call": true
+      },
+      "id": "kolibri-1",
+      "name": "kolibri-1",
+      "providerId": "cortecs",
+      "updated": "2026-10-22"
+    },
+    {
+      "flags": {
+        "attachment": false,
         "reasoning": false,
         "tool_call": true
       },
@@ -25880,6 +25891,17 @@
     },
     {
       "flags": {
+        "attachment": true,
+        "reasoning": true,
+        "tool_call": true
+      },
+      "id": "flexai/DeepSeek-V4.1-Flash-1017",
+      "name": "DeepSeek V4.1 Flash 1017 (FlexAI)",
+      "providerId": "edenai",
+      "updated": "2026-10-17"
+    },
+    {
+      "flags": {
         "attachment": false,
         "reasoning": true,
         "tool_call": true
@@ -26452,9 +26474,9 @@
     },
     {
       "flags": {
-        "attachment": false,
+        "attachment": true,
         "reasoning": true,
-        "tool_call": false
+        "tool_call": true
       },
       "id": "minimax/MiniMax-M3.1-Flash",
       "name": "MiniMax-M3.1-Flash",
@@ -70621,6 +70643,17 @@
         "reasoning": true,
         "tool_call": true
       },
+      "id": "minimax-m3.1-flash",
+      "name": "MiniMax M3.1 Flash",
+      "providerId": "opencode-go",
+      "updated": "2026-10-19"
+    },
+    {
+      "flags": {
+        "attachment": true,
+        "reasoning": true,
+        "tool_call": true
+      },
       "id": "minimax-m3.1-flash-free",
       "name": "MiniMax M3.1 Flash Free",
       "providerId": "opencode-go",
@@ -72403,8 +72436,8 @@
         "reasoning": true,
         "tool_call": true
       },
-      "id": "minimax/minimax-m3.1-flash:free",
-      "name": "MiniMax M3.1 Flash (free)",
+      "id": "minimax/minimax-m3.1-flash",
+      "name": "MiniMax-M3.1-Flash",
       "providerId": "openrouter",
       "updated": "2026-10-19"
     },
@@ -102394,7 +102427,7 @@
       "doc": "https://api.cortecs.ai/v1/models",
       "iconURL": "https://models.dev/logos/cortecs.svg",
       "id": "cortecs",
-      "modelCount": 105,
+      "modelCount": 106,
       "name": "Cortecs"
     },
     {
@@ -102498,7 +102531,7 @@
       "doc": "https://docs.edenai.co",
       "iconURL": "https://models.dev/logos/edenai.svg",
       "id": "edenai",
-      "modelCount": 359,
+      "modelCount": 360,
       "name": "Eden AI"
     },
     {
@@ -103228,7 +103261,7 @@
       "doc": "https://opencode.ai/v2/docs/console/go/",
       "iconURL": "https://models.dev/logos/opencode-go.svg",
       "id": "opencode-go",
-      "modelCount": 33,
+      "modelCount": 34,
       "name": "OpenCode Go"
     },
     {

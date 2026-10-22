@@ -12381,7 +12381,7 @@
       "last_updated": "2026-10-16",
       "limit": {
         "context": 1048576,
-        "output": 943718
+        "output": 131072
       },
       "modalities": {
         "input": [
@@ -15522,8 +15522,8 @@
     "~deepseek/deepseek-pro-latest": {
       "attachment": false,
       "cost": {
-        "cache_read": 0.22,
-        "input": 0.2235,
+        "cache_read": 0.23,
+        "input": 0.225,
         "output": 8
       },
       "description": "This model always redirects to the latest model in the DeepSeek Pro family.",
@@ -15702,7 +15702,7 @@
       "cost": {
         "cache_read": 0.228,
         "input": 0.238,
-        "output": 16
+        "output": 24
       },
       "description": "Kimi multimodal agent model for visual understanding, coding, and planning",
       "family": "kimi",
