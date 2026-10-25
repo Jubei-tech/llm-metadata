@@ -315,7 +315,7 @@
       "iconURL": "https://models.dev/logos/chutes.svg",
       "id": "chutes",
       "lobeIcon": "Chutes",
-      "modelCount": 14,
+      "modelCount": 16,
       "name": "Chutes"
     },
     {
@@ -394,7 +394,7 @@
       "doc": "https://api.cortecs.ai/v1/models",
       "iconURL": "https://models.dev/logos/cortecs.svg",
       "id": "cortecs",
-      "modelCount": 106,
+      "modelCount": 107,
       "name": "Cortecs"
     },
     {
@@ -1120,7 +1120,7 @@
       "doc": "https://docs.nano-gpt.com",
       "iconURL": "https://models.dev/logos/nano-gpt.svg",
       "id": "nano-gpt",
-      "modelCount": 630,
+      "modelCount": 649,
       "name": "NanoGPT"
     },
     {
@@ -1136,7 +1136,7 @@
       "doc": "https://docs.tokenfactory.nebius.com/",
       "iconURL": "https://models.dev/logos/nebius.svg",
       "id": "nebius",
-      "modelCount": 24,
+      "modelCount": 26,
       "name": "Nebius Token Factory"
     },
     {
@@ -1176,7 +1176,7 @@
       "doc": "https://novita.ai/docs/guides/introduction",
       "iconURL": "https://models.dev/logos/novita-ai.svg",
       "id": "novita-ai",
-      "modelCount": 88,
+      "modelCount": 89,
       "name": "Novita AI"
     },
     {
