@@ -21244,6 +21244,45 @@
       "tags": []
     },
     {
+      "description": "Image, video, and audio understanding with visual grounding, reasoning, and function calling",
+      "firm": "aimlapi",
+      "flags": {
+        "attachment": true,
+        "audio": true,
+        "image": true,
+        "open_weights": false,
+        "reasoning": true,
+        "temperature": true,
+        "tool_call": true
+      },
+      "icon": "",
+      "id": "perceptron/perceptron-mk1.5",
+      "knowledge": null,
+      "lastUpdated": "2026-09-25",
+      "maxCtxTokens": 36864,
+      "maxOutputTokens": 8192,
+      "modalities": {
+        "input": [
+          "text",
+          "image",
+          "video",
+          "audio"
+        ],
+        "output": [
+          "text"
+        ]
+      },
+      "name": "Mk1.5",
+      "price": {
+        "cacheRead": null,
+        "cacheWrite": null,
+        "input": 0.1587,
+        "output": 1.587
+      },
+      "releaseDate": "2026-09-25",
+      "tags": []
+    },
+    {
       "description": "Fast web-grounded Sonar for current answers, citations, and lightweight retrieval",
       "firm": "aimlapi",
       "flags": {
@@ -96893,9 +96932,9 @@
       "description": "DeepSeek V4.1 Flash model for reasoning and agentic coding",
       "firm": "engy",
       "flags": {
-        "attachment": false,
+        "attachment": true,
         "audio": false,
-        "image": false,
+        "image": true,
         "open_weights": true,
         "reasoning": true,
         "temperature": true,
@@ -96909,7 +96948,8 @@
       "maxOutputTokens": 65536,
       "modalities": {
         "input": [
-          "text"
+          "text",
+          "image"
         ],
         "output": [
           "text"
@@ -96929,9 +96969,9 @@
       "description": "October 17 update of DeepSeek V4.1 Flash with improved reasoning, coding, agentic tasks, and visual understanding",
       "firm": "engy",
       "flags": {
-        "attachment": false,
+        "attachment": true,
         "audio": false,
-        "image": false,
+        "image": true,
         "open_weights": true,
         "reasoning": true,
         "temperature": true,
@@ -96945,7 +96985,8 @@
       "maxOutputTokens": 65536,
       "modalities": {
         "input": [
-          "text"
+          "text",
+          "image"
         ],
         "output": [
           "text"
@@ -118074,7 +118115,7 @@
       "id": "deepseek-v4.1-flash",
       "knowledge": "2025-05",
       "lastUpdated": "2026-09-10",
-      "maxCtxTokens": 1000000,
+      "maxCtxTokens": 1048576,
       "maxOutputTokens": 262144,
       "modalities": {
         "input": [
@@ -121998,7 +122039,7 @@
         "cacheRead": 0.12,
         "cacheWrite": null,
         "input": 0.6,
-        "output": 3.22
+        "output": 2.8
       },
       "releaseDate": "2026-08-14",
       "tags": []
@@ -130034,10 +130075,10 @@
       },
       "name": "DeepSeek: DeepSeek V4 Flash Latest",
       "price": {
-        "cacheRead": 0.027,
+        "cacheRead": 0.028,
         "cacheWrite": null,
         "input": 0.0422,
-        "output": 0.1763
+        "output": 0.1694
       },
       "releaseDate": "2026-08-01",
       "tags": []
@@ -130455,10 +130496,10 @@
       },
       "name": "Z.ai: GLM Flash Latest",
       "price": {
-        "cacheRead": 0.03,
+        "cacheRead": 0.0191,
         "cacheWrite": null,
-        "input": 0.0507,
-        "output": 0.0702
+        "input": 0.0191,
+        "output": 0.1352
       },
       "releaseDate": "2026-08-27",
       "tags": []
@@ -130480,7 +130521,7 @@
       "knowledge": null,
       "lastUpdated": "2026-08-19",
       "maxCtxTokens": 1048576,
-      "maxOutputTokens": 131072,
+      "maxOutputTokens": 943718,
       "modalities": {
         "input": [
           "text"
@@ -130491,10 +130532,10 @@
       },
       "name": "Z.ai: GLM Latest",
       "price": {
-        "cacheRead": 0.075,
+        "cacheRead": 0.073,
         "cacheWrite": null,
-        "input": 0.075,
-        "output": 4.295
+        "input": 0.074,
+        "output": 1.4
       },
       "releaseDate": "2026-08-19",
       "tags": []
@@ -132366,7 +132407,7 @@
       "knowledge": "2025-05",
       "lastUpdated": "2026-07-31",
       "maxCtxTokens": 1048576,
-      "maxOutputTokens": 131072,
+      "maxOutputTokens": 943718,
       "modalities": {
         "input": [
           "text"
@@ -134447,6 +134488,42 @@
         "tool_call": true
       },
       "icon": "",
+      "id": "liquid/lfm-2.5-2.6b",
+      "knowledge": null,
+      "lastUpdated": "2026-08-11",
+      "maxCtxTokens": 128000,
+      "maxOutputTokens": 8192,
+      "modalities": {
+        "input": [
+          "text"
+        ],
+        "output": [
+          "text"
+        ]
+      },
+      "name": "LiquidAI: LFM2.5-2.6B",
+      "price": {
+        "cacheRead": 0.04,
+        "cacheWrite": null,
+        "input": 0.35,
+        "output": 0.5
+      },
+      "releaseDate": "2026-08-11",
+      "tags": []
+    },
+    {
+      "description": "LFM2.5-2.6B is a compact reasoning model from Liquid AI. It is suited for agent workflows, data extraction, RAG, and long-context processing. Liquid advises against using it for agentic coding or...",
+      "firm": "kilo",
+      "flags": {
+        "attachment": false,
+        "audio": false,
+        "image": false,
+        "open_weights": false,
+        "reasoning": true,
+        "temperature": true,
+        "tool_call": true
+      },
+      "icon": "",
       "id": "liquid/lfm-2.5-2.6b:free",
       "knowledge": null,
       "lastUpdated": "2026-08-11",
@@ -134702,8 +134779,8 @@
       "id": "meta-llama/llama-3.2-3b-instruct",
       "knowledge": "2023-12",
       "lastUpdated": "2024-09-25",
-      "maxCtxTokens": 80000,
-      "maxOutputTokens": 72000,
+      "maxCtxTokens": 131072,
+      "maxOutputTokens": 117964,
       "modalities": {
         "input": [
           "text"
@@ -142951,10 +143028,10 @@
       },
       "name": "Hy3",
       "price": {
-        "cacheRead": 0.020625,
+        "cacheRead": 0.033,
         "cacheWrite": null,
-        "input": 0.0825,
-        "output": 0.33
+        "input": 0.132,
+        "output": 0.528
       },
       "releaseDate": "2026-07-06",
       "tags": []
@@ -143023,10 +143100,10 @@
       },
       "name": "Hy4 preview",
       "price": {
-        "cacheRead": 0.0378,
+        "cacheRead": 0.042,
         "cacheWrite": null,
-        "input": 0.7506,
-        "output": 2.2509
+        "input": 0.834,
+        "output": 2.501
       },
       "releaseDate": "2026-08-28",
       "tags": []
@@ -144138,7 +144215,7 @@
       },
       "name": "GLM-4.6V",
       "price": {
-        "cacheRead": 0.055,
+        "cacheRead": 0.05,
         "cacheWrite": null,
         "input": 0.3,
         "output": 0.9
@@ -185737,6 +185814,339 @@
       "tags": []
     },
     {
+      "description": "Aleph Alpha's German and English mixture-of-experts reasoning model (78B total, 3.46B active) for chat, RAG and agents",
+      "firm": "munito",
+      "flags": {
+        "attachment": false,
+        "audio": false,
+        "image": false,
+        "open_weights": true,
+        "reasoning": true,
+        "temperature": true,
+        "tool_call": true
+      },
+      "icon": "",
+      "id": "aleph-alpha/kolibri-1",
+      "knowledge": "2026-06-18",
+      "lastUpdated": "2026-10-03",
+      "maxCtxTokens": 1048576,
+      "maxOutputTokens": 943718,
+      "modalities": {
+        "input": [
+          "text"
+        ],
+        "output": [
+          "text"
+        ]
+      },
+      "name": "Kolibri 1",
+      "price": {
+        "cacheRead": 0.078,
+        "cacheWrite": null,
+        "input": 0.13,
+        "output": 0.51
+      },
+      "releaseDate": "2026-10-03",
+      "tags": []
+    },
+    {
+      "description": "Official DeepSeek V4 Flash release with enhanced agentic capabilities and integrated DSpark speculative decoding",
+      "firm": "munito",
+      "flags": {
+        "attachment": false,
+        "audio": false,
+        "image": false,
+        "open_weights": true,
+        "reasoning": true,
+        "temperature": true,
+        "tool_call": true
+      },
+      "icon": "",
+      "id": "deepseek-ai/deepseek-v4-flash",
+      "knowledge": "2025-05",
+      "lastUpdated": "2026-07-31",
+      "maxCtxTokens": 1048576,
+      "maxOutputTokens": 943718,
+      "modalities": {
+        "input": [
+          "text"
+        ],
+        "output": [
+          "text"
+        ]
+      },
+      "name": "DeepSeek V4 Flash 0731",
+      "price": {
+        "cacheRead": 0.019,
+        "cacheWrite": null,
+        "input": 0.099,
+        "output": 0.25
+      },
+      "releaseDate": "2026-07-31",
+      "tags": []
+    },
+    {
+      "description": "October 17 update of DeepSeek V4.1 Flash with improved reasoning, coding, agentic tasks, and visual understanding",
+      "firm": "munito",
+      "flags": {
+        "attachment": true,
+        "audio": false,
+        "image": true,
+        "open_weights": true,
+        "reasoning": true,
+        "temperature": true,
+        "tool_call": true
+      },
+      "icon": "",
+      "id": "deepseek-ai/deepseek-v4.1-flash-1017",
+      "knowledge": "2025-05",
+      "lastUpdated": "2026-10-17",
+      "maxCtxTokens": 1048576,
+      "maxOutputTokens": 943718,
+      "modalities": {
+        "input": [
+          "text",
+          "image"
+        ],
+        "output": [
+          "text"
+        ]
+      },
+      "name": "DeepSeek V4.1 Flash 1017",
+      "price": {
+        "cacheRead": 0.0054,
+        "cacheWrite": null,
+        "input": 0.27,
+        "output": 1
+      },
+      "releaseDate": "2026-10-17",
+      "tags": []
+    },
+    {
+      "description": "Dense 27B vision-language model for coding, agent tasks, and image and video understanding",
+      "firm": "munito",
+      "flags": {
+        "attachment": true,
+        "audio": false,
+        "image": true,
+        "open_weights": true,
+        "reasoning": true,
+        "temperature": true,
+        "tool_call": true
+      },
+      "icon": "",
+      "id": "qwen/qwen3.8-27b",
+      "knowledge": null,
+      "lastUpdated": "2026-08-14",
+      "maxCtxTokens": 262144,
+      "maxOutputTokens": 235929,
+      "modalities": {
+        "input": [
+          "text",
+          "image",
+          "video"
+        ],
+        "output": [
+          "text"
+        ]
+      },
+      "name": "Qwen3.8 27B",
+      "price": {
+        "cacheRead": 0.05,
+        "cacheWrite": null,
+        "input": 0.18,
+        "output": 2.4
+      },
+      "releaseDate": "2026-08-14",
+      "tags": []
+    },
+    {
+      "description": "Native multimodal GLM model for efficient coding and long-horizon agent tasks",
+      "firm": "munito",
+      "flags": {
+        "attachment": true,
+        "audio": false,
+        "image": true,
+        "open_weights": true,
+        "reasoning": true,
+        "temperature": true,
+        "tool_call": true
+      },
+      "icon": "",
+      "id": "zai-org/glm-5.3-flash",
+      "knowledge": null,
+      "lastUpdated": "2026-08-26",
+      "maxCtxTokens": 1048576,
+      "maxOutputTokens": 943718,
+      "modalities": {
+        "input": [
+          "text",
+          "image",
+          "video"
+        ],
+        "output": [
+          "text"
+        ]
+      },
+      "name": "GLM-5.3-Flash",
+      "price": {
+        "cacheRead": 0.027,
+        "cacheWrite": null,
+        "input": 0.13,
+        "output": 0.45
+      },
+      "releaseDate": "2026-08-26",
+      "tags": []
+    },
+    {
+      "description": "Aleph Alpha's German and English mixture-of-experts reasoning model (78B total, 3.46B active) for chat, RAG and agents",
+      "firm": "munito-eu",
+      "flags": {
+        "attachment": false,
+        "audio": false,
+        "image": false,
+        "open_weights": true,
+        "reasoning": true,
+        "temperature": true,
+        "tool_call": true
+      },
+      "icon": "",
+      "id": "aleph-alpha/kolibri-1",
+      "knowledge": "2026-06-18",
+      "lastUpdated": "2026-10-03",
+      "maxCtxTokens": 1048576,
+      "maxOutputTokens": 943718,
+      "modalities": {
+        "input": [
+          "text"
+        ],
+        "output": [
+          "text"
+        ]
+      },
+      "name": "Kolibri 1",
+      "price": {
+        "cacheRead": 0.094,
+        "cacheWrite": null,
+        "input": 0.16,
+        "output": 0.56
+      },
+      "releaseDate": "2026-10-03",
+      "tags": []
+    },
+    {
+      "description": "Official DeepSeek V4 Flash release with enhanced agentic capabilities and integrated DSpark speculative decoding",
+      "firm": "munito-eu",
+      "flags": {
+        "attachment": false,
+        "audio": false,
+        "image": false,
+        "open_weights": true,
+        "reasoning": true,
+        "temperature": true,
+        "tool_call": true
+      },
+      "icon": "",
+      "id": "deepseek-ai/deepseek-v4-flash",
+      "knowledge": "2025-05",
+      "lastUpdated": "2026-07-31",
+      "maxCtxTokens": 1048576,
+      "maxOutputTokens": 943718,
+      "modalities": {
+        "input": [
+          "text"
+        ],
+        "output": [
+          "text"
+        ]
+      },
+      "name": "DeepSeek V4 Flash 0731",
+      "price": {
+        "cacheRead": 0.022,
+        "cacheWrite": null,
+        "input": 0.11,
+        "output": 0.28
+      },
+      "releaseDate": "2026-07-31",
+      "tags": []
+    },
+    {
+      "description": "Dense 27B vision-language model for coding, agent tasks, and image and video understanding",
+      "firm": "munito-eu",
+      "flags": {
+        "attachment": true,
+        "audio": false,
+        "image": true,
+        "open_weights": true,
+        "reasoning": true,
+        "temperature": true,
+        "tool_call": true
+      },
+      "icon": "",
+      "id": "qwen/qwen3.8-27b",
+      "knowledge": null,
+      "lastUpdated": "2026-08-14",
+      "maxCtxTokens": 262144,
+      "maxOutputTokens": 235929,
+      "modalities": {
+        "input": [
+          "text",
+          "image",
+          "video"
+        ],
+        "output": [
+          "text"
+        ]
+      },
+      "name": "Qwen3.8 27B",
+      "price": {
+        "cacheRead": 0.11,
+        "cacheWrite": null,
+        "input": 0.2,
+        "output": 2.7
+      },
+      "releaseDate": "2026-08-14",
+      "tags": []
+    },
+    {
+      "description": "Native multimodal GLM model for efficient coding and long-horizon agent tasks",
+      "firm": "munito-eu",
+      "flags": {
+        "attachment": true,
+        "audio": false,
+        "image": true,
+        "open_weights": true,
+        "reasoning": true,
+        "temperature": true,
+        "tool_call": true
+      },
+      "icon": "",
+      "id": "zai-org/glm-5.3-flash",
+      "knowledge": null,
+      "lastUpdated": "2026-08-26",
+      "maxCtxTokens": 1048576,
+      "maxOutputTokens": 943718,
+      "modalities": {
+        "input": [
+          "text",
+          "image",
+          "video"
+        ],
+        "output": [
+          "text"
+        ]
+      },
+      "name": "GLM-5.3-Flash",
+      "price": {
+        "cacheRead": 0.03,
+        "cacheWrite": null,
+        "input": 0.15,
+        "output": 0.5
+      },
+      "releaseDate": "2026-08-26",
+      "tags": []
+    },
+    {
       "description": "DeepSeek V4.1 Flash model for reasoning and agentic coding",
       "firm": "nan",
       "flags": {
@@ -197373,8 +197783,8 @@
       "price": {
         "cacheRead": 0.15,
         "cacheWrite": null,
-        "input": 0.6725,
-        "output": 3.1
+        "input": 0.6712,
+        "output": 3.35
       },
       "releaseDate": "2026-06-12",
       "tags": []
@@ -217217,6 +217627,44 @@
       "tags": []
     },
     {
+      "description": "Multimodal Kimi model with 1M context and always-on reasoning for coding, 3D creation, financial research, and agentic work",
+      "firm": "novita-ai",
+      "flags": {
+        "attachment": true,
+        "audio": false,
+        "image": true,
+        "open_weights": false,
+        "reasoning": true,
+        "temperature": false,
+        "tool_call": true
+      },
+      "icon": "",
+      "id": "moonshotai/kimi-k3.1-pro",
+      "knowledge": null,
+      "lastUpdated": "2026-10-23",
+      "maxCtxTokens": 1048576,
+      "maxOutputTokens": 1048576,
+      "modalities": {
+        "input": [
+          "text",
+          "image",
+          "video"
+        ],
+        "output": [
+          "text"
+        ]
+      },
+      "name": "Kimi K3.1 Pro",
+      "price": {
+        "cacheRead": 0.2,
+        "cacheWrite": null,
+        "input": 2,
+        "output": 10
+      },
+      "releaseDate": "2026-10-23",
+      "tags": []
+    },
+    {
       "description": "Llama 3 fine-tune optimized for function calling, structured JSON responses, and dialogue",
       "firm": "novita-ai",
       "flags": {
@@ -234730,6 +235178,42 @@
       "tags": []
     },
     {
+      "description": "Stealth model, free for a limited time",
+      "firm": "opencode-go",
+      "flags": {
+        "attachment": false,
+        "audio": false,
+        "image": false,
+        "open_weights": false,
+        "reasoning": true,
+        "temperature": false,
+        "tool_call": true
+      },
+      "icon": "",
+      "id": "iceman-contributor-free",
+      "knowledge": null,
+      "lastUpdated": "2026-10-24",
+      "maxCtxTokens": 262144,
+      "maxOutputTokens": 131072,
+      "modalities": {
+        "input": [
+          "text"
+        ],
+        "output": [
+          "text"
+        ]
+      },
+      "name": "Iceman Contributor Free",
+      "price": {
+        "cacheRead": null,
+        "cacheWrite": null,
+        "input": null,
+        "output": null
+      },
+      "releaseDate": "2026-10-24",
+      "tags": []
+    },
+    {
       "description": "Coding-focused Kimi model, stronger on long-horizon repo work with less overthinking",
       "firm": "opencode-go",
       "flags": {
@@ -235889,10 +236373,10 @@
       },
       "name": "DeepSeek V4 Flash Latest",
       "price": {
-        "cacheRead": 0.027,
+        "cacheRead": 0.028,
         "cacheWrite": null,
         "input": 0.0422,
-        "output": 0.1763
+        "output": 0.1694
       },
       "releaseDate": "2026-08-01",
       "tags": []
@@ -236310,10 +236794,10 @@
       },
       "name": "GLM Flash Latest",
       "price": {
-        "cacheRead": 0.03,
+        "cacheRead": 0.0191,
         "cacheWrite": null,
-        "input": 0.0507,
-        "output": 0.0702
+        "input": 0.0191,
+        "output": 0.1352
       },
       "releaseDate": "2026-08-27",
       "tags": []
@@ -236335,7 +236819,7 @@
       "knowledge": null,
       "lastUpdated": "2026-08-19",
       "maxCtxTokens": 1048576,
-      "maxOutputTokens": 131072,
+      "maxOutputTokens": 943718,
       "modalities": {
         "input": [
           "text"
@@ -236346,10 +236830,10 @@
       },
       "name": "GLM Latest",
       "price": {
-        "cacheRead": 0.075,
+        "cacheRead": 0.073,
         "cacheWrite": null,
-        "input": 0.075,
-        "output": 4.295
+        "input": 0.074,
+        "output": 1.4
       },
       "releaseDate": "2026-08-19",
       "tags": []
@@ -238221,7 +238705,7 @@
       "knowledge": "2025-05",
       "lastUpdated": "2026-07-31",
       "maxCtxTokens": 1048576,
-      "maxOutputTokens": 131072,
+      "maxOutputTokens": 943718,
       "modalities": {
         "input": [
           "text"
@@ -238232,10 +238716,10 @@
       },
       "name": "DeepSeek V4 Flash 0731",
       "price": {
-        "cacheRead": 0.001414,
+        "cacheRead": 0.028,
         "cacheWrite": null,
-        "input": 0.04444,
-        "output": 0.13332
+        "input": 0.0422,
+        "output": 0.1694
       },
       "releaseDate": "2026-07-31",
       "tags": []
@@ -240174,6 +240658,42 @@
       "tags": []
     },
     {
+      "description": "Reasoning model for deliberate analysis, multi-step problem solving, and tool use",
+      "firm": "openrouter",
+      "flags": {
+        "attachment": false,
+        "audio": false,
+        "image": false,
+        "open_weights": true,
+        "reasoning": true,
+        "temperature": true,
+        "tool_call": true
+      },
+      "icon": "lb:openrouter-color",
+      "id": "liquid/lfm-2.5-2.6b",
+      "knowledge": null,
+      "lastUpdated": "2026-08-11",
+      "maxCtxTokens": 128000,
+      "maxOutputTokens": 8192,
+      "modalities": {
+        "input": [
+          "text"
+        ],
+        "output": [
+          "text"
+        ]
+      },
+      "name": "LFM2.5-2.6B",
+      "price": {
+        "cacheRead": 0.04,
+        "cacheWrite": null,
+        "input": 0.35,
+        "output": 0.5
+      },
+      "releaseDate": "2026-08-11",
+      "tags": []
+    },
+    {
       "description": "Free provider route for experiments, demos, and cost-sensitive chat workloads",
       "firm": "openrouter",
       "flags": {
@@ -240442,7 +240962,7 @@
       "knowledge": "2023-12",
       "lastUpdated": "2024-09-25",
       "maxCtxTokens": 131072,
-      "maxOutputTokens": 72000,
+      "maxOutputTokens": 117964,
       "modalities": {
         "input": [
           "text"
@@ -240455,8 +240975,8 @@
       "price": {
         "cacheRead": null,
         "cacheWrite": null,
-        "input": 0.0509,
-        "output": 0.335
+        "input": 0.05,
+        "output": 0.33
       },
       "releaseDate": "2024-09-25",
       "tags": []
@@ -248454,10 +248974,10 @@
       },
       "name": "Hy3",
       "price": {
-        "cacheRead": 0.020625,
+        "cacheRead": 0.033,
         "cacheWrite": null,
-        "input": 0.0825,
-        "output": 0.33
+        "input": 0.132,
+        "output": 0.528
       },
       "releaseDate": "2026-07-06",
       "tags": []
@@ -248526,10 +249046,10 @@
       },
       "name": "Hy4 preview",
       "price": {
-        "cacheRead": 0.0378,
+        "cacheRead": 0.042,
         "cacheWrite": null,
-        "input": 0.7506,
-        "output": 2.2509
+        "input": 0.834,
+        "output": 2.501
       },
       "releaseDate": "2026-08-28",
       "tags": []
@@ -249717,7 +250237,7 @@
       },
       "name": "GLM-4.6V",
       "price": {
-        "cacheRead": 0.055,
+        "cacheRead": 0.05,
         "cacheWrite": null,
         "input": 0.3,
         "output": 0.9
@@ -249969,10 +250489,10 @@
       },
       "name": "GLM-5.3",
       "price": {
-        "cacheRead": 0.0897,
+        "cacheRead": 0.073,
         "cacheWrite": null,
-        "input": 0.0908,
-        "output": 1.61
+        "input": 0.074,
+        "output": 1.4
       },
       "releaseDate": "2026-08-14",
       "tags": []
@@ -265723,7 +266243,7 @@
       "knowledge": "2025-05",
       "lastUpdated": "2026-07-31",
       "maxCtxTokens": 1048576,
-      "maxOutputTokens": 131072,
+      "maxOutputTokens": 943718,
       "modalities": {
         "input": [
           "text"

@@ -6250,6 +6250,17 @@
     },
     {
       "flags": {
+        "attachment": true,
+        "reasoning": true,
+        "tool_call": true
+      },
+      "id": "perceptron/perceptron-mk1.5",
+      "name": "Mk1.5",
+      "providerId": "aimlapi",
+      "updated": "2026-09-25"
+    },
+    {
+      "flags": {
         "attachment": false,
         "reasoning": false,
         "tool_call": false
@@ -28520,7 +28531,7 @@
     },
     {
       "flags": {
-        "attachment": false,
+        "attachment": true,
         "reasoning": true,
         "tool_call": true
       },
@@ -28531,7 +28542,7 @@
     },
     {
       "flags": {
-        "attachment": false,
+        "attachment": true,
         "reasoning": true,
         "tool_call": true
       },
@@ -39627,6 +39638,17 @@
       "name": "Auto Small",
       "providerId": "kilo",
       "updated": "1970-01-01"
+    },
+    {
+      "flags": {
+        "attachment": false,
+        "reasoning": true,
+        "tool_call": true
+      },
+      "id": "liquid/lfm-2.5-2.6b",
+      "name": "LiquidAI: LFM2.5-2.6B",
+      "providerId": "kilo",
+      "updated": "2026-08-11"
     },
     {
       "flags": {
@@ -54821,6 +54843,105 @@
     },
     {
       "flags": {
+        "attachment": false,
+        "reasoning": true,
+        "tool_call": true
+      },
+      "id": "aleph-alpha/kolibri-1",
+      "name": "Kolibri 1",
+      "providerId": "munito",
+      "updated": "2026-10-03"
+    },
+    {
+      "flags": {
+        "attachment": false,
+        "reasoning": true,
+        "tool_call": true
+      },
+      "id": "deepseek-ai/deepseek-v4-flash",
+      "name": "DeepSeek V4 Flash 0731",
+      "providerId": "munito",
+      "updated": "2026-07-31"
+    },
+    {
+      "flags": {
+        "attachment": true,
+        "reasoning": true,
+        "tool_call": true
+      },
+      "id": "deepseek-ai/deepseek-v4.1-flash-1017",
+      "name": "DeepSeek V4.1 Flash 1017",
+      "providerId": "munito",
+      "updated": "2026-10-17"
+    },
+    {
+      "flags": {
+        "attachment": true,
+        "reasoning": true,
+        "tool_call": true
+      },
+      "id": "qwen/qwen3.8-27b",
+      "name": "Qwen3.8 27B",
+      "providerId": "munito",
+      "updated": "2026-08-14"
+    },
+    {
+      "flags": {
+        "attachment": true,
+        "reasoning": true,
+        "tool_call": true
+      },
+      "id": "zai-org/glm-5.3-flash",
+      "name": "GLM-5.3-Flash",
+      "providerId": "munito",
+      "updated": "2026-08-26"
+    },
+    {
+      "flags": {
+        "attachment": false,
+        "reasoning": true,
+        "tool_call": true
+      },
+      "id": "aleph-alpha/kolibri-1",
+      "name": "Kolibri 1",
+      "providerId": "munito-eu",
+      "updated": "2026-10-03"
+    },
+    {
+      "flags": {
+        "attachment": false,
+        "reasoning": true,
+        "tool_call": true
+      },
+      "id": "deepseek-ai/deepseek-v4-flash",
+      "name": "DeepSeek V4 Flash 0731",
+      "providerId": "munito-eu",
+      "updated": "2026-07-31"
+    },
+    {
+      "flags": {
+        "attachment": true,
+        "reasoning": true,
+        "tool_call": true
+      },
+      "id": "qwen/qwen3.8-27b",
+      "name": "Qwen3.8 27B",
+      "providerId": "munito-eu",
+      "updated": "2026-08-14"
+    },
+    {
+      "flags": {
+        "attachment": true,
+        "reasoning": true,
+        "tool_call": true
+      },
+      "id": "zai-org/glm-5.3-flash",
+      "name": "GLM-5.3-Flash",
+      "providerId": "munito-eu",
+      "updated": "2026-08-26"
+    },
+    {
+      "flags": {
         "attachment": true,
         "reasoning": true,
         "tool_call": true
@@ -64193,6 +64314,17 @@
     },
     {
       "flags": {
+        "attachment": true,
+        "reasoning": true,
+        "tool_call": true
+      },
+      "id": "moonshotai/kimi-k3.1-pro",
+      "name": "Kimi K3.1 Pro",
+      "providerId": "novita-ai",
+      "updated": "2026-10-23"
+    },
+    {
+      "flags": {
         "attachment": false,
         "reasoning": false,
         "tool_call": false
@@ -69363,6 +69495,17 @@
     },
     {
       "flags": {
+        "attachment": false,
+        "reasoning": true,
+        "tool_call": true
+      },
+      "id": "iceman-contributor-free",
+      "name": "Iceman Contributor Free",
+      "providerId": "opencode-go",
+      "updated": "2026-10-24"
+    },
+    {
+      "flags": {
         "attachment": true,
         "reasoning": true,
         "tool_call": true
@@ -70955,6 +71098,17 @@
       "name": "Schematron V2 Turbo",
       "providerId": "openrouter",
       "updated": "2026-04-16"
+    },
+    {
+      "flags": {
+        "attachment": false,
+        "reasoning": true,
+        "tool_call": true
+      },
+      "id": "liquid/lfm-2.5-2.6b",
+      "name": "LFM2.5-2.6B",
+      "providerId": "openrouter",
+      "updated": "2026-08-11"
     },
     {
       "flags": {
@@ -99312,7 +99466,7 @@
       "doc": "https://docs.aimlapi.com",
       "iconURL": "https://models.dev/logos/aimlapi.svg",
       "id": "aimlapi",
-      "modelCount": 177,
+      "modelCount": 178,
       "name": "AI/ML API"
     },
     {
@@ -100026,7 +100180,7 @@
       "doc": "https://kilo.ai",
       "iconURL": "https://models.dev/logos/kilo.svg",
       "id": "kilo",
-      "modelCount": 396,
+      "modelCount": 397,
       "name": "Kilo Gateway"
     },
     {
@@ -100320,6 +100474,22 @@
       "name": "Morph"
     },
     {
+      "api": "https://api.munito.ai/inference/v1",
+      "doc": "https://docs.munito.ai/models",
+      "iconURL": "https://models.dev/logos/munito.svg",
+      "id": "munito",
+      "modelCount": 5,
+      "name": "Munito AI"
+    },
+    {
+      "api": "https://api.eu.munito.ai/inference/v1",
+      "doc": "https://docs.munito.ai/regions",
+      "iconURL": "https://models.dev/logos/munito-eu.svg",
+      "id": "munito-eu",
+      "modelCount": 4,
+      "name": "Munito AI (EU)"
+    },
+    {
       "api": "https://api.nan.builders/v1",
       "doc": "https://nan.builders/docs/models",
       "iconURL": "https://models.dev/logos/nan.svg",
@@ -100388,7 +100558,7 @@
       "doc": "https://novita.ai/docs/guides/introduction",
       "iconURL": "https://models.dev/logos/novita-ai.svg",
       "id": "novita-ai",
-      "modelCount": 87,
+      "modelCount": 88,
       "name": "Novita AI"
     },
     {
@@ -100445,7 +100615,7 @@
       "doc": "https://opencode.ai/v2/docs/console/go/",
       "iconURL": "https://models.dev/logos/opencode-go.svg",
       "id": "opencode-go",
-      "modelCount": 36,
+      "modelCount": 37,
       "name": "OpenCode Go"
     },
     {
@@ -100462,7 +100632,7 @@
       "iconURL": "https://models.dev/logos/openrouter.svg",
       "id": "openrouter",
       "lobeIcon": "OpenRouter.Color",
-      "modelCount": 389,
+      "modelCount": 390,
       "name": "OpenRouter"
     },
     {
