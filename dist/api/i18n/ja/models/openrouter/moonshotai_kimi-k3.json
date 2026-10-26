@@ -2,8 +2,8 @@
   "attachment": true,
   "canonical_model_id": "moonshotai/kimi-k3",
   "cost": {
-    "cache_read": 0.19,
-    "input": 0.2,
+    "cache_read": 0.179,
+    "input": 0.189,
     "output": 20
   },
   "description": "Kimi multimodal agent model for visual understanding, coding, and planning",

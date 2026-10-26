@@ -2,9 +2,9 @@
   "attachment": false,
   "canonical_model_id": "deepseek/deepseek-v4-pro",
   "cost": {
-    "cache_read": 0.06309,
-    "input": 0.757074,
-    "output": 1.514148
+    "cache_read": 0.060407,
+    "input": 0.724884,
+    "output": 1.449768
   },
   "description": "Open MoE flagship with million-token context for coding and long agent runs",
   "family": "deepseek-thinking",
