@@ -26661,9 +26661,9 @@
     },
     {
       "flags": {
-        "attachment": false,
+        "attachment": true,
         "reasoning": true,
-        "tool_call": false
+        "tool_call": true
       },
       "id": "openai/gpt-6.1-terra",
       "name": "GPT-6.1 Terra",
@@ -39466,17 +39466,6 @@
     {
       "flags": {
         "attachment": false,
-        "reasoning": false,
-        "tool_call": false
-      },
-      "id": "ibm-granite/granite-4.0-h-micro",
-      "name": "IBM: Granite 4.0 Micro",
-      "providerId": "kilo",
-      "updated": "2025-10-20"
-    },
-    {
-      "flags": {
-        "attachment": false,
         "reasoning": true,
         "tool_call": true
       },
@@ -41055,6 +41044,17 @@
       },
       "id": "openai/gpt-6.1-terra",
       "name": "OpenAI: GPT-6.1 Terra",
+      "providerId": "kilo",
+      "updated": "2026-10-26"
+    },
+    {
+      "flags": {
+        "attachment": true,
+        "reasoning": true,
+        "tool_call": true
+      },
+      "id": "openai/gpt-6.1-terra-pro",
+      "name": "OpenAI: GPT-6.1 Terra Pro",
       "providerId": "kilo",
       "updated": "2026-10-26"
     },
@@ -59045,17 +59045,6 @@
     },
     {
       "flags": {
-        "attachment": false,
-        "reasoning": false,
-        "tool_call": false
-      },
-      "id": "openai/gpt-3.5-turbo",
-      "name": "GPT-3.5 Turbo",
-      "providerId": "nano-gpt",
-      "updated": "2023-11-06"
-    },
-    {
-      "flags": {
         "attachment": true,
         "reasoning": false,
         "tool_call": false
@@ -71388,17 +71377,6 @@
     {
       "flags": {
         "attachment": false,
-        "reasoning": false,
-        "tool_call": false
-      },
-      "id": "ibm-granite/granite-4.0-h-micro",
-      "name": "Granite 4.0 Micro",
-      "providerId": "openrouter",
-      "updated": "2025-10-20"
-    },
-    {
-      "flags": {
-        "attachment": false,
         "reasoning": true,
         "tool_call": true
       },
@@ -72922,6 +72900,17 @@
       },
       "id": "openai/gpt-6.1-terra",
       "name": "GPT-6.1 Terra",
+      "providerId": "openrouter",
+      "updated": "2026-10-26"
+    },
+    {
+      "flags": {
+        "attachment": true,
+        "reasoning": true,
+        "tool_call": true
+      },
+      "id": "openai/gpt-6.1-terra-pro",
+      "name": "GPT-6.1 Terra Pro",
       "providerId": "openrouter",
       "updated": "2026-10-26"
     },
@@ -91319,6 +91308,17 @@
     },
     {
       "flags": {
+        "attachment": true,
+        "reasoning": true,
+        "tool_call": true
+      },
+      "id": "openai-gpt-61-terra",
+      "name": "GPT-6.1 Terra",
+      "providerId": "venice",
+      "updated": "2026-10-26"
+    },
+    {
+      "flags": {
         "attachment": false,
         "reasoning": true,
         "tool_call": true
@@ -100964,7 +100964,7 @@
       "doc": "https://docs.nano-gpt.com",
       "iconURL": "https://models.dev/logos/nano-gpt.svg",
       "id": "nano-gpt",
-      "modelCount": 650,
+      "modelCount": 649,
       "name": "NanoGPT"
     },
     {
@@ -101572,7 +101572,7 @@
       "iconURL": "https://models.dev/logos/venice.svg",
       "id": "venice",
       "lobeIcon": "VeniceAI",
-      "modelCount": 128,
+      "modelCount": 129,
       "name": "Venice AI"
     },
     {

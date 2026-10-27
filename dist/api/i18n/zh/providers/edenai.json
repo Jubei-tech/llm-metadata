@@ -10919,7 +10919,7 @@
       "tool_call": true
     },
     "openai/gpt-6.1-terra": {
-      "attachment": false,
+      "attachment": true,
       "canonical_model_id": "openai/gpt-6.1-terra",
       "cost": {
         "cache_read": 0.05,
@@ -10957,7 +10957,9 @@
       },
       "modalities": {
         "input": [
-          "text"
+          "text",
+          "image",
+          "pdf"
         ],
         "output": [
           "text"
@@ -10980,9 +10982,9 @@
         }
       ],
       "release_date": "2026-10-26",
-      "structured_output": false,
+      "structured_output": true,
       "temperature": false,
-      "tool_call": false
+      "tool_call": true
     },
     "openai/gpt-latest": {
       "attachment": true,

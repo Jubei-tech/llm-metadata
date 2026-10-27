@@ -90543,13 +90543,13 @@
       "description": "Fast, efficient model for visual reasoning, precise computer use, and clear, natural writing.",
       "firm": "edenai",
       "flags": {
-        "attachment": false,
+        "attachment": true,
         "audio": false,
-        "image": false,
+        "image": true,
         "open_weights": false,
         "reasoning": true,
         "temperature": false,
-        "tool_call": false
+        "tool_call": true
       },
       "icon": "",
       "id": "openai/gpt-6.1-terra",
@@ -90559,7 +90559,9 @@
       "maxOutputTokens": 128000,
       "modalities": {
         "input": [
-          "text"
+          "text",
+          "image",
+          "pdf"
         ],
         "output": [
           "text"
@@ -118119,7 +118121,7 @@
       "id": "deepseek-v4.1-flash",
       "knowledge": "2025-05",
       "lastUpdated": "2026-09-10",
-      "maxCtxTokens": 1000000,
+      "maxCtxTokens": 1048576,
       "maxOutputTokens": 262144,
       "modalities": {
         "input": [
@@ -121897,7 +121899,7 @@
         "cacheRead": 0.027,
         "cacheWrite": null,
         "input": 0.13,
-        "output": 0.3666
+        "output": 0.4125
       },
       "releaseDate": "2026-07-31",
       "tags": []
@@ -121931,9 +121933,9 @@
       },
       "name": "Kimi K2.6",
       "price": {
-        "cacheRead": 0.1569,
+        "cacheRead": 0.117,
         "cacheWrite": null,
-        "input": 0.5457,
+        "input": 0.546,
         "output": 3.5
       },
       "releaseDate": "2026-04-20",
@@ -121970,8 +121972,8 @@
       "price": {
         "cacheRead": 0.15,
         "cacheWrite": null,
-        "input": 0.6712,
-        "output": 3.35
+        "input": 0.56,
+        "output": 3.1
       },
       "releaseDate": "2026-06-12",
       "tags": []
@@ -122007,7 +122009,7 @@
         "cacheRead": 0.16,
         "cacheWrite": null,
         "input": 0.99,
-        "output": 1.782
+        "output": 4.32
       },
       "releaseDate": "2026-06-13",
       "tags": []
@@ -129995,7 +129997,7 @@
       "knowledge": null,
       "lastUpdated": "2026-09-14",
       "maxCtxTokens": 1048576,
-      "maxOutputTokens": 393216,
+      "maxOutputTokens": 943718,
       "modalities": {
         "input": [
           "text",
@@ -130007,10 +130009,10 @@
       },
       "name": "DeepSeek: DeepSeek Flash Latest",
       "price": {
-        "cacheRead": 0.03,
+        "cacheRead": 0.009453,
         "cacheWrite": null,
-        "input": 0.04,
-        "output": 0.5
+        "input": 0.034919,
+        "output": 0.01
       },
       "releaseDate": "2026-09-14",
       "tags": []
@@ -130043,9 +130045,9 @@
       },
       "name": "DeepSeek: DeepSeek Pro Latest",
       "price": {
-        "cacheRead": 0.12,
+        "cacheRead": 0.21,
         "cacheWrite": null,
-        "input": 0.1188,
+        "input": 0.2149,
         "output": 8
       },
       "releaseDate": "2026-09-14",
@@ -130081,8 +130083,8 @@
       "price": {
         "cacheRead": 0.028,
         "cacheWrite": null,
-        "input": 0.0422,
-        "output": 0.1694
+        "input": 0.0475,
+        "output": 0.1568
       },
       "releaseDate": "2026-08-01",
       "tags": []
@@ -130197,10 +130199,10 @@
       },
       "name": "MoonshotAI: Kimi Latest",
       "price": {
-        "cacheRead": 0.17,
+        "cacheRead": 0.149,
         "cacheWrite": null,
-        "input": 0.1795,
-        "output": 10.5634
+        "input": 0.159,
+        "output": 20
       },
       "releaseDate": "2026-04-27",
       "tags": []
@@ -132338,8 +132340,8 @@
       "id": "deepseek/deepseek-v4-flash",
       "knowledge": "2025-05",
       "lastUpdated": "2026-04-24",
-      "maxCtxTokens": 1048575,
-      "maxOutputTokens": 943717,
+      "maxCtxTokens": 1048576,
+      "maxOutputTokens": 131072,
       "modalities": {
         "input": [
           "text"
@@ -132350,10 +132352,10 @@
       },
       "name": "DeepSeek V4 Flash",
       "price": {
-        "cacheRead": 0.0182,
+        "cacheRead": 0.028,
         "cacheWrite": null,
-        "input": 0.091,
-        "output": 0.182
+        "input": 0.14,
+        "output": 0.28
       },
       "releaseDate": "2026-04-24",
       "tags": []
@@ -132520,7 +132522,7 @@
       "knowledge": "2025-05",
       "lastUpdated": "2026-09-10",
       "maxCtxTokens": 1048576,
-      "maxOutputTokens": 393216,
+      "maxOutputTokens": 131072,
       "modalities": {
         "input": [
           "text",
@@ -133894,42 +133896,6 @@
         "output": 0.11
       },
       "releaseDate": "2023-08-10",
-      "tags": []
-    },
-    {
-      "description": "Efficient model for low-latency assistance, extraction, and routine automation",
-      "firm": "kilo",
-      "flags": {
-        "attachment": false,
-        "audio": false,
-        "image": false,
-        "open_weights": false,
-        "reasoning": false,
-        "temperature": true,
-        "tool_call": false
-      },
-      "icon": "",
-      "id": "ibm-granite/granite-4.0-h-micro",
-      "knowledge": null,
-      "lastUpdated": "2025-10-20",
-      "maxCtxTokens": 131000,
-      "maxOutputTokens": 117900,
-      "modalities": {
-        "input": [
-          "text"
-        ],
-        "output": [
-          "text"
-        ]
-      },
-      "name": "IBM: Granite 4.0 Micro",
-      "price": {
-        "cacheRead": null,
-        "cacheWrite": null,
-        "input": 0.017,
-        "output": 0.112
-      },
-      "releaseDate": "2025-10-20",
       "tags": []
     },
     {
@@ -136622,8 +136588,8 @@
       "price": {
         "cacheRead": 0.15,
         "cacheWrite": null,
-        "input": 0.6712,
-        "output": 3.35
+        "input": 0.56,
+        "output": 3.1
       },
       "releaseDate": "2026-06-12",
       "tags": []
@@ -139300,6 +139266,44 @@
       "tags": []
     },
     {
+      "description": "GPT-6.1 Terra Pro is the same underlying model as [GPT-6.1 Terra](https://openrouter.ai/openai/gpt-6.1-terra), served with `reasoning.mode` set to `pro` for higher-quality responses on complex tasks. **Cost note:** pro mode spends far more...",
+      "firm": "kilo",
+      "flags": {
+        "attachment": true,
+        "audio": false,
+        "image": true,
+        "open_weights": false,
+        "reasoning": true,
+        "temperature": false,
+        "tool_call": true
+      },
+      "icon": "",
+      "id": "openai/gpt-6.1-terra-pro",
+      "knowledge": null,
+      "lastUpdated": "2026-10-26",
+      "maxCtxTokens": 1050000,
+      "maxOutputTokens": 128000,
+      "modalities": {
+        "input": [
+          "pdf",
+          "image",
+          "text"
+        ],
+        "output": [
+          "text"
+        ]
+      },
+      "name": "OpenAI: GPT-6.1 Terra Pro",
+      "price": {
+        "cacheRead": 0.05,
+        "cacheWrite": 1.25,
+        "input": 1,
+        "output": 5
+      },
+      "releaseDate": "2026-10-26",
+      "tags": []
+    },
+    {
       "description": "Speech generation model for controllable voice, narration, and audio delivery",
       "firm": "kilo",
       "flags": {
@@ -141233,7 +141237,7 @@
       "knowledge": null,
       "lastUpdated": "2026-02-23",
       "maxCtxTokens": 262144,
-      "maxOutputTokens": 65536,
+      "maxOutputTokens": 81920,
       "modalities": {
         "input": [
           "text",
@@ -141550,10 +141554,10 @@
       },
       "name": "Qwen3.6 35B-A3B",
       "price": {
-        "cacheRead": 0.03,
+        "cacheRead": 0.05,
         "cacheWrite": null,
         "input": 0.1,
-        "output": 0.9
+        "output": 0.95
       },
       "releaseDate": "2026-04-17",
       "tags": []
@@ -141798,7 +141802,7 @@
       "knowledge": null,
       "lastUpdated": "2026-08-14",
       "maxCtxTokens": 262144,
-      "maxOutputTokens": 235929,
+      "maxOutputTokens": 65536,
       "modalities": {
         "input": [
           "text",
@@ -143034,10 +143038,10 @@
       },
       "name": "Hy3",
       "price": {
-        "cacheRead": 0.020625,
+        "cacheRead": 0.033,
         "cacheWrite": null,
-        "input": 0.0825,
-        "output": 0.33
+        "input": 0.132,
+        "output": 0.528
       },
       "releaseDate": "2026-07-06",
       "tags": []
@@ -143106,10 +143110,10 @@
       },
       "name": "Hy4 preview",
       "price": {
-        "cacheRead": 0.0378,
+        "cacheRead": 0.042,
         "cacheWrite": null,
-        "input": 0.7506,
-        "output": 2.2509
+        "input": 0.834,
+        "output": 2.501
       },
       "releaseDate": "2026-08-28",
       "tags": []
@@ -143834,8 +143838,8 @@
       "id": "xiaomi/mimo-v2.5",
       "knowledge": "2024-12",
       "lastUpdated": "2026-04-22",
-      "maxCtxTokens": 1050000,
-      "maxOutputTokens": 945000,
+      "maxCtxTokens": 1000000,
+      "maxOutputTokens": 65536,
       "modalities": {
         "input": [
           "text",
@@ -143873,8 +143877,8 @@
       "id": "xiaomi/mimo-v2.5-pro",
       "knowledge": "2024-12",
       "lastUpdated": "2026-04-22",
-      "maxCtxTokens": 1050000,
-      "maxOutputTokens": 945000,
+      "maxCtxTokens": 262144,
+      "maxOutputTokens": 235929,
       "modalities": {
         "input": [
           "text"
@@ -144389,8 +144393,8 @@
       "id": "z-ai/glm-5.1",
       "knowledge": null,
       "lastUpdated": "2026-04-07",
-      "maxCtxTokens": 202752,
-      "maxOutputTokens": 131072,
+      "maxCtxTokens": 200000,
+      "maxOutputTokens": 128000,
       "modalities": {
         "input": [
           "text"
@@ -190101,10 +190105,10 @@
       },
       "name": "DeepSeek Latest",
       "price": {
-        "cacheRead": 0.0042,
+        "cacheRead": 0.022,
         "cacheWrite": null,
-        "input": 0.132,
-        "output": 0.396
+        "input": 0.66,
+        "output": 1.98
       },
       "releaseDate": "2026-05-03",
       "tags": []
@@ -190319,10 +190323,10 @@
       },
       "name": "DeepSeek V4 Flash 0731",
       "price": {
-        "cacheRead": 0.001414,
+        "cacheRead": 0.013,
         "cacheWrite": null,
-        "input": 0.04444,
-        "output": 0.13332
+        "input": 0.05,
+        "output": 0.16
       },
       "releaseDate": "2026-07-31",
       "tags": []
@@ -190355,10 +190359,10 @@
       },
       "name": "DeepSeek V4 Flash 0731 (Thinking)",
       "price": {
-        "cacheRead": 0.001414,
+        "cacheRead": 0.013,
         "cacheWrite": null,
-        "input": 0.04444,
-        "output": 0.13332
+        "input": 0.05,
+        "output": 0.16
       },
       "releaseDate": "2026-07-31",
       "tags": []
@@ -190537,10 +190541,10 @@
       },
       "name": "DeepSeek V4 Pro 0813",
       "price": {
-        "cacheRead": 0.0042,
+        "cacheRead": 0.022,
         "cacheWrite": null,
-        "input": 0.132,
-        "output": 0.396
+        "input": 0.66,
+        "output": 1.98
       },
       "releaseDate": "2026-08-13",
       "tags": []
@@ -190573,10 +190577,10 @@
       },
       "name": "DeepSeek V4 Pro 0813 Thinking",
       "price": {
-        "cacheRead": 0.0042,
+        "cacheRead": 0.022,
         "cacheWrite": null,
-        "input": 0.132,
-        "output": 0.396
+        "input": 0.66,
+        "output": 1.98
       },
       "releaseDate": "2026-08-13",
       "tags": []
@@ -190646,10 +190650,10 @@
       },
       "name": "DeepSeek V4.1 Flash",
       "price": {
-        "cacheRead": 0.000954,
+        "cacheRead": 0.006,
         "cacheWrite": null,
-        "input": 0.0477,
-        "output": 0.1908
+        "input": 0.09,
+        "output": 0.25
       },
       "releaseDate": "2026-09-10",
       "tags": []
@@ -190829,10 +190833,10 @@
       },
       "name": "DeepSeek V4.1 Flash Thinking",
       "price": {
-        "cacheRead": 0.000954,
+        "cacheRead": 0.006,
         "cacheWrite": null,
-        "input": 0.0477,
-        "output": 0.1908
+        "input": 0.09,
+        "output": 0.25
       },
       "releaseDate": "2026-09-10",
       "tags": []
@@ -198788,10 +198792,10 @@
       },
       "name": "Kimi K2.6",
       "price": {
-        "cacheRead": 0.0656,
+        "cacheRead": 0.039,
         "cacheWrite": null,
-        "input": 0.3895,
-        "output": 1.64
+        "input": 0.39,
+        "output": 1.8
       },
       "releaseDate": "2026-04-20",
       "tags": []
@@ -198825,10 +198829,10 @@
       },
       "name": "Kimi K2.6 Thinking",
       "price": {
-        "cacheRead": 0.0656,
+        "cacheRead": 0.039,
         "cacheWrite": null,
-        "input": 0.3895,
-        "output": 1.64
+        "input": 0.39,
+        "output": 1.8
       },
       "releaseDate": "2026-04-20",
       "tags": []
@@ -198862,10 +198866,10 @@
       },
       "name": "Kimi K2.7 Code",
       "price": {
-        "cacheRead": 0.15,
+        "cacheRead": 0.12,
         "cacheWrite": null,
-        "input": 0.6712,
-        "output": 3.35
+        "input": 0.6,
+        "output": 3
       },
       "releaseDate": "2026-06-12",
       "tags": []
@@ -198937,10 +198941,10 @@
       },
       "name": "Kimi K3",
       "price": {
-        "cacheRead": 0.2,
+        "cacheRead": 0.165,
         "cacheWrite": null,
-        "input": 1.2,
-        "output": 5.5
+        "input": 1.65,
+        "output": 8.25
       },
       "releaseDate": "2026-07-16",
       "tags": []
@@ -199925,42 +199929,6 @@
         "output": 0.5
       },
       "releaseDate": "2026-10-15",
-      "tags": []
-    },
-    {
-      "description": "Compact GPT model for low-latency assistance and high-volume workloads",
-      "firm": "nano-gpt",
-      "flags": {
-        "attachment": false,
-        "audio": false,
-        "image": false,
-        "open_weights": false,
-        "reasoning": false,
-        "temperature": true,
-        "tool_call": false
-      },
-      "icon": "",
-      "id": "openai/gpt-3.5-turbo",
-      "knowledge": "2021-09-01",
-      "lastUpdated": "2023-11-06",
-      "maxCtxTokens": 16385,
-      "maxOutputTokens": 4096,
-      "modalities": {
-        "input": [
-          "text"
-        ],
-        "output": [
-          "text"
-        ]
-      },
-      "name": "GPT-3.5 Turbo",
-      "price": {
-        "cacheRead": null,
-        "cacheWrite": null,
-        "input": 0.5,
-        "output": 1.5
-      },
-      "releaseDate": "2023-03-01",
       "tags": []
     },
     {
@@ -207611,10 +207579,10 @@
       },
       "name": "Tencent Hy4 Preview",
       "price": {
-        "cacheRead": 0.0378,
+        "cacheRead": 0.0399,
         "cacheWrite": null,
-        "input": 0.7506,
-        "output": 2.2509
+        "input": 0.7923,
+        "output": 2.37595
       },
       "releaseDate": "2026-08-28",
       "tags": []
@@ -210467,10 +210435,10 @@
       },
       "name": "GLM 5.2",
       "price": {
-        "cacheRead": 0.0351,
+        "cacheRead": 0.078,
         "cacheWrite": null,
-        "input": 0.189,
-        "output": 0.594
+        "input": 0.42,
+        "output": 1.32
       },
       "releaseDate": "2026-06-13",
       "tags": []
@@ -210503,10 +210471,10 @@
       },
       "name": "GLM 5.2 Thinking",
       "price": {
-        "cacheRead": 0.0351,
+        "cacheRead": 0.078,
         "cacheWrite": null,
-        "input": 0.189,
-        "output": 0.594
+        "input": 0.42,
+        "output": 1.32
       },
       "releaseDate": "2026-06-13",
       "tags": []
@@ -237670,7 +237638,7 @@
       "knowledge": null,
       "lastUpdated": "2026-09-14",
       "maxCtxTokens": 1048576,
-      "maxOutputTokens": 393216,
+      "maxOutputTokens": 943718,
       "modalities": {
         "input": [
           "text",
@@ -237682,10 +237650,10 @@
       },
       "name": "DeepSeek Flash Latest",
       "price": {
-        "cacheRead": 0.03,
+        "cacheRead": 0.009453,
         "cacheWrite": null,
-        "input": 0.04,
-        "output": 0.5
+        "input": 0.034919,
+        "output": 0.01
       },
       "releaseDate": "2026-09-14",
       "tags": []
@@ -237718,9 +237686,9 @@
       },
       "name": "DeepSeek Pro Latest",
       "price": {
-        "cacheRead": 0.12,
+        "cacheRead": 0.21,
         "cacheWrite": null,
-        "input": 0.1188,
+        "input": 0.2149,
         "output": 8
       },
       "releaseDate": "2026-09-14",
@@ -237756,8 +237724,8 @@
       "price": {
         "cacheRead": 0.028,
         "cacheWrite": null,
-        "input": 0.0422,
-        "output": 0.1694
+        "input": 0.0475,
+        "output": 0.1568
       },
       "releaseDate": "2026-08-01",
       "tags": []
@@ -237872,10 +237840,10 @@
       },
       "name": "Kimi Latest",
       "price": {
-        "cacheRead": 0.17,
+        "cacheRead": 0.149,
         "cacheWrite": null,
-        "input": 0.1795,
-        "output": 10.5634
+        "input": 0.159,
+        "output": 20
       },
       "releaseDate": "2026-04-27",
       "tags": []
@@ -240014,7 +239982,7 @@
       "knowledge": "2025-05",
       "lastUpdated": "2026-04-24",
       "maxCtxTokens": 1048576,
-      "maxOutputTokens": 943717,
+      "maxOutputTokens": 131072,
       "modalities": {
         "input": [
           "text"
@@ -240025,10 +239993,10 @@
       },
       "name": "DeepSeek V4 Flash",
       "price": {
-        "cacheRead": 0.0182,
+        "cacheRead": 0.028,
         "cacheWrite": null,
-        "input": 0.091,
-        "output": 0.182
+        "input": 0.14,
+        "output": 0.28
       },
       "releaseDate": "2026-04-24",
       "tags": []
@@ -240061,10 +240029,10 @@
       },
       "name": "DeepSeek V4 Flash 0731",
       "price": {
-        "cacheRead": 0.001414,
+        "cacheRead": 0.014,
         "cacheWrite": null,
-        "input": 0.04444,
-        "output": 0.13332
+        "input": 0.44,
+        "output": 1.32
       },
       "releaseDate": "2026-07-31",
       "tags": []
@@ -240134,10 +240102,10 @@
       },
       "name": "DeepSeek V4 Pro",
       "price": {
-        "cacheRead": 0.060407,
+        "cacheRead": 0.079605,
         "cacheWrite": null,
-        "input": 0.724884,
-        "output": 1.449768
+        "input": 0.95526,
+        "output": 1.91052
       },
       "releaseDate": "2026-04-24",
       "tags": []
@@ -240170,10 +240138,10 @@
       },
       "name": "DeepSeek V4 Pro 0813",
       "price": {
-        "cacheRead": 0.022,
+        "cacheRead": 0.044,
         "cacheWrite": null,
-        "input": 0.66,
-        "output": 1.98
+        "input": 1.32,
+        "output": 3.96
       },
       "releaseDate": "2026-08-13",
       "tags": []
@@ -240195,7 +240163,7 @@
       "knowledge": "2025-05",
       "lastUpdated": "2026-09-10",
       "maxCtxTokens": 1048576,
-      "maxOutputTokens": 393216,
+      "maxOutputTokens": 131072,
       "modalities": {
         "input": [
           "text",
@@ -240207,10 +240175,10 @@
       },
       "name": "DeepSeek V4.1 Flash",
       "price": {
-        "cacheRead": 0.000954,
+        "cacheRead": 0.0042,
         "cacheWrite": null,
-        "input": 0.0477,
-        "output": 0.1908
+        "input": 0.14,
+        "output": 0.42
       },
       "releaseDate": "2026-09-10",
       "tags": []
@@ -240244,10 +240212,10 @@
       },
       "name": "DeepSeek V4.1 Flash 1017",
       "price": {
-        "cacheRead": 0.003,
+        "cacheRead": 0.006,
         "cacheWrite": null,
-        "input": 0.15,
-        "output": 0.6
+        "input": 0.3,
+        "output": 1.2
       },
       "releaseDate": "2026-10-17",
       "tags": []
@@ -241638,42 +241606,6 @@
         "output": 0.11
       },
       "releaseDate": "2023-08-10",
-      "tags": []
-    },
-    {
-      "description": "Efficient model for low-latency assistance, extraction, and routine automation",
-      "firm": "openrouter",
-      "flags": {
-        "attachment": false,
-        "audio": false,
-        "image": false,
-        "open_weights": true,
-        "reasoning": false,
-        "temperature": true,
-        "tool_call": false
-      },
-      "icon": "lb:openrouter-color",
-      "id": "ibm-granite/granite-4.0-h-micro",
-      "knowledge": null,
-      "lastUpdated": "2025-10-20",
-      "maxCtxTokens": 131000,
-      "maxOutputTokens": 117900,
-      "modalities": {
-        "input": [
-          "text"
-        ],
-        "output": [
-          "text"
-        ]
-      },
-      "name": "Granite 4.0 Micro",
-      "price": {
-        "cacheRead": null,
-        "cacheWrite": null,
-        "input": 0.017,
-        "output": 0.112
-      },
-      "releaseDate": "2025-10-20",
       "tags": []
     },
     {
@@ -244180,8 +244112,8 @@
       "price": {
         "cacheRead": 0.15,
         "cacheWrite": null,
-        "input": 0.6712,
-        "output": 3.35
+        "input": 0.56,
+        "output": 3.1
       },
       "releaseDate": "2026-06-12",
       "tags": []
@@ -244216,9 +244148,9 @@
       },
       "name": "Kimi K3",
       "price": {
-        "cacheRead": 0.179,
+        "cacheRead": 0.149,
         "cacheWrite": null,
-        "input": 0.189,
+        "input": 0.159,
         "output": 20
       },
       "releaseDate": "2026-07-16",
@@ -246850,6 +246782,44 @@
       "tags": []
     },
     {
+      "description": "Frontier GPT model for professional reasoning, coding, and multimodal work",
+      "firm": "openrouter",
+      "flags": {
+        "attachment": true,
+        "audio": false,
+        "image": true,
+        "open_weights": false,
+        "reasoning": true,
+        "temperature": false,
+        "tool_call": true
+      },
+      "icon": "lb:openrouter-color",
+      "id": "openai/gpt-6.1-terra-pro",
+      "knowledge": null,
+      "lastUpdated": "2026-10-26",
+      "maxCtxTokens": 1050000,
+      "maxOutputTokens": 128000,
+      "modalities": {
+        "input": [
+          "pdf",
+          "image",
+          "text"
+        ],
+        "output": [
+          "text"
+        ]
+      },
+      "name": "GPT-6.1 Terra Pro",
+      "price": {
+        "cacheRead": 0.05,
+        "cacheWrite": 1.25,
+        "input": 1,
+        "output": 5
+      },
+      "releaseDate": "2026-10-26",
+      "tags": []
+    },
+    {
       "description": "Speech generation model for controllable voice, narration, and audio delivery",
       "firm": "openrouter",
       "flags": {
@@ -248817,7 +248787,7 @@
       "knowledge": null,
       "lastUpdated": "2026-02-23",
       "maxCtxTokens": 262144,
-      "maxOutputTokens": 65536,
+      "maxOutputTokens": 81920,
       "modalities": {
         "input": [
           "text",
@@ -248830,10 +248800,10 @@
       },
       "name": "Qwen3.5 27B",
       "price": {
-        "cacheRead": 0.27,
+        "cacheRead": null,
         "cacheWrite": null,
-        "input": 0.27,
-        "output": 2.16
+        "input": 0.26,
+        "output": 2.6
       },
       "releaseDate": "2026-02-23",
       "tags": []
@@ -249134,10 +249104,10 @@
       },
       "name": "Qwen3.6 35B-A3B",
       "price": {
-        "cacheRead": 0.03,
+        "cacheRead": 0.05,
         "cacheWrite": null,
         "input": 0.1,
-        "output": 0.9
+        "output": 0.95
       },
       "releaseDate": "2026-04-17",
       "tags": []
@@ -249382,7 +249352,7 @@
       "knowledge": null,
       "lastUpdated": "2026-08-14",
       "maxCtxTokens": 1000000,
-      "maxOutputTokens": 235929,
+      "maxOutputTokens": 65536,
       "modalities": {
         "input": [
           "text",
@@ -249395,10 +249365,10 @@
       },
       "name": "Qwen3.8 27B",
       "price": {
-        "cacheRead": 0.09,
+        "cacheRead": 0.0039,
         "cacheWrite": null,
-        "input": 0.2,
-        "output": 2.5
+        "input": 0.039,
+        "output": 1.25
       },
       "releaseDate": "2026-08-14",
       "tags": []
@@ -250357,10 +250327,10 @@
       },
       "name": "Hy3",
       "price": {
-        "cacheRead": 0.020625,
+        "cacheRead": 0.033,
         "cacheWrite": null,
-        "input": 0.0825,
-        "output": 0.33
+        "input": 0.132,
+        "output": 0.528
       },
       "releaseDate": "2026-07-06",
       "tags": []
@@ -250429,10 +250399,10 @@
       },
       "name": "Hy4 preview",
       "price": {
-        "cacheRead": 0.0378,
+        "cacheRead": 0.042,
         "cacheWrite": null,
-        "input": 0.7506,
-        "output": 2.2509
+        "input": 0.834,
+        "output": 2.501
       },
       "releaseDate": "2026-08-28",
       "tags": []
@@ -251234,7 +251204,7 @@
       "knowledge": "2024-12",
       "lastUpdated": "2026-04-22",
       "maxCtxTokens": 1050000,
-      "maxOutputTokens": 945000,
+      "maxOutputTokens": 65536,
       "modalities": {
         "input": [
           "text",
@@ -251248,10 +251218,10 @@
       },
       "name": "MiMo-V2.5",
       "price": {
-        "cacheRead": 0.00255,
+        "cacheRead": 0.08,
         "cacheWrite": null,
-        "input": 0.119,
-        "output": 0.238
+        "input": 0.4,
+        "output": 2
       },
       "releaseDate": "2026-04-22",
       "tags": []
@@ -251273,7 +251243,7 @@
       "knowledge": "2024-12",
       "lastUpdated": "2026-04-22",
       "maxCtxTokens": 1050000,
-      "maxOutputTokens": 945000,
+      "maxOutputTokens": 235929,
       "modalities": {
         "input": [
           "text"
@@ -251284,10 +251254,10 @@
       },
       "name": "MiMo-V2.5-Pro",
       "price": {
-        "cacheRead": 0.0028,
+        "cacheRead": 0.096,
         "cacheWrite": null,
-        "input": 0.3045,
-        "output": 0.609
+        "input": 0.48,
+        "output": 1.8
       },
       "releaseDate": "2026-04-22",
       "tags": []
@@ -251789,7 +251759,7 @@
       "knowledge": null,
       "lastUpdated": "2026-04-07",
       "maxCtxTokens": 204800,
-      "maxOutputTokens": 131072,
+      "maxOutputTokens": 128000,
       "modalities": {
         "input": [
           "text"
@@ -251800,10 +251770,10 @@
       },
       "name": "GLM-5.1",
       "price": {
-        "cacheRead": 0.26,
+        "cacheRead": 0.1794,
         "cacheWrite": null,
-        "input": 1.4,
-        "output": 4.4
+        "input": 0.966,
+        "output": 3.036
       },
       "releaseDate": "2026-04-07",
       "tags": []
@@ -267590,7 +267560,7 @@
       "knowledge": "2025-05",
       "lastUpdated": "2026-04-24",
       "maxCtxTokens": 1048576,
-      "maxOutputTokens": 943717,
+      "maxOutputTokens": 131072,
       "modalities": {
         "input": [
           "text"
@@ -269595,7 +269565,7 @@
       "knowledge": null,
       "lastUpdated": "2026-08-14",
       "maxCtxTokens": 1000000,
-      "maxOutputTokens": 235929,
+      "maxOutputTokens": 65536,
       "modalities": {
         "input": [
           "text",
@@ -308912,6 +308882,43 @@
       "tags": []
     },
     {
+      "description": "Fast, efficient model for visual reasoning, precise computer use, and clear, natural writing.",
+      "firm": "venice",
+      "flags": {
+        "attachment": true,
+        "audio": false,
+        "image": true,
+        "open_weights": false,
+        "reasoning": true,
+        "temperature": false,
+        "tool_call": true
+      },
+      "icon": "lb:veniceai",
+      "id": "openai-gpt-61-terra",
+      "knowledge": "2026-06-01",
+      "lastUpdated": "2026-10-26",
+      "maxCtxTokens": 1050000,
+      "maxOutputTokens": 128000,
+      "modalities": {
+        "input": [
+          "text",
+          "image"
+        ],
+        "output": [
+          "text"
+        ]
+      },
+      "name": "GPT-6.1 Terra",
+      "price": {
+        "cacheRead": 0.05,
+        "cacheWrite": 1.25,
+        "input": 1,
+        "output": 5
+      },
+      "releaseDate": "2026-10-26",
+      "tags": []
+    },
+    {
       "description": "Open GPT reasoning model for self-hosted agents and controllable deployments",
       "firm": "venice",
       "flags": {
@@ -328914,7 +328921,7 @@
       "price": {
         "cacheRead": 0.002,
         "cacheWrite": null,
-        "input": 0.15,
+        "input": 0.13,
         "output": 0.65
       },
       "releaseDate": "2026-09-10",
@@ -329205,10 +329212,10 @@
       },
       "name": "Kimi K2.7 Code",
       "price": {
-        "cacheRead": 0.15,
+        "cacheRead": 0.12,
         "cacheWrite": null,
-        "input": 0.71,
-        "output": 3.5
+        "input": 0.6,
+        "output": 3
       },
       "releaseDate": "2026-06-12",
       "tags": []

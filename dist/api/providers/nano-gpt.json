@@ -6705,9 +6705,9 @@
     "deepseek/deepseek-latest": {
       "attachment": false,
       "cost": {
-        "cache_read": 0.0042,
-        "input": 0.132,
-        "output": 0.396
+        "cache_read": 0.022,
+        "input": 0.66,
+        "output": 1.98
       },
       "description": "DeepSeek chat model for instruction following, coding, and analysis",
       "family": "deepseek",
@@ -6953,9 +6953,9 @@
       "attachment": false,
       "canonical_model_id": "deepseek/deepseek-v4-flash-0731",
       "cost": {
-        "cache_read": 0.001414,
-        "input": 0.04444,
-        "output": 0.13332
+        "cache_read": 0.013,
+        "input": 0.05,
+        "output": 0.16
       },
       "description": "Official DeepSeek V4 Flash release with enhanced agentic capabilities and integrated DSpark speculative decoding",
       "family": "deepseek-flash",
@@ -6998,9 +6998,9 @@
       "attachment": false,
       "canonical_model_id": "deepseek/deepseek-v4-flash-0731",
       "cost": {
-        "cache_read": 0.001414,
-        "input": 0.04444,
-        "output": 0.13332
+        "cache_read": 0.013,
+        "input": 0.05,
+        "output": 0.16
       },
       "description": "Official DeepSeek V4 Flash release with enhanced agentic capabilities and integrated DSpark speculative decoding",
       "family": "deepseek-flash",
@@ -7219,9 +7219,9 @@
       "attachment": false,
       "canonical_model_id": "deepseek/deepseek-v4-pro-0813",
       "cost": {
-        "cache_read": 0.0042,
-        "input": 0.132,
-        "output": 0.396
+        "cache_read": 0.022,
+        "input": 0.66,
+        "output": 1.98
       },
       "description": "DeepSeek V4 Pro snapshot with million-token context and support for thinking and non-thinking modes",
       "family": "deepseek-thinking",
@@ -7263,9 +7263,9 @@
       "attachment": false,
       "canonical_model_id": "deepseek/deepseek-v4-pro-0813",
       "cost": {
-        "cache_read": 0.0042,
-        "input": 0.132,
-        "output": 0.396
+        "cache_read": 0.022,
+        "input": 0.66,
+        "output": 1.98
       },
       "description": "DeepSeek V4 Pro snapshot with million-token context and support for thinking and non-thinking modes",
       "family": "deepseek-thinking",
@@ -7351,9 +7351,9 @@
       "attachment": true,
       "canonical_model_id": "deepseek/deepseek-v4.1-flash",
       "cost": {
-        "cache_read": 0.000954,
-        "input": 0.0477,
-        "output": 0.1908
+        "cache_read": 0.006,
+        "input": 0.09,
+        "output": 0.25
       },
       "description": "DeepSeek V4.1 Flash model for reasoning and agentic coding",
       "family": "deepseek-flash",
@@ -7573,9 +7573,9 @@
       "attachment": true,
       "canonical_model_id": "deepseek/deepseek-v4.1-flash",
       "cost": {
-        "cache_read": 0.000954,
-        "input": 0.0477,
-        "output": 0.1908
+        "cache_read": 0.006,
+        "input": 0.09,
+        "output": 0.25
       },
       "description": "DeepSeek V4.1 Flash model for reasoning and agentic coding",
       "family": "deepseek-flash",
@@ -14192,9 +14192,9 @@
       "attachment": true,
       "canonical_model_id": "moonshotai/kimi-k2.6",
       "cost": {
-        "cache_read": 0.0656,
-        "input": 0.3895,
-        "output": 1.64
+        "cache_read": 0.039,
+        "input": 0.39,
+        "output": 1.8
       },
       "description": "Multimodal Kimi workhorse for agent loops, coding tasks, and visual context",
       "family": "kimi-k2",
@@ -14227,9 +14227,9 @@
       "attachment": true,
       "canonical_model_id": "moonshotai/kimi-k2.6",
       "cost": {
-        "cache_read": 0.0656,
-        "input": 0.3895,
-        "output": 1.64
+        "cache_read": 0.039,
+        "input": 0.39,
+        "output": 1.8
       },
       "description": "Multimodal Kimi workhorse for agent loops, coding tasks, and visual context",
       "family": "kimi-k2",
@@ -14263,9 +14263,9 @@
       "attachment": true,
       "canonical_model_id": "moonshotai/kimi-k2.7-code",
       "cost": {
-        "cache_read": 0.15,
-        "input": 0.6712,
-        "output": 3.35
+        "cache_read": 0.12,
+        "input": 0.6,
+        "output": 3
       },
       "description": "Coding-focused Kimi model, stronger on long-horizon repo work with less overthinking",
       "family": "kimi-k2",
@@ -14335,9 +14335,9 @@
       "attachment": true,
       "canonical_model_id": "moonshotai/kimi-k3",
       "cost": {
-        "cache_read": 0.2,
-        "input": 1.2,
-        "output": 5.5
+        "cache_read": 0.165,
+        "input": 1.65,
+        "output": 8.25
       },
       "description": "Multimodal Kimi model with 1M context and toggleable max-effort thinking for long-horizon agent work",
       "family": "kimi-k3",
@@ -15218,39 +15218,6 @@
       "structured_output": true,
       "temperature": true,
       "tool_call": true
-    },
-    "openai/gpt-3.5-turbo": {
-      "attachment": false,
-      "canonical_model_id": "openai/gpt-3.5-turbo",
-      "cost": {
-        "input": 0.5,
-        "output": 1.5
-      },
-      "description": "Compact GPT model for low-latency assistance and high-volume workloads",
-      "family": "gpt",
-      "id": "openai/gpt-3.5-turbo",
-      "knowledge": "2021-09-01",
-      "last_updated": "2023-11-06",
-      "limit": {
-        "context": 16385,
-        "input": 16385,
-        "output": 4096
-      },
-      "modalities": {
-        "input": [
-          "text"
-        ],
-        "output": [
-          "text"
-        ]
-      },
-      "name": "GPT-3.5 Turbo",
-      "open_weights": false,
-      "reasoning": false,
-      "release_date": "2023-03-01",
-      "structured_output": false,
-      "temperature": true,
-      "tool_call": false
     },
     "openai/gpt-4-turbo": {
       "attachment": true,
@@ -21753,9 +21720,9 @@
       "attachment": false,
       "canonical_model_id": "tencent/hy4-preview",
       "cost": {
-        "cache_read": 0.0378,
-        "input": 0.7506,
-        "output": 2.2509
+        "cache_read": 0.0399,
+        "input": 0.7923,
+        "output": 2.37595
       },
       "description": "A next-generation productivity model with significantly enhanced Agent and complex task execution capabilities.",
       "family": "Hy",
@@ -24152,9 +24119,9 @@
       "attachment": false,
       "canonical_model_id": "zhipuai/glm-5.2",
       "cost": {
-        "cache_read": 0.0351,
-        "input": 0.189,
-        "output": 0.594
+        "cache_read": 0.078,
+        "input": 0.42,
+        "output": 1.32
       },
       "description": "Open flagship GLM for long-horizon coding agents and million-token context work",
       "family": "glm",
@@ -24195,9 +24162,9 @@
       "attachment": false,
       "canonical_model_id": "zhipuai/glm-5.2",
       "cost": {
-        "cache_read": 0.0351,
-        "input": 0.189,
-        "output": 0.594
+        "cache_read": 0.078,
+        "input": 0.42,
+        "output": 1.32
       },
       "description": "Open flagship GLM for long-horizon coding agents and million-token context work",
       "family": "glm",
