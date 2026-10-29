@@ -3,8 +3,8 @@
   "canonical_model_id": "zhipuai/glm-5.3-flash",
   "cost": {
     "cache_read": 0.03,
-    "input": 0.0379,
-    "output": 0.0798
+    "input": 0.0457,
+    "output": 0.0742
   },
   "description": "GLM vision model for visual reasoning, documents, and multimodal agents",
   "family": "glm-flash",
