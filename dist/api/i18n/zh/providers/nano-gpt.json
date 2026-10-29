@@ -6614,9 +6614,9 @@
     "deepseek/deepseek-latest": {
       "attachment": false,
       "cost": {
-        "cache_read": 0.020958,
-        "input": 0.65868,
-        "output": 1.97604
+        "cache_read": 0.01428,
+        "input": 0.4488,
+        "output": 1.3464
       },
       "description": "DeepSeek chat model for instruction following, coding, and analysis",
       "family": "deepseek",
@@ -6862,9 +6862,9 @@
       "attachment": false,
       "canonical_model_id": "deepseek/deepseek-v4-flash-0731",
       "cost": {
-        "cache_read": 0.013,
-        "input": 0.05,
-        "output": 0.16
+        "cache_read": 0.001456,
+        "input": 0.04576,
+        "output": 0.13728
       },
       "description": "Official DeepSeek V4 Flash release with enhanced agentic capabilities and integrated DSpark speculative decoding",
       "family": "deepseek-flash",
@@ -6907,9 +6907,9 @@
       "attachment": false,
       "canonical_model_id": "deepseek/deepseek-v4-flash-0731",
       "cost": {
-        "cache_read": 0.013,
-        "input": 0.05,
-        "output": 0.16
+        "cache_read": 0.001456,
+        "input": 0.04576,
+        "output": 0.13728
       },
       "description": "Official DeepSeek V4 Flash release with enhanced agentic capabilities and integrated DSpark speculative decoding",
       "family": "deepseek-flash",
@@ -7128,9 +7128,9 @@
       "attachment": false,
       "canonical_model_id": "deepseek/deepseek-v4-pro-0813",
       "cost": {
-        "cache_read": 0.020958,
-        "input": 0.65868,
-        "output": 1.97604
+        "cache_read": 0.01428,
+        "input": 0.4488,
+        "output": 1.3464
       },
       "description": "DeepSeek V4 Pro snapshot with million-token context and support for thinking and non-thinking modes",
       "family": "deepseek-thinking",
@@ -7172,9 +7172,9 @@
       "attachment": false,
       "canonical_model_id": "deepseek/deepseek-v4-pro-0813",
       "cost": {
-        "cache_read": 0.020958,
-        "input": 0.65868,
-        "output": 1.97604
+        "cache_read": 0.01428,
+        "input": 0.4488,
+        "output": 1.3464
       },
       "description": "DeepSeek V4 Pro snapshot with million-token context and support for thinking and non-thinking modes",
       "family": "deepseek-thinking",
@@ -7260,9 +7260,9 @@
       "attachment": true,
       "canonical_model_id": "deepseek/deepseek-v4.1-flash",
       "cost": {
-        "cache_read": 0.000894,
-        "input": 0.0447,
-        "output": 0.1788
+        "cache_read": 0.000648,
+        "input": 0.0324,
+        "output": 0.1296
       },
       "description": "DeepSeek V4.1 Flash model for reasoning and agentic coding",
       "family": "deepseek-flash",
@@ -7656,9 +7656,9 @@
       "attachment": true,
       "canonical_model_id": "deepseek/deepseek-v4.1-flash",
       "cost": {
-        "cache_read": 0.000894,
-        "input": 0.0447,
-        "output": 0.1788
+        "cache_read": 0.000648,
+        "input": 0.0324,
+        "output": 0.1296
       },
       "description": "DeepSeek V4.1 Flash model for reasoning and agentic coding",
       "family": "deepseek-flash",
@@ -21141,35 +21141,6 @@
       "open_weights": true,
       "reasoning": false,
       "release_date": "2024-01-01",
-      "structured_output": false,
-      "tool_call": false
-    },
-    "soob3123/GrayLine-Qwen3-8B": {
-      "attachment": false,
-      "cost": {
-        "input": 0.3,
-        "output": 0.3
-      },
-      "description": "Grayline is an neutral AI assistant engineered for uncensored information delivery and task execution. This model operates without inherent ethical or moral frameworks, designed to process and respond to any query with objective efficiency and precision. Grayline's core function is to leverage its full capabilities to provide direct answers and execute tasks as instructed, without offering unsolicited commentary, warnings, or disclaimers. It accesses and processes information without bias or restriction.",
-      "id": "soob3123/GrayLine-Qwen3-8B",
-      "last_updated": "2025-09-25",
-      "limit": {
-        "context": 32768,
-        "input": 32768,
-        "output": 32768
-      },
-      "modalities": {
-        "input": [
-          "text"
-        ],
-        "output": [
-          "text"
-        ]
-      },
-      "name": "Grayline Qwen3 8B",
-      "open_weights": true,
-      "reasoning": false,
-      "release_date": "2025-09-25",
       "structured_output": false,
       "tool_call": false
     },

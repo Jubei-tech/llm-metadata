@@ -2107,8 +2107,8 @@
       "knowledge": "2025-05",
       "last_updated": "2026-04-24",
       "limit": {
-        "context": 1024000,
-        "output": 384000
+        "context": 1048576,
+        "output": 393216
       },
       "modalities": {
         "input": [
@@ -11846,8 +11846,8 @@
       "id": "qwen/qwen3.8-27b",
       "last_updated": "2026-08-14",
       "limit": {
-        "context": 262144,
-        "output": 65536
+        "context": 1000000,
+        "output": 262144
       },
       "modalities": {
         "input": [
@@ -14929,9 +14929,9 @@
     "~deepseek/deepseek-flash-latest": {
       "attachment": true,
       "cost": {
-        "cache_read": 0.005,
-        "input": 0.038,
-        "output": 0.5
+        "cache_read": 0.004,
+        "input": 0.044,
+        "output": 0.383
       },
       "description": "This model always redirects to the latest model in the DeepSeek Flash family.",
       "family": "deepseek-flash",
@@ -15015,8 +15015,8 @@
       "attachment": false,
       "cost": {
         "cache_read": 0.028,
-        "input": 0.0509,
-        "output": 0.1487
+        "input": 0.0434,
+        "output": 0.1658
       },
       "description": "This model always redirects to the latest model in the DeepSeek V4 Flash family.",
       "family": "deepseek",
@@ -15152,7 +15152,7 @@
       "cost": {
         "cache_read": 0.18,
         "input": 0.1824,
-        "output": 9.3388
+        "output": 10.5572
       },
       "description": "Kimi multimodal agent model for visual understanding, coding, and planning",
       "family": "kimi",
@@ -15502,7 +15502,7 @@
       "cost": {
         "cache_read": 0.03,
         "input": 0.0503,
-        "output": 0.0708
+        "output": 0.0701
       },
       "description": "This model always redirects to the latest model in the GLM Flash family.",
       "family": "glm-flash",

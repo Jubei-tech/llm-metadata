@@ -2157,9 +2157,9 @@
       "attachment": false,
       "canonical_model_id": "deepseek/deepseek-v4-pro",
       "cost": {
-        "cache_read": 0.07266,
-        "input": 0.871914,
-        "output": 1.743828
+        "cache_read": 0.135,
+        "input": 1.6,
+        "output": 3.2
       },
       "description": "Open MoE flagship with million-token context for coding and long agent runs",
       "family": "deepseek-thinking",
@@ -2171,7 +2171,7 @@
       "last_updated": "2026-04-24",
       "limit": {
         "context": 1048576,
-        "output": 384000
+        "output": 393216
       },
       "modalities": {
         "input": [
@@ -3698,9 +3698,9 @@
       "attachment": true,
       "canonical_model_id": "google/gemma-4-26b-a4b-it",
       "cost": {
-        "cache_read": 0.05,
-        "input": 0.09,
-        "output": 0.3
+        "cache_read": 0.0425,
+        "input": 0.0765,
+        "output": 0.255
       },
       "description": "Open Gemma instruction model for efficient chat and self-hosted deployments",
       "family": "gemma",
@@ -12118,9 +12118,9 @@
       "attachment": true,
       "canonical_model_id": "alibaba/qwen3.8-27b",
       "cost": {
-        "cache_read": 0.0039,
-        "input": 0.039,
-        "output": 1.25
+        "cache_read": 0.05,
+        "input": 0.2,
+        "output": 2.5
       },
       "description": "Qwen vision-language model for visual reasoning, documents, and agent tasks",
       "family": "qwen",
@@ -12128,7 +12128,7 @@
       "last_updated": "2026-08-14",
       "limit": {
         "context": 1000000,
-        "output": 65536
+        "output": 262144
       },
       "modalities": {
         "input": [
@@ -15252,9 +15252,9 @@
     "~deepseek/deepseek-flash-latest": {
       "attachment": true,
       "cost": {
-        "cache_read": 0.005,
-        "input": 0.038,
-        "output": 0.5
+        "cache_read": 0.004,
+        "input": 0.044,
+        "output": 0.383
       },
       "description": "Fast DeepSeek model for efficient chat, coding help, and agent loops",
       "family": "deepseek-flash",
@@ -15338,8 +15338,8 @@
       "attachment": false,
       "cost": {
         "cache_read": 0.028,
-        "input": 0.0509,
-        "output": 0.1487
+        "input": 0.0434,
+        "output": 0.1658
       },
       "description": "Fast DeepSeek model for efficient chat, coding help, and agent loops",
       "family": "deepseek",
@@ -15493,9 +15493,9 @@
     "~moonshotai/kimi-latest": {
       "attachment": true,
       "cost": {
-        "cache_read": 0.18,
-        "input": 0.1824,
-        "output": 9.3388
+        "cache_read": 0.15,
+        "input": 0.1529,
+        "output": 10.5572
       },
       "description": "Kimi multimodal agent model for visual understanding, coding, and planning",
       "family": "kimi",
@@ -15937,7 +15937,7 @@
       "cost": {
         "cache_read": 0.03,
         "input": 0.0503,
-        "output": 0.0708
+        "output": 0.0701
       },
       "description": "GLM vision model for visual reasoning, documents, and multimodal agents",
       "family": "glm-flash",

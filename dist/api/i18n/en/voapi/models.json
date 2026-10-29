@@ -95663,7 +95663,7 @@
       "knowledge": "2024-08",
       "lastUpdated": "2025-03-12",
       "maxCtxTokens": 128000,
-      "maxOutputTokens": 8192,
+      "maxOutputTokens": 16384,
       "modalities": {
         "input": [
           "text",
@@ -96301,7 +96301,7 @@
       "knowledge": null,
       "lastUpdated": "2026-03-18",
       "maxCtxTokens": 200000,
-      "maxOutputTokens": 32768,
+      "maxOutputTokens": 131072,
       "modalities": {
         "input": [
           "text"
@@ -96337,7 +96337,7 @@
       "knowledge": null,
       "lastUpdated": "2026-03-18",
       "maxCtxTokens": 200000,
-      "maxOutputTokens": 32768,
+      "maxOutputTokens": 131072,
       "modalities": {
         "input": [
           "text"
@@ -122754,7 +122754,7 @@
         "cacheRead": 0.027,
         "cacheWrite": null,
         "input": 0.13,
-        "output": 0.4089
+        "output": 0.3775
       },
       "releaseDate": "2026-07-31",
       "tags": []
@@ -130864,10 +130864,10 @@
       },
       "name": "DeepSeek: DeepSeek Flash Latest",
       "price": {
-        "cacheRead": 0.005,
+        "cacheRead": 0.004,
         "cacheWrite": null,
-        "input": 0.038,
-        "output": 0.5
+        "input": 0.044,
+        "output": 0.383
       },
       "releaseDate": "2026-09-14",
       "tags": []
@@ -130938,8 +130938,8 @@
       "price": {
         "cacheRead": 0.028,
         "cacheWrite": null,
-        "input": 0.0509,
-        "output": 0.1487
+        "input": 0.0434,
+        "output": 0.1658
       },
       "releaseDate": "2026-08-01",
       "tags": []
@@ -131057,7 +131057,7 @@
         "cacheRead": 0.18,
         "cacheWrite": null,
         "input": 0.1824,
-        "output": 9.3388
+        "output": 10.5572
       },
       "releaseDate": "2026-04-27",
       "tags": []
@@ -131360,7 +131360,7 @@
         "cacheRead": 0.03,
         "cacheWrite": null,
         "input": 0.0503,
-        "output": 0.0708
+        "output": 0.0701
       },
       "releaseDate": "2026-08-27",
       "tags": []
@@ -133304,8 +133304,8 @@
       "id": "deepseek/deepseek-v4-pro",
       "knowledge": "2025-05",
       "lastUpdated": "2026-04-24",
-      "maxCtxTokens": 1024000,
-      "maxOutputTokens": 384000,
+      "maxCtxTokens": 1048576,
+      "maxOutputTokens": 393216,
       "modalities": {
         "input": [
           "text"
@@ -142356,8 +142356,8 @@
       "id": "qwen/qwen3.8-27b",
       "knowledge": null,
       "lastUpdated": "2026-08-14",
-      "maxCtxTokens": 262144,
-      "maxOutputTokens": 65536,
+      "maxCtxTokens": 1000000,
+      "maxOutputTokens": 262144,
       "modalities": {
         "input": [
           "text",
@@ -146606,10 +146606,10 @@
       },
       "name": "DeepSeek V4 Pro",
       "price": {
-        "cacheRead": 0.00363,
+        "cacheRead": 0.022,
         "cacheWrite": null,
-        "input": 0.435,
-        "output": 0.87
+        "input": 0.66,
+        "output": 1.98
       },
       "releaseDate": "2026-04-24",
       "tags": []
@@ -148029,6 +148029,43 @@
         "output": 0.25
       },
       "releaseDate": "2026-08-26",
+      "tags": []
+    },
+    {
+      "description": "GLM vision model for visual reasoning, documents, and multimodal agents",
+      "firm": "llmgateway",
+      "flags": {
+        "attachment": true,
+        "audio": false,
+        "image": true,
+        "open_weights": false,
+        "reasoning": true,
+        "temperature": true,
+        "tool_call": true
+      },
+      "icon": "",
+      "id": "glm-5.3-flashx",
+      "knowledge": null,
+      "lastUpdated": "2026-09-18",
+      "maxCtxTokens": 1000000,
+      "maxOutputTokens": 1000000,
+      "modalities": {
+        "input": [
+          "text",
+          "image"
+        ],
+        "output": [
+          "text"
+        ]
+      },
+      "name": "GLM-5.3 FlashX",
+      "price": {
+        "cacheRead": 0.075,
+        "cacheWrite": null,
+        "input": 0.37,
+        "output": 1.25
+      },
+      "releaseDate": "2026-09-18",
       "tags": []
     },
     {
@@ -150122,6 +150159,44 @@
         "output": 8
       },
       "releaseDate": "2026-06-12",
+      "tags": []
+    },
+    {
+      "description": "Kimi coding model with more efficient thinking and up to 1M context, available through Kimi Code",
+      "firm": "llmgateway",
+      "flags": {
+        "attachment": true,
+        "audio": false,
+        "image": true,
+        "open_weights": false,
+        "reasoning": true,
+        "temperature": false,
+        "tool_call": true
+      },
+      "icon": "",
+      "id": "kimi-k2.8-preview",
+      "knowledge": null,
+      "lastUpdated": "2026-09-11",
+      "maxCtxTokens": 1000000,
+      "maxOutputTokens": 1000000,
+      "modalities": {
+        "input": [
+          "text",
+          "image",
+          "video"
+        ],
+        "output": [
+          "text"
+        ]
+      },
+      "name": "Kimi K2.8 Preview",
+      "price": {
+        "cacheRead": 0.25,
+        "cacheWrite": null,
+        "input": 1,
+        "output": 4
+      },
+      "releaseDate": "2026-09-11",
       "tags": []
     },
     {
@@ -153093,6 +153168,44 @@
         "output": 1.15
       },
       "releaseDate": "2026-05-29",
+      "tags": []
+    },
+    {
+      "description": "StepFun's next-generation flagship base model for coding and professional knowledge work, with native text, image, and video input and a 1M-token context window",
+      "firm": "llmgateway",
+      "flags": {
+        "attachment": true,
+        "audio": false,
+        "image": true,
+        "open_weights": true,
+        "reasoning": true,
+        "temperature": true,
+        "tool_call": true
+      },
+      "icon": "",
+      "id": "step-5-preview",
+      "knowledge": null,
+      "lastUpdated": "2026-09-20",
+      "maxCtxTokens": 1000000,
+      "maxOutputTokens": 1000000,
+      "modalities": {
+        "input": [
+          "text",
+          "image",
+          "video"
+        ],
+        "output": [
+          "text"
+        ]
+      },
+      "name": "Step 5 Preview",
+      "price": {
+        "cacheRead": 0.05,
+        "cacheWrite": null,
+        "input": 1,
+        "output": 2.7
+      },
+      "releaseDate": "2026-09-16",
       "tags": []
     },
     {
@@ -164866,8 +164979,8 @@
       "price": {
         "cacheRead": 0.027,
         "cacheWrite": null,
-        "input": 0.09,
-        "output": 0.28
+        "input": 0.11,
+        "output": 0.33
       },
       "releaseDate": "2026-08-26",
       "tags": []
@@ -178912,6 +179025,43 @@
       "tags": []
     },
     {
+      "description": "Dense 27B vision-language model for coding, agent tasks, and image and video understanding",
+      "firm": "merge-gateway",
+      "flags": {
+        "attachment": true,
+        "audio": false,
+        "image": true,
+        "open_weights": true,
+        "reasoning": true,
+        "temperature": true,
+        "tool_call": true
+      },
+      "icon": "",
+      "id": "qwen/qwen3.8-27b",
+      "knowledge": null,
+      "lastUpdated": "2026-08-14",
+      "maxCtxTokens": 262144,
+      "maxOutputTokens": 65536,
+      "modalities": {
+        "input": [
+          "text",
+          "image"
+        ],
+        "output": [
+          "text"
+        ]
+      },
+      "name": "Qwen3.8 27B",
+      "price": {
+        "cacheRead": 0.05,
+        "cacheWrite": null,
+        "input": 0.4,
+        "output": 3
+      },
+      "releaseDate": "2026-08-14",
+      "tags": []
+    },
+    {
       "description": "Qwen vision-language model for visual reasoning, documents, and agent tasks",
       "firm": "merge-gateway",
       "flags": {
@@ -189524,10 +189674,10 @@
       },
       "name": "DeepSeek Latest",
       "price": {
-        "cacheRead": 0.020958,
+        "cacheRead": 0.01428,
         "cacheWrite": null,
-        "input": 0.65868,
-        "output": 1.97604
+        "input": 0.4488,
+        "output": 1.3464
       },
       "releaseDate": "2026-05-03",
       "tags": []
@@ -189742,10 +189892,10 @@
       },
       "name": "DeepSeek V4 Flash 0731",
       "price": {
-        "cacheRead": 0.013,
+        "cacheRead": 0.001456,
         "cacheWrite": null,
-        "input": 0.05,
-        "output": 0.16
+        "input": 0.04576,
+        "output": 0.13728
       },
       "releaseDate": "2026-07-31",
       "tags": []
@@ -189778,10 +189928,10 @@
       },
       "name": "DeepSeek V4 Flash 0731 (Thinking)",
       "price": {
-        "cacheRead": 0.013,
+        "cacheRead": 0.001456,
         "cacheWrite": null,
-        "input": 0.05,
-        "output": 0.16
+        "input": 0.04576,
+        "output": 0.13728
       },
       "releaseDate": "2026-07-31",
       "tags": []
@@ -189960,10 +190110,10 @@
       },
       "name": "DeepSeek V4 Pro 0813",
       "price": {
-        "cacheRead": 0.020958,
+        "cacheRead": 0.01428,
         "cacheWrite": null,
-        "input": 0.65868,
-        "output": 1.97604
+        "input": 0.4488,
+        "output": 1.3464
       },
       "releaseDate": "2026-08-13",
       "tags": []
@@ -189996,10 +190146,10 @@
       },
       "name": "DeepSeek V4 Pro 0813 Thinking",
       "price": {
-        "cacheRead": 0.020958,
+        "cacheRead": 0.01428,
         "cacheWrite": null,
-        "input": 0.65868,
-        "output": 1.97604
+        "input": 0.4488,
+        "output": 1.3464
       },
       "releaseDate": "2026-08-13",
       "tags": []
@@ -190069,10 +190219,10 @@
       },
       "name": "DeepSeek V4.1 Flash",
       "price": {
-        "cacheRead": 0.000894,
+        "cacheRead": 0.000648,
         "cacheWrite": null,
-        "input": 0.0447,
-        "output": 0.1788
+        "input": 0.0324,
+        "output": 0.1296
       },
       "releaseDate": "2026-09-10",
       "tags": []
@@ -190402,10 +190552,10 @@
       },
       "name": "DeepSeek V4.1 Flash Thinking",
       "price": {
-        "cacheRead": 0.000894,
+        "cacheRead": 0.000648,
         "cacheWrite": null,
-        "input": 0.0447,
-        "output": 0.1788
+        "input": 0.0324,
+        "output": 0.1296
       },
       "releaseDate": "2026-09-10",
       "tags": []
@@ -205407,42 +205557,6 @@
         "output": 0.3
       },
       "releaseDate": "2025-05-23",
-      "tags": []
-    },
-    {
-      "description": "Grayline is an neutral AI assistant engineered for uncensored information delivery and task execution. This model operates without inherent ethical or moral frameworks, designed to process and respond to any query with objective efficiency and precision. Grayline's core function is to leverage its full capabilities to provide direct answers and execute tasks as instructed, without offering unsolicited commentary, warnings, or disclaimers. It accesses and processes information without bias or restriction.",
-      "firm": "nano-gpt",
-      "flags": {
-        "attachment": false,
-        "audio": false,
-        "image": false,
-        "open_weights": true,
-        "reasoning": false,
-        "temperature": false,
-        "tool_call": false
-      },
-      "icon": "",
-      "id": "soob3123/GrayLine-Qwen3-8B",
-      "knowledge": null,
-      "lastUpdated": "2025-09-25",
-      "maxCtxTokens": 32768,
-      "maxOutputTokens": 32768,
-      "modalities": {
-        "input": [
-          "text"
-        ],
-        "output": [
-          "text"
-        ]
-      },
-      "name": "Grayline Qwen3 8B",
-      "price": {
-        "cacheRead": null,
-        "cacheWrite": null,
-        "input": 0.3,
-        "output": 0.3
-      },
-      "releaseDate": "2025-09-25",
       "tags": []
     },
     {
@@ -236900,10 +237014,10 @@
       },
       "name": "DeepSeek Flash Latest",
       "price": {
-        "cacheRead": 0.005,
+        "cacheRead": 0.004,
         "cacheWrite": null,
-        "input": 0.038,
-        "output": 0.5
+        "input": 0.044,
+        "output": 0.383
       },
       "releaseDate": "2026-09-14",
       "tags": []
@@ -236974,8 +237088,8 @@
       "price": {
         "cacheRead": 0.028,
         "cacheWrite": null,
-        "input": 0.0509,
-        "output": 0.1487
+        "input": 0.0434,
+        "output": 0.1658
       },
       "releaseDate": "2026-08-01",
       "tags": []
@@ -237090,10 +237204,10 @@
       },
       "name": "Kimi Latest",
       "price": {
-        "cacheRead": 0.18,
+        "cacheRead": 0.15,
         "cacheWrite": null,
-        "input": 0.1824,
-        "output": 9.3388
+        "input": 0.1529,
+        "output": 10.5572
       },
       "releaseDate": "2026-04-27",
       "tags": []
@@ -237396,7 +237510,7 @@
         "cacheRead": 0.03,
         "cacheWrite": null,
         "input": 0.0503,
-        "output": 0.0708
+        "output": 0.0701
       },
       "releaseDate": "2026-08-27",
       "tags": []
@@ -239341,7 +239455,7 @@
       "knowledge": "2025-05",
       "lastUpdated": "2026-04-24",
       "maxCtxTokens": 1048576,
-      "maxOutputTokens": 384000,
+      "maxOutputTokens": 393216,
       "modalities": {
         "input": [
           "text"
@@ -239352,10 +239466,10 @@
       },
       "name": "DeepSeek V4 Pro",
       "price": {
-        "cacheRead": 0.07266,
+        "cacheRead": 0.135,
         "cacheWrite": null,
-        "input": 0.871914,
-        "output": 1.743828
+        "input": 1.6,
+        "output": 3.2
       },
       "releaseDate": "2026-04-24",
       "tags": []
@@ -240624,10 +240738,10 @@
       },
       "name": "Gemma 4 26B A4B IT",
       "price": {
-        "cacheRead": 0.05,
+        "cacheRead": 0.0425,
         "cacheWrite": null,
-        "input": 0.09,
-        "output": 0.3
+        "input": 0.0765,
+        "output": 0.255
       },
       "releaseDate": "2026-04-02",
       "tags": []
@@ -248303,7 +248417,7 @@
       "knowledge": null,
       "lastUpdated": "2026-08-14",
       "maxCtxTokens": 1000000,
-      "maxOutputTokens": 65536,
+      "maxOutputTokens": 262144,
       "modalities": {
         "input": [
           "text",
@@ -248316,10 +248430,10 @@
       },
       "name": "Qwen3.8 27B",
       "price": {
-        "cacheRead": 0.0039,
+        "cacheRead": 0.05,
         "cacheWrite": null,
-        "input": 0.039,
-        "output": 1.25
+        "input": 0.2,
+        "output": 2.5
       },
       "releaseDate": "2026-08-14",
       "tags": []
@@ -266547,7 +266661,7 @@
       "knowledge": "2025-05",
       "lastUpdated": "2026-04-24",
       "maxCtxTokens": 1048576,
-      "maxOutputTokens": 384000,
+      "maxOutputTokens": 393216,
       "modalities": {
         "input": [
           "text"
@@ -280208,7 +280322,7 @@
       "name": "Qwen3.8 2.4T A95B (EU)",
       "price": {
         "cacheRead": 0.63,
-        "cacheWrite": null,
+        "cacheWrite": 2.5,
         "input": 2.5,
         "output": 6
       },
@@ -280284,7 +280398,7 @@
       "name": "Qwen3.8 Flash Next",
       "price": {
         "cacheRead": 0.05,
-        "cacheWrite": null,
+        "cacheWrite": 0.2,
         "input": 0.2,
         "output": 0.5
       },
@@ -280322,7 +280436,7 @@
       "name": "Qwen3.8 Flash Next (EU)",
       "price": {
         "cacheRead": 0.05,
-        "cacheWrite": null,
+        "cacheWrite": 0.2,
         "input": 0.2,
         "output": 0.5
       },
