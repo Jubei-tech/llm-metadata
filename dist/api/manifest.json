@@ -1,13 +1,13 @@
 {
-  "generatedAt": "2026-10-30T11:45:04.935Z",
+  "generatedAt": "2026-10-30T17:19:53.953Z",
   "overridesHash": "7832e2e55dcc75605225ac05ecfbbbbbb7719588e0ad842732eb38bffa57e73b",
   "policyHash": "20317b46d0bf96bb0fbc54205c9fe49263616973b2ba98b912a6ed68b218c274",
-  "sourceHash": "412c4d33d5df138ababe89f394e954ecffa78fb61e72f20b60af0716cd693825",
+  "sourceHash": "bfcdacab73b0cd9d40c37d6cf94ded2e5ae00c273253a0d941eb06c43b58d3ff",
   "stats": {
     "dryRun": false,
-    "filesChanged": 37505,
-    "models": 9069,
-    "providers": 240
+    "filesChanged": 37534,
+    "models": 9075,
+    "providers": 241
   },
   "version": 1
 }

@@ -28850,7 +28850,7 @@
     },
     {
       "flags": {
-        "attachment": true,
+        "attachment": false,
         "reasoning": true,
         "tool_call": true
       },
@@ -34061,6 +34061,28 @@
       "name": "Qwen3.8-27B",
       "providerId": "hetzner",
       "updated": "2026-08-14"
+    },
+    {
+      "flags": {
+        "attachment": true,
+        "reasoning": true,
+        "tool_call": true
+      },
+      "id": "deepseek-v4.1-flash-1017",
+      "name": "DeepSeek V4.1 Flash 1017",
+      "providerId": "hopper",
+      "updated": "2026-10-17"
+    },
+    {
+      "flags": {
+        "attachment": true,
+        "reasoning": true,
+        "tool_call": true
+      },
+      "id": "deepseek-v4.1-flash-1017-abliterated",
+      "name": "DeepSeek V4.1 Flash 1017 Abliterated",
+      "providerId": "hopper",
+      "updated": "2026-10-17"
     },
     {
       "flags": {
@@ -39825,6 +39847,17 @@
       "name": "inclusionAI: Ling 3.1 Flash",
       "providerId": "kilo",
       "updated": "2026-09-29"
+    },
+    {
+      "flags": {
+        "attachment": false,
+        "reasoning": true,
+        "tool_call": true
+      },
+      "id": "inclusionai/ling-3.1-flash-1019-free",
+      "name": "inclusionAI: Ling 3.1 Flash 1019 (free)",
+      "providerId": "kilo",
+      "updated": "2025-08-26"
     },
     {
       "flags": {
@@ -46179,6 +46212,17 @@
         "reasoning": true,
         "tool_call": true
       },
+      "id": "azure/gpt-5-pro",
+      "name": "GPT-5 Pro (Azure)",
+      "providerId": "llmgateway-providers",
+      "updated": "2025-10-06"
+    },
+    {
+      "flags": {
+        "attachment": true,
+        "reasoning": true,
+        "tool_call": true
+      },
       "id": "azure/gpt-5.1",
       "name": "GPT-5.1 (Azure)",
       "providerId": "llmgateway-providers",
@@ -46370,6 +46414,17 @@
       "name": "GPT-6.1 Sol (Azure)",
       "providerId": "llmgateway-providers",
       "updated": "2026-09-29"
+    },
+    {
+      "flags": {
+        "attachment": true,
+        "reasoning": true,
+        "tool_call": true
+      },
+      "id": "azure/gpt-6.1-terra",
+      "name": "GPT-6.1 Terra (Azure)",
+      "providerId": "llmgateway-providers",
+      "updated": "2026-10-26"
     },
     {
       "flags": {
@@ -93234,6 +93289,17 @@
     {
       "flags": {
         "attachment": false,
+        "reasoning": true,
+        "tool_call": true
+      },
+      "id": "inclusionai/ling-3.1-flash-1019",
+      "name": "Ling 3.1 Flash 1019",
+      "providerId": "vercel",
+      "updated": "2026-10-30"
+    },
+    {
+      "flags": {
+        "attachment": false,
         "reasoning": false,
         "tool_call": false
       },
@@ -100287,6 +100353,14 @@
       "name": "Hetzner"
     },
     {
+      "api": "https://api.withhopper.com/v1",
+      "doc": "https://withhopper.com/agents/deepseek-v4.1-flash-1017",
+      "iconURL": "https://models.dev/logos/hopper.svg",
+      "id": "hopper",
+      "modelCount": 2,
+      "name": "Hopper"
+    },
+    {
       "api": "https://api.hpc-ai.com/inference/v1",
       "doc": "https://www.hpc-ai.com/doc/docs/quickstart/",
       "iconURL": "https://models.dev/logos/hpc-ai.svg",
@@ -100422,7 +100496,7 @@
       "doc": "https://kilo.ai",
       "iconURL": "https://models.dev/logos/kilo.svg",
       "id": "kilo",
-      "modelCount": 383,
+      "modelCount": 384,
       "name": "Kilo Gateway"
     },
     {
@@ -100500,7 +100574,7 @@
       "doc": "https://llmgateway.io/docs",
       "iconURL": "https://models.dev/logos/llmgateway-providers.svg",
       "id": "llmgateway-providers",
-      "modelCount": 418,
+      "modelCount": 420,
       "name": "LLM Gateway"
     },
     {
@@ -101368,7 +101442,7 @@
       "iconURL": "https://models.dev/logos/vercel.svg",
       "id": "vercel",
       "lobeIcon": "Vercel.Color",
-      "modelCount": 418,
+      "modelCount": 419,
       "name": "Vercel AI Gateway"
     },
     {
