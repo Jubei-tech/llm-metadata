@@ -95774,7 +95774,7 @@
       "id": "gemma-3-27b",
       "knowledge": "2024-08",
       "lastUpdated": "2025-03-12",
-      "maxCtxTokens": 128000,
+      "maxCtxTokens": 131072,
       "maxOutputTokens": 16384,
       "modalities": {
         "input": [
@@ -95885,7 +95885,7 @@
       "id": "glm-4-6v-flash",
       "knowledge": null,
       "lastUpdated": "2025-12-08",
-      "maxCtxTokens": 128000,
+      "maxCtxTokens": 131072,
       "maxOutputTokens": 32768,
       "modalities": {
         "input": [
@@ -96295,7 +96295,7 @@
       "id": "mimo-v2-6-flash",
       "knowledge": null,
       "lastUpdated": "2026-09-22",
-      "maxCtxTokens": 1000000,
+      "maxCtxTokens": 1048576,
       "maxOutputTokens": 131072,
       "modalities": {
         "input": [
@@ -96334,7 +96334,7 @@
       "id": "mimo-v2-6-pro",
       "knowledge": null,
       "lastUpdated": "2026-09-22",
-      "maxCtxTokens": 1000000,
+      "maxCtxTokens": 1048576,
       "maxOutputTokens": 131072,
       "modalities": {
         "input": [
@@ -96373,7 +96373,7 @@
       "id": "mimo-v2-6-pro-ultraspeed",
       "knowledge": null,
       "lastUpdated": "2026-09-21",
-      "maxCtxTokens": 1000000,
+      "maxCtxTokens": 1048576,
       "maxOutputTokens": 131072,
       "modalities": {
         "input": [
@@ -96412,7 +96412,7 @@
       "id": "minimax-m2-7",
       "knowledge": null,
       "lastUpdated": "2026-03-18",
-      "maxCtxTokens": 200000,
+      "maxCtxTokens": 204800,
       "maxOutputTokens": 131072,
       "modalities": {
         "input": [
@@ -96448,7 +96448,7 @@
       "id": "minimax-m2-7-highspeed",
       "knowledge": null,
       "lastUpdated": "2026-03-18",
-      "maxCtxTokens": 200000,
+      "maxCtxTokens": 204800,
       "maxOutputTokens": 131072,
       "modalities": {
         "input": [
@@ -97697,7 +97697,7 @@
       "id": "step-3-5-flash",
       "knowledge": "2025-01",
       "lastUpdated": "2026-02-13",
-      "maxCtxTokens": 256000,
+      "maxCtxTokens": 262144,
       "maxOutputTokens": 131072,
       "modalities": {
         "input": [
@@ -97733,7 +97733,7 @@
       "id": "step-3-5-flash-2603",
       "knowledge": "2025-01",
       "lastUpdated": "2026-04-02",
-      "maxCtxTokens": 256000,
+      "maxCtxTokens": 262144,
       "maxOutputTokens": 131072,
       "modalities": {
         "input": [
@@ -97769,7 +97769,7 @@
       "id": "step-3-7-flash",
       "knowledge": "2026-03-01",
       "lastUpdated": "2026-05-29",
-      "maxCtxTokens": 256000,
+      "maxCtxTokens": 262144,
       "maxOutputTokens": 131072,
       "modalities": {
         "input": [
@@ -98015,9 +98015,9 @@
       "description": "Native multimodal GLM model for efficient coding and long-horizon agent tasks",
       "firm": "engy",
       "flags": {
-        "attachment": false,
+        "attachment": true,
         "audio": false,
-        "image": false,
+        "image": true,
         "open_weights": true,
         "reasoning": true,
         "temperature": true,
@@ -98031,7 +98031,8 @@
       "maxOutputTokens": 32768,
       "modalities": {
         "input": [
-          "text"
+          "text",
+          "image"
         ],
         "output": [
           "text"
@@ -131239,10 +131240,10 @@
       },
       "name": "MoonshotAI: Kimi Latest",
       "price": {
-        "cacheRead": 0.15,
+        "cacheRead": 0.16,
         "cacheWrite": null,
-        "input": 0.1529,
-        "output": 10.5572
+        "input": 0.1624,
+        "output": 10.1522
       },
       "releaseDate": "2026-04-27",
       "tags": []
@@ -131542,10 +131543,10 @@
       },
       "name": "Z.ai: GLM Flash Latest",
       "price": {
-        "cacheRead": 0.018,
+        "cacheRead": 0.0197,
         "cacheWrite": null,
-        "input": 0.018,
-        "output": 0.1402
+        "input": 0.0197,
+        "output": 0.1324
       },
       "releaseDate": "2026-08-27",
       "tags": []
@@ -133489,8 +133490,8 @@
       "id": "deepseek/deepseek-v4-pro",
       "knowledge": "2025-05",
       "lastUpdated": "2026-04-24",
-      "maxCtxTokens": 1024000,
-      "maxOutputTokens": 384000,
+      "maxCtxTokens": 1048576,
+      "maxOutputTokens": 393216,
       "modalities": {
         "input": [
           "text"
@@ -134780,10 +134781,10 @@
       },
       "name": "Gemma 4 26B A4B IT",
       "price": {
-        "cacheRead": 0.018,
+        "cacheRead": 0.015,
         "cacheWrite": null,
-        "input": 0.036,
-        "output": 0.109
+        "input": 0.03,
+        "output": 0.09
       },
       "releaseDate": "2026-04-02",
       "tags": []
@@ -146888,7 +146889,7 @@
       "id": "deepseek-v4.1-flash-1017",
       "knowledge": "2025-05",
       "lastUpdated": "2026-10-17",
-      "maxCtxTokens": 1056784,
+      "maxCtxTokens": 1050000,
       "maxOutputTokens": 1050000,
       "modalities": {
         "input": [
@@ -149556,10 +149557,10 @@
       },
       "name": "GPT OSS 120B",
       "price": {
-        "cacheRead": 0.032,
+        "cacheRead": 0.02,
         "cacheWrite": null,
-        "input": 0.032,
-        "output": 0.14
+        "input": 0.1,
+        "output": 0.5
       },
       "releaseDate": "2025-08-05",
       "tags": []
@@ -150298,10 +150299,10 @@
       },
       "name": "Kimi K2.6",
       "price": {
-        "cacheRead": 0.13,
+        "cacheRead": 0.16,
         "cacheWrite": null,
-        "input": 0.6,
-        "output": 3.05
+        "input": 0.8,
+        "output": 3.4
       },
       "releaseDate": "2026-04-20",
       "tags": []
@@ -156115,7 +156116,7 @@
       "id": "azure-ai-foundry/grok-4-1-fast-reasoning",
       "knowledge": null,
       "lastUpdated": "2025-11-19",
-      "maxCtxTokens": 2000000,
+      "maxCtxTokens": 128000,
       "maxOutputTokens": 30000,
       "modalities": {
         "input": [
@@ -157524,6 +157525,79 @@
         "output": 0.6
       },
       "releaseDate": "2025-08-05",
+      "tags": []
+    },
+    {
+      "description": "Fast Grok model for responsive chat, reasoning, and tool-assisted work",
+      "firm": "llmgateway-providers",
+      "flags": {
+        "attachment": true,
+        "audio": false,
+        "image": true,
+        "open_weights": false,
+        "reasoning": true,
+        "temperature": true,
+        "tool_call": true
+      },
+      "icon": "",
+      "id": "azure/grok-4-1-fast-reasoning",
+      "knowledge": null,
+      "lastUpdated": "2025-11-19",
+      "maxCtxTokens": 128000,
+      "maxOutputTokens": 128000,
+      "modalities": {
+        "input": [
+          "text",
+          "image"
+        ],
+        "output": [
+          "text"
+        ]
+      },
+      "name": "Grok 4.1 Fast Reasoning (Azure)",
+      "price": {
+        "cacheRead": null,
+        "cacheWrite": null,
+        "input": 0.2,
+        "output": 0.5
+      },
+      "releaseDate": "2025-11-19",
+      "tags": []
+    },
+    {
+      "description": "Grok model for agentic tool use, reasoning, coding, and live assistance",
+      "firm": "llmgateway-providers",
+      "flags": {
+        "attachment": false,
+        "audio": false,
+        "image": false,
+        "open_weights": false,
+        "reasoning": true,
+        "temperature": true,
+        "tool_call": true
+      },
+      "icon": "",
+      "id": "azure/grok-4-3",
+      "knowledge": null,
+      "lastUpdated": "2026-04-30",
+      "maxCtxTokens": 200000,
+      "maxOutputTokens": 8192,
+      "modalities": {
+        "input": [
+          "text"
+        ],
+        "output": [
+          "text"
+        ]
+      },
+      "name": "Grok 4.3 (Azure)",
+      "price": {
+        "cacheRead": 0.2,
+        "cacheWrite": null,
+        "input": 1.25,
+        "output": 2.5
+      },
+      "releaseDate": "2026-04-30",
       "tags": []
     },
     {
@@ -165651,80 +165725,6 @@
       "tags": []
     },
     {
-      "description": "Open GPT reasoning model for self-hosted agents and controllable deployments",
-      "firm": "llmgateway-providers",
-      "flags": {
-        "attachment": false,
-        "audio": false,
-        "image": false,
-        "open_weights": true,
-        "reasoning": true,
-        "temperature": true,
-        "tool_call": true
-      },
-      "icon": "",
-      "id": "runware/gpt-oss-120b",
-      "knowledge": "2024-06",
-      "lastUpdated": "2025-08-05",
-      "maxCtxTokens": 131072,
-      "maxOutputTokens": 32768,
-      "modalities": {
-        "input": [
-          "text"
-        ],
-        "output": [
-          "text"
-        ]
-      },
-      "name": "GPT OSS 120B (Runware)",
-      "price": {
-        "cacheRead": 0.032,
-        "cacheWrite": null,
-        "input": 0.032,
-        "output": 0.14
-      },
-      "releaseDate": "2025-08-05",
-      "tags": []
-    },
-    {
-      "description": "Multimodal Kimi workhorse for agent loops, coding tasks, and visual context",
-      "firm": "llmgateway-providers",
-      "flags": {
-        "attachment": true,
-        "audio": false,
-        "image": true,
-        "open_weights": true,
-        "reasoning": true,
-        "temperature": true,
-        "tool_call": true
-      },
-      "icon": "",
-      "id": "runware/kimi-k2.6",
-      "knowledge": "2025-01",
-      "lastUpdated": "2026-04-20",
-      "maxCtxTokens": 262144,
-      "maxOutputTokens": 131072,
-      "modalities": {
-        "input": [
-          "text",
-          "image",
-          "video"
-        ],
-        "output": [
-          "text"
-        ]
-      },
-      "name": "Kimi K2.6 (Runware)",
-      "price": {
-        "cacheRead": 0.13,
-        "cacheWrite": null,
-        "input": 0.6,
-        "output": 3.05
-      },
-      "releaseDate": "2026-04-20",
-      "tags": []
-    },
-    {
       "description": "Multimodal Kimi model with 1M context and toggleable max-effort thinking for long-horizon agent work",
       "firm": "llmgateway-providers",
       "flags": {
@@ -165891,7 +165891,7 @@
       "id": "sciforium/deepseek-v4.1-flash-1017",
       "knowledge": "2025-05",
       "lastUpdated": "2026-10-17",
-      "maxCtxTokens": 1056784,
+      "maxCtxTokens": 1048576,
       "maxOutputTokens": 384000,
       "modalities": {
         "input": [
@@ -207306,10 +207306,10 @@
       },
       "name": "Tencent Hy4 Preview",
       "price": {
-        "cacheRead": 0.042,
+        "cacheRead": 0.0378,
         "cacheWrite": null,
-        "input": 0.834,
-        "output": 2.501
+        "input": 0.7506,
+        "output": 2.2509
       },
       "releaseDate": "2026-08-28",
       "tags": []
@@ -237565,10 +237565,10 @@
       },
       "name": "DeepSeek V4 Flash Latest",
       "price": {
-        "cacheRead": 0.0321,
+        "cacheRead": 0.028,
         "cacheWrite": null,
-        "input": 0.0331,
-        "output": 0.3
+        "input": 0.0314,
+        "output": 0.1677
       },
       "releaseDate": "2026-08-01",
       "tags": []
@@ -237683,10 +237683,10 @@
       },
       "name": "Kimi Latest",
       "price": {
-        "cacheRead": 0.15,
+        "cacheRead": 0.16,
         "cacheWrite": null,
-        "input": 0.1529,
-        "output": 10.5572
+        "input": 0.1624,
+        "output": 10.1522
       },
       "releaseDate": "2026-04-27",
       "tags": []
@@ -237986,10 +237986,10 @@
       },
       "name": "GLM Flash Latest",
       "price": {
-        "cacheRead": 0.018,
+        "cacheRead": 0.0197,
         "cacheWrite": null,
-        "input": 0.018,
-        "output": 0.1402
+        "input": 0.0197,
+        "output": 0.1324
       },
       "releaseDate": "2026-08-27",
       "tags": []
@@ -239934,7 +239934,7 @@
       "knowledge": "2025-05",
       "lastUpdated": "2026-04-24",
       "maxCtxTokens": 1048576,
-      "maxOutputTokens": 384000,
+      "maxOutputTokens": 393216,
       "modalities": {
         "input": [
           "text"
@@ -239945,10 +239945,10 @@
       },
       "name": "DeepSeek V4 Pro",
       "price": {
-        "cacheRead": 0.079025,
+        "cacheRead": 0.135,
         "cacheWrite": null,
-        "input": 0.9483,
-        "output": 1.8966
+        "input": 1.6,
+        "output": 3.2
       },
       "releaseDate": "2026-04-24",
       "tags": []
@@ -241217,10 +241217,10 @@
       },
       "name": "Gemma 4 26B A4B IT",
       "price": {
-        "cacheRead": 0.05,
+        "cacheRead": 0.0375,
         "cacheWrite": null,
-        "input": 0.09,
-        "output": 0.3
+        "input": 0.0675,
+        "output": 0.225
       },
       "releaseDate": "2026-04-02",
       "tags": []
@@ -251388,10 +251388,10 @@
       },
       "name": "GLM-5.3-Flash",
       "price": {
-        "cacheRead": 0.018,
+        "cacheRead": 0.0197,
         "cacheWrite": null,
-        "input": 0.018,
-        "output": 0.1402
+        "input": 0.0197,
+        "output": 0.1324
       },
       "releaseDate": "2026-08-26",
       "tags": []
@@ -267140,7 +267140,7 @@
       "knowledge": "2025-05",
       "lastUpdated": "2026-04-24",
       "maxCtxTokens": 1048576,
-      "maxOutputTokens": 384000,
+      "maxOutputTokens": 393216,
       "modalities": {
         "input": [
           "text"
@@ -311780,42 +311780,6 @@
         "output": 10
       },
       "releaseDate": "2026-09-28",
-      "tags": []
-    },
-    {
-      "description": "Reasoning-optimized 398B MoE agent model with extended thinking for long-horizon and multi-turn tool use",
-      "firm": "vercel",
-      "flags": {
-        "attachment": false,
-        "audio": false,
-        "image": false,
-        "open_weights": true,
-        "reasoning": true,
-        "temperature": true,
-        "tool_call": true
-      },
-      "icon": "lb:vercel-color",
-      "id": "arcee-ai/trinity-large-thinking",
-      "knowledge": null,
-      "lastUpdated": "2026-05-28",
-      "maxCtxTokens": 262100,
-      "maxOutputTokens": 80000,
-      "modalities": {
-        "input": [
-          "text"
-        ],
-        "output": [
-          "text"
-        ]
-      },
-      "name": "Trinity Large Thinking",
-      "price": {
-        "cacheRead": 0.06,
-        "cacheWrite": null,
-        "input": 0.25,
-        "output": 0.8
-      },
-      "releaseDate": "2026-04-01",
       "tags": []
     },
     {
