@@ -86,7 +86,7 @@
       "doc": "https://docs.aiand.com/",
       "icon": "https://models.dev/logos/aiand.svg",
       "id": "aiand",
-      "modelCount": 10,
+      "modelCount": 11,
       "name": "ai&",
       "status": 1
     },
@@ -1266,7 +1266,7 @@
       "doc": "https://docs.mistral.ai/getting-started/models/",
       "icon": "lb:mistral-color",
       "id": "mistral",
-      "modelCount": 35,
+      "modelCount": 36,
       "name": "Mistral",
       "status": 1
     },
@@ -1416,7 +1416,7 @@
       "doc": "https://docs.near.ai/",
       "icon": "https://models.dev/logos/nearai.svg",
       "id": "nearai",
-      "modelCount": 57,
+      "modelCount": 60,
       "name": "NEAR AI Cloud",
       "status": 1
     },
@@ -2166,7 +2166,7 @@
       "doc": "https://docs.venice.ai",
       "icon": "lb:veniceai",
       "id": "venice",
-      "modelCount": 129,
+      "modelCount": 128,
       "name": "Venice AI",
       "status": 1
     },
