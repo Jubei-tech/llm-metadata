@@ -58133,17 +58133,6 @@
     {
       "flags": {
         "attachment": false,
-        "reasoning": false,
-        "tool_call": false
-      },
-      "id": "minimax/minimax-m2-her",
-      "name": "MiniMax M2-her",
-      "providerId": "nano-gpt",
-      "updated": "2026-01-23"
-    },
-    {
-      "flags": {
-        "attachment": false,
         "reasoning": true,
         "tool_call": true
       },
@@ -100925,7 +100914,7 @@
       "doc": "https://docs.nano-gpt.com",
       "iconURL": "https://models.dev/logos/nano-gpt.svg",
       "id": "nano-gpt",
-      "modelCount": 643,
+      "modelCount": 642,
       "name": "NanoGPT"
     },
     {
