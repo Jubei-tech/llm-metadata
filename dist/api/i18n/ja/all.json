@@ -10764,7 +10764,7 @@
           }
         ],
         "release_date": "2026-10-15",
-        "structured_output": false,
+        "structured_output": true,
         "temperature": true,
         "tool_call": true
       },
@@ -94674,51 +94674,6 @@
         "temperature": true,
         "tool_call": true
       },
-      "databricks/databricks-deepseek-v4-flash-0731": {
-        "attachment": false,
-        "canonical_model_id": "deepseek/deepseek-v4-flash-0731",
-        "cost": {
-          "cache_read": 0.014,
-          "cache_write": 0.14,
-          "input": 0.14,
-          "output": 0.28
-        },
-        "description": "Official DeepSeek V4 Flash release with enhanced agentic capabilities and integrated DSpark speculative decoding",
-        "family": "deepseek-flash",
-        "id": "databricks/databricks-deepseek-v4-flash-0731",
-        "knowledge": "2025-05",
-        "last_updated": "2026-07-31",
-        "limit": {
-          "context": 1000000,
-          "output": 384000
-        },
-        "modalities": {
-          "input": [
-            "text"
-          ],
-          "output": [
-            "text"
-          ]
-        },
-        "name": "DeepSeek V4 Flash 0731 (Databricks)",
-        "open_weights": true,
-        "reasoning": true,
-        "reasoning_options": [
-          {
-            "type": "effort",
-            "values": [
-              "none",
-              "low",
-              "high",
-              "max"
-            ]
-          }
-        ],
-        "release_date": "2026-07-31",
-        "structured_output": false,
-        "temperature": true,
-        "tool_call": true
-      },
       "databricks/databricks-gpt-oss-120b": {
         "attachment": false,
         "canonical_model_id": "openai/gpt-oss-120b",
@@ -99637,9 +99592,9 @@
         "attachment": true,
         "canonical_model_id": "minimax/MiniMax-M3.1-Flash",
         "cost": {
-          "cache_read": 0.0075,
-          "input": 0.075,
-          "output": 0.3
+          "cache_read": 0.015,
+          "input": 0.15,
+          "output": 0.6
         },
         "description": "Frontier multimodal coding model with 1M context window and tunable thinking depth",
         "family": "minimax",
@@ -140744,7 +140699,7 @@
         "cost": {
           "cache_read": 0.14,
           "cache_write": 0,
-          "input": 1.2,
+          "input": 1,
           "output": 3.08
         },
         "description": "Flagship GLM model for long-horizon coding, agents, and complex project delivery",
@@ -140790,7 +140745,7 @@
         "cost": {
           "cache_read": 0.04,
           "cache_write": 0,
-          "input": 0.15,
+          "input": 0.175,
           "output": 0.45
         },
         "description": "Native multimodal GLM model for efficient coding and long-horizon agent tasks",
@@ -150744,8 +150699,8 @@
         "attachment": false,
         "canonical_model_id": "deepseek/deepseek-chat",
         "cost": {
-          "input": 0.2574,
-          "output": 1.0287
+          "input": 0.32,
+          "output": 0.89
         },
         "description": "DeepSeek chat model for instruction following, coding, and analysis",
         "family": "deepseek",
@@ -150753,8 +150708,8 @@
         "knowledge": "2025-09",
         "last_updated": "2026-02-28",
         "limit": {
-          "context": 128000,
-          "output": 16000
+          "context": 163840,
+          "output": 16384
         },
         "modalities": {
           "input": [
@@ -152715,9 +152670,9 @@
         "attachment": true,
         "canonical_model_id": "google/gemma-4-26b-a4b-it",
         "cost": {
-          "cache_read": 0.01,
-          "input": 0.04,
-          "output": 0.15
+          "cache_read": 0.014,
+          "input": 0.028,
+          "output": 0.083
         },
         "description": "Open Gemma instruction model for efficient chat and self-hosted deployments",
         "family": "gemma",
@@ -152758,9 +152713,9 @@
         "attachment": true,
         "canonical_model_id": "google/gemma-4-31b-it",
         "cost": {
-          "cache_read": 0.1,
-          "input": 0.1,
-          "output": 0.34
+          "cache_read": 0.039,
+          "input": 0.079,
+          "output": 0.132
         },
         "description": "Open Gemma instruction model for efficient chat and self-hosted deployments",
         "family": "gemma",
@@ -155876,8 +155831,8 @@
         "knowledge": "2025-06",
         "last_updated": "2026-03-11",
         "limit": {
-          "context": 1048576,
-          "output": 262144
+          "context": 262144,
+          "output": 16384
         },
         "modalities": {
           "input": [
@@ -158474,9 +158429,9 @@
         "attachment": false,
         "canonical_model_id": "openai/gpt-oss-120b",
         "cost": {
-          "cache_read": 0.021,
-          "input": 0.023,
-          "output": 0.087
+          "cache_read": 0.026,
+          "input": 0.029,
+          "output": 0.109
         },
         "description": "Open-weight GPT model for self-hosted reasoning and instruction-following workloads",
         "family": "gpt-oss",
@@ -163784,8 +163739,8 @@
       "~deepseek/deepseek-pro-latest": {
         "attachment": false,
         "cost": {
-          "cache_read": 0.0927,
-          "input": 0.0927,
+          "cache_read": 0.0999,
+          "input": 0.0999,
           "output": 8
         },
         "description": "This model always redirects to the latest model in the DeepSeek Pro family.",
@@ -163962,9 +163917,9 @@
       "~moonshotai/kimi-latest": {
         "attachment": true,
         "cost": {
-          "cache_read": 0.18,
-          "input": 0.1824,
-          "output": 10.5539
+          "cache_read": 0.15,
+          "input": 0.1529,
+          "output": 10.1522
         },
         "description": "Kimi multimodal agent model for visual understanding, coding, and planning",
         "family": "kimi",
@@ -164313,8 +164268,8 @@
       "~z-ai/glm-flash-latest": {
         "attachment": true,
         "cost": {
-          "cache_read": 0.0285,
-          "input": 0.0285,
+          "cache_read": 0.0284,
+          "input": 0.0284,
           "output": 0.0923
         },
         "description": "This model always redirects to the latest model in the GLM Flash family.",
@@ -166459,39 +166414,6 @@
         "temperature": true,
         "tool_call": true
       },
-      "deepseek-v4-flash-0731": {
-        "attachment": false,
-        "canonical_model_id": "deepseek/deepseek-v4-flash-0731",
-        "cost": {
-          "cache_read": 0.03,
-          "input": 0.14,
-          "output": 0.28
-        },
-        "description": "Official DeepSeek V4 Flash release with enhanced agentic capabilities and integrated DSpark speculative decoding",
-        "family": "deepseek-flash",
-        "id": "deepseek-v4-flash-0731",
-        "knowledge": "2025-05",
-        "last_updated": "2026-07-31",
-        "limit": {
-          "context": 1000000,
-          "output": 384000
-        },
-        "modalities": {
-          "input": [
-            "text"
-          ],
-          "output": [
-            "text"
-          ]
-        },
-        "name": "deepseek-v4-flash-0731",
-        "open_weights": true,
-        "reasoning": true,
-        "reasoning_options": [],
-        "release_date": "2026-07-31",
-        "temperature": true,
-        "tool_call": true
-      },
       "deepseek-v4-pro": {
         "attachment": false,
         "canonical_model_id": "deepseek/deepseek-v4-pro",
@@ -166592,9 +166514,9 @@
         "attachment": true,
         "canonical_model_id": "deepseek/deepseek-v4.1-flash-1017",
         "cost": {
-          "cache_read": 0.005,
-          "input": 0.2,
-          "output": 0.8
+          "cache_read": 0.003,
+          "input": 0.135,
+          "output": 0.54
         },
         "description": "Fast DeepSeek model for efficient chat, coding help, and agent loops",
         "family": "deepseek-flash",
@@ -169697,9 +169619,9 @@
         "attachment": false,
         "canonical_model_id": "openai/gpt-oss-120b",
         "cost": {
-          "cache_read": 0.02,
-          "input": 0.1,
-          "output": 0.5
+          "cache_read": 0.01,
+          "input": 0.05,
+          "output": 0.25
         },
         "description": "Open-weight GPT model for self-hosted reasoning and instruction-following workloads",
         "family": "gpt-oss",
@@ -180527,40 +180449,6 @@
         "temperature": true,
         "tool_call": true
       },
-      "canopywave/deepseek-v4-flash-0731": {
-        "attachment": false,
-        "canonical_model_id": "deepseek/deepseek-v4-flash-0731",
-        "cost": {
-          "cache_read": 0.03,
-          "input": 0.14,
-          "output": 0.28
-        },
-        "description": "Official DeepSeek V4 Flash release with enhanced agentic capabilities and integrated DSpark speculative decoding",
-        "family": "deepseek-flash",
-        "id": "canopywave/deepseek-v4-flash-0731",
-        "knowledge": "2025-05",
-        "last_updated": "2026-07-31",
-        "limit": {
-          "context": 1000000,
-          "output": 384000
-        },
-        "modalities": {
-          "input": [
-            "text"
-          ],
-          "output": [
-            "text"
-          ]
-        },
-        "name": "deepseek-v4-flash-0731 (CanopyWave)",
-        "open_weights": true,
-        "reasoning": true,
-        "reasoning_options": [],
-        "release_date": "2026-07-31",
-        "structured_output": false,
-        "temperature": true,
-        "tool_call": true
-      },
       "canopywave/glm-5.2": {
         "attachment": false,
         "canonical_model_id": "zhipuai/glm-5.2",
@@ -180801,54 +180689,6 @@
           }
         ],
         "release_date": "2026-10-19",
-        "structured_output": false,
-        "temperature": true,
-        "tool_call": true
-      },
-      "canopywave/qwen3.8-flash": {
-        "attachment": true,
-        "canonical_model_id": "alibaba/qwen3.8-flash",
-        "cost": {
-          "cache_read": 0.02,
-          "input": 0.15,
-          "output": 0.5
-        },
-        "description": "Qwen vision-language model for visual reasoning, documents, and agent tasks",
-        "family": "qwen",
-        "id": "canopywave/qwen3.8-flash",
-        "last_updated": "2026-08-26",
-        "limit": {
-          "context": 1000000,
-          "output": 131072
-        },
-        "modalities": {
-          "input": [
-            "text",
-            "image",
-            "video"
-          ],
-          "output": [
-            "text"
-          ]
-        },
-        "name": "Qwen3.8 Flash (CanopyWave)",
-        "open_weights": false,
-        "reasoning": true,
-        "reasoning_options": [
-          {
-            "type": "effort",
-            "values": [
-              "none",
-              "minimal",
-              "low",
-              "medium",
-              "high",
-              "xhigh",
-              "max"
-            ]
-          }
-        ],
-        "release_date": "2026-08-26",
         "structured_output": false,
         "temperature": true,
         "tool_call": true
@@ -181398,52 +181238,6 @@
         ],
         "release_date": "2025-08-05",
         "structured_output": false,
-        "temperature": true,
-        "tool_call": true
-      },
-      "consensusprotocol/minimax-m3": {
-        "attachment": false,
-        "canonical_model_id": "minimax/MiniMax-M3",
-        "cost": {
-          "cache_read": 0.05,
-          "input": 0.28,
-          "output": 1.1
-        },
-        "description": "MiniMax multimodal model for long-context coding, perception, and agent planning",
-        "family": "minimax",
-        "id": "consensusprotocol/minimax-m3",
-        "last_updated": "2026-06-01",
-        "limit": {
-          "context": 1048576,
-          "output": 512000
-        },
-        "modalities": {
-          "input": [
-            "text"
-          ],
-          "output": [
-            "text"
-          ]
-        },
-        "name": "MiniMax M3 (Consensus Protocol)",
-        "open_weights": true,
-        "reasoning": true,
-        "reasoning_options": [
-          {
-            "type": "effort",
-            "values": [
-              "none",
-              "minimal",
-              "low",
-              "medium",
-              "high",
-              "xhigh",
-              "max"
-            ]
-          }
-        ],
-        "release_date": "2026-06-01",
-        "structured_output": true,
         "temperature": true,
         "tool_call": true
       },
@@ -182832,6 +182626,49 @@
           }
         ],
         "release_date": "2026-08-26",
+        "structured_output": true,
+        "temperature": true,
+        "tool_call": true
+      },
+      "flexai/gpt-oss-120b": {
+        "attachment": false,
+        "canonical_model_id": "openai/gpt-oss-120b",
+        "cost": {
+          "cache_read": 0.01,
+          "input": 0.05,
+          "output": 0.25
+        },
+        "description": "Open GPT reasoning model for self-hosted agents and controllable deployments",
+        "family": "gpt-oss",
+        "id": "flexai/gpt-oss-120b",
+        "knowledge": "2024-06",
+        "last_updated": "2025-08-05",
+        "limit": {
+          "context": 131072,
+          "output": 32768
+        },
+        "modalities": {
+          "input": [
+            "text"
+          ],
+          "output": [
+            "text"
+          ]
+        },
+        "name": "GPT OSS 120B (flexai)",
+        "open_weights": true,
+        "reasoning": true,
+        "reasoning_options": [
+          {
+            "type": "effort",
+            "values": [
+              "low",
+              "medium",
+              "high"
+            ]
+          }
+        ],
+        "release_date": "2025-08-05",
         "structured_output": true,
         "temperature": true,
         "tool_call": true
@@ -189825,6 +189662,39 @@
         "open_weights": true,
         "reasoning": false,
         "release_date": "2026-09-10",
+        "structured_output": false,
+        "temperature": true,
+        "tool_call": false
+      },
+      "scx-ai-gp/deepseek-v4.1-flash-1017": {
+        "attachment": false,
+        "canonical_model_id": "deepseek/deepseek-v4.1-flash-1017",
+        "cost": {
+          "cache_read": 0.003,
+          "input": 0.135,
+          "output": 0.54
+        },
+        "description": "October 17 update of DeepSeek V4.1 Flash with improved reasoning, coding, agentic tasks, and visual understanding",
+        "family": "deepseek-flash",
+        "id": "scx-ai-gp/deepseek-v4.1-flash-1017",
+        "knowledge": "2025-05",
+        "last_updated": "2026-10-17",
+        "limit": {
+          "context": 1050000,
+          "output": 384000
+        },
+        "modalities": {
+          "input": [
+            "text"
+          ],
+          "output": [
+            "text"
+          ]
+        },
+        "name": "DeepSeek V4.1 Flash 1017 (scx-ai-gp)",
+        "open_weights": true,
+        "reasoning": false,
+        "release_date": "2026-10-17",
         "structured_output": false,
         "temperature": true,
         "tool_call": false
@@ -215881,41 +215751,6 @@
         "temperature": true,
         "tool_call": false
       },
-      "TEE/qwen3.5-27b": {
-        "attachment": true,
-        "canonical_model_id": "alibaba/qwen3.5-27b",
-        "cost": {
-          "cache_read": 0.15,
-          "input": 0.3,
-          "output": 2.4
-        },
-        "description": "Qwen vision-language model for visual reasoning, documents, and agent tasks",
-        "family": "qwen",
-        "id": "TEE/qwen3.5-27b",
-        "last_updated": "2026-02-23",
-        "limit": {
-          "context": 262144,
-          "input": 262144,
-          "output": 65536
-        },
-        "modalities": {
-          "input": [
-            "text",
-            "image",
-            "video"
-          ],
-          "output": [
-            "text"
-          ]
-        },
-        "name": "Qwen3.5 27B TEE",
-        "open_weights": true,
-        "reasoning": false,
-        "release_date": "2026-02-23",
-        "structured_output": false,
-        "temperature": true,
-        "tool_call": false
-      },
       "TEE/qwen3.5-397b-a17b": {
         "attachment": false,
         "canonical_model_id": "alibaba/qwen3.5-397b-a17b",
@@ -223653,9 +223488,9 @@
         "attachment": true,
         "canonical_model_id": "google/gemma-4-26b-a4b-it",
         "cost": {
-          "cache_read": 0.046,
-          "input": 0.07,
-          "output": 0.24
+          "cache_read": 0.012,
+          "input": 0.023,
+          "output": 0.07
         },
         "description": "Open Gemma instruction model for efficient chat and self-hosted deployments",
         "family": "gemma",
@@ -223726,9 +223561,9 @@
         "attachment": true,
         "canonical_model_id": "google/gemma-4-26b-a4b-it",
         "cost": {
-          "cache_read": 0.046,
-          "input": 0.07,
-          "output": 0.24
+          "cache_read": 0.012,
+          "input": 0.023,
+          "output": 0.07
         },
         "description": "Open Gemma instruction model for efficient chat and self-hosted deployments",
         "family": "gemma",
@@ -272886,8 +272721,8 @@
         "attachment": false,
         "canonical_model_id": "deepseek/deepseek-chat",
         "cost": {
-          "input": 0.2574,
-          "output": 1.0287
+          "input": 0.32,
+          "output": 0.89
         },
         "description": "DeepSeek chat model for instruction following, coding, and analysis",
         "family": "deepseek",
@@ -272896,7 +272731,7 @@
         "last_updated": "2026-02-28",
         "limit": {
           "context": 163840,
-          "output": 16000
+          "output": 16384
         },
         "modalities": {
           "input": [
@@ -273312,9 +273147,9 @@
         "attachment": false,
         "canonical_model_id": "deepseek/deepseek-v4-pro-0813",
         "cost": {
-          "cache_read": 0.098,
-          "input": 0.103,
-          "output": 4.11
+          "cache_read": 0.111,
+          "input": 0.1165,
+          "output": 4.66
         },
         "description": "DeepSeek V4 Pro snapshot with million-token context and support for thinking and non-thinking modes",
         "family": "deepseek-thinking",
@@ -273356,8 +273191,8 @@
         "canonical_model_id": "deepseek/deepseek-v4.1-flash",
         "cost": {
           "cache_read": 0.018,
-          "input": 0.045,
-          "output": 0.5
+          "input": 0.051,
+          "output": 0.567
         },
         "description": "Fast DeepSeek model for efficient chat, coding help, and agent loops",
         "family": "deepseek-flash",
@@ -273400,9 +273235,9 @@
         "attachment": true,
         "canonical_model_id": "deepseek/deepseek-v4.1-flash-1017",
         "cost": {
-          "cache_read": 0.006,
-          "input": 0.3,
-          "output": 1.2
+          "cache_read": 0.003,
+          "input": 0.15,
+          "output": 0.6
         },
         "description": "Fast DeepSeek model for efficient chat, coding help, and agent loops",
         "family": "deepseek-flash",
@@ -274893,9 +274728,9 @@
         "attachment": true,
         "canonical_model_id": "google/gemma-4-26b-a4b-it",
         "cost": {
-          "cache_read": 0.0425,
-          "input": 0.0765,
-          "output": 0.255
+          "cache_read": 0.05,
+          "input": 0.09,
+          "output": 0.3
         },
         "description": "Open Gemma instruction model for efficient chat and self-hosted deployments",
         "family": "gemma",
@@ -277892,9 +277727,8 @@
         "attachment": false,
         "canonical_model_id": "nvidia/nemotron-3-super-120b-a12b",
         "cost": {
-          "cache_read": 0.15,
-          "input": 0.3,
-          "output": 2.4
+          "input": 0.075,
+          "output": 0.4
         },
         "description": "Nemotron middle tier for collaborative agents and high-volume reasoning workloads",
         "family": "nemotron",
@@ -277903,7 +277737,7 @@
         "last_updated": "2026-03-11",
         "limit": {
           "context": 1048576,
-          "output": 262144
+          "output": 16384
         },
         "modalities": {
           "input": [
@@ -278050,43 +277884,6 @@
           ]
         },
         "name": "Nemotron 3.5 Content Safety",
-        "open_weights": true,
-        "reasoning": true,
-        "reasoning_options": [
-          {
-            "type": "toggle"
-          }
-        ],
-        "release_date": "2026-06-02",
-        "structured_output": false,
-        "temperature": true,
-        "tool_call": false
-      },
-      "nvidia/nemotron-3.5-content-safety:free": {
-        "attachment": true,
-        "canonical_model_id": "nvidia/nemotron-3.5-content-safety",
-        "cost": {
-          "input": 0,
-          "output": 0
-        },
-        "description": "Safety model for policy screening, moderation, and risk-aware routing workflows",
-        "family": "nemotron",
-        "id": "nvidia/nemotron-3.5-content-safety:free",
-        "last_updated": "2026-06-02",
-        "limit": {
-          "context": 128000,
-          "output": 8192
-        },
-        "modalities": {
-          "input": [
-            "text",
-            "image"
-          ],
-          "output": [
-            "text"
-          ]
-        },
-        "name": "Nemotron 3.5 Content Safety (free)",
         "open_weights": true,
         "reasoning": true,
         "reasoning_options": [
@@ -280857,9 +280654,9 @@
         "attachment": false,
         "canonical_model_id": "openai/gpt-oss-120b",
         "cost": {
-          "cache_read": 0.021,
-          "input": 0.023,
-          "output": 0.087
+          "cache_read": 0.019,
+          "input": 0.021,
+          "output": 0.079
         },
         "description": "Open GPT reasoning model for self-hosted agents and controllable deployments",
         "family": "gpt-oss",
@@ -286250,8 +286047,8 @@
       "~deepseek/deepseek-pro-latest": {
         "attachment": false,
         "cost": {
-          "cache_read": 0.0927,
-          "input": 0.0927,
+          "cache_read": 0.0999,
+          "input": 0.0999,
           "output": 8
         },
         "description": "Flagship DeepSeek model for coding, reasoning, and agentic work",
@@ -286448,9 +286245,9 @@
       "~moonshotai/kimi-latest": {
         "attachment": true,
         "cost": {
-          "cache_read": 0.16,
-          "input": 0.1624,
-          "output": 10.5539
+          "cache_read": 0.18,
+          "input": 0.1824,
+          "output": 10.1522
         },
         "description": "Kimi multimodal agent model for visual understanding, coding, and planning",
         "family": "kimi",
@@ -286893,8 +286690,8 @@
       "~z-ai/glm-flash-latest": {
         "attachment": true,
         "cost": {
-          "cache_read": 0.0285,
-          "input": 0.0285,
+          "cache_read": 0.0284,
+          "input": 0.0284,
           "output": 0.0923
         },
         "description": "GLM vision model for visual reasoning, documents, and multimodal agents",
