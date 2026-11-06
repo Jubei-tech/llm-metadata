@@ -2,9 +2,9 @@
   "attachment": false,
   "canonical_model_id": "openai/gpt-oss-120b",
   "cost": {
-    "cache_read": 0.025,
-    "input": 0.028,
-    "output": 0.103
+    "cache_read": 0.021,
+    "input": 0.023,
+    "output": 0.087
   },
   "description": "Open-weight GPT model for self-hosted reasoning and instruction-following workloads",
   "family": "gpt-oss",
