@@ -6419,8 +6419,8 @@
       "knowledge": "2025-01",
       "last_updated": "2026-01-27",
       "limit": {
-        "context": 262144,
-        "output": 235929
+        "context": 256000,
+        "output": 65536
       },
       "modalities": {
         "input": [
@@ -9508,9 +9508,9 @@
       "attachment": false,
       "canonical_model_id": "openai/gpt-oss-120b",
       "cost": {
-        "cache_read": 0.017,
-        "input": 0.019,
-        "output": 0.072
+        "cache_read": 0.024,
+        "input": 0.027,
+        "output": 0.099
       },
       "description": "Open-weight GPT model for self-hosted reasoning and instruction-following workloads",
       "family": "gpt-oss",
@@ -14861,9 +14861,9 @@
     "~deepseek/deepseek-v4-flash-latest": {
       "attachment": false,
       "cost": {
-        "cache_read": 0.001414,
-        "input": 0.04444,
-        "output": 0.13332
+        "cache_read": 0.035,
+        "input": 0.0434,
+        "output": 0.3
       },
       "description": "This model always redirects to the latest model in the DeepSeek V4 Flash family.",
       "family": "deepseek",
@@ -14871,7 +14871,7 @@
       "last_updated": "2026-08-01",
       "limit": {
         "context": 1048576,
-        "output": 131072
+        "output": 943718
       },
       "modalities": {
         "input": [
@@ -14997,8 +14997,8 @@
     "~moonshotai/kimi-latest": {
       "attachment": true,
       "cost": {
-        "cache_read": 0.16,
-        "input": 0.1653,
+        "cache_read": 0.18,
+        "input": 0.1824,
         "output": 10.1427
       },
       "description": "Kimi multimodal agent model for visual understanding, coding, and planning",
@@ -15348,9 +15348,9 @@
     "~z-ai/glm-flash-latest": {
       "attachment": true,
       "cost": {
-        "cache_read": 0.0285,
-        "input": 0.0285,
-        "output": 0.0923
+        "cache_read": 0.03,
+        "input": 0.0317,
+        "output": 0.083
       },
       "description": "This model always redirects to the latest model in the GLM Flash family.",
       "family": "glm-flash",
