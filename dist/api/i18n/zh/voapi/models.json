@@ -88150,10 +88150,10 @@
       },
       "name": "MiniMax-M3.1-Flash",
       "price": {
-        "cacheRead": 0.015,
+        "cacheRead": 0.0075,
         "cacheWrite": null,
-        "input": 0.15,
-        "output": 0.6
+        "input": 0.075,
+        "output": 0.3
       },
       "releaseDate": "2026-10-19",
       "tags": []
@@ -122583,9 +122583,9 @@
       },
       "name": "Kimi K2.6",
       "price": {
-        "cacheRead": 0.156,
+        "cacheRead": 0.2092,
         "cacheWrite": null,
-        "input": 0.7995,
+        "input": 0.799,
         "output": 3.75
       },
       "releaseDate": "2026-04-20",
@@ -130720,7 +130720,7 @@
       "knowledge": null,
       "lastUpdated": "2026-08-01",
       "maxCtxTokens": 1048576,
-      "maxOutputTokens": 943718,
+      "maxOutputTokens": 131072,
       "modalities": {
         "input": [
           "text"
@@ -130731,10 +130731,10 @@
       },
       "name": "DeepSeek: DeepSeek V4 Flash Latest",
       "price": {
-        "cacheRead": 0.035,
+        "cacheRead": 0.001414,
         "cacheWrite": null,
-        "input": 0.0487,
-        "output": 0.3
+        "input": 0.04444,
+        "output": 0.13332
       },
       "releaseDate": "2026-08-01",
       "tags": []
@@ -130849,10 +130849,10 @@
       },
       "name": "MoonshotAI: Kimi Latest",
       "price": {
-        "cacheRead": 0.15,
+        "cacheRead": 0.16,
         "cacheWrite": null,
-        "input": 0.1539,
-        "output": 10.1489
+        "input": 0.1653,
+        "output": 10.1427
       },
       "releaseDate": "2026-04-27",
       "tags": []
@@ -134470,10 +134470,10 @@
       },
       "name": "Gemma 4 26B A4B IT",
       "price": {
-        "cacheRead": 0.013,
+        "cacheRead": 0.01,
         "cacheWrite": null,
-        "input": 0.027,
-        "output": 0.08
+        "input": 0.04,
+        "output": 0.15
       },
       "releaseDate": "2026-04-02",
       "tags": []
@@ -139883,10 +139883,10 @@
       },
       "name": "GPT OSS 120B",
       "price": {
-        "cacheRead": 0.018,
+        "cacheRead": 0.017,
         "cacheWrite": null,
-        "input": 0.02,
-        "output": 0.073
+        "input": 0.019,
+        "output": 0.072
       },
       "releaseDate": "2025-08-05",
       "tags": []
@@ -142993,10 +142993,10 @@
       },
       "name": "Hy3",
       "price": {
-        "cacheRead": 0.033,
+        "cacheRead": 0.020625,
         "cacheWrite": null,
-        "input": 0.132,
-        "output": 0.528
+        "input": 0.0825,
+        "output": 0.33
       },
       "releaseDate": "2026-07-06",
       "tags": []
@@ -143102,10 +143102,10 @@
       },
       "name": "Hy4 preview",
       "price": {
-        "cacheRead": 0.042,
+        "cacheRead": 0.0378,
         "cacheWrite": null,
-        "input": 0.834,
-        "output": 2.501
+        "input": 0.7506,
+        "output": 2.2509
       },
       "releaseDate": "2026-08-28",
       "tags": []
@@ -190125,10 +190125,10 @@
       },
       "name": "DeepSeek V4 Flash 0731",
       "price": {
-        "cacheRead": 0.001582,
+        "cacheRead": 0.001456,
         "cacheWrite": null,
-        "input": 0.04972,
-        "output": 0.14916
+        "input": 0.04576,
+        "output": 0.13728
       },
       "releaseDate": "2026-07-31",
       "tags": []
@@ -190161,10 +190161,10 @@
       },
       "name": "DeepSeek V4 Flash 0731 (Thinking)",
       "price": {
-        "cacheRead": 0.001582,
+        "cacheRead": 0.001456,
         "cacheWrite": null,
-        "input": 0.04972,
-        "output": 0.14916
+        "input": 0.04576,
+        "output": 0.13728
       },
       "releaseDate": "2026-07-31",
       "tags": []
@@ -194682,10 +194682,10 @@
       },
       "name": "Gemma 4 26B A4B",
       "price": {
-        "cacheRead": 0.015,
+        "cacheRead": 0.019,
         "cacheWrite": null,
-        "input": 0.03,
-        "output": 0.091
+        "input": 0.038,
+        "output": 0.115
       },
       "releaseDate": "2026-04-02",
       "tags": []
@@ -194757,10 +194757,10 @@
       },
       "name": "Gemma 4 26B A4B Thinking",
       "price": {
-        "cacheRead": 0.015,
+        "cacheRead": 0.019,
         "cacheWrite": null,
-        "input": 0.03,
-        "output": 0.091
+        "input": 0.038,
+        "output": 0.115
       },
       "releaseDate": "2026-04-02",
       "tags": []
@@ -237767,7 +237767,7 @@
       "price": {
         "cacheRead": 0.035,
         "cacheWrite": null,
-        "input": 0.05,
+        "input": 0.0461,
         "output": 0.3
       },
       "releaseDate": "2026-08-01",
@@ -237883,10 +237883,10 @@
       },
       "name": "Kimi Latest",
       "price": {
-        "cacheRead": 0.18,
+        "cacheRead": 0.16,
         "cacheWrite": null,
-        "input": 0.1824,
-        "output": 10.5572
+        "input": 0.1653,
+        "output": 10.5478
       },
       "releaseDate": "2026-04-27",
       "tags": []
@@ -240074,7 +240074,7 @@
       "price": {
         "cacheRead": 0.035,
         "cacheWrite": null,
-        "input": 0.05,
+        "input": 0.0461,
         "output": 0.3
       },
       "releaseDate": "2026-07-31",
@@ -240145,10 +240145,10 @@
       },
       "name": "DeepSeek V4 Pro",
       "price": {
-        "cacheRead": 0.064902,
+        "cacheRead": 0.054767,
         "cacheWrite": null,
-        "input": 0.778824,
-        "output": 1.557648
+        "input": 0.657198,
+        "output": 1.314396
       },
       "releaseDate": "2026-04-24",
       "tags": []
@@ -243158,10 +243158,10 @@
       },
       "name": "MiniMax-M3.1-Flash",
       "price": {
-        "cacheRead": 0.015,
+        "cacheRead": 0.0075,
         "cacheWrite": null,
-        "input": 0.15,
-        "output": 0.6
+        "input": 0.075,
+        "output": 0.3
       },
       "releaseDate": "2026-10-19",
       "tags": []
@@ -246825,10 +246825,10 @@
       },
       "name": "GPT OSS 120B",
       "price": {
-        "cacheRead": 0.015,
+        "cacheRead": 0.013,
         "cacheWrite": null,
-        "input": 0.017,
-        "output": 0.062
+        "input": 0.015,
+        "output": 0.054
       },
       "releaseDate": "2025-08-05",
       "tags": []

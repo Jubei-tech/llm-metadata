@@ -6672,9 +6672,9 @@
       "attachment": false,
       "canonical_model_id": "deepseek/deepseek-v4-flash-0731",
       "cost": {
-        "cache_read": 0.001582,
-        "input": 0.04972,
-        "output": 0.14916
+        "cache_read": 0.001456,
+        "input": 0.04576,
+        "output": 0.13728
       },
       "description": "Official DeepSeek V4 Flash release with enhanced agentic capabilities and integrated DSpark speculative decoding",
       "family": "deepseek-flash",
@@ -6717,9 +6717,9 @@
       "attachment": false,
       "canonical_model_id": "deepseek/deepseek-v4-flash-0731",
       "cost": {
-        "cache_read": 0.001582,
-        "input": 0.04972,
-        "output": 0.14916
+        "cache_read": 0.001456,
+        "input": 0.04576,
+        "output": 0.13728
       },
       "description": "Official DeepSeek V4 Flash release with enhanced agentic capabilities and integrated DSpark speculative decoding",
       "family": "deepseek-flash",
@@ -10346,9 +10346,9 @@
       "attachment": true,
       "canonical_model_id": "google/gemma-4-26b-a4b-it",
       "cost": {
-        "cache_read": 0.015,
-        "input": 0.03,
-        "output": 0.091
+        "cache_read": 0.019,
+        "input": 0.038,
+        "output": 0.115
       },
       "description": "Open Gemma instruction model for efficient chat and self-hosted deployments",
       "family": "gemma",
@@ -10419,9 +10419,9 @@
       "attachment": true,
       "canonical_model_id": "google/gemma-4-26b-a4b-it",
       "cost": {
-        "cache_read": 0.015,
-        "input": 0.03,
-        "output": 0.091
+        "cache_read": 0.019,
+        "input": 0.038,
+        "output": 0.115
       },
       "description": "Open Gemma instruction model for efficient chat and self-hosted deployments",
       "family": "gemma",
