@@ -99592,9 +99592,9 @@
         "attachment": true,
         "canonical_model_id": "minimax/MiniMax-M3.1-Flash",
         "cost": {
-          "cache_read": 0.0075,
-          "input": 0.075,
-          "output": 0.3
+          "cache_read": 0.015,
+          "input": 0.15,
+          "output": 0.6
         },
         "description": "Frontier multimodal coding model with 1M context window and tunable thinking depth",
         "family": "minimax",
@@ -150679,8 +150679,8 @@
         "knowledge": "2025-05",
         "last_updated": "2026-04-24",
         "limit": {
-          "context": 1048576,
-          "output": 393216
+          "context": 1024000,
+          "output": 384000
         },
         "modalities": {
           "input": [
@@ -150811,7 +150811,7 @@
         "last_updated": "2026-10-17",
         "limit": {
           "context": 1048576,
-          "output": 393216
+          "output": 943718
         },
         "modalities": {
           "input": [
@@ -152243,8 +152243,8 @@
         "canonical_model_id": "google/gemma-4-26b-a4b-it",
         "cost": {
           "cache_read": 0.017,
-          "input": 0.034,
-          "output": 0.102
+          "input": 0.033,
+          "output": 0.099
         },
         "description": "Open Gemma instruction model for efficient chat and self-hosted deployments",
         "family": "gemma",
@@ -152459,134 +152459,6 @@
           }
         ],
         "release_date": "2026-08-25",
-        "structured_output": true,
-        "temperature": true,
-        "tool_call": true
-      },
-      "inception/mercury-2": {
-        "attachment": false,
-        "canonical_model_id": "inception/mercury-2",
-        "cost": {
-          "cache_read": 0.025,
-          "input": 0.25,
-          "output": 0.75
-        },
-        "description": "Reasoning model for deliberate analysis, multi-step problem solving, and tool use",
-        "family": "mercury",
-        "id": "inception/mercury-2",
-        "last_updated": "2026-02-24",
-        "limit": {
-          "context": 128000,
-          "output": 50000
-        },
-        "modalities": {
-          "input": [
-            "text"
-          ],
-          "output": [
-            "text"
-          ]
-        },
-        "name": "Inception: Mercury 2 (retires Nov 8)",
-        "open_weights": false,
-        "reasoning": true,
-        "reasoning_options": [
-          {
-            "type": "effort",
-            "values": [
-              "none",
-              "low",
-              "medium",
-              "high"
-            ]
-          }
-        ],
-        "release_date": "2026-02-24",
-        "structured_output": true,
-        "temperature": true,
-        "tool_call": true
-      },
-      "inception/mercury-2.5": {
-        "attachment": false,
-        "canonical_model_id": "inception/mercury-2.5",
-        "cost": {
-          "cache_read": 0.02,
-          "input": 0.2,
-          "output": 0.75
-        },
-        "description": "Mercury 2.5 is the fastest reasoning LLM, and the latest diffusion LLM (dLLM) from Inception. Instead of generating tokens sequentially, Mercury 2.5 produces and refines multiple tokens in parallel, achieving...",
-        "family": "mercury",
-        "id": "inception/mercury-2.5",
-        "last_updated": "2026-09-08",
-        "limit": {
-          "context": 260000,
-          "output": 65536
-        },
-        "modalities": {
-          "input": [
-            "text"
-          ],
-          "output": [
-            "text"
-          ]
-        },
-        "name": "Inception: Mercury 2.5 (retires Nov 8)",
-        "open_weights": false,
-        "reasoning": true,
-        "reasoning_options": [
-          {
-            "type": "effort",
-            "values": [
-              "none",
-              "low",
-              "medium",
-              "high"
-            ]
-          }
-        ],
-        "release_date": "2026-09-08",
-        "structured_output": true,
-        "temperature": true,
-        "tool_call": true
-      },
-      "inception/mercury-3": {
-        "attachment": false,
-        "cost": {
-          "cache_read": 0.02,
-          "input": 0.2,
-          "output": 0.7
-        },
-        "description": "Mercury 3 is a diffusion-based language model from Inception, and the lab's most capable model to date. It is suited for agentic workflows and real-time applications where latency compounds, such...",
-        "family": "mercury",
-        "id": "inception/mercury-3",
-        "last_updated": "2026-10-16",
-        "limit": {
-          "context": 1000000,
-          "output": 131072
-        },
-        "modalities": {
-          "input": [
-            "text"
-          ],
-          "output": [
-            "text"
-          ]
-        },
-        "name": "Inception: Mercury 3 (retires Nov 8)",
-        "open_weights": false,
-        "reasoning": true,
-        "reasoning_options": [
-          {
-            "type": "effort",
-            "values": [
-              "none",
-              "low",
-              "medium",
-              "high"
-            ]
-          }
-        ],
-        "release_date": "2026-10-16",
         "structured_output": true,
         "temperature": true,
         "tool_call": true
@@ -158079,9 +157951,9 @@
         "attachment": false,
         "canonical_model_id": "openai/gpt-oss-120b",
         "cost": {
-          "cache_read": 0.019,
-          "input": 0.022,
-          "output": 0.08
+          "cache_read": 0.017,
+          "input": 0.019,
+          "output": 0.071
         },
         "description": "Open-weight GPT model for self-hosted reasoning and instruction-following workloads",
         "family": "gpt-oss",
@@ -158122,9 +157994,9 @@
         "attachment": false,
         "canonical_model_id": "openai/gpt-oss-20b",
         "cost": {
-          "cache_read": 0.004,
-          "input": 0.005,
-          "output": 0.02
+          "cache_read": 0.005,
+          "input": 0.006,
+          "output": 0.024
         },
         "description": "Open-weight GPT model for self-hosted reasoning and instruction-following workloads",
         "family": "gpt-oss",
@@ -163569,8 +163441,8 @@
         "attachment": true,
         "cost": {
           "cache_read": 0.15,
-          "input": 0.1567,
-          "output": 10.5448
+          "input": 0.151,
+          "output": 10.5663
         },
         "description": "Kimi multimodal agent model for visual understanding, coding, and planning",
         "family": "kimi",
@@ -223197,9 +223069,9 @@
         "attachment": true,
         "canonical_model_id": "google/gemma-4-26b-a4b-it",
         "cost": {
-          "cache_read": 0.012,
-          "input": 0.024,
-          "output": 0.072
+          "cache_read": 0.016,
+          "input": 0.031,
+          "output": 0.093
         },
         "description": "Open Gemma instruction model for efficient chat and self-hosted deployments",
         "family": "gemma",
@@ -223270,9 +223142,9 @@
         "attachment": true,
         "canonical_model_id": "google/gemma-4-26b-a4b-it",
         "cost": {
-          "cache_read": 0.012,
-          "input": 0.024,
-          "output": 0.072
+          "cache_read": 0.016,
+          "input": 0.031,
+          "output": 0.093
         },
         "description": "Open Gemma instruction model for efficient chat and self-hosted deployments",
         "family": "gemma",
@@ -224614,9 +224486,9 @@
         "attachment": true,
         "canonical_model_id": "meituan/longcat-2.5-preview",
         "cost": {
-          "cache_read": 0.015,
-          "input": 0.75,
-          "output": 2.95
+          "cache_read": 0.01575,
+          "input": 0.7875,
+          "output": 3.0975
         },
         "description": "Meituan's multimodal reasoning model for coding and agent tasks, with image understanding and a 1M-token context window",
         "family": "longcat",
@@ -229797,7 +229669,7 @@
         "cost": {
           "cache_read": 0.003,
           "input": 0.004,
-          "output": 0.018
+          "output": 0.017
         },
         "description": "Open GPT reasoning model for self-hosted agents and controllable deployments",
         "family": "gpt-oss",
@@ -232216,8 +232088,8 @@
         "id": "qwen/qwen3.6-35b-a3b",
         "last_updated": "2026-04-17",
         "limit": {
-          "context": 1048576,
-          "input": 1048576,
+          "context": 262144,
+          "input": 262144,
           "output": 65536
         },
         "modalities": {
@@ -232251,8 +232123,8 @@
         "id": "qwen/qwen3.6-35b-a3b:thinking",
         "last_updated": "2026-04-17",
         "limit": {
-          "context": 1048576,
-          "input": 1048576,
+          "context": 262144,
+          "input": 262144,
           "output": 65536
         },
         "modalities": {
@@ -273178,9 +273050,9 @@
         "attachment": false,
         "canonical_model_id": "deepseek/deepseek-v4-pro",
         "cost": {
-          "cache_read": 0.25,
-          "input": 0.9,
-          "output": 1.5
+          "cache_read": 0.023505,
+          "input": 0.282054,
+          "output": 0.564108
         },
         "description": "Open MoE flagship with million-token context for coding and long agent runs",
         "family": "deepseek-thinking",
@@ -273192,7 +273064,7 @@
         "last_updated": "2026-04-24",
         "limit": {
           "context": 1048576,
-          "output": 393216
+          "output": 384000
         },
         "modalities": {
           "input": [
@@ -273224,7 +273096,7 @@
         "attachment": false,
         "canonical_model_id": "deepseek/deepseek-v4-pro-0813",
         "cost": {
-          "cache_read": 0.106,
+          "cache_read": 0.097,
           "input": 0.111,
           "output": 4.44
         },
@@ -273267,9 +273139,9 @@
         "attachment": true,
         "canonical_model_id": "deepseek/deepseek-v4.1-flash",
         "cost": {
-          "cache_read": 0.018,
+          "cache_read": 0.022,
           "input": 0.051,
-          "output": 0.567
+          "output": 0.41
         },
         "description": "Fast DeepSeek model for efficient chat, coding help, and agent loops",
         "family": "deepseek-flash",
@@ -273312,9 +273184,9 @@
         "attachment": true,
         "canonical_model_id": "deepseek/deepseek-v4.1-flash-1017",
         "cost": {
-          "cache_read": 0.003,
-          "input": 0.15,
-          "output": 0.6
+          "cache_read": 0.005,
+          "input": 0.006,
+          "output": 0.5
         },
         "description": "Fast DeepSeek model for efficient chat, coding help, and agent loops",
         "family": "deepseek-flash",
@@ -273323,7 +273195,7 @@
         "last_updated": "2026-10-17",
         "limit": {
           "context": 1048576,
-          "output": 393216
+          "output": 943718
         },
         "modalities": {
           "input": [
@@ -275090,134 +274962,6 @@
           }
         ],
         "release_date": "2026-08-25",
-        "structured_output": true,
-        "temperature": true,
-        "tool_call": true
-      },
-      "inception/mercury-2": {
-        "attachment": false,
-        "canonical_model_id": "inception/mercury-2",
-        "cost": {
-          "cache_read": 0.025,
-          "input": 0.25,
-          "output": 0.75
-        },
-        "description": "Reasoning model for deliberate analysis, multi-step problem solving, and tool use",
-        "family": "mercury",
-        "id": "inception/mercury-2",
-        "last_updated": "2026-02-24",
-        "limit": {
-          "context": 128000,
-          "output": 50000
-        },
-        "modalities": {
-          "input": [
-            "text"
-          ],
-          "output": [
-            "text"
-          ]
-        },
-        "name": "Mercury 2",
-        "open_weights": false,
-        "reasoning": true,
-        "reasoning_options": [
-          {
-            "type": "effort",
-            "values": [
-              "none",
-              "low",
-              "medium",
-              "high"
-            ]
-          }
-        ],
-        "release_date": "2026-02-24",
-        "structured_output": true,
-        "temperature": true,
-        "tool_call": true
-      },
-      "inception/mercury-2.5": {
-        "attachment": false,
-        "canonical_model_id": "inception/mercury-2.5",
-        "cost": {
-          "cache_read": 0.004,
-          "input": 0.04,
-          "output": 0.15
-        },
-        "description": "Reasoning model for deliberate analysis, multi-step problem solving, and tool use",
-        "family": "mercury",
-        "id": "inception/mercury-2.5",
-        "last_updated": "2026-09-08",
-        "limit": {
-          "context": 260000,
-          "output": 65536
-        },
-        "modalities": {
-          "input": [
-            "text"
-          ],
-          "output": [
-            "text"
-          ]
-        },
-        "name": "Mercury 2.5",
-        "open_weights": false,
-        "reasoning": true,
-        "reasoning_options": [
-          {
-            "type": "effort",
-            "values": [
-              "none",
-              "low",
-              "medium",
-              "high"
-            ]
-          }
-        ],
-        "release_date": "2026-09-08",
-        "structured_output": true,
-        "temperature": true,
-        "tool_call": true
-      },
-      "inception/mercury-3": {
-        "attachment": false,
-        "cost": {
-          "cache_read": 0.01,
-          "input": 0.1,
-          "output": 0.35
-        },
-        "description": "Reasoning model for deliberate analysis, multi-step problem solving, and tool use",
-        "family": "mercury",
-        "id": "inception/mercury-3",
-        "last_updated": "2026-10-16",
-        "limit": {
-          "context": 1000000,
-          "output": 131072
-        },
-        "modalities": {
-          "input": [
-            "text"
-          ],
-          "output": [
-            "text"
-          ]
-        },
-        "name": "Mercury 3",
-        "open_weights": false,
-        "reasoning": true,
-        "reasoning_options": [
-          {
-            "type": "effort",
-            "values": [
-              "none",
-              "low",
-              "medium",
-              "high"
-            ]
-          }
-        ],
-        "release_date": "2026-10-16",
         "structured_output": true,
         "temperature": true,
         "tool_call": true
@@ -280795,9 +280539,9 @@
         "attachment": false,
         "canonical_model_id": "openai/gpt-oss-120b",
         "cost": {
-          "cache_read": 0.022,
-          "input": 0.024,
-          "output": 0.09
+          "cache_read": 0.013,
+          "input": 0.015,
+          "output": 0.054
         },
         "description": "Open GPT reasoning model for self-hosted agents and controllable deployments",
         "family": "gpt-oss",
@@ -286388,8 +286132,8 @@
         "attachment": true,
         "cost": {
           "cache_read": 0.15,
-          "input": 0.1567,
-          "output": 10.5448
+          "input": 0.151,
+          "output": 10.5663
         },
         "description": "Kimi multimodal agent model for visual understanding, coding, and planning",
         "family": "kimi",
@@ -304648,7 +304392,7 @@
         "last_updated": "2026-04-24",
         "limit": {
           "context": 1048576,
-          "output": 393216
+          "output": 384000
         },
         "modalities": {
           "input": [
@@ -304680,9 +304424,9 @@
         "attachment": true,
         "canonical_model_id": "deepseek/deepseek-v4.1-flash",
         "cost": {
-          "cache_read": 0.0048,
-          "cache_write": 0.156,
-          "input": 0.156,
+          "cache_read": 0.0024,
+          "cache_write": 0.078,
+          "input": 0.078,
           "output": 1.2
         },
         "description": "DeepSeek V4.1 Flash model for reasoning and agentic coding",
@@ -304726,9 +304470,9 @@
         "attachment": true,
         "canonical_model_id": "deepseek/deepseek-v4.1-flash-1017",
         "cost": {
-          "cache_read": 0.006,
-          "cache_write": 0.1092,
-          "input": 0.1092,
+          "cache_read": 0.0048,
+          "cache_write": 0.08736,
+          "input": 0.08736,
           "output": 1.2
         },
         "description": "October 17 update of DeepSeek V4.1 Flash with improved reasoning, coding, agentic tasks, and visual understanding",
@@ -306999,9 +306743,9 @@
         "attachment": true,
         "canonical_model_id": "zhipuai/glm-5.3-flash",
         "cost": {
-          "cache_read": 0.03,
-          "cache_write": 0.15,
-          "input": 0.15,
+          "cache_read": 0.021,
+          "cache_write": 0.105,
+          "input": 0.105,
           "output": 0.5
         },
         "description": "Native multimodal GLM model for efficient coding and long-horizon agent tasks",
@@ -360970,13 +360714,7 @@
         "reasoning": true,
         "reasoning_options": [
           {
-            "type": "effort",
-            "values": [
-              "none",
-              "low",
-              "medium",
-              "high"
-            ]
+            "type": "toggle"
           }
         ],
         "release_date": "2026-11-02",

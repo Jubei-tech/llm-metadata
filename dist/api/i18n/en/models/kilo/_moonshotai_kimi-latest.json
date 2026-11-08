@@ -2,8 +2,8 @@
   "attachment": true,
   "cost": {
     "cache_read": 0.15,
-    "input": 0.1567,
-    "output": 10.5448
+    "input": 0.151,
+    "output": 10.5663
   },
   "description": "Kimi multimodal agent model for visual understanding, coding, and planning",
   "family": "kimi",
