@@ -10346,9 +10346,9 @@
       "attachment": true,
       "canonical_model_id": "google/gemma-4-26b-a4b-it",
       "cost": {
-        "cache_read": 0.016,
-        "input": 0.031,
-        "output": 0.093
+        "cache_read": 0.017,
+        "input": 0.035,
+        "output": 0.104
       },
       "description": "Open Gemma instruction model for efficient chat and self-hosted deployments",
       "family": "gemma",
@@ -10419,9 +10419,9 @@
       "attachment": true,
       "canonical_model_id": "google/gemma-4-26b-a4b-it",
       "cost": {
-        "cache_read": 0.016,
-        "input": 0.031,
-        "output": 0.093
+        "cache_read": 0.017,
+        "input": 0.035,
+        "output": 0.104
       },
       "description": "Open Gemma instruction model for efficient chat and self-hosted deployments",
       "family": "gemma",
@@ -19365,8 +19365,8 @@
       "id": "qwen/qwen3.6-35b-a3b",
       "last_updated": "2026-04-17",
       "limit": {
-        "context": 262144,
-        "input": 262144,
+        "context": 1048576,
+        "input": 1048576,
         "output": 65536
       },
       "modalities": {
@@ -19400,8 +19400,8 @@
       "id": "qwen/qwen3.6-35b-a3b:thinking",
       "last_updated": "2026-04-17",
       "limit": {
-        "context": 262144,
-        "input": 262144,
+        "context": 1048576,
+        "input": 1048576,
         "output": 65536
       },
       "modalities": {
@@ -21491,9 +21491,9 @@
       "attachment": false,
       "canonical_model_id": "tencent/hy4-preview",
       "cost": {
-        "cache_read": 0.042,
-        "input": 0.834,
-        "output": 2.501
+        "cache_read": 0.0378,
+        "input": 0.7506,
+        "output": 2.2509
       },
       "description": "A next-generation productivity model with significantly enhanced Agent and complex task execution capabilities.",
       "family": "Hy",
@@ -21625,8 +21625,8 @@
       "id": "thinkingmachines/inkling",
       "last_updated": "2026-07-15",
       "limit": {
-        "context": 1048000,
-        "input": 1048000,
+        "context": 1040000,
+        "input": 1040000,
         "output": 32768
       },
       "modalities": {
@@ -22503,10 +22503,10 @@
       "attachment": true,
       "canonical_model_id": "xiaomi/mimo-v2.5",
       "cost": {
-        "cache_read": 0.0028,
+        "cache_read": 0.0844,
         "cache_write": 0,
-        "input": 0.413,
-        "output": 2.086
+        "input": 0.422,
+        "output": 2.11
       },
       "description": "Open MiMo model for multimodal coding agents and long-context automation",
       "family": "mimo",
@@ -22638,10 +22638,10 @@
       "attachment": true,
       "canonical_model_id": "xiaomi/mimo-v2.5",
       "cost": {
-        "cache_read": 0.0028,
+        "cache_read": 0.0844,
         "cache_write": 0,
-        "input": 0.413,
-        "output": 2.086
+        "input": 0.422,
+        "output": 2.11
       },
       "description": "Open MiMo model for multimodal coding agents and long-context automation",
       "family": "mimo",
