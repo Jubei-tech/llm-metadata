@@ -2176,7 +2176,7 @@
       "doc": "https://docs.venice.ai",
       "icon": "lb:veniceai",
       "id": "venice",
-      "modelCount": 128,
+      "modelCount": 125,
       "name": "Venice AI",
       "status": 1
     },

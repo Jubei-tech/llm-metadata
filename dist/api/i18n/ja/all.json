@@ -140145,9 +140145,9 @@
         "attachment": true,
         "canonical_model_id": "moonshotai/kimi-k2.6",
         "cost": {
-          "cache_read": 0.2092,
+          "cache_read": 0.156,
           "cache_write": 0,
-          "input": 0.799,
+          "input": 0.7995,
           "output": 3.75
         },
         "description": "Multimodal Kimi workhorse for agent loops, coding tasks, and visual context",
@@ -152242,9 +152242,9 @@
         "attachment": true,
         "canonical_model_id": "google/gemma-4-26b-a4b-it",
         "cost": {
-          "cache_read": 0.014,
-          "input": 0.028,
-          "output": 0.085
+          "cache_read": 0.01,
+          "input": 0.04,
+          "output": 0.15
         },
         "description": "Open Gemma instruction model for efficient chat and self-hosted deployments",
         "family": "gemma",
@@ -157951,9 +157951,9 @@
         "attachment": false,
         "canonical_model_id": "openai/gpt-oss-120b",
         "cost": {
-          "cache_read": 0.017,
-          "input": 0.019,
-          "output": 0.071
+          "cache_read": 0.015,
+          "input": 0.03,
+          "output": 0.15
         },
         "description": "Open-weight GPT model for self-hosted reasoning and instruction-following workloads",
         "family": "gpt-oss",
@@ -157994,9 +157994,9 @@
         "attachment": false,
         "canonical_model_id": "openai/gpt-oss-20b",
         "cost": {
-          "cache_read": 0.003,
-          "input": 0.004,
-          "output": 0.017
+          "cache_read": 0.009,
+          "input": 0.018,
+          "output": 0.09
         },
         "description": "Open-weight GPT model for self-hosted reasoning and instruction-following workloads",
         "family": "gpt-oss",
@@ -159490,8 +159490,8 @@
         "id": "qwen/qwen3.5-397b-a17b",
         "last_updated": "2026-02-15",
         "limit": {
-          "context": 262144,
-          "output": 235929
+          "context": 256000,
+          "output": 64000
         },
         "modalities": {
           "input": [
@@ -161124,9 +161124,9 @@
         "attachment": false,
         "canonical_model_id": "tencent/hy3",
         "cost": {
-          "cache_read": 0.020625,
-          "input": 0.0825,
-          "output": 0.33
+          "cache_read": 0.033,
+          "input": 0.132,
+          "output": 0.528
         },
         "description": "Hy3 is a 295B-parameter Mixture-of-Experts model from Tencent (21B active, 192 experts with top-8 routing) built for reasoning, agentic workflows, and real-world production use. It supports a configurable reasoning effort:...",
         "family": "Hy",
@@ -161253,9 +161253,9 @@
         "attachment": false,
         "canonical_model_id": "tencent/hy4-preview",
         "cost": {
-          "cache_read": 0.0378,
-          "input": 0.7506,
-          "output": 2.2509
+          "cache_read": 0.042,
+          "input": 0.834,
+          "output": 2.501
         },
         "description": "Tencent: Hy4 preview is a mixture-of-experts model from Tencent, with 49B active parameters out of 770B total. It is designed for coding agents, complex tool-use workflows, and productivity tasks that...",
         "family": "Hy",
@@ -163395,9 +163395,9 @@
       "~moonshotai/kimi-latest": {
         "attachment": true,
         "cost": {
-          "cache_read": 0.18,
-          "input": 0.1824,
-          "output": 10.1583
+          "cache_read": 0.16,
+          "input": 0.1634,
+          "output": 10.1489
         },
         "description": "Kimi multimodal agent model for visual understanding, coding, and planning",
         "family": "kimi",
@@ -199999,7 +199999,7 @@
         "last_updated": "2026-10-15",
         "limit": {
           "context": 1048576,
-          "output": 262144
+          "output": 131072
         },
         "modalities": {
           "input": [
@@ -200025,7 +200025,7 @@
           }
         ],
         "release_date": "2026-10-15",
-        "structured_output": false,
+        "structured_output": true,
         "temperature": true,
         "tool_call": true
       },
@@ -219102,9 +219102,9 @@
       "deepseek/deepseek-latest": {
         "attachment": false,
         "cost": {
-          "cache_read": 0.020958,
-          "input": 0.65868,
-          "output": 1.97604
+          "cache_read": 0.022,
+          "input": 0.66,
+          "output": 1.98
         },
         "description": "DeepSeek chat model for instruction following, coding, and analysis",
         "family": "deepseek",
@@ -219350,9 +219350,9 @@
         "attachment": false,
         "canonical_model_id": "deepseek/deepseek-v4-flash-0731",
         "cost": {
-          "cache_read": 0.001414,
-          "input": 0.04444,
-          "output": 0.13332
+          "cache_read": 0.013,
+          "input": 0.05,
+          "output": 0.16
         },
         "description": "Official DeepSeek V4 Flash release with enhanced agentic capabilities and integrated DSpark speculative decoding",
         "family": "deepseek-flash",
@@ -219395,9 +219395,9 @@
         "attachment": false,
         "canonical_model_id": "deepseek/deepseek-v4-flash-0731",
         "cost": {
-          "cache_read": 0.001414,
-          "input": 0.04444,
-          "output": 0.13332
+          "cache_read": 0.013,
+          "input": 0.05,
+          "output": 0.16
         },
         "description": "Official DeepSeek V4 Flash release with enhanced agentic capabilities and integrated DSpark speculative decoding",
         "family": "deepseek-flash",
@@ -219616,9 +219616,9 @@
         "attachment": false,
         "canonical_model_id": "deepseek/deepseek-v4-pro-0813",
         "cost": {
-          "cache_read": 0.020958,
-          "input": 0.65868,
-          "output": 1.97604
+          "cache_read": 0.022,
+          "input": 0.66,
+          "output": 1.98
         },
         "description": "DeepSeek V4 Pro snapshot with million-token context and support for thinking and non-thinking modes",
         "family": "deepseek-thinking",
@@ -219660,9 +219660,9 @@
         "attachment": false,
         "canonical_model_id": "deepseek/deepseek-v4-pro-0813",
         "cost": {
-          "cache_read": 0.020958,
-          "input": 0.65868,
-          "output": 1.97604
+          "cache_read": 0.022,
+          "input": 0.66,
+          "output": 1.98
         },
         "description": "DeepSeek V4 Pro snapshot with million-token context and support for thinking and non-thinking modes",
         "family": "deepseek-thinking",
@@ -223024,9 +223024,9 @@
         "attachment": true,
         "canonical_model_id": "google/gemma-4-26b-a4b-it",
         "cost": {
-          "cache_read": 0.017,
-          "input": 0.035,
-          "output": 0.104
+          "cache_read": 0.033,
+          "input": 0.066,
+          "output": 0.198
         },
         "description": "Open Gemma instruction model for efficient chat and self-hosted deployments",
         "family": "gemma",
@@ -223097,9 +223097,9 @@
         "attachment": true,
         "canonical_model_id": "google/gemma-4-26b-a4b-it",
         "cost": {
-          "cache_read": 0.017,
-          "input": 0.035,
-          "output": 0.104
+          "cache_read": 0.033,
+          "input": 0.066,
+          "output": 0.198
         },
         "description": "Open Gemma instruction model for efficient chat and self-hosted deployments",
         "family": "gemma",
@@ -226589,9 +226589,9 @@
         "attachment": true,
         "canonical_model_id": "moonshotai/kimi-k2.6",
         "cost": {
-          "cache_read": 0.0656,
-          "input": 0.3895,
-          "output": 1.64
+          "cache_read": 0.039,
+          "input": 0.39,
+          "output": 1.8
         },
         "description": "Multimodal Kimi workhorse for agent loops, coding tasks, and visual context",
         "family": "kimi-k2",
@@ -226625,9 +226625,9 @@
         "attachment": true,
         "canonical_model_id": "moonshotai/kimi-k2.6",
         "cost": {
-          "cache_read": 0.0656,
-          "input": 0.3895,
-          "output": 1.64
+          "cache_read": 0.039,
+          "input": 0.39,
+          "output": 1.8
         },
         "description": "Multimodal Kimi workhorse for agent loops, coding tasks, and visual context",
         "family": "kimi-k2",
@@ -229622,9 +229622,9 @@
         "attachment": false,
         "canonical_model_id": "openai/gpt-oss-20b",
         "cost": {
-          "cache_read": 0.003,
-          "input": 0.004,
-          "output": 0.017
+          "cache_read": 0.018,
+          "input": 0.02,
+          "output": 0.03
         },
         "description": "Open GPT reasoning model for self-hosted agents and controllable deployments",
         "family": "gpt-oss",
@@ -234169,9 +234169,9 @@
         "attachment": false,
         "canonical_model_id": "tencent/hy4-preview",
         "cost": {
-          "cache_read": 0.0378,
-          "input": 0.7506,
-          "output": 2.2509
+          "cache_read": 0.042,
+          "input": 0.834,
+          "output": 2.501
         },
         "description": "A next-generation productivity model with significantly enhanced Agent and complex task execution capabilities.",
         "family": "Hy",
@@ -236601,9 +236601,9 @@
         "attachment": false,
         "canonical_model_id": "zhipuai/glm-5.2",
         "cost": {
-          "cache_read": 0.0351,
-          "input": 0.189,
-          "output": 0.594
+          "cache_read": 0.078,
+          "input": 0.42,
+          "output": 1.32
         },
         "description": "Open flagship GLM for long-horizon coding agents and million-token context work",
         "family": "glm",
@@ -236644,9 +236644,9 @@
         "attachment": false,
         "canonical_model_id": "zhipuai/glm-5.2",
         "cost": {
-          "cache_read": 0.0351,
-          "input": 0.189,
-          "output": 0.594
+          "cache_read": 0.078,
+          "input": 0.42,
+          "output": 1.32
         },
         "description": "Open flagship GLM for long-horizon coding agents and million-token context work",
         "family": "glm",
@@ -273005,9 +273005,9 @@
         "attachment": false,
         "canonical_model_id": "deepseek/deepseek-v4-pro",
         "cost": {
-          "cache_read": 0.0174,
-          "input": 0.2088,
-          "output": 0.4176
+          "cache_read": 0.079025,
+          "input": 0.9483,
+          "output": 1.8966
         },
         "description": "Open MoE flagship with million-token context for coding and long agent runs",
         "family": "deepseek-thinking",
@@ -276178,9 +276178,9 @@
         "attachment": true,
         "canonical_model_id": "minimax/MiniMax-M3.1-Flash",
         "cost": {
-          "cache_read": 0.0075,
-          "input": 0.075,
-          "output": 0.3
+          "cache_read": 0.015,
+          "input": 0.15,
+          "output": 0.6
         },
         "description": "MiniMax multimodal coding model for long-context reasoning and agent tasks",
         "family": "minimax",
@@ -280493,9 +280493,9 @@
         "attachment": false,
         "canonical_model_id": "openai/gpt-oss-120b",
         "cost": {
-          "cache_read": 0.015,
-          "input": 0.016,
-          "output": 0.061
+          "cache_read": 0.075,
+          "input": 0.15,
+          "output": 0.6
         },
         "description": "Open GPT reasoning model for self-hosted agents and controllable deployments",
         "family": "gpt-oss",
@@ -282024,8 +282024,8 @@
         "attachment": true,
         "canonical_model_id": "alibaba/qwen3.5-397b-a17b",
         "cost": {
-          "cache_read": 0.3,
-          "input": 0.5,
+          "cache_read": 0.12,
+          "input": 0.6,
           "output": 3.6
         },
         "description": "Large open Qwen multimodal MoE for visual agents and long technical tasks",
@@ -282034,7 +282034,7 @@
         "last_updated": "2026-02-15",
         "limit": {
           "context": 262144,
-          "output": 235929
+          "output": 64000
         },
         "modalities": {
           "input": [
@@ -283722,9 +283722,9 @@
         "attachment": false,
         "canonical_model_id": "tencent/hy3",
         "cost": {
-          "cache_read": 0.020625,
-          "input": 0.0825,
-          "output": 0.33
+          "cache_read": 0.033,
+          "input": 0.132,
+          "output": 0.528
         },
         "description": "Tencent Hy reasoning model for coding, instruction following, and agent tasks",
         "family": "Hy",
@@ -283851,9 +283851,9 @@
         "attachment": false,
         "canonical_model_id": "tencent/hy4-preview",
         "cost": {
-          "cache_read": 0.0378,
-          "input": 0.7506,
-          "output": 2.2509
+          "cache_read": 0.042,
+          "input": 0.834,
+          "output": 2.501
         },
         "description": "Tencent Hy reasoning model for coding, instruction following, and agent tasks",
         "family": "Hy",
@@ -286085,9 +286085,9 @@
       "~moonshotai/kimi-latest": {
         "attachment": true,
         "cost": {
-          "cache_read": 0.18,
-          "input": 0.1824,
-          "output": 10.1583
+          "cache_read": 0.16,
+          "input": 0.1634,
+          "output": 10.1489
         },
         "description": "Kimi multimodal agent model for visual understanding, coding, and planning",
         "family": "kimi",
@@ -304378,9 +304378,9 @@
         "attachment": true,
         "canonical_model_id": "deepseek/deepseek-v4.1-flash",
         "cost": {
-          "cache_read": 0.0024,
-          "cache_write": 0.078,
-          "input": 0.078,
+          "cache_read": 0.0012,
+          "cache_write": 0.039,
+          "input": 0.039,
           "output": 1.2
         },
         "description": "DeepSeek V4.1 Flash model for reasoning and agentic coding",
@@ -350645,135 +350645,6 @@
         "open_weights": true,
         "reasoning": false,
         "release_date": "2024-12-06",
-        "temperature": true,
-        "tool_call": true
-      },
-      "mercury-2": {
-        "attachment": false,
-        "canonical_model_id": "inception/mercury-2",
-        "cost": {
-          "cache_read": 0.03125,
-          "input": 0.3125,
-          "output": 0.9375
-        },
-        "description": "Reasoning model for deliberate analysis, multi-step problem solving, and tool use",
-        "family": "mercury",
-        "id": "mercury-2",
-        "last_updated": "2026-02-24",
-        "limit": {
-          "context": 128000,
-          "output": 50000
-        },
-        "modalities": {
-          "input": [
-            "text"
-          ],
-          "output": [
-            "text"
-          ]
-        },
-        "name": "Mercury 2",
-        "open_weights": false,
-        "reasoning": true,
-        "reasoning_options": [
-          {
-            "type": "effort",
-            "values": [
-              "none",
-              "low",
-              "medium",
-              "high"
-            ]
-          }
-        ],
-        "release_date": "2026-02-24",
-        "structured_output": true,
-        "temperature": true,
-        "tool_call": true
-      },
-      "mercury-2-5": {
-        "attachment": false,
-        "canonical_model_id": "inception/mercury-2.5",
-        "cost": {
-          "cache_read": 0.025,
-          "input": 0.25,
-          "output": 0.9375
-        },
-        "description": "Reasoning model for deliberate analysis, multi-step problem solving, and tool use",
-        "family": "mercury",
-        "id": "mercury-2-5",
-        "last_updated": "2026-09-08",
-        "limit": {
-          "context": 260000,
-          "output": 65536
-        },
-        "modalities": {
-          "input": [
-            "text"
-          ],
-          "output": [
-            "text"
-          ]
-        },
-        "name": "Mercury 2.5",
-        "open_weights": false,
-        "reasoning": true,
-        "reasoning_options": [
-          {
-            "type": "effort",
-            "values": [
-              "none",
-              "low",
-              "medium",
-              "high"
-            ]
-          }
-        ],
-        "release_date": "2026-09-08",
-        "structured_output": true,
-        "temperature": true,
-        "tool_call": true
-      },
-      "mercury-3": {
-        "attachment": false,
-        "canonical_model_id": "inception/mercury-3",
-        "cost": {
-          "cache_read": 0.01,
-          "input": 0.1,
-          "output": 0.35
-        },
-        "description": "Reasoning model for deliberate analysis, multi-step problem solving, and tool use",
-        "family": "mercury",
-        "id": "mercury-3",
-        "last_updated": "2026-10-20",
-        "limit": {
-          "context": 1000000,
-          "output": 131072
-        },
-        "modalities": {
-          "input": [
-            "text"
-          ],
-          "output": [
-            "text"
-          ]
-        },
-        "name": "Mercury 3",
-        "open_weights": false,
-        "reasoning": true,
-        "reasoning_options": [
-          {
-            "type": "effort",
-            "values": [
-              "none",
-              "low",
-              "medium",
-              "high"
-            ]
-          }
-        ],
-        "release_date": "2026-10-16",
-        "structured_output": true,
         "temperature": true,
         "tool_call": true
       },
