@@ -2418,7 +2418,7 @@
       "last_updated": "2026-09-10",
       "limit": {
         "context": 1048576,
-        "output": 393216
+        "output": 943718
       },
       "modalities": {
         "input": [
@@ -2463,7 +2463,7 @@
       "last_updated": "2026-10-17",
       "limit": {
         "context": 1048576,
-        "output": 393216
+        "output": 943718
       },
       "modalities": {
         "input": [
@@ -7550,9 +7550,9 @@
       "attachment": true,
       "canonical_model_id": "moonshotai/kimi-k2.7-code",
       "cost": {
-        "cache_read": 0.16,
-        "input": 0.65,
-        "output": 3.5
+        "cache_read": 0.12,
+        "input": 0.6,
+        "output": 3
       },
       "description": "MoonshotAI: Kimi K2.7 Code is a coding-focused model in Moonshot AI's Kimi K2 family, built to complete end-to-end programming tasks reliably over long contexts. It uses a native multimodal mixture-of-experts...",
       "family": "kimi-k2",
@@ -12200,7 +12200,7 @@
       "last_updated": "2025-08-05",
       "limit": {
         "context": 131072,
-        "output": 65536
+        "output": 117964
       },
       "modalities": {
         "input": [
@@ -12317,9 +12317,8 @@
       "attachment": false,
       "canonical_model_id": "openai/gpt-oss-safeguard-20b",
       "cost": {
-        "cache_read": 0.0375,
-        "input": 0.075,
-        "output": 0.3
+        "input": 0.07,
+        "output": 0.2
       },
       "description": "Safety model for policy screening, moderation, and risk-aware routing workflows",
       "family": "gpt-oss",
@@ -14108,7 +14107,7 @@
       "last_updated": "2026-02-23",
       "limit": {
         "context": 262144,
-        "output": 65536
+        "output": 81920
       },
       "modalities": {
         "input": [
@@ -17328,48 +17327,6 @@
       "temperature": true,
       "tool_call": true
     },
-    "x-ai/grok-build-0.1": {
-      "attachment": true,
-      "canonical_model_id": "xai/grok-build-0.1",
-      "cost": {
-        "cache_read": 0.2,
-        "input": 1,
-        "output": 2
-      },
-      "description": "Grok coding model for agentic engineering, edits, and codebase workflows",
-      "family": "grok-build",
-      "id": "x-ai/grok-build-0.1",
-      "last_updated": "2026-04-16",
-      "limit": {
-        "context": 256000,
-        "output": 230400
-      },
-      "modalities": {
-        "input": [
-          "text",
-          "image",
-          "pdf"
-        ],
-        "output": [
-          "text"
-        ]
-      },
-      "name": "Grok Build 0.1",
-      "open_weights": false,
-      "reasoning": true,
-      "reasoning_options": [
-        {
-          "type": "effort",
-          "values": [
-            "high"
-          ]
-        }
-      ],
-      "release_date": "2026-04-16",
-      "structured_output": true,
-      "temperature": true,
-      "tool_call": true
-    },
     "xiaomi/mimo-v2.5": {
       "attachment": true,
       "canonical_model_id": "xiaomi/mimo-v2.5",
@@ -18056,9 +18013,9 @@
       "attachment": false,
       "canonical_model_id": "zhipuai/glm-5.1",
       "cost": {
-        "cache_read": 0.26,
-        "input": 1.4,
-        "output": 4.4
+        "cache_read": 0.6,
+        "input": 1.19,
+        "output": 3.74
       },
       "description": "Flagship GLM model for hybrid reasoning, coding, and agentic engineering",
       "family": "glm",
@@ -18763,7 +18720,7 @@
       "last_updated": "2026-08-01",
       "limit": {
         "context": 1048576,
-        "output": 131072
+        "output": 384000
       },
       "modalities": {
         "input": [
