@@ -73779,8 +73779,8 @@
       "price": {
         "cacheRead": 0.006,
         "cacheWrite": null,
-        "input": 0.203,
-        "output": 0.609
+        "input": 0.102,
+        "output": 0.613
       },
       "releaseDate": "2026-10-17",
       "tags": []
@@ -74354,8 +74354,8 @@
       "price": {
         "cacheRead": null,
         "cacheWrite": null,
-        "input": 0.111,
-        "output": 0.557
+        "input": 0.1,
+        "output": 0.39
       },
       "releaseDate": "2026-04-02",
       "tags": []
@@ -76971,7 +76971,7 @@
       "knowledge": null,
       "lastUpdated": "2026-04-17",
       "maxCtxTokens": 262000,
-      "maxOutputTokens": 32768,
+      "maxOutputTokens": 64000,
       "modalities": {
         "input": [
           "text",
@@ -76985,8 +76985,8 @@
       "price": {
         "cacheRead": null,
         "cacheWrite": null,
-        "input": 0.279,
-        "output": 1.671
+        "input": 0.189,
+        "output": 1.281
       },
       "releaseDate": "2026-04-17",
       "tags": []
@@ -96767,10 +96767,10 @@
       },
       "name": "DeepSeek V4 Flash 0731 (Greenpt)",
       "price": {
-        "cacheRead": 0.043872,
+        "cacheRead": 0.043968,
         "cacheWrite": null,
-        "input": 0.153552,
-        "output": 0.38388
+        "input": 0.153888,
+        "output": 0.38472
       },
       "releaseDate": "2026-07-31",
       "tags": []
@@ -96804,10 +96804,10 @@
       },
       "name": "DeepSeek V4.1 Flash (Greenpt)",
       "price": {
-        "cacheRead": 0.012065,
+        "cacheRead": 0.012091,
         "cacheWrite": null,
-        "input": 0.241296,
-        "output": 1.20648
+        "input": 0.241824,
+        "output": 1.209119
       },
       "releaseDate": "2026-09-10",
       "tags": []
@@ -96842,8 +96842,8 @@
       "price": {
         "cacheRead": null,
         "cacheWrite": null,
-        "input": 0.21936,
-        "output": 0.76776
+        "input": 0.21984,
+        "output": 0.76944
       },
       "releaseDate": "2025-08-05",
       "tags": []
@@ -96878,8 +96878,8 @@
       "price": {
         "cacheRead": null,
         "cacheWrite": null,
-        "input": 1.20648,
-        "output": 1.20648
+        "input": 1.209119,
+        "output": 1.209119
       },
       "releaseDate": "2024-12-06",
       "tags": []
@@ -96914,8 +96914,8 @@
       "price": {
         "cacheRead": null,
         "cacheWrite": null,
-        "input": 0.98712,
-        "output": 2.961361
+        "input": 0.98928,
+        "output": 2.967839
       },
       "releaseDate": "2025-07-21",
       "tags": []
@@ -97131,8 +97131,8 @@
       "price": {
         "cacheRead": null,
         "cacheWrite": null,
-        "input": 0.32904,
-        "output": 0.43872
+        "input": 0.32976,
+        "output": 0.43968
       },
       "releaseDate": "2025-12-02",
       "tags": []
@@ -97167,8 +97167,8 @@
       "price": {
         "cacheRead": null,
         "cacheWrite": null,
-        "input": 0.71292,
-        "output": 0.71292
+        "input": 0.71448,
+        "output": 0.71448
       },
       "releaseDate": "2024-12-06",
       "tags": []
@@ -97203,8 +97203,8 @@
       "price": {
         "cacheRead": null,
         "cacheWrite": null,
-        "input": 0.16452,
-        "output": 0.71292
+        "input": 0.16488,
+        "output": 0.71448
       },
       "releaseDate": "2025-08-05",
       "tags": []
@@ -97239,8 +97239,8 @@
       "price": {
         "cacheRead": null,
         "cacheWrite": null,
-        "input": 0.16452,
-        "output": 0.87744
+        "input": 0.16488,
+        "output": 0.87936
       },
       "releaseDate": "2026-02-03",
       "tags": []
@@ -97681,10 +97681,10 @@
       },
       "name": "MiniMax-M3.1-Flash",
       "price": {
-        "cacheRead": 0.0075,
+        "cacheRead": 0.015,
         "cacheWrite": null,
-        "input": 0.075,
-        "output": 0.3
+        "input": 0.15,
+        "output": 0.6
       },
       "releaseDate": "2026-10-19",
       "tags": []
@@ -101750,10 +101750,10 @@
       },
       "name": "DeepSeek V4 Flash 0731 (Scaleway)",
       "price": {
-        "cacheRead": 0.087744,
+        "cacheRead": 0.087936,
         "cacheWrite": null,
-        "input": 0.43872,
-        "output": 0.87744
+        "input": 0.43968,
+        "output": 0.87936
       },
       "releaseDate": "2026-07-31",
       "tags": []
@@ -101824,10 +101824,10 @@
       },
       "name": "DeepSeek V4.1 Flash 1017 (Scaleway)",
       "price": {
-        "cacheRead": 0.131616,
+        "cacheRead": 0.131904,
         "cacheWrite": null,
-        "input": 0.65808,
-        "output": 1.974241
+        "input": 0.65952,
+        "output": 1.978559
       },
       "releaseDate": "2026-10-17",
       "tags": []
@@ -101899,8 +101899,8 @@
       "price": {
         "cacheRead": null,
         "cacheWrite": null,
-        "input": 0.16452,
-        "output": 0.65808
+        "input": 0.16488,
+        "output": 0.65952
       },
       "releaseDate": "2025-08-05",
       "tags": []
@@ -101935,8 +101935,8 @@
       "price": {
         "cacheRead": null,
         "cacheWrite": null,
-        "input": 0.98712,
-        "output": 0.98712
+        "input": 0.98928,
+        "output": 0.98928
       },
       "releaseDate": "2024-12-06",
       "tags": []
@@ -101971,8 +101971,8 @@
       "price": {
         "cacheRead": null,
         "cacheWrite": null,
-        "input": 0.8226,
-        "output": 2.467801
+        "input": 0.8244,
+        "output": 2.473199
       },
       "releaseDate": "2025-07-21",
       "tags": []
@@ -102783,6 +102783,43 @@
       "tags": []
     },
     {
+      "description": "A next-generation multimodal productivity model with significantly enhanced Agent and complex task execution capabilities.",
+      "firm": "edenai",
+      "flags": {
+        "attachment": true,
+        "audio": false,
+        "image": true,
+        "open_weights": false,
+        "reasoning": true,
+        "temperature": true,
+        "tool_call": true
+      },
+      "icon": "",
+      "id": "together_ai/tencent/Hy4",
+      "knowledge": null,
+      "lastUpdated": "2026-11-04",
+      "maxCtxTokens": 1048576,
+      "maxOutputTokens": 65536,
+      "modalities": {
+        "input": [
+          "text",
+          "image"
+        ],
+        "output": [
+          "text"
+        ]
+      },
+      "name": "Hy4 (Together AI)",
+      "price": {
+        "cacheRead": 0.042,
+        "cacheWrite": null,
+        "input": 0.834,
+        "output": 2.501
+      },
+      "releaseDate": "2026-11-04",
+      "tags": []
+    },
+    {
       "description": "Multimodal MoE reasoning model (975B total, 41B active) for text, image, and audio",
       "firm": "edenai",
       "flags": {
@@ -102885,10 +102922,10 @@
       },
       "name": "GPT OSS 120B (Tsystems)",
       "price": {
-        "cacheRead": 0.032904,
+        "cacheRead": 0.032976,
         "cacheWrite": null,
-        "input": 0.21936,
-        "output": 0.71292
+        "input": 0.21984,
+        "output": 0.71448
       },
       "releaseDate": "2025-08-05",
       "tags": []
@@ -104703,44 +104740,6 @@
         "output": 6
       },
       "releaseDate": "2026-09-21",
-      "tags": []
-    },
-    {
-      "description": "Fast Grok coding model tuned for agentic engineering and iterative edits",
-      "firm": "edenai",
-      "flags": {
-        "attachment": true,
-        "audio": false,
-        "image": true,
-        "open_weights": false,
-        "reasoning": true,
-        "temperature": true,
-        "tool_call": true
-      },
-      "icon": "",
-      "id": "xai/grok-build-0.1",
-      "knowledge": null,
-      "lastUpdated": "2026-04-16",
-      "maxCtxTokens": 256000,
-      "maxOutputTokens": 256000,
-      "modalities": {
-        "input": [
-          "text",
-          "image",
-          "pdf"
-        ],
-        "output": [
-          "text"
-        ]
-      },
-      "name": "Grok Build 0.1",
-      "price": {
-        "cacheRead": 0.2,
-        "cacheWrite": null,
-        "input": 1,
-        "output": 2
-      },
-      "releaseDate": "2026-04-16",
       "tags": []
     },
     {
@@ -137756,10 +137755,10 @@
       },
       "name": "GLM 5.3",
       "price": {
-        "cacheRead": 0.1249,
+        "cacheRead": 0.1691,
         "cacheWrite": null,
         "input": 1.05,
-        "output": 3.4
+        "output": 3
       },
       "releaseDate": "2026-08-14",
       "tags": []
@@ -137794,7 +137793,7 @@
       "price": {
         "cacheRead": 0.04,
         "cacheWrite": null,
-        "input": 0.15,
+        "input": 0.16,
         "output": 0.5
       },
       "releaseDate": "2026-08-26",
@@ -150329,7 +150328,7 @@
       "knowledge": null,
       "lastUpdated": "2026-08-01",
       "maxCtxTokens": 1048576,
-      "maxOutputTokens": 384000,
+      "maxOutputTokens": 943718,
       "modalities": {
         "input": [
           "text"
@@ -152441,42 +152440,6 @@
       "tags": []
     },
     {
-      "description": "North Mini Code is Cohere's first agentic coding model and the debut of its North family. A sparse mixture-of-experts model with 30B total parameters and 3B active, it is optimized...",
-      "firm": "kilo",
-      "flags": {
-        "attachment": false,
-        "audio": false,
-        "image": false,
-        "open_weights": true,
-        "reasoning": true,
-        "temperature": true,
-        "tool_call": true
-      },
-      "icon": "",
-      "id": "cohere/north-mini-code:free",
-      "knowledge": "2025-09-23",
-      "lastUpdated": "2026-06-09",
-      "maxCtxTokens": 256000,
-      "maxOutputTokens": 64000,
-      "modalities": {
-        "input": [
-          "text"
-        ],
-        "output": [
-          "text"
-        ]
-      },
-      "name": "Cohere: North Mini Code (free)",
-      "price": {
-        "cacheRead": null,
-        "cacheWrite": null,
-        "input": null,
-        "output": null
-      },
-      "releaseDate": "2026-06-09",
-      "tags": []
-    },
-    {
       "description": "DeepSeek chat model for instruction following, coding, and analysis",
       "firm": "kilo",
       "flags": {
@@ -153035,7 +152998,7 @@
       "knowledge": "2025-05",
       "lastUpdated": "2026-10-17",
       "maxCtxTokens": 1048576,
-      "maxOutputTokens": 943718,
+      "maxOutputTokens": 393216,
       "modalities": {
         "input": [
           "text",
@@ -155795,47 +155758,11 @@
         "tool_call": false
       },
       "icon": "",
-      "id": "meta-llama/llama-3.2-1b-instruct",
-      "knowledge": "2023-12",
-      "lastUpdated": "2024-09-25",
-      "maxCtxTokens": 60000,
-      "maxOutputTokens": 54000,
-      "modalities": {
-        "input": [
-          "text"
-        ],
-        "output": [
-          "text"
-        ]
-      },
-      "name": "Llama 3.2 1B Instruct",
-      "price": {
-        "cacheRead": null,
-        "cacheWrite": null,
-        "input": 0.027,
-        "output": 0.201
-      },
-      "releaseDate": "2024-09-25",
-      "tags": []
-    },
-    {
-      "description": "Open Llama instruction model for multilingual chat, reasoning, and coding",
-      "firm": "kilo",
-      "flags": {
-        "attachment": false,
-        "audio": false,
-        "image": false,
-        "open_weights": true,
-        "reasoning": false,
-        "temperature": true,
-        "tool_call": false
-      },
-      "icon": "",
       "id": "meta-llama/llama-3.2-3b-instruct",
       "knowledge": "2023-12",
       "lastUpdated": "2024-09-25",
-      "maxCtxTokens": 80000,
-      "maxOutputTokens": 72000,
+      "maxCtxTokens": 131072,
+      "maxOutputTokens": 117964,
       "modalities": {
         "input": [
           "text"
@@ -155844,7 +155771,7 @@
           "text"
         ]
       },
-      "name": "Meta: Llama 3.2 3B Instruct (retires Nov 20)",
+      "name": "Meta: Llama 3.2 3B Instruct",
       "price": {
         "cacheRead": null,
         "cacheWrite": null,
@@ -156566,10 +156493,10 @@
       },
       "name": "MiniMax: MiniMax M3.1 Flash",
       "price": {
-        "cacheRead": 0.0075,
+        "cacheRead": 0.015,
         "cacheWrite": null,
-        "input": 0.075,
-        "output": 0.3
+        "input": 0.15,
+        "output": 0.6
       },
       "releaseDate": "2026-10-19",
       "tags": []
@@ -157462,6 +157389,43 @@
         "output": 6
       },
       "releaseDate": "2024-04-17",
+      "tags": []
+    },
+    {
+      "description": "Pixtral Large 2502 is the February 2025 version of Mistral AI's large multimodal model, following [Pixtral Large 2411](https://openrouter.ai/mistralai/pixtral-large-2411). It accepts text and image input, including documents, charts, and natural images,...",
+      "firm": "kilo",
+      "flags": {
+        "attachment": true,
+        "audio": false,
+        "image": true,
+        "open_weights": false,
+        "reasoning": false,
+        "temperature": true,
+        "tool_call": false
+      },
+      "icon": "",
+      "id": "mistralai/pixtral-large-2502",
+      "knowledge": null,
+      "lastUpdated": "2025-04-08",
+      "maxCtxTokens": 128000,
+      "maxOutputTokens": 102400,
+      "modalities": {
+        "input": [
+          "text",
+          "image"
+        ],
+        "output": [
+          "text"
+        ]
+      },
+      "name": "Mistral: Pixtral Large 2502",
+      "price": {
+        "cacheRead": null,
+        "cacheWrite": null,
+        "input": 2,
+        "output": 6
+      },
+      "releaseDate": "2025-04-08",
       "tags": []
     },
     {
@@ -162346,9 +162310,9 @@
       },
       "name": "Particle AI: Particle-1",
       "price": {
-        "cacheRead": 0.0015,
+        "cacheRead": 0.003,
         "cacheWrite": null,
-        "input": 0.03,
+        "input": 0.035,
         "output": 0.25
       },
       "releaseDate": "2026-10-28",
@@ -166219,7 +166183,7 @@
           "text"
         ]
       },
-      "name": "SpaceXAI: Grok 4.20",
+      "name": "SpaceXSI: Grok 4.20",
       "price": {
         "cacheRead": 0.2,
         "cacheWrite": null,
@@ -166257,7 +166221,7 @@
           "text"
         ]
       },
-      "name": "SpaceXAI: Grok 4.20 Multi-Agent",
+      "name": "SpaceXSI: Grok 4.20 Multi-Agent",
       "price": {
         "cacheRead": 0.2,
         "cacheWrite": null,
@@ -166295,7 +166259,7 @@
           "text"
         ]
       },
-      "name": "SpaceXAI: Grok 4.20 Multi Agent Beta",
+      "name": "SpaceXSI: Grok 4.20 Multi Agent Beta",
       "price": {
         "cacheRead": 0.2,
         "cacheWrite": null,
@@ -166333,7 +166297,7 @@
           "text"
         ]
       },
-      "name": "SpaceXAI: Grok 4.20 Non-Reasoning",
+      "name": "SpaceXSI: Grok 4.20 Non-Reasoning",
       "price": {
         "cacheRead": 0.2,
         "cacheWrite": null,
@@ -166371,7 +166335,7 @@
           "text"
         ]
       },
-      "name": "SpaceXAI: Grok 4.20 Beta Non-Reasoning",
+      "name": "SpaceXSI: Grok 4.20 Beta Non-Reasoning",
       "price": {
         "cacheRead": 0.2,
         "cacheWrite": null,
@@ -166409,7 +166373,7 @@
           "text"
         ]
       },
-      "name": "SpaceXAI: Grok 4.20 Reasoning",
+      "name": "SpaceXSI: Grok 4.20 Reasoning",
       "price": {
         "cacheRead": 0.2,
         "cacheWrite": null,
@@ -166447,7 +166411,7 @@
           "text"
         ]
       },
-      "name": "SpaceXAI: Grok 4.20 Beta Reasoning",
+      "name": "SpaceXSI: Grok 4.20 Beta Reasoning",
       "price": {
         "cacheRead": 0.2,
         "cacheWrite": null,
@@ -167360,8 +167324,8 @@
       "id": "z-ai/glm-5.3-flash",
       "knowledge": null,
       "lastUpdated": "2026-08-26",
-      "maxCtxTokens": 1048575,
-      "maxOutputTokens": 943717,
+      "maxCtxTokens": 1048576,
+      "maxOutputTokens": 131072,
       "modalities": {
         "input": [
           "text",
@@ -175261,7 +175225,7 @@
       "id": "hy4",
       "knowledge": null,
       "lastUpdated": "2026-11-04",
-      "maxCtxTokens": 1000000,
+      "maxCtxTokens": 1048576,
       "maxOutputTokens": 65536,
       "modalities": {
         "input": [
@@ -184548,10 +184512,10 @@
       },
       "name": "Kimi K3.1 Pro (CanopyWave)",
       "price": {
-        "cacheRead": 0.2,
+        "cacheRead": 0.19,
         "cacheWrite": null,
-        "input": 2,
-        "output": 10
+        "input": 1.9,
+        "output": 9.5
       },
       "releaseDate": "2026-10-23",
       "tags": []
@@ -195617,6 +195581,43 @@
         "output": 0.6
       },
       "releaseDate": "2025-08-05",
+      "tags": []
+    },
+    {
+      "description": "A next-generation multimodal productivity model with significantly enhanced Agent and complex task execution capabilities.",
+      "firm": "llmgateway-providers",
+      "flags": {
+        "attachment": true,
+        "audio": false,
+        "image": true,
+        "open_weights": false,
+        "reasoning": true,
+        "temperature": true,
+        "tool_call": true
+      },
+      "icon": "",
+      "id": "together-ai/hy4",
+      "knowledge": null,
+      "lastUpdated": "2026-11-04",
+      "maxCtxTokens": 1048576,
+      "maxOutputTokens": 1000000,
+      "modalities": {
+        "input": [
+          "text",
+          "image"
+        ],
+        "output": [
+          "text"
+        ]
+      },
+      "name": "Hy4 (Together AI)",
+      "price": {
+        "cacheRead": 0.042,
+        "cacheWrite": null,
+        "input": 0.834,
+        "output": 2.501
+      },
+      "releaseDate": "2026-11-04",
       "tags": []
     },
     {
@@ -219754,10 +219755,10 @@
       },
       "name": "DeepSeek V3.1 Terminus",
       "price": {
-        "cacheRead": 0.125,
+        "cacheRead": 0.32,
         "cacheWrite": null,
-        "input": 0.25,
-        "output": 0.7
+        "input": 0.34,
+        "output": 1.24
       },
       "releaseDate": "2025-08-02",
       "tags": []
@@ -219790,10 +219791,10 @@
       },
       "name": "DeepSeek V3.1 Terminus (Thinking)",
       "price": {
-        "cacheRead": 0.125,
+        "cacheRead": 0.32,
         "cacheWrite": null,
-        "input": 0.25,
-        "output": 0.7
+        "input": 0.34,
+        "output": 1.24
       },
       "releaseDate": "2024-01-01",
       "tags": []
@@ -219934,10 +219935,10 @@
       },
       "name": "DeepSeek V3/Deepseek Chat",
       "price": {
-        "cacheRead": 0.05,
+        "cacheRead": 0.29,
         "cacheWrite": null,
-        "input": 0.1,
-        "output": 0.425
+        "input": 0.29,
+        "output": 1.16
       },
       "releaseDate": "2025-12-01",
       "tags": []
@@ -219970,10 +219971,10 @@
       },
       "name": "DeepSeek Chat 0324",
       "price": {
-        "cacheRead": 0.135,
+        "cacheRead": 0.29,
         "cacheWrite": null,
-        "input": 0.2,
-        "output": 0.77
+        "input": 0.29,
+        "output": 1.16
       },
       "releaseDate": "2025-03-24",
       "tags": []
@@ -224302,6 +224303,42 @@
         "output": 0.34
       },
       "releaseDate": "2026-04-02",
+      "tags": []
+    },
+    {
+      "description": "Blazed-Forge's Split-Untied is a text-only Gemma 4 31B community finetune with an untied BF16 output head, built for creative writing, roleplay, expressive dialogue, and tool use.",
+      "firm": "nano-gpt",
+      "flags": {
+        "attachment": false,
+        "audio": false,
+        "image": false,
+        "open_weights": true,
+        "reasoning": false,
+        "temperature": false,
+        "tool_call": true
+      },
+      "icon": "",
+      "id": "google/gemma4-31b-splituntied",
+      "knowledge": null,
+      "lastUpdated": "2026-09-17",
+      "maxCtxTokens": 32768,
+      "maxOutputTokens": 32768,
+      "modalities": {
+        "input": [
+          "text"
+        ],
+        "output": [
+          "text"
+        ]
+      },
+      "name": "Gemma 4 31B Split-Untied",
+      "price": {
+        "cacheRead": 0.05,
+        "cacheWrite": null,
+        "input": 0.1,
+        "output": 0.3
+      },
+      "releaseDate": "2026-09-17",
       "tags": []
     },
     {
@@ -232578,10 +232615,10 @@
       },
       "name": "Qwen 3 Coder 480B",
       "price": {
-        "cacheRead": 0.065,
+        "cacheRead": 0.1,
         "cacheWrite": null,
-        "input": 0.13,
-        "output": 0.5
+        "input": 0.3,
+        "output": 1
       },
       "releaseDate": "2025-07-22",
       "tags": []
@@ -234908,6 +234945,43 @@
       "tags": []
     },
     {
+      "description": "DaisyRose 27B is RadixArk’s multimodal reasoning model for coding, tool use and long-horizon agent tasks. Built from Qwen3.8-27B using reinforcement learning without supervised fine-tuning or distillation, it accepts text and images and returns text. It supports function calling, JSON-schema output and a 262,144-token context window, with up to 65,536 output tokens. Thinking is on by default; choose low, medium or high effort, or turn it off. The weights are released under Apache 2.0.",
+      "firm": "nano-gpt",
+      "flags": {
+        "attachment": true,
+        "audio": false,
+        "image": true,
+        "open_weights": true,
+        "reasoning": true,
+        "temperature": false,
+        "tool_call": true
+      },
+      "icon": "",
+      "id": "radixark/daisyrose-27b",
+      "knowledge": null,
+      "lastUpdated": "2026-11-20",
+      "maxCtxTokens": 262144,
+      "maxOutputTokens": 65536,
+      "modalities": {
+        "input": [
+          "text",
+          "image"
+        ],
+        "output": [
+          "text"
+        ]
+      },
+      "name": "DaisyRose 27B",
+      "price": {
+        "cacheRead": 0.0375,
+        "cacheWrite": null,
+        "input": 0.15,
+        "output": 1.875
+      },
+      "releaseDate": "2026-11-20",
+      "tags": []
+    },
+    {
       "description": "Open Llama instruction model for multilingual chat, reasoning, and coding",
       "firm": "nano-gpt",
       "flags": {
@@ -236721,10 +236795,10 @@
       },
       "name": "Tencent Hy4 Preview",
       "price": {
-        "cacheRead": 0.0378,
+        "cacheRead": 0.042,
         "cacheWrite": null,
-        "input": 0.7506,
-        "output": 2.2509
+        "input": 0.834,
+        "output": 2.501
       },
       "releaseDate": "2026-08-28",
       "tags": []
@@ -238782,10 +238856,10 @@
       },
       "name": "GLM 5",
       "price": {
-        "cacheRead": 0.1,
+        "cacheRead": 0.17,
         "cacheWrite": null,
-        "input": 0.6,
-        "output": 1.9
+        "input": 0.86,
+        "output": 2.74
       },
       "releaseDate": "2026-02-12",
       "tags": []
@@ -238818,10 +238892,10 @@
       },
       "name": "GLM 5 Original",
       "price": {
-        "cacheRead": 0.1,
+        "cacheRead": 0.17,
         "cacheWrite": null,
-        "input": 0.6,
-        "output": 1.9
+        "input": 0.86,
+        "output": 2.74
       },
       "releaseDate": "2026-02-12",
       "tags": []
@@ -238854,10 +238928,10 @@
       },
       "name": "GLM 5 Original Thinking",
       "price": {
-        "cacheRead": 0.1,
+        "cacheRead": 0.17,
         "cacheWrite": null,
-        "input": 0.6,
-        "output": 1.9
+        "input": 0.86,
+        "output": 2.74
       },
       "releaseDate": "2026-02-12",
       "tags": []
@@ -238926,10 +239000,10 @@
       },
       "name": "GLM 5 Thinking",
       "price": {
-        "cacheRead": 0.1,
+        "cacheRead": 0.17,
         "cacheWrite": null,
-        "input": 0.6,
-        "output": 1.9
+        "input": 0.86,
+        "output": 2.74
       },
       "releaseDate": "2026-02-12",
       "tags": []
@@ -239034,10 +239108,10 @@
       },
       "name": "GLM 5.2",
       "price": {
-        "cacheRead": 0.078,
+        "cacheRead": 0.1,
         "cacheWrite": null,
-        "input": 0.42,
-        "output": 1.32
+        "input": 0.53,
+        "output": 1.79
       },
       "releaseDate": "2026-06-13",
       "tags": []
@@ -239070,10 +239144,10 @@
       },
       "name": "GLM 5.2 Thinking",
       "price": {
-        "cacheRead": 0.078,
+        "cacheRead": 0.1,
         "cacheWrite": null,
-        "input": 0.42,
-        "output": 1.32
+        "input": 0.53,
+        "output": 1.79
       },
       "releaseDate": "2026-06-13",
       "tags": []
@@ -251822,10 +251896,10 @@
       },
       "name": "MiniMax-M3.1-Flash",
       "price": {
-        "cacheRead": 0.00975,
+        "cacheRead": 0.016575,
         "cacheWrite": null,
-        "input": 0.0975,
-        "output": 0.39
+        "input": 0.16575,
+        "output": 0.663
       },
       "releaseDate": "2026-10-19",
       "tags": []
@@ -252123,8 +252197,8 @@
       "price": {
         "cacheRead": null,
         "cacheWrite": null,
-        "input": 0.1105,
-        "output": 0.3315
+        "input": 0.05187,
+        "output": 0.10192
       },
       "releaseDate": "2026-08-26",
       "tags": []
@@ -268739,9 +268813,9 @@
       },
       "name": "DeepSeek Pro Latest",
       "price": {
-        "cacheRead": 0.2,
+        "cacheRead": 0.26,
         "cacheWrite": null,
-        "input": 0.198,
+        "input": 0.2565,
         "output": 8
       },
       "releaseDate": "2026-09-14",
@@ -268764,7 +268838,7 @@
       "knowledge": null,
       "lastUpdated": "2026-08-01",
       "maxCtxTokens": 1048576,
-      "maxOutputTokens": 384000,
+      "maxOutputTokens": 943718,
       "modalities": {
         "input": [
           "text"
@@ -268775,10 +268849,10 @@
       },
       "name": "DeepSeek V4 Flash Latest",
       "price": {
-        "cacheRead": 0.015,
+        "cacheRead": 0.035,
         "cacheWrite": null,
-        "input": 0.06,
-        "output": 0.18
+        "input": 0.047,
+        "output": 0.3
       },
       "releaseDate": "2026-08-01",
       "tags": []
@@ -270727,42 +270801,6 @@
       "tags": []
     },
     {
-      "description": "Cohere coding model for practical software engineering and agentic edits",
-      "firm": "openrouter",
-      "flags": {
-        "attachment": false,
-        "audio": false,
-        "image": false,
-        "open_weights": true,
-        "reasoning": true,
-        "temperature": true,
-        "tool_call": true
-      },
-      "icon": "lb:openrouter-color",
-      "id": "cohere/north-mini-code:free",
-      "knowledge": "2025-09-23",
-      "lastUpdated": "2026-06-09",
-      "maxCtxTokens": 256000,
-      "maxOutputTokens": 64000,
-      "modalities": {
-        "input": [
-          "text"
-        ],
-        "output": [
-          "text"
-        ]
-      },
-      "name": "North Mini Code (free)",
-      "price": {
-        "cacheRead": null,
-        "cacheWrite": null,
-        "input": null,
-        "output": null
-      },
-      "releaseDate": "2026-06-09",
-      "tags": []
-    },
-    {
       "description": "DeepSeek chat model for instruction following, coding, and analysis",
       "firm": "openrouter",
       "flags": {
@@ -271078,9 +271116,9 @@
       },
       "name": "DeepSeek V4 Flash 0731",
       "price": {
-        "cacheRead": 0.05,
+        "cacheRead": 0.035,
         "cacheWrite": null,
-        "input": 0.1,
+        "input": 0.047,
         "output": 0.3
       },
       "releaseDate": "2026-07-31",
@@ -271187,10 +271225,10 @@
       },
       "name": "DeepSeek V4 Pro 0813",
       "price": {
-        "cacheRead": 0.17,
+        "cacheRead": 0.044,
         "cacheWrite": null,
-        "input": 0.22,
-        "output": 9.5
+        "input": 1.32,
+        "output": 3.96
       },
       "releaseDate": "2026-08-13",
       "tags": []
@@ -271249,7 +271287,7 @@
       "knowledge": "2025-05",
       "lastUpdated": "2026-10-17",
       "maxCtxTokens": 1048576,
-      "maxOutputTokens": 943718,
+      "maxOutputTokens": 393216,
       "modalities": {
         "input": [
           "text",
@@ -271261,10 +271299,10 @@
       },
       "name": "DeepSeek V4.1 Flash 1017",
       "price": {
-        "cacheRead": 0.01,
+        "cacheRead": 0.003,
         "cacheWrite": null,
-        "input": 0.036,
-        "output": 0.5
+        "input": 0.15,
+        "output": 0.6
       },
       "releaseDate": "2026-10-17",
       "tags": []
@@ -272621,10 +272659,10 @@
       },
       "name": "Gemma 4 26B A4B IT",
       "price": {
-        "cacheRead": 0.0425,
+        "cacheRead": 0.05,
         "cacheWrite": null,
-        "input": 0.0765,
-        "output": 0.255
+        "input": 0.09,
+        "output": 0.3
       },
       "releaseDate": "2026-04-02",
       "tags": []
@@ -273029,10 +273067,10 @@
       },
       "name": "Ling 3.1 Flash",
       "price": {
-        "cacheRead": 0.009,
+        "cacheRead": 0.012,
         "cacheWrite": null,
-        "input": 0.045,
-        "output": 0.135
+        "input": 0.06,
+        "output": 0.18
       },
       "releaseDate": "2026-09-29",
       "tags": []
@@ -273447,47 +273485,11 @@
         "tool_call": false
       },
       "icon": "lb:openrouter-color",
-      "id": "meta-llama/llama-3.2-1b-instruct",
-      "knowledge": "2023-12",
-      "lastUpdated": "2024-09-25",
-      "maxCtxTokens": 60000,
-      "maxOutputTokens": 54000,
-      "modalities": {
-        "input": [
-          "text"
-        ],
-        "output": [
-          "text"
-        ]
-      },
-      "name": "Llama 3.2 1B Instruct",
-      "price": {
-        "cacheRead": null,
-        "cacheWrite": null,
-        "input": 0.027,
-        "output": 0.201
-      },
-      "releaseDate": "2024-09-25",
-      "tags": []
-    },
-    {
-      "description": "Open Llama instruction model for multilingual chat, reasoning, and coding",
-      "firm": "openrouter",
-      "flags": {
-        "attachment": false,
-        "audio": false,
-        "image": false,
-        "open_weights": true,
-        "reasoning": false,
-        "temperature": true,
-        "tool_call": false
-      },
-      "icon": "lb:openrouter-color",
       "id": "meta-llama/llama-3.2-3b-instruct",
       "knowledge": "2023-12",
       "lastUpdated": "2024-09-25",
       "maxCtxTokens": 131072,
-      "maxOutputTokens": 72000,
+      "maxOutputTokens": 117964,
       "modalities": {
         "input": [
           "text"
@@ -273500,8 +273502,8 @@
       "price": {
         "cacheRead": null,
         "cacheWrite": null,
-        "input": 0.0509,
-        "output": 0.335
+        "input": 0.05,
+        "output": 0.33
       },
       "releaseDate": "2024-09-25",
       "tags": []
@@ -274181,10 +274183,10 @@
       },
       "name": "MiniMax-M3.1-Flash",
       "price": {
-        "cacheRead": 0.0075,
+        "cacheRead": 0.015,
         "cacheWrite": null,
-        "input": 0.075,
-        "output": 0.3
+        "input": 0.15,
+        "output": 0.6
       },
       "releaseDate": "2026-10-19",
       "tags": []
@@ -274892,6 +274894,43 @@
         "output": 6
       },
       "releaseDate": "2024-04-17",
+      "tags": []
+    },
+    {
+      "description": "Mistral vision-language model for image understanding and multimodal chat",
+      "firm": "openrouter",
+      "flags": {
+        "attachment": true,
+        "audio": false,
+        "image": true,
+        "open_weights": false,
+        "reasoning": false,
+        "temperature": true,
+        "tool_call": false
+      },
+      "icon": "lb:openrouter-color",
+      "id": "mistralai/pixtral-large-2502",
+      "knowledge": null,
+      "lastUpdated": "2025-04-08",
+      "maxCtxTokens": 128000,
+      "maxOutputTokens": 102400,
+      "modalities": {
+        "input": [
+          "text",
+          "image"
+        ],
+        "output": [
+          "text"
+        ]
+      },
+      "name": "Pixtral Large (25.02)",
+      "price": {
+        "cacheRead": null,
+        "cacheWrite": null,
+        "input": 2,
+        "output": 6
+      },
+      "releaseDate": "2025-04-08",
       "tags": []
     },
     {
@@ -278444,9 +278483,9 @@
       },
       "name": "Particle-1",
       "price": {
-        "cacheRead": 0.003,
+        "cacheRead": 0.006,
         "cacheWrite": null,
-        "input": 0.06,
+        "input": 0.07,
         "output": 0.5
       },
       "releaseDate": "2026-10-28",
@@ -282575,7 +282614,7 @@
       "knowledge": null,
       "lastUpdated": "2026-08-26",
       "maxCtxTokens": 1048576,
-      "maxOutputTokens": 943717,
+      "maxOutputTokens": 131072,
       "modalities": {
         "input": [
           "text",
@@ -282590,8 +282629,8 @@
       "price": {
         "cacheRead": 0.03,
         "cacheWrite": null,
-        "input": 0.15,
-        "output": 0.5
+        "input": 0.0399,
+        "output": 0.0784
       },
       "releaseDate": "2026-08-26",
       "tags": []

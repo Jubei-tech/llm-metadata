@@ -1416,7 +1416,7 @@
       "doc": "https://kilo.ai",
       "icon": "https://models.dev/logos/kilo.svg",
       "id": "kilo",
-      "modelCount": 467,
+      "modelCount": 466,
       "name": "Kilo Gateway",
       "status": 1
     },
@@ -1556,7 +1556,7 @@
       "doc": "https://llmgateway.io/docs",
       "icon": "https://models.dev/logos/llmgateway-providers.svg",
       "id": "llmgateway-providers",
-      "modelCount": 502,
+      "modelCount": 503,
       "name": "LLM Gateway",
       "status": 1
     },
@@ -1916,7 +1916,7 @@
       "doc": "https://docs.nano-gpt.com",
       "icon": "https://models.dev/logos/nano-gpt.svg",
       "id": "nano-gpt",
-      "modelCount": 612,
+      "modelCount": 614,
       "name": "NanoGPT",
       "status": 1
     },
@@ -2116,7 +2116,7 @@
       "doc": "https://openrouter.ai/models",
       "icon": "lb:openrouter-color",
       "id": "openrouter",
-      "modelCount": 381,
+      "modelCount": 380,
       "name": "OpenRouter",
       "status": 1
     },
