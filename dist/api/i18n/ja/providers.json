@@ -578,7 +578,7 @@
       "iconURL": "https://models.dev/logos/deepinfra.svg",
       "id": "deepinfra",
       "lobeIcon": "DeepInfra",
-      "modelCount": 80,
+      "modelCount": 81,
       "name": "Deep Infra"
     },
     {
@@ -658,7 +658,7 @@
       "doc": "https://docs.edenai.co",
       "iconURL": "https://models.dev/logos/edenai.svg",
       "id": "edenai",
-      "modelCount": 389,
+      "modelCount": 388,
       "name": "Eden AI"
     },
     {

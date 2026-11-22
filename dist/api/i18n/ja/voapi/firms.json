@@ -726,7 +726,7 @@
       "doc": "https://deepinfra.com/models",
       "icon": "lb:deepinfra",
       "id": "deepinfra",
-      "modelCount": 80,
+      "modelCount": 81,
       "name": "Deep Infra",
       "status": 1
     },
@@ -826,7 +826,7 @@
       "doc": "https://docs.edenai.co",
       "icon": "https://models.dev/logos/edenai.svg",
       "id": "edenai",
-      "modelCount": 389,
+      "modelCount": 388,
       "name": "Eden AI",
       "status": 1
     },
