@@ -54836,6 +54836,17 @@
         "reasoning": true,
         "tool_call": true
       },
+      "id": "fireworks/qwen3.8-2.4t-a95b",
+      "name": "Qwen3.8 2.4T A95B (Fireworks AI)",
+      "providerId": "llmgateway-providers",
+      "updated": "2026-08-12"
+    },
+    {
+      "flags": {
+        "attachment": false,
+        "reasoning": true,
+        "tool_call": true
+      },
       "id": "flexai/deepseek-v4-flash",
       "name": "DeepSeek V4 Flash (flexai)",
       "providerId": "llmgateway-providers",
@@ -112924,7 +112935,7 @@
       "doc": "https://llmgateway.io/docs",
       "iconURL": "https://models.dev/logos/llmgateway-providers.svg",
       "id": "llmgateway-providers",
-      "modelCount": 506,
+      "modelCount": 507,
       "name": "LLM Gateway"
     },
     {
