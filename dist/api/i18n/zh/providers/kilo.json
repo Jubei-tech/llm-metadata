@@ -4147,7 +4147,7 @@
       "last_updated": "2025-03-12",
       "limit": {
         "context": 131072,
-        "output": 117964
+        "output": 16384
       },
       "modalities": {
         "input": [
@@ -14429,8 +14429,8 @@
       "canonical_model_id": "alibaba/qwen3.6-35b-a3b",
       "cost": {
         "cache_read": 0.025,
-        "input": 0.1,
-        "output": 0.9
+        "input": 0.05,
+        "output": 0.7
       },
       "description": "Qwen vision-language model for visual reasoning, documents, and agent tasks",
       "family": "qwen",
@@ -17963,16 +17963,16 @@
       "attachment": false,
       "canonical_model_id": "zhipuai/glm-5.1",
       "cost": {
-        "cache_read": 0.26,
-        "input": 1.4,
-        "output": 4.4
+        "cache_read": 0.6,
+        "input": 1.19,
+        "output": 3.74
       },
       "description": "Flagship GLM model for hybrid reasoning, coding, and agentic engineering",
       "family": "glm",
       "id": "z-ai/glm-5.1",
       "last_updated": "2026-04-07",
       "limit": {
-        "context": 202752,
+        "context": 204800,
         "output": 131072
       },
       "modalities": {
