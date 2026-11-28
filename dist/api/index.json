@@ -18786,6 +18786,17 @@
     },
     {
       "flags": {
+        "attachment": true,
+        "reasoning": true,
+        "tool_call": true
+      },
+      "id": "deepseek-ai/deepseek-v4.1-flash-1017",
+      "name": "DeepSeek V4.1 Flash 1017",
+      "providerId": "cloudflare-ai-gateway",
+      "updated": "2026-10-17"
+    },
+    {
+      "flags": {
         "attachment": false,
         "reasoning": true,
         "tool_call": true
@@ -48170,17 +48181,6 @@
         "reasoning": true,
         "tool_call": true
       },
-      "id": "qwen/qwen3-235b-a22b-thinking-2507",
-      "name": "Qwen: Qwen3 235B A22B Thinking 2507",
-      "providerId": "kilo",
-      "updated": "2025-07-25"
-    },
-    {
-      "flags": {
-        "attachment": false,
-        "reasoning": true,
-        "tool_call": true
-      },
       "id": "qwen/qwen3-30b-a3b",
       "name": "Qwen3 30B A3B",
       "providerId": "kilo",
@@ -50693,6 +50693,17 @@
       "name": "DeepSeek V4 Pro",
       "providerId": "llmgateway",
       "updated": "2026-04-24"
+    },
+    {
+      "flags": {
+        "attachment": false,
+        "reasoning": true,
+        "tool_call": true
+      },
+      "id": "deepseek-v4-pro-0813",
+      "name": "deepseek-v4-pro-0813",
+      "providerId": "llmgateway",
+      "updated": "2026-08-22"
     },
     {
       "flags": {
@@ -54539,6 +54550,17 @@
         "reasoning": true,
         "tool_call": true
       },
+      "id": "canopywave/deepseek-v4-pro-0813",
+      "name": "deepseek-v4-pro-0813 (CanopyWave)",
+      "providerId": "llmgateway-providers",
+      "updated": "2026-08-22"
+    },
+    {
+      "flags": {
+        "attachment": false,
+        "reasoning": true,
+        "tool_call": true
+      },
       "id": "canopywave/deepseek-v4.1-flash-1017",
       "name": "DeepSeek V4.1 Flash 1017 (CanopyWave)",
       "providerId": "llmgateway-providers",
@@ -54598,6 +54620,17 @@
       "name": "Kimi K2.6 (CanopyWave)",
       "providerId": "llmgateway-providers",
       "updated": "2026-04-20"
+    },
+    {
+      "flags": {
+        "attachment": true,
+        "reasoning": true,
+        "tool_call": true
+      },
+      "id": "canopywave/kimi-k2.7-code",
+      "name": "Kimi K2.7 Code (CanopyWave)",
+      "providerId": "llmgateway-providers",
+      "updated": "2026-06-12"
     },
     {
       "flags": {
@@ -57051,6 +57084,17 @@
       "name": "DeepSeek V4.1 Flash Latest (reka-ai)",
       "providerId": "llmgateway-providers",
       "updated": "2026-10-17"
+    },
+    {
+      "flags": {
+        "attachment": false,
+        "reasoning": true,
+        "tool_call": true
+      },
+      "id": "reka-ai/glm-5.3",
+      "name": "GLM-5.3 (reka-ai)",
+      "providerId": "llmgateway-providers",
+      "updated": "2026-08-14"
     },
     {
       "flags": {
@@ -64854,17 +64898,6 @@
     {
       "flags": {
         "attachment": false,
-        "reasoning": false,
-        "tool_call": false
-      },
-      "id": "celeris-1",
-      "name": "Celeris 1",
-      "providerId": "nano-gpt",
-      "updated": "2026-07-25"
-    },
-    {
-      "flags": {
-        "attachment": false,
         "reasoning": true,
         "tool_call": true
       },
@@ -69415,17 +69448,6 @@
       "name": "Qwen3 VL 235B A22B Instruct Original",
       "providerId": "nano-gpt",
       "updated": "2025-09-23"
-    },
-    {
-      "flags": {
-        "attachment": true,
-        "reasoning": true,
-        "tool_call": true
-      },
-      "id": "Qwen3.5-27B-Blossom-V6.4-Derestricted",
-      "name": "Qwen3.5 27B Blossom V6.4 Derestricted",
-      "providerId": "nano-gpt",
-      "updated": "2026-05-15"
     },
     {
       "flags": {
@@ -82402,17 +82424,6 @@
         "reasoning": true,
         "tool_call": true
       },
-      "id": "qwen/qwen3-235b-a22b-thinking-2507",
-      "name": "Qwen3 235B-A22B Thinking 2507",
-      "providerId": "openrouter",
-      "updated": "2025-07-25"
-    },
-    {
-      "flags": {
-        "attachment": false,
-        "reasoning": true,
-        "tool_call": true
-      },
       "id": "qwen/qwen3-30b-a3b",
       "name": "Qwen3 30B A3B",
       "providerId": "openrouter",
@@ -88918,6 +88929,17 @@
       "name": "Gemini 4 Carbon",
       "providerId": "prime",
       "updated": "2026-11-10"
+    },
+    {
+      "flags": {
+        "attachment": true,
+        "reasoning": true,
+        "tool_call": true
+      },
+      "id": "google/gemini-4-hydrogen",
+      "name": "Gemini 4 Hydrogen",
+      "providerId": "prime",
+      "updated": "2026-11-12"
     },
     {
       "flags": {
@@ -102550,6 +102572,17 @@
     },
     {
       "flags": {
+        "attachment": false,
+        "reasoning": true,
+        "tool_call": true
+      },
+      "id": "nvidia-nemotron-3-5-lightning-30b-a3b",
+      "name": "NVIDIA Nemotron 3.5 Lightning 30B",
+      "providerId": "venice",
+      "updated": "2026-11-28"
+    },
+    {
+      "flags": {
         "attachment": true,
         "reasoning": true,
         "tool_call": true
@@ -102888,17 +102921,6 @@
       "name": "OpenAI GPT OSS 120B",
       "providerId": "venice",
       "updated": "2025-08-05"
-    },
-    {
-      "flags": {
-        "attachment": true,
-        "reasoning": false,
-        "tool_call": true
-      },
-      "id": "pareto",
-      "name": "Pareto",
-      "providerId": "venice",
-      "updated": "2026-09-17"
     },
     {
       "flags": {
@@ -112764,7 +112786,7 @@
       "doc": "https://developers.cloudflare.com/ai-gateway/",
       "iconURL": "https://models.dev/logos/cloudflare-ai-gateway.svg",
       "id": "cloudflare-ai-gateway",
-      "modelCount": 85,
+      "modelCount": 86,
       "name": "Cloudflare AI Gateway"
     },
     {
@@ -113416,7 +113438,7 @@
       "doc": "https://kilo.ai",
       "iconURL": "https://models.dev/logos/kilo.svg",
       "id": "kilo",
-      "modelCount": 460,
+      "modelCount": 459,
       "name": "Kilo Gateway"
     },
     {
@@ -113518,7 +113540,7 @@
       "doc": "https://llmgateway.io/docs",
       "iconURL": "https://models.dev/logos/llmgateway.svg",
       "id": "llmgateway",
-      "modelCount": 218,
+      "modelCount": 219,
       "name": "DevPass (LLM Gateway)"
     },
     {
@@ -113526,7 +113548,7 @@
       "doc": "https://llmgateway.io/docs",
       "iconURL": "https://models.dev/logos/llmgateway-providers.svg",
       "id": "llmgateway-providers",
-      "modelCount": 516,
+      "modelCount": 519,
       "name": "LLM Gateway"
     },
     {
@@ -113818,7 +113840,7 @@
       "doc": "https://docs.nano-gpt.com",
       "iconURL": "https://models.dev/logos/nano-gpt.svg",
       "id": "nano-gpt",
-      "modelCount": 610,
+      "modelCount": 608,
       "name": "NanoGPT"
     },
     {
@@ -113980,7 +114002,7 @@
       "iconURL": "https://models.dev/logos/openrouter.svg",
       "id": "openrouter",
       "lobeIcon": "OpenRouter.Color",
-      "modelCount": 375,
+      "modelCount": 374,
       "name": "OpenRouter"
     },
     {
@@ -114115,7 +114137,7 @@
       "doc": "https://docs.primeintellect.ai/inference/overview",
       "iconURL": "https://models.dev/logos/prime.svg",
       "id": "prime",
-      "modelCount": 73,
+      "modelCount": 74,
       "name": "Prime Inference"
     },
     {

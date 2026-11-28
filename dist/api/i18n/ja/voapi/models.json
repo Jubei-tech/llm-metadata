@@ -63957,6 +63957,43 @@
       "tags": []
     },
     {
+      "description": "October 17 update of DeepSeek V4.1 Flash with improved reasoning, coding, agentic tasks, and visual understanding",
+      "firm": "cloudflare-ai-gateway",
+      "flags": {
+        "attachment": true,
+        "audio": false,
+        "image": true,
+        "open_weights": true,
+        "reasoning": true,
+        "temperature": true,
+        "tool_call": true
+      },
+      "icon": "",
+      "id": "deepseek-ai/deepseek-v4.1-flash-1017",
+      "knowledge": "2025-05",
+      "lastUpdated": "2026-10-17",
+      "maxCtxTokens": 1000000,
+      "maxOutputTokens": 384000,
+      "modalities": {
+        "input": [
+          "text",
+          "image"
+        ],
+        "output": [
+          "text"
+        ]
+      },
+      "name": "DeepSeek V4.1 Flash 1017",
+      "price": {
+        "cacheRead": 0.007,
+        "cacheWrite": null,
+        "input": 0.3,
+        "output": 1.2
+      },
+      "releaseDate": "2026-10-17",
+      "tags": []
+    },
+    {
       "description": "Open MoE flagship with million-token context for coding and long agent runs",
       "firm": "cloudflare-ai-gateway",
       "flags": {
@@ -130349,8 +130386,8 @@
       "price": {
         "cacheRead": null,
         "cacheWrite": null,
-        "input": 0.07,
-        "output": 0.14
+        "input": 0.09,
+        "output": 0.18
       },
       "releaseDate": "2026-04-24",
       "tags": []
@@ -130458,8 +130495,8 @@
       "price": {
         "cacheRead": null,
         "cacheWrite": null,
-        "input": 0.71501,
-        "output": 1.5228
+        "input": 0.89,
+        "output": 1.5069
       },
       "releaseDate": "2026-04-24",
       "tags": []
@@ -130568,8 +130605,8 @@
       "price": {
         "cacheRead": null,
         "cacheWrite": null,
-        "input": 0.05,
-        "output": 0.3
+        "input": 0.04,
+        "output": 0.1
       },
       "releaseDate": "2026-10-17",
       "tags": []
@@ -130788,8 +130825,8 @@
       "price": {
         "cacheRead": null,
         "cacheWrite": null,
-        "input": 0.07,
-        "output": 0.24
+        "input": 0.0675,
+        "output": 0.225
       },
       "releaseDate": "2026-04-02",
       "tags": []
@@ -132500,8 +132537,8 @@
       "price": {
         "cacheRead": null,
         "cacheWrite": null,
-        "input": 0.15,
-        "output": 0.75
+        "input": 0.09,
+        "output": 0.55
       },
       "releaseDate": "2025-07-21",
       "tags": []
@@ -133155,8 +133192,8 @@
       "price": {
         "cacheRead": null,
         "cacheWrite": null,
-        "input": 0.085,
-        "output": 0.125
+        "input": 0.066,
+        "output": 0.097
       },
       "releaseDate": "2026-02-23",
       "tags": []
@@ -133632,8 +133669,8 @@
       "price": {
         "cacheRead": null,
         "cacheWrite": null,
-        "input": 0.7089,
-        "output": 2.12585
+        "input": 0.834,
+        "output": 2.501
       },
       "releaseDate": "2026-11-04",
       "tags": []
@@ -151001,7 +151038,7 @@
         "cacheRead": 0.035,
         "cacheWrite": null,
         "input": 0.0456,
-        "output": 0.3
+        "output": 0.27
       },
       "releaseDate": "2026-08-01",
       "tags": []
@@ -153221,8 +153258,8 @@
       "id": "deepseek/deepseek-r1-0528",
       "knowledge": null,
       "lastUpdated": "2025-05-28",
-      "maxCtxTokens": 128000,
-      "maxOutputTokens": 32000,
+      "maxCtxTokens": 163840,
+      "maxOutputTokens": 147456,
       "modalities": {
         "input": [
           "text"
@@ -153235,8 +153272,8 @@
       "price": {
         "cacheRead": null,
         "cacheWrite": null,
-        "input": 0.571,
-        "output": 2.286
+        "input": 0.5,
+        "output": 2.18
       },
       "releaseDate": "2025-05-28",
       "tags": []
@@ -153452,7 +153489,7 @@
         "cacheRead": 0.035,
         "cacheWrite": null,
         "input": 0.0456,
-        "output": 0.3
+        "output": 0.27
       },
       "releaseDate": "2026-07-31",
       "tags": []
@@ -153522,10 +153559,10 @@
       },
       "name": "DeepSeek V4 Pro",
       "price": {
-        "cacheRead": 0.21,
+        "cacheRead": 0.2,
         "cacheWrite": null,
-        "input": 0.70487,
-        "output": 1.5228
+        "input": 0.89,
+        "output": 1.5069
       },
       "releaseDate": "2026-04-24",
       "tags": []
@@ -153583,7 +153620,7 @@
       "knowledge": "2025-05",
       "lastUpdated": "2026-09-10",
       "maxCtxTokens": 1048576,
-      "maxOutputTokens": 393216,
+      "maxOutputTokens": 943718,
       "modalities": {
         "input": [
           "text",
@@ -153595,10 +153632,10 @@
       },
       "name": "DeepSeek V4.1 Flash",
       "price": {
-        "cacheRead": 0.001014,
+        "cacheRead": 0.018,
         "cacheWrite": null,
-        "input": 0.0507,
-        "output": 0.2028
+        "input": 0.051,
+        "output": 0.567
       },
       "releaseDate": "2026-09-10",
       "tags": []
@@ -155142,7 +155179,7 @@
       "knowledge": "2024-08",
       "lastUpdated": "2025-03-12",
       "maxCtxTokens": 131072,
-      "maxOutputTokens": 16384,
+      "maxOutputTokens": 117964,
       "modalities": {
         "input": [
           "text",
@@ -155192,10 +155229,10 @@
       },
       "name": "Gemma 4 26B A4B IT",
       "price": {
-        "cacheRead": 0.022,
+        "cacheRead": 0.025,
         "cacheWrite": null,
-        "input": 0.044,
-        "output": 0.158
+        "input": 0.05,
+        "output": 0.18
       },
       "releaseDate": "2026-04-02",
       "tags": []
@@ -155378,10 +155415,10 @@
       },
       "name": "Ampersand v0.1",
       "price": {
-        "cacheRead": null,
+        "cacheRead": 0.2,
         "cacheWrite": null,
-        "input": null,
-        "output": null
+        "input": 1,
+        "output": 5.2
       },
       "releaseDate": "2026-11-06",
       "tags": []
@@ -159026,7 +159063,7 @@
       "knowledge": null,
       "lastUpdated": "2026-10-15",
       "maxCtxTokens": 1048576,
-      "maxOutputTokens": 943718,
+      "maxOutputTokens": 131072,
       "modalities": {
         "input": [
           "text",
@@ -163534,42 +163571,6 @@
       "tags": []
     },
     {
-      "description": "Qwen reasoning model for deliberate problem solving, math, and coding",
-      "firm": "kilo",
-      "flags": {
-        "attachment": false,
-        "audio": false,
-        "image": false,
-        "open_weights": true,
-        "reasoning": true,
-        "temperature": true,
-        "tool_call": true
-      },
-      "icon": "",
-      "id": "qwen/qwen3-235b-a22b-thinking-2507",
-      "knowledge": null,
-      "lastUpdated": "2025-07-25",
-      "maxCtxTokens": 128000,
-      "maxOutputTokens": 16384,
-      "modalities": {
-        "input": [
-          "text"
-        ],
-        "output": [
-          "text"
-        ]
-      },
-      "name": "Qwen: Qwen3 235B A22B Thinking 2507",
-      "price": {
-        "cacheRead": null,
-        "cacheWrite": null,
-        "input": 0.45,
-        "output": 3.5
-      },
-      "releaseDate": "2025-07-25",
-      "tags": []
-    },
-    {
       "description": "Qwen instruction model for multilingual chat, reasoning, and tool use",
       "firm": "kilo",
       "flags": {
@@ -164137,7 +164138,7 @@
       "knowledge": null,
       "lastUpdated": "2026-02-23",
       "maxCtxTokens": 262144,
-      "maxOutputTokens": 235929,
+      "maxOutputTokens": 40960,
       "modalities": {
         "input": [
           "text",
@@ -164150,10 +164151,10 @@
       },
       "name": "Qwen3.5 9B",
       "price": {
-        "cacheRead": 0.035,
+        "cacheRead": 0.03825,
         "cacheWrite": null,
-        "input": 0.038,
-        "output": 0.057
+        "input": 0.0425,
+        "output": 0.0625
       },
       "releaseDate": "2026-02-23",
       "tags": []
@@ -164416,10 +164417,10 @@
       },
       "name": "Qwen3.6 35B-A3B",
       "price": {
-        "cacheRead": 0.024,
+        "cacheRead": 0.025,
         "cacheWrite": null,
         "input": 0.05,
-        "output": 0.69
+        "output": 0.7
       },
       "releaseDate": "2026-04-17",
       "tags": []
@@ -164627,8 +164628,8 @@
       "id": "qwen/qwen3.8-2.4t-a95b",
       "knowledge": null,
       "lastUpdated": "2026-08-12",
-      "maxCtxTokens": 262144,
-      "maxOutputTokens": 65536,
+      "maxCtxTokens": 1000000,
+      "maxOutputTokens": 900000,
       "modalities": {
         "input": [
           "text"
@@ -172095,6 +172096,42 @@
         "output": 1.98
       },
       "releaseDate": "2026-04-24",
+      "tags": []
+    },
+    {
+      "description": "DeepSeek V4 Pro snapshot with million-token context and support for thinking and non-thinking modes",
+      "firm": "llmgateway",
+      "flags": {
+        "attachment": false,
+        "audio": false,
+        "image": false,
+        "open_weights": true,
+        "reasoning": true,
+        "temperature": true,
+        "tool_call": true
+      },
+      "icon": "",
+      "id": "deepseek-v4-pro-0813",
+      "knowledge": null,
+      "lastUpdated": "2026-08-22",
+      "maxCtxTokens": 1000000,
+      "maxOutputTokens": 384000,
+      "modalities": {
+        "input": [
+          "text"
+        ],
+        "output": [
+          "text"
+        ]
+      },
+      "name": "deepseek-v4-pro-0813",
+      "price": {
+        "cacheRead": 0.044,
+        "cacheWrite": null,
+        "input": 1.32,
+        "output": 3.96
+      },
+      "releaseDate": "2026-08-13",
       "tags": []
     },
     {
@@ -185151,6 +185188,42 @@
       "tags": []
     },
     {
+      "description": "DeepSeek V4 Pro snapshot with million-token context and support for thinking and non-thinking modes",
+      "firm": "llmgateway-providers",
+      "flags": {
+        "attachment": false,
+        "audio": false,
+        "image": false,
+        "open_weights": true,
+        "reasoning": true,
+        "temperature": true,
+        "tool_call": true
+      },
+      "icon": "",
+      "id": "canopywave/deepseek-v4-pro-0813",
+      "knowledge": null,
+      "lastUpdated": "2026-08-22",
+      "maxCtxTokens": 1000000,
+      "maxOutputTokens": 384000,
+      "modalities": {
+        "input": [
+          "text"
+        ],
+        "output": [
+          "text"
+        ]
+      },
+      "name": "deepseek-v4-pro-0813 (CanopyWave)",
+      "price": {
+        "cacheRead": 0.044,
+        "cacheWrite": null,
+        "input": 1.32,
+        "output": 3.96
+      },
+      "releaseDate": "2026-08-13",
+      "tags": []
+    },
+    {
       "description": "October 17 update of DeepSeek V4.1 Flash with improved reasoning, coding, agentic tasks, and visual understanding",
       "firm": "llmgateway-providers",
       "flags": {
@@ -185369,6 +185442,44 @@
         "output": 3.4
       },
       "releaseDate": "2026-04-20",
+      "tags": []
+    },
+    {
+      "description": "Coding-focused Kimi model, stronger on long-horizon repo work with less overthinking",
+      "firm": "llmgateway-providers",
+      "flags": {
+        "attachment": true,
+        "audio": false,
+        "image": true,
+        "open_weights": true,
+        "reasoning": true,
+        "temperature": false,
+        "tool_call": true
+      },
+      "icon": "",
+      "id": "canopywave/kimi-k2.7-code",
+      "knowledge": "2025-01",
+      "lastUpdated": "2026-06-12",
+      "maxCtxTokens": 262144,
+      "maxOutputTokens": 262144,
+      "modalities": {
+        "input": [
+          "text",
+          "image",
+          "video"
+        ],
+        "output": [
+          "text"
+        ]
+      },
+      "name": "Kimi K2.7 Code (CanopyWave)",
+      "price": {
+        "cacheRead": 0.19,
+        "cacheWrite": null,
+        "input": 0.95,
+        "output": 4
+      },
+      "releaseDate": "2026-06-12",
       "tags": []
     },
     {
@@ -193728,6 +193839,42 @@
         "output": 0.6
       },
       "releaseDate": "2026-10-17",
+      "tags": []
+    },
+    {
+      "description": "Flagship GLM model for long-horizon coding, agents, and complex project delivery",
+      "firm": "llmgateway-providers",
+      "flags": {
+        "attachment": false,
+        "audio": false,
+        "image": false,
+        "open_weights": true,
+        "reasoning": true,
+        "temperature": true,
+        "tool_call": true
+      },
+      "icon": "",
+      "id": "reka-ai/glm-5.3",
+      "knowledge": null,
+      "lastUpdated": "2026-08-14",
+      "maxCtxTokens": 1048576,
+      "maxOutputTokens": 262144,
+      "modalities": {
+        "input": [
+          "text"
+        ],
+        "output": [
+          "text"
+        ]
+      },
+      "name": "GLM-5.3 (reka-ai)",
+      "price": {
+        "cacheRead": 0.135,
+        "cacheWrite": null,
+        "input": 0.45,
+        "output": 1.8
+      },
+      "releaseDate": "2026-08-14",
       "tags": []
     },
     {
@@ -216838,10 +216985,10 @@
       },
       "name": "GLM-5.2",
       "price": {
-        "cacheRead": 0.1955,
+        "cacheRead": 0.312,
         "cacheWrite": null,
-        "input": 1.19,
-        "output": 6
+        "input": 1.68,
+        "output": 5.28
       },
       "releaseDate": "2026-06-13",
       "tags": []
@@ -216874,10 +217021,10 @@
       },
       "name": "GLM-5.3",
       "price": {
-        "cacheRead": 0.1955,
+        "cacheRead": 0.312,
         "cacheWrite": null,
-        "input": 1.19,
-        "output": 6
+        "input": 1.68,
+        "output": 5.28
       },
       "releaseDate": "2026-08-14",
       "tags": []
@@ -216912,10 +217059,10 @@
       },
       "name": "GLM-5.3-Flash",
       "price": {
-        "cacheRead": 0.04,
+        "cacheRead": 0.036,
         "cacheWrite": null,
-        "input": 0.2,
-        "output": 0.7
+        "input": 0.18,
+        "output": 0.6
       },
       "releaseDate": "2026-08-26",
       "tags": []
@@ -220036,42 +220183,6 @@
         "output": 0.37
       },
       "releaseDate": "2026-06-23",
-      "tags": []
-    },
-    {
-      "description": "Celeris 1 is a diffusion language model built for ultra-low-latency classification, extraction, judging, query rewriting, and other short structured responses.",
-      "firm": "nano-gpt",
-      "flags": {
-        "attachment": false,
-        "audio": false,
-        "image": false,
-        "open_weights": false,
-        "reasoning": false,
-        "temperature": false,
-        "tool_call": false
-      },
-      "icon": "",
-      "id": "celeris-1",
-      "knowledge": null,
-      "lastUpdated": "2026-07-25",
-      "maxCtxTokens": 8192,
-      "maxOutputTokens": 8192,
-      "modalities": {
-        "input": [
-          "text"
-        ],
-        "output": [
-          "text"
-        ]
-      },
-      "name": "Celeris 1",
-      "price": {
-        "cacheRead": 1,
-        "cacheWrite": null,
-        "input": 2,
-        "output": 6
-      },
-      "releaseDate": "2026-07-25",
       "tags": []
     },
     {
@@ -224857,10 +224968,10 @@
       },
       "name": "Gemma 4 26B A4B Thinking",
       "price": {
-        "cacheRead": 0.046,
+        "cacheRead": 0.0375,
         "cacheWrite": null,
-        "input": 0.07,
-        "output": 0.24
+        "input": 0.0675,
+        "output": 0.225
       },
       "releaseDate": "2026-04-02",
       "tags": []
@@ -235401,43 +235512,6 @@
       "tags": []
     },
     {
-      "description": "Qwen3.5 27B Blossom V6.4 Derestricted is a community creative finetune for reasoning, multimodal chat, expressive writing, and roleplay.",
-      "firm": "nano-gpt",
-      "flags": {
-        "attachment": true,
-        "audio": false,
-        "image": true,
-        "open_weights": true,
-        "reasoning": true,
-        "temperature": false,
-        "tool_call": true
-      },
-      "icon": "",
-      "id": "Qwen3.5-27B-Blossom-V6.4-Derestricted",
-      "knowledge": null,
-      "lastUpdated": "2026-05-15",
-      "maxCtxTokens": 262144,
-      "maxOutputTokens": 262144,
-      "modalities": {
-        "input": [
-          "text",
-          "image"
-        ],
-        "output": [
-          "text"
-        ]
-      },
-      "name": "Qwen3.5 27B Blossom V6.4 Derestricted",
-      "price": {
-        "cacheRead": 0.153,
-        "cacheWrite": null,
-        "input": 0.306,
-        "output": 0.306
-      },
-      "releaseDate": "2026-05-15",
-      "tags": []
-    },
-    {
       "description": "Compact GPT model for low-latency assistance and high-volume workloads",
       "firm": "nano-gpt",
       "flags": {
@@ -237399,10 +237473,10 @@
       },
       "name": "Tencent Hy4 Preview",
       "price": {
-        "cacheRead": 0.0378,
+        "cacheRead": 0.042,
         "cacheWrite": null,
-        "input": 0.7506,
-        "output": 2.2509
+        "input": 0.834,
+        "output": 2.501
       },
       "releaseDate": "2026-08-28",
       "tags": []
@@ -238404,7 +238478,7 @@
       "firm": "nano-gpt",
       "flags": {
         "attachment": true,
-        "audio": true,
+        "audio": false,
         "image": true,
         "open_weights": true,
         "reasoning": true,
@@ -238415,14 +238489,12 @@
       "id": "xiaomi/mimo-v2.5",
       "knowledge": "2024-12",
       "lastUpdated": "2026-04-22",
-      "maxCtxTokens": 1048576,
+      "maxCtxTokens": 1000000,
       "maxOutputTokens": 131072,
       "modalities": {
         "input": [
           "text",
-          "image",
-          "audio",
-          "video"
+          "image"
         ],
         "output": [
           "text"
@@ -238515,7 +238587,7 @@
       "firm": "nano-gpt",
       "flags": {
         "attachment": true,
-        "audio": true,
+        "audio": false,
         "image": true,
         "open_weights": true,
         "reasoning": true,
@@ -238526,14 +238598,12 @@
       "id": "xiaomi/mimo-v2.5:thinking",
       "knowledge": "2024-12",
       "lastUpdated": "2026-04-22",
-      "maxCtxTokens": 1048576,
+      "maxCtxTokens": 1000000,
       "maxOutputTokens": 131072,
       "modalities": {
         "input": [
           "text",
-          "image",
-          "audio",
-          "video"
+          "image"
         ],
         "output": [
           "text"
@@ -240222,8 +240292,8 @@
       "price": {
         "cacheRead": 0.3,
         "cacheWrite": null,
-        "input": 1.25,
-        "output": 2.25
+        "input": 0.55,
+        "output": 1.4
       },
       "releaseDate": "2026-09-26",
       "tags": []
@@ -252652,8 +252722,8 @@
       "price": {
         "cacheRead": null,
         "cacheWrite": null,
-        "input": 0.0975,
-        "output": 0.325
+        "input": 0.0845,
+        "output": 0.312
       },
       "releaseDate": "2026-08-26",
       "tags": []
@@ -269426,10 +269496,10 @@
       },
       "name": "Kimi Latest",
       "price": {
-        "cacheRead": 0.18,
+        "cacheRead": 0.14,
         "cacheWrite": null,
-        "input": 0.1824,
-        "output": 11.0055
+        "input": 0.1453,
+        "output": 12.2894
       },
       "releaseDate": "2026-04-27",
       "tags": []
@@ -271347,7 +271417,7 @@
       "knowledge": null,
       "lastUpdated": "2025-05-28",
       "maxCtxTokens": 163840,
-      "maxOutputTokens": 32000,
+      "maxOutputTokens": 32768,
       "modalities": {
         "input": [
           "text"
@@ -271360,8 +271430,8 @@
       "price": {
         "cacheRead": null,
         "cacheWrite": null,
-        "input": 0.571,
-        "output": 2.286
+        "input": 0.5,
+        "output": 2.18
       },
       "releaseDate": "2025-05-28",
       "tags": []
@@ -271541,7 +271611,7 @@
         "cacheRead": 0.035,
         "cacheWrite": null,
         "input": 0.0456,
-        "output": 0.3
+        "output": 0.27
       },
       "releaseDate": "2026-07-31",
       "tags": []
@@ -271611,10 +271681,10 @@
       },
       "name": "DeepSeek V4 Pro",
       "price": {
-        "cacheRead": 0.21,
+        "cacheRead": 0.2,
         "cacheWrite": null,
-        "input": 0.70487,
-        "output": 1.544
+        "input": 0.89,
+        "output": 1.5069
       },
       "releaseDate": "2026-04-24",
       "tags": []
@@ -271672,7 +271742,7 @@
       "knowledge": "2025-05",
       "lastUpdated": "2026-09-10",
       "maxCtxTokens": 1048576,
-      "maxOutputTokens": 393216,
+      "maxOutputTokens": 384000,
       "modalities": {
         "input": [
           "text",
@@ -271684,10 +271754,10 @@
       },
       "name": "DeepSeek V4.1 Flash",
       "price": {
-        "cacheRead": 0.001014,
+        "cacheRead": 0.018,
         "cacheWrite": null,
-        "input": 0.0507,
-        "output": 0.2028
+        "input": 0.051,
+        "output": 0.567
       },
       "releaseDate": "2026-09-10",
       "tags": []
@@ -272994,7 +273064,7 @@
       "knowledge": "2024-08",
       "lastUpdated": "2025-03-12",
       "maxCtxTokens": 131072,
-      "maxOutputTokens": 16384,
+      "maxOutputTokens": 131072,
       "modalities": {
         "input": [
           "text",
@@ -273006,10 +273076,10 @@
       },
       "name": "Gemma 3 4B IT",
       "price": {
-        "cacheRead": null,
+        "cacheRead": 0.02,
         "cacheWrite": null,
-        "input": 0.05,
-        "output": 0.1
+        "input": 0.04,
+        "output": 0.05
       },
       "releaseDate": "2025-03-12",
       "tags": []
@@ -273044,10 +273114,10 @@
       },
       "name": "Gemma 4 26B A4B IT",
       "price": {
-        "cacheRead": 0.05,
+        "cacheRead": 0.0375,
         "cacheWrite": null,
-        "input": 0.09,
-        "output": 0.3
+        "input": 0.0675,
+        "output": 0.225
       },
       "releaseDate": "2026-04-02",
       "tags": []
@@ -276117,9 +276187,9 @@
       },
       "name": "Nemotron 3.5 Lightning 30B A3B",
       "price": {
-        "cacheRead": 0.04,
+        "cacheRead": 0.01,
         "cacheWrite": null,
-        "input": 0.07,
+        "input": 0.05,
         "output": 0.2
       },
       "releaseDate": "2026-08-11",
@@ -276178,7 +276248,7 @@
       "knowledge": null,
       "lastUpdated": "2026-10-15",
       "maxCtxTokens": 1048576,
-      "maxOutputTokens": 8192,
+      "maxOutputTokens": 131072,
       "modalities": {
         "input": [
           "text",
@@ -276194,7 +276264,7 @@
         "cacheRead": 0.02,
         "cacheWrite": null,
         "input": 0.15,
-        "output": 0.47
+        "output": 0.45
       },
       "releaseDate": "2026-10-15",
       "tags": []
@@ -279355,42 +279425,6 @@
       "tags": []
     },
     {
-      "description": "Qwen reasoning model for deliberate problem solving, math, and coding",
-      "firm": "openrouter",
-      "flags": {
-        "attachment": false,
-        "audio": false,
-        "image": false,
-        "open_weights": true,
-        "reasoning": true,
-        "temperature": true,
-        "tool_call": true
-      },
-      "icon": "lb:openrouter-color",
-      "id": "qwen/qwen3-235b-a22b-thinking-2507",
-      "knowledge": null,
-      "lastUpdated": "2025-07-25",
-      "maxCtxTokens": 128000,
-      "maxOutputTokens": 16384,
-      "modalities": {
-        "input": [
-          "text"
-        ],
-        "output": [
-          "text"
-        ]
-      },
-      "name": "Qwen3 235B-A22B Thinking 2507",
-      "price": {
-        "cacheRead": null,
-        "cacheWrite": null,
-        "input": 0.45,
-        "output": 3.5
-      },
-      "releaseDate": "2025-07-25",
-      "tags": []
-    },
-    {
       "description": "Qwen instruction model for multilingual chat, reasoning, and tool use",
       "firm": "openrouter",
       "flags": {
@@ -279958,7 +279992,7 @@
       "knowledge": null,
       "lastUpdated": "2026-02-23",
       "maxCtxTokens": 262144,
-      "maxOutputTokens": 65536,
+      "maxOutputTokens": 40960,
       "modalities": {
         "input": [
           "text",
@@ -279971,10 +280005,10 @@
       },
       "name": "Qwen3.5 9B",
       "price": {
-        "cacheRead": null,
+        "cacheRead": 0.0765,
         "cacheWrite": null,
-        "input": 0.1,
-        "output": 0.25
+        "input": 0.085,
+        "output": 0.125
       },
       "releaseDate": "2026-02-23",
       "tags": []
@@ -280373,7 +280407,7 @@
       "knowledge": null,
       "lastUpdated": "2026-08-12",
       "maxCtxTokens": 1000000,
-      "maxOutputTokens": 65536,
+      "maxOutputTokens": 131072,
       "modalities": {
         "input": [
           "text"
@@ -281755,8 +281789,8 @@
       "price": {
         "cacheRead": 0.03,
         "cacheWrite": null,
-        "input": 0.3,
-        "output": 1
+        "input": 0.15,
+        "output": 0.5
       },
       "releaseDate": "2026-11-05",
       "tags": []
@@ -301433,6 +301467,45 @@
         "output": 10
       },
       "releaseDate": "2026-11-10",
+      "tags": []
+    },
+    {
+      "description": "Google's Gemini 4 model for everyday coding and agentic workflows, with four thinking levels and a 1M-token context window",
+      "firm": "prime",
+      "flags": {
+        "attachment": true,
+        "audio": true,
+        "image": true,
+        "open_weights": false,
+        "reasoning": true,
+        "temperature": true,
+        "tool_call": true
+      },
+      "icon": "",
+      "id": "google/gemini-4-hydrogen",
+      "knowledge": "2026-03",
+      "lastUpdated": "2026-11-12",
+      "maxCtxTokens": 1048576,
+      "maxOutputTokens": 943718,
+      "modalities": {
+        "input": [
+          "audio",
+          "image",
+          "text",
+          "video"
+        ],
+        "output": [
+          "text"
+        ]
+      },
+      "name": "Gemini 4 Hydrogen",
+      "price": {
+        "cacheRead": null,
+        "cacheWrite": null,
+        "input": 1.5,
+        "output": 7.5
+      },
+      "releaseDate": "2026-11-12",
       "tags": []
     },
     {
@@ -347447,6 +347520,42 @@
       "tags": []
     },
     {
+      "description": "Nemotron model for efficient reasoning, coding, and specialized AI agents",
+      "firm": "venice",
+      "flags": {
+        "attachment": false,
+        "audio": false,
+        "image": false,
+        "open_weights": true,
+        "reasoning": true,
+        "temperature": false,
+        "tool_call": true
+      },
+      "icon": "lb:veniceai",
+      "id": "nvidia-nemotron-3-5-lightning-30b-a3b",
+      "knowledge": null,
+      "lastUpdated": "2026-11-28",
+      "maxCtxTokens": 262144,
+      "maxOutputTokens": 32768,
+      "modalities": {
+        "input": [
+          "text"
+        ],
+        "output": [
+          "text"
+        ]
+      },
+      "name": "NVIDIA Nemotron 3.5 Lightning 30B",
+      "price": {
+        "cacheRead": null,
+        "cacheWrite": null,
+        "input": 0.075,
+        "output": 0.3
+      },
+      "releaseDate": "2026-11-28",
+      "tags": []
+    },
+    {
       "description": "Nemotron multimodal model for visual reasoning and agentic AI workflows",
       "firm": "venice",
       "flags": {
@@ -348587,43 +348696,6 @@
         "output": 0.3
       },
       "releaseDate": "2025-08-05",
-      "tags": []
-    },
-    {
-      "description": "Blended multimodal model that runs multiple language models in parallel and returns a synthesized answer",
-      "firm": "venice",
-      "flags": {
-        "attachment": true,
-        "audio": false,
-        "image": true,
-        "open_weights": false,
-        "reasoning": false,
-        "temperature": true,
-        "tool_call": true
-      },
-      "icon": "lb:veniceai",
-      "id": "pareto",
-      "knowledge": null,
-      "lastUpdated": "2026-09-17",
-      "maxCtxTokens": 1000000,
-      "maxOutputTokens": 32768,
-      "modalities": {
-        "input": [
-          "text",
-          "image"
-        ],
-        "output": [
-          "text"
-        ]
-      },
-      "name": "Pareto",
-      "price": {
-        "cacheRead": 0.0375,
-        "cacheWrite": null,
-        "input": 1,
-        "output": 4
-      },
-      "releaseDate": "2026-09-17",
       "tags": []
     },
     {
@@ -355537,10 +355609,10 @@
       },
       "name": "Ampersand v0.1",
       "price": {
-        "cacheRead": null,
+        "cacheRead": 0.2,
         "cacheWrite": null,
-        "input": null,
-        "output": null
+        "input": 1,
+        "output": 5.2
       },
       "releaseDate": "2026-11-06",
       "tags": []

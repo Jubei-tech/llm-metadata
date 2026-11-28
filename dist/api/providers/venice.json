@@ -2959,6 +2959,7 @@
         }
       ],
       "release_date": "2026-02-12",
+      "status": "deprecated",
       "temperature": true,
       "tool_call": true
     },
@@ -3001,6 +3002,7 @@
         }
       ],
       "release_date": "2026-03-18",
+      "status": "deprecated",
       "temperature": true,
       "tool_call": true
     },
@@ -3193,6 +3195,46 @@
       "structured_output": true,
       "tool_call": true
     },
+    "nvidia-nemotron-3-5-lightning-30b-a3b": {
+      "attachment": false,
+      "cost": {
+        "input": 0.075,
+        "output": 0.3
+      },
+      "description": "Nemotron model for efficient reasoning, coding, and specialized AI agents",
+      "family": "nemotron",
+      "id": "nvidia-nemotron-3-5-lightning-30b-a3b",
+      "last_updated": "2026-11-28",
+      "limit": {
+        "context": 262144,
+        "output": 32768
+      },
+      "modalities": {
+        "input": [
+          "text"
+        ],
+        "output": [
+          "text"
+        ]
+      },
+      "name": "NVIDIA Nemotron 3.5 Lightning 30B",
+      "open_weights": true,
+      "reasoning": true,
+      "reasoning_options": [
+        {
+          "type": "effort",
+          "values": [
+            "none",
+            "low",
+            "medium",
+            "high"
+          ]
+        }
+      ],
+      "release_date": "2026-11-28",
+      "structured_output": true,
+      "tool_call": true
+    },
     "nvidia-nemotron-3-5-super-vl-120b-a12b": {
       "attachment": true,
       "canonical_model_id": "nvidia/nemotron-3.5-super-vl-120b-a12b",
@@ -3256,6 +3298,7 @@
       "open_weights": true,
       "reasoning": false,
       "release_date": "2025-12-15",
+      "status": "deprecated",
       "structured_output": true,
       "temperature": true,
       "tool_call": true
@@ -4953,39 +4996,6 @@
       "temperature": true,
       "tool_call": true
     },
-    "pareto": {
-      "attachment": true,
-      "canonical_model_id": "unbiased/pareto",
-      "cost": {
-        "cache_read": 0.0375,
-        "input": 1,
-        "output": 4
-      },
-      "description": "Blended multimodal model that runs multiple language models in parallel and returns a synthesized answer",
-      "family": "pareto",
-      "id": "pareto",
-      "last_updated": "2026-09-17",
-      "limit": {
-        "context": 1000000,
-        "output": 32768
-      },
-      "modalities": {
-        "input": [
-          "text",
-          "image"
-        ],
-        "output": [
-          "text"
-        ]
-      },
-      "name": "Pareto",
-      "open_weights": false,
-      "reasoning": false,
-      "release_date": "2026-09-17",
-      "status": "deprecated",
-      "temperature": true,
-      "tool_call": true
-    },
     "qwen-3-6-plus": {
       "attachment": true,
       "cost": {
@@ -5390,6 +5400,7 @@
         }
       ],
       "release_date": "2025-07-25",
+      "status": "deprecated",
       "structured_output": true,
       "temperature": true,
       "tool_call": true
@@ -5790,6 +5801,7 @@
         }
       ],
       "release_date": "2026-04-22",
+      "status": "deprecated",
       "structured_output": true,
       "temperature": true,
       "tool_call": true
