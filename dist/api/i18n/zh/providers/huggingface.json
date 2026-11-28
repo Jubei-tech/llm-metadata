@@ -424,15 +424,15 @@
       "attachment": false,
       "canonical_model_id": "alibaba/qwen3-235b-a22b-instruct-2507",
       "cost": {
-        "input": 0.14,
-        "output": 0.8
+        "input": 0.15,
+        "output": 0.75
       },
       "description": "Qwen instruction model for multilingual chat, reasoning, and tool use",
       "family": "qwen",
       "id": "Qwen/Qwen3-235B-A22B-Instruct-2507",
       "last_updated": "2025-07-21",
       "limit": {
-        "context": 131072,
+        "context": 262144,
         "output": 16384
       },
       "modalities": {
@@ -2011,8 +2011,8 @@
       "attachment": false,
       "canonical_model_id": "deepseek/deepseek-v4-pro",
       "cost": {
-        "input": 0.888188,
-        "output": 1.5082
+        "input": 0.71501,
+        "output": 1.5228
       },
       "description": "Open MoE flagship with million-token context for coding and long agent runs",
       "family": "deepseek-pro",
@@ -2759,8 +2759,8 @@
       "attachment": false,
       "canonical_model_id": "meta/llama-3.3-70b-instruct",
       "cost": {
-        "input": 0.22,
-        "output": 0.5
+        "input": 0.1,
+        "output": 0.32
       },
       "description": "Popular open Llama workhorse for multilingual chat, coding, and self-hosting",
       "family": "llama",
@@ -3909,8 +3909,8 @@
       "attachment": false,
       "canonical_model_id": "tencent/hy4-preview",
       "cost": {
-        "input": 0.834,
-        "output": 2.501
+        "input": 1.0425,
+        "output": 3.12625
       },
       "description": "Tencent Hy reasoning model for coding, instruction following, and agent tasks",
       "family": "hy",

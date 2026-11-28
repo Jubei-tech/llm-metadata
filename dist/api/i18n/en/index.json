@@ -7463,6 +7463,50 @@
         "reasoning": true,
         "tool_call": true
       },
+      "id": "mindlab/macaron-v1-tall",
+      "name": "Macaron V1 Tall",
+      "providerId": "alibaba",
+      "updated": "2026-07-21"
+    },
+    {
+      "flags": {
+        "attachment": true,
+        "reasoning": true,
+        "tool_call": true
+      },
+      "id": "mindlab/macaron-v1.1-coding-venti",
+      "name": "Macaron V1.1 Coding Venti",
+      "providerId": "alibaba",
+      "updated": "2026-09-22"
+    },
+    {
+      "flags": {
+        "attachment": false,
+        "reasoning": true,
+        "tool_call": true
+      },
+      "id": "mindlab/macaron-v1.1-venti",
+      "name": "Macaron V1.1 Venti",
+      "providerId": "alibaba",
+      "updated": "2026-09-22"
+    },
+    {
+      "flags": {
+        "attachment": true,
+        "reasoning": true,
+        "tool_call": true
+      },
+      "id": "mindlab/macaron-v1.1-venti-pro",
+      "name": "Macaron V1.1 Venti Pro",
+      "providerId": "alibaba",
+      "updated": "2026-09-22"
+    },
+    {
+      "flags": {
+        "attachment": false,
+        "reasoning": true,
+        "tool_call": true
+      },
       "id": "qwen-flash",
       "name": "Qwen Flash",
       "providerId": "alibaba",
@@ -30412,17 +30456,6 @@
     },
     {
       "flags": {
-        "attachment": false,
-        "reasoning": true,
-        "tool_call": true
-      },
-      "id": "o3-mini",
-      "name": "o3-mini",
-      "providerId": "edenai",
-      "updated": "2025-01-29"
-    },
-    {
-      "flags": {
         "attachment": true,
         "reasoning": true,
         "tool_call": true
@@ -35395,25 +35428,14 @@
     },
     {
       "flags": {
-        "attachment": false,
+        "attachment": true,
         "reasoning": true,
         "tool_call": true
       },
-      "id": "deepseek-ai/deepseek-v3.1-maas",
-      "name": "DeepSeek V3.1",
+      "id": "deepseek-ai/deepseek-v4.1-flash-1017-maas",
+      "name": "DeepSeek V4.1 Flash 1017",
       "providerId": "google-vertex",
-      "updated": "2025-08-28"
-    },
-    {
-      "flags": {
-        "attachment": false,
-        "reasoning": true,
-        "tool_call": true
-      },
-      "id": "deepseek-ai/deepseek-v3.2-maas",
-      "name": "DeepSeek V3.2",
-      "providerId": "google-vertex",
-      "updated": "2026-04-04"
+      "updated": "2026-10-17"
     },
     {
       "flags": {
@@ -35692,17 +35714,6 @@
     },
     {
       "flags": {
-        "attachment": false,
-        "reasoning": false,
-        "tool_call": true
-      },
-      "id": "meta/llama-3.3-70b-instruct-maas",
-      "name": "Llama 3.3 70B Instruct",
-      "providerId": "google-vertex",
-      "updated": "2025-04-29"
-    },
-    {
-      "flags": {
         "attachment": true,
         "reasoning": false,
         "tool_call": true
@@ -35751,43 +35762,10 @@
         "reasoning": true,
         "tool_call": true
       },
-      "id": "moonshotai/kimi-k2-thinking-maas",
-      "name": "Kimi K2 Thinking",
-      "providerId": "google-vertex",
-      "updated": "2025-11-13"
-    },
-    {
-      "flags": {
-        "attachment": false,
-        "reasoning": true,
-        "tool_call": true
-      },
       "id": "openai/gpt-oss-120b-maas",
       "name": "GPT OSS 120B",
       "providerId": "google-vertex",
       "updated": "2025-08-05"
-    },
-    {
-      "flags": {
-        "attachment": false,
-        "reasoning": true,
-        "tool_call": true
-      },
-      "id": "openai/gpt-oss-20b-maas",
-      "name": "GPT OSS 20B",
-      "providerId": "google-vertex",
-      "updated": "2025-08-05"
-    },
-    {
-      "flags": {
-        "attachment": false,
-        "reasoning": false,
-        "tool_call": true
-      },
-      "id": "qwen/qwen3-235b-a22b-instruct-2507-maas",
-      "name": "Qwen3 235B A22B Instruct",
-      "providerId": "google-vertex",
-      "updated": "2025-08-13"
     },
     {
       "flags": {
@@ -35865,28 +35843,6 @@
       "name": "Grok 4.7",
       "providerId": "google-vertex",
       "updated": "2026-09-21"
-    },
-    {
-      "flags": {
-        "attachment": false,
-        "reasoning": true,
-        "tool_call": true
-      },
-      "id": "zai-org/glm-4.7-maas",
-      "name": "GLM-4.7",
-      "providerId": "google-vertex",
-      "updated": "2026-01-06"
-    },
-    {
-      "flags": {
-        "attachment": false,
-        "reasoning": true,
-        "tool_call": true
-      },
-      "id": "zai-org/glm-5-maas",
-      "name": "GLM-5",
-      "providerId": "google-vertex",
-      "updated": "2026-02-12"
     },
     {
       "flags": {
@@ -45904,6 +45860,17 @@
         "reasoning": true,
         "tool_call": true
       },
+      "id": "inclusionai/ling-3.2-flash",
+      "name": "inclusionAI: Ling 3.2 Flash",
+      "providerId": "kilo",
+      "updated": "2026-11-05"
+    },
+    {
+      "flags": {
+        "attachment": true,
+        "reasoning": true,
+        "tool_call": true
+      },
       "id": "inclusionai/lingsante-3.1-air-vl",
       "name": "inclusionAI: LingSante 3.1 Air VL",
       "providerId": "kilo",
@@ -52027,17 +51994,6 @@
     },
     {
       "flags": {
-        "attachment": false,
-        "reasoning": false,
-        "tool_call": true
-      },
-      "id": "llama-3.3-70b-instruct",
-      "name": "Llama-3.3-70B-Instruct",
-      "providerId": "llmgateway",
-      "updated": "2024-12-06"
-    },
-    {
-      "flags": {
         "attachment": true,
         "reasoning": false,
         "tool_call": false
@@ -56317,28 +56273,6 @@
     },
     {
       "flags": {
-        "attachment": false,
-        "reasoning": false,
-        "tool_call": true
-      },
-      "id": "novita/gemma-4-26b-a4b-it",
-      "name": "Gemma 4 26B A4B IT (NovitaAI)",
-      "providerId": "llmgateway-providers",
-      "updated": "2026-04-02"
-    },
-    {
-      "flags": {
-        "attachment": false,
-        "reasoning": false,
-        "tool_call": true
-      },
-      "id": "novita/gemma-4-31b-it",
-      "name": "Gemma 4 31B IT (NovitaAI)",
-      "providerId": "llmgateway-providers",
-      "updated": "2026-04-02"
-    },
-    {
-      "flags": {
         "attachment": true,
         "reasoning": true,
         "tool_call": true
@@ -56523,17 +56457,6 @@
       "name": "Ling 3.1 Flash (NovitaAI)",
       "providerId": "llmgateway-providers",
       "updated": "2026-09-29"
-    },
-    {
-      "flags": {
-        "attachment": false,
-        "reasoning": false,
-        "tool_call": true
-      },
-      "id": "novita/llama-3.3-70b-instruct",
-      "name": "Llama 3.3 70B Instruct (NovitaAI)",
-      "providerId": "llmgateway-providers",
-      "updated": "2024-12-06"
     },
     {
       "flags": {
@@ -66650,6 +66573,17 @@
         "reasoning": true,
         "tool_call": true
       },
+      "id": "inclusionai/ling-3.2-flash",
+      "name": "Ling 3.2 Flash",
+      "providerId": "nano-gpt",
+      "updated": "2026-11-05"
+    },
+    {
+      "flags": {
+        "attachment": true,
+        "reasoning": true,
+        "tool_call": true
+      },
       "id": "inclusionai/lingsante-3.1-air-vl",
       "name": "LingSante 3.1 Air VL",
       "providerId": "nano-gpt",
@@ -67457,17 +67391,6 @@
       "name": "Moondream 3.1 9B A2B",
       "providerId": "nano-gpt",
       "updated": "2026-10-16"
-    },
-    {
-      "flags": {
-        "attachment": false,
-        "reasoning": true,
-        "tool_call": true
-      },
-      "id": "moonshotai/kimi-k2-thinking",
-      "name": "Kimi K2 Thinking",
-      "providerId": "nano-gpt",
-      "updated": "2025-11-06"
     },
     {
       "flags": {
@@ -69536,17 +69459,6 @@
       "name": "Qwen3.5 27B Claude 4.6 Opus Reasoning Distilled Derestricted Lite",
       "providerId": "nano-gpt",
       "updated": "2026-05-15"
-    },
-    {
-      "flags": {
-        "attachment": true,
-        "reasoning": true,
-        "tool_call": true
-      },
-      "id": "Qwen3.5-27B-Queen-Derestricted",
-      "name": "Qwen3.5 27B Queen Derestricted",
-      "providerId": "nano-gpt",
-      "updated": "2026-04-30"
     },
     {
       "flags": {
@@ -91213,6 +91125,17 @@
         "reasoning": true,
         "tool_call": true
       },
+      "id": "claude-fable-5.2",
+      "name": "Claude Fable 5.2",
+      "providerId": "requesty",
+      "updated": "2026-11-09"
+    },
+    {
+      "flags": {
+        "attachment": true,
+        "reasoning": true,
+        "tool_call": true
+      },
       "id": "claude-fable-5@eu",
       "name": "Claude Fable 5 (EU)",
       "providerId": "requesty",
@@ -92489,6 +92412,28 @@
         "reasoning": true,
         "tool_call": true
       },
+      "id": "hy4",
+      "name": "Hy4",
+      "providerId": "requesty",
+      "updated": "2026-11-04"
+    },
+    {
+      "flags": {
+        "attachment": true,
+        "reasoning": true,
+        "tool_call": true
+      },
+      "id": "hy4-flash",
+      "name": "Hy4 flash",
+      "providerId": "requesty",
+      "updated": "2026-11-16"
+    },
+    {
+      "flags": {
+        "attachment": true,
+        "reasoning": true,
+        "tool_call": true
+      },
       "id": "inkling",
       "name": "Inkling",
       "providerId": "requesty",
@@ -93043,6 +92988,17 @@
       "name": "Qwen3.8 Max",
       "providerId": "requesty",
       "updated": "2026-08-03"
+    },
+    {
+      "flags": {
+        "attachment": true,
+        "reasoning": true,
+        "tool_call": true
+      },
+      "id": "qwen4-max",
+      "name": "Qwen4 Max",
+      "providerId": "requesty",
+      "updated": "2026-11-16"
     },
     {
       "flags": {
@@ -98740,6 +98696,149 @@
       "id": "minimax-m3.1-flash",
       "name": "MiniMax-M3.1-Flash",
       "providerId": "tencent-token-plan",
+      "updated": "2026-10-19"
+    },
+    {
+      "flags": {
+        "attachment": true,
+        "reasoning": true,
+        "tool_call": true
+      },
+      "id": "deepseek/deepseek-flash",
+      "name": "DeepSeek V4.1 Flash 1017",
+      "providerId": "tencent-token-plan-intl",
+      "updated": "2026-10-17"
+    },
+    {
+      "flags": {
+        "attachment": false,
+        "reasoning": true,
+        "tool_call": true
+      },
+      "id": "deepseek/deepseek-v4-pro",
+      "name": "DeepSeek V4 Pro 0813",
+      "providerId": "tencent-token-plan-intl",
+      "updated": "2026-08-22"
+    },
+    {
+      "flags": {
+        "attachment": false,
+        "reasoning": true,
+        "tool_call": true
+      },
+      "id": "glm-5.2",
+      "name": "GLM-5.2",
+      "providerId": "tencent-token-plan-intl",
+      "updated": "2026-06-13"
+    },
+    {
+      "flags": {
+        "attachment": true,
+        "reasoning": true,
+        "tool_call": true
+      },
+      "id": "glm-5.3-flash",
+      "name": "GLM-5.3-Flash",
+      "providerId": "tencent-token-plan-intl",
+      "updated": "2026-08-26"
+    },
+    {
+      "flags": {
+        "attachment": false,
+        "reasoning": true,
+        "tool_call": true
+      },
+      "id": "glm-5.4",
+      "name": "GLM-5.4",
+      "providerId": "tencent-token-plan-intl",
+      "updated": "2026-11-23"
+    },
+    {
+      "flags": {
+        "attachment": true,
+        "reasoning": true,
+        "tool_call": true
+      },
+      "id": "hy4",
+      "name": "Hy4",
+      "providerId": "tencent-token-plan-intl",
+      "updated": "2026-11-04"
+    },
+    {
+      "flags": {
+        "attachment": true,
+        "reasoning": true,
+        "tool_call": true
+      },
+      "id": "hy4-flash",
+      "name": "Hy4 flash",
+      "providerId": "tencent-token-plan-intl",
+      "updated": "2026-11-16"
+    },
+    {
+      "flags": {
+        "attachment": true,
+        "reasoning": true,
+        "tool_call": true
+      },
+      "id": "kimi-k2.6",
+      "name": "Kimi K2.6",
+      "providerId": "tencent-token-plan-intl",
+      "updated": "2026-04-20"
+    },
+    {
+      "flags": {
+        "attachment": true,
+        "reasoning": true,
+        "tool_call": true
+      },
+      "id": "kimi-k3",
+      "name": "Kimi K3",
+      "providerId": "tencent-token-plan-intl",
+      "updated": "2026-07-16"
+    },
+    {
+      "flags": {
+        "attachment": true,
+        "reasoning": true,
+        "tool_call": true
+      },
+      "id": "kimi-k3.1-pro",
+      "name": "Kimi K3.1 Pro",
+      "providerId": "tencent-token-plan-intl",
+      "updated": "2026-10-23"
+    },
+    {
+      "flags": {
+        "attachment": true,
+        "reasoning": true,
+        "tool_call": true
+      },
+      "id": "mimo-v2.6-flash",
+      "name": "MiMo-V2.6-Flash",
+      "providerId": "tencent-token-plan-intl",
+      "updated": "2026-09-22"
+    },
+    {
+      "flags": {
+        "attachment": true,
+        "reasoning": true,
+        "tool_call": true
+      },
+      "id": "minimax-m3",
+      "name": "MiniMax-M3",
+      "providerId": "tencent-token-plan-intl",
+      "updated": "2026-06-01"
+    },
+    {
+      "flags": {
+        "attachment": true,
+        "reasoning": true,
+        "tool_call": true
+      },
+      "id": "minimax-m3.1-flash",
+      "name": "MiniMax-M3.1-Flash",
+      "providerId": "tencent-token-plan-intl",
       "updated": "2026-10-19"
     },
     {
@@ -107324,7 +107423,7 @@
     },
     {
       "flags": {
-        "attachment": false,
+        "attachment": true,
         "reasoning": false,
         "tool_call": false
       },
@@ -107335,7 +107434,7 @@
     },
     {
       "flags": {
-        "attachment": false,
+        "attachment": true,
         "reasoning": false,
         "tool_call": false
       },
@@ -112340,7 +112439,7 @@
       "iconURL": "https://models.dev/logos/alibaba.svg",
       "id": "alibaba",
       "lobeIcon": "Qwen.Color",
-      "modelCount": 35,
+      "modelCount": 39,
       "name": "Alibaba"
     },
     {
@@ -112841,7 +112940,7 @@
       "doc": "https://docs.edenai.co",
       "iconURL": "https://models.dev/logos/edenai.svg",
       "id": "edenai",
-      "modelCount": 257,
+      "modelCount": 256,
       "name": "Eden AI"
     },
     {
@@ -113010,7 +113109,7 @@
       "iconURL": "https://models.dev/logos/google-vertex.svg",
       "id": "google-vertex",
       "lobeIcon": "VertexAI.Color",
-      "modelCount": 65,
+      "modelCount": 58,
       "name": "Vertex"
     },
     {
@@ -113317,7 +113416,7 @@
       "doc": "https://kilo.ai",
       "iconURL": "https://models.dev/logos/kilo.svg",
       "id": "kilo",
-      "modelCount": 459,
+      "modelCount": 460,
       "name": "Kilo Gateway"
     },
     {
@@ -113419,7 +113518,7 @@
       "doc": "https://llmgateway.io/docs",
       "iconURL": "https://models.dev/logos/llmgateway.svg",
       "id": "llmgateway",
-      "modelCount": 219,
+      "modelCount": 218,
       "name": "DevPass (LLM Gateway)"
     },
     {
@@ -113427,7 +113526,7 @@
       "doc": "https://llmgateway.io/docs",
       "iconURL": "https://models.dev/logos/llmgateway-providers.svg",
       "id": "llmgateway-providers",
-      "modelCount": 519,
+      "modelCount": 516,
       "name": "LLM Gateway"
     },
     {
@@ -113719,7 +113818,7 @@
       "doc": "https://docs.nano-gpt.com",
       "iconURL": "https://models.dev/logos/nano-gpt.svg",
       "id": "nano-gpt",
-      "modelCount": 611,
+      "modelCount": 610,
       "name": "NanoGPT"
     },
     {
@@ -114096,7 +114195,7 @@
       "iconURL": "https://models.dev/logos/requesty.svg",
       "id": "requesty",
       "lobeIcon": "Requesty",
-      "modelCount": 175,
+      "modelCount": 179,
       "name": "Requesty"
     },
     {
@@ -114394,6 +114493,14 @@
       "id": "tencent-token-plan",
       "modelCount": 22,
       "name": "Tencent Token Plan"
+    },
+    {
+      "api": "https://tokenhub-intl.tencentcloudmaas.com/plan/v3",
+      "doc": "https://intl.cloud.tencent.com/document/product/1300/81315",
+      "iconURL": "https://models.dev/logos/tencent-token-plan-intl.svg",
+      "id": "tencent-token-plan-intl",
+      "modelCount": 13,
+      "name": "Tencent Token Plan (International)"
     },
     {
       "api": "https://tokenhub.tencentmaas.com/v1",

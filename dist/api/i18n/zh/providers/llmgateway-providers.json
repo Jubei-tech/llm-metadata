@@ -14342,69 +14342,6 @@
       "temperature": true,
       "tool_call": true
     },
-    "novita/gemma-4-26b-a4b-it": {
-      "attachment": false,
-      "canonical_model_id": "google/gemma-4-26b-a4b-it",
-      "cost": {
-        "input": 0.13,
-        "output": 0.4
-      },
-      "description": "Open Gemma instruction model for efficient chat and self-hosted deployments",
-      "family": "gemma",
-      "id": "novita/gemma-4-26b-a4b-it",
-      "last_updated": "2026-04-02",
-      "limit": {
-        "context": 262144,
-        "output": 32768
-      },
-      "modalities": {
-        "input": [
-          "text"
-        ],
-        "output": [
-          "text"
-        ]
-      },
-      "name": "Gemma 4 26B A4B IT (NovitaAI)",
-      "open_weights": true,
-      "reasoning": false,
-      "release_date": "2026-04-02",
-      "structured_output": false,
-      "temperature": true,
-      "tool_call": true
-    },
-    "novita/gemma-4-31b-it": {
-      "attachment": false,
-      "canonical_model_id": "google/gemma-4-31b-it",
-      "cost": {
-        "input": 0.14,
-        "output": 0.4
-      },
-      "description": "Largest Gemma 4 instruction model for open, self-hosted chat and reasoning",
-      "family": "gemma",
-      "id": "novita/gemma-4-31b-it",
-      "knowledge": "2025-01",
-      "last_updated": "2026-04-02",
-      "limit": {
-        "context": 262144,
-        "output": 32768
-      },
-      "modalities": {
-        "input": [
-          "text"
-        ],
-        "output": [
-          "text"
-        ]
-      },
-      "name": "Gemma 4 31B IT (NovitaAI)",
-      "open_weights": true,
-      "reasoning": false,
-      "release_date": "2026-04-02",
-      "structured_output": false,
-      "temperature": true,
-      "tool_call": true
-    },
     "novita/glm-4.5v": {
       "attachment": true,
       "canonical_model_id": "zhipuai/glm-4.5v",
@@ -15147,38 +15084,6 @@
         }
       ],
       "release_date": "2026-09-29",
-      "structured_output": false,
-      "temperature": true,
-      "tool_call": true
-    },
-    "novita/llama-3.3-70b-instruct": {
-      "attachment": false,
-      "canonical_model_id": "meta/llama-3.3-70b-instruct",
-      "cost": {
-        "input": 0.135,
-        "output": 0.4
-      },
-      "description": "Popular open Llama workhorse for multilingual chat, coding, and self-hosting",
-      "family": "llama",
-      "id": "novita/llama-3.3-70b-instruct",
-      "knowledge": "2023-12",
-      "last_updated": "2024-12-06",
-      "limit": {
-        "context": 131072,
-        "output": 120000
-      },
-      "modalities": {
-        "input": [
-          "text"
-        ],
-        "output": [
-          "text"
-        ]
-      },
-      "name": "Llama 3.3 70B Instruct (NovitaAI)",
-      "open_weights": true,
-      "reasoning": false,
-      "release_date": "2024-12-06",
       "structured_output": false,
       "temperature": true,
       "tool_call": true
